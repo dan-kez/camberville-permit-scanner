@@ -16,6 +16,11 @@ CAMBRIDGE_ALTERATION = "https://data.cambridgema.gov/resource/qu2z-8suj.json"
 CAMBRIDGE_NEW_CONSTRUCTION = "https://data.cambridgema.gov/resource/9qm7-wbdc.json"
 SOMERVILLE_PERMITS = "https://data.somervillema.gov/resource/nneb-s3f7.json"
 
+# Property database endpoints
+CAMBRIDGE_PROPERTY_DB = "https://data.cambridgema.gov/resource/eey2-rv59.json"
+SOMERVILLE_PROPERTY_DB = "https://services1.arcgis.com/hGdibHYSPO59RG1h/arcgis/rest/services/L3_TAXPAR_POLY_ASSESS_gdb/FeatureServer/0/query"
+SOMERVILLE_TOWN_ID = 274
+
 # Defaults
 DEFAULT_RADIUS_MI = 0.75
 LOOKBACK_DAYS = 180

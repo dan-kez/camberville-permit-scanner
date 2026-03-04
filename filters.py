@@ -3,6 +3,7 @@
 import math
 
 from config import COMPLETED_STATUSES, MINOR_KEYWORDS, SIGNIFICANT_KEYWORDS, SQUARES
+from fetch import normalize_address_key
 
 
 def haversine_mi(lat1, lng1, lat2, lng2):
@@ -41,12 +42,43 @@ def filter_proximity(permits, radius_mi):
     return result
 
 
-def is_residential_single_family(permit):
-    """Check if a permit is for a strictly detached single-family residential property."""
+def is_residential_single_family(permit, properties=None):
+    """Check if a permit is for a detached single-family home.
+    
+    Prioritizes information from the property database if available.
+    """
+    address = permit.get("address", "")
+    norm_addr = normalize_address_key(address)
+    source = permit.get("source", "")
+    
+    # 1. Use property database if available
+    if properties and norm_addr in properties:
+        p_info = properties[norm_addr]
+        p_class = p_info.get("property_class", "").upper()
+        
+        # Cambridge single-family classes
+        if "Cambridge" in source:
+            sngl_fam_classes = ["SNGL-FAM-RES", "SINGLE FAM W/AUXILIARY APT", "MXD SNGL-FAM-RES"]
+            if p_class in sngl_fam_classes:
+                return True
+            return False
+            
+        # Somerville
+        if "Somerville" in source:
+            # MassGIS USE_CODE 1010 is single-family
+            if p_class == "1010":
+                return True
+            # Special case: allow 2-family (1040) if permit description suggests conversion
+            if p_class == "1040":
+                desc = permit.get("description", "").lower()
+                if any(kw in desc for kw in ["to single family", "to 1 family", "to one family"]):
+                    return True
+            return False
+
+    # 2. Fallback to permit data (if property info missing or source is Somerville)
     prop_use = permit.get("property_use", "").lower()
     desc = permit.get("description", "").lower()
     dwelling = str(permit.get("dwelling_count", "")).strip()
-    source = permit.get("source", "")
 
     # Keywords that indicate multi-family or non-detached (exclude)
     exclude_kws = [
@@ -70,7 +102,7 @@ def is_residential_single_family(permit):
                     return True
         return False
 
-    # Cambridge: check property_use and dwelling_count
+    # Cambridge permit fallback
     if "single family" in prop_use or "single-family" in prop_use:
         return True
     if dwelling == "1":
@@ -87,9 +119,9 @@ def is_residential_single_family(permit):
     return False
 
 
-def filter_residential(permits):
+def filter_residential(permits, properties=None):
     """Keep only single-family residential permits."""
-    return [p for p in permits if is_residential_single_family(p)]
+    return [p for p in permits if is_residential_single_family(p, properties)]
 
 
 def score_significance(permit):
@@ -183,13 +215,13 @@ def score_address_completion(permits):
     return permits
 
 
-def apply_filters(permits, radius_mi, min_score, skip_residential=False, skip_significance=False, only_completing=False):
+def apply_filters(permits, properties, radius_mi, min_score, skip_residential=False, skip_significance=False, only_completing=False):
     """Run the full filter pipeline."""
     permits = filter_proximity(permits, radius_mi)
     print(f"  After proximity filter ({radius_mi} mi): {len(permits)} permits")
 
     if not skip_residential:
-        permits = filter_residential(permits)
+        permits = filter_residential(permits, properties)
         print(f"  After residential filter: {len(permits)} permits")
 
     permits = [score_significance(p) for p in permits]

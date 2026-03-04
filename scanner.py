@@ -6,7 +6,7 @@ import argparse
 
 from analyze import print_llm_report, run_llm_analysis, write_summaries
 from config import DEFAULT_MIN_SCORE, DEFAULT_RADIUS_MI
-from fetch import fetch_all
+from fetch import fetch_all, fetch_properties
 from filters import apply_filters
 from report import export_csv, print_table
 
@@ -45,7 +45,11 @@ def build_parser():
     )
     parser.add_argument(
         "--analyze-llm", nargs="?", type=int, const=0, default=None, metavar="MIN_SCORE",
-        help="Run claude -p on each summary for likelihood assessment (optionally only for addresses with score ≥ MIN_SCORE)",
+        help="Run LLM analysis on each summary (optionally only for addresses with score ≥ MIN_SCORE)",
+    )
+    parser.add_argument(
+        "--llm", choices=["opencode", "sonnet"], default="opencode",
+        help="Which LLM to use for analysis (default: opencode / ollama)",
     )
     return parser
 
@@ -65,10 +69,14 @@ def main():
     print("Fetching permits..." if not use_cache else "Loading permits (use --no-cache to refresh)...")
     permits = fetch_all(use_cache=use_cache)
     print(f"Total: {len(permits)}\n")
+    
+    print("Fetching property data...")
+    properties = fetch_properties(use_cache=use_cache)
 
     print("Filtering...")
     permits = apply_filters(
         permits,
+        properties,
         radius_mi=args.radius,
         min_score=args.min_score,
         skip_residential=args.all,
@@ -83,9 +91,9 @@ def main():
 
     if args.analyze or args.analyze_llm is not None:
         llm_min_score = args.analyze_llm if args.analyze_llm is not None else None
-        summary_files = write_summaries(permits, min_score=llm_min_score)
+        summary_files = write_summaries(permits, properties, min_score=llm_min_score)
         if args.analyze_llm is not None and summary_files:
-            results = run_llm_analysis(summary_files, permits)
+            results = run_llm_analysis(summary_files, permits, llm_type=args.llm)
             print_llm_report(results)
 
 

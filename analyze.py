@@ -4,7 +4,9 @@ import json
 import os
 import re
 import subprocess
+import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from fetch import normalize_address_key
 
 
 def normalize_address(addr):
@@ -31,12 +33,23 @@ def group_by_address(permits):
     return groups
 
 
-def _build_summary_record(address, permits):
+def _build_summary_record(address, permits, properties):
     """Build a structured JSON record for one address."""
     p0 = permits[0]
     total_cost = sum(p.get("cost", 0) for p in permits)
+    
+    # Create Google Maps URL
+    encoded_addr = urllib.parse.quote_plus(address)
+    google_maps_url = f"https://www.google.com/maps/search/?api=1&query={encoded_addr}"
+    
+    # Lookup property info from pre-fetched properties
+    norm_addr = normalize_address_key(address)
+    property_info = properties.get(norm_addr)
+    
     return {
         "address": address,
+        "google_maps_url": google_maps_url,
+        "property_info": property_info,
         "property_use": p0.get("property_use", ""),
         "nearest_square": p0.get("nearest_square", ""),
         "distance_mi": p0.get("distance_mi", 0),
@@ -67,7 +80,7 @@ def max_score_for_address(permits):
     return max((p.get("score", 0) for p in permits), default=0)
 
 
-def write_summaries(permits, output_dir="summaries", min_score=None):
+def write_summaries(permits, properties, output_dir="summaries", min_score=None):
     """Group permits by address and write JSON summary files.
 
     If min_score is set, only write summaries for addresses where at least one
@@ -82,7 +95,7 @@ def write_summaries(permits, output_dir="summaries", min_score=None):
         if min_score is not None and max_score_for_address(addr_permits) < min_score:
             skipped += 1
             continue
-        record = _build_summary_record(address, addr_permits)
+        record = _build_summary_record(address, addr_permits, properties)
         filename = sanitize_filename(address) + ".json"
         filepath = os.path.join(output_dir, filename)
         with open(filepath, "w") as f:
@@ -96,49 +109,118 @@ def write_summaries(permits, output_dir="summaries", min_score=None):
 
 
 LLM_PROMPT = (
-    "Given these building permits for a single-family home, assess the likelihood "
-    "that this property is being renovated for sale. Consider: scope of work, "
-    "cost, number of permits, whether work suggests cosmetic flip vs owner renovation.\n\n"
+    "Given these building permits and property assessment data for a single-family home, "
+    "assess the likelihood that this property is being renovated for sale. "
+    "Consider: scope of work, cost, number of permits, property type, bedrooms/baths, "
+    "purchase history (if available), and whether work suggests a cosmetic flip vs owner renovation.\n\n"
     "Respond with ONLY valid JSON in this exact format, no other text:\n"
     '{"likelihood": "low|medium|high", "reasoning": "one sentence explanation"}'
 )
 
 
 def _parse_llm_response(raw):
-    """Parse LLM JSON response, returning a dict with likelihood and reasoning."""
+    """Parse LLM JSON response, returning a dict with likelihood and reasoning.
+    
+    Robustly handles thinking or conversational filler by searching for the 
+    first '{' and last '}' if the initial parse fails.
+    """
     text = raw.strip()
-    # Strip markdown code fences if present
-    if text.startswith("```"):
-        lines = text.split("\n")
-        # Remove first line (```json) and last line (```)
-        lines = [l for l in lines if not l.strip().startswith("```")]
-        text = "\n".join(lines).strip()
+    
+    # Strip <thought> tags if present
+    text = re.sub(r"<thought>.*?</thought>", "", text, flags=re.DOTALL | re.IGNORECASE).strip()
+    
+    # Strip "Thinking... done thinking" style blocks
+    if "done thinking" in text.lower():
+        parts = re.split(r"done thinking", text, flags=re.IGNORECASE)
+        if len(parts) > 1:
+            text = parts[-1].strip()
+    
+    # Strip "Thinking..." at the start
+    if text.lower().startswith("thinking"):
+        start_json = text.find("{")
+        if start_json != -1:
+            if "```" in text:
+                pass 
+            else:
+                text = text[start_json:].strip()
+
+    # Strip markdown code fences
+    if "```" in text:
+        match = re.search(r"```(?:json)?\s*(.*?)\s*```", text, re.DOTALL | re.IGNORECASE)
+        if match:
+            text = match.group(1).strip()
+
+    # Try direct parse
     try:
         parsed = json.loads(text)
         return {
-            "likelihood": parsed.get("likelihood", "unknown"),
-            "reasoning": parsed.get("reasoning", ""),
+            "likelihood": str(parsed.get("likelihood", "unknown")).lower(),
+            "reasoning": str(parsed.get("reasoning", "")),
         }
     except (json.JSONDecodeError, TypeError):
-        return {"likelihood": "unknown", "reasoning": raw}
+        try:
+            start = text.find("{")
+            end = text.rfind("}")
+            if start != -1 and end != -1:
+                inner_text = text[start : end + 1]
+                parsed = json.loads(inner_text)
+                return {
+                    "likelihood": str(parsed.get("likelihood", "unknown")).lower(),
+                    "reasoning": str(parsed.get("reasoning", "")),
+                }
+        except (json.JSONDecodeError, TypeError):
+            pass
+
+    # Fallback for failed parse
+    likelihood = "unknown"
+    lower_text = text.lower()
+    if '"likelihood": "high"' in lower_text or '"likelihood":"high"' in lower_text: likelihood = "high"
+    elif '"likelihood": "medium"' in lower_text or '"likelihood":"medium"' in lower_text: likelihood = "medium"
+    elif '"likelihood": "low"' in lower_text or '"likelihood":"low"' in lower_text: likelihood = "low"
+    elif "high" in lower_text: likelihood = "high"
+    elif "medium" in lower_text: likelihood = "medium"
+    elif "low" in lower_text: likelihood = "low"
+    
+    reason_match = re.search(r'"reasoning":\s*"(.*?)"', text, re.DOTALL | re.IGNORECASE)
+    if reason_match:
+        reasoning = reason_match.group(1)
+    else:
+        reasoning = text
+        
+    if len(reasoning) > 200:
+        reasoning = reasoning[:197] + "..."
+        
+    return {"likelihood": likelihood, "reasoning": reasoning}
 
 
-def _analyze_one(address, filepath):
-    """Run claude -p on a single summary file. Returns (address, parsed_assessment)."""
+def _analyze_one(address, filepath, llm_type="opencode"):
+    """Run LLM on a single summary file. Returns (address, parsed_assessment)."""
     try:
         with open(filepath) as f:
+            content = f.read()
+
+        prompt = f"{LLM_PROMPT}\n\nDATA:\n{content}"
+
+        if llm_type == "sonnet":
             result = subprocess.run(
-                ["claude", "-p", "--model", "claude-sonnet-4-6", "--output-format", "text", LLM_PROMPT],
-                stdin=f,
+                ["claude", "-p", ".", prompt],
                 capture_output=True,
                 text=True,
                 timeout=120,
             )
+        else:
+            result = subprocess.run(
+                ["ollama", "run", "glm-4.7-flash:latest", prompt],
+                capture_output=True,
+                text=True,
+                timeout=120,
+            )
+
         if result.returncode == 0:
             return address, _parse_llm_response(result.stdout.strip())
         return address, {"likelihood": "error", "reasoning": result.stderr.strip()}
     except FileNotFoundError:
-        return address, {"likelihood": "error", "reasoning": "claude CLI not found"}
+        return address, {"likelihood": "error", "reasoning": f"{llm_type} CLI not found"}
     except subprocess.TimeoutExpired:
         return address, {"likelihood": "error", "reasoning": "timed out"}
 
@@ -155,20 +237,16 @@ def _write_assessment(summary_path, assessment, output_dir):
     return out_path
 
 
-def run_llm_analysis(summary_files, permits, max_workers=4, output_dir="summaries/llm_assessment_summary"):
-    """Run claude -p on each summary file with parallel execution.
-
-    Results are written to output_dir as copies of the summary JSON with an
-    added llm_assessment field. Original summary files are not modified.
-    """
+def run_llm_analysis(summary_files, permits, llm_type="opencode", max_workers=4, output_dir="summaries/llm_assessment_summary"):
+    """Run LLM analysis on each summary file with parallel execution."""
     results = []
     total = len(summary_files)
-    print(f"  Running LLM analysis on {total} addresses ({max_workers} parallel)...")
+    print(f"  Running LLM ({llm_type}) analysis on {total} addresses ({max_workers} parallel)...")
     print(f"  Writing assessments to {output_dir}/")
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = {
-            executor.submit(_analyze_one, addr, path): (addr, path)
+            executor.submit(_analyze_one, addr, path, llm_type=llm_type): (addr, path)
             for addr, path in summary_files
         }
         for i, future in enumerate(as_completed(futures), 1):
@@ -179,7 +257,6 @@ def run_llm_analysis(summary_files, permits, max_workers=4, output_dir="summarie
             print(f"  [{i}/{total}] {address}")
             print(f"    → {assessment['likelihood']}: {assessment['reasoning'][:100]}")
 
-    # Sort results to match input order
     addr_order = {addr: idx for idx, (addr, _) in enumerate(summary_files)}
     results.sort(key=lambda r: addr_order.get(r[0], 0))
     return results
