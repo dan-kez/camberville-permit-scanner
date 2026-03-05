@@ -30,7 +30,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "error",
-    "reasoning": "Command '['claude', '--model', 'glm-4.7-flash:latest', '-p', 'Assess the likelihood that this property is being prepared for sale based on building permits and assessment data.\\n\\nCRITICAL INDICATORS FOR HIGH LIKELIHOOD:\\n1. High-end \\'prep-for-sale\\' renovations: Simultaneous full-scale updates to Kitchen AND multiple Bathrooms.\\n2. Non-owner occupied: If the permit lists owner_occupied as False, it is much more likely to be a project/flip.\\n3. Significant \\'Gut\\' or \\'Whole House\\' work even with long-term ownership (8+ years).\\n\\nCRITICAL INDICATORS FOR LOW LIKELIHOOD:\\n1. Maintenance work: Roof, windows (unless part of a larger project), siding, or HVAC only.\\n2. Minor updates: A single bathroom or small kitchen refresh by a long-term owner-occupant.\\n\\nRespond with ONLY valid JSON in this exact format:\\n{\"likelihood\": \"low|medium|high\", \"reasoning\": \"one sentence explanation\"}\\n\\nDATA:\\n{\"address\":\"8 CLAY ST, CAMBRIDGE, MA 02140\",\"property_info\":null,\"property_use\":\"One-Family\",\"nearest_square\":\"Davis\",\"distance_mi\":0.64,\"max_score\":2,\"total_cost\":2200.0,\"permit_count\":1,\"permits\":[{\"date\":\"2025-01-29\",\"source\":\"Cambridge Alteration\",\"status\":\"Active\",\"description\":\"INSTALL 1 WINDOW FOR REPLACEMENT NO STRUCTURAL CHANGES\",\"cost\":2200.0,\"property_use\":\"One-Family\",\"contractor\":\"NEWPRO\",\"owner_occupied\":true,\"score\":2,\"score_reasons\":\"keyword: structural\",\"permit_id\":\"1149945\"}]}']' timed out after 120 seconds"
+    "likelihood": "low",
+    "reasoning": "Single window replacement is maintenance work by an owner-occupant with no evidence of major renovations."
   }
 }

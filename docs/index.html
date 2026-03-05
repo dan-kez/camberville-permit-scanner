@@ -313,23 +313,36 @@
   }
 
   .modal-header {
-    padding: 16px 20px;
+    padding: 14px 20px 10px;
     border-bottom: 1px solid var(--border-subtle);
     display: flex;
-    align-items: flex-start;
-    gap: 12px;
+    flex-direction: column;
+    gap: 8px;
+    position: sticky;
+    top: 0;
+    background: var(--surface);
+    z-index: 1;
   }
+  .modal-header-top { display: flex; align-items: flex-start; gap: 12px; }
   .modal-header h2 { font-size: 16px; font-weight: 700; flex: 1; }
+  .modal-header-sub { display: flex; align-items: center; gap: 8px; }
   .close-btn {
-    background: none;
-    border: none;
-    font-size: 22px;
+    background: var(--th-hover);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
     cursor: pointer;
-    color: var(--modal-close);
+    color: var(--text-2);
     line-height: 1;
-    padding: 0 4px;
+    flex-shrink: 0;
+    transition: background 0.15s, color 0.15s;
   }
-  .close-btn:hover { color: var(--modal-close-hover); }
+  .close-btn:hover { background: var(--btn-hover); color: var(--text); }
 
   .modal-body { padding: 16px 20px; }
 
@@ -376,6 +389,12 @@
     padding: 0 2px;
   }
   .permit-source-link:hover { color: var(--text); }
+
+  /* Description-as-link: only visually styled as a link on mobile (hidden on desktop via column) */
+  .permit-desc-link {
+    color: inherit;
+    text-decoration: none;
+  }
 
   .section-title {
     font-size: 12px;
@@ -436,8 +455,8 @@
 
   .view-btn {
     padding: 5px 12px;
-    border: 1px solid rgba(255,255,255,0.3);
-    border-radius: 20px;
+    border: none;
+    border-radius: 0;
     background: transparent;
     color: rgba(255,255,255,0.75);
     cursor: pointer;
@@ -445,10 +464,42 @@
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    transition: background 0.15s, border-color 0.15s, color 0.15s;
+    transition: background 0.15s, color 0.15s;
   }
-  .view-btn.active { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.7); color: #fff; }
+  .view-btn.active { background: rgba(255,255,255,0.22); color: #fff; }
   .view-btn:hover:not(.active) { background: rgba(255,255,255,0.1); color: #fff; }
+
+  /* Pill toggle container — view buttons (header) */
+  .view-toggle {
+    display: inline-flex;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .view-toggle .view-btn + .view-btn {
+    border-left: 1px solid rgba(255,255,255,0.2);
+  }
+
+  /* Pill toggle container — filter buttons */
+  .filter-toggle {
+    display: inline-flex;
+    border: 1px solid var(--btn-border);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .filter-toggle .filter-btn {
+    border: none;
+    border-radius: 0;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .filter-toggle .filter-btn + .filter-btn {
+    border-left: 1px solid var(--btn-border);
+  }
+  .filter-toggle .filter-btn.active {
+    background: #1a1a2e;
+    color: #fff;
+  }
 
   .min-score-wrap { display: flex; align-items: center; gap: 6px; }
   .min-score-wrap label { font-size: 12px; color: var(--text-muted); }
@@ -481,6 +532,21 @@
   }
   input[type="date"]::-webkit-calendar-picker-indicator { opacity: 0.6; filter: var(--calendar-icon-filter, none); }
 
+  .date-wrap {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+  }
+  .date-placeholder {
+    position: absolute;
+    left: 8px;
+    font-size: 13px;
+    color: var(--text-faint);
+    pointer-events: none;
+    white-space: nowrap;
+  }
+  .date-wrap.has-value .date-placeholder { display: none; }
+
   .star-btn {
     background: none; border: none; cursor: pointer;
     font-size: 20px; color: var(--star-idle); padding: 0 4px; line-height: 1;
@@ -490,25 +556,139 @@
   .star-btn.starred { color: #f59e0b; }
 
   .hide-btn {
-    background: none; border: none; cursor: pointer;
-    font-size: 22px; color: var(--star-idle); padding: 0 4px; line-height: 1;
-    transition: color 0.1s; opacity: 0.5;
+    background: var(--th-hover); border: 1px solid var(--border); border-radius: 50%;
+    width: 30px; height: 30px; cursor: pointer;
+    font-size: 18px; color: var(--text-3);
+    display: inline-flex; align-items: center; justify-content: center;
+    transition: color 0.1s, background 0.15s;
+    flex-shrink: 0;
   }
-  .hide-btn:hover { color: #ef4444; opacity: 1; }
-  .hide-btn.hidden { color: #ef4444; opacity: 1; }
+  .hide-btn:hover { color: #ef4444; background: var(--btn-hover); }
+  .hide-btn.hidden { color: #ef4444; }
 
   .modal-star-btn {
-    background: none; border: none; cursor: pointer;
-    font-size: 22px; color: var(--star-idle); padding: 0 4px; line-height: 1;
-    transition: color 0.1s;
+    background: var(--th-hover); border: 1px solid var(--border); border-radius: 50%;
+    width: 30px; height: 30px; cursor: pointer;
+    font-size: 18px; color: var(--text-3);
+    display: inline-flex; align-items: center; justify-content: center;
+    transition: color 0.1s, background 0.15s;
+    flex-shrink: 0;
   }
-  .modal-star-btn:hover { color: #f59e0b; }
+  .modal-star-btn:hover { color: #f59e0b; background: var(--btn-hover); }
   .modal-star-btn.starred { color: #f59e0b; }
 
+  /* ── Mobile responsive ── */
   @media (max-width: 600px) {
     .controls { padding: 10px 12px; }
-    .table-wrap { padding: 0 12px 16px; }
-    header { padding: 12px 16px; }
+    .table-wrap { padding: 0 0 16px; }
+    header { padding: 10px 12px; flex-wrap: wrap; }
+    .header-subtitle { display: none; }
+
+    /* Hide non-essential columns — keep only ★(1) Address(2) Likelihood(3) Score(4) */
+    thead th:nth-child(5), thead th:nth-child(6), thead th:nth-child(7),
+    thead th:nth-child(8), thead th:nth-child(9),
+    tbody td:nth-child(5), tbody td:nth-child(6), tbody td:nth-child(7),
+    tbody td:nth-child(8), tbody td:nth-child(9) { display: none; }
+    th, td { padding: 8px 8px; }
+    th:first-child, td:first-child { padding-left: 10px; }
+
+    /* Permits table: hide "Permit Data →" column, description becomes the link; keep contractor */
+    .permits-table th:last-child,
+    .permits-table td:last-child { display: none; }
+    .permits-table th:nth-child(5),
+    .permits-table td:nth-child(5) { display: table-cell; }
+    .permit-desc-link { color: var(--link-maps-fg); text-decoration: underline; text-underline-offset: 2px; }
+
+    /* Modal: full-width sheet with breathing room at top */
+    .overlay { padding: 52px 0 0; align-items: flex-end; }
+    .modal {
+      border-radius: 14px 14px 0 0;
+      max-height: calc(100vh - 52px);
+      max-height: calc(100svh - 52px);
+    }
+    .modal-header { padding: 10px 14px 8px; }
+    .modal-body { padding: 12px 14px; }
+  }
+
+  @media (max-width: 480px) {
+    .view-btn-label { display: none; }
+  }
+
+  /* ── Tutorial ── */
+  #tutorial-overlay {
+    position: fixed; inset: 0; z-index: 2000; pointer-events: none;
+    background: rgba(0,0,0,0);
+    transition: background 0.25s;
+  }
+  #tutorial-overlay.active {
+    background: rgba(0,0,0,0.55);
+  }
+  #tutorial-card {
+    position: fixed;
+    z-index: 2002;
+    background: var(--surface);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 320px;
+    width: calc(100vw - 32px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    pointer-events: all;
+    border: 1px solid var(--border);
+  }
+  .tutorial-step-label {
+    font-size: 11px;
+    color: var(--text-faint);
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .tutorial-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+    margin-bottom: 8px;
+  }
+  .tutorial-body {
+    font-size: 13px;
+    color: var(--text-2);
+    line-height: 1.5;
+    margin-bottom: 16px;
+  }
+  .tutorial-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  #tutorial-skip {
+    padding: 5px 14px;
+    border: 1px solid var(--btn-border);
+    border-radius: 20px;
+    background: var(--btn-bg);
+    color: var(--text-muted);
+    cursor: pointer;
+    font-size: 13px;
+  }
+  #tutorial-skip:hover { background: var(--btn-hover); }
+  #tutorial-next {
+    padding: 5px 16px;
+    border: 1px solid #1a1a2e;
+    border-radius: 20px;
+    background: #1a1a2e;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+  }
+  #tutorial-next:hover { background: #2a2a4e; }
+  .tutorial-highlight {
+    position: relative !important;
+    z-index: 2001 !important;
+    border-radius: 4px !important;
+    outline: 2px solid rgba(255,255,255,0.35);
+    outline-offset: 3px;
+  }
+  /* Inside the modal, use box-shadow to dim surrounding content */
+  body.tutorial-modal-step .tutorial-highlight {
+    box-shadow: 0 0 0 9999px rgba(0,0,0,0.6) !important;
   }
 </style>
 </head>
@@ -521,37 +701,45 @@
     <span id="count"></span>
     <a href="about.html" id="about-link" title="How this works">?</a>
     <button id="theme-toggle" title="Toggle dark/light mode"></button>
-    <button class="view-btn active" id="view-list">
-      <svg width="14" height="12" viewBox="0 0 14 12" fill="currentColor"><rect y="0" width="14" height="2" rx="1"/><rect y="5" width="14" height="2" rx="1"/><rect y="10" width="14" height="2" rx="1"/></svg>
-      List
-    </button>
-    <button class="view-btn" id="view-map">
-      <svg width="12" height="15" viewBox="0 0 12 15" fill="currentColor"><path d="M6 0C2.7 0 0 2.7 0 6c0 4.5 6 9 6 9s6-4.5 6-9c0-3.3-2.7-6-6-6zm0 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>
-      Map
-    </button>
+    <div class="view-toggle">
+      <button class="view-btn active" id="view-list">
+        <svg width="14" height="12" viewBox="0 0 14 12" fill="currentColor"><rect y="0" width="14" height="2" rx="1"/><rect y="5" width="14" height="2" rx="1"/><rect y="10" width="14" height="2" rx="1"/></svg>
+        <span class="view-btn-label">List</span>
+      </button>
+      <button class="view-btn" id="view-map">
+        <svg width="12" height="15" viewBox="0 0 12 15" fill="currentColor"><path d="M6 0C2.7 0 0 2.7 0 6c0 4.5 6 9 6 9s6-4.5 6-9c0-3.3-2.7-6-6-6zm0 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>
+        <span class="view-btn-label">Map</span>
+      </button>
+    </div>
   </div>
 </header>
 
 <div class="controls">
   <div class="controls-row">
-    <span class="filter-label">Filter:</span>
-    <button class="filter-btn active" data-filter="all">All</button>
-    <button class="filter-btn" data-filter="high">High</button>
-    <button class="filter-btn" data-filter="medium">Medium</button>
-    <button class="filter-btn" data-filter="low">Low</button>
-    <button class="filter-btn" data-filter="starred">★ Starred</button>
-    <button class="filter-btn" data-filter="hidden">⊘ Hidden</button>
-    <span class="filter-label" style="margin-left:8px">Permit after:</span>
-    <input type="date" id="date-filter" style="padding:4px 8px;border:1px solid var(--input-border);border-radius:6px;font-size:13px">
-    <div class="min-score-wrap" style="margin-left:4px">
+    <div class="filter-toggle">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="high">High</button>
+      <button class="filter-btn" data-filter="medium">Medium</button>
+      <button class="filter-btn" data-filter="low">Low</button>
+      <button class="filter-btn" data-filter="starred">★ Starred</button>
+      <button class="filter-btn" data-filter="hidden">⊘ Hidden</button>
+    </div>
+  </div>
+  <div class="controls-row">
+    <span class="filter-label">Permit after:</span>
+    <div class="date-wrap">
+      <input type="date" id="date-filter" style="padding:4px 8px;border:1px solid var(--input-border);border-radius:6px;font-size:13px">
+      <span class="date-placeholder">Any date</span>
+    </div>
+    <div class="min-score-wrap">
       <label for="min-score">Min score:</label>
       <input type="number" id="min-score" min="0" step="1" placeholder="0">
     </div>
-    <button id="clear-btn" style="margin-left:auto">Clear filters</button>
   </div>
   <div class="controls-row">
     <input type="text" id="search-input" placeholder="Search address…"
-      style="padding:4px 10px;border:1px solid var(--input-border);border-radius:6px;font-size:13px;width:260px">
+      style="padding:4px 10px;border:1px solid var(--input-border);border-radius:6px;font-size:13px;width:100%;max-width:260px">
+    <button id="clear-btn" style="margin-left:auto">Clear filters</button>
   </div>
 </div>
 
@@ -582,12 +770,28 @@
 <div class="overlay" id="overlay">
   <div class="modal" id="modal">
     <div class="modal-header">
-      <h2 id="modal-address"></h2>
-      <button class="modal-star-btn" id="modal-star-btn"></button>
-      <button class="hide-btn" id="modal-hide-btn" title="Hide from normal view"></button>
-      <button class="close-btn" id="close-btn">&times;</button>
+      <div class="modal-header-top">
+        <h2 id="modal-address"></h2>
+        <button class="close-btn" id="close-btn">&times;</button>
+      </div>
+      <div class="modal-header-sub">
+        <span id="modal-badge"></span>
+        <button class="modal-star-btn" id="modal-star-btn"></button>
+        <button class="hide-btn" id="modal-hide-btn" title="Hide from normal view"></button>
+      </div>
     </div>
     <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
+<div id="tutorial-overlay"></div>
+<div id="tutorial-card" hidden>
+  <div class="tutorial-step-label"></div>
+  <div class="tutorial-title"></div>
+  <div class="tutorial-body"></div>
+  <div class="tutorial-actions">
+    <button id="tutorial-skip">Skip tour</button>
+    <button id="tutorial-next">Next →</button>
   </div>
 </div>
 
@@ -670,7 +874,9 @@ function syncControlsToState() {
   // Search input
   document.getElementById('search-input').value = searchQuery;
   // Date and score inputs
-  document.getElementById('date-filter').value = afterDate;
+  const dateEl = document.getElementById('date-filter');
+  dateEl.value = afterDate;
+  dateEl.closest('.date-wrap').classList.toggle('has-value', !!afterDate);
   document.getElementById('min-score').value = minScore || '';
   // View buttons + visibility
   document.getElementById('view-list').classList.toggle('active', currentView === 'list');
@@ -882,11 +1088,14 @@ function openModal(item) {
     const srcCell = srcUrl
       ? `<a href="${srcUrl}" target="_blank" rel="noopener" class="permit-source-link" title="${permitSourceLabel(p)}">Permit Data →</a>`
       : '';
+    const descCell = srcUrl
+      ? `<a href="${srcUrl}" target="_blank" rel="noopener" class="permit-desc-link">${fmtVal(p.description)}</a>`
+      : fmtVal(p.description);
     return `
     <tr>
       <td>${fmtDate(p.date)}</td>
       <td>${fmtVal(p.status)}</td>
-      <td style="max-width:200px">${fmtVal(p.description)}</td>
+      <td style="max-width:200px">${descCell}</td>
       <td>${fmt$$(p.cost)}</td>
       <td>${fmtVal(p.contractor)}</td>
       <td><span class="score-pill">${p.score ?? '—'}</span></td>
@@ -896,8 +1105,9 @@ function openModal(item) {
   `;
   }).join('');
 
-  document.getElementById('modal-address').innerHTML =
-    `${item.address ?? '—'} <span class="badge badge-${likelihood}" style="font-size:11px;vertical-align:middle">${likelihood}</span>`;
+  document.getElementById('modal-address').textContent = item.address ?? '—';
+  document.getElementById('modal-badge').innerHTML =
+    `<span class="badge badge-${likelihood}">${likelihood}</span>`;
 
   document.getElementById('modal-body').innerHTML = `
     <div class="map-wrap">
@@ -942,6 +1152,7 @@ function openModal(item) {
   `;
 
   document.getElementById('overlay').classList.add('open');
+  requestAnimationFrame(() => { document.getElementById('modal').scrollTop = 0; });
   pushParams({ modal: item.address });
 
   const msb = document.getElementById('modal-star-btn');
@@ -996,6 +1207,7 @@ document.querySelectorAll('th[data-col]').forEach(th => {
 
 document.getElementById('date-filter').addEventListener('input', e => {
   afterDate = e.target.value;
+  e.target.closest('.date-wrap').classList.toggle('has-value', !!afterDate);
   render();
   pushParams({ date: afterDate || null });
 });
@@ -1057,6 +1269,149 @@ window.addEventListener('hashchange', () => {
   }
 });
 
+// ── Tutorial ──
+const TUTORIAL_DONE_KEY = 'permit-scanner-tutorial-done';
+
+const TUTORIAL_STEPS = [
+  {
+    target: null,
+    title: 'Welcome to Permit Scanner',
+    body: 'This tool surfaces properties that may be preparing for sale based on recent permit activity. Here\'s a quick tour of the key features.',
+  },
+  {
+    target: '.filter-btn[data-filter="high"]',
+    title: 'Likelihood ratings',
+    body: 'High / Medium / Low indicates how likely a property is being prepped for sale, based on permit types, costs, and completion status. Click these buttons to filter.',
+  },
+  {
+    target: '#date-filter',
+    title: 'Date filter',
+    body: 'Filter properties to only show those with permit activity after a certain date — useful for focusing on recent work.',
+  },
+  {
+    target: 'thead th:first-child',
+    title: 'Save & hide properties',
+    body: 'Click ★ on any row to save a property to your Starred list. Use ⊘ inside the detail modal to hide it from the default view.',
+  },
+  {
+    target: '#view-map',
+    title: 'Map view',
+    body: 'Switch to a map to see all properties plotted as pins — coloured by likelihood. Click any pin to open its detail modal.',
+  },
+  {
+    target: '.link-row',
+    title: 'Quick links',
+    body: 'Jump to the Zillow listing, a Google Search for the address, or the city\'s permit records. These open in a new tab.',
+    noOverlay: true,
+    onEnter() {
+      const item = filterData(allData)[0] ?? allData[0];
+      if (item) openModal(item);
+    },
+  },
+  {
+    target: '.permits-table-wrap',
+    title: 'Permit history',
+    body: 'Every permit on record for this property is listed here — with dates, costs, status, score, and a direct link to the source data.',
+    noOverlay: true,
+  },
+];
+
+let tutorialStep = 0;
+
+function positionCard(targetEl) {
+  const card = document.getElementById('tutorial-card');
+  if (!targetEl) {
+    card.style.top = '50%';
+    card.style.left = '50%';
+    card.style.transform = 'translate(-50%, -50%)';
+    return;
+  }
+  card.style.transform = '';
+  const rect = targetEl.getBoundingClientRect();
+  const cardH = 200;
+  const cardW = 320;
+  const margin = 12;
+  const vw = window.innerWidth;
+  const vh = window.innerHeight;
+
+  let top = rect.bottom + margin;
+  if (top + cardH > vh - margin) top = rect.top - cardH - margin;
+  if (top < margin) top = margin;
+
+  let left = rect.left;
+  if (left + cardW > vw - margin) left = vw - cardW - margin;
+  if (left < margin) left = margin;
+
+  card.style.top = top + 'px';
+  card.style.left = left + 'px';
+}
+
+function showStep(n) {
+  const step = TUTORIAL_STEPS[n];
+  const card = document.getElementById('tutorial-card');
+
+  const overlay = document.getElementById('tutorial-overlay');
+  if (step.noOverlay) {
+    overlay.classList.remove('active');
+    document.body.classList.add('tutorial-modal-step');
+  } else {
+    overlay.classList.add('active');
+    document.body.classList.remove('tutorial-modal-step');
+  }
+  document.querySelectorAll('.tutorial-highlight').forEach(el => el.classList.remove('tutorial-highlight'));
+
+  // Run any step setup (e.g. open modal) before querying targets
+  if (step.onEnter) step.onEnter();
+
+  card.querySelector('.tutorial-step-label').textContent = `Step ${n + 1} of ${TUTORIAL_STEPS.length}`;
+  card.querySelector('.tutorial-title').textContent = step.title;
+  card.querySelector('.tutorial-body').textContent = step.body;
+  document.getElementById('tutorial-next').textContent = n === TUTORIAL_STEPS.length - 1 ? 'Finish ✓' : 'Next →';
+
+  card.hidden = false;
+  tutorialStep = n;
+
+  let targetEl = null;
+  if (step.target) {
+    targetEl = document.querySelector(step.target);
+    if (targetEl) {
+      targetEl.classList.add('tutorial-highlight');
+      const modalEl = document.getElementById('modal');
+      if (modalEl && modalEl.contains(targetEl)) {
+        // Scroll within the modal container directly — avoids iOS fixed-element glitches
+        // that scrollIntoView causes when called inside a fixed-position overlay.
+        modalEl.scrollTop = Math.max(0, targetEl.offsetTop - 80);
+        setTimeout(() => positionCard(targetEl), 120);
+      } else {
+        targetEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        positionCard(targetEl);
+      }
+      return;
+    }
+  }
+  positionCard(targetEl);
+}
+
+function endTutorial() {
+  document.querySelectorAll('.tutorial-highlight').forEach(el => el.classList.remove('tutorial-highlight'));
+  document.getElementById('tutorial-overlay').classList.remove('active');
+  document.body.classList.remove('tutorial-modal-step');
+  document.getElementById('tutorial-card').hidden = true;
+  localStorage.setItem(TUTORIAL_DONE_KEY, '1');
+  closeModal();
+}
+
+function startTutorial() {
+  tutorialStep = 0;
+  showStep(0);
+}
+
+document.getElementById('tutorial-next').addEventListener('click', () => {
+  if (tutorialStep < TUTORIAL_STEPS.length - 1) showStep(tutorialStep + 1);
+  else endTutorial();
+});
+document.getElementById('tutorial-skip').addEventListener('click', endTutorial);
+
 // Load data
 fetch('data.json')
   .then(r => r.json())
@@ -1075,6 +1430,10 @@ fetch('data.json')
     if (p.modal) {
       const item = allData.find(d => d.address === p.modal);
       if (item) openModal(item);
+    }
+    // Show tutorial on first visit, skip if deep-linked to a modal
+    if (!localStorage.getItem(TUTORIAL_DONE_KEY) && !location.hash.includes('modal=')) {
+      setTimeout(startTutorial, 500);
     }
   })
   .catch(err => {

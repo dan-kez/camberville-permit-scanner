@@ -51,7 +51,7 @@ def build_parser():
         help="Run LLM analysis on each summary (optionally only for addresses with score ≥ MIN_SCORE)",
     )
     parser.add_argument(
-        "--llm", choices=["ollama", "sonnet", "gemini"], default="ollama",
+        "--llm", choices=["ollama", "ollama-qwen-35", "sonnet", "gemini"], default="ollama",
         help="Which LLM to use for analysis (default: ollama)",
     )
     parser.add_argument(

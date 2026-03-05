@@ -210,13 +210,13 @@ def _parse_llm_response(raw):
     return {"likelihood": likelihood, "reasoning": reasoning}
 
 
-def _run_local_ollama(prompt):
+def _run_local_ollama(prompt, model="glm-4.7-flash:latest"):
     """Run prompt via claude CLI pointed at local ollama server."""
     env = os.environ.copy()
     env["ANTHROPIC_AUTH_TOKEN"] = "ollama"
     env["ANTHROPIC_BASE_URL"] = "http://localhost:11434"
     return subprocess.run(
-        ["claude", "--model", "glm-4.7-flash:latest", "-p", prompt],
+        ["claude", "--model", model, "-p", prompt],
         capture_output=True,
         text=True,
         timeout=120,
@@ -263,6 +263,8 @@ def _analyze_one(address, filepath, llm_type="ollama"):
                     text=True,
                     timeout=120,
                 )
+            elif llm_type == "ollama-qwen-35":
+                result = _run_local_ollama(prompt, model="qwen3.5:9b")
             else:
                 result = _run_local_ollama(prompt)
         except (FileNotFoundError, subprocess.TimeoutExpired) as e:
@@ -272,7 +274,7 @@ def _analyze_one(address, filepath, llm_type="ollama"):
             return address, _parse_llm_response(result.stdout.strip())
 
         # Primary failed — fall back to local ollama (skip if already using it)
-        if llm_type != "ollama":
+        if llm_type not in ("ollama", "ollama-qwen-35"):
             error_detail = primary_error or (result.stderr.strip() if result else "unknown error")
             print(f"    ⚠ {llm_type} failed ({error_detail[:80]}), falling back to local ollama...")
             try:
