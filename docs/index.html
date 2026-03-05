@@ -6,66 +6,235 @@
 <title>Permit Scanner — Property Assessments</title>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+  // Apply stored theme immediately to avoid flash of wrong theme
+  (function() {
+    const t = localStorage.getItem('permit-scanner-theme');
+    if (t) document.documentElement.dataset.theme = t;
+  })();
+</script>
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  /* ── Light theme tokens ── */
+  :root {
+    --bg:               #f5f5f5;
+    --surface:          #ffffff;
+    --surface-2:        #f0f0f5;
+    --surface-3:        #f9f9f9;
+    --border:           #e0e0e0;
+    --border-light:     #f0f0f0;
+    --border-subtle:    #eeeeee;
+    --text:             #222222;
+    --text-2:           #444444;
+    --text-3:           #555555;
+    --text-muted:       #666666;
+    --text-faint:       #888888;
+    --input-border:     #cccccc;
+    --btn-bg:           #ffffff;
+    --btn-border:       #cccccc;
+    --btn-hover:        #f0f0f0;
+    --th-hover:         #e4e4ef;
+    --row-hover:        #fafafa;
+    --clear-bg:         #fff5f5;
+    --clear-border:     #f5c2c7;
+    --clear-color:      #c0392b;
+    --clear-hover-bg:   #fce8e8;
+    --clear-hover-border:#e8a0a8;
+    --score-pill-bg:    #eeeeee;
+    --star-idle:        #cccccc;
+    --modal-close:      #666666;
+    --modal-close-hover:#000000;
+    --shadow:           rgba(0,0,0,0.08);
+    --shadow-modal:     rgba(0,0,0,0.20);
+    --link-maps-bg:     #e8f4fd; --link-maps-fg:    #1565c0; --link-maps-bd:    #90caf9;
+    --link-zillow-bg:   #fff3e0; --link-zillow-fg:  #e65100; --link-zillow-bd:  #ffcc80;
+    --link-search-bg:   #f3e5f5; --link-search-fg:  #6a1b9a; --link-search-bd:  #ce93d8;
+  }
+
+  /* ── Dark theme tokens ── */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg:               #0d0d1a;
+      --surface:          #16162a;
+      --surface-2:        #1e1e36;
+      --surface-3:        #1a1a30;
+      --border:           #2a2a46;
+      --border-light:     #222238;
+      --border-subtle:    #242440;
+      --text:             #e4e4f0;
+      --text-2:           #b8b8d0;
+      --text-3:           #9898b8;
+      --text-muted:       #7878a0;
+      --text-faint:       #606088;
+      --input-border:     #363660;
+      --btn-bg:           #16162a;
+      --btn-border:       #363660;
+      --btn-hover:        #1e1e36;
+      --th-hover:         #22223c;
+      --row-hover:        #1a1a30;
+      --clear-bg:         #2a1520;
+      --clear-border:     #6b2535;
+      --clear-color:      #f87171;
+      --clear-hover-bg:   #34192a;
+      --clear-hover-border:#8b3040;
+      --score-pill-bg:    #22223a;
+      --star-idle:        #505070;
+      --modal-close:      #7070a0;
+      --modal-close-hover:#e4e4f0;
+      --shadow:           rgba(0,0,0,0.30);
+      --shadow-modal:     rgba(0,0,0,0.60);
+      --link-maps-bg:     #0a1e30; --link-maps-fg:    #60aee8; --link-maps-bd:    #1a4060;
+      --link-zillow-bg:   #271400; --link-zillow-fg:  #f08848; --link-zillow-bd:  #4a2800;
+      --link-search-bg:   #1a0d28; --link-search-fg:  #c07de0; --link-search-bd:  #3e1a60;
+    }
+  }
+  html[data-theme="dark"] {
+    --bg:               #0d0d1a;
+    --surface:          #16162a;
+    --surface-2:        #1e1e36;
+    --surface-3:        #1a1a30;
+    --border:           #2a2a46;
+    --border-light:     #222238;
+    --border-subtle:    #242440;
+    --text:             #e4e4f0;
+    --text-2:           #b8b8d0;
+    --text-3:           #9898b8;
+    --text-muted:       #7878a0;
+    --text-faint:       #606088;
+    --input-border:     #363660;
+    --btn-bg:           #16162a;
+    --btn-border:       #363660;
+    --btn-hover:        #1e1e36;
+    --th-hover:         #22223c;
+    --row-hover:        #1a1a30;
+    --clear-bg:         #2a1520;
+    --clear-border:     #6b2535;
+    --clear-color:      #f87171;
+    --clear-hover-bg:   #34192a;
+    --clear-hover-border:#8b3040;
+    --score-pill-bg:    #22223a;
+    --star-idle:        #505070;
+    --modal-close:      #7070a0;
+    --modal-close-hover:#e4e4f0;
+    --shadow:           rgba(0,0,0,0.30);
+    --shadow-modal:     rgba(0,0,0,0.60);
+    --link-maps-bg:     #0a1e30; --link-maps-fg:    #60aee8; --link-maps-bd:    #1a4060;
+    --link-zillow-bg:   #271400; --link-zillow-fg:  #f08848; --link-zillow-bd:  #4a2800;
+    --link-search-bg:   #1a0d28; --link-search-fg:  #c07de0; --link-search-bd:  #3e1a60;
+  }
+  html[data-theme="light"] {
+    --bg:               #f5f5f5;
+    --surface:          #ffffff;
+    --surface-2:        #f0f0f5;
+    --surface-3:        #f9f9f9;
+    --border:           #e0e0e0;
+    --border-light:     #f0f0f0;
+    --border-subtle:    #eeeeee;
+    --text:             #222222;
+    --text-2:           #444444;
+    --text-3:           #555555;
+    --text-muted:       #666666;
+    --text-faint:       #888888;
+    --input-border:     #cccccc;
+    --btn-bg:           #ffffff;
+    --btn-border:       #cccccc;
+    --btn-hover:        #f0f0f0;
+    --th-hover:         #e4e4ef;
+    --row-hover:        #fafafa;
+    --clear-bg:         #fff5f5;
+    --clear-border:     #f5c2c7;
+    --clear-color:      #c0392b;
+    --clear-hover-bg:   #fce8e8;
+    --clear-hover-border:#e8a0a8;
+    --score-pill-bg:    #eeeeee;
+    --star-idle:        #cccccc;
+    --modal-close:      #666666;
+    --modal-close-hover:#000000;
+    --shadow:           rgba(0,0,0,0.08);
+    --shadow-modal:     rgba(0,0,0,0.20);
+    --link-maps-bg:     #e8f4fd; --link-maps-fg:    #1565c0; --link-maps-bd:    #90caf9;
+    --link-zillow-bg:   #fff3e0; --link-zillow-fg:  #e65100; --link-zillow-bd:  #ffcc80;
+    --link-search-bg:   #f3e5f5; --link-search-fg:  #6a1b9a; --link-search-bd:  #ce93d8;
+  }
 
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     font-size: 14px;
-    background: #f5f5f5;
-    color: #222;
+    background: var(--bg);
+    color: var(--text);
   }
 
   header {
     background: #1a1a2e;
     color: #fff;
-    padding: 16px 24px;
+    padding: 12px 24px;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 12px;
   }
   header h1 { font-size: 20px; font-weight: 700; }
-  header span { font-size: 13px; opacity: 0.7; }
+  .header-subtitle { font-size: 13px; opacity: 0.7; }
+  .header-right { margin-left: auto; display: flex; align-items: center; gap: 8px; }
+
+  #theme-toggle {
+    background: none;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    font-size: 15px;
+    padding: 4px 10px;
+    line-height: 1;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  #theme-toggle:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.6); }
 
   .controls {
-    padding: 12px 24px;
-    background: #fff;
-    border-bottom: 1px solid #e0e0e0;
+    padding: 8px 24px;
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .controls-row {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     flex-wrap: wrap;
   }
 
-  .filter-label { font-size: 12px; color: #666; margin-right: 2px; }
+  .filter-label { font-size: 12px; color: var(--text-muted); margin-right: 2px; }
 
   .filter-btn {
     padding: 5px 14px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--btn-border);
     border-radius: 20px;
-    background: #fff;
+    background: var(--btn-bg);
+    color: var(--text);
     cursor: pointer;
     font-size: 13px;
     transition: background 0.15s, border-color 0.15s;
   }
   .filter-btn.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
-  .filter-btn:hover:not(.active) { background: #f0f0f0; }
+  .filter-btn:hover:not(.active) { background: var(--btn-hover); }
 
-  #count { margin-left: auto; font-size: 13px; color: #555; }
+  #count { font-size: 13px; color: rgba(255,255,255,0.6); }
 
   .table-wrap { overflow-x: auto; padding: 0 24px 24px; }
 
   table {
     width: 100%;
     border-collapse: collapse;
-    background: #fff;
+    background: var(--surface);
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    box-shadow: 0 1px 4px var(--shadow);
     margin-top: 16px;
   }
 
-  thead { background: #f0f0f5; }
+  thead { background: var(--surface-2); }
 
   th {
     padding: 10px 14px;
@@ -74,23 +243,23 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    color: #444;
+    color: var(--text-2);
     white-space: nowrap;
     cursor: pointer;
     user-select: none;
   }
-  th:hover { background: #e4e4ef; }
+  th:hover { background: var(--th-hover); }
   th .sort-arrow { margin-left: 4px; opacity: 0.4; }
   th.sorted .sort-arrow { opacity: 1; }
 
   td {
     padding: 10px 14px;
-    border-top: 1px solid #f0f0f0;
+    border-top: 1px solid var(--border-light);
     vertical-align: top;
     max-width: 340px;
   }
 
-  tr:hover td { background: #fafafa; cursor: pointer; }
+  tr:hover td { background: var(--row-hover); cursor: pointer; }
 
   .badge {
     display: inline-block;
@@ -105,7 +274,7 @@
   .badge-medium { background: #fef3c7; color: #92400e; }
   .badge-low    { background: #e5e7eb; color: #374151; }
 
-  .reasoning { color: #555; font-size: 13px; line-height: 1.4; }
+  .reasoning { color: var(--text-3); font-size: 13px; line-height: 1.4; }
 
   /* Modal */
   .overlay {
@@ -120,18 +289,18 @@
   .overlay.open { display: flex; }
 
   .modal {
-    background: #fff;
+    background: var(--surface);
     border-radius: 10px;
     width: 100%;
     max-width: 820px;
     max-height: 90vh;
     overflow-y: auto;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    box-shadow: 0 8px 32px var(--shadow-modal);
   }
 
   .modal-header {
     padding: 16px 20px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--border-subtle);
     display: flex;
     align-items: flex-start;
     gap: 12px;
@@ -142,11 +311,11 @@
     border: none;
     font-size: 22px;
     cursor: pointer;
-    color: #666;
+    color: var(--modal-close);
     line-height: 1;
     padding: 0 4px;
   }
-  .close-btn:hover { color: #000; }
+  .close-btn:hover { color: var(--modal-close-hover); }
 
   .modal-body { padding: 16px 20px; }
 
@@ -181,16 +350,16 @@
     transition: opacity 0.15s;
   }
   .link-btn:hover { opacity: 0.8; }
-  .link-btn-maps   { background: #e8f4fd; color: #1565c0; border-color: #90caf9; }
-  .link-btn-zillow { background: #fff3e0; color: #e65100; border-color: #ffcc80; }
-  .link-btn-search { background: #f3e5f5; color: #6a1b9a; border-color: #ce93d8; }
+  .link-btn-maps   { background: var(--link-maps-bg);   color: var(--link-maps-fg);   border-color: var(--link-maps-bd); }
+  .link-btn-zillow { background: var(--link-zillow-bg); color: var(--link-zillow-fg); border-color: var(--link-zillow-bd); }
+  .link-btn-search { background: var(--link-search-bg); color: var(--link-search-fg); border-color: var(--link-search-bd); }
 
   .section-title {
     font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: #888;
+    color: var(--text-faint);
     margin: 16px 0 8px;
   }
 
@@ -200,8 +369,8 @@
     gap: 8px;
     margin-bottom: 4px;
   }
-  .info-cell { background: #f9f9f9; border-radius: 6px; padding: 8px 12px; }
-  .info-cell .label { font-size: 11px; color: #888; margin-bottom: 2px; }
+  .info-cell { background: var(--surface-3); border-radius: 6px; padding: 8px 12px; }
+  .info-cell .label { font-size: 11px; color: var(--text-faint); margin-bottom: 2px; }
   .info-cell .value { font-size: 13px; font-weight: 600; }
 
   .permits-table-wrap { overflow-x: auto; }
@@ -211,30 +380,30 @@
     font-size: 13px;
   }
   .permits-table th {
-    background: #f5f5f5;
+    background: var(--surface-2);
     padding: 7px 10px;
     text-align: left;
     font-size: 11px;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    color: #555;
+    color: var(--text-3);
     cursor: default;
   }
-  .permits-table th:hover { background: #f5f5f5; }
+  .permits-table th:hover { background: var(--surface-2); }
   .permits-table td {
     padding: 7px 10px;
-    border-top: 1px solid #eee;
+    border-top: 1px solid var(--border-subtle);
     max-width: 220px;
     vertical-align: top;
   }
-  .permits-table tr:hover td { background: #fafafa; cursor: default; }
+  .permits-table tr:hover td { background: var(--row-hover); cursor: default; }
 
   .score-pill {
     display: inline-block;
     padding: 1px 7px;
     border-radius: 10px;
-    background: #eee;
+    background: var(--score-pill-bg);
     font-size: 12px;
     font-weight: 600;
   }
@@ -243,38 +412,67 @@
   #map-view { display: none; }
 
   .view-btn {
-    padding: 5px 14px;
-    border: 1px solid #ccc;
+    padding: 5px 12px;
+    border: 1px solid rgba(255,255,255,0.3);
     border-radius: 20px;
-    background: #fff;
+    background: transparent;
+    color: rgba(255,255,255,0.75);
     cursor: pointer;
     font-size: 13px;
-    transition: background 0.15s, border-color 0.15s;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
   }
-  .view-btn.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
-  .view-btn:hover:not(.active) { background: #f0f0f0; }
+  .view-btn.active { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.7); color: #fff; }
+  .view-btn:hover:not(.active) { background: rgba(255,255,255,0.1); color: #fff; }
 
   .min-score-wrap { display: flex; align-items: center; gap: 6px; }
-  .min-score-wrap label { font-size: 12px; color: #666; }
+  .min-score-wrap label { font-size: 12px; color: var(--text-muted); }
   .min-score-wrap input {
     width: 56px;
     padding: 4px 8px;
-    border: 1px solid #ccc;
+    border: 1px solid var(--input-border);
     border-radius: 6px;
     font-size: 13px;
+    background: var(--btn-bg);
+    color: var(--text);
   }
 
   #clear-btn {
     padding: 5px 14px;
-    border: 1px solid #f5c2c7;
+    border: 1px solid var(--clear-border);
     border-radius: 20px;
-    background: #fff5f5;
-    color: #c0392b;
+    background: var(--clear-bg);
+    color: var(--clear-color);
     cursor: pointer;
     font-size: 13px;
     transition: background 0.15s, border-color 0.15s;
   }
-  #clear-btn:hover { background: #fce8e8; border-color: #e8a0a8; }
+  #clear-btn:hover { background: var(--clear-hover-bg); border-color: var(--clear-hover-border); }
+
+  input[type="date"], input[type="text"], input[type="number"] {
+    background: var(--btn-bg);
+    color: var(--text);
+    border-color: var(--input-border);
+  }
+  input[type="date"]::-webkit-calendar-picker-indicator { opacity: 0.6; filter: var(--calendar-icon-filter, none); }
+
+  .star-btn {
+    background: none; border: none; cursor: pointer;
+    font-size: 20px; color: var(--star-idle); padding: 0 4px; line-height: 1;
+    transition: color 0.1s;
+  }
+  .star-btn:hover { color: #f59e0b; }
+  .star-btn.starred { color: #f59e0b; }
+
+  .modal-star-btn {
+    background: none; border: none; cursor: pointer;
+    font-size: 22px; color: var(--star-idle); padding: 0 4px; line-height: 1;
+    transition: color 0.1s;
+  }
+  .modal-star-btn:hover { color: #f59e0b; }
+  .modal-star-btn.starred { color: #f59e0b; }
 
   @media (max-width: 600px) {
     .controls { padding: 10px 12px; }
@@ -287,32 +485,48 @@
 
 <header>
   <h1>Permit Scanner</h1>
-  <span>Property sale-prep assessments</span>
+  <span class="header-subtitle">Property sale-prep assessments</span>
+  <div class="header-right">
+    <span id="count"></span>
+    <button id="theme-toggle" title="Toggle dark/light mode"></button>
+    <button class="view-btn active" id="view-list">
+      <svg width="14" height="12" viewBox="0 0 14 12" fill="currentColor"><rect y="0" width="14" height="2" rx="1"/><rect y="5" width="14" height="2" rx="1"/><rect y="10" width="14" height="2" rx="1"/></svg>
+      List
+    </button>
+    <button class="view-btn" id="view-map">
+      <svg width="12" height="15" viewBox="0 0 12 15" fill="currentColor"><path d="M6 0C2.7 0 0 2.7 0 6c0 4.5 6 9 6 9s6-4.5 6-9c0-3.3-2.7-6-6-6zm0 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>
+      Map
+    </button>
+  </div>
 </header>
 
 <div class="controls">
-  <span class="filter-label">Filter:</span>
-  <button class="filter-btn active" data-filter="all">All</button>
-  <button class="filter-btn" data-filter="high">High</button>
-  <button class="filter-btn" data-filter="medium">Medium</button>
-  <button class="filter-btn" data-filter="low">Low</button>
-  <span class="filter-label" style="margin-left:8px">Permit after:</span>
-  <input type="date" id="date-filter" style="padding:4px 8px;border:1px solid #ccc;border-radius:6px;font-size:13px">
-  <div class="min-score-wrap" style="margin-left:8px">
-    <label for="min-score">Min score:</label>
-    <input type="number" id="min-score" min="0" step="1" placeholder="0">
+  <div class="controls-row">
+    <span class="filter-label">Filter:</span>
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="high">High</button>
+    <button class="filter-btn" data-filter="medium">Medium</button>
+    <button class="filter-btn" data-filter="low">Low</button>
+    <button class="filter-btn" data-filter="starred">★ Starred</button>
+    <span class="filter-label" style="margin-left:8px">Permit after:</span>
+    <input type="date" id="date-filter" style="padding:4px 8px;border:1px solid var(--input-border);border-radius:6px;font-size:13px">
+    <div class="min-score-wrap" style="margin-left:4px">
+      <label for="min-score">Min score:</label>
+      <input type="number" id="min-score" min="0" step="1" placeholder="0">
+    </div>
+    <button id="clear-btn" style="margin-left:auto">Clear filters</button>
   </div>
-  <span class="filter-label" style="margin-left:8px">View:</span>
-  <button class="view-btn active" id="view-list">List</button>
-  <button class="view-btn" id="view-map">Map</button>
-  <button id="clear-btn">Clear filters</button>
-  <span id="count"></span>
+  <div class="controls-row">
+    <input type="text" id="search-input" placeholder="Search address…"
+      style="padding:4px 10px;border:1px solid var(--input-border);border-radius:6px;font-size:13px;width:260px">
+  </div>
 </div>
 
 <div class="table-wrap">
   <table id="main-table">
     <thead>
       <tr>
+        <th style="cursor:default;width:32px;color:#ccc">★</th>
         <th data-col="address">Address <span class="sort-arrow">↕</span></th>
         <th data-col="likelihood">Likelihood <span class="sort-arrow">↕</span></th>
         <th data-col="total_score">Score <span class="sort-arrow">↕</span></th>
@@ -336,6 +550,7 @@
   <div class="modal" id="modal">
     <div class="modal-header">
       <h2 id="modal-address"></h2>
+      <button class="modal-star-btn" id="modal-star-btn"></button>
       <button class="close-btn" id="close-btn">&times;</button>
     </div>
     <div class="modal-body" id="modal-body"></div>
@@ -343,8 +558,28 @@
 </div>
 
 <script>
+// ── Theme toggle ──
+function isDark() {
+  const t = document.documentElement.dataset.theme;
+  if (t) return t === 'dark';
+  return window.matchMedia('(prefers-color-scheme: dark)').matches;
+}
+function updateThemeBtn() {
+  document.getElementById('theme-toggle').textContent = isDark() ? '☀' : '🌙';
+}
+document.getElementById('theme-toggle').addEventListener('click', () => {
+  const next = isDark() ? 'light' : 'dark';
+  document.documentElement.dataset.theme = next;
+  localStorage.setItem('permit-scanner-theme', next);
+  updateThemeBtn();
+});
+updateThemeBtn();
+
 const LIKELIHOOD_ORDER = { high: 0, medium: 1, low: 2 };
 const PIN_COLORS = { high: '#dc2626', medium: '#d97706', low: '#6b7280' };
+
+let starred = new Set(JSON.parse(localStorage.getItem('permit-scanner-stars') || '[]'));
+let searchQuery = '';
 
 let allData = [];
 let currentFilter = 'all';
@@ -379,6 +614,8 @@ function syncControlsToState() {
   document.querySelectorAll('.filter-btn').forEach(b => {
     b.classList.toggle('active', b.dataset.filter === currentFilter);
   });
+  // Search input
+  document.getElementById('search-input').value = searchQuery;
   // Date and score inputs
   document.getElementById('date-filter').value = afterDate;
   document.getElementById('min-score').value = minScore || '';
@@ -394,6 +631,7 @@ function applyParams(p) {
   afterDate = p.date ?? '';
   minScore = parseInt(p.score, 10) || 0;
   currentView = p.view ?? 'list';
+  searchQuery = p.search ?? '';
   syncControlsToState();
   render();
   if (currentView === 'map' && map) setTimeout(() => map.invalidateSize(), 50);
@@ -440,11 +678,24 @@ function sortData(data) {
   });
 }
 
+function toggleStar(address) {
+  if (starred.has(address)) starred.delete(address);
+  else starred.add(address);
+  localStorage.setItem('permit-scanner-stars', JSON.stringify([...starred]));
+  render();
+}
+
 function filterData(data) {
   return data.filter(d => {
-    if (currentFilter !== 'all' && d.llm_assessment?.likelihood !== currentFilter) return false;
+    if (currentFilter === 'starred' && !starred.has(d.address)) return false;
+    if (currentFilter !== 'all' && currentFilter !== 'starred' && d.llm_assessment?.likelihood !== currentFilter) return false;
     if (afterDate && (d.latest_permit_date ?? '') < afterDate) return false;
     if (minScore > 0 && (d.total_score ?? 0) < minScore) return false;
+    if (searchQuery) {
+      const addr = (d.address ?? '').toLowerCase();
+      const tokens = searchQuery.toLowerCase().split(/\s+/).filter(Boolean);
+      if (!tokens.every(t => addr.includes(t))) return false;
+    }
     return true;
   });
 }
@@ -509,8 +760,10 @@ function render() {
   for (const item of sorted) {
     const likelihood = item.llm_assessment?.likelihood ?? 'unknown';
     const reasoning = item.llm_assessment?.reasoning ?? '';
+    const isStarred = starred.has(item.address);
     const tr = document.createElement('tr');
     tr.innerHTML = `
+      <td style="padding:10px 4px 10px 14px;vertical-align:middle"><button class="star-btn${isStarred ? ' starred' : ''}" data-address="${item.address}">${isStarred ? '★' : '☆'}</button></td>
       <td><strong>${item.address ?? '—'}</strong></td>
       <td><span class="badge badge-${likelihood}">${likelihood}</span></td>
       <td>${item.total_score ?? 0}</td>
@@ -520,6 +773,10 @@ function render() {
       <td>${item.nearest_square ?? '—'} ${item.distance_mi != null ? `<span style="color:#999">(${item.distance_mi}mi)</span>` : ''}</td>
       <td class="reasoning">${reasoning}</td>
     `;
+    tr.querySelector('.star-btn').addEventListener('click', e => {
+      e.stopPropagation();
+      toggleStar(item.address);
+    });
     tr.addEventListener('click', () => openModal(item));
     tbody.appendChild(tr);
   }
@@ -605,6 +862,15 @@ function openModal(item) {
 
   document.getElementById('overlay').classList.add('open');
   pushParams({ modal: item.address });
+
+  const msb = document.getElementById('modal-star-btn');
+  const updateMsb = () => {
+    const s = starred.has(item.address);
+    msb.textContent = s ? '★' : '☆';
+    msb.classList.toggle('starred', s);
+  };
+  updateMsb();
+  msb.onclick = () => { toggleStar(item.address); updateMsb(); };
 }
 
 function closeModal() {
@@ -672,8 +938,14 @@ document.getElementById('overlay').addEventListener('click', e => {
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 
 document.getElementById('clear-btn').addEventListener('click', () => {
-  currentFilter = 'all'; afterDate = ''; minScore = 0;
+  currentFilter = 'all'; afterDate = ''; minScore = 0; searchQuery = '';
   location.hash = ''; // triggers hashchange → applyParams({}) → defaults + render + close modal
+});
+
+document.getElementById('search-input').addEventListener('input', e => {
+  searchQuery = e.target.value;
+  render();
+  pushParams({ search: searchQuery || null });
 });
 
 window.addEventListener('hashchange', () => {
