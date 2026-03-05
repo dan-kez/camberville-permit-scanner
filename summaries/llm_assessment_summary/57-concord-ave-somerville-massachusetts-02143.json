@@ -88,5 +88,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits indicate maintenance and energy efficiency upgrades, including solar panels, siding, and heat pump circuits, performed by an owner-occupant with no evidence of major interior renovations."
-  }
+  },
+  "lat": 42.376801782463,
+  "lng": -71.099075763998
 }

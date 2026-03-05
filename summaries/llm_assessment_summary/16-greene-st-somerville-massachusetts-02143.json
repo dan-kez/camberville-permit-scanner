@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied by a long-term resident (since 1999) and the recent permits indicate only a single bathroom remodel, which is a minor update rather than a comprehensive pre-sale renovation."
-  }
+  },
+  "lat": 42.384831939072,
+  "lng": -71.103528901517
 }

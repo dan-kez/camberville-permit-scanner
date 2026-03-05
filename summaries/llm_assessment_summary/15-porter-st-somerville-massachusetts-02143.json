@@ -100,5 +100,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property has undergone a full interior gut renovation and conversion from a two-family to a high-end single-family home with 4.5 bathrooms following a recent nominal title transfer."
-  }
+  },
+  "lat": 42.386786263616,
+  "lng": -71.11312643211
 }

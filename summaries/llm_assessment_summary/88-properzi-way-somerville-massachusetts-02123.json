@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit is for a single maintenance-related deck replacement by an owner-occupant, which lacks the high-end interior updates or non-owner occupancy typical of a property being prepared for sale."
-  }
+  },
+  "lat": 42.38003103639,
+  "lng": -71.106959279211
 }

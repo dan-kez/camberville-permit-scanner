@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A massive $439k whole-house gut renovation including structural changes and full interior/exterior updates by a relatively recent owner (2019) strongly indicates a flip or high-end preparation for sale."
-  }
+  },
+  "lat": 42.39926,
+  "lng": -71.134379
 }

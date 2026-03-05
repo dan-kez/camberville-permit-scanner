@@ -88,5 +88,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A complete gut renovation and conversion from a 2-family to a single-family residence represents significant whole-house work typically performed to maximize resale value."
-  }
+  },
+  "lat": 42.376877973963,
+  "lng": -71.09877611096
 }

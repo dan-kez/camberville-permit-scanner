@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit is for a single, moderate-cost solarium renovation at an owner-occupied property, lacking the high-end kitchen or bathroom updates typical of a pre-sale flip."
-  }
+  },
+  "lat": 42.383071,
+  "lng": -71.128596
 }

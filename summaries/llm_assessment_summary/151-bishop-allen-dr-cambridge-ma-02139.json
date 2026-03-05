@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only active permit is for a $29k front porch/stairs renovation by an owner-occupant, which constitutes exterior maintenance rather than high-end interior preparation for sale."
-  }
+  },
+  "lat": 42.367357,
+  "lng": -71.104565
 }

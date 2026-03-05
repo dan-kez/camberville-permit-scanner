@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The full gut renovation of multiple bathrooms including the master bath is a significant update typical of preparing for a sale, though owner-occupancy and the absence of kitchen renovations moderate the likelihood."
-  }
+  },
+  "lat": 42.398456596955,
+  "lng": -71.120714401417
 }

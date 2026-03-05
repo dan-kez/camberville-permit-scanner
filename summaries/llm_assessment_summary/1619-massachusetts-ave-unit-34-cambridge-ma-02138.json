@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A single bathroom refresh by a long-term owner-occupant (11+ years) is consistent with ongoing maintenance rather than a comprehensive pre-sale renovation."
-  }
+  },
+  "lat": 42.380396,
+  "lng": -71.119289
 }

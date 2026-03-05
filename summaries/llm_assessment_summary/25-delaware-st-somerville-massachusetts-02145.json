@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent purchaser is an owner-occupant performing a minor electrical service upgrade rather than high-end renovations or whole-house work."
-  }
+  },
+  "lat": 42.386134277278,
+  "lng": -71.090182313272
 }

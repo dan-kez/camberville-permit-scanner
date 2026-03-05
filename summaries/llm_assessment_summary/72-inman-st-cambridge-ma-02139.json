@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The renovation involves a simultaneous full-scale kitchen and multiple bathroom update alongside comprehensive exterior and interior work, characteristic of high-end pre-sale preparation."
-  }
+  },
+  "lat": 42.370748,
+  "lng": -71.102222
 }

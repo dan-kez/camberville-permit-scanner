@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A $700,000 full-scale conversion from a multi-family to a single-family dwelling immediately following a recent purchase indicates a massive high-end repositioning typical of a professional flip."
-  }
+  },
+  "lat": 42.370675,
+  "lng": -71.102646
 }

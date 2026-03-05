@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The long-term owner-occupant is performing a major basement renovation and system upgrades rather than the comprehensive kitchen and multi-bathroom updates typical of a high-end sale preparation."
-  }
+  },
+  "lat": 42.372607,
+  "lng": -71.108927
 }

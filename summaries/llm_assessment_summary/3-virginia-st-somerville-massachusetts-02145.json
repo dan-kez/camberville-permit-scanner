@@ -37,5 +37,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single permit covers a low-cost electrical service upgrade rather than cosmetic or structural changes associated with a sale preparation flip."
-  }
+  },
+  "lat": 42.386340262548,
+  "lng": -71.09115721243
 }

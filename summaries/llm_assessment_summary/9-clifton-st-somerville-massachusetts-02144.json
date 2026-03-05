@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit reflects necessary maintenance and waterproofing work (bulkhead and basement stairs replacement) by an owner-occupant, rather than high-end 'prep-for-sale' renovations."
-  }
+  },
+  "lat": 42.396713664009,
+  "lng": -71.117571774459
 }

@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent 2023 purchase followed by owner-occupied functional improvements like laundry and electrical upgrades suggests a new owner settling in rather than preparing for a near-term sale."
-  }
+  },
+  "lat": 42.390033748182,
+  "lng": -71.095931963574
 }

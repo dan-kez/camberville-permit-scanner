@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has been held by the same owner for over 35 years and the only recent permit is for a minor electrical service upgrade, which is consistent with routine maintenance rather than sale preparation."
-  }
+  },
+  "lat": 42.399312892183,
+  "lng": -71.12266277481
 }

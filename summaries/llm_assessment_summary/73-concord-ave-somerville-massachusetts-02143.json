@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent work is limited to exterior deck replacement and minor electrical updates by an owner-occupant who purchased the property relatively recently in 2021."
-  }
+  },
+  "lat": 42.376602418896,
+  "lng": -71.100237747235
 }

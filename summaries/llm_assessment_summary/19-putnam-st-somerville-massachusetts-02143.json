@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for minor maintenance (chimney removal) by an owner-occupant who purchased the property relatively recently in 2021."
-  }
+  },
+  "lat": 42.383740280002,
+  "lng": -71.098315860656
 }

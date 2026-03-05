@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied by long-term residents of over 25 years and the only recent permits are for a minor solar installation rather than pre-sale renovations."
-  }
+  },
+  "lat": 42.390535069811,
+  "lng": -71.105302176953
 }

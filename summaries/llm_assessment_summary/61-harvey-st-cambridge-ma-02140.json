@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A long-term owner-occupant (since 2009) is adding a small second-floor addition, which likely indicates investment in their primary residence rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.397352,
+  "lng": -71.132346
 }

@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Recent permits are for minor maintenance and owner-occupied skylight installations rather than the high-end renovations typically associated with property flipping or sale preparation."
-  }
+  },
+  "lat": 42.386321738542,
+  "lng": -71.106617213742
 }

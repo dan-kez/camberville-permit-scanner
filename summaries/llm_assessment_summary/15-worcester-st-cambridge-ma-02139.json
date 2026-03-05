@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a massive $361,345 full-gut renovation including a total reframe, new layout, and attic conversion, which are definitive indicators of a whole-house modernization for sale."
-  }
+  },
+  "lat": 42.366777,
+  "lng": -71.099257
 }

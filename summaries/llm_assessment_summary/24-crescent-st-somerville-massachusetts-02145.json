@@ -37,5 +37,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The likelihood is low because the permit cost is minimal and the work is structural waterproofing rather than a cosmetic renovation."
-  }
+  },
+  "lat": 42.382811104126,
+  "lng": -71.080340282563
 }

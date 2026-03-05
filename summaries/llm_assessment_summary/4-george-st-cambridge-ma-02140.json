@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The simultaneous $100,000 renovation of the kitchen and expansion of a bathroom by a long-term owner-occupant represents a significant value-add project often associated with property preparation."
-  }
+  },
+  "lat": 42.396511,
+  "lng": -71.133561
 }

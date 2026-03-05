@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The minor electrical work for an office and gym by a long-term owner-occupant indicates personal use rather than a prep-for-sale renovation."
-  }
+  },
+  "lat": 42.394845798796,
+  "lng": -71.115586353054
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit describes exterior maintenance and repair work by a long-term owner-occupant, which fits the criteria for typical property upkeep rather than high-end interior renovations."
-  }
+  },
+  "lat": 42.359011,
+  "lng": -71.1075
 }

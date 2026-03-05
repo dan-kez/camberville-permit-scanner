@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The long-term owner-occupant is performing minor structural repairs and a small mudroom addition rather than high-end kitchen or multiple bathroom renovations."
-  }
+  },
+  "lat": 42.393390616585,
+  "lng": -71.109678955334
 }

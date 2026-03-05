@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A single demolition permit for a residence with owner-occupancy and relatively recent ownership (8 years) suggests minor maintenance or a specific repair rather than a full-scale renovation for sale."
-  }
+  },
+  "lat": 42.378594210548,
+  "lng": -71.10047973278
 }

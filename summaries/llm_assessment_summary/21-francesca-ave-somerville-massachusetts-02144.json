@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent permits are for infrastructure maintenance (electrical upgrade and HVAC) performed by an owner-occupant who purchased the property relatively recently in 2021."
-  }
+  },
+  "lat": 42.398506134003,
+  "lng": -71.118861497901
 }

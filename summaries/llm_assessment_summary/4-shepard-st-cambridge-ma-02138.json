@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "A significant $250,000 structural renovation to lower the basement slab following a recent purchase indicates a major value-add project, though the owner-occupied status and lack of explicit kitchen or bathroom updates keep the likelihood at medium."
-  }
+  },
+  "lat": 42.38162,
+  "lng": -71.120442
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent activity is a minor bathroom plumbing permit by an owner-occupant who purchased the property in 2023."
-  }
+  },
+  "lat": 42.397592883742,
+  "lng": -71.119265589453
 }

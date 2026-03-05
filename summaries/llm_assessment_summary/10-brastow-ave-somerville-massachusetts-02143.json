@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property was recently purchased in late 2023 and the relatively low-cost renovations are being performed by an owner-occupant, indicating post-sale improvements rather than preparation for a new listing."
-  }
+  },
+  "lat": 42.388517713355,
+  "lng": -71.109839636418
 }

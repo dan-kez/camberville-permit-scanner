@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a significant $520,000 whole-house renovation, which is a critical indicator for high-end preparation for sale despite being owner-occupied."
-  }
+  },
+  "lat": 42.388583,
+  "lng": -71.126313
 }

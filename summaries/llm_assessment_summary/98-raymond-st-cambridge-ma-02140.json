@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing simultaneous full-scale renovations to the kitchen and multiple bathrooms, which is a primary indicator for high-likelihood preparation for sale."
-  }
+  },
+  "lat": 42.385886,
+  "lng": -71.1268
 }

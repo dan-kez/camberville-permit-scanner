@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A long-term owner-occupant of 24 years performing significant system upgrades and partial bathroom renovations without a kitchen update suggests personal residence improvement rather than sale preparation."
-  }
+  },
+  "lat": 42.380158,
+  "lng": -71.123232
 }

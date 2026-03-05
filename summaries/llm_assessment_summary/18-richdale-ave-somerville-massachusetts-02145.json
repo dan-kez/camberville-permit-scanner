@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single permit for an electrical service upgrade by a long-term owner-occupant is standard maintenance and does not suggest a preparation for sale."
-  }
+  },
+  "lat": 42.389059100481,
+  "lng": -71.098398506222
 }

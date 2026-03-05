@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Long-term owner-occupant (12+ years) performing lifestyle-focused remodeling of a playroom and laundry room rather than high-impact kitchen or bathroom updates associated with prepping for sale."
-  }
+  },
+  "lat": 42.360184,
+  "lng": -71.112607
 }

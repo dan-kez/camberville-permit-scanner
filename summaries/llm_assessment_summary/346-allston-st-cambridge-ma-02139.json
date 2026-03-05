@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the renovations (office conversion and basement stairwell improvements) appear to be functional lifestyle updates rather than the high-end kitchen and bathroom flips typical of a sale preparation."
-  }
+  },
+  "lat": 42.361265,
+  "lng": -71.113017
 }

@@ -37,5 +37,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single, low-cost permit for a minor AC repair, combined with the lack of recent sales (last sale in 1999), indicates maintenance rather than a major renovation for resale."
-  }
+  },
+  "lat": 42.382703815765,
+  "lng": -71.092281896198
 }

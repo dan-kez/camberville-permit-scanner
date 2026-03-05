@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only permit is for a minor $150 siding repair performed by the owner-occupant, which constitutes basic maintenance rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.383294278934,
+  "lng": -71.086027906782
 }

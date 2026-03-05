@@ -88,5 +88,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a massive three-level addition alongside a simultaneous full-scale renovation of the kitchen and six bathrooms, which are primary indicators for preparing a high-value asset for sale."
-  }
+  },
+  "lat": 42.40372210853,
+  "lng": -71.127220686119
 }

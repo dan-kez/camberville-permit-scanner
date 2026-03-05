@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for routine attic and wall insulation maintenance by a long-term owner-occupant who purchased the property in 2022."
-  }
+  },
+  "lat": 42.39028935432,
+  "lng": -71.104639168412
 }

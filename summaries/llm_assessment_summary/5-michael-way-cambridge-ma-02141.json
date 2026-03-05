@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single bathroom renovation by an owner-occupant who has owned the property since 2022 suggests a personal update rather than the high-end, multi-room renovations or non-owner occupancy associated with preparation for sale."
-  }
+  },
+  "lat": 42.369501,
+  "lng": -71.089174
 }

@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work consists of minor exterior updates and necessary electrical maintenance by a very long-term owner-occupant (40+ years) with no signs of significant interior renovations."
-  }
+  },
+  "lat": 42.384069521159,
+  "lng": -71.099695605738
 }

@@ -37,5 +37,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The structural conversion of a 2-family to a single-family indicates a value-add renovation intended to increase property value for a future sale."
-  }
+  },
+  "lat": 42.395244023015,
+  "lng": -71.111196917999
 }

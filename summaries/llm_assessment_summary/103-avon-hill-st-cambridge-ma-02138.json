@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A long-term owner-occupant of over 30 years performing a single kitchen remodel without concurrent bathroom updates is characteristic of personal property improvement rather than sale preparation."
-  }
+  },
+  "lat": 42.386111,
+  "lng": -71.125332
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The long-term owner-occupant is performing standard roof maintenance with no evidence of the high-end interior renovations typical of a pre-sale preparation."
-  }
+  },
+  "lat": 42.395527959985,
+  "lng": -71.112970361073
 }

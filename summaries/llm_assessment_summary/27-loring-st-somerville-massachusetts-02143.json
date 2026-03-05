@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the only recent permit is for minor electrical work to a detached garage, which represents routine maintenance rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.383608684122,
+  "lng": -71.103320611223
 }

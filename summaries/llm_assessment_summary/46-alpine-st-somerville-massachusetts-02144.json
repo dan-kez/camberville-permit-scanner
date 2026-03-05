@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Long-term owner-occupant with only a single, low-cost maintenance permit for a gas test and no evidence of significant renovations."
-  }
+  },
+  "lat": 42.393251393173,
+  "lng": -71.109209317299
 }

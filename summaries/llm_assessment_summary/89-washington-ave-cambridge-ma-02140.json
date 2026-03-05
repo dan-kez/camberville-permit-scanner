@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit is limited to routine window and door replacement by an owner-occupant, which is classified as maintenance work rather than a high-end renovation for sale."
-  }
+  },
+  "lat": 42.386387,
+  "lng": -71.123949
 }

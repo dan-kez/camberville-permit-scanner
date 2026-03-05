@@ -112,5 +112,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a comprehensive whole-house renovation including simultaneous kitchen and multiple bathroom updates across all floors immediately following its recent purchase in late 2023."
-  }
+  },
+  "lat": 42.382501476622,
+  "lng": -71.097940267575
 }

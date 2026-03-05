@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "This is a single-permit renovation for a specific room conversion by an owner-occupant, which lacks the comprehensive kitchen/bath updates typical of a pre-sale flip."
-  }
+  },
+  "lat": 42.358873,
+  "lng": -71.100702
 }

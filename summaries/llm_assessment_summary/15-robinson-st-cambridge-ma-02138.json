@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied by long-term owners and the permits focus on basement finishing and water damage repairs rather than the high-end kitchen and bathroom updates typically associated with sale preparation."
-  }
+  },
+  "lat": 42.38379,
+  "lng": -71.126276
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for owner-occupied window replacement without structural changes, which is consistent with maintenance rather than a high-end pre-sale renovation."
-  }
+  },
+  "lat": 42.378747,
+  "lng": -71.120917
 }

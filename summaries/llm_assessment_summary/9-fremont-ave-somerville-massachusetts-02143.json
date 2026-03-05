@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The minor bathroom updates and additions by a long-term owner-occupant are consistent with personal property improvement rather than a high-end preparation for sale."
-  }
+  },
+  "lat": 42.378587714573,
+  "lng": -71.100348388357
 }

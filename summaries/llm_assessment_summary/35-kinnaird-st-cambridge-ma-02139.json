@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A $649,000 complete gut renovation and conversion from a two-family to a single-family residence is a major whole-house project typically designed for a high-end market sale."
-  }
+  },
+  "lat": 42.365728,
+  "lng": -71.10923
 }

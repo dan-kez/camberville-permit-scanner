@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "Simultaneous full-scale kitchen renovation, bathroom remodeling, and the addition of a new bathroom after 40 years of ownership indicates significant preparation for sale."
-  }
+  },
+  "lat": 42.39984992072,
+  "lng": -71.122166566142
 }

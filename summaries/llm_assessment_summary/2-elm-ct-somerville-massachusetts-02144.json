@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A single minor shower stall replacement by a long-term owner-occupant is consistent with basic maintenance rather than a comprehensive renovation for sale."
-  }
+  },
+  "lat": 42.396680597401,
+  "lng": -71.121212118827
 }

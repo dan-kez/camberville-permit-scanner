@@ -37,5 +37,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single permit describes minor window replacement with no structural changes at a very low cost ($420), indicating routine maintenance rather than a significant renovation intended for resale."
-  }
+  },
+  "lat": 42.375805216085,
+  "lng": -71.100232634274
 }

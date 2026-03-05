@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The renovation includes a comprehensive suite of aesthetic updates\u2014kitchen and bath refreshes plus floor refinishing and painting\u2014which are typical pre-sale improvements, although it is currently owner-occupied."
-  }
+  },
+  "lat": 42.385752,
+  "lng": -71.118839
 }

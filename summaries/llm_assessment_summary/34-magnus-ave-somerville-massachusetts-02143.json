@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The property was converted from a two-family to a single-family home by a relatively recent owner, suggesting a significant structural optimization that often precedes a resale or high-end repositioning."
-  }
+  },
+  "lat": 42.378019379628,
+  "lng": -71.103302841589
 }

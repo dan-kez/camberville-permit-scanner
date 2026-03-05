@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Recent permits for a wheelchair lift and accessibility deck by a long-term owner-occupant suggest modifications for aging-in-place rather than preparation for sale."
-  }
+  },
+  "lat": 42.395134890636,
+  "lng": -71.125369626621
 }

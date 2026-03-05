@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent single permit for water damage remediation by an owner-occupant suggests emergency maintenance rather than a strategic pre-sale renovation."
-  }
+  },
+  "lat": 42.364281,
+  "lng": -71.108069
 }

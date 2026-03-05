@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a $622,000 full-scale gut renovation and occupancy change including simultaneous kitchen and bathroom updates, which are critical indicators of high-end preparation for sale."
-  }
+  },
+  "lat": 42.384011,
+  "lng": -71.130996
 }

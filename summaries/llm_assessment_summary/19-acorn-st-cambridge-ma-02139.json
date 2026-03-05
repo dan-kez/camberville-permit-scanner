@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The extremely high permit cost of $450,000 for a single-family renovation indicates a comprehensive whole-house gut project, which is a primary indicator for preparing a property for sale."
-  }
+  },
+  "lat": 42.357465,
+  "lng": -71.109375
 }

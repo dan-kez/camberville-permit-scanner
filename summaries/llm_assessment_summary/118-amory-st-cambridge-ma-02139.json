@@ -41,5 +41,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The property has undergone significant renovations including four bathrooms and a finished basement, which suggests a major refresh for sale despite being owner-occupied and lacking a kitchen remodel."
-  }
+  },
+  "lat": 42.371884,
+  "lng": -71.100115
 }

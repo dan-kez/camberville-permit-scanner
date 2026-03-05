@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property recently sold in April 2024 and the owner-occupied permit for bathroom and HVAC upgrades likely indicates a new owner's move-in renovation rather than a pre-sale flip."
-  }
+  },
+  "lat": 42.396959,
+  "lng": -71.127466
 }

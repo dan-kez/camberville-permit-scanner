@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the single moderate-cost demo permit from 2023 lacks the high-end renovation indicators or non-owner status typical for a property being prepared for sale."
-  }
+  },
+  "lat": 42.376296,
+  "lng": -71.110413
 }

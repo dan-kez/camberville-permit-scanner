@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the only recorded permit is for minor electrical maintenance and small updates following a recent 2023 purchase."
-  }
+  },
+  "lat": 42.383164652802,
+  "lng": -71.103634345859
 }

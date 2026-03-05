@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "Simultaneous kitchen and bathroom remodels combined with painting the entire house after sixteen years of ownership strongly indicates a significant whole-house update intended for market preparation."
-  }
+  },
+  "lat": 42.390371790338,
+  "lng": -71.092930487866
 }

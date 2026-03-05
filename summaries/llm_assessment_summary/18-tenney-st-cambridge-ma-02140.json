@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The renovation is limited to a single bathroom and cosmetic updates by an owner-occupant, lacking the high-end multi-room or non-owner occupancy indicators of a prep-for-sale project."
-  }
+  },
+  "lat": 42.392838,
+  "lng": -71.120874
 }

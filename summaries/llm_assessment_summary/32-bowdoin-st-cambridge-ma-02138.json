@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The renovation is limited to bathrooms and is being performed by an owner-occupant, lacking the simultaneous kitchen updates or non-owner occupancy associated with a high likelihood of sale preparation."
-  }
+  },
+  "lat": 42.383574,
+  "lng": -71.121251
 }

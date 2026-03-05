@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The renovation is a minor single-bathroom and laundry refresh with a very low reported cost by a long-term owner-occupant of 13 years."
-  }
+  },
+  "lat": 42.383205682218,
+  "lng": -71.097051199105
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The owner-occupied status and recent 2022 purchase suggest a major structural addition and exterior renovation for personal use rather than a 'prep-for-sale' project."
-  }
+  },
+  "lat": 42.385626,
+  "lng": -71.1247
 }

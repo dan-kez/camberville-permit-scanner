@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A long-term owner-occupant of 15 years is performing a single bathroom renovation, which is classified as a minor update rather than a high-end prep-for-sale project."
-  }
+  },
+  "lat": 42.396659558824,
+  "lng": -71.125673135335
 }

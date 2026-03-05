@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The minor utility maintenance work (capping lines) by a long-term owner-occupant (12+ years) does not indicate a prep-for-sale renovation."
-  }
+  },
+  "lat": 42.384737391204,
+  "lng": -71.089710831218
 }

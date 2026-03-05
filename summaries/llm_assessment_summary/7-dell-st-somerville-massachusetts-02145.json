@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for minor, low-cost weatherization by a long-term owner-occupant, which is typical maintenance rather than preparation for sale."
-  }
+  },
+  "lat": 42.383003091618,
+  "lng": -71.088092537172
 }

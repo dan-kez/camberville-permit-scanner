@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The project involves only a single bathroom remodel by a recent owner-occupant, which is a common minor update rather than a full-scale 'prep-for-sale' renovation."
-  }
+  },
+  "lat": 42.391518267054,
+  "lng": -71.111697820533
 }

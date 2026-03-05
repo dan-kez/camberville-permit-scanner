@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing significant 'whole house' renovations including a 275 sq ft addition, a new dormer, and basement excavation, which meets the criteria for high-likelihood work even for a long-term owner."
-  }
+  },
+  "lat": 42.395308228394,
+  "lng": -71.113638147299
 }

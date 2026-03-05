@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A full gut renovation and conversion from a two-family to a single-family home by a development LLC shortly after a recent purchase strongly suggests a professional flip for resale."
-  }
+  },
+  "lat": 42.392533357438,
+  "lng": -71.114592426976
 }

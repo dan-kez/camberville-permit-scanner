@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a nearly $1 million 'major renovation' by an LLC contractor, representing a full-scale gut project typical of a high-end flip or preparation for resale."
-  }
+  },
+  "lat": 42.398927,
+  "lng": -71.133387
 }

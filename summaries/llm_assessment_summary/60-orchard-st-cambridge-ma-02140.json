@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The renovation involves significant structural work and a high-cost kitchen update ($285k), but the owner-occupied status and lack of simultaneous bathroom renovations do not meet the specific criteria for a high-likelihood classification."
-  }
+  },
+  "lat": 42.391994,
+  "lng": -71.121374
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work is limited to maintenance (window replacement) by a long-term owner-occupant of nearly 30 years, indicating standard home upkeep rather than preparation for sale."
-  }
+  },
+  "lat": 42.392235003594,
+  "lng": -71.111140004877
 }

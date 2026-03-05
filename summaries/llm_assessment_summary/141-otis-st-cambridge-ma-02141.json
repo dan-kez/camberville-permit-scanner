@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The recent $100 property transfer followed immediately by a substantial $184,800 third-floor expansion suggests a major value-add project, although the owner-occupied status indicates it may be for personal use."
-  }
+  },
+  "lat": 42.370997,
+  "lng": -71.084638
 }

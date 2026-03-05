@@ -48,5 +48,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits indicate a minor solar panel installation rather than a major renovation, and the cost is insignificant relative to the property's assessed value."
-  }
+  },
+  "lat": 42.397852303645,
+  "lng": -71.122666881943
 }

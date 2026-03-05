@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is undergoing a single kitchen refresh by a long-term owner-occupant of over 11 years, which is categorized as a minor update rather than a high-end preparation for sale."
-  }
+  },
+  "lat": 42.38891551848,
+  "lng": -71.107469318019
 }

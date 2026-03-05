@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the only recent permit is for a minor emergency electrical repair, which indicates routine maintenance rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.396590994856,
+  "lng": -71.109121391135
 }

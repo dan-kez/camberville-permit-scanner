@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A comprehensive $634,000 gut renovation and mechanical overhaul of a small single-family property after 20 years of ownership is a strong indicator of preparation for a high-value sale."
-  }
+  },
+  "lat": 42.376359,
+  "lng": -71.11053
 }

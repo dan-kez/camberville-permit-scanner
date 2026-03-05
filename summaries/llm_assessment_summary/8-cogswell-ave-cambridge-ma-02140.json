@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The simultaneous renovation of the kitchen and all three bathrooms (half, master, and full) represents a comprehensive, high-end update highly consistent with preparation for sale."
-  }
+  },
+  "lat": 42.39129,
+  "lng": -71.124353
 }

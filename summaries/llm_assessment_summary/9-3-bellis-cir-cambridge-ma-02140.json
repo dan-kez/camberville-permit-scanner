@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The long-term owner-occupant (since 2001) is performing maintenance-heavy work (windows) and a minor bathroom update rather than a full-scale renovation."
-  }
+  },
+  "lat": 42.389934,
+  "lng": -71.132957
 }

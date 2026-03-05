@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property was recently purchased and is undergoing simultaneous kitchen and multiple bathroom renovations, which are primary indicators for high-end preparation for sale."
-  }
+  },
+  "lat": 42.400429780781,
+  "lng": -71.123787793854
 }

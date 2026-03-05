@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The updates represent minor refreshes by a long-term owner-occupant, and the low permit costs combined with no sale activity two years after the work suggest personal use rather than sale preparation."
-  }
+  },
+  "lat": 42.398971581086,
+  "lng": -71.122481725701
 }

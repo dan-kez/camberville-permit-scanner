@@ -48,5 +48,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The last sale date of 2021 indicates the property has been held for several years, and the scope of work is limited to a basement remodel rather than a full renovation."
-  }
+  },
+  "lat": 42.400777713582,
+  "lng": -71.128797657382
 }

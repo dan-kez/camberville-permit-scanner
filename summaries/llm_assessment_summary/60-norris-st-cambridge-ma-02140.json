@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a massive $484,000 full-gut renovation and structural kitchen extension, representing a total transformation of the small 1,007 sq ft residence."
-  }
+  },
+  "lat": 42.394813,
+  "lng": -71.130551
 }

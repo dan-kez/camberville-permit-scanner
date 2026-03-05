@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits describe extremely minor, low-cost improvements by a recent owner-occupant rather than the significant renovations associated with preparing a property for sale."
-  }
+  },
+  "lat": 42.377275192354,
+  "lng": -71.106191664518
 }

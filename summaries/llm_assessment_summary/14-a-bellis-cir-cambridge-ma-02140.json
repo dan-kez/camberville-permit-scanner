@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit is limited to maintenance-related replacement of windows and doors by an owner-occupant, with no evidence of kitchen or bathroom updates."
-  }
+  },
+  "lat": 42.389704,
+  "lng": -71.133427
 }

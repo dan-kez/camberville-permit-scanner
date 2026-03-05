@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent permits are limited to HVAC and electrical maintenance by a long-term owner-occupant, with no evidence of kitchen, bathroom, or whole-house renovations."
-  }
+  },
+  "lat": 42.385000960149,
+  "lng": -71.091544372538
 }

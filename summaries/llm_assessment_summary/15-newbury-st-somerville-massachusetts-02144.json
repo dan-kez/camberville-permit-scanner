@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recorded permits are for a routine furnace replacement by an owner-occupant, which is categorized as standard maintenance rather than a preparation for sale."
-  }
+  },
+  "lat": 42.402570015938,
+  "lng": -71.127839438211
 }

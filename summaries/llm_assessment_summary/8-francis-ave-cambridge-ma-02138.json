@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The long-term owner-occupant is performing a single maintenance-focused deck replacement rather than high-end interior renovations."
-  }
+  },
+  "lat": 42.377755,
+  "lng": -71.111378
 }

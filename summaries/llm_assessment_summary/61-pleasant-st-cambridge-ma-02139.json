@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A $1.7 million gut renovation and addition on a property held for over 13 years constitutes significant 'Whole House' work that strongly indicates preparation for a high-end market listing."
-  }
+  },
+  "lat": 42.363209,
+  "lng": -71.109327
 }

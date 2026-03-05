@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property was purchased in mid-2023 and is undergoing a $1.1M total redevelopment into two new townhomes, which strongly indicates a professional development project intended for sale."
-  }
+  },
+  "lat": 42.38093,
+  "lng": -71.118667
 }

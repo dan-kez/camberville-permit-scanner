@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits consist entirely of window replacement maintenance work by an owner-occupant, with no evidence of kitchen, bathroom, or whole-house renovations."
-  }
+  },
+  "lat": 42.384539,
+  "lng": -71.117157
 }

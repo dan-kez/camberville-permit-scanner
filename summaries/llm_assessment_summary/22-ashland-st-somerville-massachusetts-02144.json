@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit reflects routine exterior maintenance (porch repair) by a long-term owner-occupant rather than the high-end interior renovations associated with preparing a property for sale."
-  }
+  },
+  "lat": 42.38999762218,
+  "lng": -71.114617740323
 }

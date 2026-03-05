@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent work is limited to minor exterior maintenance (porch and deck remodeling) by a long-term owner-occupant, with no indications of high-end interior renovations."
-  }
+  },
+  "lat": 42.392612398785,
+  "lng": -71.115787686368
 }

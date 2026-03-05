@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits reflect maintenance and energy improvements (balcony repair and solar installation) by a recent owner-occupant rather than high-end interior renovations."
-  }
+  },
+  "lat": 42.388666240679,
+  "lng": -71.087115877814
 }

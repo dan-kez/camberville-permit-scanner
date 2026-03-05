@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The simultaneous remodel of the kitchen and bathroom combined with a full electrical service upgrade indicates a significant property rejuvenation consistent with sale preparation, though the long-term owner-occupancy suggests it could also be for personal use."
-  }
+  },
+  "lat": 42.391663441617,
+  "lng": -71.113836630766
 }

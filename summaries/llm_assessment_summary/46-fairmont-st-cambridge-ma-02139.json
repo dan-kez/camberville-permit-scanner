@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent simultaneous high-end renovations to the kitchen and multiple bathrooms totaling over $229,000, which is a critical indicator for prep-for-sale activity."
-  }
+  },
+  "lat": 42.36204,
+  "lng": -71.111561
 }

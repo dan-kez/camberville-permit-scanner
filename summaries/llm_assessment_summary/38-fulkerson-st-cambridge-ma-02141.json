@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the renovation is limited to a kitchen and flooring refresh without the simultaneous bathroom updates characteristic of a high-end pre-sale preparation."
-  }
+  },
+  "lat": 42.370839,
+  "lng": -71.087054
 }

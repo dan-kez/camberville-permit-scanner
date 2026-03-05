@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single permit describes high-end exterior landscaping (walls and gate) by an owner-occupant, which lacks the comprehensive interior renovations or non-owner occupancy typically indicative of sale preparation."
-  }
+  },
+  "lat": 42.384766,
+  "lng": -71.125834
 }

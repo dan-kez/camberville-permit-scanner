@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Recent permits are limited to solar panel installation and minor electrical maintenance by a long-term owner-occupant, which aligns with maintenance rather than pre-sale renovation."
-  }
+  },
+  "lat": 42.388097486639,
+  "lng": -71.099093282176
 }

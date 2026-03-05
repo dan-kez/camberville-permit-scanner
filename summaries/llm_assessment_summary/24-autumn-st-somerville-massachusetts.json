@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit is for standard window replacement maintenance by a long-term owner-occupant of 25 years with no signs of high-end renovations."
-  }
+  },
+  "lat": 42.388213995094,
+  "lng": -71.087529692374
 }

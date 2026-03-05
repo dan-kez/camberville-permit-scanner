@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent activity is a minor $80 emergency bathroom repair by a long-term owner-occupant, which is consistent with routine maintenance rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.385063740604,
+  "lng": -71.096923710358
 }

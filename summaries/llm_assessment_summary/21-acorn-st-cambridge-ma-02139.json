@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The permit for a new single-family home construction on a property held for over 25 years represents a total redevelopment, which is a critical indicator for preparing a property for sale."
-  }
+  },
+  "lat": 42.357457,
+  "lng": -71.109429
 }

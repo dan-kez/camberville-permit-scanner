@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied by a long-term resident (22+ years) who is performing a targeted expansion and basement finish rather than the full-scale kitchen and multiple-bathroom renovations typical of sale preparation."
-  }
+  },
+  "lat": 42.392631,
+  "lng": -71.131825
 }

@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the permits focus on minor maintenance and interior repairs rather than high-end kitchen or bathroom renovations."
-  }
+  },
+  "lat": 42.391953287829,
+  "lng": -71.109527326706
 }

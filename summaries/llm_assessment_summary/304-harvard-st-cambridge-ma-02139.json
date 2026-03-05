@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the single permit for a roof deck suggests a personal lifestyle improvement rather than the high-end interior renovations typical of a property being prepared for sale."
-  }
+  },
+  "lat": 42.369749,
+  "lng": -71.106217
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "High-value 'gut to studs' kitchen and half-bath renovation by a long-term owner-occupant (10+ years) suggests a major update that could precede a sale, though it lacks the full-scale multi-bathroom renovation typical of high-likelihood flips."
-  }
+  },
+  "lat": 42.383765,
+  "lng": -71.120741
 }

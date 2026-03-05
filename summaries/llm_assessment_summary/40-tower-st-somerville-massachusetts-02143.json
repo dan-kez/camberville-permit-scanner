@@ -136,5 +136,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a simultaneous full-scale renovation of the kitchen and three bathrooms, including a complete house rewire and floor refinishing, which strongly indicates high-end preparation for sale."
-  }
+  },
+  "lat": 42.389187972243,
+  "lng": -71.109418194326
 }

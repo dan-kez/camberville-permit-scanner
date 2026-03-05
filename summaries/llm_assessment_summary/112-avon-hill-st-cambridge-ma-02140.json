@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The renovation is a kitchen and single bathroom refresh by a long-term owner-occupant (20+ years), which typically indicates personal maintenance rather than preparation for sale."
-  }
+  },
+  "lat": 42.386437,
+  "lng": -71.125203
 }

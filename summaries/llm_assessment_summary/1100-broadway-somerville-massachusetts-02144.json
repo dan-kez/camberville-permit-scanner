@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits are exclusively for finishing a solar panel installation and associated electrical panel upgrade by an owner-occupant, which is maintenance work rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.402528693156,
+  "lng": -71.126130619611
 }

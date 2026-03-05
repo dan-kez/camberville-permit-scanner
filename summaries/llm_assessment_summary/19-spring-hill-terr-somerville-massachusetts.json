@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits indicate minor porch repairs and HVAC installation by a long-term owner-occupant, lacking the major kitchen or bathroom renovations typical of sale preparation."
-  }
+  },
+  "lat": 42.38839177526,
+  "lng": -71.107825297447
 }

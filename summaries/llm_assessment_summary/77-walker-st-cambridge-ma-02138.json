@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The property is undergoing a major $328,000 structural expansion and kitchen renovation by a relatively recent owner, which adds significant value but lacks the non-owner status or multiple bathroom updates characteristic of a high-likelihood flip."
-  }
+  },
+  "lat": 42.380801,
+  "lng": -71.122775
 }

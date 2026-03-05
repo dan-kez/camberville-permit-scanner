@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property was purchased in April 2024 and a massive $263,000 whole-house renovation permit was pulled just one month later, which is a strong indicator of a professional 'fix and flip' being prepared for sale."
-  }
+  },
+  "lat": 42.377317,
+  "lng": -71.106558
 }

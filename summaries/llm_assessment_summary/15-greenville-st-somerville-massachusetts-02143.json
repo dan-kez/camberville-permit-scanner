@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Maintenance-focused work (boiler and water heater replacement) by a long-term owner-occupant suggests upkeep rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.383054053589,
+  "lng": -71.092412234793
 }

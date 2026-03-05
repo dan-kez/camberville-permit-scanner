@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent 2024 purchase and owner-occupied status suggest these moderate renovations are standard move-in improvements rather than preparations for a near-term resale."
-  }
+  },
+  "lat": 42.386791,
+  "lng": -71.124169
 }

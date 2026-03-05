@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent permits are limited to routine maintenance and utility upgrades by an owner-occupant, with no indications of high-end renovations or whole-house updates."
-  }
+  },
+  "lat": 42.384013362408,
+  "lng": -71.099733575759
 }

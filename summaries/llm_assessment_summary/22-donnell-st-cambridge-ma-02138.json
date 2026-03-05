@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "This is a single-component kitchen refresh by a long-term owner-occupant of 15 years, which lacks the simultaneous multi-room updates characteristic of a pre-sale flip."
-  }
+  },
+  "lat": 42.384339,
+  "lng": -71.131805
 }

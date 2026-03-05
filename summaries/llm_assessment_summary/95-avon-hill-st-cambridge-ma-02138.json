@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a total interior gut of all walls, ceilings, and floors after 24 years of ownership, which meets the criteria for significant whole-house work indicating a potential sale."
-  }
+  },
+  "lat": 42.385848,
+  "lng": -71.125207
 }

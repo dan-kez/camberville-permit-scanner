@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The property is undergoing a significant $213,800 attic expansion and roof lift which adds substantial value, but the owner-occupied status and 4-year ownership period don't clearly meet the high-likelihood flip or low-likelihood maintenance criteria."
-  }
+  },
+  "lat": 42.401469,
+  "lng": -71.135104
 }

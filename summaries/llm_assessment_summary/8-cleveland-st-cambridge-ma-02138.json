@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a comprehensive $700,000 renovation involving a full kitchen gut and multiple bathroom updates, which matches the primary indicator for high-end preparation for sale."
-  }
+  },
+  "lat": 42.371609,
+  "lng": -71.109734
 }

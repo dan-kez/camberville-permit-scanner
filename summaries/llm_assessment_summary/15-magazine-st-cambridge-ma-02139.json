@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the work appears to be move-in renovations followed by maintenance window updates spread over three years of ownership."
-  }
+  },
+  "lat": 42.364268,
+  "lng": -71.105587
 }

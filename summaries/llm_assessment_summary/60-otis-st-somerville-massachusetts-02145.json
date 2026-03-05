@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit describes standard maintenance work (roof, chimney, and gutters) by a long-term owner-occupant of over 25 years."
-  }
+  },
+  "lat": 42.388061318727,
+  "lng": -71.090432093987
 }

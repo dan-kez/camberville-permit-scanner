@@ -88,5 +88,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The owner-occupied property underwent a significant structural basement renovation including lowering the floor and adding a kitchenette and bathroom, which are substantial value-add improvements despite being limited to a single level."
-  }
+  },
+  "lat": 42.401103099064,
+  "lng": -71.129149864954
 }

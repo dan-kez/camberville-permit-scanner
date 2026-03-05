@@ -88,5 +88,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The long-term owner-occupant is performing a kitchen and powder room refresh along with personal upgrades like a roof deck, which is consistent with personal improvement rather than a preparation for sale."
-  }
+  },
+  "lat": 42.396011847256,
+  "lng": -71.114007873048
 }

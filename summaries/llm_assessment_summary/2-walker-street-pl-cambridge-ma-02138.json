@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "This is a single bathroom remodel by a long-term owner-occupant, which is characteristic of a personal home improvement rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.379546,
+  "lng": -71.123886
 }

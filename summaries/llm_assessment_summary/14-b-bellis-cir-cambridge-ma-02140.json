@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work consists solely of owner-occupied window replacement, which is classified as maintenance rather than a high-end prep-for-sale renovation."
-  }
+  },
+  "lat": 42.389538,
+  "lng": -71.133456
 }

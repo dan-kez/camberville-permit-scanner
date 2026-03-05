@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single electrical permit for minor demo and foundation grounding by a long-term owner-occupant (16+ years) represents basic maintenance or a small isolated project rather than a high-end renovation for sale."
-  }
+  },
+  "lat": 42.38929555397,
+  "lng": -71.096122987147
 }

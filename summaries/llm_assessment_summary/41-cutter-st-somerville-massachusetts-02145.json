@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent permits indicate minor maintenance and utility upgrades by a long-term owner-occupant rather than high-end renovations or comprehensive prep-for-sale work."
-  }
+  },
+  "lat": 42.385982061916,
+  "lng": -71.084569539449
 }

@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit represents an emergency repair to a porch damaged by a tree fall on an owner-occupied property, consistent with necessary maintenance rather than sale preparation."
-  }
+  },
+  "lat": 42.398735,
+  "lng": -71.130782
 }

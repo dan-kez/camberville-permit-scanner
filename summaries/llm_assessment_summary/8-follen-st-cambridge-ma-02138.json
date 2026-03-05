@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied by a long-term resident of 30 years and the permit reflects a single bathroom renovation and window replacement rather than a full-scale flip."
-  }
+  },
+  "lat": 42.378403,
+  "lng": -71.1223
 }

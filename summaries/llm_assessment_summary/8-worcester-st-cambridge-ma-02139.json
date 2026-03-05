@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A full gut remodel costing $893,550 on a property purchased in late 2022 suggests a major renovation for resale, despite being listed as owner-occupied."
-  }
+  },
+  "lat": 42.366493,
+  "lng": -71.098777
 }

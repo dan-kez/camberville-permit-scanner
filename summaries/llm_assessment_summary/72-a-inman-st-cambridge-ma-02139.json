@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "A significant $244,330 second-floor renovation involving layout changes and bathroom relocation by an owner-occupant represents a major update but lacks the kitchen renovation or non-owner occupancy indicators for high likelihood."
-  }
+  },
+  "lat": 42.370834,
+  "lng": -71.10228
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for routine maintenance (window replacement) by a long-term owner-occupant of over 25 years."
-  }
+  },
+  "lat": 42.381052,
+  "lng": -71.126491
 }

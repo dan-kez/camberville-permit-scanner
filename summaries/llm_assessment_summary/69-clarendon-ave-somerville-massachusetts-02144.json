@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "Recent acquisition in late 2023 followed by a full single-to-three-family conversion project by a development LLC strongly indicates a major project intended for sale."
-  }
+  },
+  "lat": 42.401700142027,
+  "lng": -71.130007668925
 }

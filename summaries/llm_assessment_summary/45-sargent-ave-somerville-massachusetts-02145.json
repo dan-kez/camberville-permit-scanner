@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a comprehensive gut rehab including a kitchen remodel and updates to multiple bathrooms across all floors, which is a critical indicator for high likelihood despite long-term ownership."
-  }
+  },
+  "lat": 42.389938152577,
+  "lng": -71.092764693821
 }

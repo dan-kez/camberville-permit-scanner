@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A massive $620,000 renovation including a kitchen and four bathroom projects immediately following a 2024 purchase strongly suggests a high-end property flip."
-  }
+  },
+  "lat": 42.369484,
+  "lng": -71.088998
 }

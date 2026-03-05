@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits describe minor electrical modernizations like an EV charger and battery backup prep by a long-term owner-occupant, which aligns with maintenance rather than sale preparation."
-  }
+  },
+  "lat": 42.39640449751,
+  "lng": -71.112903305848
 }

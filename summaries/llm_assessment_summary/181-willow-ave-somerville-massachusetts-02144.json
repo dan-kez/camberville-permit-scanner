@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent permits for windows, weatherization, and electrical service following a 2023 purchase indicate owner-occupant maintenance and energy efficiency improvements rather than a preparation for sale."
-  }
+  },
+  "lat": 42.39681483358,
+  "lng": -71.114742882138
 }

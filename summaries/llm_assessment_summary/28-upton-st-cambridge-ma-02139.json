@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The significant renovation occurred immediately after the October 2023 purchase by an owner-occupant, indicating move-in improvements rather than preparation for a new sale."
-  }
+  },
+  "lat": 42.362921,
+  "lng": -71.108834
 }

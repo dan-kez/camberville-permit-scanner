@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent work is a routine boiler replacement by a long-term owner-occupant, with no evidence of cosmetic or scale renovations."
-  }
+  },
+  "lat": 42.380755987196,
+  "lng": -71.093299962158
 }

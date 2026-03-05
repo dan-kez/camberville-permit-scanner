@@ -88,5 +88,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing significant whole-house renovation including a roof expansion and multiple bathroom updates by a long-term owner, which matches critical indicators for high likelihood of sale preparation."
-  }
+  },
+  "lat": 42.391813980598,
+  "lng": -71.10970871109
 }

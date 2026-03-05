@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for a minor rear deck rebuild by an owner-occupant who purchased the property in 2019, which is consistent with routine maintenance rather than a pre-sale flip."
-  }
+  },
+  "lat": 42.386119818495,
+  "lng": -71.10695676464
 }

@@ -100,5 +100,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a complete gut and remodel including simultaneous updates to the kitchen and five bathrooms shortly after purchase, which are critical indicators of high-end preparation for sale."
-  }
+  },
+  "lat": 42.389586657467,
+  "lng": -71.090699644336
 }

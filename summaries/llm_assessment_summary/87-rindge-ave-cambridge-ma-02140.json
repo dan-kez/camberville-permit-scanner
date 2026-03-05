@@ -41,5 +41,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The property has undergone sequential major renovations to both a master bathroom and the kitchen within a two-year period, representing a systematic update of key resale areas despite being owner-occupied."
-  }
+  },
+  "lat": 42.392926,
+  "lng": -71.128427
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent minor exterior maintenance of a front deck by an owner-occupant following a nominal transfer is consistent with routine property upkeep rather than a high-end pre-sale renovation."
-  }
+  },
+  "lat": 42.362244,
+  "lng": -71.106852
 }

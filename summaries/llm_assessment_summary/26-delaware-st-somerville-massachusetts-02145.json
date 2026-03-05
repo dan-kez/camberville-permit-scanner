@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Minor maintenance (replacing two doors) by a long-term owner-occupant (13+ years) is not indicative of preparation for sale."
-  }
+  },
+  "lat": 42.385922508494,
+  "lng": -71.09034785586
 }

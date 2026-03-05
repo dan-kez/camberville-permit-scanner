@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for routine roof maintenance by an owner-occupant, with no evidence of the high-end interior renovations typical of a property being prepared for sale."
-  }
+  },
+  "lat": 42.398537733778,
+  "lng": -71.122812727058
 }

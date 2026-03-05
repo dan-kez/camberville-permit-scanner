@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property was recently purchased and is undergoing a massive $1.7M full-gut renovation and conversion to a single-family home, a strong indicator of high-end redevelopment for resale."
-  }
+  },
+  "lat": 42.362827,
+  "lng": -71.106127
 }

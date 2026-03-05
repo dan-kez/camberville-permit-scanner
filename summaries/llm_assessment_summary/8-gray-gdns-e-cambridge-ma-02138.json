@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit indicates minor bathroom and powder room refreshes by an owner-occupant rather than the full-scale multi-room renovations or non-owner occupancy typical of a property being flipped or prepared for sale."
-  }
+  },
+  "lat": 42.384276,
+  "lng": -71.126412
 }

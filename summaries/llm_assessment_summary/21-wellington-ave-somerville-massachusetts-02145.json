@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work consists of minor basement updates by a long-term owner-occupant and lacks the high-end kitchen or bathroom renovations typical of a property being prepared for sale."
-  }
+  },
+  "lat": 42.389429371054,
+  "lng": -71.090383646586
 }

@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the work is limited to a single bathroom addition rather than the simultaneous kitchen and multi-bathroom renovations typically seen in sale preparations."
-  }
+  },
+  "lat": 42.383179614499,
+  "lng": -71.088087005116
 }

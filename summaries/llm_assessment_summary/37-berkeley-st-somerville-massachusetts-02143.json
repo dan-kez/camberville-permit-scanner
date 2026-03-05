@@ -100,5 +100,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property was purchased in mid-2023 and immediately followed by a conversion from a 2-family to a single-family home including a full gut remodel and basement expansion, indicating a major value-add redevelopment for resale."
-  }
+  },
+  "lat": 42.386416118772,
+  "lng": -71.101663760423
 }

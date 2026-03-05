@@ -88,5 +88,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a comprehensive gut renovation including a new foundation, 'wiring a new house', and simultaneous updates to the kitchen and three bathrooms following a recent acquisition."
-  }
+  },
+  "lat": 42.391223475519,
+  "lng": -71.11641859222
 }

@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The long-term owner is performing significant value-add work by adding a kitchen, bedroom, and bathroom in the basement while simultaneously remodeling an existing bathroom."
-  }
+  },
+  "lat": 42.39003655612,
+  "lng": -71.090724538588
 }

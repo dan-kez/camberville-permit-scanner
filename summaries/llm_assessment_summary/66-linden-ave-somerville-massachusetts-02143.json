@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Long-term owner-occupant since 2002 performing minor attic and second floor improvements rather than high-end kitchen or bathroom renovations."
-  }
+  },
+  "lat": 42.390417220253,
+  "lng": -71.112496615906
 }

@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits describe high-cost structural foundation repairs and historic window restoration on an owner-occupied property, which aligns with long-term maintenance rather than a kitchen/bathroom-focused pre-sale renovation."
-  }
+  },
+  "lat": 42.385437,
+  "lng": -71.122852
 }

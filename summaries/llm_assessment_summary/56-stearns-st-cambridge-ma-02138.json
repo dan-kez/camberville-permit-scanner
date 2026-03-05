@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A massive $750k renovation involving a full gut of the kitchen and multiple bathrooms plus a two-story addition after 11 years of ownership fits the critical indicators for high-end preparation for sale."
-  }
+  },
+  "lat": 42.385892,
+  "lng": -71.129684
 }

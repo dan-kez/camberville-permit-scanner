@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work is limited to a single window replacement permit by a long-term owner-occupant, which is a standard maintenance task rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.396831,
+  "lng": -71.127332
 }

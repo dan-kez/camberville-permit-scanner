@@ -48,5 +48,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits cover only boiler and water heater replacements at a total cost of only $120, indicating routine maintenance rather than a significant renovation."
-  }
+  },
+  "lat": 42.394256299545,
+  "lng": -71.122795963251
 }

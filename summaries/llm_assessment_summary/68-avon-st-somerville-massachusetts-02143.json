@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the permits indicate minor additions such as a half-bath and screened-in porch rather than the simultaneous high-end kitchen and multiple bathroom renovations characteristic of preparing for sale."
-  }
+  },
+  "lat": 42.386155064398,
+  "lng": -71.103750351399
 }

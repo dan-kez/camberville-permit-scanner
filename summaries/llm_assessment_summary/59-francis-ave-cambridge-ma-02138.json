@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A massive $1.4M renovation of multiple kitchens and bathrooms immediately following a property transfer strongly indicates a high-end developer flip."
-  }
+  },
+  "lat": 42.381099,
+  "lng": -71.112275
 }

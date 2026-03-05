@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work is limited to a minor kitchen refresh and electrical service upgrade by a long-term owner-occupant, which lacks the multi-room scale or non-owner occupancy typical of preparing for a sale."
-  }
+  },
+  "lat": 42.385447170765,
+  "lng": -71.084562163374
 }

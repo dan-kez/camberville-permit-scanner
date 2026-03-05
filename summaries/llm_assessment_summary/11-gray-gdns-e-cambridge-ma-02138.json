@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The owner-occupied property has been held for 10 years and the single active permit is for an exterior portico rather than a high-end interior renovation."
-  }
+  },
+  "lat": 42.384557,
+  "lng": -71.127094
 }

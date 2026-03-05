@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single permit for a minor electrical service upgrade by an owner-occupant does not indicate a significant renovation for resale."
-  }
+  },
+  "lat": 42.390018032114,
+  "lng": -71.09232414099
 }

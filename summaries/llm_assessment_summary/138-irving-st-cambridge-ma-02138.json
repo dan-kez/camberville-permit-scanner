@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a massive $6 million gut renovation including a new addition, garage, and pool, representing a total transformation of the estate often seen in high-end 'prep-for-sale' projects."
-  }
+  },
+  "lat": 42.381037,
+  "lng": -71.11103
 }

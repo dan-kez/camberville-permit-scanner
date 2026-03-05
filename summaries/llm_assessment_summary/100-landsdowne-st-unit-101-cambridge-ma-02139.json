@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for essential repairs following a water leak rather than elective high-end renovations or significant property updates."
-  }
+  },
+  "lat": 42.359997,
+  "lng": -71.100953
 }

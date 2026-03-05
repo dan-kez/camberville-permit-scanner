@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits consist only of solar installation and a minor electrical service upgrade by a long-term owner-occupant, which is characteristic of maintenance rather than preparation for sale."
-  }
+  },
+  "lat": 42.405563067834,
+  "lng": -71.127852430161
 }

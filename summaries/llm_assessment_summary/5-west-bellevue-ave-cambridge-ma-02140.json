@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property was recently purchased for personal use (Feb 2024) and the permit explicitly states the new owners are renovating to 'settle in' and improve the home for their own enjoyment."
-  }
+  },
+  "lat": 42.385671,
+  "lng": -71.127139
 }

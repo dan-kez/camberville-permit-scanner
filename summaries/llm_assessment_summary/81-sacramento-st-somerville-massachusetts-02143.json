@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Long-term owner-occupant performing only minor weatherization and electrical maintenance work with no signs of major renovations."
-  }
+  },
+  "lat": 42.383117253139,
+  "lng": -71.112781181518
 }

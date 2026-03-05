@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The property is undergoing a massive $1.3 million whole-house remodel shortly after its 2022 purchase, but the owner-occupied status suggests it may be a personal residence upgrade rather than a professional flip."
-  }
+  },
+  "lat": 42.386871,
+  "lng": -71.126438
 }

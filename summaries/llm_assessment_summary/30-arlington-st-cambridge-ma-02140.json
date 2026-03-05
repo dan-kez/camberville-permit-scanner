@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit focuses on extensive exterior maintenance and restoration (siding, roof, trim) by a long-term owner-occupant rather than high-end interior renovations like kitchens or bathrooms."
-  }
+  },
+  "lat": 42.386126,
+  "lng": -71.121968
 }

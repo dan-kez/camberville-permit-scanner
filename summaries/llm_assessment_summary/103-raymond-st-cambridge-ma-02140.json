@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The long-term owner-occupant is performing a simultaneous kitchen remodel and bathroom addition, which are key resale improvements, though the inclusion of a sauna suggests potential personal use."
-  }
+  },
+  "lat": 42.386158,
+  "lng": -71.1267
 }

@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a complete teardown and new single-family construction following a full interior renovation, meeting the criteria for significant whole-house work by a long-term owner."
-  }
+  },
+  "lat": 42.392973365445,
+  "lng": -71.109321131888
 }

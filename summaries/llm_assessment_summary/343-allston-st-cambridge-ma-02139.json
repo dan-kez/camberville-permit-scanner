@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A $650,000 gut renovation and conversion from a single-family to a two-family structure by an investment-named contractor indicates a major value-add project typically intended for resale or high-end investment."
-  }
+  },
+  "lat": 42.361332,
+  "lng": -71.11273
 }

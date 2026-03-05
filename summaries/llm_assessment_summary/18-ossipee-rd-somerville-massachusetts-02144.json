@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits describe a single bathroom renovation and skylight installation by an owner-occupant, which fits the profile of a minor residential update rather than a comprehensive prep-for-sale project."
-  }
+  },
+  "lat": 42.403138769978,
+  "lng": -71.122599994355
 }

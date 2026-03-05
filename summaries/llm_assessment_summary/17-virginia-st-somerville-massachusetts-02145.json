@@ -100,5 +100,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "Significant simultaneous kitchen and bathroom renovations combined with window replacements indicate a major property update, though owner-occupancy and the focus on a single bathroom suggest personal residence improvement."
-  }
+  },
+  "lat": 42.386552785703,
+  "lng": -71.091847462157
 }

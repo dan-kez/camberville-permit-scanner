@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The renovation cost is high at $177,483, but the work is limited to a basement remodel and fireplace installation by an owner-occupant rather than the simultaneous kitchen and multiple bathroom updates typical of a pre-sale flip."
-  }
+  },
+  "lat": 42.371583,
+  "lng": -71.102033
 }

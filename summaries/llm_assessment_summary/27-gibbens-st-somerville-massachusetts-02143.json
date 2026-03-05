@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits reflect minor maintenance work including an electrical service update and the completion of a solar installation by an owner-occupant, rather than high-end renovations."
-  }
+  },
+  "lat": 42.388519264007,
+  "lng": -71.105259764523
 }

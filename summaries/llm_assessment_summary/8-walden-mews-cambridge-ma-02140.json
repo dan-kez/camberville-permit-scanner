@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The renovation is a single kitchen facelift by a long-term owner-occupant, which aligns with standard home maintenance rather than a comprehensive prep-for-sale project."
-  }
+  },
+  "lat": 42.387926,
+  "lng": -71.127213
 }

@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The $507,000 full gut renovation of both the interior and exterior, including foundation work to increase ceiling height, indicates a total property overhaul consistent with preparing a home for market."
-  }
+  },
+  "lat": 42.381501,
+  "lng": -71.117801
 }

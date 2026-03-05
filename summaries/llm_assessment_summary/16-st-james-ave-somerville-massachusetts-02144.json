@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work consists of minor exterior maintenance (deck repair) by a long-term owner-occupant, which is a maintenance indicator rather than a prep-for-sale renovation."
-  }
+  },
+  "lat": 42.392479042705,
+  "lng": -71.119102729074
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a significant $158,057 interior gut renovation including the removal of all partitions, flooring, and millwork, which is a critical indicator of a major prep-for-sale project."
-  }
+  },
+  "lat": 42.369028,
+  "lng": -71.109926
 }

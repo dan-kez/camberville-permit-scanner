@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The conversion of the property from a two-family to a single-family home by a real estate contractor within three years of purchase represents a major value-add renovation typical of a high-end resale strategy."
-  }
+  },
+  "lat": 42.394816587863,
+  "lng": -71.115463222896
 }

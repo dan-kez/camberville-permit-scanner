@@ -112,5 +112,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A complete gut renovation involving simultaneous kitchen and multiple bathroom updates immediately following a 2023 purchase at a low price point strongly indicates a high-end flip or prep-for-sale project."
-  }
+  },
+  "lat": 42.374634264211,
+  "lng": -71.098537645814
 }

@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent permits are limited to minor exterior maintenance (siding) by a long-term owner-occupant, which is a key indicator for low likelihood of sale preparation."
-  }
+  },
+  "lat": 42.38997080009,
+  "lng": -71.093963222156
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the permit is limited to a single kitchen refresh rather than the comprehensive multi-room renovations typically associated with preparing a home for sale."
-  }
+  },
+  "lat": 42.391281,
+  "lng": -71.126184
 }

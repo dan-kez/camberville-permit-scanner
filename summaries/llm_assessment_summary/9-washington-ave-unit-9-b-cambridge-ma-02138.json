@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The $166,500 project involves a comprehensive renovation of the unit's kitchen, bathroom, flooring, and paint, representing a significant value-add despite being owner-occupied."
-  }
+  },
+  "lat": 42.384311,
+  "lng": -71.122647
 }

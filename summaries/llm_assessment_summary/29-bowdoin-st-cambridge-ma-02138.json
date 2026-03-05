@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "While the $448,000 cost and gut renovation of the master bathroom and kitchen are significant, the property is owner-occupied and the project involves only a single bathroom refresh."
-  }
+  },
+  "lat": 42.383283,
+  "lng": -71.121346
 }

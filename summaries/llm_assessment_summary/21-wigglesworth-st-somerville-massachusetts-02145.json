@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits are for minor maintenance and weatherization by an owner-occupant with no significant renovations or 'gut' work."
-  }
+  },
+  "lat": 42.387861577975,
+  "lng": -71.091276151636
 }

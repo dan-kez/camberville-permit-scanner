@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent permits reflect only minor electrical maintenance and service upgrades by a long-term owner-occupant rather than high-end renovations."
-  }
+  },
+  "lat": 42.387202550837,
+  "lng": -71.08369941408
 }

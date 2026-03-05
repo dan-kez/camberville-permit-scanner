@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "Simultaneous full-scale kitchen and multiple bathroom renovations costing over $250,000 after 27 years of ownership indicate significant whole-house work consistent with preparation for sale."
-  }
+  },
+  "lat": 42.359095,
+  "lng": -71.109833
 }

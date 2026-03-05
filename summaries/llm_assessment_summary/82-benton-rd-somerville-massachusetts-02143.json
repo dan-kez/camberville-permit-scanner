@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits reflect standard maintenance and system upgrades (roof, HVAC, and electrical) by a long-term owner-occupant without any indication of high-end cosmetic renovations."
-  }
+  },
+  "lat": 42.389696879494,
+  "lng": -71.105051306591
 }

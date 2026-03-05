@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A single kitchen remodel by a long-term owner-occupant of 24 years is consistent with a lifestyle update rather than a professional flip or immediate preparation for sale."
-  }
+  },
+  "lat": 42.357944,
+  "lng": -71.113375
 }

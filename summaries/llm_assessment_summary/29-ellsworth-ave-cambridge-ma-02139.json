@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The massive $743k renovation involving multiple bathroom remodels and structural attic expansion shortly after a 2023 purchase represents a significant whole-house value-add typical of a high-end flip."
-  }
+  },
+  "lat": 42.374153,
+  "lng": -71.106416
 }

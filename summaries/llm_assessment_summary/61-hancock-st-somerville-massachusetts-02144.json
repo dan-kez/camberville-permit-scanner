@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for minor weatherization and air sealing by a long-term owner-occupant, with no structural changes or high-end renovations indicated."
-  }
+  },
+  "lat": 42.392046787959,
+  "lng": -71.115395664757
 }

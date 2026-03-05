@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Long-term owner-occupant (26+ years) performing standard window maintenance with no evidence of high-end kitchen or bathroom renovations."
-  }
+  },
+  "lat": 42.363156,
+  "lng": -71.106457
 }

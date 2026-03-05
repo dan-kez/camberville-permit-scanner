@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The massive $446,461 third-floor addition by a long-term owner of 13 years represents a significant whole-house overhaul that aligns with high-end preparation for a market exit."
-  }
+  },
+  "lat": 42.393146,
+  "lng": -71.129116
 }

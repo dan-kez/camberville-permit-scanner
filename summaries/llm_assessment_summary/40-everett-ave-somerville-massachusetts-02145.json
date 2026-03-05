@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit is for an owner-occupied addition and garage following a recent purchase, suggesting a homeowner is expanding their primary residence for personal use."
-  }
+  },
+  "lat": 42.387067853653,
+  "lng": -71.089833542281
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and was recently transferred for $1, suggesting the $334,000 third-floor expansion is a personal renovation rather than a professional flip or prep-for-sale project."
-  }
+  },
+  "lat": 42.382462,
+  "lng": -71.114874
 }

@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits focus exclusively on exterior maintenance (roof and deck) for an owner-occupied property, lacking the high-end interior renovations typical of pre-sale preparation."
-  }
+  },
+  "lat": 42.370059,
+  "lng": -71.1064
 }

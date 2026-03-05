@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits indicate system maintenance and minor upgrades, such as rewiring and HVAC installation, by an owner-occupant rather than the full-scale aesthetic renovations typical of a property being flipped for sale."
-  }
+  },
+  "lat": 42.392861928042,
+  "lng": -71.122564371267
 }

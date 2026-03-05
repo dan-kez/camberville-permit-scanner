@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A single bathroom addition in an owner-occupied home with six years of ownership is more likely a personal improvement than a high-end pre-sale renovation."
-  }
+  },
+  "lat": 42.365028,
+  "lng": -71.110708
 }

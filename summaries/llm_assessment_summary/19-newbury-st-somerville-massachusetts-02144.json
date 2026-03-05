@@ -100,5 +100,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits describe a single basement bathroom addition and HVAC improvements by a long-term owner-occupant, typical of standard home maintenance and lifestyle upgrades."
-  }
+  },
+  "lat": 42.402471444757,
+  "lng": -71.127952593904
 }

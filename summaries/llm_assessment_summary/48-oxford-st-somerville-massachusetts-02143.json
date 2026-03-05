@@ -112,5 +112,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the renovations are limited to a single kitchen remodel and structural chimney removal following a 2023 purchase, suggesting personal improvements rather than a professional flip for sale."
-  }
+  },
+  "lat": 42.38679196331,
+  "lng": -71.101369974716
 }

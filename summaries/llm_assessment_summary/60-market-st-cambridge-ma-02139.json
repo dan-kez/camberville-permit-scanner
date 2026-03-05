@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The substantial $298,950 cost and structural expansion to add a third floor represent a major value-add project, though owner-occupancy and mid-term ownership suggest the work could be for personal use rather than an immediate sale."
-  }
+  },
+  "lat": 42.369048,
+  "lng": -71.097257
 }

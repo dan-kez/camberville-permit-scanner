@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The long-term owner-occupant is performing structural foundation work rather than the comprehensive kitchen and bathroom renovations typical of a property being prepared for sale."
-  }
+  },
+  "lat": 42.363984,
+  "lng": -71.113681
 }

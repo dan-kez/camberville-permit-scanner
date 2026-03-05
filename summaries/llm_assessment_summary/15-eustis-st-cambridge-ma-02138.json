@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit involves a single bathroom renovation by an owner-occupant, which is consistent with personal maintenance rather than a comprehensive preparation for sale."
-  }
+  },
+  "lat": 42.383644,
+  "lng": -71.115371
 }

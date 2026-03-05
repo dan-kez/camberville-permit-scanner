@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property was recently purchased in early 2024 and is undergoing an exhaustive $2.9M full-house gut renovation, which is a definitive indicator of a high-end redevelopment intended for resale."
-  }
+  },
+  "lat": 42.356993,
+  "lng": -71.110807
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "Significant kitchen and bathroom renovations following a recent title transfer are strong indicators of preparation for sale, although owner-occupancy and the single bathroom scope suggest it could be for personal use."
-  }
+  },
+  "lat": 42.39452,
+  "lng": -71.135095
 }

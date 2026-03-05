@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent permits are exclusively for owner-occupied solar panel installation, which is a long-term efficiency upgrade rather than a prep-for-sale renovation."
-  }
+  },
+  "lat": 42.38764125965,
+  "lng": -71.088358830236
 }

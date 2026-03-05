@@ -100,5 +100,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a comprehensive gut renovation and attic expansion starting just two months after its 2023 purchase, which is a primary indicator of a major project intended for resale."
-  }
+  },
+  "lat": 42.387119360448,
+  "lng": -71.109949020254
 }

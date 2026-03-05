@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a simultaneous full-scale kitchen remodel and multiple bathroom renovations in 2023, which are primary indicators for high-end preparation for sale."
-  }
+  },
+  "lat": 42.387119150901,
+  "lng": -71.0853043809
 }

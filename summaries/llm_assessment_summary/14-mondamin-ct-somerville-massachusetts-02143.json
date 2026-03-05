@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits consist of owner-occupied HVAC and solar installations, which are long-term efficiency investments rather than the high-end aesthetic renovations typical of a property being prepared for sale."
-  }
+  },
+  "lat": 42.38152863103,
+  "lng": -71.109443340036
 }

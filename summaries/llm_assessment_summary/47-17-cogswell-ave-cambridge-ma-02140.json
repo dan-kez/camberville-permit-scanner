@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the renovation is limited to the kitchen and partition walls, failing to meet the high-likelihood criteria of simultaneous multi-room updates or non-owner occupancy."
-  }
+  },
+  "lat": 42.389985,
+  "lng": -71.126676
 }

@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits indicate minor maintenance and a small exterior update by an owner-occupant rather than the comprehensive interior renovations typically seen in preparation for a sale."
-  }
+  },
+  "lat": 42.391047287914,
+  "lng": -71.107721026571
 }

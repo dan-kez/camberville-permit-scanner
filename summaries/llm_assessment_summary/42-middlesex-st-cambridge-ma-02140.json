@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit for a $45,405 deck extension and door replacement is a common lifestyle improvement for an owner-occupant and lacks the significant interior renovations typical of a property being prepared for sale."
-  }
+  },
+  "lat": 42.392226,
+  "lng": -71.130622
 }

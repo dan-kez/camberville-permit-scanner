@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "While the dual bathroom remodel is a significant update, the owner-occupied status and lack of a kitchen renovation suggest a high-end refresh rather than a definitive flip or prep-for-sale."
-  }
+  },
+  "lat": 42.398456596955,
+  "lng": -71.120714401417
 }

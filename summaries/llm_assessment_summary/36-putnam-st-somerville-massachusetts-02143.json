@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The long-term owner-occupant is performing substantial bathroom and laundry renovations, but the absence of a kitchen renovation suggests personal home improvement rather than a preparation for sale."
-  }
+  },
+  "lat": 42.384608477533,
+  "lng": -71.098198346374
 }

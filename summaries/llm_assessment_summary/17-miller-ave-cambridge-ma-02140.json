@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property was purchased in December 2023 for a low price and immediately underwent a $522,000 full renovation, which is a classic indicator of a high-end fix-and-flip project."
-  }
+  },
+  "lat": 42.392593,
+  "lng": -71.120583
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property was purchased only three months prior to the permit and is owner-occupied, suggesting the significant $158k in renovations are for a new owner's move-in rather than preparing for an imminent resale."
-  }
+  },
+  "lat": 42.389868,
+  "lng": -71.132911
 }

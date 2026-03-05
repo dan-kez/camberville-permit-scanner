@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The significant $475,000 'whole house' modernization of the building envelope, mechanical systems, and interior spaces after 30 years of ownership is a strong indicator of a property being prepared for a high-value sale."
-  }
+  },
+  "lat": 42.367909,
+  "lng": -71.109436
 }

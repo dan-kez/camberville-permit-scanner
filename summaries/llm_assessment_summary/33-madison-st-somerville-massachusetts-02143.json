@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The owner-occupied status, long-term ownership since 2014, and maintenance-focused permits for a rear deck and electrical upgrade indicate standard home upkeep rather than a high-end renovation for sale."
-  }
+  },
+  "lat": 42.388365497993,
+  "lng": -71.09991269703
 }

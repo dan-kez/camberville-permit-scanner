@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit activity is for solar panel installation by an owner-occupant, which is a maintenance/efficiency upgrade rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.39365510754,
+  "lng": -71.122921859437
 }

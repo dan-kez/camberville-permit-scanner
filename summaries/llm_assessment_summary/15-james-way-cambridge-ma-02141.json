@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "This is a single bathroom upgrade by a long-term owner-occupant (10+ years), which is a minor update consistent with lifestyle improvement rather than sale preparation."
-  }
+  },
+  "lat": 42.370115,
+  "lng": -71.088722
 }

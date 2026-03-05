@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The renovation is very significant ($316k) and involves structural additions like a dormer and second-story infill, but the property is owner-occupied and was purchased relatively recently in 2020."
-  }
+  },
+  "lat": 42.367493,
+  "lng": -71.092076
 }

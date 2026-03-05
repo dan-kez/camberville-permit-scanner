@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a comprehensive $154,000 full-scale remodel of the kitchen, bathrooms, flooring, and systems shortly after a 2022 ownership transfer, meeting the primary criteria for high-end preparation for sale."
-  }
+  },
+  "lat": 42.370816,
+  "lng": -71.101681
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for a minor $60 gas leak repair by an owner-occupant, which constitutes routine maintenance rather than sale preparation."
-  }
+  },
+  "lat": 42.390313871387,
+  "lng": -71.092786654408
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The property underwent a significant two-story addition after 8+ years of ownership, which adds substantial value, but the owner-occupied status and lack of simultaneous kitchen/bath renovations suggest it may be for personal use rather than a definitive flip."
-  }
+  },
+  "lat": 42.361909,
+  "lng": -71.112268
 }

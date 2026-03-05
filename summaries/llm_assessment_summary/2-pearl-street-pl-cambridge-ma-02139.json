@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for a $29,000 deck rebuild by an owner-occupant, which constitutes maintenance or a minor improvement rather than a comprehensive renovation for sale."
-  }
+  },
+  "lat": 42.356817,
+  "lng": -71.110324
 }

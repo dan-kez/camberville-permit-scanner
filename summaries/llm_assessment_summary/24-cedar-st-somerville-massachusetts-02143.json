@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Recent window and deck replacements by a long-term owner-occupant are consistent with standard property maintenance rather than high-end pre-sale renovations."
-  }
+  },
+  "lat": 42.389094933117,
+  "lng": -71.114828461369
 }

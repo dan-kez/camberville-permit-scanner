@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Long-term owner-occupant (since 1996) performing standard roof maintenance with no evidence of major interior renovations."
-  }
+  },
+  "lat": 42.382317829124,
+  "lng": -71.082581268196
 }

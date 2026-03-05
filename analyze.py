@@ -54,6 +54,8 @@ def _build_summary_record(address, permits, properties):
     
     return {
         "address": address,
+        "lat": p0.get("lat"),
+        "lng": p0.get("lng"),
         "google_maps_url": google_maps_url,
         "zillow_url": zillow_url,
         "google_search_url": google_search_url,

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is a long-term owner-occupied residence performing bathroom updates without the concurrent kitchen renovations or non-owner occupancy typical of a pre-sale flip."
-  }
+  },
+  "lat": 42.38585,
+  "lng": -71.124804
 }

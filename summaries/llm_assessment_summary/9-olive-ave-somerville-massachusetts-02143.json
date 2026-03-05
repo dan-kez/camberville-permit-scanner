@@ -100,5 +100,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property was purchased in October 2023 and immediately underwent a full gut renovation and structural addition, which is a classic indicator of a professional flip or major redevelopment for resale."
-  }
+  },
+  "lat": 42.388774786326,
+  "lng": -71.112722927291
 }

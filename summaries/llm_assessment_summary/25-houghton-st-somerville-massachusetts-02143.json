@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the renovations are limited to a single bathroom and mudroom, which is consistent with typical homeowner maintenance rather than a comprehensive pre-sale flip."
-  }
+  },
+  "lat": 42.374939197849,
+  "lng": -71.09849816705
 }

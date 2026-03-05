@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The recent high-cost gut renovation of the kitchen and bathroom by a short-term owner indicates significant value-add typical of sale preparation, though the owner-occupied status moderates the likelihood."
-  }
+  },
+  "lat": 42.355924,
+  "lng": -71.107707
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The owner is performing a significant interior reconfiguration by adding a bedroom and a half-bath to a very small living area, which increases resale value, though it lacks the kitchen renovation and non-owner occupancy status associated with high-likelihood flips."
-  }
+  },
+  "lat": 42.390031,
+  "lng": -71.13163
 }

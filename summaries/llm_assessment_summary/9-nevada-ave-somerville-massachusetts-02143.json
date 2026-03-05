@@ -100,5 +100,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work consists of owner-occupied HVAC upgrades and a single-room kitchen refresh rather than the comprehensive multi-room renovations typical of a property being prepared for sale."
-  }
+  },
+  "lat": 42.380478252834,
+  "lng": -71.105387420908
 }

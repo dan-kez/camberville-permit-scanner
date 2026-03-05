@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property was purchased recently in July 2023 and is undergoing a massive $1.15M full-scale renovation of the kitchen and multiple bathrooms, which is a primary indicator for a high-end prep-for-sale project."
-  }
+  },
+  "lat": 42.384474,
+  "lng": -71.120858
 }

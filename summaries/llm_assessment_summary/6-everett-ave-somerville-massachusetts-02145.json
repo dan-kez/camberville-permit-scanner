@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has been owned by the same occupant for over 30 years and recent permit activity is limited exclusively to solar installations, which are efficiency upgrades rather than prep-for-sale renovations."
-  }
+  },
+  "lat": 42.386442354129,
+  "lng": -71.087828339584
 }

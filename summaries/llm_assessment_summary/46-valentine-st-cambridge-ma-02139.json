@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The owner-occupied property is undergoing a significant $84,150 renovation of multiple bathrooms after nine years of ownership, but it lacks the kitchen updates or layout changes typically associated with high-likelihood prep-for-sale projects."
-  }
+  },
+  "lat": 42.360693,
+  "lng": -71.106704
 }

@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work consists of minor bathroom updates and maintenance (windows/chimney removal) by a very long-term owner-occupant who has held the property since 1991."
-  }
+  },
+  "lat": 42.385051670664,
+  "lng": -71.090252385982
 }

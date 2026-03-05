@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits indicate minor maintenance and mold-related repairs by an owner-occupant rather than significant renovations."
-  }
+  },
+  "lat": 42.375984379265,
+  "lng": -71.104841172278
 }

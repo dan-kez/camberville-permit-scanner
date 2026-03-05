@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits are exclusively for solar installation and an electrical service upgrade by a long-term owner-occupant, which are typical long-term investments rather than prep-for-sale renovations."
-  }
+  },
+  "lat": 42.381484123124,
+  "lng": -71.109382235962
 }

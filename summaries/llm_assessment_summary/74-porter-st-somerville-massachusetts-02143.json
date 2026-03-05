@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has only undergone routine roof maintenance and skylight repairs on an owner-occupied residence, which are classified as low-likelihood maintenance indicators."
-  }
+  },
+  "lat": 42.389713894757,
+  "lng": -71.111561698425
 }

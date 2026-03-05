@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Minor maintenance work including siding repair and an electrical point reattachment by a long-term owner-occupant of over 30 years indicates routine upkeep rather than preparation for sale."
-  }
+  },
+  "lat": 42.382497285671,
+  "lng": -71.099221776751
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit involves a single basement renovation by an owner-occupant and the recent $1 sale price indicates a nominal title transfer rather than a market-ready flip."
-  }
+  },
+  "lat": 42.367861,
+  "lng": -71.092051
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The major renovation was initiated immediately after the 2023 purchase by the owner-occupant, indicating a personal move-in renovation rather than a flip or pre-sale preparation."
-  }
+  },
+  "lat": 42.385439,
+  "lng": -71.124962
 }

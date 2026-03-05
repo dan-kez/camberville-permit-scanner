@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the permits describe an addition and window replacements completed over two years ago, which suggests long-term improvement rather than a rapid pre-sale renovation."
-  }
+  },
+  "lat": 42.385477471345,
+  "lng": -71.084767184725
 }

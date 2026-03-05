@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit involves exterior maintenance, painting, and drainage repairs for an owner-occupied property, which align with routine upkeep rather than high-end interior renovations."
-  }
+  },
+  "lat": 42.384475,
+  "lng": -71.121813
 }

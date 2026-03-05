@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "Simultaneous kitchen and bathroom renovations by an owner-occupant suggest significant value-add work beyond routine maintenance, though it lacks the 'multiple bathrooms' or 'non-owner occupied' indicators typically associated with a high-likelihood flip."
-  }
+  },
+  "lat": 42.398764464259,
+  "lng": -71.11950824555
 }

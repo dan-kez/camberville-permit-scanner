@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The property is undergoing a $1.7M total reconstruction following fire damage, which constitutes significant whole-house work despite the 41-year owner occupancy."
-  }
+  },
+  "lat": 42.381241,
+  "lng": -71.111374
 }

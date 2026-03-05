@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "A long-term owner-occupant is performing significant back-to-back renovations on both the kitchen and a bathroom, which frequently precedes a listing, though the phased timing and owner-occupied status temper the likelihood."
-  }
+  },
+  "lat": 42.370452,
+  "lng": -71.089209
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A comprehensive gut renovation including an elevator and basement excavation initiated just seven months after a recent sale strongly indicates a value-add flip intended for resale."
-  }
+  },
+  "lat": 42.370841,
+  "lng": -71.094824
 }

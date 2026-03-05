@@ -88,5 +88,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a comprehensive conversion from a 2-family to a single-family residence, including simultaneous full-scale renovations of the kitchen and multiple bathrooms."
-  }
+  },
+  "lat": 42.382463674239,
+  "lng": -71.097530057234
 }

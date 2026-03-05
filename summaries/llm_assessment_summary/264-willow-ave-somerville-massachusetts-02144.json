@@ -88,5 +88,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a massive whole-house renovation including a complete kitchen relayout and 4.5 bathrooms immediately following its 2023 purchase, which is characteristic of a high-end flip."
-  }
+  },
+  "lat": 42.399531785585,
+  "lng": -71.113426588063
 }

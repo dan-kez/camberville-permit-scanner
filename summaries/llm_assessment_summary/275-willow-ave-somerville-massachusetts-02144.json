@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing significant whole-house remodeling and rewiring after more than eight years of ownership, which is a key indicator of preparation for sale."
-  }
+  },
+  "lat": 42.39973307699,
+  "lng": -71.112775565643
 }

@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has been held long-term since 1993 and the recent permits are strictly for structural maintenance (egress and columns) by an owner-occupant rather than high-end cosmetic renovations."
-  }
+  },
+  "lat": 42.387097,
+  "lng": -71.122914
 }

@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit work consists strictly of exterior maintenance including windows and gutters by an owner-occupant, which are typical upkeep tasks rather than high-end pre-sale renovations."
-  }
+  },
+  "lat": 42.371562,
+  "lng": -71.102049
 }

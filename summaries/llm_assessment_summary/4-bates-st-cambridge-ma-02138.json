@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single bathroom addition in an owner-occupied property is consistent with a minor update rather than a comprehensive pre-sale renovation."
-  }
+  },
+  "lat": 42.384281,
+  "lng": -71.124302
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied with long-term ownership and the only recent permit is for a minor utility upgrade (EV charger) rather than a sale-oriented renovation."
-  }
+  },
+  "lat": 42.388238847436,
+  "lng": -71.093790890227
 }

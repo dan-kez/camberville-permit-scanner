@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied by a long-term resident performing a kitchen renovation and roof replacement without the simultaneous multi-room updates characteristic of a pre-sale flip."
-  }
+  },
+  "lat": 42.398869,
+  "lng": -71.135999
 }

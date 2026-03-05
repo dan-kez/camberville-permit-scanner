@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the work is limited to a single kitchen renovation, failing the critical indicators for high-likelihood sale preparation."
-  }
+  },
+  "lat": 42.358155,
+  "lng": -71.113201
 }

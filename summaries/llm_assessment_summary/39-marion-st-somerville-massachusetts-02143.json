@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for minor front step repairs by a long-term owner-occupant, which falls under basic maintenance rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.377452301969,
+  "lng": -71.100546536548
 }

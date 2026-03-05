@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit covers minor exterior maintenance (slate restoration and gutters) by a long-term owner-occupant, indicating routine upkeep rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.396531315705,
+  "lng": -71.124295653368
 }

@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Recent permits are limited to maintenance and energy improvements (roofing and solar) by an owner-occupant, which lacks the high-end interior renovations typical of a pre-sale flip."
-  }
+  },
+  "lat": 42.378930702051,
+  "lng": -71.100016884087
 }

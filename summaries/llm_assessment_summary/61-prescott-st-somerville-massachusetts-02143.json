@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent work consists primarily of maintenance and energy efficiency upgrades (roofing, solar panels, and electrical service upgrade) performed by an owner-occupant who has held the property for nearly 9 years."
-  }
+  },
+  "lat": 42.386034574539,
+  "lng": -71.097911182371
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing significant whole-house renovations, including structural roof changes and comprehensive interior and exterior updates, after eight years of ownership."
-  }
+  },
+  "lat": 42.368187,
+  "lng": -71.09098
 }

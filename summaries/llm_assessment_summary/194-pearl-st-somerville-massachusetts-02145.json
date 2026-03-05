@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent permit activity is limited to a solar panel installation and electrical panel upgrade by a long-term owner-occupant, which suggests long-term property improvement rather than prep-for-sale renovations."
-  }
+  },
+  "lat": 42.38680151868,
+  "lng": -71.09185148547
 }

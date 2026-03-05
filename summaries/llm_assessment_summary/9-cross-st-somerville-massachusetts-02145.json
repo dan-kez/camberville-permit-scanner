@@ -37,5 +37,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit cost of $120.00 for work involving a full kitchen and bathroom is unusually low for a renovation project, suggesting minor plumbing repairs or fixture replacements rather than a full-scale renovation."
-  }
+  },
+  "lat": 42.388268980378,
+  "lng": -71.086419509298
 }

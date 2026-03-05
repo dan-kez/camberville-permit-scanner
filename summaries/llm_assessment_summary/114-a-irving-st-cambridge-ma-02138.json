@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The renovation combines a bathroom gut with a kitchen cabinet replacement and floor refinishing, which are classic pre-sale updates, though owner-occupancy and the lack of a full kitchen gut suggest it is not a certain flip."
-  }
+  },
+  "lat": 42.379282,
+  "lng": -71.11078
 }

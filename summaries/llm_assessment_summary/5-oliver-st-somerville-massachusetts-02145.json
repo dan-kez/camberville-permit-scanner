@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only permit is for a minor, low-cost electrical restoration following a sewage flood in an owner-occupied property, which constitutes emergency maintenance rather than a renovation for sale."
-  }
+  },
+  "lat": 42.383475747138,
+  "lng": -71.085531027562
 }

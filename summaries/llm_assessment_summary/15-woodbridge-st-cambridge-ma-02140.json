@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the renovation is limited to a single bathroom and basement work, failing to meet the criteria for a full-scale update of both the kitchen and multiple bathrooms."
-  }
+  },
+  "lat": 42.396195,
+  "lng": -71.127614
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent simultaneous kitchen and multi-bathroom remodeling immediately after its 2024 purchase, meeting the primary criteria for high-end preparation for sale."
-  }
+  },
+  "lat": 42.381879,
+  "lng": -71.129853
 }

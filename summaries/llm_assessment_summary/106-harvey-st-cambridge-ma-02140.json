@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The owner-occupant is installing a luxury swimspa for personal use, which is a lifestyle improvement rather than a typical prep-for-sale renovation like a kitchen or bathroom overhaul."
-  }
+  },
+  "lat": 42.397232,
+  "lng": -71.133538
 }

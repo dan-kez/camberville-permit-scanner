@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Recent permits indicate routine weatherization and short-term rental registration by an owner-occupant rather than significant 'prep-for-sale' renovations."
-  }
+  },
+  "lat": 42.380278679719,
+  "lng": -71.094220630403
 }

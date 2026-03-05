@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "A simultaneous renovation of two bathrooms and chimney removal suggests significant preparation, though the owner-occupant status and mid-term ownership (9 years) prevent a high likelihood rating."
-  }
+  },
+  "lat": 42.39391130041,
+  "lng": -71.122387932205
 }

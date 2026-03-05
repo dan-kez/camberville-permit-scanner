@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the only permit is for a detached garage, lacking the simultaneous kitchen and bathroom renovations typical of a pre-sale flip."
-  }
+  },
+  "lat": 42.378147,
+  "lng": -71.11096
 }

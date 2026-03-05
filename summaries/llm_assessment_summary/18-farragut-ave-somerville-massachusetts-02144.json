@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The minor bathroom update (tub-to-shower conversion) performed by a long-term owner-occupant of over 12 years indicates localized maintenance rather than a comprehensive prep-for-sale renovation."
-  }
+  },
+  "lat": 42.404132779876,
+  "lng": -71.130155022782
 }

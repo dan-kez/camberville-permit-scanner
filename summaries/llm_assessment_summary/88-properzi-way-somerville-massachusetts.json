@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for minor electrical work (two deck plugs) by a long-term owner-occupant, which is consistent with routine maintenance rather than preparation for sale."
-  }
+  },
+  "lat": 42.38003103639,
+  "lng": -71.106959279211
 }

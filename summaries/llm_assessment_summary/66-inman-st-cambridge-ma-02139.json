@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "Simultaneous major renovations to the kitchen and master bathroom, combined with window and roof deck replacements after 12 years of ownership, strongly indicate preparation for sale."
-  }
+  },
+  "lat": 42.370534,
+  "lng": -71.102481
 }

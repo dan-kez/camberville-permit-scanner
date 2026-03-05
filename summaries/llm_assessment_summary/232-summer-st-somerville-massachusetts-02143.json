@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The renovation is limited to a single low-cost kitchen refresh by an owner-occupant, lacking the multi-room scope or high-end renovation markers typical of a property being prepared for sale."
-  }
+  },
+  "lat": 42.389197318065,
+  "lng": -71.112059667293
 }

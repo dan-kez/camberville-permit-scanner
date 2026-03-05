@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has been held by the same owner-occupant for over 40 years, and the only recent permit is for minor weatherization work."
-  }
+  },
+  "lat": 42.399035996012,
+  "lng": -71.123928023094
 }

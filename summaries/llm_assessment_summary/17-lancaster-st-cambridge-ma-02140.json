@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The major renovations occurred immediately after the 2023 purchase for owner-occupancy, while the most recent permit is for minor exterior maintenance."
-  }
+  },
+  "lat": 42.385737,
+  "lng": -71.120811
 }

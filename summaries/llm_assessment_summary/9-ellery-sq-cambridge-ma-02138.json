@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The renovation includes a significant kitchen gut and painting throughout, but the owner-occupied status and relatively recent 2021 purchase suggest personal use rather than a typical flip."
-  }
+  },
+  "lat": 42.372092,
+  "lng": -71.109496
 }

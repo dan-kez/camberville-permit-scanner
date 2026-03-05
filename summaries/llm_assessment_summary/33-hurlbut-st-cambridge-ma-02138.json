@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A massive $572,000 gut renovation of the kitchen and bathrooms by a development contractor following a recent purchase price significantly below the current assessed value strongly indicates a professional flip for resale."
-  }
+  },
+  "lat": 42.38413,
+  "lng": -71.121109
 }

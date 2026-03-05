@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit activity is limited to routine maintenance (boiler replacement) on an owner-occupied property with no signs of high-end renovations."
-  }
+  },
+  "lat": 42.386832070717,
+  "lng": -71.082910928448
 }

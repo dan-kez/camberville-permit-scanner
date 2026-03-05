@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit is for minor exterior improvements (deck and windows) by an owner-occupant, which aligns with maintenance work rather than a high-end renovation or flip."
-  }
+  },
+  "lat": 42.387208,
+  "lng": -71.123757
 }

@@ -100,5 +100,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a comprehensive gut renovation including the kitchen and multiple bathrooms after 52 years of ownership, meeting critical prep-for-sale indicators."
-  }
+  },
+  "lat": 42.385912156844,
+  "lng": -71.103255316198
 }

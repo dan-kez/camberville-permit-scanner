@@ -112,5 +112,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property was purchased in July 2023 and immediately underwent a full gut renovation and basement expansion, which is a classic indicator of a high-end flip for resale."
-  }
+  },
+  "lat": 42.391228211295,
+  "lng": -71.11439553607
 }

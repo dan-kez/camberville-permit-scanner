@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The long-term owner-occupant (since 2001) is adding a bedroom and bathroom to their primary residence, which is characteristic of personal improvement rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.382216994829,
+  "lng": -71.085113273508
 }

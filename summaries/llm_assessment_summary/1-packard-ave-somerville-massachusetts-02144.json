@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a significant gut renovation, which is a critical indicator for sale preparation despite being owner-occupied with long-term ownership."
-  }
+  },
+  "lat": 42.402423458361,
+  "lng": -71.124633527885
 }

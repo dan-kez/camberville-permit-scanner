@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for an electrical service upgrade and EV charger installation by a long-term owner-occupant, which is typical maintenance/lifestyle work rather than a prep-for-sale renovation."
-  }
+  },
+  "lat": 42.390637790035,
+  "lng": -71.106631127701
 }

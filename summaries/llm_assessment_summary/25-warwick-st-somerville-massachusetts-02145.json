@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a massive structural transformation, including adding a full second story and a roof deck alongside a whole-house remodel, which represents a significant value-add project typically associated with preparing for a sale."
-  }
+  },
+  "lat": 42.393951323998,
+  "lng": -71.109732264238
 }

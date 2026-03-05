@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A massive $1,000,000 renovation of the entire first floor and multiple bathrooms following a very recent purchase strongly suggests a high-end flip or major value-add project intended for resale."
-  }
+  },
+  "lat": 42.384541,
+  "lng": -71.124112
 }

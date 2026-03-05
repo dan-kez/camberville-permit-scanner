@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A single bathroom addition by a long-term owner-occupant is a common lifestyle improvement rather than a high-end prep-for-sale renovation."
-  }
+  },
+  "lat": 42.367575,
+  "lng": -71.112058
 }

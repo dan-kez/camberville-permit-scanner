@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied by a long-term resident (30+ years) who is performing a single-room kitchen refresh rather than a full-scale renovation."
-  }
+  },
+  "lat": 42.383757379085,
+  "lng": -71.098038838756
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent permit activity is limited to routine roof maintenance on an owner-occupied property with no indications of high-end interior renovations."
-  }
+  },
+  "lat": 42.386110011668,
+  "lng": -71.097155134705
 }

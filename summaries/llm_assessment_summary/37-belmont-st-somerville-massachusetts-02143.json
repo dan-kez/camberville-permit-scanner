@@ -48,5 +48,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits for constructing an ADU and demolition are typical of long-term owner investment strategies for rental income rather than a cosmetic flip."
-  }
+  },
+  "lat": 42.386221365252,
+  "lng": -71.109611229556
 }

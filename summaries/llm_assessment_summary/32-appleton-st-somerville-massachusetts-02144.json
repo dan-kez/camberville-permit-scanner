@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent permits are limited to solar panel installation by an owner-occupant, which is a long-term utility improvement rather than a preparation for sale."
-  }
+  },
+  "lat": 42.39705719631,
+  "lng": -71.11757604923
 }

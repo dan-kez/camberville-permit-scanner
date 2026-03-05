@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property has undergone a $1M+ full-gut renovation and conversion from a two-family to a single-family residence by a development contractor shortly after its 2023 purchase."
-  }
+  },
+  "lat": 42.38248,
+  "lng": -71.114804
 }

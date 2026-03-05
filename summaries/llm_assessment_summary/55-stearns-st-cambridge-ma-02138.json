@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a massive $878,000 whole-house renovation involving structural changes and simultaneous full-scale updates to the kitchen and multiple bathrooms, which matches the primary indicator for high-end preparation for sale."
-  }
+  },
+  "lat": 42.386015,
+  "lng": -71.129777
 }

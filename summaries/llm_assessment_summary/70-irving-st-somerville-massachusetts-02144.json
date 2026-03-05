@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits reflect only routine HVAC maintenance and equipment replacement by a long-term owner-occupant."
-  }
+  },
+  "lat": 42.400620636717,
+  "lng": -71.122390865871
 }

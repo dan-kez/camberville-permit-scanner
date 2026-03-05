@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The $600,000 gut renovation of the kitchen and multiple bathrooms immediately following a 2023 purchase is a classic indicator of a high-end property flip."
-  }
+  },
+  "lat": 42.385536,
+  "lng": -71.127022
 }

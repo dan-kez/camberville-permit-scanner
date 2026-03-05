@@ -100,5 +100,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "Simultaneous full-scale renovation of the kitchen and 2.5 bathrooms, combined with a complete house rewire and new HVAC system, indicates significant whole-house work typical of preparation for sale."
-  }
+  },
+  "lat": 42.377145566222,
+  "lng": -71.096874927681
 }

@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Recent permits are limited to minor maintenance (gas furnace installation) by a long-term owner-occupant, with no evidence of high-end renovations."
-  }
+  },
+  "lat": 42.388102096686,
+  "lng": -71.091603632593
 }

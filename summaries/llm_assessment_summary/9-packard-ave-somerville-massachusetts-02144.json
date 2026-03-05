@@ -88,5 +88,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a comprehensive whole-house renovation, including a 2-family to 1-family conversion and full kitchen/bathroom updates, immediately following its May 2023 purchase."
-  }
+  },
+  "lat": 42.402561843583,
+  "lng": -71.124475780467
 }

@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit is for an owner-occupied property involving a single bathroom addition and third-floor renovation, which aligns with typical resident maintenance and minor updates."
-  }
+  },
+  "lat": 42.390378,
+  "lng": -71.134178
 }

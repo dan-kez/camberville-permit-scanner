@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "A significant basement conversion adding bedrooms and a kitchenette following a recent 2024 purchase suggests a value-add strategy, though the owner-occupied status and focused scope point toward personal use or a mid-term hold."
-  }
+  },
+  "lat": 42.377172,
+  "lng": -71.110419
 }

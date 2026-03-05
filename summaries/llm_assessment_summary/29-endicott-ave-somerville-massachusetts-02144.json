@@ -124,5 +124,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property was purchased in July 2023 and immediately underwent an extensive gut renovation and conversion from a 2-family to a single-family home including 4.5 bathrooms and full cosmetic updates, which are characteristic of a high-end flip."
-  }
+  },
+  "lat": 42.403613059969,
+  "lng": -71.130240602014
 }

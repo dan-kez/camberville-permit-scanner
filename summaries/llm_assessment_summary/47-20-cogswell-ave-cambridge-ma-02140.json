@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The project involves a massive $350,000 gut renovation including a kitchen, multiple bathrooms, and an addition, which aligns with the criteria for high-likelihood 'whole house' work despite long-term ownership."
-  }
+  },
+  "lat": 42.389973,
+  "lng": -71.127014
 }

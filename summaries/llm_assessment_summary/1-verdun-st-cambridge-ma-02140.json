@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the permit is for a single basement renovation project rather than the high-impact kitchen and bathroom updates typically associated with pre-sale preparations."
-  }
+  },
+  "lat": 42.391325,
+  "lng": -71.130721
 }

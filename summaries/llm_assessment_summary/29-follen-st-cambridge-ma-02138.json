@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a full interior renovation after nearly ten years of ownership, which matches the criteria for significant gut work indicating sale preparation."
-  }
+  },
+  "lat": 42.379009,
+  "lng": -71.121101
 }

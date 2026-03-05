@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing an extensive $561,500 whole-house renovation involving multiple bathrooms and structural additions, which qualifies as significant gut work indicative of preparing a high-end property for sale."
-  }
+  },
+  "lat": 42.379989,
+  "lng": -71.122194
 }

@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work is limited to a single bathroom remodel by a long-term (8+ years) owner-occupant, which suggests routine home improvement rather than a pre-sale flip."
-  }
+  },
+  "lat": 42.378494256352,
+  "lng": -71.103971717462
 }

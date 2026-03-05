@@ -37,5 +37,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits consist of a single, low-cost weatherization project with no structural changes, indicating maintenance rather than a sale-focused renovation."
-  }
+  },
+  "lat": 42.387698717596,
+  "lng": -71.106500621469
 }

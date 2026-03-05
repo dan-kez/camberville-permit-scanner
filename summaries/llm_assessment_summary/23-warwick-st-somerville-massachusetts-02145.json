@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied with evidence of long-term ownership and the only recent permit is for routine roof maintenance."
-  }
+  },
+  "lat": 42.39399013221,
+  "lng": -71.109804432425
 }

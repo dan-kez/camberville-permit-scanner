@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit reflects minor maintenance (windows and door replacement) by a long-term owner-occupant (since 1992), which does not indicate a preparation for sale."
-  }
+  },
+  "lat": 42.384590498351,
+  "lng": -71.084679845294
 }

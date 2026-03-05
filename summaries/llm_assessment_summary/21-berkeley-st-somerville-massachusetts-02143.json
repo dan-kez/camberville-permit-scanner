@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent permits are limited to routine HVAC maintenance and component swaps performed by a long-term owner-occupant."
-  }
+  },
+  "lat": 42.386090900929,
+  "lng": -71.100808471023
 }

@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The project strategically increases the property's bathroom count through conversion and addition, a common value-add for resale, though the owner-occupied status and lack of kitchen updates temper the likelihood of it being a dedicated flip."
-  }
+  },
+  "lat": 42.372653,
+  "lng": -71.083144
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has been owned for over 25 years by an owner-occupant whose only recent permit is for routine maintenance (skylight replacement)."
-  }
+  },
+  "lat": 42.367549,
+  "lng": -71.109607
 }

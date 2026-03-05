@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "This is a minor, single-item maintenance replacement (furnace) by a long-term owner-occupant (13+ years) with no other significant renovation activity."
-  }
+  },
+  "lat": 42.398965336568,
+  "lng": -71.127568116005
 }

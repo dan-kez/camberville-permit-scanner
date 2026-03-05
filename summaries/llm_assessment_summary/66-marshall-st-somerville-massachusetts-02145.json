@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the only recent permit is for a single bathroom remodel with an extremely low reported cost, which is consistent with minor maintenance rather than a comprehensive pre-sale renovation."
-  }
+  },
+  "lat": 42.389625968593,
+  "lng": -71.094655651178
 }

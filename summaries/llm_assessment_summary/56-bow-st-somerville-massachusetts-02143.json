@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the permits focus on a basement expansion and a single bathroom remodel rather than the simultaneous kitchen and multi-bath renovations typical of a pre-sale flip."
-  }
+  },
+  "lat": 42.381395903594,
+  "lng": -71.098803016869
 }

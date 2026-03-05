@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single permit involves routine maintenance (windows, trim, and siding) by a long-term owner-occupant (40+ years) without any high-end interior renovations."
-  }
+  },
+  "lat": 42.368428,
+  "lng": -71.111293
 }

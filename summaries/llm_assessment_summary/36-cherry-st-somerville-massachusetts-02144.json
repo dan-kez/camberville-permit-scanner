@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has been owner-occupied for over 20 years and recent permits are limited to routine maintenance and minor exterior improvements."
-  }
+  },
+  "lat": 42.391049970123,
+  "lng": -71.115544108262
 }

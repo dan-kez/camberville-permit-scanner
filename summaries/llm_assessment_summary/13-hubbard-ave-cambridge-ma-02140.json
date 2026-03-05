@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The simultaneous construction of a new $875,000 home and a $780,000 gut renovation of the existing 1894 property indicates a major development project likely intended for sale."
-  }
+  },
+  "lat": 42.388535,
+  "lng": -71.125996
 }

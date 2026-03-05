@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied by a long-term resident (10+ years) performing routine maintenance and a single bathroom update rather than comprehensive renovations."
-  }
+  },
+  "lat": 42.377456199554,
+  "lng": -71.100286949007
 }

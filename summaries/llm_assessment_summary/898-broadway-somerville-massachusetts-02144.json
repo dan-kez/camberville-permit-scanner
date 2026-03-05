@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit data shows only routine window replacement by an owner-occupant, which is classified as maintenance work rather than the high-end renovations typical of preparing a property for sale."
-  }
+  },
+  "lat": 42.400624911487,
+  "lng": -71.11893257644
 }

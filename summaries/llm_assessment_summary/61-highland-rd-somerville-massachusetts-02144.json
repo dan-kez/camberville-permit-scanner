@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied by long-term owners and the only recent permit is for a single minor electrical upgrade for an EV charging station."
-  }
+  },
+  "lat": 42.39656983055,
+  "lng": -71.112252870161
 }

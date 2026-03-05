@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A long-term owner-occupant is adding a single basement bathroom, which is consistent with a minor update for personal use rather than a full-scale renovation for sale."
-  }
+  },
+  "lat": 42.372105,
+  "lng": -71.11172
 }

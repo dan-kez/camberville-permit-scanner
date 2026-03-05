@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The renovation is limited to a single bathroom and an exterior door by an owner-occupant, suggesting personal property improvement rather than a multi-room preparation for sale."
-  }
+  },
+  "lat": 42.395007,
+  "lng": -71.13201
 }

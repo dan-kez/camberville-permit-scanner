@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Permit Scanner — Property Assessments</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    background: #f5f5f5;
+    color: #222;
+  }
+
+  header {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 16px 24px;
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+  header h1 { font-size: 20px; font-weight: 700; }
+  header span { font-size: 13px; opacity: 0.7; }
+
+  .controls {
+    padding: 12px 24px;
+    background: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .filter-label { font-size: 12px; color: #666; margin-right: 2px; }
+
+  .filter-btn {
+    padding: 5px 14px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .filter-btn.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+  .filter-btn:hover:not(.active) { background: #f0f0f0; }
+
+  #count { margin-left: auto; font-size: 13px; color: #555; }
+
+  .table-wrap { overflow-x: auto; padding: 0 24px 24px; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    margin-top: 16px;
+  }
+
+  thead { background: #f0f0f5; }
+
+  th {
+    padding: 10px 14px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #444;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+  }
+  th:hover { background: #e4e4ef; }
+  th .sort-arrow { margin-left: 4px; opacity: 0.4; }
+  th.sorted .sort-arrow { opacity: 1; }
+
+  td {
+    padding: 10px 14px;
+    border-top: 1px solid #f0f0f0;
+    vertical-align: top;
+    max-width: 340px;
+  }
+
+  tr:hover td { background: #fafafa; cursor: pointer; }
+
+  .badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .badge-high   { background: #fee2e2; color: #991b1b; }
+  .badge-medium { background: #fef3c7; color: #92400e; }
+  .badge-low    { background: #e5e7eb; color: #374151; }
+
+  .reasoning { color: #555; font-size: 13px; line-height: 1.4; }
+
+  /* Modal */
+  .overlay {
+    display: none;
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .overlay.open { display: flex; }
+
+  .modal {
+    background: #fff;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 820px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+  }
+
+  .modal-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .modal-header h2 { font-size: 16px; font-weight: 700; flex: 1; }
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: #666;
+    line-height: 1;
+    padding: 0 4px;
+  }
+  .close-btn:hover { color: #000; }
+
+  .modal-body { padding: 16px 20px; }
+
+  .map-wrap {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 14px;
+  }
+  .map-wrap iframe {
+    width: 100%;
+    height: 220px;
+    border: none;
+    display: block;
+  }
+
+  .link-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .link-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid;
+    transition: opacity 0.15s;
+  }
+  .link-btn:hover { opacity: 0.8; }
+  .link-btn-maps   { background: #e8f4fd; color: #1565c0; border-color: #90caf9; }
+  .link-btn-zillow { background: #fff3e0; color: #e65100; border-color: #ffcc80; }
+  .link-btn-search { background: #f3e5f5; color: #6a1b9a; border-color: #ce93d8; }
+
+  .section-title {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #888;
+    margin: 16px 0 8px;
+  }
+
+  .info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 8px;
+    margin-bottom: 4px;
+  }
+  .info-cell { background: #f9f9f9; border-radius: 6px; padding: 8px 12px; }
+  .info-cell .label { font-size: 11px; color: #888; margin-bottom: 2px; }
+  .info-cell .value { font-size: 13px; font-weight: 600; }
+
+  .permits-table-wrap { overflow-x: auto; }
+  .permits-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  .permits-table th {
+    background: #f5f5f5;
+    padding: 7px 10px;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #555;
+    cursor: default;
+  }
+  .permits-table th:hover { background: #f5f5f5; }
+  .permits-table td {
+    padding: 7px 10px;
+    border-top: 1px solid #eee;
+    max-width: 220px;
+    vertical-align: top;
+  }
+  .permits-table tr:hover td { background: #fafafa; cursor: default; }
+
+  .score-pill {
+    display: inline-block;
+    padding: 1px 7px;
+    border-radius: 10px;
+    background: #eee;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  #map { height: calc(100vh - 110px); }
+  #map-view { display: none; }
+
+  .view-btn {
+    padding: 5px 14px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .view-btn.active { background: #1a1a2e; color: #fff; border-color: #1a1a2e; }
+  .view-btn:hover:not(.active) { background: #f0f0f0; }
+
+  .min-score-wrap { display: flex; align-items: center; gap: 6px; }
+  .min-score-wrap label { font-size: 12px; color: #666; }
+  .min-score-wrap input {
+    width: 56px;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+
+  #clear-btn {
+    padding: 5px 14px;
+    border: 1px solid #f5c2c7;
+    border-radius: 20px;
+    background: #fff5f5;
+    color: #c0392b;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  #clear-btn:hover { background: #fce8e8; border-color: #e8a0a8; }
+
+  @media (max-width: 600px) {
+    .controls { padding: 10px 12px; }
+    .table-wrap { padding: 0 12px 16px; }
+    header { padding: 12px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Permit Scanner</h1>
+  <span>Property sale-prep assessments</span>
+</header>
+
+<div class="controls">
+  <span class="filter-label">Filter:</span>
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="high">High</button>
+  <button class="filter-btn" data-filter="medium">Medium</button>
+  <button class="filter-btn" data-filter="low">Low</button>
+  <span class="filter-label" style="margin-left:8px">Permit after:</span>
+  <input type="date" id="date-filter" style="padding:4px 8px;border:1px solid #ccc;border-radius:6px;font-size:13px">
+  <div class="min-score-wrap" style="margin-left:8px">
+    <label for="min-score">Min score:</label>
+    <input type="number" id="min-score" min="0" step="1" placeholder="0">
+  </div>
+  <span class="filter-label" style="margin-left:8px">View:</span>
+  <button class="view-btn active" id="view-list">List</button>
+  <button class="view-btn" id="view-map">Map</button>
+  <button id="clear-btn">Clear filters</button>
+  <span id="count"></span>
+</div>
+
+<div class="table-wrap">
+  <table id="main-table">
+    <thead>
+      <tr>
+        <th data-col="address">Address <span class="sort-arrow">↕</span></th>
+        <th data-col="likelihood">Likelihood <span class="sort-arrow">↕</span></th>
+        <th data-col="total_score">Score <span class="sort-arrow">↕</span></th>
+        <th data-col="permit_count">Permits <span class="sort-arrow">↕</span></th>
+        <th data-col="total_cost">Total Cost <span class="sort-arrow">↕</span></th>
+        <th data-col="latest_permit_date">Most Recent Permit <span class="sort-arrow">↕</span></th>
+        <th data-col="nearest_square">Nearest Square <span class="sort-arrow">↕</span></th>
+        <th style="min-width:260px">Reasoning</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+</div>
+
+<div id="map-view">
+  <div id="map"></div>
+</div>
+
+<!-- Modal -->
+<div class="overlay" id="overlay">
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <h2 id="modal-address"></h2>
+      <button class="close-btn" id="close-btn">&times;</button>
+    </div>
+    <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
+<script>
+const LIKELIHOOD_ORDER = { high: 0, medium: 1, low: 2 };
+const PIN_COLORS = { high: '#dc2626', medium: '#d97706', low: '#6b7280' };
+
+let allData = [];
+let currentFilter = 'all';
+let afterDate = '';
+let minScore = 0;
+let sortCol = 'total_score';
+let sortDir = -1; // 1 = asc, -1 = desc
+let currentView = 'list'; // 'list' | 'map'
+let map = null;
+let markerLayer = null;
+
+// --- URL hash helpers ---
+function getParams() {
+  const raw = location.hash.replace(/^#/, '');
+  return Object.fromEntries(new URLSearchParams(raw));
+}
+
+function pushParams(updates) {
+  const current = getParams();
+  const next = { ...current };
+  for (const [k, v] of Object.entries(updates)) {
+    if (v === '' || v == null) delete next[k];
+    else next[k] = v;
+  }
+  const nextStr = new URLSearchParams(next).toString();
+  const currentStr = new URLSearchParams(current).toString();
+  if (nextStr !== currentStr) location.hash = nextStr;
+}
+
+function syncControlsToState() {
+  // Filter buttons
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.filter === currentFilter);
+  });
+  // Date and score inputs
+  document.getElementById('date-filter').value = afterDate;
+  document.getElementById('min-score').value = minScore || '';
+  // View buttons + visibility
+  document.getElementById('view-list').classList.toggle('active', currentView === 'list');
+  document.getElementById('view-map').classList.toggle('active', currentView === 'map');
+  document.querySelector('.table-wrap').style.display = currentView === 'list' ? '' : 'none';
+  document.getElementById('map-view').style.display = currentView === 'map' ? 'block' : 'none';
+}
+
+function applyParams(p) {
+  currentFilter = p.filter ?? 'all';
+  afterDate = p.date ?? '';
+  minScore = parseInt(p.score, 10) || 0;
+  currentView = p.view ?? 'list';
+  syncControlsToState();
+  render();
+  if (currentView === 'map' && map) setTimeout(() => map.invalidateSize(), 50);
+}
+
+function fmt$$(n) {
+  if (n == null || n === '') return '—';
+  return '$' + Number(n).toLocaleString();
+}
+function fmtDate(s) {
+  if (!s) return '—';
+  return s.slice(0, 10);
+}
+function fmtVal(v) {
+  return (v == null || v === '') ? '—' : v;
+}
+
+function likelyhoodSort(a, b) {
+  return (LIKELIHOOD_ORDER[a] ?? 99) - (LIKELIHOOD_ORDER[b] ?? 99);
+}
+
+function sortData(data) {
+  return [...data].sort((a, b) => {
+    let va, vb;
+    if (sortCol === 'likelihood') {
+      va = LIKELIHOOD_ORDER[a.llm_assessment?.likelihood] ?? 99;
+      vb = LIKELIHOOD_ORDER[b.llm_assessment?.likelihood] ?? 99;
+    } else if (sortCol === 'address') {
+      va = a.address ?? '';
+      vb = b.address ?? '';
+    } else if (sortCol === 'latest_permit_date') {
+      va = a.latest_permit_date ?? '';
+      vb = b.latest_permit_date ?? '';
+    } else if (sortCol === 'nearest_square') {
+      va = a.nearest_square ?? '';
+      vb = b.nearest_square ?? '';
+    } else {
+      va = a[sortCol] ?? 0;
+      vb = b[sortCol] ?? 0;
+    }
+    if (va < vb) return -1 * sortDir;
+    if (va > vb) return 1 * sortDir;
+    return 0;
+  });
+}
+
+function filterData(data) {
+  return data.filter(d => {
+    if (currentFilter !== 'all' && d.llm_assessment?.likelihood !== currentFilter) return false;
+    if (afterDate && (d.latest_permit_date ?? '') < afterDate) return false;
+    if (minScore > 0 && (d.total_score ?? 0) < minScore) return false;
+    return true;
+  });
+}
+
+function makeIcon(likelihood) {
+  const c = PIN_COLORS[likelihood] ?? '#6b7280';
+  return L.divIcon({
+    className: '',
+    html: `<svg width="24" height="32" viewBox="0 0 24 32">
+      <path d="M12 0C5.4 0 0 5.4 0 12c0 9 12 20 12 20s12-11 12-20C24 5.4 18.6 0 12 0z" fill="${c}" stroke="white" stroke-width="1.5"/>
+      <circle cx="12" cy="12" r="5" fill="white"/>
+    </svg>`,
+    iconSize: [24, 32],
+    iconAnchor: [12, 32],
+  });
+}
+
+function initMap() {
+  map = L.map('map').setView([42.38, -71.12], 13);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+    maxZoom: 19,
+  }).addTo(map);
+  markerLayer = L.layerGroup().addTo(map);
+}
+
+function renderMap() {
+  if (!map) initMap();
+  markerLayer.clearLayers();
+
+  const filtered = filterData(allData);
+  const bounds = [];
+
+  for (const item of filtered) {
+    if (item.lat == null || item.lng == null) continue;
+    const likelihood = item.llm_assessment?.likelihood ?? 'unknown';
+    const marker = L.marker([item.lat, item.lng], { icon: makeIcon(likelihood) });
+    marker.on('click', () => openModal(item));
+    marker.bindTooltip(item.address ?? '', { direction: 'top', offset: [0, -28] });
+    markerLayer.addLayer(marker);
+    bounds.push([item.lat, item.lng]);
+  }
+
+  if (bounds.length > 0) {
+    map.fitBounds(bounds, { padding: [40, 40] });
+  } else {
+    map.fitBounds([[42.35, -71.16], [42.41, -71.07]]);
+  }
+
+  document.getElementById('count').textContent = `${filtered.length} properties`;
+}
+
+function render() {
+  if (currentView === 'map') { renderMap(); return; }
+  const filtered = filterData(allData);
+  const sorted = sortData(filtered);
+  document.getElementById('count').textContent = `${sorted.length} properties`;
+
+  const tbody = document.getElementById('tbody');
+  tbody.innerHTML = '';
+
+  for (const item of sorted) {
+    const likelihood = item.llm_assessment?.likelihood ?? 'unknown';
+    const reasoning = item.llm_assessment?.reasoning ?? '';
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td><strong>${item.address ?? '—'}</strong></td>
+      <td><span class="badge badge-${likelihood}">${likelihood}</span></td>
+      <td>${item.total_score ?? 0}</td>
+      <td>${item.permit_count ?? 0}</td>
+      <td>${fmt$$(item.total_cost)}</td>
+      <td>${item.latest_permit_date ?? '—'}</td>
+      <td>${item.nearest_square ?? '—'} ${item.distance_mi != null ? `<span style="color:#999">(${item.distance_mi}mi)</span>` : ''}</td>
+      <td class="reasoning">${reasoning}</td>
+    `;
+    tr.addEventListener('click', () => openModal(item));
+    tbody.appendChild(tr);
+  }
+
+  // Update sort arrows
+  document.querySelectorAll('th[data-col]').forEach(th => {
+    const col = th.dataset.col;
+    const arrow = th.querySelector('.sort-arrow');
+    if (col === sortCol) {
+      th.classList.add('sorted');
+      arrow.textContent = sortDir === 1 ? '↑' : '↓';
+    } else {
+      th.classList.remove('sorted');
+      arrow.textContent = '↕';
+    }
+  });
+}
+
+function openModal(item) {
+  const pi = item.property_info ?? {};
+  const likelihood = item.llm_assessment?.likelihood ?? 'unknown';
+  const reasoning = item.llm_assessment?.reasoning ?? '';
+
+  const addressEnc = encodeURIComponent(item.address ?? '');
+  const mapSrc = `https://maps.google.com/maps?q=${addressEnc}&output=embed`;
+
+  const permitsRows = (item.permits ?? []).map(p => `
+    <tr>
+      <td>${fmtDate(p.date)}</td>
+      <td>${fmtVal(p.source)}</td>
+      <td>${fmtVal(p.status)}</td>
+      <td style="max-width:200px">${fmtVal(p.description)}</td>
+      <td>${fmt$$(p.cost)}</td>
+      <td>${fmtVal(p.contractor)}</td>
+      <td><span class="score-pill">${p.score ?? '—'}</span></td>
+      <td style="max-width:160px">${fmtVal(p.score_reasons)}</td>
+    </tr>
+  `).join('');
+
+  document.getElementById('modal-address').innerHTML =
+    `${item.address ?? '—'} <span class="badge badge-${likelihood}" style="font-size:11px;vertical-align:middle">${likelihood}</span>`;
+
+  document.getElementById('modal-body').innerHTML = `
+    <div class="map-wrap">
+      <iframe src="${mapSrc}" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="link-row">
+      <a class="link-btn link-btn-maps"   href="${item.google_maps_url ?? '#'}"   target="_blank" rel="noopener">&#127758; Google Maps</a>
+      <a class="link-btn link-btn-zillow" href="${item.zillow_url ?? '#'}"         target="_blank" rel="noopener">&#127968; Zillow</a>
+      <a class="link-btn link-btn-search" href="${item.google_search_url ?? '#'}"  target="_blank" rel="noopener">&#128269; Google Search</a>
+    </div>
+
+    <div class="section-title">Assessment</div>
+    <div class="reasoning">${reasoning}</div>
+
+    <div class="section-title">Property Info</div>
+    <div class="info-grid">
+      <div class="info-cell"><div class="label">Class</div><div class="value">${fmtVal(pi.property_class)}</div></div>
+      <div class="info-cell"><div class="label">Year Built</div><div class="value">${fmtVal(pi.year_built)}</div></div>
+      <div class="info-cell"><div class="label">Bedrooms</div><div class="value">${fmtVal(pi.bedrooms)}</div></div>
+      <div class="info-cell"><div class="label">Bathrooms</div><div class="value">${fmtVal(pi.bathrooms)}</div></div>
+      <div class="info-cell"><div class="label">Living Area</div><div class="value">${pi.living_area ? pi.living_area + ' sqft' : '—'}</div></div>
+      <div class="info-cell"><div class="label">Assessed Value</div><div class="value">${fmt$$(pi.assessed_value)}</div></div>
+      <div class="info-cell"><div class="label">Last Sale</div><div class="value">${fmtDate(pi.last_sale_date)}</div></div>
+      <div class="info-cell"><div class="label">Last Sale Price</div><div class="value">${fmt$$(pi.last_sale_price)}</div></div>
+      <div class="info-cell"><div class="label">Completion</div><div class="value">${fmtVal(item.completion_ratio)}</div></div>
+      <div class="info-cell"><div class="label">Nearest Square</div><div class="value">${fmtVal(item.nearest_square)}</div></div>
+    </div>
+
+    ${item.permits?.length ? `
+    <div class="section-title">Permits (${item.permits.length})</div>
+    <div class="permits-table-wrap">
+      <table class="permits-table">
+        <thead><tr>
+          <th>Date</th><th>Source</th><th>Status</th><th>Description</th>
+          <th>Cost</th><th>Contractor</th><th>Score</th><th>Score Reasons</th>
+        </tr></thead>
+        <tbody>${permitsRows}</tbody>
+      </table>
+    </div>` : ''}
+  `;
+
+  document.getElementById('overlay').classList.add('open');
+  pushParams({ modal: item.address });
+}
+
+function closeModal() {
+  document.getElementById('overlay').classList.remove('open');
+  pushParams({ modal: null });
+}
+
+// Event listeners
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.filter;
+    render();
+    pushParams({ filter: currentFilter === 'all' ? null : currentFilter });
+  });
+});
+
+document.querySelectorAll('th[data-col]').forEach(th => {
+  th.addEventListener('click', () => {
+    const col = th.dataset.col;
+    if (sortCol === col) {
+      sortDir *= -1;
+    } else {
+      sortCol = col;
+      sortDir = col === 'likelihood' ? 1
+              : (col === 'total_cost' || col === 'permit_count' || col === 'latest_permit_date' || col === 'total_score') ? -1
+              : 1;
+    }
+    render();
+  });
+});
+
+document.getElementById('date-filter').addEventListener('input', e => {
+  afterDate = e.target.value;
+  render();
+  pushParams({ date: afterDate || null });
+});
+
+document.getElementById('min-score').addEventListener('input', e => {
+  minScore = parseInt(e.target.value, 10) || 0;
+  render();
+  pushParams({ score: minScore || null });
+});
+
+document.getElementById('view-list').addEventListener('click', () => {
+  currentView = 'list';
+  syncControlsToState();
+  render();
+  pushParams({ view: null }); // 'list' is default, omit from URL
+});
+
+document.getElementById('view-map').addEventListener('click', () => {
+  currentView = 'map';
+  syncControlsToState();
+  renderMap();
+  if (map) setTimeout(() => map.invalidateSize(), 50);
+  pushParams({ view: 'map' });
+});
+
+document.getElementById('close-btn').addEventListener('click', closeModal);
+document.getElementById('overlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('overlay')) closeModal();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+document.getElementById('clear-btn').addEventListener('click', () => {
+  currentFilter = 'all'; afterDate = ''; minScore = 0;
+  location.hash = ''; // triggers hashchange → applyParams({}) → defaults + render + close modal
+});
+
+window.addEventListener('hashchange', () => {
+  const p = getParams();
+  applyParams(p);
+  if (p.modal) {
+    const item = allData.find(d => d.address === p.modal);
+    if (item) {
+      // Only open if not already showing this modal (avoid loop)
+      if (!document.getElementById('overlay').classList.contains('open') ||
+          document.getElementById('modal-address').textContent.indexOf(p.modal) === -1) {
+        openModal(item);
+      }
+    }
+  } else {
+    if (document.getElementById('overlay').classList.contains('open')) {
+      document.getElementById('overlay').classList.remove('open');
+    }
+  }
+});
+
+// Load data
+fetch('data.json')
+  .then(r => r.json())
+  .then(data => {
+    allData = data.map(d => ({
+      ...d,
+      total_score: (d.permits ?? []).reduce((sum, p) => sum + (p.score ?? 0), 0),
+      latest_permit_date: (d.permits ?? [])
+        .map(p => p.date?.slice(0, 10) ?? '')
+        .filter(Boolean)
+        .sort()
+        .at(-1) ?? null,
+    }));
+    const p = getParams();
+    applyParams(p);
+    if (p.modal) {
+      const item = allData.find(d => d.address === p.modal);
+      if (item) openModal(item);
+    }
+  })
+  .catch(err => {
+    document.getElementById('tbody').innerHTML =
+      `<tr><td colspan="7" style="padding:20px;color:#c00">Failed to load data.json: ${err.message}</td></tr>`;
+  });
+</script>
+</body>
+</html>

@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A comprehensive multi-family to single-family conversion featuring a full kitchen remodel and 4.5 new bathrooms immediately following a 2023 purchase strongly indicates a high-end renovation for resale."
-  }
+  },
+  "lat": 42.382904771894,
+  "lng": -71.09416891406
 }

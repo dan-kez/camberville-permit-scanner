@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A comprehensive $274,550 gut renovation including the kitchen, multiple bathrooms, and structural updates was initiated just one month after the May 2024 purchase, strongly suggesting a professional flip."
-  }
+  },
+  "lat": 42.364531,
+  "lng": -71.108803
 }

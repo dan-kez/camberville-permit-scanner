@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The project is owner-occupied and focuses on converting an outbuilding into a home office and reading area rather than a full-scale renovation of the primary kitchen and bathrooms."
-  }
+  },
+  "lat": 42.388594994502,
+  "lng": -71.109993025246
 }

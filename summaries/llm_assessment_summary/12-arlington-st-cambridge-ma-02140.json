@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has been owner-occupied since 1986 and the single recent permit is for routine roof and deck maintenance rather than high-end interior renovations."
-  }
+  },
+  "lat": 42.386311,
+  "lng": -71.120683
 }

@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The very recent purchase in 2023 and owner-occupied status suggest the major renovations are for personal use by a new owner rather than preparation for a resale."
-  }
+  },
+  "lat": 42.37156,
+  "lng": -71.102767
 }

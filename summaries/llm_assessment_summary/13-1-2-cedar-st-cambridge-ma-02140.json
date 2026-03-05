@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A single bathroom remodel by an owner-occupant is a minor update consistent with maintenance or lifestyle improvement rather than a full-scale preparation for sale."
-  }
+  },
+  "lat": 42.396798,
+  "lng": -71.130973
 }

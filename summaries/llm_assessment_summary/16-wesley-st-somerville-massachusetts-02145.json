@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits indicate maintenance and efficiency upgrades like windows and HVAC by an owner-occupant, with no evidence of major kitchen or bathroom renovations."
-  }
+  },
+  "lat": 42.387593231344,
+  "lng": -71.091151093641
 }

@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a massive conversion from a 2-family to a single-family home with a full gut renovation including multiple new bathrooms and a kitchen immediately following a recent 2023 purchase."
-  }
+  },
+  "lat": 42.392817797322,
+  "lng": -71.117227026782
 }

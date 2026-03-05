@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Owner-occupied property with minor, low-cost functional updates (staircase repair and pantry conversion) rather than a full-scale renovation."
-  }
+  },
+  "lat": 42.390935724783,
+  "lng": -71.106450246231
 }

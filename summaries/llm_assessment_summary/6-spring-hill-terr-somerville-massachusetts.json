@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A long-term owner-occupant (since 2007) performing a single bathroom remodel and minor electrical work for a fridge typically indicates maintenance rather than a full-scale renovation for sale."
-  }
+  },
+  "lat": 42.389184577572,
+  "lng": -71.106997584508
 }

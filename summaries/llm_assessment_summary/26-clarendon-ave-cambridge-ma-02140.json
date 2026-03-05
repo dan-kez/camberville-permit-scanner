@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the permit describes a sunroom addition and deck rebuild, which are lifestyle-oriented improvements rather than the kitchen or bathroom renovations characteristic of a sale preparation."
-  }
+  },
+  "lat": 42.399934,
+  "lng": -71.131873
 }

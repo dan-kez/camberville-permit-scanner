@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Permits indicate only minor weatherization and a long-term solar panel investment by an owner-occupant who has held the property for eight years."
-  }
+  },
+  "lat": 42.388272081683,
+  "lng": -71.091101137498
 }

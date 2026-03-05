@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work is limited to a single bathroom renovation by a long-term (15+ year) owner-occupant, which typically indicates personal maintenance rather than a preparation for sale."
-  }
+  },
+  "lat": 42.396178060396,
+  "lng": -71.117347977644
 }

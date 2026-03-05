@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied with only minor bathroom updates and extremely low declared permit costs, lacking the comprehensive kitchen and multi-bath renovations typical of a sale preparation."
-  }
+  },
+  "lat": 42.386097438813,
+  "lng": -71.103580114946
 }

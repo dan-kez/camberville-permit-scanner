@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit describes an owner-occupied renovation focused on a small addition and system upgrades rather than the simultaneous kitchen and bathroom renovations typical of preparing a property for sale."
-  }
+  },
+  "lat": 42.378407,
+  "lng": -71.109057
 }

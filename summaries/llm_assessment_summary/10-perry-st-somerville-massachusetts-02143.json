@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property has undergone simultaneous full-scale kitchen and multi-bathroom renovations alongside significant whole-house basement expansion, meeting the critical indicators for high-end preparation for sale on a long-term owned property."
-  }
+  },
+  "lat": 42.379016532739,
+  "lng": -71.101277103229
 }

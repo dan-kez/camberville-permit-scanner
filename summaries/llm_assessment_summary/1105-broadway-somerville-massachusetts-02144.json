@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "Simultaneous full-scale updates to the kitchen and multiple bathrooms within two years of the last sale date are critical indicators of preparation for sale."
-  }
+  },
+  "lat": 42.402984459141,
+  "lng": -71.126071862469
 }

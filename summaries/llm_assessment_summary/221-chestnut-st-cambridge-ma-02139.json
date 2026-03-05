@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work consists only of window replacement by an owner-occupant, which is classified as standard maintenance rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.358924,
+  "lng": -71.11253
 }

@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits are limited to maintenance (roofing) and energy efficiency (solar panels) by an owner-occupant, which are typical long-term residency upgrades rather than prep-for-sale renovations."
-  }
+  },
+  "lat": 42.386797076271,
+  "lng": -71.101896442055
 }

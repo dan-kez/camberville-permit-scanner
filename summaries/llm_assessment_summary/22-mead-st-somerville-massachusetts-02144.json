@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has been held by the same owner-occupant for over 14 years and the only recent permit is for a minor electrical upgrade (EV charger) rather than significant renovations."
-  }
+  },
+  "lat": 42.400477096625,
+  "lng": -71.128272279691
 }

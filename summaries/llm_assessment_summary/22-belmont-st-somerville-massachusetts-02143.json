@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits indicate minor garage replacement and electrical work by a long-term owner-occupant, which aligns with routine maintenance rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.385452702821,
+  "lng": -71.110584033239
 }

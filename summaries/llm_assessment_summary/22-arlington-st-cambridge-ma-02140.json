@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit is for exterior deck and entryway repairs by a long-term owner-occupant, lacking the high-end interior renovations typical of prep-for-sale."
-  }
+  },
+  "lat": 42.386251,
+  "lng": -71.121086
 }

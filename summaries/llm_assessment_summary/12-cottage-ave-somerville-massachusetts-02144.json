@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "This is a single-room kitchen refresh by an owner-occupant who has lived in the property for over 7 years, which typically suggests maintenance rather than a pre-sale flip."
-  }
+  },
+  "lat": 42.393703764488,
+  "lng": -71.122161453181
 }

@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a massive gut renovation and conversion from a 3-family to a high-end single-family with 4.5 bathrooms immediately following a 2023 purchase."
-  }
+  },
+  "lat": 42.401297098213,
+  "lng": -71.119354772903
 }

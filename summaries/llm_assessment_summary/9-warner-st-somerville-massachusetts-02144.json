@@ -88,5 +88,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A comprehensive whole-house gut renovation including 3.5 bathrooms, kitchen updates, and structural framing immediately following a 2023 purchase strongly indicates a high-end flip or preparation for resale."
-  }
+  },
+  "lat": 42.401443907247,
+  "lng": -71.115768324172
 }

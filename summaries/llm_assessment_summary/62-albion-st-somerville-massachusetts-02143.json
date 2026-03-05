@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The long-term owner-occupant is performing specific lifestyle improvements, such as a music room and dormers, rather than the high-end kitchen or bathroom updates typical of a sale preparation."
-  }
+  },
+  "lat": 42.390714274901,
+  "lng": -71.105819927112
 }

@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work consists of routine maintenance and HVAC upgrades (mini-splits) by a long-term owner-occupant (40+ years) without significant 'gut' or high-end cosmetic renovations."
-  }
+  },
+  "lat": 42.39886999242,
+  "lng": -71.119017988033
 }

@@ -136,5 +136,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "A comprehensive gut renovation including a kitchen and four bathrooms was initiated immediately following the property's purchase in August 2023."
-  }
+  },
+  "lat": 42.380974084316,
+  "lng": -71.108591906311
 }

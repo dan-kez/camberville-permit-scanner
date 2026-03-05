@@ -88,5 +88,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "Simultaneous full-scale kitchen and multiple bathroom renovations following a recent 2022 purchase strongly suggest the property is being prepared for resale."
-  }
+  },
+  "lat": 42.39619151335,
+  "lng": -71.117415368146
 }

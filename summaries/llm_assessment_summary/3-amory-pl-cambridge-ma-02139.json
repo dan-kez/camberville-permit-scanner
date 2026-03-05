@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the major renovations started shortly after the 2023 purchase, suggesting a new owner customizing their primary residence rather than preparing for a flip or sale."
-  }
+  },
+  "lat": 42.370535,
+  "lng": -71.102093
 }

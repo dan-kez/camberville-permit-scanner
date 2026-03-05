@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied by long-term residents and the only completed work involves maintenance of siding and steps after a larger renovation permit was withdrawn."
-  }
+  },
+  "lat": 42.401511088201,
+  "lng": -71.129771215436
 }

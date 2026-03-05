@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit data only shows solar panel installation by an owner-occupant, which is a long-term efficiency improvement rather than a prep-for-sale renovation."
-  }
+  },
+  "lat": 42.399891955964,
+  "lng": -71.121612187066
 }

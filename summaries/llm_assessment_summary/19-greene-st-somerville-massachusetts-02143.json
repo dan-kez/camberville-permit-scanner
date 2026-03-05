@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single permit for a minor patio door replacement by an owner-occupant suggests routine maintenance rather than significant prep-for-sale renovations."
-  }
+  },
+  "lat": 42.384731062867,
+  "lng": -71.103196894332
 }

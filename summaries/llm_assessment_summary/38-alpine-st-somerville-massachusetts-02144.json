@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permits are for a small solar installation by a long-term owner-occupant, with no evidence of interior renovations or typical sale-prep work."
-  }
+  },
+  "lat": 42.393370206651,
+  "lng": -71.109510814356
 }

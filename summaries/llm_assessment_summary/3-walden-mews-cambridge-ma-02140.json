@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "A substantial $87,700 remodeling of two bathrooms by a long-term owner-occupant indicates significant property improvement, though it lacks the simultaneous kitchen renovation typically associated with high-likelihood sale preparation."
-  }
+  },
+  "lat": 42.387785,
+  "lng": -71.127043
 }

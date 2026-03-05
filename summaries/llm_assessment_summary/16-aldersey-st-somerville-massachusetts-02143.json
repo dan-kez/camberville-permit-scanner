@@ -100,5 +100,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing simultaneous full-scale renovations of the kitchen and three bathrooms (one full and two half baths) alongside structural stair and basement reconfiguration."
-  }
+  },
+  "lat": 42.383229822099,
+  "lng": -71.09711917634
 }

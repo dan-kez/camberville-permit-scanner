@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property was purchased recently in 2023 and is owner-occupied, indicating that the basement and bathroom renovations are likely homeowner improvements for personal use rather than preparations for a quick resale."
-  }
+  },
+  "lat": 42.380146078011,
+  "lng": -71.103454554036
 }

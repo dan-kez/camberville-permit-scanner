@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied by a long-term resident (10 years) performing a bathroom addition and laundry update without the simultaneous kitchen renovation typical of a pre-sale flip."
-  }
+  },
+  "lat": 42.375939284626,
+  "lng": -71.096711815846
 }

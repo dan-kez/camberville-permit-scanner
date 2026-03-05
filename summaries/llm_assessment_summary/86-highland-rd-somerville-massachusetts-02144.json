@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit involves only a window replacement by a long-term owner-occupant, which is a standard maintenance activity rather than a prep-for-sale renovation."
-  }
+  },
+  "lat": 42.397455923444,
+  "lng": -71.112191346992
 }

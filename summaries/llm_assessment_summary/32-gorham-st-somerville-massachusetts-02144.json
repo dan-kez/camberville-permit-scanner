@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The owner-occupied property features lifestyle upgrades like a new deck and hot tub rather than the high-end kitchen or bathroom renovations associated with preparing for sale."
-  }
+  },
+  "lat": 42.398832651041,
+  "lng": -71.125818980451
 }

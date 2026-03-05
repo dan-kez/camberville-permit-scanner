@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The long-term owner-occupant is performing routine boiler maintenance rather than high-end renovations or whole-house updates."
-  }
+  },
+  "lat": 42.401343617775,
+  "lng": -71.12729067501
 }

@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits represent routine maintenance (windows and stair repair) by an owner-occupant, which lacks the high-end renovation markers indicative of a sale preparation."
-  }
+  },
+  "lat": 42.381448248579,
+  "lng": -71.108387639331
 }

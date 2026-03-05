@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits reflect routine maintenance and efficiency upgrades like window replacement and weatherization by a long-term owner-occupant, with no evidence of major interior renovations."
-  }
+  },
+  "lat": 42.383286609493,
+  "lng": -71.104153018028
 }

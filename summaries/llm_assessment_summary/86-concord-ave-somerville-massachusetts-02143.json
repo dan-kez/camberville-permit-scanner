@@ -112,5 +112,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property has undergone a comprehensive three-story gut renovation and conversion from a two-family to a single-family home, including simultaneous full-scale updates to the kitchen and three bathrooms."
-  }
+  },
+  "lat": 42.376029348176,
+  "lng": -71.100861612289
 }

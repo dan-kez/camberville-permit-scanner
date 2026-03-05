@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied by long-term owners (20+ years) and recent permits are limited to exterior maintenance and energy efficiency rather than high-end interior renovations."
-  }
+  },
+  "lat": 42.38773559797,
+  "lng": -71.089581079357
 }

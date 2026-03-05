@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "Recent purchase followed by a massive $710,000 new construction permit to triple the home's square footage strongly indicates a professional development project for resale."
-  }
+  },
+  "lat": 42.386362,
+  "lng": -71.129403
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The massive $697,403 renovation involving basement finishing and multiple bathroom updates constitutes significant whole-house work even with long-term ownership."
-  }
+  },
+  "lat": 42.359738,
+  "lng": -71.107891
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The property is undergoing a massive $1.5M whole-house gut renovation and addition shortly after a $3.3M purchase, which suggests a high-end customization for a new owner-occupant rather than a speculative flip, yet the total overhaul significantly elevates it to a near-market-ready state."
-  }
+  },
+  "lat": 42.384263,
+  "lng": -71.127019
 }

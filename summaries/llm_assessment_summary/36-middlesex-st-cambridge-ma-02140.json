@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Single maintenance project (window replacement) by a long-term owner-occupant (20+ years) typically indicates routine upkeep rather than a preparation for sale."
-  }
+  },
+  "lat": 42.39244,
+  "lng": -71.130688
 }

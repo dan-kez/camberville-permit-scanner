@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The $262,000 'Full remodel' indicates significant whole-house work, which is a primary indicator for a property being prepared for sale."
-  }
+  },
+  "lat": 42.393009,
+  "lng": -71.130429
 }

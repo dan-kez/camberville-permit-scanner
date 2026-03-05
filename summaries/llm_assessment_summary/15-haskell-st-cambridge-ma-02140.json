@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the single bathroom remodel is a standard home improvement rather than a full-scale renovation for sale."
-  }
+  },
+  "lat": 42.393294,
+  "lng": -71.127044
 }

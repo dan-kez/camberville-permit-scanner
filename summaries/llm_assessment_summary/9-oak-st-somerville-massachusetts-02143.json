@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit activity is limited to minor HVAC and electrical maintenance by an owner-occupant, which matches the criteria for low likelihood of pre-sale preparation."
-  }
+  },
+  "lat": 42.376230010938,
+  "lng": -71.097047427249
 }

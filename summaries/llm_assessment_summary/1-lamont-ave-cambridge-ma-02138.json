@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a massive $880,000 gut renovation with comprehensive structural and utility updates immediately following its October 2023 sale."
-  }
+  },
+  "lat": 42.376562,
+  "lng": -71.107834
 }

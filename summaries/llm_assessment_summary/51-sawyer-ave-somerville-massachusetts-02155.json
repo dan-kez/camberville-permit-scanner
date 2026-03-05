@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is a minor $100 electrical maintenance repair for a service conduit by an owner-occupant, with no evidence of prep-for-sale renovations."
-  }
+  },
+  "lat": 42.407039749626,
+  "lng": -71.124484581465
 }

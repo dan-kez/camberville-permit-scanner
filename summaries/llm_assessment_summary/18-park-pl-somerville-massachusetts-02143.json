@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied with long-term ownership (8+ years) and the only recent activity is a single outdoor deck and patio project rather than significant interior renovations."
-  }
+  },
+  "lat": 42.383747195072,
+  "lng": -71.104204566732
 }

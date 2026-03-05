@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has been owner-occupied for over 13 years and the single recent permit is for routine window replacement, which is classified as maintenance work."
-  }
+  },
+  "lat": 42.372055,
+  "lng": -71.1024
 }

@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing a massive $497,000 gut renovation of the entire interior and exterior, including basement excavation to increase ceiling height, which represents a complete whole-house modernization typical of a prep-for-sale project."
-  }
+  },
+  "lat": 42.381501,
+  "lng": -71.117778
 }

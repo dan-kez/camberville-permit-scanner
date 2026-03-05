@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits represent minor maintenance and an EV charger installation by a long-term owner-occupant rather than significant pre-sale renovations."
-  }
+  },
+  "lat": 42.3911740642,
+  "lng": -71.107494966643
 }

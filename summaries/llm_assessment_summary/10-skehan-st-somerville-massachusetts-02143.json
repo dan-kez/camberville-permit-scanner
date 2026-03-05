@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent permits are strictly for routine maintenance (water heater replacement) by an owner-occupant, with no indicators of major renovations or prep-for-sale activity."
-  }
+  },
+  "lat": 42.379902667543,
+  "lng": -71.104925745681
 }

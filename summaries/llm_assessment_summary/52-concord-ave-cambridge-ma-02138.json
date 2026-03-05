@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for window replacement, which is classified as maintenance, and the property remains owner-occupied."
-  }
+  },
+  "lat": 42.38072,
+  "lng": -71.128335
 }

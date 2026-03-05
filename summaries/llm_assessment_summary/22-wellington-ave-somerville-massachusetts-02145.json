@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied and the only recent permit is for a minor $200 interior wall modification, which does not align with significant pre-sale renovation patterns."
-  }
+  },
+  "lat": 42.38970069326,
+  "lng": -71.090213074857
 }

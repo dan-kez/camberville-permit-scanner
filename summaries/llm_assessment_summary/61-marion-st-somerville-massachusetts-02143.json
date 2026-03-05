@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property is owner-occupied by long-term residents who are performing minor maintenance and installing a car charger rather than any significant renovations."
-  }
+  },
+  "lat": 42.377434783791,
+  "lng": -71.101523531182
 }

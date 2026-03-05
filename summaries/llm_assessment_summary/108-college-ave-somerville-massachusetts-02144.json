@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has only one minor permit for garage electrical work and is owner-occupied, lacking any significant interior renovations associated with a sale preparation."
-  }
+  },
+  "lat": 42.399825110286,
+  "lng": -71.118694614209
 }

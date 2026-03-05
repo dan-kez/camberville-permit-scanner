@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The only recent permit is for a minor, low-cost deck repair by a long-term owner-occupant, which is consistent with routine maintenance rather than sale preparation."
-  }
+  },
+  "lat": 42.389200712735,
+  "lng": -71.091024107808
 }

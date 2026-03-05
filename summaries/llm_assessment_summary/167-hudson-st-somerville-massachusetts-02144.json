@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work is limited to minor HVAC upgrades (mini-splits) by a long-term owner-occupant, which falls under maintenance rather than high-end prep-for-sale renovations."
-  }
+  },
+  "lat": 42.392600077387,
+  "lng": -71.111230697069
 }

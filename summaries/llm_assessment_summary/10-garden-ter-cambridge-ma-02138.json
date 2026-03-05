@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The renovations consist of a single bathroom and laundry room remodel by a long-term owner-occupant, which aligns more with lifestyle improvements than high-end preparation for sale."
-  }
+  },
+  "lat": 42.382208,
+  "lng": -71.12825
 }

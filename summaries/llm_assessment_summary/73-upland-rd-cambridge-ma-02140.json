@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single permit for front porch footings by an owner-occupant indicates routine structural maintenance rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.387831,
+  "lng": -71.122335
 }

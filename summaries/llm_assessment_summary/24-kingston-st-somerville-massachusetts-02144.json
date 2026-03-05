@@ -112,5 +112,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The recent work consists of a kitchen refresh and HVAC upgrades by an owner-occupant, lacking the simultaneous multi-room renovations typical of a property being flipped or prepared for sale."
-  }
+  },
+  "lat": 42.396939933485,
+  "lng": -71.126234471391
 }

@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit for a substantial addition was filed by a recent owner-occupant shortly after purchase, suggesting an investment for personal use rather than a flip or preparation for sale."
-  }
+  },
+  "lat": 42.380573,
+  "lng": -71.128214
 }

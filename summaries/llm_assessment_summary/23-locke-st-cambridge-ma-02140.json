@@ -29,5 +29,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit is for routine maintenance (window replacement) by an owner-occupant, which is a common home improvement rather than a pre-sale renovation."
-  }
+  },
+  "lat": 42.396662,
+  "lng": -71.127425
 }

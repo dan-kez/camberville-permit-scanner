@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Long-term owner-occupant (28+ years) performing minor kitchen and bathroom updates rather than a full-scale renovation."
-  }
+  },
+  "lat": 42.401582082921,
+  "lng": -71.129679349777
 }

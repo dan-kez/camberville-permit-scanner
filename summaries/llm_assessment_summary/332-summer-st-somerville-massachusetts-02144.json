@@ -76,5 +76,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Long-term owner-occupant performing a single bathroom update and routine roof maintenance."
-  }
+  },
+  "lat": 42.392932000753,
+  "lng": -71.118304017521
 }

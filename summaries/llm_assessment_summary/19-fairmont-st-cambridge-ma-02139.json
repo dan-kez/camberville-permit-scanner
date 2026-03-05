@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property underwent a significant $262,000 gut renovation involving the kitchen and multiple bathrooms shortly after purchase, which is a primary indicator for high-end resale preparation."
-  }
+  },
+  "lat": 42.361403,
+  "lng": -71.110197
 }

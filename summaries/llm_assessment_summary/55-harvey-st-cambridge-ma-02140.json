@@ -52,5 +52,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "Recent 2023 purchase followed by a $370,000 gut renovation to convert a multi-unit building into a high-end single-family residence including new kitchens and bathrooms."
-  }
+  },
+  "lat": 42.397324,
+  "lng": -71.132055
 }

@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property is undergoing simultaneous major kitchen and multiple bathroom renovations alongside a multi-story addition, which are primary indicators of high-end preparation for sale."
-  }
+  },
+  "lat": 42.401790834219,
+  "lng": -71.12830178399
 }

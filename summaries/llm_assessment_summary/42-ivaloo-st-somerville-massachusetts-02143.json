@@ -64,5 +64,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "Significant expansion of living space via a finished basement (adding a bedroom, bathroom, and laundry) and a new porch, combined with total roof and HVAC updates by a long-term owner-occupant, indicates a major value-add effort often associated with preparing a home for market."
-  }
+  },
+  "lat": 42.381058238624,
+  "lng": -71.108959620404
 }

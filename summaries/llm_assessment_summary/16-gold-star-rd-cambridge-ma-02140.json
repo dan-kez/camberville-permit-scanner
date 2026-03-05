@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The permit describes a comprehensive $321,300 renovation involving a full kitchen remodel, multiple bathroom updates, and structural changes, which matches the criteria for high-end prep-for-sale work."
-  }
+  },
+  "lat": 42.39864,
+  "lng": -71.130869
 }

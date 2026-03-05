@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "This is a single bathroom refresh by a long-term owner-occupant who has held the property since 1999."
-  }
+  },
+  "lat": 42.384319,
+  "lng": -71.128534
 }

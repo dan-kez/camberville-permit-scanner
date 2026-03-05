@@ -40,5 +40,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The simultaneous cosmetic renovation of both the kitchen and multiple bathrooms by a long-term owner-occupant is a common indicator of preparing a home for listing."
-  }
+  },
+  "lat": 42.39005,
+  "lng": -71.123711
 }
