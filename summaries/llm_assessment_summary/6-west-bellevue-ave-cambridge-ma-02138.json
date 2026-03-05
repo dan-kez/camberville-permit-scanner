@@ -1,5 +1,7 @@
 {
   "address": "6 WEST BELLEVUE AVE, CAMBRIDGE, MA 02138",
+  "lat": 42.385536,
+  "lng": -71.127022,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=6+WEST+BELLEVUE+AVE%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/6%20WEST%20BELLEVUE%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=6+WEST+BELLEVUE+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -20,30 +22,28 @@
   "property_use": "One-Family",
   "nearest_square": "Porter",
   "distance_mi": 0.45,
-  "max_score": 10,
-  "total_cost": 600000.0,
+  "max_score": 2,
+  "total_cost": 1961.62,
   "permit_count": 1,
   "completed_permits": 1,
   "completion_ratio": "1/1 complete",
   "permits": [
     {
-      "date": "2024-01-19",
+      "date": "2025-08-28",
       "source": "Cambridge Alteration",
       "status": "Complete",
-      "description": "Gut and replace kitchen, second floor bath, third floor bath. Install new kitchen, new bathroom on 2nd floor and install master suite on 3rd floor and demolish garage.",
-      "cost": 600000.0,
+      "description": "Blown in cellulose insulation at exterior walls, air sealing and weatherization. Work id: \u00a054349882",
+      "cost": 1961.62,
       "property_use": "One-Family",
-      "contractor": "Creative Construction",
+      "contractor": "Dave Prell",
       "owner_occupied": true,
-      "score": 10,
-      "score_reasons": "high cost ($600,000); keyword: gut; permit completed; all permits completed",
-      "permit_id": "255179"
+      "score": 2,
+      "score_reasons": "minor: insulation; permit completed; all permits completed",
+      "permit_id": "1181547"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The $600,000 gut renovation of the kitchen and multiple bathrooms immediately following a 2023 purchase is a classic indicator of a high-end property flip."
-  },
-  "lat": 42.385536,
-  "lng": -71.127022
+    "likelihood": "low",
+    "reasoning": "This is a minor maintenance/weatherization project (insulation and air sealing) rather than prep-for-sale renovations, and the owner is listed as owner-occupied."
+  }
 }

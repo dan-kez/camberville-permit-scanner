@@ -1,5 +1,7 @@
 {
   "address": "17 FIFTH ST, CAMBRIDGE, MA 02141",
+  "lat": 42.372456,
+  "lng": -71.083044,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+FIFTH+ST%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/17%20FIFTH%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=17+FIFTH+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2009-08-20T00:00:00.000",
     "last_sale_price": "435500",
     "assessed_value": "837300",
-    "lot_size": "2310"
+    "lot_size": "2310",
+    "property_pid": "948",
+    "property_parcel": "22-33"
   },
   "property_use": "One or Two Family Dwelling",
   "nearest_square": "Union",
@@ -34,7 +38,8 @@
       "contractor": "Marcio Ribeiro",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "high cost ($700,000); keyword: demolition; new construction"
+      "score_reasons": "high cost ($700,000); keyword: demolition; new construction",
+      "permit_id": "1151009"
     }
   ]
 }

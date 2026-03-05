@@ -1,5 +1,7 @@
 {
   "address": "50 SARGENT AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.390018032114,
+  "lng": -71.09232414099,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=50+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/50%20SARGENT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=50+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,16 +15,17 @@
     "last_sale_date": "2023-07-20",
     "last_sale_price": 1000000,
     "assessed_value": 959000,
-    "lot_size": 0.0658
+    "lot_size": 0.0658,
+    "property_parcel": "71_B_24"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.72,
-  "max_score": 2,
-  "total_cost": 100.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/2 complete",
+  "max_score": 3,
+  "total_cost": 2112.5,
+  "permit_count": 3,
+  "completed_permits": 5,
+  "completion_ratio": "5/6 complete",
   "permits": [
     {
       "date": "2024-05-23",
@@ -33,8 +36,38 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "Michael Trimarchi",
       "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "permit completed"
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14401578",
+      "permit_number": "E24-000738"
+    },
+    {
+      "date": "2025-09-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remove interior partition in 2nd Floor rear bedroom and remove rear staircase to 2nd Floor. Install new floor in bedroom.",
+      "cost": 1935.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Our House Contracting",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "52543097",
+      "permit_number": "B25-001551"
+    },
+    {
+      "date": "2025-10-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Demo existing room on 2nd floor and wire 2nd floor office to code. 4 Recess and 7 Outlets",
+      "cost": 77.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Joseph Spinale",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "52645777",
+      "permit_number": "E25-001574"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "36 CHERRY ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.391049970123,
+  "lng": -71.115544108262,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=36+CHERRY+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/36%20CHERRY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=36+CHERRY+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,41 +15,18 @@
     "last_sale_date": "2003-12-04",
     "last_sale_price": 850000,
     "assessed_value": 2698100,
-    "lot_size": 0.2341
+    "lot_size": 0.2341,
+    "property_parcel": "30_D_7"
   },
-  "property_use": "Sheet Metal Permit - Residential",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
   "distance_mi": 0.26,
-  "max_score": 3,
-  "total_cost": 10742.0,
-  "permit_count": 3,
-  "completed_permits": 2,
-  "completion_ratio": "2/3 complete",
+  "max_score": 5,
+  "total_cost": 45.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
   "permits": [
-    {
-      "date": "2023-08-09",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "HVAC renovations",
-      "cost": 3287.0,
-      "property_use": "Sheet Metal Permit - Residential",
-      "contractor": "New England Cooling Towers Inc.",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "keyword: renovation; most permits completed"
-    },
-    {
-      "date": "2023-10-18",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "replace front porch and supporting structures",
-      "cost": 7410.0,
-      "property_use": "Building Permit - Residential Repair",
-      "contractor": "Just Woodcraft, Inc.",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed"
-    },
     {
       "date": "2024-07-30",
       "source": "Somerville",
@@ -57,8 +36,10 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "PUCCIO ELECTRIC INC",
       "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51080945",
+      "permit_number": "E24-001208"
     }
   ]
 }

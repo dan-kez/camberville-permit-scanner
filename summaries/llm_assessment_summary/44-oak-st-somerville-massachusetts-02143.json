@@ -1,6 +1,10 @@
 {
   "address": "44 OAK ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.375544035982,
+  "lng": -71.098764208657,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=44+OAK+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/44%20OAK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=44+OAK+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1900,
@@ -31,8 +35,11 @@
       "cost": 2032.5,
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "Passos Construction Corp",
+      "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: renovation; permit completed"
+      "score_reasons": "keyword: renovation; permit completed",
+      "permit_id": "52579991",
+      "permit_number": "B25-001664"
     },
     {
       "date": "2025-11-10",
@@ -42,8 +49,11 @@
       "cost": 158.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Carlos Camargo Electrician",
+      "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: renovation; permit completed"
+      "score_reasons": "keyword: renovation; permit completed",
+      "permit_id": "52676752",
+      "permit_number": "E25-001672"
     },
     {
       "date": "2025-10-14",
@@ -53,14 +63,15 @@
       "cost": 200.0,
       "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
       "contractor": "Passos Construction Corp",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52638423",
+      "permit_number": "DP25-000185"
     }
   ],
   "llm_assessment": {
     "likelihood": "medium",
-    "reasoning": "The property is undergoing significant renovation work on major systems and living spaces by professional contractors, though the sale date from 2019 suggests a longer-term investment rather than a quick flip."
-  },
-  "zillow_url": "https://www.zillow.com/homes/44%20OAK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
-  "google_search_url": "https://www.google.com/search?q=44+OAK+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
+    "reasoning": "High-end kitchen and bathroom renovation with owner occupied status suggests value improvement for long-term owner, though maintenance work makes low likelihood unlikely and no clear sale signals present."
+  }
 }

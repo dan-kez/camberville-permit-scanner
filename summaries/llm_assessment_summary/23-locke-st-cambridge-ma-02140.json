@@ -1,5 +1,7 @@
 {
   "address": "23 LOCKE ST, CAMBRIDGE, MA 02140",
+  "lat": 42.396662,
+  "lng": -71.127425,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=23+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/23%20LOCKE%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=23+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -29,8 +31,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permit is for routine maintenance (window replacement) by an owner-occupant, which is a common home improvement rather than a pre-sale renovation."
-  },
-  "lat": 42.396662,
-  "lng": -71.127425
+    "reasoning": "Window replacement is routine maintenance, not a high-end sale preparation renovation, and owner is listed as occupied"
+  }
 }

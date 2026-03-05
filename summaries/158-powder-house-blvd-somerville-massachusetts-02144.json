@@ -1,0 +1,45 @@
+{
+  "address": "158 POWDER HOUSE BLVD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.405095525275,
+  "lng": -71.125643044303,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=158+POWDER+HOUSE+BLVD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/158%20POWDER%20HOUSE%20BLVD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=158+POWDER+HOUSE+BLVD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1898,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2379,
+    "last_sale_date": "1990-03-14",
+    "last_sale_price": 136666,
+    "assessed_value": 1445100,
+    "lot_size": 0.095,
+    "property_parcel": "11_A_2"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Davis",
+  "distance_mi": 0.6,
+  "max_score": 2,
+  "total_cost": 150.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-09-02",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "(Homeowner Permit) Replace deteriorated/rotted wood trim around rear entryway and at top of foundation and replace with AZEK.",
+      "cost": 150.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: foundation",
+      "permit_id": "52384728",
+      "permit_number": "B25-001315"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 {
   "address": "4 SHEPARD ST, CAMBRIDGE, MA 02138",
+  "lat": 42.38162,
+  "lng": -71.120442,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+SHEPARD+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/4%20SHEPARD%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=4+SHEPARD+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -17,33 +19,31 @@
     "property_pid": "13649",
     "property_parcel": "173-30"
   },
-  "property_use": "One-Family",
+  "property_use": "Two-Family",
   "nearest_square": "Porter",
   "distance_mi": 0.47,
-  "max_score": 5,
-  "total_cost": 250000.0,
+  "max_score": 2,
+  "total_cost": 15000.0,
   "permit_count": 1,
   "completed_permits": 0,
   "completion_ratio": "0/1",
   "permits": [
     {
-      "date": "2024-01-10",
+      "date": "2024-09-12",
       "source": "Cambridge Alteration",
       "status": "Active",
-      "description": "Perform necessary shoring and replace basement footings and columns per stamped structural plan at new lowered elevations. Excavate for, form and pour new steel reinforced conrete curbing per stamped structural plan for new lowered slabExcavate for and pour new concrete slab approximately 12 inches below existing elevation.",
-      "cost": 250000.0,
-      "property_use": "One-Family",
-      "contractor": "S+H Construction",
+      "description": "Gut third floor to studs",
+      "cost": 15000.0,
+      "property_use": "Two-Family",
+      "contractor": "CBurrell Contracting",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "high cost ($250,000); keyword: structural",
-      "permit_id": "254300"
+      "score": 2,
+      "score_reasons": "keyword: gut",
+      "permit_id": "289180"
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "A significant $250,000 structural renovation to lower the basement slab following a recent purchase indicates a major value-add project, though the owner-occupied status and lack of explicit kitchen or bathroom updates keep the likelihood at medium."
-  },
-  "lat": 42.38162,
-  "lng": -71.120442
+    "likelihood": "low",
+    "reasoning": "Single-floor gut renovation at $15,000 is modest and lacks simultaneous kitchen/bathroom updates; owner occupied indicates long-term owner rather than flipper, though high-value Harvard Square location may drive future sale potential"
+  }
 }

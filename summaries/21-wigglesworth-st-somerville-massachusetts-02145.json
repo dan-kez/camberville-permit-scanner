@@ -1,5 +1,7 @@
 {
   "address": "21 WIGGLESWORTH ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.387861577975,
+  "lng": -71.091276151636,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+WIGGLESWORTH+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/21%20WIGGLESWORTH%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=21+WIGGLESWORTH+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,16 +15,17 @@
     "last_sale_date": "2018-10-22",
     "last_sale_price": 0,
     "assessed_value": 785600,
-    "lot_size": 0.055
+    "lot_size": 0.055,
+    "property_parcel": "78_F_24"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
   "distance_mi": 0.58,
-  "max_score": 7,
-  "total_cost": 660.0,
-  "permit_count": 2,
+  "max_score": 5,
+  "total_cost": 1060.0,
+  "permit_count": 3,
   "completed_permits": 2,
-  "completion_ratio": "2/2 complete",
+  "completion_ratio": "2/3 complete",
   "permits": [
     {
       "date": "2024-11-13",
@@ -33,8 +36,24 @@
       "property_use": "Building Permit - Residential Repair",
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score": 5,
+      "score_reasons": "keyword: structural; permit completed; most permits completed",
+      "permit_id": "51344696",
+      "permit_number": "B24-002001"
+    },
+    {
+      "date": "2025-07-14",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "REMOVE & REPLACE 1 WINDOWS; ENTRY DOORS; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 400.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Renewal by Andersen",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "keyword: structural; most permits completed",
+      "permit_id": "52173316",
+      "permit_number": "B25-001074"
     },
     {
       "date": "2024-03-25",
@@ -45,8 +64,10 @@
       "property_use": "Building Permit - Residential Other",
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
-      "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+      "score": 2,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; most permits completed",
+      "permit_id": "14275433",
+      "permit_number": "B24-000447"
     }
   ]
 }

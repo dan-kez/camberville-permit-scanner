@@ -1,5 +1,7 @@
 {
   "address": "21 BOW ST PL, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.382497285671,
+  "lng": -71.099221776751,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+BOW+ST+PL%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/21%20BOW%20ST%20PL%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=21+BOW+ST+PL%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,40 +15,31 @@
     "last_sale_date": "1994-04-20",
     "last_sale_price": 94000,
     "assessed_value": 699100,
-    "lot_size": 0.0471
+    "lot_size": 0.0471,
+    "property_parcel": "63_C_24"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.37,
-  "max_score": 5,
-  "total_cost": 530.0,
-  "permit_count": 2,
-  "completed_permits": 2,
-  "completion_ratio": "2/2 complete",
+  "max_score": 2,
+  "total_cost": 45.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
   "permits": [
     {
-      "date": "2024-02-12",
+      "date": "2025-10-22",
       "source": "Somerville",
-      "status": "Closed",
-      "description": "Reattached point of attachment",
-      "cost": 30.0,
+      "status": "Issued",
+      "description": "wire lights and outlets after kitchen and bathroom remodel",
+      "cost": 45.0,
       "property_use": "Electrical Permit - Residential",
-      "contractor": "Justin pawlik",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
-    },
-    {
-      "date": "2024-01-12",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "remove and replace siding shingles",
-      "cost": 500.0,
-      "property_use": "Building Permit - Residential Repair",
-      "contractor": "Erie Construction Mid West  Inc",
+      "contractor": "king",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: siding; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52620299",
+      "permit_number": "E25-001505"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "29 FOLLEN ST, CAMBRIDGE, MA 02138",
+  "lat": 42.379009,
+  "lng": -71.121101,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=29+FOLLEN+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/29%20FOLLEN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=29+FOLLEN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property is undergoing a full interior renovation after nearly ten years of ownership, which matches the criteria for significant gut work indicating sale preparation."
-  },
-  "lat": 42.379009,
-  "lng": -71.121101
+    "likelihood": "medium",
+    "reasoning": "High-end property ($4.47M assessed value) with recent interior demolition permit and ADCO Realty involvement suggest potential sale preparation, but owner-occupied status and the permit covering only demolition work (full renovation under separate filing) reduce certainty"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "307 HARVARD ST, CAMBRIDGE, MA 02139",
+  "lat": 42.370059,
+  "lng": -71.1064,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=307+HARVARD+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/307%20HARVARD%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=307+HARVARD+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -55,8 +57,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permits focus exclusively on exterior maintenance (roof and deck) for an owner-occupied property, lacking the high-end interior renovations typical of pre-sale preparation."
-  },
-  "lat": 42.370059,
-  "lng": -71.1064
+    "reasoning": "Both permits are routine maintenance work (roof, deck, gutters) with owner occupied status confirmed; no kitchen/bathroom updates or full-scale renovations"
+  }
 }

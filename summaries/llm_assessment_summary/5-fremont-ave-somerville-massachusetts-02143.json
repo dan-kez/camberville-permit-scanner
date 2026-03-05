@@ -1,5 +1,7 @@
 {
   "address": "5 FREMONT AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.378594210548,
+  "lng": -71.10047973278,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+FREMONT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/5%20FREMONT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=5+FREMONT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "A single demolition permit for a residence with owner-occupancy and relatively recent ownership (8 years) suggests minor maintenance or a specific repair rather than a full-scale renovation for sale."
-  },
-  "lat": 42.378594210548,
-  "lng": -71.10047973278
+    "reasoning": "Long-term owner-occupant with single low-cost demolition permit for electrical work, not high-end prep-for-sale renovations"
+  }
 }

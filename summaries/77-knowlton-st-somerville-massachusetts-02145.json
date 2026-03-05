@@ -1,5 +1,7 @@
 {
   "address": "77 KNOWLTON ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.383294278934,
+  "lng": -71.086027906782,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=77+KNOWLTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/77%20KNOWLTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=77+KNOWLTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,17 +15,32 @@
     "last_sale_date": "2023-07-27",
     "last_sale_price": 805000,
     "assessed_value": 731800,
-    "lot_size": 0.08170000000000001
+    "lot_size": 0.08170000000000001,
+    "property_parcel": "104_A_27_F"
   },
-  "property_use": "Building Permit - Residential Repair",
+  "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Union",
   "distance_mi": 0.45,
-  "max_score": 2,
-  "total_cost": 150.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "max_score": 5,
+  "total_cost": 210.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
   "permits": [
+    {
+      "date": "2025-09-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replacement of existing tub on 2nd Floor and reconnect to existing connections",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "NORTHEAST PLUMBING  & HEATING",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52511519",
+      "permit_number": "P25-000513"
+    },
     {
       "date": "2024-07-11",
       "source": "Somerville",
@@ -34,7 +51,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: siding; permit completed; all permits completed"
+      "score_reasons": "minor: siding; permit completed; all permits completed",
+      "permit_id": "17027093",
+      "permit_number": "B24-001106"
     }
   ]
 }

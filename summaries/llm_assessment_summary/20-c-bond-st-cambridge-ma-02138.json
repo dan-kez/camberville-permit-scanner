@@ -1,5 +1,7 @@
 {
   "address": "20-C BOND ST, CAMBRIDGE, MA 02138",
+  "lat": 42.381052,
+  "lng": -71.126491,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20-C+BOND+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/20-C%20BOND%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=20-C+BOND+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "1999-10-29T00:00:00.000",
     "last_sale_price": "495000",
     "assessed_value": "1970100",
-    "lot_size": "3024"
+    "lot_size": "3024",
+    "property_pid": "18354",
+    "property_parcel": "215-51"
   },
   "property_use": "Multi-Family (3 units or greater)",
   "nearest_square": "Porter",
@@ -40,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for routine maintenance (window replacement) by a long-term owner-occupant of over 25 years."
-  },
-  "lat": 42.381052,
-  "lng": -71.126491
+    "reasoning": "Window replacement is standard maintenance for a 145-year-old home; owner is occupying the property, with no kitchen/bathroom updates or significant renovation work typical of sale preparation."
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "16 ALDERSEY ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.383229822099,
+  "lng": -71.09711917634,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+ALDERSEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/16%20ALDERSEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=16+ALDERSEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,16 +15,17 @@
     "last_sale_date": "2018-05-31",
     "last_sale_price": 833000,
     "assessed_value": 1052700,
-    "lot_size": 0.1233
+    "lot_size": 0.1233,
+    "property_parcel": "73_A_4"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Union",
   "distance_mi": 0.32,
   "max_score": 5,
-  "total_cost": 8266.0,
-  "permit_count": 6,
-  "completed_permits": 4,
-  "completion_ratio": "4/6 complete",
+  "total_cost": 9666.0,
+  "permit_count": 7,
+  "completed_permits": 5,
+  "completion_ratio": "5/8 complete",
   "permits": [
     {
       "date": "2024-06-28",
@@ -34,7 +37,9 @@
       "contractor": "Alcantara Contractor Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovate; permit completed; most permits completed"
+      "score_reasons": "keyword: renovate; permit completed; most permits completed",
+      "permit_id": "14004850",
+      "permit_number": "B23-002092"
     },
     {
       "date": "2024-11-06",
@@ -46,7 +51,9 @@
       "contractor": "Ravair Costa Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: full; permit completed; most permits completed"
+      "score_reasons": "keyword: full; permit completed; most permits completed",
+      "permit_id": "51282136",
+      "permit_number": "E24-001666"
     },
     {
       "date": "2024-09-30",
@@ -58,7 +65,9 @@
       "contractor": "Bay State Plumbing and Gas Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel; minor: furnace; permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; minor: furnace; permit completed; most permits completed",
+      "permit_id": "51244815",
+      "permit_number": "G24-000450"
     },
     {
       "date": "2024-09-30",
@@ -70,10 +79,12 @@
       "contractor": "Bay State Plumbing and Gas Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel; minor: water heater; permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; minor: water heater; permit completed; most permits completed",
+      "permit_id": "51244823",
+      "permit_number": "P24-000571"
     },
     {
-      "date": "2024-07-22",
+      "date": "2025-03-04",
       "source": "Somerville",
       "status": "Issued",
       "description": "Dumpster on Street",
@@ -82,7 +93,9 @@
       "contractor": "Alcantara Contractor Inc",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "51672626",
+      "permit_number": "DP25-000021"
     },
     {
       "date": "2024-10-24",
@@ -94,7 +107,23 @@
       "contractor": "Alcantara Contractor Inc",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "51326417",
+      "permit_number": "DP24-000174"
+    },
+    {
+      "date": "2024-07-22",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street",
+      "cost": 1400.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "Alcantara Contractor Inc",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed",
+      "permit_id": "51075874",
+      "permit_number": "DP24-000119"
     }
   ]
 }

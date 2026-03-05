@@ -1,5 +1,7 @@
 {
   "address": "9-3 BELLIS CIR, CAMBRIDGE, MA 02140",
+  "lat": 42.389934,
+  "lng": -71.132957,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9-3+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/9-3%20BELLIS%20CIR%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=9-3+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2001-05-04T00:00:00.000",
     "last_sale_price": "320500",
     "assessed_value": "839700",
-    "lot_size": "1731"
+    "lot_size": "1731",
+    "property_pid": "21810",
+    "property_parcel": "271-74"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +38,8 @@
       "contractor": "Wells & Company Builders Corp",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($78,922)"
+      "score_reasons": "moderate cost ($78,922)",
+      "permit_id": "266632"
     }
   ]
 }

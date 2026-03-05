@@ -1,5 +1,7 @@
 {
   "address": "58 CENTRAL ST, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.387092831725,
+  "lng": -71.104647382677,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=58+CENTRAL+ST%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/58%20CENTRAL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=58+CENTRAL+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2014-06-04",
     "last_sale_price": 1050000,
     "assessed_value": 1471000,
-    "lot_size": 0.09680000000000001
+    "lot_size": 0.09680000000000001,
+    "property_parcel": "43_F_13"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +37,9 @@
       "contractor": "Ryan LaBrache Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51354025",
+      "permit_number": "E24-001823"
     }
   ]
 }

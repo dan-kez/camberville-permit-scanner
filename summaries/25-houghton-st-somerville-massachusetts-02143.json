@@ -1,5 +1,7 @@
 {
   "address": "25 HOUGHTON ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.374939197849,
+  "lng": -71.09849816705,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=25+HOUGHTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/25%20HOUGHTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=25+HOUGHTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2020-04-30",
     "last_sale_price": 890000,
     "assessed_value": 911200,
-    "lot_size": 0.029500000000000002
+    "lot_size": 0.029500000000000002,
+    "property_parcel": "83_E_13"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
@@ -34,7 +37,9 @@
       "contractor": "hs plastering and painting",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: gut; permit completed; all permits completed"
+      "score_reasons": "keyword: gut; permit completed; all permits completed",
+      "permit_id": "17007767",
+      "permit_number": "B24-001059"
     },
     {
       "date": "2024-10-24",
@@ -46,7 +51,9 @@
       "contractor": "KPS Plumbing",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "51298513",
+      "permit_number": "P24-000635"
     },
     {
       "date": "2024-10-02",
@@ -58,7 +65,9 @@
       "contractor": "VICTHOR ARGUEDAS ELECTRICIAN",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51255920",
+      "permit_number": "E24-001588"
     }
   ]
 }

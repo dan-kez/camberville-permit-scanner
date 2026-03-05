@@ -1,5 +1,7 @@
 {
   "address": "7 LEONARD AVE, CAMBRIDGE, MA 02139",
+  "lat": 42.375276,
+  "lng": -71.105578,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+LEONARD+AVE%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/7%20LEONARD%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=7+LEONARD+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2020-12-03T00:00:00.000",
     "last_sale_price": "2550000",
     "assessed_value": "2807500",
-    "lot_size": "3690"
+    "lot_size": "3690",
+    "property_pid": "7143",
+    "property_parcel": "111-8"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +38,8 @@
       "contractor": "Bailey-Davol",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($95,817)"
+      "score_reasons": "moderate cost ($95,817)",
+      "permit_id": "264035"
     }
   ]
 }

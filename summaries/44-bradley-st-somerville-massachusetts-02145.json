@@ -1,0 +1,45 @@
+{
+  "address": "44 BRADLEY ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.389467005799,
+  "lng": -71.094005886043,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=44+BRADLEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/44%20BRADLEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=44+BRADLEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1985,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 4,
+    "living_area": 1142,
+    "last_sale_date": "1986-02-13",
+    "last_sale_price": 0,
+    "assessed_value": 515300,
+    "lot_size": 0.024900000000000002,
+    "property_parcel": "71_E_45"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.68,
+  "max_score": 2,
+  "total_cost": 580.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-08-04",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "install a new tub to shower conversion unit for replacement. no structural changes.",
+      "cost": 580.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Newpro Operating, LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: conversion",
+      "permit_id": "52349802",
+      "permit_number": "B25-001228"
+    }
+  ]
+}

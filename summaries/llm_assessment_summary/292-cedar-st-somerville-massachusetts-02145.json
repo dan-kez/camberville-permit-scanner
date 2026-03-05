@@ -1,6 +1,10 @@
 {
   "address": "292 CEDAR ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.398067760467,
+  "lng": -71.10845352109,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=292+CEDAR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/292%20CEDAR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=292+CEDAR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1900,
@@ -31,14 +35,15 @@
       "cost": 75.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Costas Hatzis Electric",
+      "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52669599",
+      "permit_number": "E25-001640"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The minimal scope of work and extremely low cost suggest basic maintenance rather than a renovation for sale."
-  },
-  "zillow_url": "https://www.zillow.com/homes/292%20CEDAR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
-  "google_search_url": "https://www.google.com/search?q=292+CEDAR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
+    "reasoning": "Minor electrical permit (range circuit and bathroom outlet) with no simultaneous bathroom/kitchen updates, owner occupied, and minimal cost"
+  }
 }

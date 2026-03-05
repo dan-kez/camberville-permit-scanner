@@ -1,5 +1,7 @@
 {
   "address": "12 COTTAGE AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.393703764488,
+  "lng": -71.122161453181,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=12+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/12%20COTTAGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=12+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2018-11-06",
     "last_sale_price": 10,
     "assessed_value": 1129100,
-    "lot_size": 0.0533
+    "lot_size": 0.0533,
+    "property_parcel": "26_I_11"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +37,9 @@
       "contractor": "Brody Electrical Services, Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "14359623",
+      "permit_number": "E24-000664"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "16 GOLD STAR RD, CAMBRIDGE, MA 02140",
+  "lat": 42.39864,
+  "lng": -71.130869,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+GOLD+STAR+RD%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/16%20GOLD%20STAR%20RD%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=16+GOLD+STAR+RD%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The permit describes a comprehensive $321,300 renovation involving a full kitchen remodel, multiple bathroom updates, and structural changes, which matches the criteria for high-end prep-for-sale work."
-  },
-  "lat": 42.39864,
-  "lng": -71.130869
+    "likelihood": "medium",
+    "reasoning": "Comprehensive full-floor renovations including kitchen, two bathrooms, structural changes, and extensive interior/exterior work suggest sale preparation, though owner occupancy and maintenance-like boiler work slightly temper the confidence."
+  }
 }

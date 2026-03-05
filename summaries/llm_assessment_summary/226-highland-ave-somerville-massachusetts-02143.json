@@ -1,0 +1,49 @@
+{
+  "address": "226 HIGHLAND AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.390311775911,
+  "lng": -71.108655608775,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=226+HIGHLAND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/226%20HIGHLAND%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=226+HIGHLAND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1905,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2471,
+    "last_sale_date": "2017-05-10",
+    "last_sale_price": 850000,
+    "assessed_value": 1365200,
+    "lot_size": 0.0913,
+    "property_parcel": "35_E_1"
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.55,
+  "max_score": 2,
+  "total_cost": 75.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-03-11",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "200A Main Service Panel Relocation,",
+      "cost": 75.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Freedom Forever Massachusetts LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "51682931",
+      "permit_number": "E25-000328"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Electrical panel relocation is routine maintenance, owner occupied, and low cost"
+  }
+}

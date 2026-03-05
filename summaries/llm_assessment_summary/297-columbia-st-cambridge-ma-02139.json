@@ -1,5 +1,7 @@
 {
   "address": "297 COLUMBIA ST, CAMBRIDGE, MA 02139",
+  "lat": 42.370455,
+  "lng": -71.096014,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=297+COLUMBIA+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/297%20COLUMBIA%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=297+COLUMBIA+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The work is limited to exterior curb appeal and maintenance by an owner-occupant, lacking the comprehensive interior renovations typical of a property being prepared for sale."
-  },
-  "lat": 42.370455,
-  "lng": -71.096014
+    "likelihood": "medium",
+    "reasoning": "Low sale price ($100) plus $68,000 exterior improvements suggest flip preparation, but owner-occupied status and exterior-only work reduce certainty"
+  }
 }

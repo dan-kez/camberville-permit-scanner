@@ -1,5 +1,7 @@
 {
   "address": "58 IRVING ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.40025158152,
+  "lng": -71.122719185018,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=58+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/58%20IRVING%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=58+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2022-05-25",
     "last_sale_price": 2500000,
     "assessed_value": 2244200,
-    "lot_size": 0.0781
+    "lot_size": 0.0781,
+    "property_parcel": "16_A_36"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Davis",
@@ -32,8 +35,11 @@
       "cost": 12220.0,
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "Tom Curren Companies",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52658269",
+      "permit_number": "B25-001927"
     },
     {
       "date": "2025-12-12",
@@ -43,8 +49,11 @@
       "cost": 110.0,
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "caruso plumbing & heating",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52759046",
+      "permit_number": "P25-000703"
     },
     {
       "date": "2026-01-13",
@@ -54,8 +63,11 @@
       "cost": 153.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Michael Feeley",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52943276",
+      "permit_number": "E26-000036"
     }
   ]
 }

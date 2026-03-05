@@ -1,5 +1,7 @@
 {
   "address": "145 CONCORD AVE, CAMBRIDGE, MA 02138",
+  "lat": 42.381857,
+  "lng": -71.129821,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=145+CONCORD+AVE%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/145%20CONCORD%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=145+CONCORD+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied with long-term ownership and the single permit for finishing a basement is more characteristic of a home improvement than a full pre-sale renovation."
-  },
-  "lat": 42.381857,
-  "lng": -71.129821
+    "reasoning": "Owner-occupied basement finish project by long-term resident (nearly 10 years), moderate cost for a single renovation, no indication of extensive updates to multiple bathrooms or kitchen"
+  }
 }

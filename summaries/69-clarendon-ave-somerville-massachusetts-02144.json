@@ -1,5 +1,7 @@
 {
   "address": "69 CLARENDON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.401700142027,
+  "lng": -71.130007668925,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=69+CLARENDON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/69%20CLARENDON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=69+CLARENDON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,16 +15,17 @@
     "last_sale_date": "2023-09-18",
     "last_sale_price": 949000,
     "assessed_value": 958600,
-    "lot_size": 0.0911
+    "lot_size": 0.0911,
+    "property_parcel": "9_B_15"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
   "distance_mi": 0.52,
   "max_score": 4,
-  "total_cost": 22065.0,
-  "permit_count": 2,
-  "completed_permits": 1,
-  "completion_ratio": "1/2 complete",
+  "total_cost": 27253.0,
+  "permit_count": 6,
+  "completed_permits": 4,
+  "completion_ratio": "4/9 complete",
   "permits": [
     {
       "date": "2024-05-14",
@@ -34,7 +37,37 @@
       "contractor": "Luciano Miranda Electrician",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: demolition; permit completed"
+      "score_reasons": "keyword: demolition; permit completed",
+      "permit_id": "14365513",
+      "permit_number": "E24-000680"
+    },
+    {
+      "date": "2025-05-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Convertion of a single family dwelling to a two family, upgrading the service to a 200 amp service  B24-002040  \tSM25-000097",
+      "cost": 1398.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Juan Camilo Gallego Bohorquez",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: convert; permit completed",
+      "permit_id": "51959495",
+      "permit_number": "E25-000652"
+    },
+    {
+      "date": "2025-01-27",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Full renovation of a single-family house into a two--family",
+      "cost": 3200.0,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "North America Development LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation",
+      "permit_id": "51356353",
+      "permit_number": "B24-002040"
     },
     {
       "date": "2024-06-20",
@@ -46,7 +79,37 @@
       "contractor": "North America Development LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "14128084",
+      "permit_number": "B24-000099"
+    },
+    {
+      "date": "2025-10-23",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Full renovation of a single-family house into a two condominiums",
+      "cost": 260.0,
+      "property_use": "Certificate of Occupancy - Residential",
+      "contractor": "North America Development LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52603370",
+      "permit_number": "CO25-000157"
+    },
+    {
+      "date": "2025-02-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "2 water heaters, 2 laundries, 3 full baths, 1 ejection pump, 1 master bath, 2 kitchens, 2 ice makers and 2 3/4 baths",
+      "cost": 330.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Innovate Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "keyword: full; minor: water heater; permit completed",
+      "permit_id": "51563336",
+      "permit_number": "P25-000063"
     }
   ]
 }

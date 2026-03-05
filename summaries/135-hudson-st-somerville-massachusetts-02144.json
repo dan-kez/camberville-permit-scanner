@@ -1,5 +1,7 @@
 {
   "address": "135 HUDSON ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.391813980598,
+  "lng": -71.10970871109,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=135+HUDSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/135%20HUDSON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=135+HUDSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,53 +15,18 @@
     "last_sale_date": "2000-08-01",
     "last_sale_price": 307000,
     "assessed_value": 1197100,
-    "lot_size": 0.0648
+    "lot_size": 0.0648,
+    "property_parcel": "34_D_55"
   },
-  "property_use": "Building Permit - Residential Renovation",
+  "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Porter",
   "distance_mi": 0.53,
   "max_score": 5,
-  "total_cost": 19492.22,
-  "permit_count": 5,
-  "completed_permits": 5,
-  "completion_ratio": "5/6 complete",
+  "total_cost": 330.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
   "permits": [
-    {
-      "date": "2023-09-12",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Renovation to a single family home including layout adjustments to the second floor and a new master suite within the half story of a newly raised and dormered roof",
-      "cost": 16828.22,
-      "property_use": "Building Permit - Residential Renovation",
-      "contractor": "Morse Constructions",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
-    },
-    {
-      "date": "2023-11-30",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "2nd floor bathroom remodel, new 3rd floor master bathroom",
-      "cost": 120.0,
-      "property_use": "Plumbing Permit - Residential - Existing",
-      "contractor": "Fiorillo Plumbing and Heating",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed"
-    },
-    {
-      "date": "2023-11-20",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "2nd and 3rd floor wiring, 4 bedrooms and 2 bathrooms",
-      "cost": 214.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "D&M Elite Electrical Inc",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed"
-    },
     {
       "date": "2024-10-29",
       "source": "Somerville",
@@ -69,20 +36,10 @@
       "property_use": "Building Permit - Residential Repair",
       "contractor": "Morse Constructions",
       "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed"
-    },
-    {
-      "date": "2023-09-26",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "Dumpster on Street for Construction Debris of Roof Expansion and Interior Wall Demo",
-      "cost": 2000.0,
-      "property_use": "Dumpster (Located on Street) - Dumpster Located on Street",
-      "contractor": "Morse Constructions",
-      "owner_occupied": true,
-      "score": 1,
-      "score_reasons": "most permits completed"
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51284915",
+      "permit_number": "B24-001845"
     }
   ]
 }

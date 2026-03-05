@@ -1,5 +1,7 @@
 {
   "address": "55 STEARNS ST, CAMBRIDGE, MA 02138",
+  "lat": 42.386015,
+  "lng": -71.129777,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=55+STEARNS+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/55%20STEARNS%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=55+STEARNS+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,16 +15,18 @@
     "last_sale_date": "2023-03-27T00:00:00.000",
     "last_sale_price": "3500000",
     "assessed_value": "2650700",
-    "lot_size": "5302"
+    "lot_size": "5302",
+    "property_pid": "17369",
+    "property_parcel": "205-9"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
   "distance_mi": 0.57,
   "max_score": 5,
-  "total_cost": 878918.0,
-  "permit_count": 1,
+  "total_cost": 878919.0,
+  "permit_count": 2,
   "completed_permits": 0,
-  "completion_ratio": "0/1",
+  "completion_ratio": "0/2",
   "permits": [
     {
       "date": "2024-04-11",
@@ -34,7 +38,21 @@
       "contractor": "Bespoke Contracting LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($878,918); keyword: remodel"
+      "score_reasons": "high cost ($878,918); keyword: remodel",
+      "permit_id": "265174"
+    },
+    {
+      "date": "2025-04-02",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Repair existing garage, maintaining the west wall of the structure. Repair foundation and match all finishes to existing. We had a conversation with the historic department who was in favor of our plan to rebuild in kind. We also spoke with zoning who confirmed that we are maintaining one wall and do not need a formal review. The costs of this construction are also covered under the same contract as we have in place for the work on permit\u00a0265174\u00a0 for the main homes reconstruction.",
+      "cost": 1.0,
+      "property_use": "One-Family",
+      "contractor": "Bespoke Contracting LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: rebuild",
+      "permit_id": "1158336"
     }
   ]
 }

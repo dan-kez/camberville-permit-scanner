@@ -1,5 +1,7 @@
 {
   "address": "60 OTIS ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.388061318727,
+  "lng": -71.090432093987,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=60+OTIS+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/60%20OTIS%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=60+OTIS+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2000-08-25",
     "last_sale_price": 125000,
     "assessed_value": 687300,
-    "lot_size": 0.0344
+    "lot_size": 0.0344,
+    "property_parcel": "78_E_2"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +37,9 @@
       "contractor": "Northeast Insustrial Roof",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: gut"
+      "score_reasons": "keyword: gut",
+      "permit_id": "17050503",
+      "permit_number": "B24-001173"
     }
   ]
 }

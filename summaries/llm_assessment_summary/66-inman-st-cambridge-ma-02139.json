@@ -1,5 +1,7 @@
 {
   "address": "66 INMAN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.370534,
+  "lng": -71.102481,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=66+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/66%20INMAN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=66+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -54,9 +56,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "Simultaneous major renovations to the kitchen and master bathroom, combined with window and roof deck replacements after 12 years of ownership, strongly indicate preparation for sale."
-  },
-  "lat": 42.370534,
-  "lng": -71.102481
+    "likelihood": "low",
+    "reasoning": "Full kitchen and bathroom renovations totaling $116,500 by long-term owner-occupant indicates personal home improvement rather than sale preparation, though significant structural updates may suggest future value enhancement"
+  }
 }

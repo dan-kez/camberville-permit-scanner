@@ -1,5 +1,7 @@
 {
   "address": "23 MAPLE AVE, CAMBRIDGE, MA 02139",
+  "lat": 42.372748,
+  "lng": -71.10488,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=23+MAPLE+AVE%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/23%20MAPLE%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=23+MAPLE+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2018-04-05T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "2723000",
-    "lot_size": "10465"
+    "lot_size": "10465",
+    "property_pid": "7440",
+    "property_parcel": "112-102"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +38,8 @@
       "contractor": "Weathervane Home Energy",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($25,608); minor: insulation; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($25,608); minor: insulation; permit completed; all permits completed",
+      "permit_id": "286568"
     }
   ]
 }

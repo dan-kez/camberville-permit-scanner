@@ -1,5 +1,7 @@
 {
   "address": "249 CEDAR ST, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.396590994856,
+  "lng": -71.109121391135,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=249+CEDAR+ST%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/249%20CEDAR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=249+CEDAR+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied and the only recent permit is for a minor emergency electrical repair, which indicates routine maintenance rather than a pre-sale renovation."
-  },
-  "lat": 42.396590994856,
-  "lng": -71.109121391135
+    "reasoning": "Routine emergency electrical maintenance with minimal cost; owner is owner-occupied with no kitchen or bathroom updates indicating normal upkeep rather than sale preparation."
+  }
 }

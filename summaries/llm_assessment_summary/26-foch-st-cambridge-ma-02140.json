@@ -1,5 +1,7 @@
 {
   "address": "26 FOCH ST, CAMBRIDGE, MA 02140",
+  "lat": 42.401469,
+  "lng": -71.135104,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=26+FOCH+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/26%20FOCH%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=26+FOCH+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "medium",
-    "reasoning": "The property is undergoing a significant $213,800 attic expansion and roof lift which adds substantial value, but the owner-occupied status and 4-year ownership period don't clearly meet the high-likelihood flip or low-likelihood maintenance criteria."
-  },
-  "lat": 42.401469,
-  "lng": -71.135104
+    "reasoning": "Owner-occupied with substantial roof and attic renovation investment, but lacks the simultaneous kitchen and bathroom updates typical of prep-for-sale work"
+  }
 }

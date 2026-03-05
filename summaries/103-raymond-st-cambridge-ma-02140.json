@@ -1,5 +1,7 @@
 {
   "address": "103 RAYMOND ST, CAMBRIDGE, MA 02140",
+  "lat": 42.386158,
+  "lng": -71.1267,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=103+RAYMOND+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/103%20RAYMOND%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=103+RAYMOND+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2013-10-23T00:00:00.000",
     "last_sale_price": "10",
     "assessed_value": "2650600",
-    "lot_size": "3287"
+    "lot_size": "3287",
+    "property_pid": "22750",
+    "property_parcel": "201.5-75"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Jacob Harness Construction",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($93,000); keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($93,000); keyword: remodel; permit completed; all permits completed",
+      "permit_id": "1160989"
     }
   ]
 }

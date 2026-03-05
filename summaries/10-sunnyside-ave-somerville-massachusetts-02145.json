@@ -1,0 +1,45 @@
+{
+  "address": "10 SUNNYSIDE AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.388295634831,
+  "lng": -71.091879481027,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+SUNNYSIDE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/10%20SUNNYSIDE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+SUNNYSIDE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1724,
+    "last_sale_date": "1992-12-01",
+    "last_sale_price": 138000,
+    "assessed_value": 919300,
+    "lot_size": 0.08660000000000001,
+    "property_parcel": "78_G_3"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.6,
+  "max_score": 2,
+  "total_cost": 240.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-03-18",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "REMOVE AND REPLACE 4 WINDOWS, LIKE FOR LIKE, SAME SIZE, NO STRUCTURAL CHANGES",
+      "cost": 240.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "WINDOW NATION",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "51645763",
+      "permit_number": "B25-000240"
+    }
+  ]
+}

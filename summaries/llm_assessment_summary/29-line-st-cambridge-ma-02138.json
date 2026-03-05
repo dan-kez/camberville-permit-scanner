@@ -1,5 +1,7 @@
 {
   "address": "29 LINE ST, CAMBRIDGE, MA 02138",
+  "lat": 42.377317,
+  "lng": -71.106558,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=29+LINE+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/29%20LINE%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=29+LINE+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property was purchased in April 2024 and a massive $263,000 whole-house renovation permit was pulled just one month later, which is a strong indicator of a professional 'fix and flip' being prepared for sale."
-  },
-  "lat": 42.377317,
-  "lng": -71.106558
+    "likelihood": "medium",
+    "reasoning": "Significant renovation cost with kitchen, single bathroom, and attic work suggests active property improvement; however, owner-occupied status and substantial assessed value increase are more consistent with long-term owner preparing for sale than short-term flip."
+  }
 }

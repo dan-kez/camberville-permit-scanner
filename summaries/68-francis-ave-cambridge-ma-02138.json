@@ -1,5 +1,7 @@
 {
   "address": "68 FRANCIS AVE, CAMBRIDGE, MA 02138",
+  "lat": 42.381241,
+  "lng": -71.111374,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=68+FRANCIS+AVE%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/68%20FRANCIS%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=68+FRANCIS+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "1984-08-15T00:00:00.000",
     "last_sale_price": "430000",
     "assessed_value": "4507300",
-    "lot_size": "10000"
+    "lot_size": "10000",
+    "property_pid": "11772",
+    "property_parcel": "147-33"
   },
   "property_use": "One or Two Family Dwelling",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Kurt D. Fieldhouse",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "high cost ($1,724,365); keyword: foundation; new construction"
+      "score_reasons": "high cost ($1,724,365); keyword: foundation; new construction",
+      "permit_id": "1190046"
     }
   ]
 }

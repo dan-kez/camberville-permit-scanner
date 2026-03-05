@@ -1,5 +1,7 @@
 {
   "address": "24 NEWELL ST, CAMBRIDGE, MA 02138",
+  "lat": 42.386362,
+  "lng": -71.129403,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=24+NEWELL+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/24%20NEWELL%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=24+NEWELL+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "Recent purchase followed by a massive $710,000 new construction permit to triple the home's square footage strongly indicates a professional development project for resale."
-  },
-  "lat": 42.386362,
-  "lng": -71.129403
+    "likelihood": "medium",
+    "reasoning": "Major renovation with new construction spanning 3 levels and expanding living area from 1,124 to 3,658 SF, but owner_occupied status indicates personal residence and low score suggests limited market relevance."
+  }
 }

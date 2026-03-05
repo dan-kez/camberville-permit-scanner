@@ -1,0 +1,63 @@
+{
+  "address": "148 BOSTON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.399169016815,
+  "lng": -71.111309989873,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=148+BOSTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/148%20BOSTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=148+BOSTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2522,
+    "last_sale_date": "2019-03-13",
+    "last_sale_price": 1,
+    "assessed_value": 1358800,
+    "lot_size": 0.0756,
+    "property_parcel": "27_I_2"
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.6,
+  "max_score": 2,
+  "total_cost": 802.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2025-03-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "INSTALL 10 SOLAR PANELS ON ROOFTOP (4.5kW DC)",
+      "cost": 150.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Viridis Energy Solutions LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "51524000",
+      "permit_number": "E25-000046"
+    },
+    {
+      "date": "2025-03-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "INSTALL OF 10 SOLAR PANELS ON ROOFTOP (4.5kW DC)",
+      "cost": 652.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Viridis Energy Solutions LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "51524026",
+      "permit_number": "B25-000039"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Only minor solar panel work with no kitchen or bathroom renovations; owner_occupied status and minimal total cost indicate standard homeowner maintenance rather than sale preparation"
+  }
+}

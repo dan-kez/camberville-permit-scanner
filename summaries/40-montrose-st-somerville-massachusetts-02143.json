@@ -1,5 +1,7 @@
 {
   "address": "40 MONTROSE ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.388685644785,
+  "lng": -71.099997605709,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+MONTROSE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/40%20MONTROSE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=40+MONTROSE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,17 +15,46 @@
     "last_sale_date": "2003-07-02",
     "last_sale_price": 390000,
     "assessed_value": 1097900,
-    "lot_size": 0.0689
+    "lot_size": 0.0689,
+    "property_parcel": "50_E_8"
   },
-  "property_use": "Building Permit - Residential Addition",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.72,
-  "max_score": 4,
-  "total_cost": 7462.5,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "max_score": 7,
+  "total_cost": 7639.5,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
   "permits": [
+    {
+      "date": "2024-12-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "wire small bump out addition to include Mudroom and office, also rewire Laundry rm and add recess",
+      "cost": 97.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Joseph Spinale",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: addition; permit completed; all permits completed",
+      "permit_id": "51472316",
+      "permit_number": "E24-002039"
+    },
+    {
+      "date": "2025-01-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Installing new laundry on second floor",
+      "cost": 80.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Executive Plumbing and heating llc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51478526",
+      "permit_number": "P24-000828"
+    },
     {
       "date": "2024-08-05",
       "source": "Somerville",
@@ -34,7 +65,9 @@
       "contractor": "Our House Contracting",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: addition; minor: sign; permit completed; all permits completed"
+      "score_reasons": "keyword: addition; minor: sign; permit completed; all permits completed",
+      "permit_id": "17017733",
+      "permit_number": "B24-001083"
     }
   ]
 }

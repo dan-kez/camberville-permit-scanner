@@ -1,5 +1,7 @@
 {
   "address": "356 HIGHLAND AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.394237356444,
+  "lng": -71.117483261562,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=356+HIGHLAND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/356%20HIGHLAND%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=356+HIGHLAND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The single permit for minor window replacement by a long-term owner-occupant of 24 years indicates routine maintenance rather than preparation for sale."
-  },
-  "lat": 42.394237356444,
-  "lng": -71.117483261562
+    "reasoning": "Simple window replacement for maintenance/energy efficiency, no kitchen/bathroom renovations or flip indicators."
+  }
 }

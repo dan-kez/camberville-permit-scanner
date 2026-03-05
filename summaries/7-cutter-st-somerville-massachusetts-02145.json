@@ -1,0 +1,45 @@
+{
+  "address": "7 CUTTER ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.387202550837,
+  "lng": -71.08369941408,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+CUTTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/7%20CUTTER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=7+CUTTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1150,
+    "last_sale_date": "2013-07-26",
+    "last_sale_price": 255000,
+    "assessed_value": 802100,
+    "lot_size": 0.0551,
+    "property_parcel": "91_A_9"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.71,
+  "max_score": 5,
+  "total_cost": 200.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-04-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Removal of illegal room in basement restore back to storage",
+      "cost": 200.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "JND Realty Inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51776439",
+      "permit_number": "B25-000442"
+    }
+  ]
+}

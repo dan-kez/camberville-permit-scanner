@@ -19,7 +19,6 @@ from config import (
     CAMBRIDGE_PROPERTY_DB,
     FETCH_LIMIT,
     LOOKBACK_DATE,
-    MIN_COST_THRESHOLD,
     SOMERVILLE_PERMITS,
     SOMERVILLE_PROPERTY_DB,
     SOMERVILLE_TOWN_ID,
@@ -90,13 +89,37 @@ def _write_cache(source_key, rows):
 
 
 def _fetch_json(url, params):
-    """Fetch JSON from Socrata endpoint."""
-    # Ensure limit is respected, SODA defaults to 1000
+    """Fetch JSON from Socrata endpoint (single request)."""
     if "$limit" not in params:
         params["$limit"] = 5000
     resp = requests.get(url, params=params, timeout=60)
     resp.raise_for_status()
     return resp.json()
+
+
+def _fetch_socrata_paged(url, params, batch_size=2000):
+    """Fetch all records from a Socrata endpoint using $limit/$offset pagination."""
+    all_rows = []
+    offset = 0
+    p = {k: v for k, v in params.items() if k != "$limit"}
+    if "$order" not in p:
+        p["$order"] = ":id"
+    p["$limit"] = batch_size
+
+    while True:
+        p["$offset"] = offset
+        resp = requests.get(url, params=p, timeout=60)
+        resp.raise_for_status()
+        rows = resp.json()
+        if not rows:
+            break
+        all_rows.extend(rows)
+        if len(rows) < batch_size:
+            break
+        offset += len(rows)
+        time.sleep(0.1)
+
+    return all_rows
 
 
 def _fetch_arcgis_json_paged(url, params):
@@ -139,8 +162,10 @@ def _get_rows(source_key, use_cache=True):
     src = SOURCES[source_key]
     if source_key == "somerville_properties":
         rows = _fetch_arcgis_json_paged(src["url"], src["params"])
+    elif source_key == "cambridge_properties":
+        rows = _fetch_json(src["url"], src["params"])  # single fetch, $limit=50000
     else:
-        rows = _fetch_json(src["url"], src["params"])
+        rows = _fetch_socrata_paged(src["url"], src["params"])
         
     _write_cache(source_key, rows)
     return rows, "fetched"
@@ -157,8 +182,6 @@ def _normalize_cambridge_alteration(rows):
     permits = []
     for r in rows:
         cost = _safe_float(r.get("total_cost"))
-        if cost < MIN_COST_THRESHOLD:
-            continue
         lat = _safe_float(r.get("latitude"))
         lng = _safe_float(r.get("longitude"))
         if not lat or not lng:

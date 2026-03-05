@@ -1,5 +1,7 @@
 {
   "address": "102 KINNAIRD ST, CAMBRIDGE, MA 02139",
+  "lat": 42.367575,
+  "lng": -71.112058,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=102+KINNAIRD+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/102%20KINNAIRD%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=102+KINNAIRD+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2015-11-12T00:00:00.000",
     "last_sale_price": "918000",
     "assessed_value": "1379000",
-    "lot_size": "4300"
+    "lot_size": "4300",
+    "property_pid": "9254",
+    "property_parcel": "121-67"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "Junior's Construction",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($63,776); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($63,776); permit completed; all permits completed",
+      "permit_id": "262133"
     }
   ]
 }

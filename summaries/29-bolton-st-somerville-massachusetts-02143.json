@@ -1,5 +1,7 @@
 {
   "address": "29 BOLTON ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.375042798172,
+  "lng": -71.098610065458,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=29+BOLTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/29%20BOLTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=29+BOLTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2009-10-28",
     "last_sale_price": 320000,
     "assessed_value": 842300,
-    "lot_size": 0.0285
+    "lot_size": 0.0285,
+    "property_parcel": "83_E_9"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Inman",
@@ -32,8 +35,11 @@
       "cost": 240.0,
       "property_use": "Building Permit - Residential Other",
       "contractor": "MGS Construction",
+      "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: re-roof; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: re-roof; permit completed; all permits completed",
+      "permit_id": "52624569",
+      "permit_number": "B25-001811"
     }
   ]
 }

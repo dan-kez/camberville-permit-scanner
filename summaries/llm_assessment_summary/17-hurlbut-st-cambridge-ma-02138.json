@@ -1,5 +1,7 @@
 {
   "address": "17 HURLBUT ST, CAMBRIDGE, MA 02138",
+  "lat": 42.383765,
+  "lng": -71.120741,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+HURLBUT+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/17%20HURLBUT%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=17+HURLBUT+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "medium",
-    "reasoning": "High-value 'gut to studs' kitchen and half-bath renovation by a long-term owner-occupant (10+ years) suggests a major update that could precede a sale, though it lacks the full-scale multi-bathroom renovation typical of high-likelihood flips."
-  },
-  "lat": 42.383765,
-  "lng": -71.120741
+    "reasoning": "Substantial gut renovation to kitchen and half bath with high $278,763 cost on high-value property indicates value enhancement, though owner-occupied status reduces immediate sale likelihood"
+  }
 }

@@ -1,0 +1,49 @@
+{
+  "address": "31 AMORY ST, CAMBRIDGE, MA 02139",
+  "lat": 42.370397,
+  "lng": -71.101622,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=31+AMORY+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/31%20AMORY%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=31+AMORY+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "3",
+    "bathrooms": "1/0",
+    "total_rooms": "7",
+    "living_area": "1606",
+    "last_sale_date": "1979-09-05T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1224200",
+    "lot_size": "1778",
+    "property_pid": "6957",
+    "property_parcel": "109-14"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.26,
+  "max_score": 4,
+  "total_cost": 2000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-02-13",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Residential weatherization/air sealing. No structural changes. (46304).",
+      "cost": 2000.0,
+      "property_use": "One-Family",
+      "contractor": "Homeworks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "1151994"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Weatherization/air sealing permit is clearly maintenance work, not prep-for-sale renovations, and owner is occupied"
+  }
+}

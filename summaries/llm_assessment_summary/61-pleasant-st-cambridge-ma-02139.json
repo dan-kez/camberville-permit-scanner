@@ -1,5 +1,7 @@
 {
   "address": "61 PLEASANT ST, CAMBRIDGE, MA 02139",
+  "lat": 42.363209,
+  "lng": -71.109327,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=61+PLEASANT+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/61%20PLEASANT%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=61+PLEASANT+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "A $1.7 million gut renovation and addition on a property held for over 13 years constitutes significant 'Whole House' work that strongly indicates preparation for a high-end market listing."
-  },
-  "lat": 42.363209,
-  "lng": -71.109327
+    "likelihood": "medium",
+    "reasoning": "Significant $1.7M renovation with addition coincides with a new sale record, but owner_occupied=True suggests long-term ownership rather than flip project"
+  }
 }

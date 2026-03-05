@@ -1,0 +1,73 @@
+{
+  "address": "60 BRADLEY ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.389834510344,
+  "lng": -71.093767839993,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=60+BRADLEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/60%20BRADLEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=60+BRADLEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1985,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 4,
+    "living_area": 1142,
+    "last_sale_date": "2007-03-22",
+    "last_sale_price": 282500,
+    "assessed_value": 516900,
+    "lot_size": 0.025500000000000002,
+    "property_parcel": "71_E_53"
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Union",
+  "distance_mi": 0.71,
+  "max_score": 5,
+  "total_cost": 850.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2025-03-19",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Kitchen cabinet Replacement and Countertops.  Replace hood. Install backsplash. Re install existing dishwasher.",
+      "cost": 690.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "tnt construction inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51664210",
+      "permit_number": "B25-000269"
+    },
+    {
+      "date": "2025-02-20",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "1 Floor: 1 single sink for the kitchen",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "LB4 Plumbing and Heating Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51593906",
+      "permit_number": "P25-000102"
+    },
+    {
+      "date": "2025-02-19",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "CHECK KITCHEN EXISTING WIRING AND HOOK UP APPLIANCES",
+      "cost": 100.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Joao Lopes",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51639796",
+      "permit_number": "E25-000248"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 {
   "address": "19 PERRY ST, CAMBRIDGE, MA 02139",
+  "lat": 42.362244,
+  "lng": -71.106852,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+PERRY+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/19%20PERRY%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=19+PERRY+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -14,8 +16,8 @@
     "last_sale_price": "1",
     "assessed_value": "1079300",
     "lot_size": "1065",
-    "property_pid": "6192",
-    "property_parcel": "103-73"
+    "property_pid": "9313",
+    "property_parcel": "121-116"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The recent minor exterior maintenance of a front deck by an owner-occupant following a nominal transfer is consistent with routine property upkeep rather than a high-end pre-sale renovation."
-  },
-  "lat": 42.362244,
-  "lng": -71.106852
+    "reasoning": "Only minor deck demolition and rebuild (not kitchen or bathroom renovations), owner occupied, and limited scope suggests routine maintenance rather than sale preparation."
+  }
 }

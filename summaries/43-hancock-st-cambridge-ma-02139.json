@@ -1,5 +1,7 @@
 {
   "address": "43 HANCOCK ST, CAMBRIDGE, MA 02139",
+  "lat": 42.367909,
+  "lng": -71.109436,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=43+HANCOCK+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/43%20HANCOCK%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=43+HANCOCK+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "1995-09-18T00:00:00.000",
     "last_sale_price": "319000",
     "assessed_value": "1440700",
-    "lot_size": "1502"
+    "lot_size": "1502",
+    "property_pid": "9175",
+    "property_parcel": "120-88"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "Stillwater Building & Renovation, LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($475,712); keyword: renovation; minor: siding"
+      "score_reasons": "high cost ($475,712); keyword: renovation; minor: siding",
+      "permit_id": "1158725"
     }
   ]
 }

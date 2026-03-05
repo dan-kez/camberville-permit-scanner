@@ -1,5 +1,7 @@
 {
   "address": "40 EVERETT AVE, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.387067853653,
+  "lng": -71.089833542281,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+EVERETT+AVE%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/40%20EVERETT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=40+EVERETT+AVE%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -20,10 +22,10 @@
   "nearest_square": "Union",
   "distance_mi": 0.54,
   "max_score": 5,
-  "total_cost": 150.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "total_cost": 335.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
   "permits": [
     {
       "date": "2024-09-12",
@@ -38,12 +40,38 @@
       "score_reasons": "permit completed; all permits completed",
       "permit_id": "16999311",
       "permit_number": "D24-000039"
+    },
+    {
+      "date": "2025-04-29",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rough out and set for 2 new bathrooms on 2nd floor",
+      "cost": 110.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Nally plumbing & heating co.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51955182",
+      "permit_number": "P25-000278"
+    },
+    {
+      "date": "2025-08-29",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Add sub-panel in basement next to main panel, reference to other electric permit # for house is E25-000686",
+      "cost": 75.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Jeffrey Roderick Electrician",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "52505700",
+      "permit_number": "E25-001277"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recorded permit is for a minor garage demolition by an owner-occupant, with no evidence of the high-end interior renovations or whole-house work typical of sale preparation."
-  },
-  "lat": 42.387067853653,
-  "lng": -71.089833542281
+    "reasoning": "Owner-occupied status and accessory structure demo reduce likelihood; missing kitchen updates and mixed work types indicate maintenance-focused renovation"
+  }
 }

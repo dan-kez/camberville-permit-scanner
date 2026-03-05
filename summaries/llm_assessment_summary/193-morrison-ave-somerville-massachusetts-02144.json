@@ -1,5 +1,7 @@
 {
   "address": "193 MORRISON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.397577796317,
+  "lng": -71.119037685506,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=193+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/193%20MORRISON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=193+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -36,8 +38,8 @@
       "owner_occupied": true,
       "score": 2,
       "score_reasons": "minor: water heater; permit completed; all permits completed",
-      "permit_id": "51091672",
-      "permit_number": "P24-000431"
+      "permit_id": "51091704",
+      "permit_number": "G24-000358"
     },
     {
       "date": "2024-08-06",
@@ -56,8 +58,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permits are for a routine water heater replacement by a long-term owner-occupant, which constitutes basic maintenance rather than preparation for sale."
-  },
-  "lat": 42.397577796317,
-  "lng": -71.119037685506
+    "reasoning": "Minor water heater upgrade/maintenance work by owner-occupant with no renovation scope or other permits indicating sale preparation"
+  }
 }

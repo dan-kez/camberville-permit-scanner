@@ -1,5 +1,7 @@
 {
   "address": "40 SARGENT AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.390313871387,
+  "lng": -71.092786654408,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/40%20SARGENT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=40+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2022-06-03",
     "last_sale_price": 1,
     "assessed_value": 800200,
-    "lot_size": 0.0737
+    "lot_size": 0.0737,
+    "property_parcel": "71_B_27"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Union",
@@ -34,7 +37,9 @@
       "contractor": "Ryan McGann",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51114316",
+      "permit_number": "G24-000379"
     }
   ]
 }

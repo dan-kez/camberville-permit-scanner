@@ -1,5 +1,7 @@
 {
   "address": "30 HOWARD ST, CAMBRIDGE, MA 02139",
+  "lat": 42.365028,
+  "lng": -71.110708,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=30+HOWARD+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/30%20HOWARD%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=30+HOWARD+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "A single bathroom addition in an owner-occupied home with six years of ownership is more likely a personal improvement than a high-end pre-sale renovation."
-  },
-  "lat": 42.365028,
-  "lng": -71.110708
+    "reasoning": "Single bathroom addition by owner-occupant is a targeted improvement, not full-scale kitchen/bathroom updates, with no gut renovation or evidence of flip activity"
+  }
 }

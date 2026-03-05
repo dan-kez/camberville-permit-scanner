@@ -1,5 +1,7 @@
 {
   "address": "88 PROPERZI WAY, SOMERVILLE MASSACHUSETTS 02123",
+  "lat": 42.38003103639,
+  "lng": -71.106959279211,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=88+PROPERZI+WAY%2C+SOMERVILLE+MASSACHUSETTS+02123",
   "zillow_url": "https://www.zillow.com/homes/88%20PROPERZI%20WAY%2C%20SOMERVILLE%20MASSACHUSETTS%2002123_rb/",
   "google_search_url": "https://www.google.com/search?q=88+PROPERZI+WAY%2C+SOMERVILLE+MASSACHUSETTS+02123+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2018-10-23",
     "last_sale_price": 1600000,
     "assessed_value": 1775600,
-    "lot_size": 0.1693
+    "lot_size": 0.1693,
+    "property_parcel": "54_G_23"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
@@ -34,7 +37,9 @@
       "contractor": "Marcell Construction Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51108924",
+      "permit_number": "B24-001406"
     }
   ]
 }

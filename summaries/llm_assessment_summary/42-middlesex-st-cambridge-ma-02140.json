@@ -1,5 +1,7 @@
 {
   "address": "42 MIDDLESEX ST, CAMBRIDGE, MA 02140",
+  "lat": 42.392226,
+  "lng": -71.130622,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=42+MIDDLESEX+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/42%20MIDDLESEX%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=42+MIDDLESEX+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permit for a $45,405 deck extension and door replacement is a common lifestyle improvement for an owner-occupant and lacks the significant interior renovations typical of a property being prepared for sale."
-  },
-  "lat": 42.392226,
-  "lng": -71.130622
+    "reasoning": "Deck extension and door replacement by owner-occupant, not major renovations"
+  }
 }

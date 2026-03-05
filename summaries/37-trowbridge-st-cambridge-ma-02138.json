@@ -1,5 +1,7 @@
 {
   "address": "37 TROWBRIDGE ST, CAMBRIDGE, MA 02138",
+  "lat": 42.372105,
+  "lng": -71.11172,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37+TROWBRIDGE+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/37%20TROWBRIDGE%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=37+TROWBRIDGE+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2016-01-07T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "3557600",
-    "lot_size": "5135"
+    "lot_size": "5135",
+    "property_pid": "10751",
+    "property_parcel": "135-17"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "1212 Design Build Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($59,000); keyword: demolish"
+      "score_reasons": "moderate cost ($59,000); keyword: demolish",
+      "permit_id": "1187116"
     }
   ]
 }

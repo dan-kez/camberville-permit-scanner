@@ -1,5 +1,7 @@
 {
   "address": "96 BROADWAY, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.387279831985,
+  "lng": -71.08316355901,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=96+BROADWAY%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/96%20BROADWAY%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=96+BROADWAY%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,27 +15,31 @@
     "last_sale_date": "2018-07-18",
     "last_sale_price": 800000,
     "assessed_value": 1074500,
-    "lot_size": 0.0613
+    "lot_size": 0.0613,
+    "property_parcel": "91_B_2"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Union",
   "distance_mi": 0.74,
   "max_score": 2,
-  "total_cost": 4774.0,
-  "permit_count": 2,
+  "total_cost": 5014.0,
+  "permit_count": 3,
   "completed_permits": 0,
-  "completion_ratio": "0/2",
+  "completion_ratio": "0/3",
   "permits": [
     {
-      "date": "2025-09-23",
+      "date": "2025-06-02",
       "source": "Somerville",
       "status": "Issued",
-      "description": "single family converted to 2 family",
-      "cost": 774.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Brendan Sheehey Electrician",
+      "description": "Light Demo Non Structural. Remove exterior deck, kitchen cabinets, bathroom fixtures (DEMO ONLY) Refer to B25-001351 for construction work.",
+      "cost": 240.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "General Development",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: convert"
+      "score_reasons": "keyword: structural",
+      "permit_id": "51761444",
+      "permit_number": "B25-000391"
     },
     {
       "date": "2025-12-01",
@@ -43,8 +49,25 @@
       "cost": 4000.0,
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "General Development",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52396024",
+      "permit_number": "B25-001351"
+    },
+    {
+      "date": "2025-09-23",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "single family converted to 2 family",
+      "cost": 774.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Brendan Sheehey Electrician",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: convert",
+      "permit_id": "52583419",
+      "permit_number": "E25-001407"
     }
   ]
 }

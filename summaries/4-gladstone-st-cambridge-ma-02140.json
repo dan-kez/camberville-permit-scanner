@@ -1,0 +1,45 @@
+{
+  "address": "4 GLADSTONE ST, CAMBRIDGE, MA 02140",
+  "lat": 42.401093,
+  "lng": -71.134836,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+GLADSTONE+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/4%20GLADSTONE%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=4+GLADSTONE+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1893",
+    "bedrooms": "3",
+    "bathrooms": "1/0",
+    "total_rooms": "8",
+    "living_area": "1650",
+    "last_sale_date": "2015-01-02T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1064100",
+    "lot_size": "3400",
+    "property_pid": "15318",
+    "property_parcel": "186-92"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.7,
+  "max_score": 5,
+  "total_cost": 3592.38,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-08-04",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "insulating exterior walls using cellulose R15insulating basement rim joists with 2\" polyiso board with foil face. Work id: 188155024",
+      "cost": 3592.38,
+      "property_use": "One-Family",
+      "contractor": "Absolute Energy Solutions",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "1177369"
+    }
+  ]
+}

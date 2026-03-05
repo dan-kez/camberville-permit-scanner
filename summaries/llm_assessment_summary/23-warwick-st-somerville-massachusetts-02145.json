@@ -1,5 +1,7 @@
 {
   "address": "23 WARWICK ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.39399013221,
+  "lng": -71.109804432425,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=23+WARWICK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/23%20WARWICK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=23+WARWICK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied with evidence of long-term ownership and the only recent permit is for routine roof maintenance."
-  },
-  "lat": 42.39399013221,
-  "lng": -71.109804432425
+    "reasoning": "Single roof replacement by owner-occupied property indicates routine maintenance rather than sale preparation"
+  }
 }

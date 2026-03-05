@@ -1,5 +1,7 @@
 {
   "address": "29 ELLSWORTH AVE, CAMBRIDGE, MA 02139",
+  "lat": 42.374153,
+  "lng": -71.106416,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=29+ELLSWORTH+AVE%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/29%20ELLSWORTH%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=29+ELLSWORTH+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -21,10 +23,10 @@
   "nearest_square": "Inman",
   "distance_mi": 0.36,
   "max_score": 2,
-  "total_cost": 743761.88,
-  "permit_count": 1,
+  "total_cost": 759361.88,
+  "permit_count": 2,
   "completed_permits": 0,
-  "completion_ratio": "0/1",
+  "completion_ratio": "0/2",
   "permits": [
     {
       "date": "2025-10-01",
@@ -38,12 +40,23 @@
       "score": 2,
       "score_reasons": "high cost ($743,762); keyword: remodel; minor: replace windows",
       "permit_id": "1185671"
+    },
+    {
+      "date": "2025-09-30",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Interior demolition of non-load bear partitions in preparation for work done under a separate remodeling permit.",
+      "cost": 15600.0,
+      "property_use": "One-Family",
+      "contractor": "ReModern Builders LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel",
+      "permit_id": "1185494"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The massive $743k renovation involving multiple bathroom remodels and structural attic expansion shortly after a 2023 purchase represents a significant whole-house value-add typical of a high-end flip."
-  },
-  "lat": 42.374153,
-  "lng": -71.106416
+    "likelihood": "medium",
+    "reasoning": "Significant comprehensive remodeling with dormer and new third-floor bathroom, but owner occupied status and lack of explicit kitchen remodel reduces the high-likelihood indicators."
+  }
 }

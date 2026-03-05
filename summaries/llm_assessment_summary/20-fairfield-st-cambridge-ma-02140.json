@@ -1,5 +1,7 @@
 {
   "address": "20 FAIRFIELD ST, CAMBRIDGE, MA 02140",
+  "lat": 42.391971,
+  "lng": -71.126606,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20+FAIRFIELD+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/20%20FAIRFIELD%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=20+FAIRFIELD+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -21,29 +23,27 @@
   "nearest_square": "Davis",
   "distance_mi": 0.39,
   "max_score": 5,
-  "total_cost": 905000.0,
+  "total_cost": 4200.0,
   "permit_count": 1,
-  "completed_permits": 0,
-  "completion_ratio": "0/1",
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
   "permits": [
     {
-      "date": "2023-07-18",
+      "date": "2025-04-04",
       "source": "Cambridge Alteration",
-      "status": "Active",
-      "description": "Interior renovations to include remodel of existing baths addition of new second floor bathroom new kitchen new closet bump out and new third floor dormer",
-      "cost": 905000.0,
+      "status": "Complete",
+      "description": "We are replacing our stoop and front steps following(for unrelated permit) where he identified concerns with our existing front stoop.",
+      "cost": 4200.0,
       "property_use": "One-Family",
-      "contractor": "Precision Finish Boston INC",
+      "contractor": "",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($905,000); keyword: renovation",
-      "permit_id": "233397"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "1158723"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The $905,000 renovation includes a new kitchen, multiple bathroom remodels, and a dormer, representing significant whole-house work after 11 years of ownership."
-  },
-  "lat": 42.391971,
-  "lng": -71.126606
+    "likelihood": "low",
+    "reasoning": "Only maintenance work (stoop replacement) with owner-occupied status, lacking kitchen/bathroom renovations or non-owner occupancy indicators"
+  }
 }

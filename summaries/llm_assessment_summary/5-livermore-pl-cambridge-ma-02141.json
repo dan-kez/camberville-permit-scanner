@@ -1,5 +1,7 @@
 {
   "address": "5 LIVERMORE PL, CAMBRIDGE, MA 02141",
+  "lat": 42.370913,
+  "lng": -71.095054,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+LIVERMORE+PL%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/5%20LIVERMORE%20PL%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=5+LIVERMORE+PL%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "Significant whole-house renovation including the kitchen, bathroom, and a new half-bathroom by a long-term owner of 36 years strongly indicates preparation for a market exit."
-  },
-  "lat": 42.370913,
-  "lng": -71.095054
+    "likelihood": "medium",
+    "reasoning": "Extensive high-end kitchen and bathroom renovation combined with structural roof reinforcement indicate preparation, but owner occupancy since 1989 reduces immediate sale likelihood"
+  }
 }

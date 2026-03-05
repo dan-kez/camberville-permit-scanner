@@ -1,6 +1,10 @@
 {
   "address": "10 SPRING HILL TERR, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.388926331135,
+  "lng": -71.107176370503,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/10%20SPRING%20HILL%20TERR%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1900,
@@ -14,15 +18,29 @@
     "lot_size": 0.0482,
     "property_parcel": "43_C_38"
   },
-  "property_use": "Plumbing Permit - Residential - Existing",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
   "distance_mi": 0.61,
   "max_score": 2,
-  "total_cost": 70.0,
-  "permit_count": 1,
+  "total_cost": 197.0,
+  "permit_count": 2,
   "completed_permits": 0,
-  "completion_ratio": "0/1",
+  "completion_ratio": "0/2",
   "permits": [
+    {
+      "date": "2025-07-09",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Rough and finish electrical on basement renovation\r\nB25-000901",
+      "cost": 127.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Rick Picardi",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52168002",
+      "permit_number": "E25-000931"
+    },
     {
       "date": "2025-10-03",
       "source": "Somerville",
@@ -31,14 +49,15 @@
       "cost": 70.0,
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "Epic Plumbing And Heating Inc.",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52602854",
+      "permit_number": "P25-000577"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The likelihood is low because the scope of work is limited to a single, low-cost permit for a minor basement bathroom remodel rather than a comprehensive renovation."
-  },
-  "zillow_url": "https://www.zillow.com/homes/10%20SPRING%20HILL%20TERR%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
-  "google_search_url": "https://www.google.com/search?q=10+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
+    "reasoning": "Minimal basement-focused renovation with low total cost and owner-occupied status indicate routine maintenance rather than full-scale sale preparation."
+  }
 }

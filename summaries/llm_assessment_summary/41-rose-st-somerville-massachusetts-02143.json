@@ -1,0 +1,49 @@
+{
+  "address": "41 ROSE ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.377912258905,
+  "lng": -71.103026993155,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=41+ROSE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/41%20ROSE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=41+ROSE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1915,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1347,
+    "last_sale_date": "2020-10-02",
+    "last_sale_price": 1210000,
+    "assessed_value": 1202500,
+    "lot_size": 0.0697,
+    "property_parcel": "65_B_19"
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Inman",
+  "distance_mi": 0.35,
+  "max_score": 5,
+  "total_cost": 80.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-03-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Smoke alarms installation",
+      "cost": 80.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Raymond Sedar Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51769385",
+      "permit_number": "E25-000408"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Smoke alarm installation is a minor safety compliance task, owner occupied status and minimal $80 cost indicate routine maintenance rather than sale preparation"
+  }
+}

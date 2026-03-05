@@ -1,5 +1,7 @@
 {
   "address": "66 LINDEN AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.390417220253,
+  "lng": -71.112496615906,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=66+LINDEN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/66%20LINDEN%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=66+LINDEN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -56,8 +58,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "Long-term owner-occupant since 2002 performing minor attic and second floor improvements rather than high-end kitchen or bathroom renovations."
-  },
-  "lat": 42.390417220253,
-  "lng": -71.112496615906
+    "reasoning": "Owner occupied with long-term ownership, renovations focused on 2nd floor remodeling and electrical work rather than comprehensive kitchen/bath updates typical of sale preparation"
+  }
 }

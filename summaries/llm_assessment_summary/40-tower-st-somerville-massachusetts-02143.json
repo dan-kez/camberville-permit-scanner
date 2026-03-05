@@ -1,5 +1,7 @@
 {
   "address": "40 TOWER ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.389187972243,
+  "lng": -71.109418194326,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+TOWER+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/40%20TOWER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=40+TOWER+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -20,10 +22,10 @@
   "nearest_square": "Porter",
   "distance_mi": 0.5,
   "max_score": 7,
-  "total_cost": 4934.0,
-  "permit_count": 9,
-  "completed_permits": 9,
-  "completion_ratio": "9/9 complete",
+  "total_cost": 5174.0,
+  "permit_count": 10,
+  "completed_permits": 10,
+  "completion_ratio": "10/10 complete",
   "permits": [
     {
       "date": "2024-05-17",
@@ -54,18 +56,18 @@
       "permit_number": "E24-000707"
     },
     {
-      "date": "2024-04-24",
+      "date": "2024-06-11",
       "source": "Somerville",
       "status": "Closed",
-      "description": "safe demo, disconnect ckts, make safe for demo work",
-      "cost": 60.0,
+      "description": "new ac condenser",
+      "cost": 105.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Rogerio Mauriz Electrician",
       "owner_occupied": true,
       "score": 5,
       "score_reasons": "permit completed; all permits completed",
-      "permit_id": "14294467",
-      "permit_number": "E24-000496"
+      "permit_id": "14450673",
+      "permit_number": "E24-000890"
     },
     {
       "date": "2024-04-25",
@@ -82,18 +84,18 @@
       "permit_number": "B24-000474"
     },
     {
-      "date": "2024-06-11",
+      "date": "2024-04-24",
       "source": "Somerville",
       "status": "Closed",
-      "description": "new ac condenser",
-      "cost": 105.0,
+      "description": "safe demo, disconnect ckts, make safe for demo work",
+      "cost": 60.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Rogerio Mauriz Electrician",
       "owner_occupied": true,
       "score": 5,
       "score_reasons": "permit completed; all permits completed",
-      "permit_id": "14450673",
-      "permit_number": "E24-000890"
+      "permit_id": "14294467",
+      "permit_number": "E24-000496"
     },
     {
       "date": "2024-04-26",
@@ -108,6 +110,34 @@
       "score_reasons": "keyword: renovate; minor: replace windows; permit completed; all permits completed",
       "permit_id": "14313186",
       "permit_number": "B24-000586"
+    },
+    {
+      "date": "2025-11-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Residential weatherization/air sealing. No structural changes. (842385)",
+      "cost": 240.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "52664309",
+      "permit_number": "B25-001947"
+    },
+    {
+      "date": "2024-06-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace gas furnace and add air conditioning",
+      "cost": 285.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "St Jean Heating and Cooling",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "14394143",
+      "permit_number": "SM24-000105"
     },
     {
       "date": "2024-05-20",
@@ -136,26 +166,10 @@
       "score_reasons": "minor: panel; permit completed; all permits completed",
       "permit_id": "14439078",
       "permit_number": "E24-000848"
-    },
-    {
-      "date": "2024-06-24",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Replace gas furnace and add air conditioning",
-      "cost": 285.0,
-      "property_use": "Sheet Metal Permit - Residential",
-      "contractor": "St Jean Heating and Cooling",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed",
-      "permit_id": "14394143",
-      "permit_number": "SM24-000105"
     }
   ],
   "llm_assessment": {
     "likelihood": "high",
-    "reasoning": "The property underwent a simultaneous full-scale renovation of the kitchen and three bathrooms, including a complete house rewire and floor refinishing, which strongly indicates high-end preparation for sale."
-  },
-  "lat": 42.389187972243,
-  "lng": -71.109418194326
+    "reasoning": "Simultaneous full-scale updates to Kitchen AND 3 bathrooms with demolition, rewiring, and HVAC replacement in a 2-week period indicate a major renovation project rather than routine maintenance"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "60 FRANKLIN ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.383176387466,
+  "lng": -71.084968182764,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=60+FRANKLIN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/60%20FRANKLIN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=60+FRANKLIN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,17 +15,32 @@
     "last_sale_date": "2021-12-06",
     "last_sale_price": 1,
     "assessed_value": 817700,
-    "lot_size": 0.1288
+    "lot_size": 0.1288,
+    "property_parcel": "104_D_17"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Demolition Permit - Residential Structures",
   "nearest_square": "Union",
   "distance_mi": 0.49,
   "max_score": 4,
-  "total_cost": 32057.5,
-  "permit_count": 9,
-  "completed_permits": 1,
-  "completion_ratio": "1/10 complete",
+  "total_cost": 33341.5,
+  "permit_count": 10,
+  "completed_permits": 2,
+  "completion_ratio": "2/11 complete",
   "permits": [
+    {
+      "date": "2025-07-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Demolition of exiting single family structure\r\nDEMO ON OR AFTER AUGUST 4, 2025",
+      "cost": 1284.0,
+      "property_use": "Demolition Permit - Residential Structures",
+      "contractor": "Picker Construction",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: demolition; permit completed",
+      "permit_id": "52142004",
+      "permit_number": "D25-000029"
+    },
     {
       "date": "2025-10-06",
       "source": "Somerville",
@@ -32,41 +49,11 @@
       "cost": 60.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "MPS Electric LLC",
+      "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: foundation; permit completed"
-    },
-    {
-      "date": "2025-10-06",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "Pull Permit for foundation rebar ground, both foundation front & Rear",
-      "cost": 60.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "MPS Electric LLC",
-      "score": 2,
-      "score_reasons": "keyword: foundation"
-    },
-    {
-      "date": "2025-10-23",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "Foundation permit for new construction one unit backyard cottage \r\nPERMIT TO CONSTRUCT B25-001590",
-      "cost": 957.5,
-      "property_use": "Building Permit - Residential New Construction",
-      "contractor": "Picker Construction",
-      "score": 2,
-      "score_reasons": "keyword: new construction"
-    },
-    {
-      "date": "2025-10-23",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "Foundation permit for new construction two unit buildling \r\nPERMIT TO CONSTRUCT B25-001484",
-      "cost": 2680.0,
-      "property_use": "Building Permit - Residential New Construction",
-      "contractor": "Picker Construction",
-      "score": 2,
-      "score_reasons": "keyword: new construction"
+      "score_reasons": "keyword: foundation; permit completed",
+      "permit_id": "52606371",
+      "permit_number": "E25-001473"
     },
     {
       "date": "2025-12-23",
@@ -76,8 +63,25 @@
       "cost": 20555.0,
       "property_use": "Building Permit - Residential New Construction",
       "contractor": "Picker Construction",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: foundation"
+      "score_reasons": "keyword: foundation",
+      "permit_id": "52462075",
+      "permit_number": "B25-001484"
+    },
+    {
+      "date": "2025-10-23",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Foundation permit for new construction one unit backyard cottage \r\nPERMIT TO CONSTRUCT B25-001590",
+      "cost": 957.5,
+      "property_use": "Building Permit - Residential New Construction",
+      "contractor": "Picker Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: new construction",
+      "permit_id": "52552647",
+      "permit_number": "B25-001589"
     },
     {
       "date": "2026-01-27",
@@ -87,30 +91,39 @@
       "cost": 6805.0,
       "property_use": "Building Permit - Residential New Construction",
       "contractor": "Picker Construction",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: foundation"
+      "score_reasons": "keyword: foundation",
+      "permit_id": "52552673",
+      "permit_number": "B25-001590"
     },
     {
-      "date": "2026-02-18",
+      "date": "2025-10-23",
       "source": "Somerville",
       "status": "Issued",
-      "description": "Renovation Unit B",
-      "cost": 300.0,
-      "property_use": "Plumbing Permit - Residential - New",
-      "contractor": "Plumr Inc",
+      "description": "Foundation permit for new construction two unit buildling \r\nPERMIT TO CONSTRUCT B25-001484",
+      "cost": 2680.0,
+      "property_use": "Building Permit - Residential New Construction",
+      "contractor": "Picker Construction",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: new construction",
+      "permit_id": "52552625",
+      "permit_number": "B25-001586"
     },
     {
-      "date": "2026-02-18",
+      "date": "2025-10-06",
       "source": "Somerville",
       "status": "Issued",
-      "description": "Renovation Unit C",
-      "cost": 310.0,
-      "property_use": "Plumbing Permit - Residential - New",
-      "contractor": "Plumr Inc",
+      "description": "Pull Permit for foundation rebar ground, both foundation front & Rear",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "MPS Electric LLC",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: foundation",
+      "permit_id": "52606365",
+      "permit_number": "E25-001472"
     },
     {
       "date": "2026-02-18",
@@ -120,8 +133,39 @@
       "cost": 330.0,
       "property_use": "Plumbing Permit - Residential - New",
       "contractor": "Plumr Inc",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52986430",
+      "permit_number": "P26-000059"
+    },
+    {
+      "date": "2026-02-18",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Renovation Unit B",
+      "cost": 300.0,
+      "property_use": "Plumbing Permit - Residential - New",
+      "contractor": "Plumr Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52986454",
+      "permit_number": "P26-000060"
+    },
+    {
+      "date": "2026-02-18",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Renovation Unit C",
+      "cost": 310.0,
+      "property_use": "Plumbing Permit - Residential - New",
+      "contractor": "Plumr Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52986492",
+      "permit_number": "P26-000061"
     }
   ]
 }

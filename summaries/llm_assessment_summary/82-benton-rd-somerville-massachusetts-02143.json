@@ -1,5 +1,7 @@
 {
   "address": "82 BENTON RD, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.389696879494,
+  "lng": -71.105051306591,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=82+BENTON+RD%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/82%20BENTON%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=82+BENTON+RD%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -20,7 +22,7 @@
   "nearest_square": "Porter",
   "distance_mi": 0.72,
   "max_score": 3,
-  "total_cost": 480.0,
+  "total_cost": 440.0,
   "permit_count": 3,
   "completed_permits": 5,
   "completion_ratio": "5/6 complete",
@@ -54,24 +56,22 @@
       "permit_number": "E24-001314"
     },
     {
-      "date": "2024-03-04",
+      "date": "2025-04-03",
       "source": "Somerville",
       "status": "Issued",
-      "description": "Partial Shingle Roof replacement - 9 SQ",
-      "cost": 260.0,
-      "property_use": "Building Permit - Residential Repair",
-      "contractor": "RB Farina Roofing & Construction",
+      "description": "Air seal and insulate attic, kneewalls and exterior walls.",
+      "cost": 220.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Superior Insulation",
       "owner_occupied": true,
       "score": 1,
       "score_reasons": "most permits completed",
-      "permit_id": "14212532",
-      "permit_number": "B24-000307"
+      "permit_id": "51764892",
+      "permit_number": "B25-000403"
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The permits reflect standard maintenance and system upgrades (roof, HVAC, and electrical) by a long-term owner-occupant without any indication of high-end cosmetic renovations."
-  },
-  "lat": 42.389696879494,
-  "lng": -71.105051306591
+    "likelihood": "error",
+    "reasoning": "Command '['claude', '--model', 'glm-4.7-flash:latest', '-p', 'Assess the likelihood that this property is being prepared for sale based on building permits and assessment data.\\n\\nCRITICAL INDICATORS FOR HIGH LIKELIHOOD:\\n1. High-end \\'prep-for-sale\\' renovations: Simultaneous full-scale updates to Kitchen AND multiple Bathrooms.\\n2. Non-owner occupied: If the permit lists owner_occupied as False, it is much more likely to be a project/flip.\\n3. Significant \\'Gut\\' or \\'Whole House\\' work even with long-term ownership (8+ years).\\n\\nCRITICAL INDICATORS FOR LOW LIKELIHOOD:\\n1. Maintenance work: Roof, windows (unless part of a larger project), siding, or HVAC only.\\n2. Minor updates: A single bathroom or small kitchen refresh by a long-term owner-occupant.\\n\\nRespond with ONLY valid JSON in this exact format:\\n{\"likelihood\": \"low|medium|high\", \"reasoning\": \"one sentence explanation\"}\\n\\nDATA:\\n{\"address\":\"82 BENTON RD, SOMERVILLE MASSACHUSETTS 02143\",\"property_info\":{\"property_class\":\"1010\",\"year_built\":1900,\"bedrooms\":\"unknown\",\"bathrooms\":\"unknown\",\"total_rooms\":9,\"living_area\":2147,\"last_sale_date\":\"2006-11-09\",\"last_sale_price\":425000,\"assessed_value\":920800,\"lot_size\":0.0577,\"property_parcel\":\"42_F_17\"},\"property_use\":\"Electrical Permit - Residential\",\"nearest_square\":\"Porter\",\"distance_mi\":0.72,\"max_score\":3,\"total_cost\":440.0,\"permit_count\":3,\"permits\":[{\"date\":\"2024-05-10\",\"source\":\"Somerville\",\"status\":\"Closed\",\"description\":\"Upgrade electrical service (100a to 200a)\",\"cost\":100.0,\"property_use\":\"Electrical Permit - Residential\",\"contractor\":\"Mathew Wilson - Electrician\",\"owner_occupied\":true,\"score\":3,\"score_reasons\":\"permit completed; most permits completed\",\"permit_id\":\"14392922\",\"permit_number\":\"E24-000717\"},{\"date\":\"2024-08-12\",\"source\":\"Somerville\",\"status\":\"Closed\",\"description\":\"5 ton heat pump, air handler and 10 KW heat strips\",\"cost\":120.0,\"property_use\":\"Electrical Permit - Residential\",\"contractor\":\"Four Star Lighting & Electric Inc.\",\"owner_occupied\":true,\"score\":3,\"score_reasons\":\"permit completed; most permits completed\",\"permit_id\":\"51115888\",\"permit_number\":\"E24-001314\"},{\"date\":\"2025-04-03\",\"source\":\"Somerville\",\"status\":\"Issued\",\"description\":\"Air seal and insulate attic, kneewalls and exterior walls.\",\"cost\":220.0,\"property_use\":\"Building Permit - Residential Other\",\"contractor\":\"Superior Insulation\",\"owner_occupied\":true,\"score\":1,\"score_reasons\":\"most permits completed\",\"permit_id\":\"51764892\",\"permit_number\":\"B25-000403\"}]}']' timed out after 120 seconds"
+  }
 }

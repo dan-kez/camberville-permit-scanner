@@ -1,0 +1,49 @@
+{
+  "address": "70-6 KIRKLAND ST, CAMBRIDGE, MA 02138",
+  "lat": 42.377157,
+  "lng": -71.110024,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=70-6+KIRKLAND+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/70-6%20KIRKLAND%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=70-6+KIRKLAND+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1979",
+    "bedrooms": "2",
+    "bathrooms": "3/0",
+    "total_rooms": "7",
+    "living_area": "1630",
+    "last_sale_date": "2015-07-31T00:00:00.000",
+    "last_sale_price": "1185000",
+    "assessed_value": "1790100",
+    "lot_size": "1112",
+    "property_pid": "11683",
+    "property_parcel": "142-151"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.6,
+  "max_score": 2,
+  "total_cost": 8208.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-07-23",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "REMOVE & REPLACE 2 WINDOWS; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 8208.0,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "281663"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Single-window replacement is routine maintenance by owner-occupant, not a full-scale renovation preparing for sale"
+  }
+}

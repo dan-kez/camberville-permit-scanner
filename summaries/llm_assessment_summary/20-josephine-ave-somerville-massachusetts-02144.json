@@ -1,0 +1,63 @@
+{
+  "address": "20 JOSEPHINE AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396167541107,
+  "lng": -71.114758807754,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20+JOSEPHINE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/20%20JOSEPHINE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=20+JOSEPHINE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2247,
+    "last_sale_date": "2021-09-16",
+    "last_sale_price": 2010000,
+    "assessed_value": 1942700,
+    "lot_size": 0.0781,
+    "property_parcel": "28_A_10"
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Davis",
+  "distance_mi": 0.4,
+  "max_score": 2,
+  "total_cost": 120.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2025-07-22",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Basement gas boiler",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Big Blue Plumbing & Heating, Inc.",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: boiler; permit completed; all permits completed",
+      "permit_id": "52336829",
+      "permit_number": "P25-000432"
+    },
+    {
+      "date": "2025-07-22",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Basement gas boiler",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "Big Blue Plumbing & Heating, Inc.",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: boiler; permit completed; all permits completed",
+      "permit_id": "52336998",
+      "permit_number": "G25-000298"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Two minor boiler replacement permits totaling $60 with owner_occupied flag indicates routine maintenance, not sale preparation"
+  }
+}

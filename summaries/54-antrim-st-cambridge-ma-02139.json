@@ -1,5 +1,7 @@
 {
   "address": "54 ANTRIM ST, CAMBRIDGE, MA 02139",
+  "lat": 42.37156,
+  "lng": -71.102767,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=54+ANTRIM+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/54%20ANTRIM%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=54+ANTRIM+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,29 +15,19 @@
     "last_sale_date": "2023-07-10T00:00:00.000",
     "last_sale_price": "2315000",
     "assessed_value": "2957100",
-    "lot_size": "4569"
+    "lot_size": "4569",
+    "property_pid": "7663",
+    "property_parcel": "114-46"
   },
-  "property_use": "Two-Family",
+  "property_use": "One-Family",
   "nearest_square": "Inman",
   "distance_mi": 0.23,
-  "max_score": 7,
-  "total_cost": 461601.0,
-  "permit_count": 2,
-  "completed_permits": 2,
-  "completion_ratio": "2/2 complete",
+  "max_score": 6,
+  "total_cost": 63783.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
   "permits": [
-    {
-      "date": "2024-02-16",
-      "source": "Cambridge Alteration",
-      "status": "Complete",
-      "description": "Converting ADU back to a single family home. \u00a0Renovating kitchen and eliminating second kitchen. \u00a0Renovating maste bathroom, removing 2 chimneys, and replacing/ adding windows in back of home with Marvin Elavate in keeping with historic design. \u00a0Also Replacing back door with Marvin Elavate french door.",
-      "cost": 397818.0,
-      "property_use": "Two-Family",
-      "contractor": "Northwoods Builders LLC",
-      "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "high cost ($397,818); keyword: convert; minor: sign; permit completed; all permits completed"
-    },
     {
       "date": "2024-03-12",
       "source": "Cambridge Alteration",
@@ -46,7 +38,8 @@
       "contractor": "thomas services inc.",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($63,783); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($63,783); permit completed; all permits completed",
+      "permit_id": "261703"
     }
   ]
 }

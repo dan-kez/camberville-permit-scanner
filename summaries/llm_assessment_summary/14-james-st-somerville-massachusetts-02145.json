@@ -1,5 +1,7 @@
 {
   "address": "14 JAMES ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.388238847436,
+  "lng": -71.093790890227,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=14+JAMES+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/14%20JAMES%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=14+JAMES+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied with long-term ownership and the only recent permit is for a minor utility upgrade (EV charger) rather than a sale-oriented renovation."
-  },
-  "lat": 42.388238847436,
-  "lng": -71.093790890227
+    "reasoning": "Only a $70 electrical permit for a car charger installation with no kitchen or bathroom updates, and owner_occupied is confirmed true."
+  }
 }

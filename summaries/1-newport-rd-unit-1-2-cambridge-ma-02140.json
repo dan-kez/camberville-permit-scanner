@@ -1,5 +1,7 @@
 {
   "address": "1 NEWPORT RD, UNIT 1/2, CAMBRIDGE, MA 02140",
+  "lat": 42.385752,
+  "lng": -71.118839,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1+NEWPORT+RD%2C+UNIT+1%2F2%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/1%20NEWPORT%20RD%2C%20UNIT%201/2%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=1+NEWPORT+RD%2C+UNIT+1%2F2%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -23,7 +25,8 @@
       "contractor": "Kellogg Construction LLC",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($47,495); keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($47,495); keyword: renovation; permit completed; all permits completed",
+      "permit_id": "1180243"
     }
   ]
 }

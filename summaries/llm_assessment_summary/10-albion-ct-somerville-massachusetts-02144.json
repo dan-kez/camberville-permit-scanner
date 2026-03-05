@@ -1,5 +1,7 @@
 {
   "address": "10 ALBION CT, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.391953287829,
+  "lng": -71.109527326706,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+ALBION+CT%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/10%20ALBION%20CT%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=10+ALBION+CT%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -23,7 +25,7 @@
   "total_cost": 423.0,
   "permit_count": 3,
   "completed_permits": 3,
-  "completion_ratio": "3/6 complete",
+  "completion_ratio": "3/7 complete",
   "permits": [
     {
       "date": "2024-06-10",
@@ -70,8 +72,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied and the permits focus on minor maintenance and interior repairs rather than high-end kitchen or bathroom renovations."
-  },
-  "lat": 42.391953287829,
-  "lng": -71.109527326706
+    "reasoning": "Only minimal electrical repairs and minor wall work totaling $423; no kitchen or bathroom updates; all work owner-occupied without renovation scope"
+  }
 }

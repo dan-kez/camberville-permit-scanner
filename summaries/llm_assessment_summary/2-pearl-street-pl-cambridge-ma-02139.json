@@ -1,5 +1,7 @@
 {
   "address": "2 PEARL STREET PL, CAMBRIDGE, MA 02139",
+  "lat": 42.356817,
+  "lng": -71.110324,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+PEARL+STREET+PL%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/2%20PEARL%20STREET%20PL%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=2+PEARL+STREET+PL%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for a $29,000 deck rebuild by an owner-occupant, which constitutes maintenance or a minor improvement rather than a comprehensive renovation for sale."
-  },
-  "lat": 42.356817,
-  "lng": -71.110324
+    "reasoning": "Deck rebuild is maintenance work; owner is owner-occupied, not a project/flip."
+  }
 }

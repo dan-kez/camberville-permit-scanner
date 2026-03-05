@@ -1,5 +1,7 @@
 {
   "address": "70 HURON AVE, CAMBRIDGE, MA 02138",
+  "lat": 42.384319,
+  "lng": -71.128534,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=70+HURON+AVE%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/70%20HURON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=70+HURON+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "This is a single bathroom refresh by a long-term owner-occupant who has held the property since 1999."
-  },
-  "lat": 42.384319,
-  "lng": -71.128534
+    "reasoning": "Long-term owner (owned since 1999) performing single bathroom renovation while owner occupied, with moderate cost"
+  }
 }

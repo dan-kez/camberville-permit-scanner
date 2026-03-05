@@ -1,5 +1,7 @@
 {
   "address": "173 WILLOW AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396635544671,
+  "lng": -71.114871963446,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=173+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/173%20WILLOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=173+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for a minor EV charger installation by a long-term owner-occupant, which is a utility upgrade rather than a pre-sale renovation."
-  },
-  "lat": 42.396635544671,
-  "lng": -71.114871963446
+    "reasoning": "Owner-occupied property with only a small, targeted EV charger installation (cost $78), which is a minor electrical convenience upgrade rather than comprehensive renovations indicative of sale preparation."
+  }
 }

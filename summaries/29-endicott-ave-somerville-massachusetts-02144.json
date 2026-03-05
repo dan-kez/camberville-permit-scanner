@@ -1,5 +1,7 @@
 {
   "address": "29 ENDICOTT AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.403613059969,
+  "lng": -71.130240602014,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=29+ENDICOTT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/29%20ENDICOTT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=29+ENDICOTT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,41 +15,18 @@
     "last_sale_date": "2023-07-26",
     "last_sale_price": 925000,
     "assessed_value": 1336700,
-    "lot_size": 0.1148
+    "lot_size": 0.1148,
+    "property_parcel": "9_A_10"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
   "distance_mi": 0.62,
-  "max_score": 5,
-  "total_cost": 23763.0,
-  "permit_count": 8,
-  "completed_permits": 8,
-  "completion_ratio": "8/12 complete",
+  "max_score": 4,
+  "total_cost": 533.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/5 complete",
   "permits": [
-    {
-      "date": "2023-08-17",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Demo existing electrical for renovation",
-      "cost": 90.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Rick Picardi",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
-    },
-    {
-      "date": "2023-11-03",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Convert 2 family to single family. Update all framing and MEP's per proposed plans: BASEMENT: Add (1) bedroom, add (1) bathroom, add laundry room. FIRST FLOOR: Remove (1) kitchen, relayout (1) kitchen, add (1) half bath. SECOND FLOOR: Remove (1) bedroom. THIRD FLOOR:  Remove (1) bedroom, relayout bathroom, add 3rd floor rear deck. Install new board and plaster, tile, flooring, cabinets, and trim work. Paint exterior and interior.",
-      "cost": 21850.0,
-      "property_use": "Building Permit - Residential Alteration",
-      "contractor": "Treadstone Construction, LLC.",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: convert; permit completed; most permits completed"
-    },
     {
       "date": "2024-04-24",
       "source": "Somerville",
@@ -57,56 +36,10 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "Rick Picardi",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
-    },
-    {
-      "date": "2023-08-18",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "INTERIOR DEMO ONLY - Remove kitchen & bathrooms. Remove partition wall between living room and family room. All flooring/base and trim etc",
-      "cost": 750.0,
-      "property_use": "Building Permit - Residential Alteration",
-      "contractor": "Treadstone Construction, LLC.",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed"
-    },
-    {
-      "date": "2023-10-16",
-      "source": "Somerville",
-      "status": "Withdrawn",
-      "description": "Renovation \r\nWITHDRAWN PER APPLICANT, SEE ONLINE MESSAGE -GE 11/28/23",
-      "cost": 240.0,
-      "property_use": "Plumbing Permit - Residential - Existing",
-      "contractor": "Bruno Brothers Plumbing & Hvac",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "keyword: renovation; most permits completed"
-    },
-    {
-      "date": "2023-10-16",
-      "source": "Somerville",
-      "status": "Withdrawn",
-      "description": "Renovation \r\nWITHDRAWN PER APPLICANT, SEE ONLINE MESSAGE -GE 11/28/23",
-      "cost": 70.0,
-      "property_use": "Gas Fitting - Residential - Existing",
-      "contractor": "Bruno Brothers Plumbing & Hvac",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "keyword: renovation; most permits completed"
-    },
-    {
-      "date": "2024-01-19",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Install drainage waste and vents to serve 4.5 baths laundry and wet bar located in basement .",
-      "cost": 230.0,
-      "property_use": "Plumbing Permit - Residential - Existing",
-      "contractor": "PTL Plumbing",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score": 4,
+      "score_reasons": "keyword: renovation; permit completed",
+      "permit_id": "14346228",
+      "permit_number": "E24-000637"
     },
     {
       "date": "2024-10-25",
@@ -117,8 +50,10 @@
       "property_use": "Certificate of Occupancy - Residential",
       "contractor": "Treadstone Construction, LLC.",
       "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "keyword: convert; most permits completed"
+      "score": 2,
+      "score_reasons": "keyword: convert",
+      "permit_id": "51246539",
+      "permit_number": "CO24-000156"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "48 STONE AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.381213178104,
+  "lng": -71.094727567907,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=48+STONE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/48%20STONE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=48+STONE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,16 +15,17 @@
     "last_sale_date": "2011-07-29",
     "last_sale_price": 750000,
     "assessed_value": 1481300,
-    "lot_size": 0.066
+    "lot_size": 0.066,
+    "property_parcel": "73_D_4"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.14,
   "max_score": 5,
-  "total_cost": 80.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "total_cost": 140.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
   "permits": [
     {
       "date": "2025-10-30",
@@ -32,8 +35,25 @@
       "cost": 80.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Newport Electric Construction",
+      "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52597631",
+      "permit_number": "E25-001448"
+    },
+    {
+      "date": "2024-11-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Furnace replacement",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "James Thompson Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "51299242",
+      "permit_number": "G24-000495"
     }
   ]
 }

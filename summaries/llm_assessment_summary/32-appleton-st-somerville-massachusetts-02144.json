@@ -1,5 +1,7 @@
 {
   "address": "32 APPLETON ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.39705719631,
+  "lng": -71.11757604923,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32+APPLETON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/32%20APPLETON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=32+APPLETON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -16,7 +18,7 @@
     "lot_size": 0.0528,
     "property_parcel": "24_J_1"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Davis",
   "distance_mi": 0.25,
   "max_score": 2,
@@ -25,20 +27,6 @@
   "completed_permits": 2,
   "completion_ratio": "2/2 complete",
   "permits": [
-    {
-      "date": "2024-10-10",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Install 23 Roof-Mounted Solar Q.TRON BLK M-G2+ 425 Panels (9.78 kWDC)",
-      "cost": 200.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Great Sky Solar",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed",
-      "permit_id": "51266525",
-      "permit_number": "E24-001618"
-    },
     {
       "date": "2024-10-11",
       "source": "Somerville",
@@ -52,12 +40,24 @@
       "score_reasons": "minor: solar; permit completed; all permits completed",
       "permit_id": "51266412",
       "permit_number": "B24-001806"
+    },
+    {
+      "date": "2024-10-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install 23 Roof-Mounted Solar Q.TRON BLK M-G2+ 425 Panels (9.78 kWDC)",
+      "cost": 200.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Great Sky Solar",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "51266525",
+      "permit_number": "E24-001618"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The recent permits are limited to solar panel installation by an owner-occupant, which is a long-term utility improvement rather than a preparation for sale."
-  },
-  "lat": 42.39705719631,
-  "lng": -71.11757604923
+    "reasoning": "Minor solar panel installation for long-term owner-occupant; no kitchen/bathroom updates; maintenance-only project with minimal investment"
+  }
 }

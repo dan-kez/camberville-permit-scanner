@@ -1,5 +1,7 @@
 {
   "address": "18 FRANKLIN AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.382216994829,
+  "lng": -71.085113273508,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+FRANKLIN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/18%20FRANKLIN%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=18+FRANKLIN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -20,10 +22,10 @@
   "nearest_square": "Union",
   "distance_mi": 0.45,
   "max_score": 4,
-  "total_cost": 2780.0,
-  "permit_count": 2,
-  "completed_permits": 1,
-  "completion_ratio": "1/2 complete",
+  "total_cost": 2840.0,
+  "permit_count": 3,
+  "completed_permits": 2,
+  "completion_ratio": "2/4 complete",
   "permits": [
     {
       "date": "2024-09-09",
@@ -38,6 +40,20 @@
       "score_reasons": "keyword: addition; permit completed",
       "permit_id": "51091757",
       "permit_number": "B24-001357"
+    },
+    {
+      "date": "2024-12-03",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace fixtures",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Groves plumbing and heating",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed",
+      "permit_id": "51318697",
+      "permit_number": "P24-000645"
     },
     {
       "date": "2024-09-16",
@@ -56,8 +72,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The long-term owner-occupant (since 2001) is adding a bedroom and bathroom to their primary residence, which is characteristic of personal improvement rather than a pre-sale renovation."
-  },
-  "lat": 42.382216994829,
-  "lng": -71.085113273508
+    "reasoning": "Permits are for rear addition and fixture replacement, not full-scale prep-for-sale renovations; owner occupied is true"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "29 FOLLEN ST, CAMBRIDGE, MA 02138",
+  "lat": 42.379009,
+  "lng": -71.121101,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=29+FOLLEN+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/29%20FOLLEN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=29+FOLLEN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2016-07-26T00:00:00.000",
     "last_sale_price": "3200000",
     "assessed_value": "4476500",
-    "lot_size": "13529"
+    "lot_size": "13529",
+    "property_pid": "13355",
+    "property_parcel": "172-16"
   },
   "property_use": "Two-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "ADCO Realty",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($64,000); keyword: renovate"
+      "score_reasons": "moderate cost ($64,000); keyword: renovate",
+      "permit_id": "1193460"
     }
   ]
 }

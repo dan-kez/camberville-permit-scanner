@@ -1,5 +1,7 @@
 {
   "address": "19 FAIRMONT ST, CAMBRIDGE, MA 02139",
+  "lat": 42.361403,
+  "lng": -71.110197,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+FAIRMONT+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/19%20FAIRMONT%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=19+FAIRMONT+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -20,11 +22,11 @@
   "property_use": "One-Family",
   "nearest_square": "Central",
   "distance_mi": 0.43,
-  "max_score": 10,
+  "max_score": 7,
   "total_cost": 262000.0,
   "permit_count": 1,
   "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "completion_ratio": "1/2 complete",
   "permits": [
     {
       "date": "2024-07-09",
@@ -35,15 +37,13 @@
       "property_use": "One-Family",
       "contractor": "Nick Portnoy Builders LLC",
       "owner_occupied": true,
-      "score": 10,
-      "score_reasons": "high cost ($262,000); keyword: gut; permit completed; all permits completed",
+      "score": 7,
+      "score_reasons": "high cost ($262,000); keyword: gut; permit completed",
       "permit_id": "279637"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property underwent a significant $262,000 gut renovation involving the kitchen and multiple bathrooms shortly after purchase, which is a primary indicator for high-end resale preparation."
-  },
-  "lat": 42.361403,
-  "lng": -71.110197
+    "likelihood": "medium",
+    "reasoning": "Simultaneous full-scale kitchen and multiple bathroom renovations indicate preparation for sale, though owner-occupied status suggests this is more of a lifestyle upgrade than an investor flip."
+  }
 }

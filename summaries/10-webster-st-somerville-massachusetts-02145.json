@@ -1,5 +1,7 @@
 {
   "address": "10 WEBSTER ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.385447170765,
+  "lng": -71.084562163374,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+WEBSTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/10%20WEBSTER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=10+WEBSTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2007-08-12",
     "last_sale_price": 255000,
     "assessed_value": 631700,
-    "lot_size": 0.077
+    "lot_size": 0.077,
+    "property_parcel": "91_H_8"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Union",
@@ -21,8 +24,8 @@
   "max_score": 5,
   "total_cost": 880.0,
   "permit_count": 4,
-  "completed_permits": 6,
-  "completion_ratio": "6/7 complete",
+  "completed_permits": 4,
+  "completion_ratio": "4/5 complete",
   "permits": [
     {
       "date": "2024-03-29",
@@ -34,19 +37,9 @@
       "contractor": "TN PLUMBING AND HEATING",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
-    },
-    {
-      "date": "2024-03-19",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Wiring for dishwasher, disposal and countertop outlets",
-      "cost": 95.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "KCEC LLC",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "14291090",
+      "permit_number": "P24-000182"
     },
     {
       "date": "2024-03-27",
@@ -58,7 +51,9 @@
       "contractor": "KCEC LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14291516",
+      "permit_number": "E24-000484"
     },
     {
       "date": "2024-05-07",
@@ -70,7 +65,23 @@
       "contractor": "KCEC LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14277962",
+      "permit_number": "B24-000463"
+    },
+    {
+      "date": "2024-03-19",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Wiring for dishwasher, disposal and countertop outlets",
+      "cost": 95.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "KCEC LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14275567",
+      "permit_number": "E24-000434"
     }
   ]
 }

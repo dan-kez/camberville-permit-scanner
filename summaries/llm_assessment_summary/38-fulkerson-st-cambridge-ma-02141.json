@@ -1,5 +1,7 @@
 {
   "address": "38 FULKERSON ST, CAMBRIDGE, MA 02141",
+  "lat": 42.370839,
+  "lng": -71.087054,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38+FULKERSON+ST%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/38%20FULKERSON%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=38+FULKERSON+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied and the renovation is limited to a kitchen and flooring refresh without the simultaneous bathroom updates characteristic of a high-end pre-sale preparation."
-  },
-  "lat": 42.370839,
-  "lng": -71.087054
+    "reasoning": "Owner occupied long-term with kitchen renovation only; no bathroom updates or flip indicators"
+  }
 }

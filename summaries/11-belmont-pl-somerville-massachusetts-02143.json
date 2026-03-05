@@ -1,0 +1,45 @@
+{
+  "address": "11 BELMONT PL, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.385718702518,
+  "lng": -71.109440574008,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+BELMONT+PL%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/11%20BELMONT%20PL%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=11+BELMONT+PL%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1450,
+    "last_sale_date": "2012-06-01",
+    "last_sale_price": 595000,
+    "assessed_value": 1098200,
+    "lot_size": 0.0794,
+    "property_parcel": "44_A_45"
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Porter",
+  "distance_mi": 0.53,
+  "max_score": 2,
+  "total_cost": 60.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-03-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Wall hung water heater replacement",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "James Thompson Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: water heater; permit completed; all permits completed",
+      "permit_id": "51770027",
+      "permit_number": "P25-000192"
+    }
+  ]
+}

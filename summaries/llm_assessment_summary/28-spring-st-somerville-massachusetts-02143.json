@@ -1,5 +1,7 @@
 {
   "address": "28 SPRING ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.385364944295,
+  "lng": -71.109274947601,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=28+SPRING+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/28%20SPRING%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=28+SPRING+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for a minor $702 front stair renovation by a long-term owner-occupant, which is consistent with routine maintenance rather than a pre-sale flip."
-  },
-  "lat": 42.385364944295,
-  "lng": -71.109274947601
+    "reasoning": "Minor front stairs renovation by long-term owner-occupant (since 2015) indicates maintenance rather than sale preparation."
+  }
 }

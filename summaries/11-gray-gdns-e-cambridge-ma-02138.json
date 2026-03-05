@@ -1,5 +1,7 @@
 {
   "address": "11 GRAY GDNS E, CAMBRIDGE, MA 02138",
+  "lat": 42.384557,
+  "lng": -71.127094,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+GRAY+GDNS+E%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/11%20GRAY%20GDNS%20E%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=11+GRAY+GDNS+E%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2015-11-19T00:00:00.000",
     "last_sale_price": "1900000",
     "assessed_value": "4575200",
-    "lot_size": "8426"
+    "lot_size": "8426",
+    "property_pid": "17542",
+    "property_parcel": "207-40"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Clint",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($87,703)"
+      "score_reasons": "moderate cost ($87,703)",
+      "permit_id": "1138390"
     }
   ]
 }

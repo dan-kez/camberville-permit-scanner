@@ -1,5 +1,7 @@
 {
   "address": "2 ELM CT, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396680597401,
+  "lng": -71.121212118827,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+ELM+CT%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/2%20ELM%20CT%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=2+ELM+CT%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2005-05-31",
     "last_sale_price": 520000,
     "assessed_value": 1095000,
-    "lot_size": 0.0483
+    "lot_size": 0.0483,
+    "property_parcel": "21_B_6"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",
@@ -34,7 +37,9 @@
       "contractor": "HIP Construction",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "14273195",
+      "permit_number": "P24-000162"
     }
   ]
 }

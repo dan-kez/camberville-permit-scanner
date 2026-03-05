@@ -1,5 +1,7 @@
 {
   "address": "226 UPLAND RD, CAMBRIDGE, MA 02140",
+  "lat": 42.385821,
+  "lng": -71.127842,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=226+UPLAND+RD%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/226%20UPLAND%20RD%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=226+UPLAND+RD%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The single permit is for routine window and patio door replacement by a long-term owner-occupant, which is consistent with maintenance rather than a pre-sale renovation."
-  },
-  "lat": 42.385821,
-  "lng": -71.127842
+    "reasoning": "Window and door replacement is standard maintenance, owner occupied status indicates homeowner project, and there's no kitchen or bathroom work typical of sale prep."
+  }
 }

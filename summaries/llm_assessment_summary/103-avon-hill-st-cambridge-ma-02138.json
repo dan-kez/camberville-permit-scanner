@@ -1,5 +1,7 @@
 {
   "address": "103 AVON HILL ST, CAMBRIDGE, MA 02138",
+  "lat": 42.386111,
+  "lng": -71.125332,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=103+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/103%20AVON%20HILL%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=103+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "A long-term owner-occupant of over 30 years performing a single kitchen remodel without concurrent bathroom updates is characteristic of personal property improvement rather than sale preparation."
-  },
-  "lat": 42.386111,
-  "lng": -71.125332
+    "likelihood": "medium",
+    "reasoning": "Non-owner-occupied status and $27,200 kitchen remodel with load-bearing wall removal suggest preparation for sale, though single-permit scope limits confidence."
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "72 INMAN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.370748,
+  "lng": -71.102222,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=72+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/72%20INMAN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=72+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -23,7 +25,8 @@
       "contractor": "delaporte development",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($353,200); keyword: renovate; minor: boiler; permit completed; all permits completed"
+      "score_reasons": "high cost ($353,200); keyword: renovate; minor: boiler; permit completed; all permits completed",
+      "permit_id": "1164224"
     }
   ]
 }

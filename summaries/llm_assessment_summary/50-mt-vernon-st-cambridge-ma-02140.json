@@ -1,0 +1,49 @@
+{
+  "address": "50 MT VERNON ST, CAMBRIDGE, MA 02140",
+  "lat": 42.387286,
+  "lng": -71.121558,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=50+MT+VERNON+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/50%20MT%20VERNON%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=50+MT+VERNON+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1850",
+    "bedrooms": "4",
+    "bathrooms": "4/1",
+    "total_rooms": "10",
+    "living_area": "5473",
+    "last_sale_date": "2016-07-28T00:00:00.000",
+    "last_sale_price": "10",
+    "assessed_value": "6021300",
+    "lot_size": "11407",
+    "property_pid": "14217",
+    "property_parcel": "177-4"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.15,
+  "max_score": 5,
+  "total_cost": 9750.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-11-13",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Replacing 2 sets of steps including stringers on left and right side of deck. \u00a0Replacing rot on railing posts.",
+      "cost": 9750.0,
+      "property_use": "One-Family",
+      "contractor": "Tom Lindsley Builders",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "1143135"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Only minor deck step and railing repair work completed with owner_occupied=true, no major renovations or kitchen/bathroom updates."
+  }
+}

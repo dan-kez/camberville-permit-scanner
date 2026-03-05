@@ -1,5 +1,7 @@
 {
   "address": "16 VIRGINIA ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.386272285313,
+  "lng": -71.091860454107,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+VIRGINIA+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/16%20VIRGINIA%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=16+VIRGINIA+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit activity is for routine maintenance (replacement windows) by a long-term owner-occupant."
-  },
-  "lat": 42.386272285313,
-  "lng": -71.091860454107
+    "reasoning": "Routine window replacement by owner-occupant with no kitchen or bathroom updates or structural work indicates low likelihood of sale preparation."
+  }
 }

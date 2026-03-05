@@ -1,5 +1,7 @@
 {
   "address": "45 SARGENT AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.389938152577,
+  "lng": -71.092764693821,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=45+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/45%20SARGENT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=45+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -19,11 +21,11 @@
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.71,
-  "max_score": 7,
-  "total_cost": 10955.0,
-  "permit_count": 3,
-  "completed_permits": 3,
-  "completion_ratio": "3/3 complete",
+  "max_score": 5,
+  "total_cost": 11816.0,
+  "permit_count": 6,
+  "completed_permits": 7,
+  "completion_ratio": "7/8 complete",
   "permits": [
     {
       "date": "2024-09-24",
@@ -34,10 +36,24 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "Tier One Electrical LLC",
       "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: demolition; permit completed; all permits completed",
-      "permit_id": "51193262",
-      "permit_number": "B24-001557"
+      "score": 5,
+      "score_reasons": "keyword: demolition; permit completed; most permits completed",
+      "permit_id": "51203200",
+      "permit_number": "E24-001444"
+    },
+    {
+      "date": "2024-11-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "remodel whole house 4 bedrooms 3 bath",
+      "cost": 551.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Tier One Electrical LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: remodel; permit completed; most permits completed",
+      "permit_id": "51259064",
+      "permit_number": "E24-001596"
     },
     {
       "date": "2024-09-24",
@@ -48,8 +64,8 @@
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "",
       "owner_occupied": true,
-      "score": 4,
-      "score_reasons": "keyword: demolition; minor: siding; permit completed; all permits completed",
+      "score": 2,
+      "score_reasons": "keyword: demolition; minor: siding; permit completed; most permits completed",
       "permit_id": "51193262",
       "permit_number": "B24-001557"
     },
@@ -62,16 +78,42 @@
       "property_use": "Building Permit - Residential Repair",
       "contractor": "",
       "owner_occupied": true,
-      "score": 4,
-      "score_reasons": "keyword: gut; minor: roofing; permit completed; all permits completed",
+      "score": 2,
+      "score_reasons": "keyword: gut; minor: roofing; permit completed; most permits completed",
       "permit_id": "51231640",
       "permit_number": "B24-001671"
+    },
+    {
+      "date": "2025-01-03",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remodeling. Basement: 1 furnace and 1 water heater. 1st Floor: 1 range. 2nd Floor: 1 furnace.",
+      "cost": 70.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "Bay State Plumbing and Gas Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel; minor: furnace; permit completed; most permits completed",
+      "permit_id": "51447128",
+      "permit_number": "G24-000624"
+    },
+    {
+      "date": "2025-01-03",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remodeling.  Basement: 1 water heater, 1 toilet, 1 lavatory, 1 shower stall, and 1 ejector pump. 1st Floor: 1 kitchen sink, 1 garbage disposal, 1 dishwasher, 1 ice maker, 1 toilet, and 1 lavatory. 2nd Floor: 2 toilets, 2 lavatories, 2 shower stalls, and 1 washing machine connection.  3rd Floor: 1 toilet, 1 lavatory, and 1 shower stall.",
+      "cost": 240.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Bay State Plumbing and Gas Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel; minor: water heater; permit completed; most permits completed",
+      "permit_id": "51447139",
+      "permit_number": "P24-000775"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property is undergoing a comprehensive gut rehab including a kitchen remodel and updates to multiple bathrooms across all floors, which is a critical indicator for high likelihood despite long-term ownership."
-  },
-  "lat": 42.389938152577,
-  "lng": -71.092764693821
+    "likelihood": "medium",
+    "reasoning": "Significant gut rehab with new siding, roofing, and full interior updates across all floors, but consistent owner occupancy and lack of recent sale indicate long-term residence rather than flip"
+  }
 }

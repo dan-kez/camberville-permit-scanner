@@ -1,5 +1,7 @@
 {
   "address": "15 WELLINGTON AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.389586657467,
+  "lng": -71.090699644336,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+WELLINGTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/15%20WELLINGTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=15+WELLINGTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -16,104 +18,32 @@
     "lot_size": 0.1467,
     "property_parcel": "78_B_36"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Union",
   "distance_mi": 0.7,
-  "max_score": 7,
-  "total_cost": 2910.0,
-  "permit_count": 6,
-  "completed_permits": 6,
-  "completion_ratio": "6/6 complete",
+  "max_score": 2,
+  "total_cost": 60.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
   "permits": [
     {
-      "date": "2023-09-21",
+      "date": "2025-12-22",
       "source": "Somerville",
       "status": "Closed",
-      "description": "Complete gut and remodel",
-      "cost": 721.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Mikhail Medzhidov Electrician",
-      "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: gut; permit completed; all permits completed",
-      "permit_id": "12320433",
-      "permit_number": "E23-001494"
-    },
-    {
-      "date": "2023-06-29",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "1 Kitchen 5 Bathrooms 1 Laundry",
-      "cost": 240.0,
-      "property_use": "Plumbing Permit - Residential - Existing",
-      "contractor": "Vargas Plumbing & Heating Corp.",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed",
-      "permit_id": "12041128",
-      "permit_number": "P23-000437"
-    },
-    {
-      "date": "2023-09-28",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Install new whole house All Electric Ducted Heat Pump System",
-      "cost": 532.0,
-      "property_use": "Sheet Metal Permit - Residential",
-      "contractor": "Eagle Hvac",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed",
-      "permit_id": "12238009",
-      "permit_number": "SM23-000175"
-    },
-    {
-      "date": "2023-08-18",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "1 Water Heater",
+      "description": "Water heater installation",
       "cost": 60.0,
-      "property_use": "Gas Fitting - Residential - Existing",
-      "contractor": "Vargas Plumbing & Heating Corp.",
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Reservoir Home LLC",
       "owner_occupied": true,
       "score": 2,
       "score_reasons": "minor: water heater; permit completed; all permits completed",
-      "permit_id": "12041144",
-      "permit_number": "G23-000317"
-    },
-    {
-      "date": "2023-11-14",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Install 8.5 KW DC (21 panels) rooftop solar array.",
-      "cost": 190.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "The Boston Solar Company",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed",
-      "permit_id": "13936355",
-      "permit_number": "E23-001710"
-    },
-    {
-      "date": "2023-12-04",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Install 8.5 KW DC (21 panels) rooftop solar array with snow guards.",
-      "cost": 1167.0,
-      "property_use": "Building Permit - Residential Other",
-      "contractor": "The Boston Solar Company",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed",
-      "permit_id": "13936327",
-      "permit_number": "B23-001901"
+      "permit_id": "52799410",
+      "permit_number": "P25-000741"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property underwent a complete gut and remodel including simultaneous updates to the kitchen and five bathrooms shortly after purchase, which are critical indicators of high-end preparation for sale."
-  },
-  "lat": 42.389586657467,
-  "lng": -71.090699644336
+    "likelihood": "low",
+    "reasoning": "Simple water heater replacement is standard maintenance work by an occupied owner, with no kitchen or bathroom renovations, no gut work, and negligible cost ($60)."
+  }
 }

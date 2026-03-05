@@ -1,5 +1,7 @@
 {
   "address": "139 OTIS ST, CAMBRIDGE, MA 02141",
+  "lat": 42.370995,
+  "lng": -71.084621,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=139+OTIS+ST%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/139%20OTIS%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=139+OTIS+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permit describes a single bathroom remodel and electrical upgrade by an owner-occupant, which is consistent with standard home maintenance rather than comprehensive pre-sale preparation."
-  },
-  "lat": 42.370995,
-  "lng": -71.084621
+    "reasoning": "Owner-occupied single bathroom remodel with electrical upgrades indicates personal improvement rather than sale preparation"
+  }
 }

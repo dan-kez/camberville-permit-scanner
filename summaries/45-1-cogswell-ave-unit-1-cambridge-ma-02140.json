@@ -1,0 +1,45 @@
+{
+  "address": "45-1 COGSWELL AVE, UNIT 1, CAMBRIDGE, MA 02140",
+  "lat": 42.390322,
+  "lng": -71.126273,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=45-1+COGSWELL+AVE%2C+UNIT+1%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/45-1%20COGSWELL%20AVE%2C%20UNIT%201%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=45-1+COGSWELL+AVE%2C+UNIT+1%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1982",
+    "bedrooms": "1",
+    "bathrooms": "1/0",
+    "total_rooms": "4",
+    "living_area": "747",
+    "last_sale_date": "2014-10-20T00:00:00.000",
+    "last_sale_price": "450000",
+    "assessed_value": "772900",
+    "lot_size": "2142",
+    "property_pid": "16849",
+    "property_parcel": "199-121"
+  },
+  "property_use": "Townhouse",
+  "nearest_square": "Porter",
+  "distance_mi": 0.39,
+  "max_score": 2,
+  "total_cost": 16499.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-05-08",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Asphalt shingles replacement for the entire house, removing all layers of shingles down to the roof sheathing.\u00a0Existing Skylight replacement on front section of house and cut in a new skylight on rear section over bathroom.\u00a05-inch Brown Aluminum gutter and downspouts replacement on the entire house including Titan gutter guards throughout.",
+      "cost": 16499.0,
+      "property_use": "Townhouse",
+      "contractor": "FRS",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: gut",
+      "permit_id": "1164241"
+    }
+  ]
+}

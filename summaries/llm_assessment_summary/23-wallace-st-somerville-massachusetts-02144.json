@@ -1,5 +1,7 @@
 {
   "address": "23 WALLACE ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.398537733778,
+  "lng": -71.122812727058,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=23+WALLACE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/23%20WALLACE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=23+WALLACE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -16,34 +18,32 @@
     "lot_size": 0.12050000000000001,
     "property_parcel": "16_C_3"
   },
-  "property_use": "Building Permit - Residential Repair",
+  "property_use": "Building Permit - Residential Other",
   "nearest_square": "Davis",
   "distance_mi": 0.13,
   "max_score": 2,
-  "total_cost": 440.0,
+  "total_cost": 320.0,
   "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "completed_permits": 2,
+  "completion_ratio": "2/5 complete",
   "permits": [
     {
-      "date": "2024-11-07",
+      "date": "2025-11-13",
       "source": "Somerville",
       "status": "Closed",
-      "description": "remove damaged roofing, fascia and trim.  Install new roof",
-      "cost": 440.0,
-      "property_use": "Building Permit - Residential Repair",
-      "contractor": "Cezario & Fein Construction",
+      "description": "Replacement of coil, condenser.",
+      "cost": 320.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "SumZero Energy Systems",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: roofing; permit completed; all permits completed",
-      "permit_id": "51334938",
-      "permit_number": "B24-001963"
+      "score_reasons": "permit completed",
+      "permit_id": "52437567",
+      "permit_number": "B25-001405"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for routine roof maintenance by an owner-occupant, with no evidence of the high-end interior renovations typical of a property being prepared for sale."
-  },
-  "lat": 42.398537733778,
-  "lng": -71.122812727058
+    "reasoning": "HVAC coil/condenser replacement is standard maintenance, not prep-for-sale work; owner_occupied is true"
+  }
 }

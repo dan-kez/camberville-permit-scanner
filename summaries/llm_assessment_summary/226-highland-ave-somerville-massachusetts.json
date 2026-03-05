@@ -1,0 +1,63 @@
+{
+  "address": "226 HIGHLAND AVE, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.390311775911,
+  "lng": -71.108655608775,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=226+HIGHLAND+AVE%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/226%20HIGHLAND%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=226+HIGHLAND+AVE%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1905,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2471,
+    "last_sale_date": "2017-05-10",
+    "last_sale_price": 850000,
+    "assessed_value": 1365200,
+    "lot_size": 0.0913,
+    "property_parcel": "35_E_1"
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Porter",
+  "distance_mi": 0.55,
+  "max_score": 2,
+  "total_cost": 1615.5,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2025-02-27",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Roof Mounted PV Solar Installation - 25 panels - 10.250 kW - 200A - No Battery ESS",
+      "cost": 1405.5,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Freedom Forever Massachusetts LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "51585586",
+      "permit_number": "B25-000188"
+    },
+    {
+      "date": "2025-02-20",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Roof Mounted PV Solar Installation - 25 panels - 10.250 kW - 200A - No Battery ESS",
+      "cost": 210.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Freedom Forever Massachusetts LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "51585622",
+      "permit_number": "E25-000213"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Both permits are for solar panel installation, a minor utility upgrade, with owner_occupied: true indicating the home is owner-occupied rather than a sale preparation project"
+  }
+}

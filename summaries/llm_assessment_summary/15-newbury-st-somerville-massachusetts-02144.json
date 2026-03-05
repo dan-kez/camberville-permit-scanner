@@ -1,5 +1,7 @@
 {
   "address": "15 NEWBURY ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.402570015938,
+  "lng": -71.127839438211,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+NEWBURY+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/15%20NEWBURY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=15+NEWBURY+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -19,12 +21,26 @@
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
   "distance_mi": 0.49,
-  "max_score": 2,
-  "total_cost": 120.0,
-  "permit_count": 2,
-  "completed_permits": 2,
-  "completion_ratio": "2/2 complete",
+  "max_score": 5,
+  "total_cost": 345.0,
+  "permit_count": 5,
+  "completed_permits": 5,
+  "completion_ratio": "5/5 complete",
   "permits": [
+    {
+      "date": "2024-12-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "200 amp service upgrade",
+      "cost": 100.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Cranney Home Services",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51473798",
+      "permit_number": "E24-002049"
+    },
     {
       "date": "2024-09-30",
       "source": "Somerville",
@@ -52,12 +68,38 @@
       "score_reasons": "minor: furnace; permit completed; all permits completed",
       "permit_id": "51251406",
       "permit_number": "G24-000459"
+    },
+    {
+      "date": "2025-01-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "50 gallon electric water heater replacement",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Cranney Home Services",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: water heater; permit completed; all permits completed",
+      "permit_id": "51473398",
+      "permit_number": "P24-000814"
+    },
+    {
+      "date": "2024-12-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "electric water heater replacement",
+      "cost": 65.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Cranney Home Services",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: water heater; permit completed; all permits completed",
+      "permit_id": "51473412",
+      "permit_number": "E24-002047"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recorded permits are for a routine furnace replacement by an owner-occupant, which is categorized as standard maintenance rather than a preparation for sale."
-  },
-  "lat": 42.402570015938,
-  "lng": -71.127839438211
+    "reasoning": "All permits are minor maintenance items (furnace, water heater, electrical) completed by long-term owner, not high-end renovations"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "18 FARRAGUT AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.404132779876,
+  "lng": -71.130155022782,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+FARRAGUT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/18%20FARRAGUT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=18+FARRAGUT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,9 +15,10 @@
     "last_sale_date": "2013-12-17",
     "last_sale_price": 746500,
     "assessed_value": 1278300,
-    "lot_size": 0.13770000000000002
+    "lot_size": 0.13770000000000002,
+    "property_parcel": "9_A_31"
   },
-  "property_use": "Plumbing Permit - Residential - Existing",
+  "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Davis",
   "distance_mi": 0.65,
   "max_score": 2,
@@ -24,18 +27,6 @@
   "completed_permits": 0,
   "completion_ratio": "0/2",
   "permits": [
-    {
-      "date": "2024-06-07",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "tub to shower conversion in 1st floor bathroom",
-      "cost": 60.0,
-      "property_use": "Plumbing Permit - Residential - Existing",
-      "contractor": "Bylo Holdings LLC",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "keyword: conversion"
-    },
     {
       "date": "2024-06-20",
       "source": "Somerville",
@@ -46,7 +37,23 @@
       "contractor": "Bylo Holdings LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: conversion"
+      "score_reasons": "keyword: conversion",
+      "permit_id": "14423114",
+      "permit_number": "B24-000903"
+    },
+    {
+      "date": "2024-06-07",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "tub to shower conversion in 1st floor bathroom",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Bylo Holdings LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: conversion",
+      "permit_id": "14423153",
+      "permit_number": "P24-000297"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "18 PINCKNEY ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.382734200164,
+  "lng": -71.082596607079,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+PINCKNEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/18%20PINCKNEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=18+PINCKNEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,29 +15,18 @@
     "last_sale_date": "2023-12-12",
     "last_sale_price": 630000,
     "assessed_value": 591000,
-    "lot_size": 0.07350000000000001
+    "lot_size": 0.07350000000000001,
+    "property_parcel": "105_B_11"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Union",
   "distance_mi": 0.58,
   "max_score": 5,
-  "total_cost": 2015.5,
-  "permit_count": 4,
-  "completed_permits": 3,
-  "completion_ratio": "3/4 complete",
+  "total_cost": 2631.5,
+  "permit_count": 7,
+  "completed_permits": 6,
+  "completion_ratio": "6/8 complete",
   "permits": [
-    {
-      "date": "2024-02-23",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Demolition, remodeling rewiring and service upgrade",
-      "cost": 493.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Carlos Eduardo de Oliveira Lourenco",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed"
-    },
     {
       "date": "2024-05-08",
       "source": "Somerville",
@@ -46,7 +37,65 @@
       "contractor": "Comfortcool Mass Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "14332763",
+      "permit_number": "P24-000225"
+    },
+    {
+      "date": "2025-04-08",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "install ductless heat pump unit wall unit 8 zone two outdoor",
+      "cost": 654.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "omegahvac",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51545849",
+      "permit_number": "B25-000101"
+    },
+    {
+      "date": "2024-11-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Low voltage",
+      "cost": 75.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Jordan dossas",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51383026",
+      "permit_number": "E24-001909"
+    },
+    {
+      "date": "2025-08-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "HOMEOWNER PERMIT - Replace old concrete staircase with new wooden staircase at side of the house",
+      "cost": 200.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "52434189",
+      "permit_number": "B25-001382"
+    },
+    {
+      "date": "2025-06-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "2 condensers HVAC Low voltage wire mini split controller.",
+      "cost": 180.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Carlos Eduardo de Oliveira Lourenco",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51281804",
+      "permit_number": "E24-001661"
     },
     {
       "date": "2024-03-06",
@@ -58,7 +107,9 @@
       "contractor": "Northeast Kitchen & Bath",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: demolish; minor: sign; permit completed; most permits completed"
+      "score_reasons": "keyword: demolish; minor: sign; permit completed; most permits completed",
+      "permit_id": "14138732",
+      "permit_number": "B24-000116"
     },
     {
       "date": "2024-04-12",
@@ -70,7 +121,9 @@
       "contractor": "Suffolk Weatherization LLC",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "14310422",
+      "permit_number": "B24-000570"
     }
   ]
 }

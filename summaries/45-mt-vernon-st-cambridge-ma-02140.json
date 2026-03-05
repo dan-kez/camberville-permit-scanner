@@ -1,0 +1,45 @@
+{
+  "address": "45 MT VERNON ST, CAMBRIDGE, MA 02140",
+  "lat": 42.387274,
+  "lng": -71.121152,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=45+MT+VERNON+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/45%20MT%20VERNON%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=45+MT+VERNON+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1978",
+    "bedrooms": "6",
+    "bathrooms": "4/1",
+    "total_rooms": "13",
+    "living_area": "4550",
+    "last_sale_date": "2019-07-12T00:00:00.000",
+    "last_sale_price": "3650000",
+    "assessed_value": "4270300",
+    "lot_size": "8256",
+    "property_pid": "14245",
+    "property_parcel": "177-43"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.13,
+  "max_score": 5,
+  "total_cost": 18500.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-07-21",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Replace (4) windows in kid's bedrooms.",
+      "cost": 18500.0,
+      "property_use": "One-Family",
+      "contractor": "Fresh Start Contracting",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "1175176"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 {
   "address": "3 AMORY PL, CAMBRIDGE, MA 02139",
+  "lat": 42.370535,
+  "lng": -71.102093,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+AMORY+PL%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/3%20AMORY%20PL%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=3+AMORY+PL%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -20,25 +22,12 @@
   "property_use": "One-Family",
   "nearest_square": "Inman",
   "distance_mi": 0.26,
-  "max_score": 5,
-  "total_cost": 278078.0,
-  "permit_count": 2,
+  "max_score": 3,
+  "total_cost": 55709.0,
+  "permit_count": 1,
   "completed_permits": 0,
-  "completion_ratio": "0/2",
+  "completion_ratio": "0/1",
   "permits": [
-    {
-      "date": "2023-10-11",
-      "source": "Cambridge Alteration",
-      "status": "Active",
-      "description": "Work consists of Basement renovation work including basement slab and foundation wall underpinning, sewer lateral replacement , rough plumbing for a future bathroom.",
-      "cost": 222369.0,
-      "property_use": "One-Family",
-      "contractor": "Mateus",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "high cost ($222,369); keyword: renovation",
-      "permit_id": "245966"
-    },
     {
       "date": "2025-09-04",
       "source": "Cambridge Alteration",
@@ -54,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The property is owner-occupied and the major renovations started shortly after the 2023 purchase, suggesting a new owner customizing their primary residence rather than preparing for a flip or sale."
-  },
-  "lat": 42.370535,
-  "lng": -71.102093
+    "likelihood": "medium",
+    "reasoning": "Single bathroom renovation by owner-occupant with moderate cost; lacks simultaneous kitchen work and doesn't indicate flip activity"
+  }
 }

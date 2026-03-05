@@ -1,5 +1,7 @@
 {
   "address": "235 ALBANY ST, CAMBRIDGE, MA 02139",
+  "lat": 42.358873,
+  "lng": -71.100702,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=235+ALBANY+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/235%20ALBANY%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=235+ALBANY+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -29,8 +31,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "This is a single-permit renovation for a specific room conversion by an owner-occupant, which lacks the comprehensive kitchen/bath updates typical of a pre-sale flip."
-  },
-  "lat": 42.358873,
-  "lng": -71.100702
+    "reasoning": "Converting living space to a bedroom is not a high-end kitchen/bathroom prep-for-sale renovation, owner is occupying, and the scope is a room conversion rather than gut renovation or whole-house update"
+  }
 }

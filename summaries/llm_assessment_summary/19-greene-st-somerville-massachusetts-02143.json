@@ -1,5 +1,7 @@
 {
   "address": "19 GREENE ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.384731062867,
+  "lng": -71.103196894332,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+GREENE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/19%20GREENE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=19+GREENE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -36,14 +38,12 @@
       "owner_occupied": true,
       "score": 4,
       "score_reasons": "keyword: structural; permit completed",
-      "permit_id": "14421555",
-      "permit_number": "B24-000896"
+      "permit_id": "14437803",
+      "permit_number": "B24-000966"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The single permit for a minor patio door replacement by an owner-occupant suggests routine maintenance rather than significant prep-for-sale renovations."
-  },
-  "lat": 42.384731062867,
-  "lng": -71.103196894332
+    "reasoning": "Single maintenance patio door replacement by owner-occupant with no evidence of extensive renovations or sale preparation activities."
+  }
 }

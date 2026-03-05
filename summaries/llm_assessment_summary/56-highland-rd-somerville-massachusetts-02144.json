@@ -1,6 +1,10 @@
 {
   "address": "56 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396595730631,
+  "lng": -71.11280699778,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=56+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/56%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=56+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1900,
@@ -31,14 +35,15 @@
       "cost": 120.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Joseph Gramolini",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "52751860",
+      "permit_number": "E25-001815"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The single, low-cost permit for minor electrical work suggests standard maintenance rather than a comprehensive renovation for sale."
-  },
-  "zillow_url": "https://www.zillow.com/homes/56%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
-  "google_search_url": "https://www.google.com/search?q=56+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
+    "reasoning": "Single minor electrical permit for mini split system installation with low cost ($120), owner-occupied status, no kitchen/bathroom scope"
+  }
 }

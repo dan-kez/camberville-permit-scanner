@@ -1,5 +1,7 @@
 {
   "address": "77 WALKER ST, CAMBRIDGE, MA 02138",
+  "lat": 42.380801,
+  "lng": -71.122775,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=77+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/77%20WALKER%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=77+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2021-08-20T00:00:00.000",
     "last_sale_price": "1825000",
     "assessed_value": "1816000",
-    "lot_size": "2459"
+    "lot_size": "2459",
+    "property_pid": "13641",
+    "property_parcel": "173-28"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Segal Construction and Home Maintenance",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($328,625); keyword: renovate"
+      "score_reasons": "high cost ($328,625); keyword: renovate",
+      "permit_id": "1190454"
     }
   ]
 }

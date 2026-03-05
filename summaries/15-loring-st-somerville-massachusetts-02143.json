@@ -1,5 +1,7 @@
 {
   "address": "15 LORING ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.383164652802,
+  "lng": -71.103634345859,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+LORING+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/15%20LORING%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=15+LORING+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2023-07-14",
     "last_sale_price": 2050000,
     "assessed_value": 1843900,
-    "lot_size": 0.06430000000000001
+    "lot_size": 0.06430000000000001,
+    "property_parcel": "52_F_14"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +37,9 @@
       "contractor": "Kuhlman Electrical Services",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "17011750",
+      "permit_number": "E24-000967"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "100 LANDSDOWNE ST, UNIT 101, CAMBRIDGE, MA 02139",
+  "lat": 42.359997,
+  "lng": -71.100953,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=100+LANDSDOWNE+ST%2C+UNIT+101%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/100%20LANDSDOWNE%20ST%2C%20UNIT%20101%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=100+LANDSDOWNE+ST%2C+UNIT+101%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -14,8 +16,8 @@
     "last_sale_price": "10",
     "assessed_value": "7112700",
     "lot_size": "17731",
-    "property_pid": "2947",
-    "property_parcel": "68-74"
+    "property_pid": "22036",
+    "property_parcel": "146A-129"
   },
   "property_use": "Multi-Family (3 units or greater)",
   "nearest_square": "Central",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for essential repairs following a water leak rather than elective high-end renovations or significant property updates."
-  },
-  "lat": 42.359997,
-  "lng": -71.100953
+    "reasoning": "Water leak repairs affecting multiple units is maintenance work, not kitchen/bath renovations; owner occupied and repairs limited to fixing damage caused by a heating line leak"
+  }
 }

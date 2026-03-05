@@ -1,5 +1,7 @@
 {
   "address": "16 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.395308228394,
+  "lng": -71.113638147299,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/16%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=16+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -16,43 +18,15 @@
     "lot_size": 0.09290000000000001,
     "property_parcel": "28_C_17"
   },
-  "property_use": "Plumbing Permit - Residential - Existing",
+  "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Davis",
   "distance_mi": 0.46,
-  "max_score": 4,
-  "total_cost": 4905.0,
-  "permit_count": 3,
-  "completed_permits": 1,
-  "completion_ratio": "1/5 complete",
+  "max_score": 2,
+  "total_cost": 500.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
   "permits": [
-    {
-      "date": "2023-08-07",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Kitchen sink garbage disposal dishwasher ice maker one full bath with stand up shower 1 washing machine and outside faucet",
-      "cost": 100.0,
-      "property_use": "Plumbing Permit - Residential - Existing",
-      "contractor": "mph plumbing/heating",
-      "owner_occupied": true,
-      "score": 4,
-      "score_reasons": "keyword: full; permit completed",
-      "permit_id": "12179210",
-      "permit_number": "P23-000505"
-    },
-    {
-      "date": "2023-06-09",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "build 275sq ft addition off back of house and new kitchen and new bathroom, new rear dormer",
-      "cost": 4305.0,
-      "property_use": "Building Permit - Residential Addition",
-      "contractor": "JL&Sons Contracting",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "keyword: addition",
-      "permit_id": "11589258",
-      "permit_number": "B23-000724"
-    },
     {
       "date": "2024-08-01",
       "source": "Somerville",
@@ -69,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property is undergoing significant 'whole house' renovations including a 275 sq ft addition, a new dormer, and basement excavation, which meets the criteria for high-likelihood work even for a long-term owner."
-  },
-  "lat": 42.395308228394,
-  "lng": -71.113638147299
+    "likelihood": "low",
+    "reasoning": "Foundation and window work is standard maintenance, not high-end renovation, with owner occupied status and single-project scope indicating unlikely sale preparation."
+  }
 }

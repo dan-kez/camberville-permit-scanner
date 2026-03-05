@@ -1,5 +1,7 @@
 {
   "address": "114 COLUMBIA ST, CAMBRIDGE, MA 02139",
+  "lat": 42.366127,
+  "lng": -71.09823,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=114+COLUMBIA+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/114%20COLUMBIA%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=114+COLUMBIA+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The work involves specific basement egress improvements by a long-term owner-occupant of 26 years, which is more indicative of a safety/utility upgrade than a pre-sale renovation."
-  },
-  "lat": 42.366127,
-  "lng": -71.09823
+    "reasoning": "Basement egress/safety window work is typically a code-mandated requirement rather than a sales preparation item, and owner-occupied status further reduces likelihood of a sale."
+  }
 }

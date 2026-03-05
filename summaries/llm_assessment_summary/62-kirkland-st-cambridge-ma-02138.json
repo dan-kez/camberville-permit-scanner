@@ -1,5 +1,7 @@
 {
   "address": "62 KIRKLAND ST, CAMBRIDGE, MA 02138",
+  "lat": 42.377172,
+  "lng": -71.110419,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=62+KIRKLAND+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/62%20KIRKLAND%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=62+KIRKLAND+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "A significant basement conversion adding bedrooms and a kitchenette following a recent 2024 purchase suggests a value-add strategy, though the owner-occupied status and focused scope point toward personal use or a mid-term hold."
-  },
-  "lat": 42.377172,
-  "lng": -71.110419
+    "likelihood": "low",
+    "reasoning": "Limited scope basement renovation focused on converting existing spaces rather than full-scale kitchen and multiple bathroom updates; homeowner occupied status suggests personal renovation rather than sale preparation"
+  }
 }

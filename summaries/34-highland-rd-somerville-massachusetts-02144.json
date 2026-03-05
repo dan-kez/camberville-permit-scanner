@@ -1,5 +1,7 @@
 {
   "address": "34 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.395857997423,
+  "lng": -71.113292309974,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=34+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/34%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=34+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2007-04-13",
     "last_sale_price": 437000,
     "assessed_value": 1667300,
-    "lot_size": 0.08080000000000001
+    "lot_size": 0.08080000000000001,
+    "property_parcel": "28_C_12"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +37,9 @@
       "contractor": "CEM Electric Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14399043",
+      "permit_number": "E24-000729"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "5 LIVERMORE PL, CAMBRIDGE, MA 02141",
+  "lat": 42.370913,
+  "lng": -71.095054,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+LIVERMORE+PL%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/5%20LIVERMORE%20PL%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=5+LIVERMORE+PL%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "1989-06-30T00:00:00.000",
     "last_sale_price": "120000",
     "assessed_value": "917400",
-    "lot_size": "947"
+    "lot_size": "947",
+    "property_pid": "3648",
+    "property_parcel": "79-125"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +38,8 @@
       "contractor": "Valle Builders Corporation",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($132,800); keyword: renovation"
+      "score_reasons": "moderate cost ($132,800); keyword: renovation",
+      "permit_id": "1149723"
     }
   ]
 }

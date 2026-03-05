@@ -1,0 +1,49 @@
+{
+  "address": "498 FRANKLIN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.367501,
+  "lng": -71.110636,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=498+FRANKLIN+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/498%20FRANKLIN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=498+FRANKLIN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1868",
+    "bedrooms": "2",
+    "bathrooms": "2/0",
+    "total_rooms": "7",
+    "living_area": "1406",
+    "last_sale_date": "2011-11-21T00:00:00.000",
+    "last_sale_price": "746000",
+    "assessed_value": "1531500",
+    "lot_size": "1725",
+    "property_pid": "9176",
+    "property_parcel": "120-89"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.39,
+  "max_score": 5,
+  "total_cost": 16650.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-10-31",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Replace existing windows with a French door to access the existing balcony. Perform paint repairs and install new wood decking on the balcony floor.",
+      "cost": 16650.0,
+      "property_use": "One-Family",
+      "contractor": "Artisans Homes & Renovations Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "1188970"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Minor balcony renovation with French door and wood decking; owner occupied with long-term ownership record (15 years since last sale)."
+  }
+}

@@ -1,5 +1,7 @@
 {
   "address": "11-1/2 FIFTH ST, CAMBRIDGE, MA 02141",
+  "lat": 42.372653,
+  "lng": -71.083144,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11-1%2F2+FIFTH+ST%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/11-1/2%20FIFTH%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=11-1%2F2+FIFTH+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -23,7 +25,8 @@
       "contractor": "UP DESIGN & BUILD LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($30,000); keyword: convert"
+      "score_reasons": "moderate cost ($30,000); keyword: convert",
+      "permit_id": "1183691"
     }
   ]
 }

@@ -1,0 +1,45 @@
+{
+  "address": "124 ANTRIM ST, CAMBRIDGE, MA 02139",
+  "lat": 42.373029,
+  "lng": -71.101656,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=124+ANTRIM+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/124%20ANTRIM%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=124+ANTRIM+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1982",
+    "bedrooms": "5",
+    "bathrooms": "2/1",
+    "total_rooms": "9",
+    "living_area": "2394",
+    "last_sale_date": "2003-08-18T00:00:00.000",
+    "last_sale_price": "100",
+    "assessed_value": "2383100",
+    "lot_size": "3763",
+    "property_pid": "21934",
+    "property_parcel": "114A-61"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.13,
+  "max_score": 1,
+  "total_cost": 2000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2024-07-09",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Residential weatherization/air sealing. No structural changes. (Site ID 14764866)",
+      "cost": 2000.0,
+      "property_use": "One-Family",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed",
+      "permit_id": "279570"
+    }
+  ]
+}

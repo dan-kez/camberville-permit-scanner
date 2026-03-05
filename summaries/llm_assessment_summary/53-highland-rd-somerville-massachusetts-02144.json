@@ -1,5 +1,7 @@
 {
   "address": "53 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396361163071,
+  "lng": -71.11240709718,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=53+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/53%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=53+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -36,8 +38,8 @@
       "owner_occupied": true,
       "score": 2,
       "score_reasons": "minor: solar; permit completed; all permits completed",
-      "permit_id": "14284920",
-      "permit_number": "B24-000480"
+      "permit_id": "14271270",
+      "permit_number": "E24-000423"
     },
     {
       "date": "2024-03-28",
@@ -56,8 +58,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permits are for solar panel installation on an owner-occupied property, which constitutes a long-term efficiency upgrade rather than a pre-sale renovation."
-  },
-  "lat": 42.396361163071,
-  "lng": -71.11240709718
+    "reasoning": "Two solar panel permits for a high-value property are minimal maintenance work by an owner-occupant"
+  }
 }

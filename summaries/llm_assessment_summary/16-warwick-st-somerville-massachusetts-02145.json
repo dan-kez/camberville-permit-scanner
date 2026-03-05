@@ -1,6 +1,10 @@
 {
   "address": "16 WARWICK ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.394327503813,
+  "lng": -71.109881210658,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+WARWICK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/16%20WARWICK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=16+WARWICK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1856,
@@ -14,7 +18,7 @@
     "lot_size": 0.17220000000000002,
     "property_parcel": "33_G_22"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Building Permit - Residential New Construction",
   "nearest_square": "Porter",
   "distance_mi": 0.62,
   "max_score": 2,
@@ -24,17 +28,6 @@
   "completion_ratio": "1/5 complete",
   "permits": [
     {
-      "date": "2025-10-06",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "Demolition",
-      "cost": 60.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Juan Camilo Gallego Bohorquez",
-      "score": 2,
-      "score_reasons": "keyword: demolition"
-    },
-    {
       "date": "2025-11-26",
       "source": "Somerville",
       "status": "Issued",
@@ -42,8 +35,11 @@
       "cost": 825.0,
       "property_use": "Building Permit - Residential New Construction",
       "contractor": "North America Development LLC",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: foundation"
+      "score_reasons": "keyword: foundation",
+      "permit_id": "52437319",
+      "permit_number": "B25-001401"
     },
     {
       "date": "2025-12-04",
@@ -53,19 +49,11 @@
       "cost": 580.0,
       "property_use": "Building Permit - Residential Addition",
       "contractor": "North America Development LLC",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
-    },
-    {
-      "date": "2026-01-07",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Grounding fundation!!",
-      "cost": 60.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Juan Camilo Gallego Bohorquez",
-      "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52437444",
+      "permit_number": "B25-001403"
     },
     {
       "date": "2026-01-12",
@@ -75,14 +63,43 @@
       "cost": 8180.0,
       "property_use": "Building Permit - Residential Addition",
       "contractor": "North America Development LLC",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52437490",
+      "permit_number": "B25-001404"
+    },
+    {
+      "date": "2025-10-06",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Demolition",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Juan Camilo Gallego Bohorquez",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: demolition",
+      "permit_id": "52545205",
+      "permit_number": "E25-001325"
+    },
+    {
+      "date": "2026-01-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Grounding fundation!!",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Juan Camilo Gallego Bohorquez",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed",
+      "permit_id": "52919399",
+      "permit_number": "E25-001965"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The extensive structural permits for a new ADU and rear addition, totaling nearly $10,000, indicate a significant value-add renovation rather than cosmetic updates."
-  },
-  "zillow_url": "https://www.zillow.com/homes/16%20WARWICK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
-  "google_search_url": "https://www.google.com/search?q=16+WARWICK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
+    "likelihood": "low",
+    "reasoning": "Minimal renovation budget ($9,705) for foundation work, ADU, and demolition only; permits are essential structural repairs rather than comprehensive updates typical of preparation-for-sale projects"
+  }
 }

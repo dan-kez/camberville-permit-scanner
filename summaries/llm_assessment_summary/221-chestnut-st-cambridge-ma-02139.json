@@ -1,5 +1,7 @@
 {
   "address": "221 CHESTNUT ST, CAMBRIDGE, MA 02139",
+  "lat": 42.358924,
+  "lng": -71.11253,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=221+CHESTNUT+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/221%20CHESTNUT%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=221+CHESTNUT+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -29,8 +31,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The work consists only of window replacement by an owner-occupant, which is classified as standard maintenance rather than a pre-sale renovation."
-  },
-  "lat": 42.358924,
-  "lng": -71.11253
+    "reasoning": "Window replacement by long-term owner-occupant is typical maintenance work; no evidence of kitchen/bathroom updates or non-owner occupancy"
+  }
 }

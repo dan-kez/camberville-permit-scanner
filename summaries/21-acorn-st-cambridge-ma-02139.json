@@ -1,5 +1,7 @@
 {
   "address": "21 ACORN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.357457,
+  "lng": -71.109429,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+ACORN+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/21%20ACORN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=21+ACORN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,16 +15,18 @@
     "last_sale_date": "1999-12-28T00:00:00.000",
     "last_sale_price": "613500",
     "assessed_value": "1697500",
-    "lot_size": "4495"
+    "lot_size": "4495",
+    "property_pid": "5371",
+    "property_parcel": "97-10"
   },
   "property_use": "One or Two Family Dwelling",
   "nearest_square": "Central",
   "distance_mi": 0.62,
   "max_score": 6,
-  "total_cost": 550000.0,
-  "permit_count": 1,
+  "total_cost": 565000.0,
+  "permit_count": 2,
   "completed_permits": 0,
-  "completion_ratio": "0/1",
+  "completion_ratio": "0/2",
   "permits": [
     {
       "date": "2025-10-30",
@@ -34,7 +38,21 @@
       "contractor": "ANTONIO B NARDELLI, JR",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "high cost ($550,000); new construction"
+      "score_reasons": "high cost ($550,000); new construction",
+      "permit_id": "1188836"
+    },
+    {
+      "date": "2025-07-28",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "interior demo only, No structural work",
+      "cost": 15000.0,
+      "property_use": "One-Family",
+      "contractor": "Nardelli Enterprises Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "1176277"
     }
   ]
 }

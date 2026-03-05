@@ -1,5 +1,7 @@
 {
   "address": "54 GARFIELD ST, CAMBRIDGE, MA 02138",
+  "lat": 42.3836,
+  "lng": -71.117391,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=54+GARFIELD+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/54%20GARFIELD%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=54+GARFIELD+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property is undergoing a massive $521,235 renovation that includes simultaneous full-scale updates to the kitchen and multiple bathrooms, which is a primary indicator for pre-sale preparation."
-  },
-  "lat": 42.3836,
-  "lng": -71.117391
+    "likelihood": "medium",
+    "reasoning": "High-cost full-scale renovations (kitchens, multiple bathrooms, laundry, new entry with deck) suggest active preparation for sale despite owner-occupancy, but the owner's long-term status adds uncertainty"
+  }
 }

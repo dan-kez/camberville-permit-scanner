@@ -1,0 +1,45 @@
+{
+  "address": "37 HARVEY ST, CAMBRIDGE, MA 02140",
+  "lat": 42.397396,
+  "lng": -71.131759,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37+HARVEY+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/37%20HARVEY%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=37+HARVEY+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1985",
+    "bedrooms": "3",
+    "bathrooms": "1/1",
+    "total_rooms": "6",
+    "living_area": "1314",
+    "last_sale_date": "2018-05-25T00:00:00.000",
+    "last_sale_price": "990000",
+    "assessed_value": "1102200",
+    "lot_size": "3913",
+    "property_pid": "15867",
+    "property_parcel": "191-113"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.47,
+  "max_score": 7,
+  "total_cost": 18927.8,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-06-04",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Rebuild / repair deteriorating front deck as needed. Install new mahogany decking.",
+      "cost": 18927.8,
+      "property_use": "Two-Family",
+      "contractor": "Stella Construction & Home Services",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: rebuild; permit completed; all permits completed",
+      "permit_id": "1168445"
+    }
+  ]
+}

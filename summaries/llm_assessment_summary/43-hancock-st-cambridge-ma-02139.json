@@ -1,5 +1,7 @@
 {
   "address": "43 HANCOCK ST, CAMBRIDGE, MA 02139",
+  "lat": 42.367909,
+  "lng": -71.109436,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=43+HANCOCK+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/43%20HANCOCK%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=43+HANCOCK+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The significant $475,000 'whole house' modernization of the building envelope, mechanical systems, and interior spaces after 30 years of ownership is a strong indicator of a property being prepared for a high-value sale."
-  },
-  "lat": 42.367909,
-  "lng": -71.109436
+    "likelihood": "low",
+    "reasoning": "Permit lists owner_occupied as TRUE, which significantly reduces likelihood of a flip; work consists primarily of maintenance (roof, windows, siding) with single bathroom update rather than high-end full-scale renovations"
+  }
 }

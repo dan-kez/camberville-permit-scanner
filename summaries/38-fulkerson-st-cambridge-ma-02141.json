@@ -1,5 +1,7 @@
 {
   "address": "38 FULKERSON ST, CAMBRIDGE, MA 02141",
+  "lat": 42.370839,
+  "lng": -71.087054,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38+FULKERSON+ST%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/38%20FULKERSON%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=38+FULKERSON+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2019-08-27T00:00:00.000",
     "last_sale_price": "1075000",
     "assessed_value": "1233800",
-    "lot_size": "1612"
+    "lot_size": "1612",
+    "property_pid": "1807",
+    "property_parcel": "34-131"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +38,8 @@
       "contractor": "Diego p pinto",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "moderate cost ($45,000); keyword: renovation; minor: sign; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($45,000); keyword: renovation; minor: sign; permit completed; all permits completed",
+      "permit_id": "1174875"
     }
   ]
 }

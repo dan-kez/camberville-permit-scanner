@@ -1,5 +1,7 @@
 {
   "address": "37 BERKELEY ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.386416118772,
+  "lng": -71.101663760423,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37+BERKELEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/37%20BERKELEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=37+BERKELEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -16,15 +18,29 @@
     "lot_size": 0.0971,
     "property_parcel": "51_D_34"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Union",
   "distance_mi": 0.64,
-  "max_score": 5,
-  "total_cost": 13879.5,
-  "permit_count": 6,
+  "max_score": 4,
+  "total_cost": 1667.0,
+  "permit_count": 5,
   "completed_permits": 6,
-  "completion_ratio": "6/11 complete",
+  "completion_ratio": "6/12 complete",
   "permits": [
+    {
+      "date": "2025-02-14",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "final gas inspection for new construction home",
+      "cost": 80.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "Presidents plumbing and heating",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: new construction; permit completed",
+      "permit_id": "51588693",
+      "permit_number": "G25-000065"
+    },
     {
       "date": "2024-04-02",
       "source": "Somerville",
@@ -34,38 +50,24 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "Jesse Josue Giron Licensed Electrician",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: gut; permit completed; most permits completed",
+      "score": 4,
+      "score_reasons": "keyword: gut; permit completed",
       "permit_id": "14217012",
       "permit_number": "E24-000325"
     },
     {
-      "date": "2023-07-27",
+      "date": "2025-02-16",
       "source": "Somerville",
-      "status": "Complete",
-      "description": "WITHDRAWN PER APPLICANT SEE ONLINE MESSAGE Through B23-001684- JS 2/21/25\r\nto turn a 2 family to a single family\r\nNew contractor 10-26-23",
-      "cost": 10930.0,
-      "property_use": "Building Permit - Residential Renovation",
-      "contractor": "sluggers home improvement",
+      "status": "Closed",
+      "description": "new plumbing finish for 5 bathrooms",
+      "cost": 260.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Presidents plumbing and heating",
       "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed",
-      "permit_id": "11191955",
-      "permit_number": "B23-000001"
-    },
-    {
-      "date": "2024-01-16",
-      "source": "Somerville",
-      "status": "Complete",
-      "description": "WITHDRAWN PER APPLICANT SEE ONLINE MESSAGE - JS 2/21/25\r\nI have a existing building permit we would like to add the basement to the scope of work and dormers: Adding 2 bedrooms, 2 bathrooms, laundry & leisure area to basement",
-      "cost": 1222.5,
-      "property_use": "Building Permit - Residential Alteration",
-      "contractor": "sluggers home improvement",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed",
-      "permit_id": "13957008",
-      "permit_number": "DP23-000216"
+      "score": 2,
+      "score_reasons": "permit completed",
+      "permit_id": "51589741",
+      "permit_number": "P25-000095"
     },
     {
       "date": "2024-05-17",
@@ -76,8 +78,8 @@
       "property_use": "Building Permit - Residential Alteration",
       "contractor": "sluggers home improvement",
       "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed",
+      "score": 2,
+      "score_reasons": "permit completed",
       "permit_id": "14122957",
       "permit_number": "B24-000083"
     },
@@ -90,30 +92,14 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "Tier One Electrical LLC",
       "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed",
+      "score": 2,
+      "score_reasons": "permit completed",
       "permit_id": "51080806",
       "permit_number": "E24-001206"
-    },
-    {
-      "date": "2024-01-16",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "Dumpster on Street",
-      "cost": 400.0,
-      "property_use": "Dumpster (Located on Street) - Dumpster Located on Street",
-      "contractor": "sluggers home improvement",
-      "owner_occupied": true,
-      "score": 1,
-      "score_reasons": "most permits completed",
-      "permit_id": "13957008",
-      "permit_number": "DP23-000216"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property was purchased in mid-2023 and immediately followed by a conversion from a 2-family to a single-family home including a full gut remodel and basement expansion, indicating a major value-add redevelopment for resale."
-  },
-  "lat": 42.386416118772,
-  "lng": -71.101663760423
+    "likelihood": "medium",
+    "reasoning": "Multiple high-value permits for gut remodel, 5-bathroom plumbing, and 2-family conversion suggest extensive renovation, but all owner_occupied flags reduce likelihood compared to commercial flippers."
+  }
 }

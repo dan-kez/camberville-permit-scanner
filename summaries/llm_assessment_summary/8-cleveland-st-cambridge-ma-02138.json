@@ -1,5 +1,7 @@
 {
   "address": "8 CLEVELAND ST, CAMBRIDGE, MA 02138",
+  "lat": 42.371609,
+  "lng": -71.109734,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+CLEVELAND+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/8%20CLEVELAND%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=8+CLEVELAND+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -20,25 +22,12 @@
   "property_use": "One-Family",
   "nearest_square": "Central",
   "distance_mi": 0.53,
-  "max_score": 5,
-  "total_cost": 707900.0,
-  "permit_count": 2,
+  "max_score": 2,
+  "total_cost": 417900.0,
+  "permit_count": 1,
   "completed_permits": 0,
-  "completion_ratio": "0/2",
+  "completion_ratio": "0/1",
   "permits": [
-    {
-      "date": "2023-08-07",
-      "source": "Cambridge Alteration",
-      "status": "Active",
-      "description": "Add a bathroom and laundry hookup and renovate an existing bathroom on the second floor. Add a bathroom to third floor. Install skylight and patch roof. Add 2 new windows. Update wiring in some areas and add a car charger.",
-      "cost": 290000.0,
-      "property_use": "One-Family",
-      "contractor": "Landmark Services Inc",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "high cost ($290,000); keyword: renovate",
-      "permit_id": "236572"
-    },
     {
       "date": "2025-12-22",
       "source": "Cambridge Alteration",
@@ -54,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property is undergoing a comprehensive $700,000 renovation involving a full kitchen gut and multiple bathroom updates, which matches the primary indicator for high-end preparation for sale."
-  },
-  "lat": 42.371609,
-  "lng": -71.109734
+    "likelihood": "error",
+    "reasoning": "Command '['claude', '--model', 'glm-4.7-flash:latest', '-p', 'Assess the likelihood that this property is being prepared for sale based on building permits and assessment data.\\n\\nCRITICAL INDICATORS FOR HIGH LIKELIHOOD:\\n1. High-end \\'prep-for-sale\\' renovations: Simultaneous full-scale updates to Kitchen AND multiple Bathrooms.\\n2. Non-owner occupied: If the permit lists owner_occupied as False, it is much more likely to be a project/flip.\\n3. Significant \\'Gut\\' or \\'Whole House\\' work even with long-term ownership (8+ years).\\n\\nCRITICAL INDICATORS FOR LOW LIKELIHOOD:\\n1. Maintenance work: Roof, windows (unless part of a larger project), siding, or HVAC only.\\n2. Minor updates: A single bathroom or small kitchen refresh by a long-term owner-occupant.\\n\\nRespond with ONLY valid JSON in this exact format:\\n{\"likelihood\": \"low|medium|high\", \"reasoning\": \"one sentence explanation\"}\\n\\nDATA:\\n{\"address\":\"8 CLEVELAND ST, CAMBRIDGE, MA 02138\",\"property_info\":{\"property_class\":\"SNGL-FAM-RES\",\"year_built\":\"1880\",\"bedrooms\":\"5\",\"bathrooms\":\"2/0\",\"total_rooms\":\"8\",\"living_area\":\"2055\",\"last_sale_date\":\"2022-06-02T00:00:00.000\",\"last_sale_price\":\"2414000\",\"assessed_value\":\"2076000\",\"lot_size\":\"2200\",\"property_pid\":\"10885\",\"property_parcel\":\"135-63\"},\"property_use\":\"One-Family\",\"nearest_square\":\"Central\",\"distance_mi\":0.53,\"max_score\":2,\"total_cost\":417900.0,\"permit_count\":1,\"permits\":[{\"date\":\"2025-12-22\",\"source\":\"Cambridge Alteration\",\"status\":\"Active\",\"description\":\"Kitchen renovation: gut kitchen and update plumbing, wiring, HVAC, insulation, board and plaster, cabinets, counters and appliances\",\"cost\":417900.0,\"property_use\":\"One-Family\",\"contractor\":\"Landmark Services Inc\",\"owner_occupied\":true,\"score\":2,\"score_reasons\":\"high cost ($417,900); keyword: gut; minor: insulation\",\"permit_id\":\"1193784\"}]}']' timed out after 120 seconds"
+  }
 }

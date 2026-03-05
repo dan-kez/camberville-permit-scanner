@@ -1,5 +1,7 @@
 {
   "address": "9 PARK PL, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.383286609493,
+  "lng": -71.104153018028,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+PARK+PL%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/9%20PARK%20PL%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=9+PARK+PL%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,40 +15,59 @@
     "last_sale_date": "2015-08-25",
     "last_sale_price": 675000,
     "assessed_value": 811500,
-    "lot_size": 0.0396
+    "lot_size": 0.0396,
+    "property_parcel": "52_G_23"
   },
-  "property_use": "Building Permit - Residential Repair",
+  "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Union",
   "distance_mi": 0.61,
-  "max_score": 3,
-  "total_cost": 1137.5,
-  "permit_count": 3,
-  "completed_permits": 2,
-  "completion_ratio": "2/3 complete",
+  "max_score": 7,
+  "total_cost": 3494.5,
+  "permit_count": 4,
+  "completed_permits": 4,
+  "completion_ratio": "4/4 complete",
   "permits": [
     {
-      "date": "2023-09-07",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "Remove and replace 18 windows, like sizes with no structural changes.",
-      "cost": 837.5,
-      "property_use": "Building Permit - Residential Repair",
-      "contractor": "Renewal by Andersen",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "keyword: structural; most permits completed"
-    },
-    {
-      "date": "2024-01-16",
+      "date": "2025-07-31",
       "source": "Somerville",
       "status": "Closed",
-      "description": "Service upgrade and car charger installation",
-      "cost": 150.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Tony Nguyen",
+      "description": "Kitchen Renovation - Relocate existing kitchen sink drain and water lines",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Raistrick plumbing and heating",
       "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "52362200",
+      "permit_number": "P25-000455"
+    },
+    {
+      "date": "2025-08-04",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Renovation of kitchen",
+      "cost": 137.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Ideal Electric Co Inc.",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "52367206",
+      "permit_number": "E25-001152"
+    },
+    {
+      "date": "2025-06-04",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace existing kitchen appliances, kitchen cabinets, two kitchen windows, add tile backsplash",
+      "cost": 3147.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Bridey Design + Build",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52014236",
+      "permit_number": "B25-000733"
     },
     {
       "date": "2024-09-04",
@@ -57,8 +78,10 @@
       "property_use": "Building Permit - Residential Other",
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; most permits completed"
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "51163609",
+      "permit_number": "B24-001469"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "115 COLLEGE AVE, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.399775154143,
+  "lng": -71.117875115535,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=115+COLLEGE+AVE%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/115%20COLLEGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=115+COLLEGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2002-12-18",
     "last_sale_price": 660000,
     "assessed_value": 2162200,
-    "lot_size": 0.1597
+    "lot_size": 0.1597,
+    "property_parcel": "20_F_5"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",
@@ -32,8 +35,11 @@
       "cost": 60.0,
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "Bay State Plumbing and Gas Inc",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52916370",
+      "permit_number": "P25-000767"
     }
   ]
 }

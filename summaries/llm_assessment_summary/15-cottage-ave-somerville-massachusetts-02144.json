@@ -1,0 +1,49 @@
+{
+  "address": "15 COTTAGE AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.394050607641,
+  "lng": -71.122037652471,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/15%20COTTAGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=15+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1658,
+    "last_sale_date": "2008-08-14",
+    "last_sale_price": 743500,
+    "assessed_value": 1385200,
+    "lot_size": 0.0826,
+    "property_parcel": "26_B_9"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Davis",
+  "distance_mi": 0.18,
+  "max_score": 5,
+  "total_cost": 300.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-08-20",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Roof replacement",
+      "cost": 300.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Town Roofing, LLC.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52385866",
+      "permit_number": "B25-001320"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Roof replacement is routine maintenance work with no kitchen or bathroom updates"
+  }
+}

@@ -1,5 +1,7 @@
 {
   "address": "6 WALNUT AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.387097,
+  "lng": -71.122914,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=6+WALNUT+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/6%20WALNUT%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=6+WALNUT+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -55,8 +57,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property has been held long-term since 1993 and the recent permits are strictly for structural maintenance (egress and columns) by an owner-occupant rather than high-end cosmetic renovations."
-  },
-  "lat": 42.387097,
-  "lng": -71.122914
+    "reasoning": "Both permits are structural maintenance/repair work (emergency egress replacement and lally column replacement) while owner is living in the property, not cosmetic upgrades typical of prep-for-sale renovations"
+  }
 }

@@ -1,0 +1,36 @@
+{
+  "address": "54 WESTERN AVE, CAMBRIDGE, MA 02139",
+  "lat": 42.365022,
+  "lng": -71.106619,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=54+WESTERN+AVE%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/54%20WESTERN%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=54+WESTERN+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.15,
+  "max_score": 2,
+  "total_cost": 1135.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-05-28",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "INSTALL 1 WINDOW FOR REPLACEMENT NO STRUCTURAL CHANGES",
+      "cost": 1135.0,
+      "property_use": "One-Family",
+      "contractor": "WINDOW WORLD",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "1167073"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Single window replacement is routine maintenance, owner occupied, and no structural changes"
+  }
+}

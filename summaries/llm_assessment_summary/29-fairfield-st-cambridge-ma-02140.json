@@ -1,5 +1,7 @@
 {
   "address": "29 FAIRFIELD ST, CAMBRIDGE, MA 02140",
+  "lat": 42.39166,
+  "lng": -71.126404,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=29+FAIRFIELD+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/29%20FAIRFIELD%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=29+FAIRFIELD+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The property was recently purchased by an owner-occupant whose renovations (3 bathrooms, office, and walk-in closet) suggest personalization of a new home rather than preparation for an immediate resale."
-  },
-  "lat": 42.39166,
-  "lng": -71.126404
+    "likelihood": "medium",
+    "reasoning": "Simultaneous bathroom remodeling with recent sale suggests sale preparation, but owner occupancy and limited scope reduce certainty"
+  }
 }

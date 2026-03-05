@@ -1,0 +1,49 @@
+{
+  "address": "156 HANCOCK ST, CAMBRIDGE, MA 02139",
+  "lat": 42.370381,
+  "lng": -71.106556,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=156+HANCOCK+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/156%20HANCOCK%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=156+HANCOCK+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "5",
+    "bathrooms": "3/1",
+    "total_rooms": "9",
+    "living_area": "2607",
+    "last_sale_date": "2020-12-09T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "2477200",
+    "lot_size": "2500",
+    "property_pid": "7803",
+    "property_parcel": "115-18"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.38,
+  "max_score": 2,
+  "total_cost": 5841.92,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2026-01-19",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "remove and replace 1 patio door in existing footprint, no structural work",
+      "cost": 5841.92,
+      "property_use": "One-Family",
+      "contractor": "JB Door and Sash",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "1195946"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Low-likelihood single patio door replacement by owner-occupant indicates routine maintenance rather than pre-sale preparation"
+  }
+}

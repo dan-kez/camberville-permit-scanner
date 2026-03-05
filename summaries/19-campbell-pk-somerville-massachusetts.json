@@ -1,5 +1,7 @@
 {
   "address": "19 CAMPBELL PK, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.396826861611,
+  "lng": -71.12630731013,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+CAMPBELL+PK%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/19%20CAMPBELL%20PK%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=19+CAMPBELL+PK%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "1992-09-10",
     "last_sale_price": 187500,
     "assessed_value": 1148300,
-    "lot_size": 0.0494
+    "lot_size": 0.0494,
+    "property_parcel": "17_G_16"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Davis",
@@ -34,7 +37,9 @@
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "14432600",
+      "permit_number": "B24-000934"
     }
   ]
 }

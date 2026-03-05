@@ -1,5 +1,7 @@
 {
   "address": "142 ORCHARD ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.395134890636,
+  "lng": -71.125369626621,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=142+ORCHARD+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/142%20ORCHARD%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=142+ORCHARD+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,40 +15,31 @@
     "last_sale_date": "2012-07-20",
     "last_sale_price": 1,
     "assessed_value": 1848600,
-    "lot_size": 0.12560000000000002
+    "lot_size": 0.12560000000000002,
+    "property_parcel": "22_F_2"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
   "distance_mi": 0.18,
-  "max_score": 3,
-  "total_cost": 625.0,
-  "permit_count": 2,
-  "completed_permits": 2,
-  "completion_ratio": "2/3 complete",
+  "max_score": 2,
+  "total_cost": 170.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
   "permits": [
     {
-      "date": "2023-09-20",
+      "date": "2024-06-10",
       "source": "Somerville",
       "status": "Closed",
-      "description": "Install 20a circuit to new wheelchair lift and wire",
-      "cost": 45.0,
+      "description": "replace condenser with heat pump add mini split add outside service outlet sub panel",
+      "cost": 170.0,
       "property_use": "Electrical Permit - Residential",
-      "contractor": "Ideal Electric Co Inc.",
+      "contractor": "SIS Inc.",
       "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed"
-    },
-    {
-      "date": "2023-09-25",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "CONSTRUCTING DECK ON TOP OF EXISTING LANDING WITH INSTALLATTION VERTICAL PLATFORM LIFT NEAR FRONT LANDING",
-      "cost": 580.0,
-      "property_use": "Building Permit - Residential Alteration",
-      "contractor": "ESPINO CONSTRUCTION CORP",
-      "owner_occupied": true,
-      "score": 1,
-      "score_reasons": "most permits completed"
+      "score": 2,
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "14439136",
+      "permit_number": "E24-000849"
     }
   ]
 }

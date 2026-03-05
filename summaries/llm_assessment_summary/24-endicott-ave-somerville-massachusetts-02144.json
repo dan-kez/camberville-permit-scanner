@@ -1,6 +1,10 @@
 {
   "address": "24 ENDICOTT AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.403439093569,
+  "lng": -71.129907002267,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=24+ENDICOTT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/24%20ENDICOTT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=24+ENDICOTT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1970,
@@ -31,16 +35,15 @@
       "cost": 260.0,
       "property_use": "Building Permit - Residential Repair",
       "contractor": "Fisher Windows",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: structural"
+      "score_reasons": "keyword: structural",
+      "permit_id": "52709996",
+      "permit_number": "B25-002061"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The single permit for low-cost wood stove inserts and the 12-year gap since the last sale suggest a minor efficiency upgrade rather than a profit-driven renovation or flip."
-  },
-  "lat": 42.403439093569,
-  "lng": -71.129907002267,
-  "zillow_url": "https://www.zillow.com/homes/24%20ENDICOTT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
-  "google_search_url": "https://www.google.com/search?q=24+ENDICOTT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
+    "reasoning": "Low-cost window insert installation by owner-occupied property, not renovation or sale preparation."
+  }
 }

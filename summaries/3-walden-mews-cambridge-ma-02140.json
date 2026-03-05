@@ -1,5 +1,7 @@
 {
   "address": "3 WALDEN MEWS, CAMBRIDGE, MA 02140",
+  "lat": 42.387785,
+  "lng": -71.127043,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+WALDEN+MEWS%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/3%20WALDEN%20MEWS%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=3+WALDEN+MEWS%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2018-07-23T00:00:00.000",
     "last_sale_price": "1435000",
     "assessed_value": "1962900",
-    "lot_size": "1650"
+    "lot_size": "1650",
+    "property_pid": "17216",
+    "property_parcel": "202-121"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Express Remodeling Group",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($87,700); keyword: remodel"
+      "score_reasons": "moderate cost ($87,700); keyword: remodel",
+      "permit_id": "1195060"
     }
   ]
 }

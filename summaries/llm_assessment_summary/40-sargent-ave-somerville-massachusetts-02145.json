@@ -1,5 +1,7 @@
 {
   "address": "40 SARGENT AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.390313871387,
+  "lng": -71.092786654408,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/40%20SARGENT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=40+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for a minor $60 gas leak repair by an owner-occupant, which constitutes routine maintenance rather than sale preparation."
-  },
-  "lat": 42.390313871387,
-  "lng": -71.092786654408
+    "reasoning": "Owner-occupied single gas leak repair ($60) is standard maintenance, not simultaneous high-end renovations"
+  }
 }

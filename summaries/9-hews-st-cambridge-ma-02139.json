@@ -1,0 +1,45 @@
+{
+  "address": "9 HEWS ST, CAMBRIDGE, MA 02139",
+  "lat": 42.364828,
+  "lng": -71.11316,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+HEWS+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/9%20HEWS%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+HEWS+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "4",
+    "bathrooms": "4/0",
+    "total_rooms": "6",
+    "living_area": "2040",
+    "last_sale_date": "2024-07-10T00:00:00.000",
+    "last_sale_price": "3171000",
+    "assessed_value": "2838800",
+    "lot_size": "3400",
+    "property_pid": "9339",
+    "property_parcel": "122-11"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.48,
+  "max_score": 5,
+  "total_cost": 10450.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-04-02",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Frame and Install New Gas Fireplace",
+      "cost": 10450.0,
+      "property_use": "One-Family",
+      "contractor": "Brite Builders Inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "1158344"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 {
   "address": "74 CHANDLER ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.400306482986,
+  "lng": -71.120777768605,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=74+CHANDLER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/74%20CHANDLER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=74+CHANDLER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2017-12-29",
     "last_sale_price": 1,
     "assessed_value": 2086900,
-    "lot_size": 0.1037
+    "lot_size": 0.1037,
+    "property_parcel": "16_C_30"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -22,7 +25,7 @@
   "total_cost": 45.0,
   "permit_count": 1,
   "completed_permits": 1,
-  "completion_ratio": "1/3 complete",
+  "completion_ratio": "1/5 complete",
   "permits": [
     {
       "date": "2024-06-11",
@@ -34,7 +37,9 @@
       "contractor": "Masis Cinar Electrician",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14451508",
+      "permit_number": "E24-000898"
     }
   ]
 }

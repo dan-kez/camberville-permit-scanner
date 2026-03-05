@@ -1,0 +1,45 @@
+{
+  "address": "100 HAMMOND ST, CAMBRIDGE, MA 02138",
+  "lat": 42.38157,
+  "lng": -71.112731,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=100+HAMMOND+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/100%20HAMMOND%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=100+HAMMOND+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1916",
+    "bedrooms": "5",
+    "bathrooms": "3/1",
+    "total_rooms": "11",
+    "living_area": "2649",
+    "last_sale_date": "2010-06-25T00:00:00.000",
+    "last_sale_price": "1450000",
+    "assessed_value": "2832300",
+    "lot_size": "2964",
+    "property_pid": "11854",
+    "property_parcel": "149-87"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.57,
+  "max_score": 2,
+  "total_cost": 15500.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-06-09",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Remove non structural wall between dining and family room. Add pocket doors to room.",
+      "cost": 15500.0,
+      "property_use": "One-Family",
+      "contractor": "American Precision Developers",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "1169218"
+    }
+  ]
+}

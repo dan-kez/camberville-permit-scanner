@@ -1,5 +1,7 @@
 {
   "address": "20 GARFIELD ST, CAMBRIDGE, MA 02138",
+  "lat": 42.383657,
+  "lng": -71.118553,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20+GARFIELD+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/20%20GARFIELD%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=20+GARFIELD+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2009-11-05T00:00:00.000",
     "last_sale_price": "1742500",
     "assessed_value": "3964400",
-    "lot_size": "6600"
+    "lot_size": "6600",
+    "property_pid": "12451",
+    "property_parcel": "155-2"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Paulo neres de sousa",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "moderate cost ($53,850); keyword: renovation; permit completed"
+      "score_reasons": "moderate cost ($53,850); keyword: renovation; permit completed",
+      "permit_id": "1165727"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "3 WALDEN MEWS, CAMBRIDGE, MA 02140",
+  "lat": 42.387785,
+  "lng": -71.127043,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+WALDEN+MEWS%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/3%20WALDEN%20MEWS%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=3+WALDEN+MEWS%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "A substantial $87,700 remodeling of two bathrooms by a long-term owner-occupant indicates significant property improvement, though it lacks the simultaneous kitchen renovation typically associated with high-likelihood sale preparation."
-  },
-  "lat": 42.387785,
-  "lng": -71.127043
+    "likelihood": "low",
+    "reasoning": "Bathroom remodeling without kitchen work, owner still occupying, and no whole-house renovation"
+  }
 }

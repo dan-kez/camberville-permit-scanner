@@ -1,5 +1,7 @@
 {
   "address": "7 DANA PL, CAMBRIDGE, MA 02138",
+  "lat": 42.370582,
+  "lng": -71.110364,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+DANA+PL%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/7%20DANA%20PL%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=7+DANA+PL%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2021-07-09T00:00:00.000",
     "last_sale_price": "1800000",
     "assessed_value": "1993500",
-    "lot_size": "1603"
+    "lot_size": "1603",
+    "property_pid": "8365",
+    "property_parcel": "116-112"
   },
   "property_use": "Townhouse",
   "nearest_square": "Central",
@@ -40,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "This is a single kitchen refresh by an owner-occupant who has held the property for over four years, which lacks the simultaneous multi-room updates typical of a pre-sale renovation."
-  },
-  "lat": 42.370582,
-  "lng": -71.110364
+    "reasoning": "Owner occupied with only kitchen cabinets and countertops replacement (no bathroom updates), appears to be routine maintenance rather than full-scale prep-for-sale renovations"
+  }
 }

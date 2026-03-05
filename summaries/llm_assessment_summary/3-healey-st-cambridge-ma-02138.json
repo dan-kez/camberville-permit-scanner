@@ -1,0 +1,62 @@
+{
+  "address": "3 HEALEY ST, CAMBRIDGE, MA 02138",
+  "lat": 42.380061,
+  "lng": -71.128387,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+HEALEY+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/3%20HEALEY%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=3+HEALEY+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "2",
+    "bathrooms": "3/1",
+    "total_rooms": "7",
+    "living_area": "1665",
+    "last_sale_date": "2024-12-13T00:00:00.000",
+    "last_sale_price": "2300000",
+    "assessed_value": "2136600",
+    "lot_size": "2657",
+    "property_pid": "19047",
+    "property_parcel": "225-12"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.75,
+  "max_score": 2,
+  "total_cost": 8862.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2025-01-16",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "INSTALL 4 WINDOWS FOR REPLACEMENT NO STRUCTURAL CHANGES",
+      "cost": 5347.0,
+      "property_use": "One-Family",
+      "contractor": "WINDOW WORLD",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "1148790"
+    },
+    {
+      "date": "2025-01-24",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "INSTALL 1 ENTRY DOOR FOR REPLACEME3NT NO STRUCTURAL CHANGES",
+      "cost": 3515.0,
+      "property_use": "One-Family",
+      "contractor": "WINDOW WORLD",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "1149524"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Routine maintenance work (replacement windows and entry door) by an owner-occupied property, no evidence of high-end prep-for-sale renovations like kitchen or bathroom updates."
+  }
+}

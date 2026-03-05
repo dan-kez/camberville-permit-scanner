@@ -1,5 +1,7 @@
 {
   "address": "100 LANDSDOWNE ST, UNIT 101, CAMBRIDGE, MA 02139",
+  "lat": 42.359997,
+  "lng": -71.100953,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=100+LANDSDOWNE+ST%2C+UNIT+101%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/100%20LANDSDOWNE%20ST%2C%20UNIT%20101%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=100+LANDSDOWNE+ST%2C+UNIT+101%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2020-01-27T00:00:00.000",
     "last_sale_price": "10",
     "assessed_value": "7112700",
-    "lot_size": "17731"
+    "lot_size": "17731",
+    "property_pid": "22036",
+    "property_parcel": "146A-129"
   },
   "property_use": "Multi-Family (3 units or greater)",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "EHI Contracting, Inc.",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($34,000)"
+      "score_reasons": "moderate cost ($34,000)",
+      "permit_id": "1150955"
     }
   ]
 }

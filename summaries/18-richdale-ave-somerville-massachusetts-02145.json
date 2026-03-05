@@ -1,5 +1,7 @@
 {
   "address": "18 RICHDALE AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.389059100481,
+  "lng": -71.098398506222,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+RICHDALE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/18%20RICHDALE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=18+RICHDALE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2009-02-27",
     "last_sale_price": 100,
     "assessed_value": 886900,
-    "lot_size": 0.07350000000000001
+    "lot_size": 0.07350000000000001,
+    "property_parcel": "50_C_15"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +37,9 @@
       "contractor": "Kuhlman Electrical Services",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51256053",
+      "permit_number": "E24-001589"
     }
   ]
 }

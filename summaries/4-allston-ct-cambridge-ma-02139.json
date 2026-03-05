@@ -1,5 +1,7 @@
 {
   "address": "4 ALLSTON CT, CAMBRIDGE, MA 02139",
+  "lat": 42.359095,
+  "lng": -71.109833,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+ALLSTON+CT%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/4%20ALLSTON%20CT%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=4+ALLSTON+CT%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "1997-03-28T00:00:00.000",
     "last_sale_price": "275000",
     "assessed_value": "1519000",
-    "lot_size": "2448"
+    "lot_size": "2448",
+    "property_pid": "6010",
+    "property_parcel": "102-30"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "XR SERVICES LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($255,700); keyword: remodel"
+      "score_reasons": "high cost ($255,700); keyword: remodel",
+      "permit_id": "266670"
     }
   ]
 }

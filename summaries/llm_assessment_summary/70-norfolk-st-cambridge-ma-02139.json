@@ -1,5 +1,7 @@
 {
   "address": "70 NORFOLK ST, CAMBRIDGE, MA 02139",
+  "lat": 42.36584,
+  "lng": -71.100652,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=70+NORFOLK+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/70%20NORFOLK%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=70+NORFOLK+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The single permit is for maintenance-oriented window replacement by a long-term owner-occupant, which aligns with low likelihood criteria."
-  },
-  "lat": 42.36584,
-  "lng": -71.100652
+    "reasoning": "Routine window replacement is typical maintenance for a 165-year-old house; owner is actually owner-occupied, and the single permit involves no structural changes or high-end renovations like kitchen/bathroom updates."
+  }
 }

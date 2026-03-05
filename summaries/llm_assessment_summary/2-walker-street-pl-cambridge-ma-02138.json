@@ -1,5 +1,7 @@
 {
   "address": "2 WALKER STREET PL, CAMBRIDGE, MA 02138",
+  "lat": 42.379546,
+  "lng": -71.123886,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+WALKER+STREET+PL%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/2%20WALKER%20STREET%20PL%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=2+WALKER+STREET+PL%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "This is a single bathroom remodel by a long-term owner-occupant, which is characteristic of a personal home improvement rather than a pre-sale renovation."
-  },
-  "lat": 42.379546,
-  "lng": -71.123886
+    "reasoning": "Only a single bathroom remodel for an owner-occupant with 13-year tenure, lacking coordinated kitchen and bathroom updates typical of prep-for-sale projects"
+  }
 }

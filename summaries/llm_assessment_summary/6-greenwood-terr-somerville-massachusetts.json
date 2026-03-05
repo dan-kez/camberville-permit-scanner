@@ -1,0 +1,49 @@
+{
+  "address": "6 GREENWOOD TERR, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.385332087234,
+  "lng": -71.114431410616,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=6+GREENWOOD+TERR%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/6%20GREENWOOD%20TERR%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=6+GREENWOOD+TERR%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 5,
+    "living_area": 1030,
+    "last_sale_date": "2023-11-21",
+    "last_sale_price": 655000,
+    "assessed_value": 655000,
+    "lot_size": 0.041600000000000005,
+    "property_parcel": "37_C_30"
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.32,
+  "max_score": 5,
+  "total_cost": 45.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-01-29",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "two new outlets",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "-",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51556555",
+      "permit_number": "E25-000143"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Only minor electrical maintenance work (two new outlets) for $45, owner-occupied, no significant renovations"
+  }
+}

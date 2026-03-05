@@ -1,5 +1,7 @@
 {
   "address": "13 WALKER ST, CAMBRIDGE, MA 02138",
+  "lat": 42.379742,
+  "lng": -71.12408,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=13+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/13%20WALKER%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=13+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2005-04-19T00:00:00.000",
     "last_sale_price": "1220000",
     "assessed_value": "2618300",
-    "lot_size": "2440"
+    "lot_size": "2440",
+    "property_pid": "18039",
+    "property_parcel": "214-20"
   },
   "property_use": "Townhouse",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Bruno Rafael",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($35,500)"
+      "score_reasons": "moderate cost ($35,500)",
+      "permit_id": "287322"
     }
   ]
 }

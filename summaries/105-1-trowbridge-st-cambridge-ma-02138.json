@@ -1,0 +1,45 @@
+{
+  "address": "105-1 TROWBRIDGE ST, CAMBRIDGE, MA 02138",
+  "lat": 42.376733,
+  "lng": -71.109812,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=105-1+TROWBRIDGE+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/105-1%20TROWBRIDGE%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=105-1+TROWBRIDGE+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1979",
+    "bedrooms": "3",
+    "bathrooms": "3/0",
+    "total_rooms": "7",
+    "living_area": "1846",
+    "last_sale_date": "2013-04-23T00:00:00.000",
+    "last_sale_price": "931000",
+    "assessed_value": "2152300",
+    "lot_size": "2847",
+    "property_pid": "11688",
+    "property_parcel": "142-156"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.58,
+  "max_score": 2,
+  "total_cost": 12531.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-07-16",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "INSTALL 3 ENTRY DOORS FOR REPLACEMENT NO STRUCTURAL CHANGES",
+      "cost": 12531.0,
+      "property_use": "One-Family",
+      "contractor": "NEWPRO",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "280593"
+    }
+  ]
+}

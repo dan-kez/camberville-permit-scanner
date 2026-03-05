@@ -1,5 +1,7 @@
 {
   "address": "16 SARGENT ST, CAMBRIDGE, MA 02140",
+  "lat": 42.392631,
+  "lng": -71.131825,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+SARGENT+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/16%20SARGENT%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=16+SARGENT+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2003-11-06T00:00:00.000",
     "last_sale_price": "100",
     "assessed_value": "2263700",
-    "lot_size": "4000"
+    "lot_size": "4000",
+    "property_pid": "16335",
+    "property_parcel": "195-96"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +38,8 @@
       "contractor": "Stillwater Building & Renovation, LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "high cost ($291,127)"
+      "score_reasons": "high cost ($291,127)",
+      "permit_id": "1192844"
     }
   ]
 }

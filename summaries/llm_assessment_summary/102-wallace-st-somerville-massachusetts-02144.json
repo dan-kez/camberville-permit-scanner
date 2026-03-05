@@ -1,0 +1,49 @@
+{
+  "address": "102 WALLACE ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.400919996389,
+  "lng": -71.121098963135,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=102+WALLACE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/102%20WALLACE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=102+WALLACE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1880,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2591,
+    "last_sale_date": "2019-08-07",
+    "last_sale_price": 10,
+    "assessed_value": 1487500,
+    "lot_size": 0.07490000000000001,
+    "property_parcel": "16_B_27"
+  },
+  "property_use": "Building Permit - Residential Alteration",
+  "nearest_square": "Davis",
+  "distance_mi": 0.3,
+  "max_score": 2,
+  "total_cost": 930.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2024-12-19",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "WEATHER STRIP DOORS, AIR SEAL ATTIC/BASEMENT, BLOWN CELLULOSE-WALLS R-13, ATTIC AREAS R-60, OR CAPACITY. STRIP ROOF-INSTALL ASPHALT SHINGLES ON PITCHED AREA. INSTALL FULLY ADHERED RUBBER ROOF ON FLAT AREA",
+      "cost": 930.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Atlantic Weatherization",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: full",
+      "permit_id": "51459202",
+      "permit_number": "B24-002221"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Weatherization and roof repair are routine maintenance activities, not prep-for-sale renovations, and owner_occupied status confirms this is a home improvement rather than investment project"
+  }
+}

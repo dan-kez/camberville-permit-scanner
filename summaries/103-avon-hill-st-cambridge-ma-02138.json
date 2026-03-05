@@ -1,5 +1,7 @@
 {
   "address": "103 AVON HILL ST, CAMBRIDGE, MA 02138",
+  "lat": 42.386111,
+  "lng": -71.125332,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=103+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/103%20AVON%20HILL%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=103+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "1993-04-07T00:00:00.000",
     "last_sale_price": "398000",
     "assessed_value": "2020800",
-    "lot_size": "3750"
+    "lot_size": "3750",
+    "property_pid": "17668",
+    "property_parcel": "209-56"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "EMC Company",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($27,200); keyword: remodel"
+      "score_reasons": "moderate cost ($27,200); keyword: remodel",
+      "permit_id": "262831"
     }
   ]
 }

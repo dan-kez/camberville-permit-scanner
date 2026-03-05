@@ -1,5 +1,7 @@
 {
   "address": "14 GREENOUGH AVE, CAMBRIDGE, MA 02139",
+  "lat": 42.373397,
+  "lng": -71.106132,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=14+GREENOUGH+AVE%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/14%20GREENOUGH%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=14+GREENOUGH+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "A massive $564,000 gut renovation involving simultaneous updates to the kitchen and multiple bathrooms across all floors, including attic and basement work, strongly indicates high-end preparation for sale."
-  },
-  "lat": 42.373397,
-  "lng": -71.106132
+    "likelihood": "medium",
+    "reasoning": "Comprehensive 1886 single-family home renovation includes kitchen and bathroom demos/remodels, chimney removal, foundation reinforcement, and extensive drainage work totaling $564k, though the low last sale price suggests potential recent acquisition for improvement or rehabilitation project."
+  }
 }

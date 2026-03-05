@@ -1,0 +1,49 @@
+{
+  "address": "58 WARWICK ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.393881712292,
+  "lng": -71.108531221332,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=58+WARWICK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/58%20WARWICK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=58+WARWICK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1886,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 11,
+    "living_area": 2046,
+    "last_sale_date": "2014-01-14",
+    "last_sale_price": 1,
+    "assessed_value": 1182300,
+    "lot_size": 0.1315,
+    "property_parcel": "33_G_14"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Porter",
+  "distance_mi": 0.66,
+  "max_score": 5,
+  "total_cost": 320.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-08-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remove and replace rear door and storm",
+      "cost": 320.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Our House Contracting",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52432040",
+      "permit_number": "B25-001374"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Single minor permit for door replacement, owner occupied, long-term ownership indicates maintenance rather than sale preparation."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "address": "8 CLAY ST, CAMBRIDGE, MA 02140",
+  "lat": 42.393908,
+  "lng": -71.134366,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+CLAY+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/8%20CLAY%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+CLAY+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.64,
+  "max_score": 2,
+  "total_cost": 2200.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-01-29",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "INSTALL 1 WINDOW FOR REPLACEMENT NO STRUCTURAL CHANGES",
+      "cost": 2200.0,
+      "property_use": "One-Family",
+      "contractor": "NEWPRO",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "1149945"
+    }
+  ]
+}

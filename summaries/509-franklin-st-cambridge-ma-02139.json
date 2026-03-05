@@ -1,0 +1,32 @@
+{
+  "address": "509 FRANKLIN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.367763,
+  "lng": -71.110866,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=509+FRANKLIN+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/509%20FRANKLIN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=509+FRANKLIN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.4,
+  "max_score": 4,
+  "total_cost": 5000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-11-18",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Residential weatherization/air sealing. No structural changes.\u00a026124",
+      "cost": 5000.0,
+      "property_use": "One-Family",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "1143562"
+    }
+  ]
+}

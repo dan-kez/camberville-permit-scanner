@@ -1,5 +1,7 @@
 {
   "address": "11 SPRING HILL TERR, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.38891551848,
+  "lng": -71.107469318019,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/11%20SPRING%20HILL%20TERR%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=11+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -13,16 +15,17 @@
     "last_sale_date": "2014-09-26",
     "last_sale_price": 1,
     "assessed_value": 910300,
-    "lot_size": 0.0472
+    "lot_size": 0.0472,
+    "property_parcel": "43_B_7"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
   "distance_mi": 0.59,
   "max_score": 5,
-  "total_cost": 1028.0,
-  "permit_count": 4,
-  "completed_permits": 4,
-  "completion_ratio": "4/4 complete",
+  "total_cost": 1058.0,
+  "permit_count": 5,
+  "completed_permits": 5,
+  "completion_ratio": "5/5 complete",
   "permits": [
     {
       "date": "2024-06-10",
@@ -34,7 +37,9 @@
       "contractor": "Richard kippenberger Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14443620",
+      "permit_number": "E24-000869"
     },
     {
       "date": "2024-07-03",
@@ -46,7 +51,23 @@
       "contractor": "T.R.Installations",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14423237",
+      "permit_number": "B24-000905"
+    },
+    {
+      "date": "2024-12-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install support clips on exiting electric service per code",
+      "cost": 30.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Richard kippenberger Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51477619",
+      "permit_number": "E24-002060"
     },
     {
       "date": "2024-08-22",
@@ -58,7 +79,9 @@
       "contractor": "Economize Plumbing & Heating",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51164977",
+      "permit_number": "P24-000481"
     },
     {
       "date": "2024-09-11",
@@ -70,7 +93,9 @@
       "contractor": "Richard kippenberger Electrician",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "51219608",
+      "permit_number": "E24-001468"
     }
   ]
 }

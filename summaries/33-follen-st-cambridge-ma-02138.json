@@ -1,5 +1,7 @@
 {
   "address": "33 FOLLEN ST, CAMBRIDGE, MA 02138",
+  "lat": 42.378747,
+  "lng": -71.120917,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33+FOLLEN+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/33%20FOLLEN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=33+FOLLEN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2021-12-01T00:00:00.000",
     "last_sale_price": "2500000",
     "assessed_value": "3207100",
-    "lot_size": "1207"
+    "lot_size": "1207",
+    "property_pid": "13611",
+    "property_parcel": "172-106"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "J B SASH & DOOR",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($61,845); keyword: structural; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($61,845); keyword: structural; permit completed; all permits completed",
+      "permit_id": "1184798"
     }
   ]
 }

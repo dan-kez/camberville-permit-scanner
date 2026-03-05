@@ -1,5 +1,7 @@
 {
   "address": "16 RUSSELL ST, CAMBRIDGE, MA 02140",
+  "lat": 42.392302,
+  "lng": -71.122748,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+RUSSELL+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/16%20RUSSELL%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=16+RUSSELL+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied with over 20 years of ownership, and the recent permit for basement slab replacement represents foundational maintenance rather than high-end aesthetic renovations like kitchens or bathrooms."
-  },
-  "lat": 42.392302,
-  "lng": -71.122748
+    "reasoning": "Single basement slab replacement with parge coat application is routine maintenance, owner occupied status indicates personal use, and no kitchen/bathroom renovations suggest this is not preparation for sale"
+  }
 }

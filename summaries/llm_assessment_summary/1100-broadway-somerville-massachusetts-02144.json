@@ -1,5 +1,7 @@
 {
   "address": "1100 BROADWAY, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.402528693156,
+  "lng": -71.126130619611,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1100+BROADWAY%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/1100%20BROADWAY%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=1100+BROADWAY%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -16,15 +18,29 @@
     "lot_size": 0.1148,
     "property_parcel": "12_A_7"
   },
-  "property_use": "Building Permit - Residential Other",
+  "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
   "distance_mi": 0.44,
-  "max_score": 4,
-  "total_cost": 1104.5,
-  "permit_count": 3,
-  "completed_permits": 3,
-  "completion_ratio": "3/3 complete",
+  "max_score": 5,
+  "total_cost": 1404.5,
+  "permit_count": 4,
+  "completed_permits": 4,
+  "completion_ratio": "4/4 complete",
   "permits": [
+    {
+      "date": "2025-12-22",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "roof replacement",
+      "cost": 300.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Northeast Insustrial Roof",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52748822",
+      "permit_number": "B25-002142"
+    },
     {
       "date": "2024-06-25",
       "source": "Somerville",
@@ -70,8 +86,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permits are exclusively for finishing a solar panel installation and associated electrical panel upgrade by an owner-occupant, which is maintenance work rather than a pre-sale renovation."
-  },
-  "lat": 42.402528693156,
-  "lng": -71.126130619611
+    "reasoning": "Permits are for maintenance (roof, solar) and electrical panel upgrade, all completed, owner_occupied=true, no high-end kitchen/bathroom renovations or gut work"
+  }
 }

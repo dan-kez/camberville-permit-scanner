@@ -1,5 +1,7 @@
 {
   "address": "16 COTTAGE ST, CAMBRIDGE, MA 02139",
+  "lat": 42.362691,
+  "lng": -71.10626,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+COTTAGE+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/16%20COTTAGE%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=16+COTTAGE+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "medium",
-    "reasoning": "The high cost of the primary suite renovation by a relatively recent owner-occupant indicates significant value-adding, but the limited scope to a single floor and the lack of a kitchen update lean toward personal use."
-  },
-  "lat": 42.362691,
-  "lng": -71.10626
+    "reasoning": "High-cost renovation (adding bedroom and bathroom) suggests owner improving property value, but owner_occupied flag indicates personal use rather than quick flip."
+  }
 }

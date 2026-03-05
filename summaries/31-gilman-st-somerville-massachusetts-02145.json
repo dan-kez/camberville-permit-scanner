@@ -1,5 +1,7 @@
 {
   "address": "31 GILMAN ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.385051670664,
+  "lng": -71.090252385982,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=31+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/31%20GILMAN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=31+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,9 +15,10 @@
     "last_sale_date": "1991-11-22",
     "last_sale_price": 130000,
     "assessed_value": 956500,
-    "lot_size": 0.0669
+    "lot_size": 0.0669,
+    "property_parcel": "92_K_27"
   },
-  "property_use": "Building Permit - Residential Renovation",
+  "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Union",
   "distance_mi": 0.41,
   "max_score": 3,
@@ -24,18 +27,6 @@
   "completed_permits": 3,
   "completion_ratio": "3/5 complete",
   "permits": [
-    {
-      "date": "2024-09-19",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "add shower stall to existing 1/2 bath. 13 replacement windows",
-      "cost": 997.5,
-      "property_use": "Building Permit - Residential Renovation",
-      "contractor": "",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed"
-    },
     {
       "date": "2024-10-04",
       "source": "Somerville",
@@ -46,7 +37,23 @@
       "contractor": "m&n solutions inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51264861",
+      "permit_number": "P24-000600"
+    },
+    {
+      "date": "2024-09-19",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "add shower stall to existing 1/2 bath. 13 replacement windows",
+      "cost": 997.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51222524",
+      "permit_number": "B24-001631"
     },
     {
       "date": "2024-10-10",
@@ -58,7 +65,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "51241721",
+      "permit_number": "B24-001704"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "53 MADISON AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.398869,
+  "lng": -71.135999,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=53+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/53%20MADISON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=53+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2008-10-10T00:00:00.000",
     "last_sale_price": "529500",
     "assessed_value": "1242400",
-    "lot_size": "1986"
+    "lot_size": "1986",
+    "property_pid": "15433",
+    "property_parcel": "188-105"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +38,8 @@
       "contractor": "Coen Construction",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($98,475); keyword: renovate"
+      "score_reasons": "moderate cost ($98,475); keyword: renovate",
+      "permit_id": "1191335"
     },
     {
       "date": "2024-06-04",
@@ -46,7 +51,8 @@
       "contractor": "FRS Roofing Inc.",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($25,749)"
+      "score_reasons": "moderate cost ($25,749)",
+      "permit_id": "274514"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "146 MORRISON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.39619151335,
+  "lng": -71.117415368146,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=146+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/146%20MORRISON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=146+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,29 +15,18 @@
     "last_sale_date": "2022-12-02",
     "last_sale_price": 750000,
     "assessed_value": 884700,
-    "lot_size": 0.0454
+    "lot_size": 0.0454,
+    "property_parcel": "24_L_2"
   },
-  "property_use": "Building Permit - Residential Repair",
+  "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",
   "distance_mi": 0.26,
-  "max_score": 5,
-  "total_cost": 7595.0,
-  "permit_count": 5,
-  "completed_permits": 4,
-  "completion_ratio": "4/5 complete",
+  "max_score": 7,
+  "total_cost": 285.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
   "permits": [
-    {
-      "date": "2023-08-01",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "install 5 Anderson replacement windows. Energy star ,inserts only, with no structural work",
-      "cost": 420.0,
-      "property_use": "Building Permit - Residential Repair",
-      "contractor": "Fisher Windows",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: structural; permit completed; most permits completed"
-    },
     {
       "date": "2024-03-14",
       "source": "Somerville",
@@ -45,8 +36,10 @@
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "Mouradian P@H",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "14235507",
+      "permit_number": "P24-000141"
     },
     {
       "date": "2024-03-21",
@@ -57,32 +50,10 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "T D Electrician",
       "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed"
-    },
-    {
-      "date": "2023-12-11",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Partial first floor renovation including kitchen and new flooring.  Second floor bathroom renovation.  Siding replacement on the rear elevation of townhouse",
-      "cost": 6530.0,
-      "property_use": "Building Permit - Residential Renovation",
-      "contractor": "Kent General Contracting",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "keyword: renovation; minor: siding; permit completed; most permits completed"
-    },
-    {
-      "date": "2023-08-01",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "Repairing walls and ceilings throughout by adding new blueboards",
-      "cost": 360.0,
-      "property_use": "Building Permit - Residential Repair",
-      "contractor": "",
-      "owner_occupied": true,
-      "score": 1,
-      "score_reasons": "most permits completed"
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14266962",
+      "permit_number": "E24-000404"
     }
   ]
 }

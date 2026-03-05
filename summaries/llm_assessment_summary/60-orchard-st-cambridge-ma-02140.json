@@ -1,5 +1,7 @@
 {
   "address": "60 ORCHARD ST, CAMBRIDGE, MA 02140",
+  "lat": 42.391994,
+  "lng": -71.121374,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=60+ORCHARD+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/60%20ORCHARD%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=60+ORCHARD+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "The renovation involves significant structural work and a high-cost kitchen update ($285k), but the owner-occupied status and lack of simultaneous bathroom renovations do not meet the specific criteria for a high-likelihood classification."
-  },
-  "lat": 42.391994,
-  "lng": -71.121374
+    "likelihood": "error",
+    "reasoning": "Command '['claude', '--model', 'glm-4.7-flash:latest', '-p', 'Assess the likelihood that this property is being prepared for sale based on building permits and assessment data.\\n\\nCRITICAL INDICATORS FOR HIGH LIKELIHOOD:\\n1. High-end \\'prep-for-sale\\' renovations: Simultaneous full-scale updates to Kitchen AND multiple Bathrooms.\\n2. Non-owner occupied: If the permit lists owner_occupied as False, it is much more likely to be a project/flip.\\n3. Significant \\'Gut\\' or \\'Whole House\\' work even with long-term ownership (8+ years).\\n\\nCRITICAL INDICATORS FOR LOW LIKELIHOOD:\\n1. Maintenance work: Roof, windows (unless part of a larger project), siding, or HVAC only.\\n2. Minor updates: A single bathroom or small kitchen refresh by a long-term owner-occupant.\\n\\nRespond with ONLY valid JSON in this exact format:\\n{\"likelihood\": \"low|medium|high\", \"reasoning\": \"one sentence explanation\"}\\n\\nDATA:\\n{\"address\":\"60 ORCHARD ST, CAMBRIDGE, MA 02140\",\"property_info\":{\"property_class\":\"SNGL-FAM-RES\",\"year_built\":\"1898\",\"bedrooms\":\"4\",\"bathrooms\":\"4/1\",\"total_rooms\":\"14\",\"living_area\":\"3771\",\"last_sale_date\":\"2023-01-10T00:00:00.000\",\"last_sale_price\":\"0\",\"assessed_value\":\"3738800\",\"lot_size\":\"3640\",\"property_pid\":\"14768\",\"property_parcel\":\"181-69\"},\"property_use\":\"One-Family\",\"nearest_square\":\"Porter\",\"distance_mi\":0.27,\"max_score\":3,\"total_cost\":285474.56,\"permit_count\":1,\"permits\":[{\"date\":\"2026-02-09\",\"source\":\"Cambridge Alteration\",\"status\":\"Active\",\"description\":\"Reframe stairs to basement, reframe rear wall and stairs to grade. Install new island and miscellaneous cabinetry in kitchen. Remove bearing post and install new beams on 1st and 2nd floors.\",\"cost\":285474.56,\"property_use\":\"One-Family\",\"contractor\":\"Creative Construction\",\"owner_occupied\":true,\"score\":3,\"score_reasons\":\"high cost ($285,475)\",\"permit_id\":\"1198299\"}]}']' timed out after 120 seconds"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "173 WILLOW AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396635544671,
+  "lng": -71.114871963446,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=173+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/173%20WILLOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=173+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2016-11-18",
     "last_sale_price": 1450000,
     "assessed_value": 1918300,
-    "lot_size": 0.07830000000000001
+    "lot_size": 0.07830000000000001,
+    "property_parcel": "28_A_24"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +37,9 @@
       "contractor": "Gregory F. Comeau, Master Electrician LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14323663",
+      "permit_number": "E24-000577"
     }
   ]
 }

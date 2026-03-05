@@ -1,5 +1,7 @@
 {
   "address": "32 LINE ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.377275192354,
+  "lng": -71.106191664518,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32+LINE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/32%20LINE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=32+LINE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,9 +15,10 @@
     "last_sale_date": "2023-10-06",
     "last_sale_price": 1750000,
     "assessed_value": 1610800,
-    "lot_size": 0.08310000000000001
+    "lot_size": 0.08310000000000001,
+    "property_parcel": "66_E_15"
   },
-  "property_use": "Building Permit - Residential Renovation",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Inman",
   "distance_mi": 0.43,
   "max_score": 5,
@@ -24,18 +27,6 @@
   "completed_permits": 2,
   "completion_ratio": "2/2 complete",
   "permits": [
-    {
-      "date": "2024-05-09",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Adding mud room on existing entrance",
-      "cost": 390.0,
-      "property_use": "Building Permit - Residential Renovation",
-      "contractor": "Gomtegas painting inc",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
-    },
     {
       "date": "2024-06-26",
       "source": "Somerville",
@@ -46,7 +37,23 @@
       "contractor": "Bright Light Electrical",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14410969",
+      "permit_number": "E24-000765"
+    },
+    {
+      "date": "2024-05-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Adding mud room on existing entrance",
+      "cost": 390.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Gomtegas painting inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14272952",
+      "permit_number": "B24-000433"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "40 GARDEN ST, CAMBRIDGE, MA 02138",
+  "lat": 42.379471,
+  "lng": -71.124727,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+GARDEN+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/40%20GARDEN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=40+GARDEN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -17,33 +19,31 @@
     "property_pid": "18362",
     "property_parcel": "215-65"
   },
-  "property_use": "Townhouse",
+  "property_use": "One-Family",
   "nearest_square": "Porter",
   "distance_mi": 0.68,
-  "max_score": 3,
-  "total_cost": 167300.0,
+  "max_score": 4,
+  "total_cost": 2000.0,
   "permit_count": 1,
-  "completed_permits": 0,
-  "completion_ratio": "0/1",
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
   "permits": [
     {
-      "date": "2023-10-06",
+      "date": "2024-12-09",
       "source": "Cambridge Alteration",
-      "status": "Active",
-      "description": "Remodel of newly purchased home.\u00a0Full bath remodel.\u00a0Kitchen remodel.\u00a0Refinish floors.\u00a0Add storage closet in basement.\u00a0Replace hardware and accesories. Paint",
-      "cost": 167300.0,
-      "property_use": "Townhouse",
-      "contractor": "Hudson Contracting Company",
+      "status": "Complete",
+      "description": "Residential weatherization/air sealing. No structural changes.\u00a031417",
+      "cost": 2000.0,
+      "property_use": "One-Family",
+      "contractor": "HomeWorks Energy",
       "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "moderate cost ($167,300); keyword: remodel",
-      "permit_id": "245587"
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "1145410"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The renovation followed a recent $3.95M sale and is explicitly described as a remodel for a newly purchased home by an owner-occupant, indicating move-in customization rather than preparation for resale."
-  },
-  "lat": 42.379471,
-  "lng": -71.124727
+    "reasoning": "Weatherization/air sealing is maintenance work with no structural changes; owner occupied status is true; minimal cost at $2,000"
+  }
 }

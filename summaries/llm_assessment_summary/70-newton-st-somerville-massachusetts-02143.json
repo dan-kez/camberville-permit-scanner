@@ -1,5 +1,7 @@
 {
   "address": "70 NEWTON ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.377145566222,
+  "lng": -71.096874927681,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=70+NEWTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/70%20NEWTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=70+NEWTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -16,28 +18,28 @@
     "lot_size": 0.030100000000000002,
     "property_parcel": "82_E_9"
   },
-  "property_use": "Building Permit - Residential Alteration",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.25,
-  "max_score": 7,
+  "max_score": 5,
   "total_cost": 3369.0,
   "permit_count": 6,
-  "completed_permits": 6,
-  "completion_ratio": "6/6 complete",
+  "completed_permits": 7,
+  "completion_ratio": "7/8 complete",
   "permits": [
     {
-      "date": "2024-04-30",
+      "date": "2024-07-27",
       "source": "Somerville",
       "status": "Closed",
-      "description": "renovation 3 bedrooms 2 1/2 bathrooms new kitchen",
-      "cost": 2150.0,
-      "property_use": "Building Permit - Residential Alteration",
-      "contractor": "tonytran construction",
+      "description": "Complete rewire of single family dwelling; upgrade main service from 100AMP to 200AMP",
+      "cost": 600.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Gregory Coleman",
       "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed",
-      "permit_id": "14315950",
-      "permit_number": "B24-000601"
+      "score": 5,
+      "score_reasons": "keyword: complete; permit completed; most permits completed",
+      "permit_id": "38071016",
+      "permit_number": "E24-001102"
     },
     {
       "date": "2024-07-02",
@@ -48,38 +50,38 @@
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "An truong plumbing",
       "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed",
-      "permit_id": "17000736",
-      "permit_number": "G24-000274"
+      "score": 5,
+      "score_reasons": "keyword: remodel; permit completed; most permits completed",
+      "permit_id": "17000712",
+      "permit_number": "P24-000326"
     },
     {
-      "date": "2024-07-27",
+      "date": "2024-04-30",
       "source": "Somerville",
       "status": "Closed",
-      "description": "Complete rewire of single family dwelling; upgrade main service from 100AMP to 200AMP",
-      "cost": 600.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Gregory Coleman",
-      "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: complete; permit completed; all permits completed",
-      "permit_id": "38071016",
-      "permit_number": "E24-001102"
-    },
-    {
-      "date": "2024-08-08",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Install a 3 ton hydro systems with new ductwork",
-      "cost": 209.0,
-      "property_use": "Sheet Metal Permit - Residential",
-      "contractor": "HUNG HVAC",
+      "description": "renovation 3 bedrooms 2 1/2 bathrooms new kitchen",
+      "cost": 2150.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "tonytran construction",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed",
-      "permit_id": "17053231",
-      "permit_number": "SM24-000147"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "14315950",
+      "permit_number": "B24-000601"
+    },
+    {
+      "date": "2025-06-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "installing a new fire place",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "ER Services Plumbing and Heating LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "52073785",
+      "permit_number": "G25-000243"
     },
     {
       "date": "2024-09-12",
@@ -90,30 +92,28 @@
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed",
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
       "permit_id": "51197218",
       "permit_number": "B24-001566"
     },
     {
-      "date": "2024-07-02",
+      "date": "2024-08-08",
       "source": "Somerville",
       "status": "Closed",
-      "description": "Install new combo boilers and gas store",
-      "cost": 60.0,
-      "property_use": "Gas Fitting - Residential - Existing",
-      "contractor": "An truong plumbing",
+      "description": "Install a 3 ton hydro systems with new ductwork",
+      "cost": 209.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "HUNG HVAC",
       "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "minor: boiler; permit completed; all permits completed",
-      "permit_id": "17000736",
-      "permit_number": "G24-000274"
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "17053231",
+      "permit_number": "SM24-000147"
     }
   ],
   "llm_assessment": {
     "likelihood": "high",
-    "reasoning": "Simultaneous full-scale renovation of the kitchen and 2.5 bathrooms, combined with a complete house rewire and new HVAC system, indicates significant whole-house work typical of preparation for sale."
-  },
-  "lat": 42.377145566222,
-  "lng": -71.096874927681
+    "reasoning": "Simultaneous full-scale Kitchen and Bathroom renovations, plus electrical upgrade, indicate comprehensive prep-for-sale work rather than routine maintenance"
+  }
 }

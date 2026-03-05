@@ -1,5 +1,7 @@
 {
   "address": "4 ESSEX ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.38953875489,
+  "lng": -71.098491964442,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+ESSEX+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/4%20ESSEX%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=4+ESSEX+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -19,11 +21,11 @@
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.74,
-  "max_score": 5,
-  "total_cost": 145.0,
-  "permit_count": 1,
+  "max_score": 2,
+  "total_cost": 1563.5,
+  "permit_count": 5,
   "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "completion_ratio": "1/8 complete",
   "permits": [
     {
       "date": "2024-07-25",
@@ -34,16 +36,70 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "William Morrissey",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed",
+      "score": 2,
+      "score_reasons": "permit completed",
       "permit_id": "17010406",
       "permit_number": "E24-000962"
+    },
+    {
+      "date": "2025-11-04",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Kitchen Remodel - no structural work",
+      "cost": 1152.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Boston Renovation and Construction LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52604745",
+      "permit_number": "B25-001746"
+    },
+    {
+      "date": "2025-12-02",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Kitchen Renovation",
+      "cost": 146.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "William Morrissey",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52761446",
+      "permit_number": "E25-001833"
+    },
+    {
+      "date": "2025-12-29",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Remodeling kitchen",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "fred lainas plumbing",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52787515",
+      "permit_number": "P25-000728"
+    },
+    {
+      "date": "2026-01-20",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Replumb upstairs bathroom to accommodate reframing",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "fred lainas plumbing",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: framing",
+      "permit_id": "52934979",
+      "permit_number": "P26-000012"
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The property has been owner-occupied for over 20 years and the only recent permit is for a minor electrical service upgrade, which is typical maintenance rather than a pre-sale renovation."
-  },
-  "lat": 42.38953875489,
-  "lng": -71.098491964442
+    "likelihood": "medium",
+    "reasoning": "Full kitchen renovation with associated electrical and plumbing work suggests targeted improvements, but lack of multiple bathroom updates, non-owner occupancy, and absence of structural changes keeps likelihood moderate"
+  }
 }

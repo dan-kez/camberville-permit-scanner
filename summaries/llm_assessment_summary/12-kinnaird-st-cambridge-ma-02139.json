@@ -1,5 +1,7 @@
 {
   "address": "12 KINNAIRD ST, CAMBRIDGE, MA 02139",
+  "lat": 42.364531,
+  "lng": -71.108803,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=12+KINNAIRD+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/12%20KINNAIRD%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=12+KINNAIRD+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -21,10 +23,10 @@
   "nearest_square": "Central",
   "distance_mi": 0.27,
   "max_score": 7,
-  "total_cost": 274550.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "total_cost": 294050.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
   "permits": [
     {
       "date": "2024-06-26",
@@ -38,12 +40,23 @@
       "score": 7,
       "score_reasons": "high cost ($274,550); keyword: demolition; minor: sign; permit completed; all permits completed",
       "permit_id": "277911"
+    },
+    {
+      "date": "2025-07-28",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Conversion of basement space to an \u00a0additional\u00a0 dwelling unit. \u00a0Convert emergency egress window to front door, including excavation below grade, along with new concrete/masonry steps and landings. \u00a0Remove closet in front room. \u00a0Build coat closet in front room and closet in back room (for bedroom). \u00a0Add kitchennette. \u00a0Adjust electrical, plumbing, HVAC as needed for these changes.",
+      "cost": 19500.0,
+      "property_use": "One-Family",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: addition; permit completed; all permits completed",
+      "permit_id": "1176244"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "A comprehensive $274,550 gut renovation including the kitchen, multiple bathrooms, and structural updates was initiated just one month after the May 2024 purchase, strongly suggesting a professional flip."
-  },
-  "lat": 42.364531,
-  "lng": -71.108803
+    "likelihood": "medium",
+    "reasoning": "Kitchen and bathroom renovations plus basement ADU conversion with significant cost, but owner occupied status indicates long-term owner rather than flipper."
+  }
 }

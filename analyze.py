@@ -210,43 +210,83 @@ def _parse_llm_response(raw):
     return {"likelihood": likelihood, "reasoning": reasoning}
 
 
-def _analyze_one(address, filepath, llm_type="opencode"):
+def _run_local_ollama(prompt):
+    """Run prompt via claude CLI pointed at local ollama server."""
+    env = os.environ.copy()
+    env["ANTHROPIC_AUTH_TOKEN"] = "ollama"
+    env["ANTHROPIC_BASE_URL"] = "http://localhost:11434"
+    return subprocess.run(
+        ["claude", "--model", "glm-4.7-flash:latest", "-p", prompt],
+        capture_output=True,
+        text=True,
+        timeout=120,
+        env=env,
+    )
+
+
+# Keys to strip from summary JSON before sending to LLM (save tokens, not needed for assessment)
+_LLM_EXCLUDED_KEYS = {
+    "google_maps_url",
+    "zillow_url",
+    "google_search_url",
+    "lat",
+    "lng",
+    "completion_ratio",
+    "completed_permits",
+}
+
+
+def _analyze_one(address, filepath, llm_type="ollama"):
     """Run LLM on a single summary file. Returns (address, parsed_assessment)."""
     try:
         with open(filepath) as f:
-            content = f.read()
+            data = json.load(f)
+        data = {k: v for k, v in data.items() if k not in _LLM_EXCLUDED_KEYS}
+        content = json.dumps(data, separators=(',', ':'))
 
         prompt = f"{LLM_PROMPT}\n\nDATA:\n{content}"
 
-        if llm_type == "sonnet":
-            result = subprocess.run(
-                ["claude", "-p", ".", prompt],
-                capture_output=True,
-                text=True,
-                timeout=120,
-            )
-        elif llm_type == "gemini":
-            result = subprocess.run(
-                ["gemini", "-m", "flash", "-p", prompt],
-                capture_output=True,
-                text=True,
-                timeout=120,
-            )
-        else:
-            result = subprocess.run(
-                ["ollama", "run", "glm-4.7-flash:latest", prompt],
-                capture_output=True,
-                text=True,
-                timeout=120,
-            )
+        primary_error = None
+        result = None
+        try:
+            if llm_type == "sonnet":
+                result = subprocess.run(
+                    ["claude", "-p", prompt],
+                    capture_output=True,
+                    text=True,
+                    timeout=120,
+                )
+            elif llm_type == "gemini":
+                result = subprocess.run(
+                    ["gemini", "-m", "flash", "-p", prompt],
+                    capture_output=True,
+                    text=True,
+                    timeout=120,
+                )
+            else:
+                result = _run_local_ollama(prompt)
+        except (FileNotFoundError, subprocess.TimeoutExpired) as e:
+            primary_error = str(e)
 
-        if result.returncode == 0:
+        if result is not None and result.returncode == 0:
             return address, _parse_llm_response(result.stdout.strip())
-        return address, {"likelihood": "error", "reasoning": result.stderr.strip()}
-    except FileNotFoundError:
-        return address, {"likelihood": "error", "reasoning": f"{llm_type} CLI not found"}
-    except subprocess.TimeoutExpired:
-        return address, {"likelihood": "error", "reasoning": "timed out"}
+
+        # Primary failed — fall back to local ollama (skip if already using it)
+        if llm_type != "ollama":
+            error_detail = primary_error or (result.stderr.strip() if result else "unknown error")
+            print(f"    ⚠ {llm_type} failed ({error_detail[:80]}), falling back to local ollama...")
+            try:
+                fallback = _run_local_ollama(prompt)
+                if fallback.returncode == 0:
+                    return address, _parse_llm_response(fallback.stdout.strip())
+                return address, {"likelihood": "error", "reasoning": fallback.stderr.strip()}
+            except (FileNotFoundError, subprocess.TimeoutExpired) as e:
+                return address, {"likelihood": "error", "reasoning": f"ollama fallback failed: {e}"}
+
+        error_msg = primary_error or (result.stderr.strip() if result else "unknown error")
+        return address, {"likelihood": "error", "reasoning": error_msg}
+    except Exception as e:
+        return address, {"likelihood": "error", "reasoning": str(e)}
 
 
 def _write_assessment(summary_path, assessment, output_dir):
@@ -261,7 +301,7 @@ def _write_assessment(summary_path, assessment, output_dir):
     return out_path
 
 
-def run_llm_analysis(summary_files, permits, llm_type="opencode", max_workers=10, output_dir="summaries/llm_assessment_summary"):
+def run_llm_analysis(summary_files, permits, llm_type="ollama", max_workers=10, output_dir="summaries/llm_assessment_summary"):
     """Run LLM analysis on each summary file with parallel execution."""
     results = []
     total = len(summary_files)

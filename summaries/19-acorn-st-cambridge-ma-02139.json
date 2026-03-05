@@ -1,5 +1,7 @@
 {
   "address": "19 ACORN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.357465,
+  "lng": -71.109375,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+ACORN+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/19%20ACORN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=19+ACORN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -23,7 +25,8 @@
       "contractor": "Nardelli Enterprises Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($450,000); keyword: renovate"
+      "score_reasons": "high cost ($450,000); keyword: renovate",
+      "permit_id": "1191276"
     }
   ]
 }

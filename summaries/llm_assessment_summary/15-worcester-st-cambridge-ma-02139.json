@@ -1,5 +1,7 @@
 {
   "address": "15 WORCESTER ST, CAMBRIDGE, MA 02139",
+  "lat": 42.366777,
+  "lng": -71.099257,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+WORCESTER+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/15%20WORCESTER%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=15+WORCESTER+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "high",
-    "reasoning": "The property is undergoing a massive $361,345 full-gut renovation including a total reframe, new layout, and attic conversion, which are definitive indicators of a whole-house modernization for sale."
-  },
-  "lat": 42.366777,
-  "lng": -71.099257
+    "reasoning": "Full gut reframe with attic conversion and $361,345 in work indicates preparation to enhance property value before sale, despite owner-occupied status"
+  }
 }

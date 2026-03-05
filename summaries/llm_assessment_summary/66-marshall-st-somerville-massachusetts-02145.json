@@ -1,5 +1,7 @@
 {
   "address": "66 MARSHALL ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.389625968593,
+  "lng": -71.094655651178,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=66+MARSHALL+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/66%20MARSHALL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=66+MARSHALL+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -22,8 +24,8 @@
   "max_score": 2,
   "total_cost": 860.0,
   "permit_count": 1,
-  "completed_permits": 0,
-  "completion_ratio": "0/1",
+  "completed_permits": 1,
+  "completion_ratio": "1/4 complete",
   "permits": [
     {
       "date": "2024-08-20",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied and the only recent permit is for a single bathroom remodel with an extremely low reported cost, which is consistent with minor maintenance rather than a comprehensive pre-sale renovation."
-  },
-  "lat": 42.389625968593,
-  "lng": -71.094655651178
+    "reasoning": "Single bathroom remodel by owner-occupant with modest cost ($860) lacks the simultaneous multiple-bathroom or kitchen updates characteristic of prep-for-sale renovations"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "35 PRENTISS ST, CAMBRIDGE, MA 02140",
+  "lat": 42.384539,
+  "lng": -71.117157,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35+PRENTISS+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/35%20PRENTISS%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=35+PRENTISS+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,16 +15,18 @@
     "last_sale_date": "2021-06-18T00:00:00.000",
     "last_sale_price": "3500000",
     "assessed_value": "3617600",
-    "lot_size": "5737"
+    "lot_size": "5737",
+    "property_pid": "12355",
+    "property_parcel": "154-31"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
   "distance_mi": 0.28,
-  "max_score": 5,
-  "total_cost": 110681.22,
-  "permit_count": 2,
+  "max_score": 8,
+  "total_cost": 69965.0,
+  "permit_count": 1,
   "completed_permits": 1,
-  "completion_ratio": "1/2 complete",
+  "completion_ratio": "1/1 complete",
   "permits": [
     {
       "date": "2025-06-09",
@@ -33,20 +37,9 @@
       "property_use": "One-Family",
       "contractor": "SL Mario Construction Corp",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "moderate cost ($69,965); keyword: total; permit completed"
-    },
-    {
-      "date": "2023-06-26",
-      "source": "Cambridge Alteration",
-      "status": "Active",
-      "description": "We are replacing 15 windows.",
-      "cost": 40716.22,
-      "property_use": "One-Family",
-      "contractor": "S.L. Mario Construction Corp.",
-      "owner_occupied": true,
-      "score": 1,
-      "score_reasons": "moderate cost ($40,716)"
+      "score": 8,
+      "score_reasons": "moderate cost ($69,965); keyword: total; permit completed; all permits completed",
+      "permit_id": "1169114"
     }
   ]
 }

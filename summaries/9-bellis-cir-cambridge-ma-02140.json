@@ -1,0 +1,32 @@
+{
+  "address": "9 BELLIS CIR, CAMBRIDGE, MA 02140",
+  "lat": 42.38984,
+  "lng": -71.133026,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/9%20BELLIS%20CIR%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.72,
+  "max_score": 2,
+  "total_cost": 16095.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-03-05",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "INSTALL 1 ENTRY DOOR AND 1 PATIO DOOR FOR REPLACEMENT NO STRUCTURAL CHANGES",
+      "cost": 16095.0,
+      "property_use": "One-Family",
+      "contractor": "THREE SONS WINDOWS",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "1154622"
+    }
+  ]
+}

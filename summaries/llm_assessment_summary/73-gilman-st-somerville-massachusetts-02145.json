@@ -1,6 +1,10 @@
 {
   "address": "73 GILMAN ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.385962993086,
+  "lng": -71.091825669208,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=73+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/73%20GILMAN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=73+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1900,
@@ -31,14 +35,15 @@
       "cost": 747.5,
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "D&S partners construction inc",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52965071",
+      "permit_number": "B26-000090"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permit covers a single, low-cost bathroom remodel ($747.50) without any structural changes or major updates, indicating a minor owner renovation rather than a high-profit flip."
-  },
-  "zillow_url": "https://www.zillow.com/homes/73%20GILMAN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
-  "google_search_url": "https://www.google.com/search?q=73+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
+    "reasoning": "Owner occupied status with single bathroom remodel indicates maintenance rather than sale preparation"
+  }
 }

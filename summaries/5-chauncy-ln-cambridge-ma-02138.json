@@ -1,5 +1,7 @@
 {
   "address": "5 CHAUNCY LN, CAMBRIDGE, MA 02138",
+  "lat": 42.379989,
+  "lng": -71.122194,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+CHAUNCY+LN%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/5%20CHAUNCY%20LN%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=5+CHAUNCY+LN%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2022-08-11T00:00:00.000",
     "last_sale_price": "2100000",
     "assessed_value": "2776200",
-    "lot_size": "2070"
+    "lot_size": "2070",
+    "property_pid": "13745",
+    "property_parcel": "173-86"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "R L Smith Construction",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($561,500); keyword: remodel"
+      "score_reasons": "high cost ($561,500); keyword: remodel",
+      "permit_id": "278129"
     }
   ]
 }

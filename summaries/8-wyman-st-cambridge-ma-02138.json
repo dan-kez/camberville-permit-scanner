@@ -1,0 +1,45 @@
+{
+  "address": "8 WYMAN ST, CAMBRIDGE, MA 02138",
+  "lat": 42.385374,
+  "lng": -71.125366,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+WYMAN+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/8%20WYMAN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+WYMAN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1974",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "8",
+    "living_area": "1796",
+    "last_sale_date": "2006-03-29T00:00:00.000",
+    "last_sale_price": "0",
+    "assessed_value": "2022700",
+    "lot_size": "4970",
+    "property_pid": "17584",
+    "property_parcel": "209-21"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.38,
+  "max_score": 7,
+  "total_cost": 24557.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-05-06",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Rebuilding an existing deck to the same dimensions.",
+      "cost": 24557.0,
+      "property_use": "One-Family",
+      "contractor": "Dexksos Inc",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: rebuild; permit completed; all permits completed",
+      "permit_id": "269442"
+    }
+  ]
+}

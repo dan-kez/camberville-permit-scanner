@@ -1,5 +1,7 @@
 {
   "address": "62 KINNAIRD ST, CAMBRIDGE, MA 02139",
+  "lat": 42.366642,
+  "lng": -71.109907,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=62+KINNAIRD+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/62%20KINNAIRD%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=62+KINNAIRD+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2006-07-18T00:00:00.000",
     "last_sale_price": "760000",
     "assessed_value": "1759900",
-    "lot_size": "2880"
+    "lot_size": "2880",
+    "property_pid": "9578",
+    "property_parcel": "124-42"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -39,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The long-term owner-occupant of nearly 20 years is performing a moderate-cost renovation of a kitchen and a single half-bathroom, which aligns with typical maintenance and improvement rather than high-end preparation for sale."
-  },
-  "lat": 42.366642,
-  "lng": -71.109907
+    "likelihood": "medium",
+    "reasoning": "Simultaneous kitchen and half-bathroom renovations indicate prep-for-sale, though owner-occupied status lowers probability"
+  }
 }

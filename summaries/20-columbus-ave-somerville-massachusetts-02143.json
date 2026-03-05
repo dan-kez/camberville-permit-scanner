@@ -1,0 +1,45 @@
+{
+  "address": "20 COLUMBUS AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.38027599751,
+  "lng": -71.09327984559,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20+COLUMBUS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/20%20COLUMBUS%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=20+COLUMBUS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1776,
+    "last_sale_date": "2015-12-22",
+    "last_sale_price": 1,
+    "assessed_value": 1040500,
+    "lot_size": 0.0658,
+    "property_parcel": "81_E_2"
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Union",
+  "distance_mi": 0.05,
+  "max_score": 4,
+  "total_cost": 180.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-08-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Residential weatherization/air sealing. No structural changes. (1188329928)",
+      "cost": 180.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "52339523",
+      "permit_number": "B25-001202"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "address": "22 CLARENDON AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.399871,
+  "lng": -71.131956,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=22+CLARENDON+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/22%20CLARENDON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=22+CLARENDON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1895",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "8",
+    "living_area": "1278",
+    "last_sale_date": "2010-06-30T00:00:00.000",
+    "last_sale_price": "466000",
+    "assessed_value": "908400",
+    "lot_size": "2380",
+    "property_pid": "15054",
+    "property_parcel": "184-24"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.53,
+  "max_score": 2,
+  "total_cost": 1300.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-05-09",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Remove chimney to roof line. Rebuild chimney to existing height, include flashings.",
+      "cost": 1300.0,
+      "property_use": "One-Family",
+      "contractor": "G.F. Sprague and Company LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: rebuild",
+      "permit_id": "269987"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Single minor chimney repair by long-term owner-occupant (16 years) indicates routine maintenance, not sale preparation."
+  }
+}

@@ -1,5 +1,7 @@
 {
   "address": "13 DECATUR ST, CAMBRIDGE, MA 02139",
+  "lat": 42.361088,
+  "lng": -71.105192,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=13+DECATUR+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/13%20DECATUR%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=13+DECATUR+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2017-07-12T00:00:00.000",
     "last_sale_price": "1700000",
     "assessed_value": "2399100",
-    "lot_size": "4600"
+    "lot_size": "4600",
+    "property_pid": "5038",
+    "property_parcel": "94-136"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "M&M Skylights",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($26,089); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($26,089); permit completed; all permits completed",
+      "permit_id": "266637"
     }
   ]
 }

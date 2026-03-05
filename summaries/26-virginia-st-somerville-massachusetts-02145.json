@@ -1,0 +1,45 @@
+{
+  "address": "26 VIRGINIA ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.386430787103,
+  "lng": -71.092373091305,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=26+VIRGINIA+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/26%20VIRGINIA%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=26+VIRGINIA+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1362,
+    "last_sale_date": "2023-12-04",
+    "last_sale_price": 100,
+    "assessed_value": 727200,
+    "lot_size": 0.0545,
+    "property_parcel": "79_C_1"
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.47,
+  "max_score": 2,
+  "total_cost": 60.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/7 complete",
+  "permits": [
+    {
+      "date": "2025-01-17",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Demo and make safe electrical",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Joshua Heavern",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed",
+      "permit_id": "51536452",
+      "permit_number": "E25-000075"
+    }
+  ]
+}

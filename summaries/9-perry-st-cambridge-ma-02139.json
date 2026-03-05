@@ -1,5 +1,7 @@
 {
   "address": "9 PERRY ST, CAMBRIDGE, MA 02139",
+  "lat": 42.362048,
+  "lng": -71.106227,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+PERRY+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/9%20PERRY%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=9+PERRY+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2022-04-29T00:00:00.000",
     "last_sale_price": "1800000",
     "assessed_value": "1808200",
-    "lot_size": "3037"
+    "lot_size": "3037",
+    "property_pid": "6214",
+    "property_parcel": "103-97"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "Cambridge Home Renovations",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($121,588)"
+      "score_reasons": "moderate cost ($121,588)",
+      "permit_id": "275036"
     }
   ]
 }

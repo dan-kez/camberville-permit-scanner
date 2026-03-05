@@ -1,0 +1,62 @@
+{
+  "address": "42 ESSEX ST, CAMBRIDGE, MA 02139",
+  "lat": 42.367158,
+  "lng": -71.101241,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=42+ESSEX+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/42%20ESSEX%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=42+ESSEX+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "3",
+    "bathrooms": "1/1",
+    "total_rooms": "7",
+    "living_area": "2007",
+    "last_sale_date": "1994-01-27T00:00:00.000",
+    "last_sale_price": "100",
+    "assessed_value": "1342600",
+    "lot_size": "2300",
+    "property_pid": "4625",
+    "property_parcel": "90-93"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.18,
+  "max_score": 5,
+  "total_cost": 14700.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2025-07-14",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "remove the portion wall between living and diner room",
+      "cost": 2100.0,
+      "property_use": "One-Family",
+      "contractor": "alfredo correia",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "1174100"
+    },
+    {
+      "date": "2025-08-25",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Insulation + air sealing",
+      "cost": 12600.0,
+      "property_use": "One-Family",
+      "contractor": "SeeAir Inc.",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: insulation; permit completed; all permits completed",
+      "permit_id": "1180937"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Routine maintenance work by owner-occupant consisting of partial wall removal and insulation/air sealing, with no high-end renovation patterns or flip indicators"
+  }
+}

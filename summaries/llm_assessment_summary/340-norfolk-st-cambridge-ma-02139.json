@@ -1,0 +1,49 @@
+{
+  "address": "340 NORFOLK ST, CAMBRIDGE, MA 02139",
+  "lat": 42.372567,
+  "lng": -71.096434,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=340+NORFOLK+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/340%20NORFOLK%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=340+NORFOLK+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "2",
+    "bathrooms": "1/0",
+    "total_rooms": "4",
+    "living_area": "1020",
+    "last_sale_date": "2023-04-21T00:00:00.000",
+    "last_sale_price": "882500",
+    "assessed_value": "866600",
+    "lot_size": "1100",
+    "property_pid": "4121",
+    "property_parcel": "85-86"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.17,
+  "max_score": 7,
+  "total_cost": 24900.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-08-09",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Partial kitchen renovation. Remove and dispose existing countertops, base and wall cabinets, gas oven. Install new gas oven, microwave, air vent, base and wall cabinets",
+      "cost": 24900.0,
+      "property_use": "One-Family",
+      "contractor": "ALCANTARA CONTRACTOR",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "284340"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Only a partial kitchen renovation, owner-occupied, not a comprehensive 'prep-for-sale' project"
+  }
+}

@@ -1,5 +1,7 @@
 {
   "address": "138 IRVING ST, CAMBRIDGE, MA 02138",
+  "lat": 42.381037,
+  "lng": -71.11103,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=138+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/138%20IRVING%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=138+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2020-12-02T00:00:00.000",
     "last_sale_price": "850000",
     "assessed_value": "4382400",
-    "lot_size": "14501"
+    "lot_size": "14501",
+    "property_pid": "11777",
+    "property_parcel": "147-39"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Wellen Construction",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($6,120,000); keyword: renovate"
+      "score_reasons": "high cost ($6,120,000); keyword: renovate",
+      "permit_id": "278053"
     },
     {
       "date": "2024-10-10",
@@ -46,7 +51,8 @@
       "contractor": "RICHARD D NICHOLS",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "moderate cost ($150,000); new construction"
+      "score_reasons": "moderate cost ($150,000); new construction",
+      "permit_id": "1139237"
     },
     {
       "date": "2025-04-02",
@@ -58,7 +64,8 @@
       "contractor": "Easton Pool Group",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($158,300)"
+      "score_reasons": "moderate cost ($158,300)",
+      "permit_id": "1158434"
     }
   ]
 }

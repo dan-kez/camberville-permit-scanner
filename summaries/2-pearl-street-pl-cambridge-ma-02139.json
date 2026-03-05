@@ -1,5 +1,7 @@
 {
   "address": "2 PEARL STREET PL, CAMBRIDGE, MA 02139",
+  "lat": 42.356817,
+  "lng": -71.110324,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+PEARL+STREET+PL%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/2%20PEARL%20STREET%20PL%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=2+PEARL+STREET+PL%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2020-07-30T00:00:00.000",
     "last_sale_price": "1390000",
     "assessed_value": "2134900",
-    "lot_size": "2500"
+    "lot_size": "2500",
+    "property_pid": "5594",
+    "property_parcel": "98-92"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "KEP Construction Inc",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($29,000); keyword: rebuild; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($29,000); keyword: rebuild; permit completed; all permits completed",
+      "permit_id": "1139728"
     }
   ]
 }

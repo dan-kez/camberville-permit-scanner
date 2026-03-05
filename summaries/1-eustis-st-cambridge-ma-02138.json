@@ -1,0 +1,45 @@
+{
+  "address": "1 EUSTIS ST, CAMBRIDGE, MA 02138",
+  "lat": 42.383645,
+  "lng": -71.11566,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1+EUSTIS+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/1%20EUSTIS%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=1+EUSTIS+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "3",
+    "bathrooms": "2/2",
+    "total_rooms": "6",
+    "living_area": "1314",
+    "last_sale_date": "2013-12-16T00:00:00.000",
+    "last_sale_price": "765000",
+    "assessed_value": "1540700",
+    "lot_size": "1708",
+    "property_pid": "12164",
+    "property_parcel": "151-88"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.37,
+  "max_score": 2,
+  "total_cost": 2576.15,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-06-11",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Blown in cellulose insulation at exterior walls, airsealing and weatherization.",
+      "cost": 2576.15,
+      "property_use": "One-Family",
+      "contractor": "Caddis Insulation",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: insulation; permit completed; all permits completed",
+      "permit_id": "275685"
+    }
+  ]
+}

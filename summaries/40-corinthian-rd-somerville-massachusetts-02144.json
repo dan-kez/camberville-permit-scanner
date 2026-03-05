@@ -1,5 +1,7 @@
 {
   "address": "40 CORINTHIAN RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.400429780781,
+  "lng": -71.123787793854,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+CORINTHIAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/40%20CORINTHIAN%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=40+CORINTHIAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,28 +15,45 @@
     "last_sale_date": "2023-08-16",
     "last_sale_price": 1150000,
     "assessed_value": 1122000,
-    "lot_size": 0.0475
+    "lot_size": 0.0475,
+    "property_parcel": "12_C_18"
   },
-  "property_use": "Building Permit - Residential Renovation",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
   "distance_mi": 0.27,
-  "max_score": 2,
-  "total_cost": 6345.0,
-  "permit_count": 2,
-  "completed_permits": 0,
-  "completion_ratio": "0/2",
+  "max_score": 4,
+  "total_cost": 6846.0,
+  "permit_count": 4,
+  "completed_permits": 3,
+  "completion_ratio": "3/6 complete",
   "permits": [
     {
-      "date": "2024-07-15",
+      "date": "2025-04-10",
       "source": "Somerville",
-      "status": "Issued",
-      "description": "Remodel existing kitchen and 2nd floor bathroom, bathroom to include new laundry. Install new bathroom in existing study on 2nd floor. Replace existing HVAC and HWH. Remove existing chimney and patch roof.",
-      "cost": 6145.0,
-      "property_use": "Building Permit - Residential Renovation",
-      "contractor": "Steve E. Valenti Builders, Inc",
+      "status": "Closed",
+      "description": "Kitchen remodel, bathroom remodel, new bathroom, new laundry, new HVAC system.B24-000820",
+      "cost": 371.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Rokocorp Inc",
       "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score": 4,
+      "score_reasons": "keyword: remodel; permit completed",
+      "permit_id": "51903331",
+      "permit_number": "E25-000513"
+    },
+    {
+      "date": "2025-03-11",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "remodeling of kitchen and 2nd fl bathroom and add new 2nd floor bathroom and on-demand wh",
+      "cost": 130.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "personalized plg & htg",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: remodel; permit completed",
+      "permit_id": "51679002",
+      "permit_number": "P25-000135"
     },
     {
       "date": "2024-10-24",
@@ -46,7 +65,23 @@
       "contractor": "Steve E. Valenti Builders, Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: demolition"
+      "score_reasons": "keyword: demolition",
+      "permit_id": "51325226",
+      "permit_number": "DP24-000172"
+    },
+    {
+      "date": "2024-07-15",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Remodel existing kitchen and 2nd floor bathroom, bathroom to include new laundry. Install new bathroom in existing study on 2nd floor. Replace existing HVAC and HWH. Remove existing chimney and patch roof.",
+      "cost": 6145.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Steve E. Valenti Builders, Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel",
+      "permit_id": "14401841",
+      "permit_number": "B24-000820"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "37 TROWBRIDGE ST, CAMBRIDGE, MA 02138",
+  "lat": 42.372105,
+  "lng": -71.11172,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37+TROWBRIDGE+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/37%20TROWBRIDGE%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=37+TROWBRIDGE+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "A long-term owner-occupant is adding a single basement bathroom, which is consistent with a minor update for personal use rather than a full-scale renovation for sale."
-  },
-  "lat": 42.372105,
-  "lng": -71.11172
+    "reasoning": "Modest basement bathroom addition by long-term owner-occupant (2016) with no full kitchen or multiple bathroom updates, indicating routine home improvement rather than sale preparation."
+  }
 }

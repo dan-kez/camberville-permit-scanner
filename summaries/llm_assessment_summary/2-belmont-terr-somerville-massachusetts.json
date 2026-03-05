@@ -1,0 +1,49 @@
+{
+  "address": "2 BELMONT TERR, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.385064327337,
+  "lng": -71.110150605026,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+BELMONT+TERR%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/2%20BELMONT%20TERR%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=2+BELMONT+TERR%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1860,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1853,
+    "last_sale_date": "2021-01-11",
+    "last_sale_price": 1,
+    "assessed_value": 1172700,
+    "lot_size": 0.0748,
+    "property_parcel": "44_A_27"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Porter",
+  "distance_mi": 0.51,
+  "max_score": 7,
+  "total_cost": 300.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-07-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "install 5 replacement windows. no structural changes.",
+      "cost": 300.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "JB Sash & Door Inc",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "52271024",
+      "permit_number": "B25-001146"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Only minimal maintenance work (5 replacement windows for $300) by owner-occupant; no significant renovations or kitchen/bathroom updates indicative of sale preparation."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "address": "203 FRANKLIN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.363515,
+  "lng": -71.103345,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=203+FRANKLIN+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/203%20FRANKLIN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=203+FRANKLIN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "2",
+    "bathrooms": "2/0",
+    "total_rooms": "6",
+    "living_area": "1167",
+    "last_sale_date": "2008-08-18T00:00:00.000",
+    "last_sale_price": "550000",
+    "assessed_value": "1173300",
+    "lot_size": "1891",
+    "property_pid": "4912",
+    "property_parcel": "93-108"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.12,
+  "max_score": 2,
+  "total_cost": 2800.8,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-09-30",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "WALL AND OVERHANG INSULATION WITH CELLULOSE",
+      "cost": 2800.8,
+      "property_use": "One-Family",
+      "contractor": "R-VALUE GENERAL CONTRACTING LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: insulation; permit completed; all permits completed",
+      "permit_id": "785314"
+    }
+  ]
+}

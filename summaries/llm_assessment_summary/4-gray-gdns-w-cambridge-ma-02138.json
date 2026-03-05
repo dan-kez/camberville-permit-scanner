@@ -1,5 +1,7 @@
 {
   "address": "4 GRAY GDNS W, CAMBRIDGE, MA 02138",
+  "lat": 42.383071,
+  "lng": -71.128596,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+GRAY+GDNS+W%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/4%20GRAY%20GDNS%20W%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=4+GRAY+GDNS+W%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -29,8 +31,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permit is for a single, moderate-cost solarium renovation at an owner-occupied property, lacking the high-end kitchen or bathroom updates typical of a pre-sale flip."
-  },
-  "lat": 42.383071,
-  "lng": -71.128596
+    "reasoning": "Single targeted solarium renovation by owner-occupant ($37k) indicates personal improvement rather than flip preparation"
+  }
 }

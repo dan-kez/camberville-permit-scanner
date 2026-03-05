@@ -1,5 +1,7 @@
 {
   "address": "42 SARGENT AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.390218820605,
+  "lng": -71.092689005236,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=42+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/42%20SARGENT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=42+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2022-11-09",
     "last_sale_price": 1205000,
     "assessed_value": 1328800,
-    "lot_size": 0.081
+    "lot_size": 0.081,
+    "property_parcel": "71_B_26"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -32,8 +35,11 @@
       "cost": 54.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Kevin Escott Elect.",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52621032",
+      "permit_number": "E25-001507"
     }
   ]
 }

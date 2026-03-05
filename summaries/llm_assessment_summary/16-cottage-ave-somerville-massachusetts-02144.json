@@ -1,5 +1,7 @@
 {
   "address": "16 COTTAGE AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.39391130041,
+  "lng": -71.122387932205,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/16%20COTTAGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=16+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -16,15 +18,29 @@
     "lot_size": 0.0514,
     "property_parcel": "26_I_6"
   },
-  "property_use": "Building Permit - Residential Renovation",
+  "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",
   "distance_mi": 0.19,
-  "max_score": 2,
-  "total_cost": 822.5,
-  "permit_count": 1,
-  "completed_permits": 0,
-  "completion_ratio": "0/1",
+  "max_score": 4,
+  "total_cost": 967.5,
+  "permit_count": 3,
+  "completed_permits": 2,
+  "completion_ratio": "2/6 complete",
   "permits": [
+    {
+      "date": "2024-12-03",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Renovate existing half bath on first floor and full bath on second floor, move laundry room",
+      "cost": 100.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "MJI Plumbing",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: renovate; permit completed",
+      "permit_id": "51375554",
+      "permit_number": "P24-000739"
+    },
     {
       "date": "2024-11-18",
       "source": "Somerville",
@@ -38,12 +54,24 @@
       "score_reasons": "keyword: renovation",
       "permit_id": "51302730",
       "permit_number": "B24-001909"
+    },
+    {
+      "date": "2024-12-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "ReWiring 2 bathrooms",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Darwin lazo",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed",
+      "permit_id": "51392650",
+      "permit_number": "E24-001937"
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "A simultaneous renovation of two bathrooms and chimney removal suggests significant preparation, though the owner-occupant status and mid-term ownership (9 years) prevent a high likelihood rating."
-  },
-  "lat": 42.39391130041,
-  "lng": -71.122387932205
+    "likelihood": "low",
+    "reasoning": "Multiple bathroom renovations and recent permit activity suggest maintenance, but owner_occupied status is true and no kitchen work indicates routine updates rather than high-end prep-for-sale renovations"
+  }
 }

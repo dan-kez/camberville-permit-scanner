@@ -1,5 +1,7 @@
 {
   "address": "38 GARDEN ST, CAMBRIDGE, MA 02138",
+  "lat": 42.379358,
+  "lng": -71.124652,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38+GARDEN+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/38%20GARDEN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=38+GARDEN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied and the recent permit for basement gutting at a relatively low cost ($25,500) lacks the high-end kitchen and multi-bathroom updates characteristic of sale preparation."
-  },
-  "lat": 42.379358,
-  "lng": -71.124652
+    "reasoning": "Owner-occupied basement gutting with moderate cost and no kitchen/bathroom updates does not indicate sale preparation"
+  }
 }

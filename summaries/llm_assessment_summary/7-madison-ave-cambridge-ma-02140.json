@@ -1,5 +1,7 @@
 {
   "address": "7 MADISON AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.400162,
+  "lng": -71.136002,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/7%20MADISON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=7+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "A major gut renovation of most of the living space by a long-term owner-occupant (10+ years) suggests a significant upgrade that often precedes a sale, though the listed cost appears low for the described scope."
-  },
-  "lat": 42.400162,
-  "lng": -71.136002
+    "likelihood": "high",
+    "reasoning": "Full gut of multiple floors with significant interior expansion signals major reconfiguration, though owner-occupancy status complicates the flip assessment"
+  }
 }

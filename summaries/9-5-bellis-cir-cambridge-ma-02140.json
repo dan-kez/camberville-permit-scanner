@@ -1,5 +1,7 @@
 {
   "address": "9-5 BELLIS CIR, CAMBRIDGE, MA 02140",
+  "lat": 42.389868,
+  "lng": -71.132911,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9-5+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/9-5%20BELLIS%20CIR%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=9-5+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2024-05-21T00:00:00.000",
     "last_sale_price": "1000000",
     "assessed_value": "873900",
-    "lot_size": "1275"
+    "lot_size": "1275",
+    "property_pid": "21812",
+    "property_parcel": "271-73"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +38,8 @@
       "contractor": "Ted-Co Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "moderate cost ($158,659); keyword: renovate; minor: boiler; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($158,659); keyword: renovate; minor: boiler; permit completed; all permits completed",
+      "permit_id": "287567"
     }
   ]
 }

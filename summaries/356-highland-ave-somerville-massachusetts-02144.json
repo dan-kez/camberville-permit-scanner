@@ -1,5 +1,7 @@
 {
   "address": "356 HIGHLAND AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.394237356444,
+  "lng": -71.117483261562,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=356+HIGHLAND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/356%20HIGHLAND%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=356+HIGHLAND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2001-08-27",
     "last_sale_price": 325000,
     "assessed_value": 1077300,
-    "lot_size": 0.055200000000000006
+    "lot_size": 0.055200000000000006,
+    "property_parcel": "25_C_9"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
@@ -34,7 +37,9 @@
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "14436339",
+      "permit_number": "B24-000963"
     }
   ]
 }

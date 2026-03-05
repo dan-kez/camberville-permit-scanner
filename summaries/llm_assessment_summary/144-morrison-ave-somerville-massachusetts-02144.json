@@ -1,5 +1,7 @@
 {
   "address": "144 MORRISON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396178060396,
+  "lng": -71.117347977644,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=144+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/144%20MORRISON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=144+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -16,7 +18,7 @@
     "lot_size": 0.0454,
     "property_parcel": "24_L_3"
   },
-  "property_use": "Building Permit - Residential Renovation",
+  "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",
   "distance_mi": 0.27,
   "max_score": 7,
@@ -25,20 +27,6 @@
   "completed_permits": 3,
   "completion_ratio": "3/3 complete",
   "permits": [
-    {
-      "date": "2024-09-13",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Bathroom Renovation",
-      "cost": 1155.0,
-      "property_use": "Building Permit - Residential Renovation",
-      "contractor": "Cambridge Home Renovations LLC",
-      "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed",
-      "permit_id": "51119842",
-      "permit_number": "B24-001437"
-    },
     {
       "date": "2024-09-18",
       "source": "Somerville",
@@ -52,6 +40,20 @@
       "score_reasons": "keyword: remodel; permit completed; all permits completed",
       "permit_id": "51228475",
       "permit_number": "P24-000545"
+    },
+    {
+      "date": "2024-09-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Bathroom Renovation",
+      "cost": 1155.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Cambridge Home Renovations LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "51119842",
+      "permit_number": "B24-001437"
     },
     {
       "date": "2024-09-27",
@@ -70,8 +72,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The work is limited to a single bathroom renovation by a long-term (15+ year) owner-occupant, which typically indicates personal maintenance rather than a preparation for sale."
-  },
-  "lat": 42.396178060396,
-  "lng": -71.117347977644
+    "reasoning": "Only bathroom renovations totaling $1,300 with all permits indicating owner-occupied status; no kitchen work or whole-house gutting documented"
+  }
 }

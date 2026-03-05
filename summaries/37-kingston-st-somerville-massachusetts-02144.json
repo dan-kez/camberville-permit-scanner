@@ -1,5 +1,7 @@
 {
   "address": "37 KINGSTON ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.397287992014,
+  "lng": -71.126888092201,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37+KINGSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/37%20KINGSTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=37+KINGSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,38 +15,59 @@
     "last_sale_date": "2022-01-24",
     "last_sale_price": 1,
     "assessed_value": 1124900,
-    "lot_size": 0.069
+    "lot_size": 0.069,
+    "property_parcel": "17_J_9"
   },
-  "property_use": "Building Permit - Residential Addition",
+  "property_use": "Demolition Permit - Residential Accessory Structures ( i.e., garages, sheds ) under 1500 sq ft",
   "nearest_square": "Davis",
   "distance_mi": 0.23,
-  "max_score": 2,
-  "total_cost": 26091.0,
-  "permit_count": 6,
-  "completed_permits": 0,
-  "completion_ratio": "0/6",
+  "max_score": 4,
+  "total_cost": 27046.0,
+  "permit_count": 11,
+  "completed_permits": 4,
+  "completion_ratio": "4/14 complete",
   "permits": [
     {
-      "date": "2025-09-09",
+      "date": "2025-03-31",
       "source": "Somerville",
-      "status": "Issued",
-      "description": "Residential addition to the main building\r\nConverting single family to 3-family",
-      "cost": 15055.0,
-      "property_use": "Building Permit - Residential Addition",
+      "status": "Closed",
+      "description": "Demolition of the existing concrete block garage\r\nDEMO ON OR AFTER APRIL 21, 2024",
+      "cost": 150.0,
+      "property_use": "Demolition Permit - Residential Accessory Structures ( i.e., garages, sheds ) under 1500 sq ft",
       "contractor": "North America Development LLC",
-      "score": 2,
-      "score_reasons": "keyword: addition"
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: demolition; permit completed",
+      "permit_id": "51321335",
+      "permit_number": "D24-000070"
     },
     {
-      "date": "2025-09-16",
+      "date": "2025-04-17",
       "source": "Somerville",
-      "status": "Issued",
-      "description": "New construction of cottage, see B24-002311 for Foundation",
-      "cost": 8650.0,
-      "property_use": "Building Permit - Residential New Construction",
-      "contractor": "North America Development LLC",
-      "score": 2,
-      "score_reasons": "keyword: new construction"
+      "status": "Closed",
+      "description": "Ground Foundation for Cottage house",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Luciano Miranda Electrician",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: foundation; permit completed",
+      "permit_id": "51920317",
+      "permit_number": "E25-000552"
+    },
+    {
+      "date": "2025-04-29",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Ground Foundation",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Luciano Miranda Electrician",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: foundation; permit completed",
+      "permit_id": "51920295",
+      "permit_number": "E25-000551"
     },
     {
       "date": "2025-09-30",
@@ -54,8 +77,67 @@
       "cost": 1636.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Luciano Miranda Electrician",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: addition"
+      "score_reasons": "keyword: addition",
+      "permit_id": "51642624",
+      "permit_number": "E25-000256"
+    },
+    {
+      "date": "2024-12-19",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Demo make safe",
+      "cost": 105.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Luciano Miranda Electrician",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed",
+      "permit_id": "51473174",
+      "permit_number": "E24-002045"
+    },
+    {
+      "date": "2025-09-09",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Residential addition to the main building\r\nConverting single family to 3-family",
+      "cost": 15055.0,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "North America Development LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: addition",
+      "permit_id": "51473473",
+      "permit_number": "B24-002266"
+    },
+    {
+      "date": "2025-05-01",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Foundation permit only: New cottage at the rear of the main building/lot.",
+      "cost": 580.0,
+      "property_use": "Building Permit - Residential New Construction",
+      "contractor": "North America Development LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: foundation",
+      "permit_id": "51492366",
+      "permit_number": "B24-002311"
+    },
+    {
+      "date": "2025-09-16",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "New construction of cottage, see B24-002311 for Foundation",
+      "cost": 8650.0,
+      "property_use": "Building Permit - Residential New Construction",
+      "contractor": "North America Development LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: new construction",
+      "permit_id": "52505192",
+      "permit_number": "B25-001494"
     },
     {
       "date": "2025-10-03",
@@ -65,8 +147,11 @@
       "cost": 150.0,
       "property_use": "Gas Fitting - Residential - Existing",
       "contractor": "sid's services inc",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52597740",
+      "permit_number": "G25-000379"
     },
     {
       "date": "2025-10-03",
@@ -76,8 +161,11 @@
       "cost": 540.0,
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "sid's services inc",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52597700",
+      "permit_number": "P25-000574"
     },
     {
       "date": "2025-11-13",
@@ -87,8 +175,11 @@
       "cost": 60.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Juan Camilo Gallego Bohorquez",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: foundation"
+      "score_reasons": "keyword: foundation",
+      "permit_id": "52676813",
+      "permit_number": "E25-001675"
     }
   ]
 }

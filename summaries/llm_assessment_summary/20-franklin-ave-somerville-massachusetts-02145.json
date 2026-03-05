@@ -1,0 +1,77 @@
+{
+  "address": "20 FRANKLIN AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.382327761679,
+  "lng": -71.085103885776,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20+FRANKLIN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/20%20FRANKLIN%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=20+FRANKLIN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1276,
+    "last_sale_date": "2008-10-16",
+    "last_sale_price": 260000,
+    "assessed_value": 781000,
+    "lot_size": 0.057600000000000005,
+    "property_parcel": "104_E_18"
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.45,
+  "max_score": 5,
+  "total_cost": 7052.5,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/4 complete",
+  "permits": [
+    {
+      "date": "2025-07-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Complete Rewiring",
+      "cost": 540.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "R Electrical",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: complete; permit completed; most permits completed",
+      "permit_id": "51669635",
+      "permit_number": "E25-000303"
+    },
+    {
+      "date": "2025-03-11",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "THE EXISTING PROPERTY AT 20 FRANKLIN AVE. IS A TWO\u0002STORY WOOD FRAMED STRUCTURE. THE EXISTING  RESIDENCE IS APPROXIMATELY 22' 6\" TALL AND THE  CURRENT USE FOR THE PROPERTY IS SINGLE-FAMILY  RESIDENTIAL. THE RENOVATION INCLUDES THE  EXTENSION OF SECOND FLOOR BEDROOMS AND  GENERAL INTERIOR RENOVATIONS",
+      "cost": 6392.5,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "Flow Design Inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "51556723",
+      "permit_number": "B25-000127"
+    },
+    {
+      "date": "2025-06-30",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Demolition and make safe existing wiring/rewiring old and new addition",
+      "cost": 120.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Ronald ellis",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: addition; permit completed; most permits completed",
+      "permit_id": "51538810",
+      "permit_number": "E25-000081"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "No kitchen or bathroom permits, all electrical and addition work completed by owner-occupant"
+  }
+}

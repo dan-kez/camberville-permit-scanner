@@ -1,5 +1,7 @@
 {
   "address": "147 CONCORD AVE, CAMBRIDGE, MA 02138",
+  "lat": 42.381879,
+  "lng": -71.129853,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=147+CONCORD+AVE%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/147%20CONCORD%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=147+CONCORD+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property underwent simultaneous kitchen and multi-bathroom remodeling immediately after its 2024 purchase, meeting the primary criteria for high-end preparation for sale."
-  },
-  "lat": 42.381879,
-  "lng": -71.129853
+    "likelihood": "medium",
+    "reasoning": "Kitchen and two-bathroom remodel suggests preparation for sale, but owner_occupied=true indicates this is likely an owner investment rather than flip"
+  }
 }

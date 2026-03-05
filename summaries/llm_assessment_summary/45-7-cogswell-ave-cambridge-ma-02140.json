@@ -1,5 +1,7 @@
 {
   "address": "45-7 COGSWELL AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.390162,
+  "lng": -71.126382,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=45-7+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/45-7%20COGSWELL%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=45-7+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property is undergoing a massive $862,000 whole-house renovation and three-level extension that includes simultaneous updates to the kitchen and multiple bathrooms."
-  },
-  "lat": 42.390162,
-  "lng": -71.126382
+    "likelihood": "medium",
+    "reasoning": "Simultaneous high-end kitchen and multiple bathroom renovations with $862,000 investment indicate significant property improvements, but owner occupied status suggests personal home improvement rather than investment project."
+  }
 }

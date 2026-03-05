@@ -1,5 +1,7 @@
 {
   "address": "107 WASHINGTON AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.386791,
+  "lng": -71.124169,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=107+WASHINGTON+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/107%20WASHINGTON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=107+WASHINGTON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,16 +15,18 @@
     "last_sale_date": "2024-01-25T00:00:00.000",
     "last_sale_price": "5200000",
     "assessed_value": "5082000",
-    "lot_size": "6625"
+    "lot_size": "6625",
+    "property_pid": "17707",
+    "property_parcel": "210-42"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
   "distance_mi": 0.28,
-  "max_score": 5,
+  "max_score": 8,
   "total_cost": 69980.0,
   "permit_count": 1,
   "completed_permits": 1,
-  "completion_ratio": "1/2 complete",
+  "completion_ratio": "1/1 complete",
   "permits": [
     {
       "date": "2025-03-25",
@@ -33,8 +37,9 @@
       "property_use": "One-Family",
       "contractor": "CDI",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "moderate cost ($69,980); keyword: renovate; permit completed"
+      "score": 8,
+      "score_reasons": "moderate cost ($69,980); keyword: renovate; permit completed; all permits completed",
+      "permit_id": "1157173"
     }
   ]
 }

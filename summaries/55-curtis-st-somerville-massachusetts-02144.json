@@ -1,0 +1,59 @@
+{
+  "address": "55 CURTIS ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.404996870274,
+  "lng": -71.125908834453,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=55+CURTIS+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/55%20CURTIS%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=55+CURTIS+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1800,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2181,
+    "last_sale_date": "2018-02-05",
+    "last_sale_price": 1,
+    "assessed_value": 1475500,
+    "lot_size": 0.0801,
+    "property_parcel": "11_A_29"
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.6,
+  "max_score": 2,
+  "total_cost": 165.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2025-02-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replacement of a furnace and heat pump",
+      "cost": 105.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Cranney Home Services",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "51556538",
+      "permit_number": "E25-000142"
+    },
+    {
+      "date": "2025-01-30",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replacement of a furnace",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "Cranney Home Services",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "51556548",
+      "permit_number": "G25-000041"
+    }
+  ]
+}

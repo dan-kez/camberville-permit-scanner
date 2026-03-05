@@ -1,0 +1,45 @@
+{
+  "address": "12 CEDAR AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.390872650962,
+  "lng": -71.112719658349,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=12+CEDAR+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/12%20CEDAR%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=12+CEDAR+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1905,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 5,
+    "living_area": 1011,
+    "last_sale_date": "2022-05-02",
+    "last_sale_price": 1,
+    "assessed_value": 900000,
+    "lot_size": 0.055900000000000005,
+    "property_parcel": "35_A_45"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Porter",
+  "distance_mi": 0.37,
+  "max_score": 7,
+  "total_cost": 508.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-02-12",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "REMOVE & REPLACE51 WINDOWS; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 508.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Renewal by Andersen",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "51546785",
+      "permit_number": "B25-000104"
+    }
+  ]
+}

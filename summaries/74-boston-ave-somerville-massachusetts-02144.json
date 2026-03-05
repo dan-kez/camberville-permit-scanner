@@ -1,5 +1,7 @@
 {
   "address": "74 BOSTON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396900328992,
+  "lng": -71.110049603093,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=74+BOSTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/74%20BOSTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=74+BOSTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,28 +15,59 @@
     "last_sale_date": "1992-06-25",
     "last_sale_price": 120100,
     "assessed_value": 1147000,
-    "lot_size": 0.0707
+    "lot_size": 0.0707,
+    "property_parcel": "27_F_6"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
   "distance_mi": 0.64,
-  "max_score": 7,
-  "total_cost": 200.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "max_score": 5,
+  "total_cost": 600.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
   "permits": [
     {
-      "date": "2023-06-13",
+      "date": "2025-01-17",
       "source": "Somerville",
       "status": "Closed",
-      "description": "Install 7 Harvey Classic, Energy Star, Inserts only with no Structural Work",
-      "cost": 200.0,
+      "description": "Replace two columns in the front porch that is rotten. ( we will only replace the two columns, nothing else in the porch)",
+      "cost": 300.0,
       "property_use": "Building Permit - Residential Repair",
-      "contractor": "Fisher Windows",
+      "contractor": "LC Carpentry Masonry",
       "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51454964",
+      "permit_number": "B24-002204"
+    },
+    {
+      "date": "2025-10-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Service upgrade",
+      "cost": 150.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Nick Valente",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52639344",
+      "permit_number": "E25-001556"
+    },
+    {
+      "date": "2025-03-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Residential weatherization/air sealing. No structural changes. 33394",
+      "cost": 150.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "51642521",
+      "permit_number": "B25-000230"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "307 HARVARD ST, CAMBRIDGE, MA 02139",
+  "lat": 42.370059,
+  "lng": -71.1064,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=307+HARVARD+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/307%20HARVARD%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=307+HARVARD+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2018-07-27T00:00:00.000",
     "last_sale_price": "3700000",
     "assessed_value": "5039100",
-    "lot_size": "12270"
+    "lot_size": "12270",
+    "property_pid": "7801",
+    "property_parcel": "115-16"
   },
   "property_use": "Two-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "RB Farina Roofing & Construction Inc.",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($66,481); keyword: gut; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($66,481); keyword: gut; permit completed; all permits completed",
+      "permit_id": "281407"
     },
     {
       "date": "2024-09-27",
@@ -46,7 +51,8 @@
       "contractor": "RB Farina Roofing",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($39,000); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($39,000); permit completed; all permits completed",
+      "permit_id": "769572"
     }
   ]
 }

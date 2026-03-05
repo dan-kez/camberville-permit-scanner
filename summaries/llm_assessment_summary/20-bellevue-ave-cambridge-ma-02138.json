@@ -1,0 +1,49 @@
+{
+  "address": "20 BELLEVUE AVE, CAMBRIDGE, MA 02138",
+  "lat": 42.386014,
+  "lng": -71.125824,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20+BELLEVUE+AVE%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/20%20BELLEVUE%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=20+BELLEVUE+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "9",
+    "living_area": "2656",
+    "last_sale_date": "2021-03-29T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "2465500",
+    "lot_size": "4797",
+    "property_pid": "17582",
+    "property_parcel": "209-15"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.38,
+  "max_score": 5,
+  "total_cost": 16000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-10-06",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "replace existing front entrace landing and stairs (apx 32\"x80\")save exisitng roof and columns",
+      "cost": 16000.0,
+      "property_use": "One-Family",
+      "contractor": "Fabiano Carrijo",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "1186237"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Single $16,000 entrance repair project by long-term owner-occupant, not major kitchen/bathroom updates or gut renovation typical of sale prep."
+  }
+}

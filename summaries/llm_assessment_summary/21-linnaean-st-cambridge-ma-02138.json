@@ -1,5 +1,7 @@
 {
   "address": "21 LINNAEAN ST, CAMBRIDGE, MA 02138",
+  "lat": 42.384475,
+  "lng": -71.121813,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+LINNAEAN+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/21%20LINNAEAN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=21+LINNAEAN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -29,8 +31,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permit involves exterior maintenance, painting, and drainage repairs for an owner-occupied property, which align with routine upkeep rather than high-end interior renovations."
-  },
-  "lat": 42.384475,
-  "lng": -71.121813
+    "reasoning": "Exterior maintenance and drainage repairs are typical for owner-occupied homes, not indicative of prep-for-sale renovations"
+  }
 }

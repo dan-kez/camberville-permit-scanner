@@ -1,5 +1,7 @@
 {
   "address": "16 SARGENT ST, CAMBRIDGE, MA 02140",
+  "lat": 42.392631,
+  "lng": -71.131825,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+SARGENT+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/16%20SARGENT%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=16+SARGENT+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The property is owner-occupied by a long-term resident (22+ years) who is performing a targeted expansion and basement finish rather than the full-scale kitchen and multiple-bathroom renovations typical of sale preparation."
-  },
-  "lat": 42.392631,
-  "lng": -71.131825
+    "likelihood": "medium",
+    "reasoning": "Substantial $291K renovation adds 2+ rooms including bedroom and bath, though owner-occupied status and lack of kitchen updates reduce flip likelihood."
+  }
 }

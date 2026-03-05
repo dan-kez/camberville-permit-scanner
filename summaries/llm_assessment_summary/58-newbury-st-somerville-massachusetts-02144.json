@@ -1,5 +1,7 @@
 {
   "address": "58 NEWBURY ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.401103099064,
+  "lng": -71.129149864954,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=58+NEWBURY+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/58%20NEWBURY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=58+NEWBURY+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -16,43 +18,15 @@
     "lot_size": 0.09680000000000001,
     "property_parcel": "13_A_67"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",
   "distance_mi": 0.46,
-  "max_score": 7,
-  "total_cost": 8538.0,
-  "permit_count": 5,
-  "completed_permits": 5,
-  "completion_ratio": "5/5 complete",
+  "max_score": 5,
+  "total_cost": 515.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
   "permits": [
-    {
-      "date": "2024-02-08",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Basement Remodel",
-      "cost": 143.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Attilio Dimascio Jr",
-      "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed",
-      "permit_id": "14167143",
-      "permit_number": "E24-000177"
-    },
-    {
-      "date": "2024-02-26",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Basement Remodel: Adding family room, exercise area, kitchenette and renovate bathroom, lower basement floor 18\", new staircase",
-      "cost": 7880.0,
-      "property_use": "Building Permit - Residential Renovation",
-      "contractor": "Attilio Dimascio Jr",
-      "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: renovate; permit completed; all permits completed",
-      "permit_id": "14156870",
-      "permit_number": "B24-000157"
-    },
     {
       "date": "2024-05-14",
       "source": "Somerville",
@@ -97,9 +71,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "The owner-occupied property underwent a significant structural basement renovation including lowering the floor and adding a kitchenette and bathroom, which are substantial value-add improvements despite being limited to a single level."
-  },
-  "lat": 42.401103099064,
-  "lng": -71.129149864954
+    "likelihood": "low",
+    "reasoning": "Permit work is limited to furnace/zone upgrades and basement plumbing (half bath and bar sink), with multiple permits explicitly listing owner_occupied as true, indicating routine home maintenance rather than sale preparation"
+  }
 }

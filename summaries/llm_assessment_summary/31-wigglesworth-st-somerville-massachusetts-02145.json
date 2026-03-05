@@ -1,5 +1,7 @@
 {
   "address": "31 WIGGLESWORTH ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.388272081683,
+  "lng": -71.091101137498,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=31+WIGGLESWORTH+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/31%20WIGGLESWORTH%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=31+WIGGLESWORTH+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -16,29 +18,15 @@
     "lot_size": 0.0574,
     "property_parcel": "78_F_1"
   },
-  "property_use": "Building Permit - Residential Other",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.61,
   "max_score": 4,
-  "total_cost": 1008.5,
-  "permit_count": 3,
-  "completed_permits": 3,
-  "completion_ratio": "3/3 complete",
+  "total_cost": 958.5,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
   "permits": [
-    {
-      "date": "2023-12-21",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Residential weatherization/ air sealing. No structural changes. SITE ID 5013926",
-      "cost": 50.0,
-      "property_use": "Building Permit - Residential Other",
-      "contractor": "HomeWorks Energy",
-      "owner_occupied": true,
-      "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
-      "permit_id": "13956449",
-      "permit_number": "B23-001956"
-    },
     {
       "date": "2024-09-19",
       "source": "Somerville",
@@ -50,8 +38,8 @@
       "owner_occupied": true,
       "score": 4,
       "score_reasons": "keyword: structural; minor: panel; permit completed; all permits completed",
-      "permit_id": "51222849",
-      "permit_number": "B24-001634"
+      "permit_id": "51222866",
+      "permit_number": "E24-001479"
     },
     {
       "date": "2024-09-19",
@@ -70,8 +58,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "Permits indicate only minor weatherization and a long-term solar panel investment by an owner-occupant who has held the property for eight years."
-  },
-  "lat": 42.388272081683,
-  "lng": -71.091101137498
+    "reasoning": "Owner occupied true indicates homeowner improvements, solar panel installation is a reasonable energy efficiency upgrade for a long-term owner"
+  }
 }

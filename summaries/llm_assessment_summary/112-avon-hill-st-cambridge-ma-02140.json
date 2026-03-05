@@ -1,5 +1,7 @@
 {
   "address": "112 AVON HILL ST, CAMBRIDGE, MA 02140",
+  "lat": 42.386437,
+  "lng": -71.125203,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=112+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/112%20AVON%20HILL%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=112+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The renovation is a kitchen and single bathroom refresh by a long-term owner-occupant (20+ years), which typically indicates personal maintenance rather than preparation for sale."
-  },
-  "lat": 42.386437,
-  "lng": -71.125203
+    "likelihood": "medium",
+    "reasoning": "Owner-occupied long-term (since 2005) with owner_occupied flag true, but high-end finish work ($205k) on two key rooms suggests preparation for sale or substantial owner improvement."
+  }
 }

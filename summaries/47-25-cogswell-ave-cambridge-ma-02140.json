@@ -1,0 +1,45 @@
+{
+  "address": "47-25 COGSWELL AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.389877,
+  "lng": -71.126658,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=47-25+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/47-25%20COGSWELL%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=47-25+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1982",
+    "bedrooms": "1",
+    "bathrooms": "1/0",
+    "total_rooms": "4",
+    "living_area": "753",
+    "last_sale_date": "2022-07-29T00:00:00.000",
+    "last_sale_price": "880000",
+    "assessed_value": "820100",
+    "lot_size": "1111",
+    "property_pid": "16873",
+    "property_parcel": "199-145"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.4,
+  "max_score": 5,
+  "total_cost": 13215.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-08-17",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Re-open the roof where 2 skylight were previously and install 2 new skylights. Remove all debris.",
+      "cost": 13215.0,
+      "property_use": "One-Family",
+      "contractor": "Ranch Roofing Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "1179488"
+    }
+  ]
+}

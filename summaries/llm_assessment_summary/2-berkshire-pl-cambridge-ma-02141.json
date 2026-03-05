@@ -1,5 +1,7 @@
 {
   "address": "2 BERKSHIRE PL, CAMBRIDGE, MA 02141",
+  "lat": 42.368187,
+  "lng": -71.09098,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+BERKSHIRE+PL%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/2%20BERKSHIRE%20PL%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=2+BERKSHIRE+PL%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "high",
-    "reasoning": "The property is undergoing significant whole-house renovations, including structural roof changes and comprehensive interior and exterior updates, after eight years of ownership."
-  },
-  "lat": 42.368187,
-  "lng": -71.09098
+    "reasoning": "Extensive full-scale renovation ($182,200) including roof, siding, windows, HVAC, and interior work completed in 2024, following significant property value appreciation to $1,917,700 since last sale in 2016, indicating seller investment for potential sale at higher price point."
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "15 EUSTIS ST, CAMBRIDGE, MA 02138",
+  "lat": 42.383644,
+  "lng": -71.115371,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+EUSTIS+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/15%20EUSTIS%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=15+EUSTIS+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -23,7 +25,8 @@
       "contractor": "Bridey Design + Build",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($75,480); keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($75,480); keyword: renovation; permit completed; all permits completed",
+      "permit_id": "286247"
     }
   ]
 }

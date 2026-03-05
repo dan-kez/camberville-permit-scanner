@@ -1,5 +1,7 @@
 {
   "address": "116 UPLAND RD, CAMBRIDGE, MA 02140",
+  "lat": 42.387208,
+  "lng": -71.123757,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=116+UPLAND+RD%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/116%20UPLAND%20RD%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=116+UPLAND+RD%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,16 +15,18 @@
     "last_sale_date": "2023-11-13T00:00:00.000",
     "last_sale_price": "2100000",
     "assessed_value": "2349500",
-    "lot_size": "3372"
+    "lot_size": "3372",
+    "property_pid": "17702",
+    "property_parcel": "210-37"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
   "distance_mi": 0.25,
   "max_score": 3,
-  "total_cost": 35514.5,
-  "permit_count": 1,
+  "total_cost": 43014.5,
+  "permit_count": 2,
   "completed_permits": 0,
-  "completion_ratio": "0/1",
+  "completion_ratio": "0/2",
   "permits": [
     {
       "date": "2024-07-12",
@@ -34,7 +38,21 @@
       "contractor": "G.F. Sprague and Company LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($35,514); keyword: structural"
+      "score_reasons": "moderate cost ($35,514); keyword: structural",
+      "permit_id": "280189"
+    },
+    {
+      "date": "2024-12-03",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Bathroom remodel, same layout as before, change fixtures, tile, etc",
+      "cost": 7500.0,
+      "property_use": "One-Family",
+      "contractor": "McLaughlin building",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel",
+      "permit_id": "1144880"
     }
   ]
 }

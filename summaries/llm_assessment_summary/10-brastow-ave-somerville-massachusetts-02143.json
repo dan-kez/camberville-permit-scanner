@@ -1,5 +1,7 @@
 {
   "address": "10 BRASTOW AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.388517713355,
+  "lng": -71.109839636418,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+BRASTOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/10%20BRASTOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=10+BRASTOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -20,10 +22,10 @@
   "nearest_square": "Porter",
   "distance_mi": 0.47,
   "max_score": 7,
-  "total_cost": 13007.5,
-  "permit_count": 2,
-  "completed_permits": 2,
-  "completion_ratio": "2/2 complete",
+  "total_cost": 14105.5,
+  "permit_count": 5,
+  "completed_permits": 5,
+  "completion_ratio": "5/5 complete",
   "permits": [
     {
       "date": "2024-07-17",
@@ -38,6 +40,48 @@
       "score_reasons": "keyword: renovation; permit completed; all permits completed",
       "permit_id": "14423597",
       "permit_number": "B24-000909"
+    },
+    {
+      "date": "2024-12-16",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "RENOVATION OF PLUMBING SYSTEM",
+      "cost": 140.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Witch City Plumbing",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "51388375",
+      "permit_number": "P24-000758"
+    },
+    {
+      "date": "2025-04-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Service entrance upgrade",
+      "cost": 160.0,
+      "property_use": "Electrical Permit - Commercial",
+      "contractor": "Helio De Oliveira Electrician DBA",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51757822",
+      "permit_number": "E25-000385"
+    },
+    {
+      "date": "2025-01-17",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "install ducted/ductless heat pump system vent 1 kitchen hood",
+      "cost": 798.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "Gray Boys Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51521593",
+      "permit_number": "SM25-000007"
     },
     {
       "date": "2024-07-09",
@@ -55,9 +99,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The property was recently purchased in late 2023 and the relatively low-cost renovations are being performed by an owner-occupant, indicating post-sale improvements rather than preparation for a new listing."
-  },
-  "lat": 42.388517713355,
-  "lng": -71.109839636418
+    "likelihood": "medium",
+    "reasoning": "Kitchen and multiple bathroom renovations indicate high-end prep-for-sale improvements, but owner occupancy and residential-focused scope moderate the likelihood"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "116 UPLAND RD, CAMBRIDGE, MA 02140",
+  "lat": 42.387208,
+  "lng": -71.123757,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=116+UPLAND+RD%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/116%20UPLAND%20RD%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=116+UPLAND+RD%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -21,10 +23,10 @@
   "nearest_square": "Porter",
   "distance_mi": 0.25,
   "max_score": 3,
-  "total_cost": 35514.5,
-  "permit_count": 1,
+  "total_cost": 43014.5,
+  "permit_count": 2,
   "completed_permits": 0,
-  "completion_ratio": "0/1",
+  "completion_ratio": "0/2",
   "permits": [
     {
       "date": "2024-07-12",
@@ -38,12 +40,23 @@
       "score": 3,
       "score_reasons": "moderate cost ($35,514); keyword: structural",
       "permit_id": "280189"
+    },
+    {
+      "date": "2024-12-03",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Bathroom remodel, same layout as before, change fixtures, tile, etc",
+      "cost": 7500.0,
+      "property_use": "One-Family",
+      "contractor": "McLaughlin building",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel",
+      "permit_id": "1144880"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permit is for minor exterior improvements (deck and windows) by an owner-occupant, which aligns with maintenance work rather than a high-end renovation or flip."
-  },
-  "lat": 42.387208,
-  "lng": -71.123757
+    "reasoning": "Owner-occupied with only a deck and single bathroom remodel\u2014typical maintenance work rather than prep-for-sale renovations."
+  }
 }

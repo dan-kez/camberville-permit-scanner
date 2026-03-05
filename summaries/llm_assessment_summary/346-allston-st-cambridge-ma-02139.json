@@ -1,5 +1,7 @@
 {
   "address": "346 ALLSTON ST, CAMBRIDGE, MA 02139",
+  "lat": 42.361265,
+  "lng": -71.113017,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=346+ALLSTON+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/346%20ALLSTON%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=346+ALLSTON+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied and the renovations (office conversion and basement stairwell improvements) appear to be functional lifestyle updates rather than the high-end kitchen and bathroom flips typical of a sale preparation."
-  },
-  "lat": 42.361265,
-  "lng": -71.113017
+    "reasoning": "Minor interior adjustments and exterior work for personal use, not a full preparation for sale"
+  }
 }

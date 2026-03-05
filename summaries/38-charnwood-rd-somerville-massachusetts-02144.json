@@ -1,5 +1,7 @@
 {
   "address": "38 CHARNWOOD RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.392612398785,
+  "lng": -71.115787686368,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38+CHARNWOOD+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/38%20CHARNWOOD%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=38+CHARNWOOD+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,29 +15,18 @@
     "last_sale_date": "2015-07-01",
     "last_sale_price": 950000,
     "assessed_value": 1512200,
-    "lot_size": 0.0682
+    "lot_size": 0.0682,
+    "property_parcel": "29_K_15"
   },
-  "property_use": "Building Permit - Residential Renovation",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
   "distance_mi": 0.34,
-  "max_score": 7,
-  "total_cost": 2142.0,
-  "permit_count": 2,
+  "max_score": 5,
+  "total_cost": 2602.0,
+  "permit_count": 3,
   "completed_permits": 2,
-  "completion_ratio": "2/2 complete",
+  "completion_ratio": "2/3 complete",
   "permits": [
-    {
-      "date": "2024-06-10",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Renovation of existing front porch and landscape improvements",
-      "cost": 2097.0,
-      "property_use": "Building Permit - Residential Renovation",
-      "contractor": "Fresh Start Contracting Corp",
-      "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
-    },
     {
       "date": "2024-08-21",
       "source": "Somerville",
@@ -45,8 +36,38 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "ELUX ELECTRICAL SOLUTIONS INC",
       "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score": 5,
+      "score_reasons": "keyword: remodel; permit completed; most permits completed",
+      "permit_id": "51173095",
+      "permit_number": "E24-001363"
+    },
+    {
+      "date": "2024-06-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Renovation of existing front porch and landscape improvements",
+      "cost": 2097.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Fresh Start Contracting Corp",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "14258591",
+      "permit_number": "B24-000388"
+    },
+    {
+      "date": "2025-04-29",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Asphalt shingles replacement on the entire house.",
+      "cost": 460.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "FRS Company",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed",
+      "permit_id": "51918906",
+      "permit_number": "B25-000557"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "36 MIDDLESEX ST, CAMBRIDGE, MA 02140",
+  "lat": 42.39244,
+  "lng": -71.130688,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=36+MIDDLESEX+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/36%20MIDDLESEX%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=36+MIDDLESEX+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2003-08-18T00:00:00.000",
     "last_sale_price": "638000",
     "assessed_value": "2028100",
-    "lot_size": "4478"
+    "lot_size": "4478",
+    "property_pid": "16308",
+    "property_parcel": "195-47"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +38,8 @@
       "contractor": "Robicco, Inc.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($29,144); keyword: structural"
+      "score_reasons": "moderate cost ($29,144); keyword: structural",
+      "permit_id": "1143126"
     }
   ]
 }

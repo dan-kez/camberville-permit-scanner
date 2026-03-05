@@ -1,0 +1,49 @@
+{
+  "address": "59 RICE ST, CAMBRIDGE, MA 02140",
+  "lat": 42.394371,
+  "lng": -71.129767,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=59+RICE+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/59%20RICE%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=59+RICE+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1847",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "7",
+    "living_area": "2251",
+    "last_sale_date": "2016-06-22T00:00:00.000",
+    "last_sale_price": "100",
+    "assessed_value": "2358500",
+    "lot_size": "7950",
+    "property_pid": "15930",
+    "property_parcel": "192-87"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.4,
+  "max_score": 4,
+  "total_cost": 473.56,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-04-18",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Residential weatherization and air sealing with the Mass Save Program. No structural changes.",
+      "cost": 473.56,
+      "property_use": "One-Family",
+      "contractor": "Clean Tech Construction",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "266163"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Single minor weatherization permit with no kitchen/bathroom updates, owner occupied, and very low cost indicates maintenance rather than sale preparation."
+  }
+}

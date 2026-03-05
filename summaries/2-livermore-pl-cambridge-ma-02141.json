@@ -1,5 +1,7 @@
 {
   "address": "2 LIVERMORE PL, CAMBRIDGE, MA 02141",
+  "lat": 42.370841,
+  "lng": -71.094824,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+LIVERMORE+PL%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/2%20LIVERMORE%20PL%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=2+LIVERMORE+PL%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2024-10-03T00:00:00.000",
     "last_sale_price": "820000",
     "assessed_value": "843800",
-    "lot_size": "925"
+    "lot_size": "925",
+    "property_pid": "3651",
+    "property_parcel": "79-128"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +38,8 @@
       "contractor": "royalty finish carpentry",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($225,000); keyword: renovation; minor: insulation"
+      "score_reasons": "high cost ($225,000); keyword: renovation; minor: insulation",
+      "permit_id": "1165370"
     }
   ]
 }

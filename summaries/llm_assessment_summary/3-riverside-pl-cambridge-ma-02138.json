@@ -1,5 +1,7 @@
 {
   "address": "3 RIVERSIDE PL, CAMBRIDGE, MA 02138",
+  "lat": 42.36475,
+  "lng": -71.11475,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+RIVERSIDE+PL%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/3%20RIVERSIDE%20PL%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=3+RIVERSIDE+PL%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied by a long-term resident (9 years) and the renovation is limited to a single room (kitchen) rather than a comprehensive whole-house update."
-  },
-  "lat": 42.36475,
-  "lng": -71.11475
+    "reasoning": "Single kitchen renovation by owner-occupant, not multiple bathrooms, no gut renovation, and nearly 9 years of ownership indicates maintenance rather than sale preparation"
+  }
 }

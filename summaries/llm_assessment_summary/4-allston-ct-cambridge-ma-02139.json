@@ -1,5 +1,7 @@
 {
   "address": "4 ALLSTON CT, CAMBRIDGE, MA 02139",
+  "lat": 42.359095,
+  "lng": -71.109833,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+ALLSTON+CT%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/4%20ALLSTON%20CT%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=4+ALLSTON+CT%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "Simultaneous full-scale kitchen and multiple bathroom renovations costing over $250,000 after 27 years of ownership indicate significant whole-house work consistent with preparation for sale."
-  },
-  "lat": 42.359095,
-  "lng": -71.109833
+    "likelihood": "medium",
+    "reasoning": "Simultaneous high-end kitchen and bathroom remodels at $255,700 indicate preparation, though owner occupied status reduces flip probability"
+  }
 }

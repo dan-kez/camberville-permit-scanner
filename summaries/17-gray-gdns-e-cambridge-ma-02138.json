@@ -1,5 +1,7 @@
 {
   "address": "17 GRAY GDNS E, CAMBRIDGE, MA 02138",
+  "lat": 42.384263,
+  "lng": -71.127019,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+GRAY+GDNS+E%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/17%20GRAY%20GDNS%20E%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=17+GRAY+GDNS+E%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2024-08-07T00:00:00.000",
     "last_sale_price": "3300000",
     "assessed_value": "2763300",
-    "lot_size": "6500"
+    "lot_size": "6500",
+    "property_pid": "17544",
+    "property_parcel": "207-42"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "JSV, llc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($1,497,000); keyword: renovation"
+      "score_reasons": "high cost ($1,497,000); keyword: renovation",
+      "permit_id": "1165970"
     }
   ]
 }

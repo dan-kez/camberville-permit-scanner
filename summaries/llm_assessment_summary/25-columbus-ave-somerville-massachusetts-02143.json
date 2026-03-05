@@ -1,0 +1,63 @@
+{
+  "address": "25 COLUMBUS AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.38066730666,
+  "lng": -71.093197367663,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=25+COLUMBUS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/25%20COLUMBUS%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=25+COLUMBUS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 11,
+    "living_area": 2278,
+    "last_sale_date": "2021-05-13",
+    "last_sale_price": 1320000,
+    "assessed_value": 1627900,
+    "lot_size": 0.1502,
+    "property_parcel": "81_A_39"
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Union",
+  "distance_mi": 0.07,
+  "max_score": 4,
+  "total_cost": 1840.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2025-06-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "New photovoltaic roof mount solar system. Size 11.96kW DC - 26 Modules. No Ess and No structural.",
+      "cost": 1620.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Ecoloop Construction",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed",
+      "permit_id": "52045117",
+      "permit_number": "B25-000801"
+    },
+    {
+      "date": "2025-06-04",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "New photovoltaic roof mount system, size 11.96kW - 26 Panels",
+      "cost": 220.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Ecoloop Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "52043638",
+      "permit_number": "E25-000751"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Only minor solar panel installations with no kitchen/bathroom renovations, confirmed owner-occupied status, and no significant structural work typical of prep-for-sale projects."
+  }
+}

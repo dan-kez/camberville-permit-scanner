@@ -1,5 +1,7 @@
 {
   "address": "11 SPRING HILL TERR, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.38891551848,
+  "lng": -71.107469318019,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/11%20SPRING%20HILL%20TERR%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=11+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -20,10 +22,10 @@
   "nearest_square": "Porter",
   "distance_mi": 0.59,
   "max_score": 5,
-  "total_cost": 1028.0,
-  "permit_count": 4,
-  "completed_permits": 4,
-  "completion_ratio": "4/4 complete",
+  "total_cost": 1058.0,
+  "permit_count": 5,
+  "completed_permits": 5,
+  "completion_ratio": "5/5 complete",
   "permits": [
     {
       "date": "2024-06-10",
@@ -52,6 +54,20 @@
       "score_reasons": "permit completed; all permits completed",
       "permit_id": "14423237",
       "permit_number": "B24-000905"
+    },
+    {
+      "date": "2024-12-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install support clips on exiting electric service per code",
+      "cost": 30.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Richard kippenberger Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51477619",
+      "permit_number": "E24-002060"
     },
     {
       "date": "2024-08-22",
@@ -83,9 +99,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The property is undergoing a single kitchen refresh by a long-term owner-occupant of over 11 years, which is categorized as a minor update rather than a high-end preparation for sale."
-  },
-  "lat": 42.38891551848,
-  "lng": -71.107469318019
+    "likelihood": "medium",
+    "reasoning": "Kitchen renovation with electrical and plumbing permits suggests pre-sale improvements, but absence of bathroom work and owner-occupied status reduce likelihood"
+  }
 }

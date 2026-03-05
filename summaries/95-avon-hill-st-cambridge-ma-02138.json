@@ -1,5 +1,7 @@
 {
   "address": "95 AVON HILL ST, CAMBRIDGE, MA 02138",
+  "lat": 42.385848,
+  "lng": -71.125207,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=95+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/95%20AVON%20HILL%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=95+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2001-12-28T00:00:00.000",
     "last_sale_price": "720000",
     "assessed_value": "2759300",
-    "lot_size": "5130"
+    "lot_size": "5130",
+    "property_pid": "17677",
+    "property_parcel": "209-67"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Daingean designs",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($53,000); keyword: gut"
+      "score_reasons": "moderate cost ($53,000); keyword: gut",
+      "permit_id": "1187327"
     }
   ]
 }

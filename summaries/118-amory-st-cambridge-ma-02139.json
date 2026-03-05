@@ -1,5 +1,7 @@
 {
   "address": "118 AMORY ST, CAMBRIDGE, MA 02139",
+  "lat": 42.371884,
+  "lng": -71.100115,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=118+AMORY+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/118%20AMORY%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=118+AMORY+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -23,7 +25,8 @@
       "contractor": "Diego p pinto",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($58,200); keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($58,200); keyword: remodel; permit completed; all permits completed",
+      "permit_id": "266450"
     },
     {
       "date": "2025-06-24",
@@ -35,7 +38,8 @@
       "contractor": "Diego p pinto",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "moderate cost ($43,000); keyword: remodel; minor: shed; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($43,000); keyword: remodel; minor: shed; permit completed; all permits completed",
+      "permit_id": "1171324"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "47-17 COGSWELL AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.389985,
+  "lng": -71.126676,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=47-17+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/47-17%20COGSWELL%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=47-17+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2021-02-10T00:00:00.000",
     "last_sale_price": "780000",
     "assessed_value": "864600",
-    "lot_size": "1989"
+    "lot_size": "1989",
+    "property_pid": "16865",
+    "property_parcel": "199-137"
   },
   "property_use": "Townhouse",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Pann Home Services",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($40,833)"
+      "score_reasons": "moderate cost ($40,833)",
+      "permit_id": "1194812"
     }
   ]
 }

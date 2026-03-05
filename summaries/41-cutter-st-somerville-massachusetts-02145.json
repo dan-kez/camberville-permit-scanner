@@ -1,5 +1,7 @@
 {
   "address": "41 CUTTER ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.385982061916,
+  "lng": -71.084569539449,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=41+CUTTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/41%20CUTTER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=41+CUTTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,16 +15,17 @@
     "last_sale_date": "2009-12-14",
     "last_sale_price": 0,
     "assessed_value": 654900,
-    "lot_size": 0.0539
+    "lot_size": 0.0539,
+    "property_parcel": "91_A_24"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
   "distance_mi": 0.62,
-  "max_score": 7,
-  "total_cost": 600.0,
+  "max_score": 5,
+  "total_cost": 1422.5,
   "permit_count": 4,
-  "completed_permits": 4,
-  "completion_ratio": "4/4 complete",
+  "completed_permits": 7,
+  "completion_ratio": "7/10 complete",
   "permits": [
     {
       "date": "2024-10-04",
@@ -33,8 +36,10 @@
       "property_use": "Building Permit - Residential Repair",
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score": 5,
+      "score_reasons": "keyword: structural; permit completed; most permits completed",
+      "permit_id": "51253635",
+      "permit_number": "B24-001739"
     },
     {
       "date": "2024-09-09",
@@ -45,8 +50,10 @@
       "property_use": "Building Permit - Residential Other",
       "contractor": "Suffolk Weatherization LLC",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51191354",
+      "permit_number": "B24-001553"
     },
     {
       "date": "2024-10-03",
@@ -57,20 +64,24 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "GH Electrical Services DBA Hassett Electrical Services",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51262813",
+      "permit_number": "E24-001605"
     },
     {
-      "date": "2024-11-01",
+      "date": "2025-08-06",
       "source": "Somerville",
       "status": "Closed",
-      "description": "Replace water heater",
-      "cost": 60.0,
-      "property_use": "Plumbing Permit - Residential - Existing",
-      "contractor": "Homero Morais",
+      "description": "Install 1 ductless mini split system (1) 42k condenser and 4 indoor heads",
+      "cost": 882.5,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Homeworks Energy",
       "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "minor: water heater; permit completed; all permits completed"
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "52332083",
+      "permit_number": "B25-001192"
     }
   ]
 }

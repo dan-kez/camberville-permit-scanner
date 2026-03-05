@@ -1,6 +1,10 @@
 {
   "address": "21 DELAWARE ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.386087003344,
+  "lng": -71.090039485642,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+DELAWARE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/21%20DELAWARE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=21+DELAWARE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1890,
@@ -14,15 +18,43 @@
     "lot_size": 0.0517,
     "property_parcel": "92_A_7"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Union",
   "distance_mi": 0.48,
   "max_score": 2,
-  "total_cost": 100.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "total_cost": 1433.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
   "permits": [
+    {
+      "date": "2025-09-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "8.400 KWDC, ROOF MOUNTED SYSTEM, 20 SOLAR PANELS, NO BATTERY INSTALL",
+      "cost": 1143.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Team Sunshine Construction LLC.",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "52392547",
+      "permit_number": "B25-001340"
+    },
+    {
+      "date": "2025-09-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "8.400 KWDC, ROOF MOUNTED SYSTEM, 20 SOLAR PANELS, NO BATTERY INSTALL, MAIN PANEL RELOCATION\r\nB25-001340",
+      "cost": 190.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Team Sunshine Construction LLC.",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "52392447",
+      "permit_number": "E25-001179"
+    },
     {
       "date": "2025-10-23",
       "source": "Somerville",
@@ -31,14 +63,15 @@
       "cost": 100.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Team Sunshine Construction LLC.",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "52631907",
+      "permit_number": "E25-001539"
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The single low-cost electrical permit suggests necessary repairs rather than a cosmetic renovation, and the long time gap since the 1999 purchase indicates a long-term holding rather than a flip."
-  },
-  "zillow_url": "https://www.zillow.com/homes/21%20DELAWARE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
-  "google_search_url": "https://www.google.com/search?q=21+DELAWARE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
+    "likelihood": "error",
+    "reasoning": "Command '['claude', '--model', 'glm-4.7-flash:latest', '-p', 'Assess the likelihood that this property is being prepared for sale based on building permits and assessment data.\\n\\nCRITICAL INDICATORS FOR HIGH LIKELIHOOD:\\n1. High-end \\'prep-for-sale\\' renovations: Simultaneous full-scale updates to Kitchen AND multiple Bathrooms.\\n2. Non-owner occupied: If the permit lists owner_occupied as False, it is much more likely to be a project/flip.\\n3. Significant \\'Gut\\' or \\'Whole House\\' work even with long-term ownership (8+ years).\\n\\nCRITICAL INDICATORS FOR LOW LIKELIHOOD:\\n1. Maintenance work: Roof, windows (unless part of a larger project), siding, or HVAC only.\\n2. Minor updates: A single bathroom or small kitchen refresh by a long-term owner-occupant.\\n\\nRespond with ONLY valid JSON in this exact format:\\n{\"likelihood\": \"low|medium|high\", \"reasoning\": \"one sentence explanation\"}\\n\\nDATA:\\n{\"address\":\"21 DELAWARE ST, SOMERVILLE MASSACHUSETTS 02145\",\"property_info\":{\"property_class\":\"1010\",\"year_built\":1890,\"bedrooms\":\"unknown\",\"bathrooms\":\"unknown\",\"total_rooms\":7,\"living_area\":1815,\"last_sale_date\":\"1999-02-19\",\"last_sale_price\":155000,\"assessed_value\":784800,\"lot_size\":0.0517,\"property_parcel\":\"92_A_7\"},\"property_use\":\"Building Permit - Residential Alteration\",\"nearest_square\":\"Union\",\"distance_mi\":0.48,\"max_score\":2,\"total_cost\":1433.0,\"permit_count\":3,\"permits\":[{\"date\":\"2025-09-02\",\"source\":\"Somerville\",\"status\":\"Closed\",\"description\":\"8.400 KWDC, ROOF MOUNTED SYSTEM, 20 SOLAR PANELS, NO BATTERY INSTALL\",\"cost\":1143.0,\"property_use\":\"Building Permit - Residential Alteration\",\"contractor\":\"Team Sunshine Construction LLC.\",\"owner_occupied\":true,\"score\":2,\"score_reasons\":\"minor: solar; permit completed; all permits completed\",\"permit_id\":\"52392547\",\"permit_number\":\"B25-001340\"},{\"date\":\"2025-09-02\",\"source\":\"Somerville\",\"status\":\"Closed\",\"description\":\"8.400 KWDC, ROOF MOUNTED SYSTEM, 20 SOLAR PANELS, NO BATTERY INSTALL, MAIN PANEL RELOCATION\\\\r\\\\nB25-001340\",\"cost\":190.0,\"property_use\":\"Electrical Permit - Residential\",\"contractor\":\"Team Sunshine Construction LLC.\",\"owner_occupied\":true,\"score\":2,\"score_reasons\":\"minor: solar; permit completed; all permits completed\",\"permit_id\":\"52392447\",\"permit_number\":\"E25-001179\"},{\"date\":\"2025-10-23\",\"source\":\"Somerville\",\"status\":\"Closed\",\"description\":\"Service upgrade 200A, meter and panel relocation\",\"cost\":100.0,\"property_use\":\"Electrical Permit - Residential\",\"contractor\":\"Team Sunshine Construction LLC.\",\"owner_occupied\":true,\"score\":2,\"score_reasons\":\"minor: panel; permit completed; all permits completed\",\"permit_id\":\"52631907\",\"permit_number\":\"E25-001539\"}]}']' timed out after 120 seconds"
+  }
 }

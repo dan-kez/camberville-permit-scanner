@@ -1,0 +1,32 @@
+{
+  "address": "279 WESTERN AVE, CAMBRIDGE, MA 02139",
+  "lat": 42.36472,
+  "lng": -71.112394,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=279+WESTERN+AVE%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/279%20WESTERN%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=279+WESTERN+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "",
+  "nearest_square": "Central",
+  "distance_mi": 0.45,
+  "max_score": 2,
+  "total_cost": 116.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-07-24",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Take down and rebuild parapet wall at the front of the building",
+      "cost": 116.0,
+      "property_use": "",
+      "contractor": "Brazcon Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: rebuild",
+      "permit_id": "1175723"
+    }
+  ]
+}

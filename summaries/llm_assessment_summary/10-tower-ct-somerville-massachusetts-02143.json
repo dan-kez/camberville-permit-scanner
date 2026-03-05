@@ -1,0 +1,63 @@
+{
+  "address": "10 TOWER CT, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.382086362868,
+  "lng": -71.10502716671,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+TOWER+CT%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/10%20TOWER%20CT%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+TOWER+CT%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1272,
+    "last_sale_date": "2007-06-07",
+    "last_sale_price": 290000,
+    "assessed_value": 869100,
+    "lot_size": 0.049600000000000005,
+    "property_parcel": "53_B_20"
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Union",
+  "distance_mi": 0.63,
+  "max_score": 2,
+  "total_cost": 1188.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2025-03-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rooftop solar installation consisting of (17) QTron 430W modules and (1) Tesla 7.6 kW inverter. (7.1 kW DC)",
+      "cost": 1008.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Great Sky Solar",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "51511214",
+      "permit_number": "B25-000011"
+    },
+    {
+      "date": "2025-02-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rooftop solar installation consisting of (17) QTron 430W modules and (1) Tesla 7.6 kW inverter. (7.31kW DC)",
+      "cost": 180.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Great Sky Solar",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "51511262",
+      "permit_number": "E25-000003"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Solar installation is minor maintenance work completed by owner-occupant with low permit score; not part of kitchen/bathroom renovations or full-scale updates"
+  }
+}

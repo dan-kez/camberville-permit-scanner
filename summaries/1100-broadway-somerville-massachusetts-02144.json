@@ -1,5 +1,7 @@
 {
   "address": "1100 BROADWAY, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.402528693156,
+  "lng": -71.126130619611,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1100+BROADWAY%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/1100%20BROADWAY%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=1100+BROADWAY%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,17 +15,32 @@
     "last_sale_date": "2020-10-14",
     "last_sale_price": 1,
     "assessed_value": 1378400,
-    "lot_size": 0.1148
+    "lot_size": 0.1148,
+    "property_parcel": "12_A_7"
   },
-  "property_use": "Building Permit - Residential Other",
+  "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
   "distance_mi": 0.44,
-  "max_score": 4,
-  "total_cost": 1104.5,
-  "permit_count": 3,
-  "completed_permits": 3,
-  "completion_ratio": "3/3 complete",
+  "max_score": 5,
+  "total_cost": 1404.5,
+  "permit_count": 4,
+  "completed_permits": 4,
+  "completion_ratio": "4/4 complete",
   "permits": [
+    {
+      "date": "2025-12-22",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "roof replacement",
+      "cost": 300.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Northeast Insustrial Roof",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52748822",
+      "permit_number": "B25-002142"
+    },
     {
       "date": "2024-06-25",
       "source": "Somerville",
@@ -34,7 +51,9 @@
       "contractor": "Apex Energy Tek",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: complete; minor: sign; permit completed; all permits completed"
+      "score_reasons": "keyword: complete; minor: sign; permit completed; all permits completed",
+      "permit_id": "14290940",
+      "permit_number": "B24-000509"
     },
     {
       "date": "2024-07-07",
@@ -46,7 +65,9 @@
       "contractor": "Apex Energy Tek",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: complete; minor: sign; permit completed; all permits completed"
+      "score_reasons": "keyword: complete; minor: sign; permit completed; all permits completed",
+      "permit_id": "14290993",
+      "permit_number": "E24-000480"
     },
     {
       "date": "2024-06-10",
@@ -58,7 +79,9 @@
       "contractor": "Apex Energy Tek",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "14451127",
+      "permit_number": "E24-000895"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "10 GARDEN TER, CAMBRIDGE, MA 02138",
+  "lat": 42.382208,
+  "lng": -71.12825,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+GARDEN+TER%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/10%20GARDEN%20TER%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=10+GARDEN+TER%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -20,25 +22,12 @@
   "property_use": "One-Family",
   "nearest_square": "Porter",
   "distance_mi": 0.63,
-  "max_score": 8,
-  "total_cost": 207158.0,
-  "permit_count": 2,
-  "completed_permits": 2,
-  "completion_ratio": "2/2 complete",
+  "max_score": 6,
+  "total_cost": 83568.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
   "permits": [
-    {
-      "date": "2023-06-20",
-      "source": "Cambridge Alteration",
-      "status": "Complete",
-      "description": "Full Bathroom Remodel",
-      "cost": 123590.0,
-      "property_use": "One-Family",
-      "contractor": "Payne Bouchier Inc",
-      "owner_occupied": true,
-      "score": 8,
-      "score_reasons": "moderate cost ($123,590); keyword: remodel; permit completed; all permits completed",
-      "permit_id": "229381"
-    },
     {
       "date": "2024-05-31",
       "source": "Cambridge Alteration",
@@ -55,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The renovations consist of a single bathroom and laundry room remodel by a long-term owner-occupant, which aligns more with lifestyle improvements than high-end preparation for sale."
-  },
-  "lat": 42.382208,
-  "lng": -71.12825
+    "reasoning": "Only a single, modest $83.5K laundry room finish by a long-term owner-occupant (since 2016) in a $4M+ home, not simultaneous kitchen/bathroom updates, no gut work, and no indication of being non-owner occupied."
+  }
 }

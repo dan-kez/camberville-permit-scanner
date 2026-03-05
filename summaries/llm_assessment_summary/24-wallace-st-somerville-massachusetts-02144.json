@@ -1,6 +1,10 @@
 {
   "address": "24 WALLACE ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.398678256384,
+  "lng": -71.12320986163,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=24+WALLACE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/24%20WALLACE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=24+WALLACE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1890,
@@ -31,8 +35,11 @@
       "cost": 320.0,
       "property_use": "Building Permit - Residential Repair",
       "contractor": "Renewal by Andersen LLC",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: structural"
+      "score_reasons": "keyword: structural",
+      "permit_id": "52461807",
+      "permit_number": "B25-001482"
     },
     {
       "date": "2025-10-23",
@@ -42,14 +49,15 @@
       "cost": 100.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Kuhlman Electrical Services",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "52654280",
+      "permit_number": "E25-001600"
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "Recent minor permit activity and a long ownership history in a high-growth Somerville market suggest an owner preparing to sell to capture equity, though the low investment level indicates a cosmetic fix rather than a full flip."
-  },
-  "zillow_url": "https://www.zillow.com/homes/24%20WALLACE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
-  "google_search_url": "https://www.google.com/search?q=24+WALLACE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
+    "likelihood": "low",
+    "reasoning": "Minor maintenance work (entry doors and electrical service) by long-term owner-occupant, no kitchen/bathroom renovations or gut work"
+  }
 }

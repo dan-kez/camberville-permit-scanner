@@ -1,5 +1,7 @@
 {
   "address": "72 INMAN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.370748,
+  "lng": -71.102222,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=72+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/72%20INMAN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=72+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -28,9 +30,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The renovation involves a simultaneous full-scale kitchen and multiple bathroom update alongside comprehensive exterior and interior work, characteristic of high-end pre-sale preparation."
-  },
-  "lat": 42.370748,
-  "lng": -71.102222
+    "likelihood": "medium",
+    "reasoning": "Simultaneous kitchen and bathroom renovations totaling $353,200 indicate intentional property preparation, but owner_occupied=true lowers likelihood compared to non-owner occupied projects."
+  }
 }

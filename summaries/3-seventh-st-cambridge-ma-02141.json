@@ -1,0 +1,32 @@
+{
+  "address": "3 SEVENTH ST, CAMBRIDGE, MA 02141",
+  "lat": 42.372477,
+  "lng": -71.08526,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+SEVENTH+ST%2C+CAMBRIDGE%2C+MA+02141",
+  "zillow_url": "https://www.zillow.com/homes/3%20SEVENTH%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
+  "google_search_url": "https://www.google.com/search?q=3+SEVENTH+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Union",
+  "distance_mi": 0.64,
+  "max_score": 2,
+  "total_cost": 13500.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-08-21",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "SIDING: Siding Type: Vinyl Brand/Model: CertainTeed Monogram Color: Flagstone Estimated Area: 6 sq. ft. House Wrap: Tyvek Trim: AZEK PVC 4\u201d Soffit/Fascia: Aluminum (Color: TBD) Plywood Replacement (if needed): Up to 3 sheets Accessories: Starter strip, J-Channel, Corners WINDOWS: Window Brand: Andersen / Harvey / United Type: Double-pane, energy-efficient Quantity: 7 Interior Finish: Paint-grade / Stained Exterior Trim: PVC or AZEK Insulation: Spray foam + caulking Screens Included: [ ] Yes [ ] No \u00a0(X) TBD DOORS: Door Brand: Therma-Tru / Masonite Type: 1 x \u00a0Storm Door Style: 1-lite / 6-panel / Half-glass Color: TBD Includes: Frame, threshold, lockset prep Exterior Trim: PVC Interior Casing: Colonial / Modern / Custom Weatherstripping & Foam Insulation: Yes",
+      "cost": 13500.0,
+      "property_use": "One-Family",
+      "contractor": "FERNANDO A DA SILVA",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "1180413"
+    }
+  ]
+}

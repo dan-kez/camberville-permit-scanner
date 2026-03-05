@@ -1,6 +1,10 @@
 {
   "address": "24 CRESCENT ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.382811104126,
+  "lng": -71.080340282563,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=24+CRESCENT+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/24%20CRESCENT%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=24+CRESCENT+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1900,
@@ -17,11 +21,11 @@
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Union",
   "distance_mi": 0.69,
-  "max_score": 5,
+  "max_score": 2,
   "total_cost": 1938.0,
   "permit_count": 1,
   "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "completion_ratio": "1/2 complete",
   "permits": [
     {
       "date": "2025-09-09",
@@ -31,16 +35,15 @@
       "cost": 1938.0,
       "property_use": "Building Permit - Residential Alteration",
       "contractor": "Drycrete Waterproofing",
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed",
+      "permit_id": "52272616",
+      "permit_number": "B25-001151"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The likelihood is low because the permit cost is minimal and the work is structural waterproofing rather than a cosmetic renovation."
-  },
-  "lat": 42.382811104126,
-  "lng": -71.080340282563,
-  "zillow_url": "https://www.zillow.com/homes/24%20CRESCENT%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
-  "google_search_url": "https://www.google.com/search?q=24+CRESCENT+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
+    "reasoning": "Owner-occupied single permit for basement waterproofing ($1,938) is standard maintenance, not prep-for-sale work"
+  }
 }

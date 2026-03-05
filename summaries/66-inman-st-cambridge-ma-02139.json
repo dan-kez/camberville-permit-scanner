@@ -1,5 +1,7 @@
 {
   "address": "66 INMAN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.370534,
+  "lng": -71.102481,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=66+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/66%20INMAN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=66+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2014-06-19T00:00:00.000",
     "last_sale_price": "1428000",
     "assessed_value": "2085300",
-    "lot_size": "2746"
+    "lot_size": "2746",
+    "property_pid": "6969",
+    "property_parcel": "109-26"
   },
   "property_use": "Townhouse",
   "nearest_square": "Inman",
@@ -34,7 +38,8 @@
       "contractor": "Delaporte Development Inc.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($42,500); permit completed"
+      "score_reasons": "moderate cost ($42,500); permit completed",
+      "permit_id": "265482"
     },
     {
       "date": "2024-06-10",
@@ -46,7 +51,8 @@
       "contractor": "Delaporte Development",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($74,000)"
+      "score_reasons": "moderate cost ($74,000)",
+      "permit_id": "275576"
     }
   ]
 }

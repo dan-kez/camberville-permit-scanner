@@ -1,5 +1,7 @@
 {
   "address": "148 PLEASANT ST, CAMBRIDGE, MA 02139",
+  "lat": 42.360184,
+  "lng": -71.112607,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=148+PLEASANT+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/148%20PLEASANT%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=148+PLEASANT+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "Long-term owner-occupant (12+ years) performing lifestyle-focused remodeling of a playroom and laundry room rather than high-impact kitchen or bathroom updates associated with prepping for sale."
-  },
-  "lat": 42.360184,
-  "lng": -71.112607
+    "reasoning": "Routine laundry room and play room remodeling by long-term owner-occupant, not high-end prep-for-sale kitchen and bathroom updates"
+  }
 }

@@ -1,0 +1,45 @@
+{
+  "address": "14 PINCKNEY ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.382516983143,
+  "lng": -71.082627033388,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=14+PINCKNEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/14%20PINCKNEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=14+PINCKNEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1425,
+    "last_sale_date": "2016-09-07",
+    "last_sale_price": 1,
+    "assessed_value": 694000,
+    "lot_size": 0.0441,
+    "property_parcel": "105_B_13"
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Union",
+  "distance_mi": 0.58,
+  "max_score": 4,
+  "total_cost": 220.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-01-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Residential weatherization/air sealing. No structural changes. 29832",
+      "cost": 220.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "51473888",
+      "permit_number": "B24-002268"
+    }
+  ]
+}

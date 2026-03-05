@@ -1,0 +1,59 @@
+{
+  "address": "16 GILMAN ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.384469966583,
+  "lng": -71.089789202013,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/16%20GILMAN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=16+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1330,
+    "last_sale_date": "2006-12-29",
+    "last_sale_price": 278400,
+    "assessed_value": 673400,
+    "lot_size": 0.11280000000000001,
+    "property_parcel": "92_J_9"
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Union",
+  "distance_mi": 0.38,
+  "max_score": 2,
+  "total_cost": 120.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-10-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "1 gas water heater",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: water heater; permit completed; all permits completed",
+      "permit_id": "51207673",
+      "permit_number": "P24-000530"
+    },
+    {
+      "date": "2024-09-30",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replacement gas furnace and gas water heater",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "51207652",
+      "permit_number": "G24-000424"
+    }
+  ]
+}

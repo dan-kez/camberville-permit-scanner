@@ -1,5 +1,7 @@
 {
   "address": "48 CHESTNUT ST, CAMBRIDGE, MA 02139",
+  "lat": 42.355924,
+  "lng": -71.107707,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=48+CHESTNUT+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/48%20CHESTNUT%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=48+CHESTNUT+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "medium",
-    "reasoning": "The recent high-cost gut renovation of the kitchen and bathroom by a short-term owner indicates significant value-add typical of sale preparation, though the owner-occupied status moderates the likelihood."
-  },
-  "lat": 42.355924,
-  "lng": -71.107707
+    "reasoning": "Gut renovation of kitchen and bathroom with $273k cost indicates preparation for sale, though owner occupied status reduces certainty"
+  }
 }

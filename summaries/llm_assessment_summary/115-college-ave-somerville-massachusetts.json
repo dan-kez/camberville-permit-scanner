@@ -1,6 +1,10 @@
 {
   "address": "115 COLLEGE AVE, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.399775154143,
+  "lng": -71.117875115535,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=115+COLLEGE+AVE%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/115%20COLLEGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=115+COLLEGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1940,
@@ -31,14 +35,15 @@
       "cost": 60.0,
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "Bay State Plumbing and Gas Inc",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52916370",
+      "permit_number": "P25-000767"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The likelihood is low because the single permit for plumbing work was withdrawn and not completed, and the negligible cost indicates no active renovation."
-  },
-  "zillow_url": "https://www.zillow.com/homes/115%20COLLEGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
-  "google_search_url": "https://www.google.com/search?q=115+COLLEGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
+    "reasoning": "Minimal $60 plumbing maintenance work on basic fixtures, owner-occupied status, and withdrawn permit indicate routine upkeep rather than sale preparation"
+  }
 }

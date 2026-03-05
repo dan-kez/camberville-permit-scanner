@@ -1,5 +1,7 @@
 {
   "address": "57 CHANDLER ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.399550477229,
+  "lng": -71.120934091099,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=57+CHANDLER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/57%20CHANDLER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=57+CHANDLER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -16,34 +18,32 @@
     "lot_size": 0.1033,
     "property_parcel": "16_E_3"
   },
-  "property_use": "Building Permit - Residential Other",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
   "distance_mi": 0.21,
   "max_score": 2,
-  "total_cost": 200.0,
+  "total_cost": 195.0,
   "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "completed_permits": 2,
+  "completion_ratio": "2/4 complete",
   "permits": [
     {
-      "date": "2024-07-31",
+      "date": "2024-12-17",
       "source": "Somerville",
       "status": "Closed",
-      "description": "Weatherization",
-      "cost": 200.0,
-      "property_use": "Building Permit - Residential Other",
-      "contractor": "J &  L Energy Inc",
+      "description": "Wiring of 2 Condensers, 2 Wall heads, 1 floor head to  Branch Box SM24-000176\r\n\r\nService upgrade permit E24-002035",
+      "cost": 195.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Forge Team Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: weatherization; permit completed; all permits completed",
-      "permit_id": "51083169",
-      "permit_number": "B24-001338"
+      "score_reasons": "permit completed",
+      "permit_id": "51098393",
+      "permit_number": "E24-001264"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property has a long-term owner-occupant and only one recent permit for minor $200 weatherization work, which is consistent with routine maintenance rather than sale preparation."
-  },
-  "lat": 42.399550477229,
-  "lng": -71.120934091099
+    "reasoning": "Minor electrical service upgrade for AC condenser wiring, completed by long-term owner, with no kitchen or bathroom renovations indicating sale preparation"
+  }
 }

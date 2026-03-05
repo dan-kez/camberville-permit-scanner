@@ -1,5 +1,7 @@
 {
   "address": "13-1/2 CEDAR ST, CAMBRIDGE, MA 02140",
+  "lat": 42.396798,
+  "lng": -71.130973,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=13-1%2F2+CEDAR+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/13-1/2%20CEDAR%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=13-1%2F2+CEDAR+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -23,7 +25,8 @@
       "contractor": "Bay State Remodeling",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($34,988); keyword: remodel"
+      "score_reasons": "moderate cost ($34,988); keyword: remodel",
+      "permit_id": "1194414"
     }
   ]
 }

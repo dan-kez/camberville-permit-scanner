@@ -1,5 +1,7 @@
 {
   "address": "22 ASHLAND ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.38999762218,
+  "lng": -71.114617740323,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=22+ASHLAND+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/22%20ASHLAND%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=22+ASHLAND+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permit reflects routine exterior maintenance (porch repair) by a long-term owner-occupant rather than the high-end interior renovations associated with preparing a property for sale."
-  },
-  "lat": 42.38999762218,
-  "lng": -71.114617740323
+    "reasoning": "Basic porch maintenance with no kitchen/bathroom updates or owner non-occupancy"
+  }
 }

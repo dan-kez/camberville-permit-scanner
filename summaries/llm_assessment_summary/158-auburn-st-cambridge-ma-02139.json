@@ -1,5 +1,7 @@
 {
   "address": "158 AUBURN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.363375,
+  "lng": -71.104991,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=158+AUBURN+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/158%20AUBURN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=158+AUBURN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied and the permit for basement and living room work lacks the high-end kitchen and bathroom updates typically associated with pre-sale renovations."
-  },
-  "lat": 42.363375,
-  "lng": -71.104991
+    "reasoning": "Permit is for basement and living room work only (no kitchen/bathroom updates), owner is still living in the property, and no signs of comprehensive renovation work typical of sale preparation."
+  }
 }

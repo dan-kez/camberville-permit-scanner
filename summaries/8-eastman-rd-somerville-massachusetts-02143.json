@@ -1,5 +1,7 @@
 {
   "address": "8 EASTMAN RD, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.391518267054,
+  "lng": -71.111697820533,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+EASTMAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/8%20EASTMAN%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=8+EASTMAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,17 +15,32 @@
     "last_sale_date": "2021-04-29",
     "last_sale_price": 1275000,
     "assessed_value": 1221500,
-    "lot_size": 0.0767
+    "lot_size": 0.0767,
+    "property_parcel": "35_A_15"
   },
-  "property_use": "Plumbing Permit - Residential - Existing",
+  "property_use": "Building Permit - Residential Addition",
   "nearest_square": "Porter",
   "distance_mi": 0.43,
   "max_score": 4,
-  "total_cost": 360.0,
-  "permit_count": 2,
-  "completed_permits": 1,
-  "completion_ratio": "1/3 complete",
+  "total_cost": 3005.0,
+  "permit_count": 6,
+  "completed_permits": 2,
+  "completion_ratio": "2/11 complete",
   "permits": [
+    {
+      "date": "2025-10-16",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "(HOMEOWNER PERMIT) Foundation For New Addition",
+      "cost": 350.0,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: addition; permit completed",
+      "permit_id": "52035949",
+      "permit_number": "B25-000776"
+    },
     {
       "date": "2024-10-17",
       "source": "Somerville",
@@ -34,7 +51,23 @@
       "contractor": "Chris Rush plumbing",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: remodel; permit completed"
+      "score_reasons": "keyword: remodel; permit completed",
+      "permit_id": "51282081",
+      "permit_number": "P24-000613"
+    },
+    {
+      "date": "2025-11-03",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "(HOMEOWNER PERMIT)\r\nNew addition: Adding Pantry off Kitchen and Bathroom on 2nd Floor. Kitchen Remodel happening concurrently.",
+      "cost": 2135.0,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel",
+      "permit_id": "51955470",
+      "permit_number": "B25-000646"
     },
     {
       "date": "2024-09-05",
@@ -46,7 +79,37 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "51106433",
+      "permit_number": "B24-001395"
+    },
+    {
+      "date": "2026-01-02",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "House Renovation",
+      "cost": 100.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Whitey's Plumbing, LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52659408",
+      "permit_number": "P25-000624"
+    },
+    {
+      "date": "2025-11-06",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Foundation bonding/grounding",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "O'Mahony & Sons Electrical Inc.",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: foundation",
+      "permit_id": "52657124",
+      "permit_number": "E25-001611"
     }
   ]
 }

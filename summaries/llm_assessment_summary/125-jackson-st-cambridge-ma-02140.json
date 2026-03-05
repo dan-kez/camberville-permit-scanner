@@ -1,5 +1,7 @@
 {
   "address": "125 JACKSON ST, CAMBRIDGE, MA 02140",
+  "lat": 42.397012,
+  "lng": -71.135149,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=125+JACKSON+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/125%20JACKSON%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=125+JACKSON+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "A massive $665,802 new construction project completed shortly after the 2023 purchase indicates a full-scale property transformation typical of a high-end development or flip."
-  },
-  "lat": 42.397012,
-  "lng": -71.135149
+    "likelihood": "low",
+    "reasoning": "No evidence of simultaneous kitchen and bathroom updates; owner occupied status; permit appears to be for new construction rather than sale preparation"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "222 PUTNAM AVE, CAMBRIDGE, MA 02139",
+  "lat": 42.363984,
+  "lng": -71.113681,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=222+PUTNAM+AVE%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/222%20PUTNAM%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=222+PUTNAM+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The long-term owner-occupant is performing structural foundation work rather than the comprehensive kitchen and bathroom renovations typical of a property being prepared for sale."
-  },
-  "lat": 42.363984,
-  "lng": -71.113681
+    "likelihood": "medium",
+    "reasoning": "Foundation work ($70,000) on an older 1887 home with long-term owner-occupancy (last sale 2001) suggests maintenance or minor structural improvements, not a full-scale sale preparation project"
+  }
 }

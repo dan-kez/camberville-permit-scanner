@@ -1,5 +1,7 @@
 {
   "address": "23 LOCKE ST, CAMBRIDGE, MA 02140",
+  "lat": 42.396662,
+  "lng": -71.127425,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=23+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/23%20LOCKE%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=23+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -23,7 +25,8 @@
       "contractor": "RENEWAL BY ANDERSEN",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($31,041); keyword: structural; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($31,041); keyword: structural; permit completed; all permits completed",
+      "permit_id": "1185707"
     }
   ]
 }

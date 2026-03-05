@@ -1,5 +1,7 @@
 {
   "address": "6 EVERETT AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.386442354129,
+  "lng": -71.087828339584,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=6+EVERETT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/6%20EVERETT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=6+EVERETT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,40 +15,31 @@
     "last_sale_date": "1994-09-28",
     "last_sale_price": 78000,
     "assessed_value": 836300,
-    "lot_size": 0.0921
+    "lot_size": 0.0921,
+    "property_parcel": "90_G_15"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.55,
-  "max_score": 1,
-  "total_cost": 958.0,
-  "permit_count": 3,
-  "completed_permits": 3,
-  "completion_ratio": "3/6 complete",
+  "max_score": 3,
+  "total_cost": 1348.0,
+  "permit_count": 5,
+  "completed_permits": 4,
+  "completion_ratio": "4/7 complete",
   "permits": [
     {
-      "date": "2024-04-24",
+      "date": "2025-07-15",
       "source": "Somerville",
       "status": "Closed",
-      "description": "Rooftop mounted solar 19 panels 7.600kw dc No ESS No structural ugrades",
-      "cost": 180.0,
+      "description": "Address code violations and take over from permit E24-001988",
+      "cost": 75.0,
       "property_use": "Electrical Permit - Residential",
-      "contractor": "Sunrun Installation Services",
+      "contractor": "John Cabral",
       "owner_occupied": true,
-      "score": 1,
-      "score_reasons": "keyword: structural; minor: solar; permit completed"
-    },
-    {
-      "date": "2024-09-17",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Roof Mounted PV Solar Installation  10 Panels - 3.800 KWAC - 100 -  No Battery TOTAL ARRAY AREA: 209.89 SQFT (4.3kWDC)",
-      "cost": 150.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Freedom Forever Massachusetts, LLC",
-      "owner_occupied": true,
-      "score": 1,
-      "score_reasons": "keyword: total; minor: solar; permit completed"
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "52146217",
+      "permit_number": "E25-000877"
     },
     {
       "date": "2024-10-25",
@@ -57,8 +50,52 @@
       "property_use": "Building Permit - Residential Other",
       "contractor": "Freedom Forever Massachusetts, LLC",
       "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: total; minor: solar; permit completed; most permits completed",
+      "permit_id": "51220059",
+      "permit_number": "B24-001618"
+    },
+    {
+      "date": "2024-09-17",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Roof Mounted PV Solar Installation  10 Panels - 3.800 KWAC - 100 -  No Battery TOTAL ARRAY AREA: 209.89 SQFT (4.3kWDC)",
+      "cost": 150.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Freedom Forever Massachusetts, LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: total; minor: solar; permit completed; most permits completed",
+      "permit_id": "51220082",
+      "permit_number": "E24-001472"
+    },
+    {
+      "date": "2024-04-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rooftop mounted solar 19 panels 7.600kw dc No ESS No structural ugrades",
+      "cost": 180.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Sunrun Installation Services",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural; minor: solar; permit completed; most permits completed",
+      "permit_id": "14313927",
+      "permit_number": "E24-000555"
+    },
+    {
+      "date": "2024-10-01",
+      "source": "Somerville",
+      "status": "Withdrawn",
+      "description": "New photovoltaic roof mounted system 9.350kW\r\nWITDRAWN PER APPLICANT SEE ATTACHED LETTER - JS 11/18/24",
+      "cost": 315.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Ecoloop Construction",
+      "owner_occupied": true,
       "score": 1,
-      "score_reasons": "keyword: total; minor: solar; permit completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "51154796",
+      "permit_number": "E24-001322"
     }
   ]
 }

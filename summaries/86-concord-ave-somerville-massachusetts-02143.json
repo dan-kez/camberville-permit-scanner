@@ -1,5 +1,7 @@
 {
   "address": "86 CONCORD AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.376029348176,
+  "lng": -71.100861612289,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=86+CONCORD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/86%20CONCORD%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=86+CONCORD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,29 +15,18 @@
     "last_sale_date": "2022-03-28",
     "last_sale_price": 100,
     "assessed_value": 1172500,
-    "lot_size": 0.0492
+    "lot_size": 0.0492,
+    "property_parcel": "76_C_2"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Inman",
   "distance_mi": 0.18,
-  "max_score": 5,
-  "total_cost": 26522.5,
-  "permit_count": 7,
-  "completed_permits": 7,
-  "completion_ratio": "7/7 complete",
+  "max_score": 3,
+  "total_cost": 1640.0,
+  "permit_count": 2,
+  "completed_permits": 5,
+  "completion_ratio": "5/6 complete",
   "permits": [
-    {
-      "date": "2023-09-01",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Rewire entire home to code, new 200 amp service",
-      "cost": 650.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Joseph Spinale",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
-    },
     {
       "date": "2024-03-12",
       "source": "Somerville",
@@ -45,8 +36,10 @@
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "Executive Plumbing and heating llc",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14224101",
+      "permit_number": "P24-000129"
     },
     {
       "date": "2024-07-31",
@@ -57,56 +50,10 @@
       "property_use": "Building Permit - Residential Repair",
       "contractor": "Our House Contracting",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
-    },
-    {
-      "date": "2023-10-02",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "1st and 2nd and 3rd floor gut remodel per design plan. Remove 2nd floor porch and build addition in same footprint for 1st floor entry and bath and 2nd floor master bath\r\nChanging 2 family to 1 family",
-      "cost": 24072.5,
-      "property_use": "Building Permit - Residential Addition",
-      "contractor": "Our House Contracting",
-      "owner_occupied": true,
-      "score": 4,
-      "score_reasons": "keyword: gut; minor: sign; permit completed; all permits completed"
-    },
-    {
-      "date": "2024-06-28",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "siding replacement. reinstall lights and outlets, meter and disconnects",
-      "cost": 90.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Joseph Spinale",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "minor: siding; permit completed; all permits completed"
-    },
-    {
-      "date": "2024-09-25",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "New gas for stove fireplace water heater and furnace",
-      "cost": 70.0,
-      "property_use": "Gas Fitting - Residential - Existing",
-      "contractor": "Executive Plumbing and heating llc",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
-    },
-    {
-      "date": "2024-11-05",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Install a 4 ton Bosch central a/c and furnace and all associated duct work\r\nFee paid for under permit  SM23-000242",
-      "cost": 0.0,
-      "property_use": "Sheet Metal Permit - Residential",
-      "contractor": "Unique Indoor Comfort",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "17054271",
+      "permit_number": "B24-001183"
     }
   ]
 }

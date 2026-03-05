@@ -1,5 +1,7 @@
 {
   "address": "8 FRANCIS AVE, CAMBRIDGE, MA 02138",
+  "lat": 42.377755,
+  "lng": -71.111378,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+FRANCIS+AVE%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/8%20FRANCIS%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=8+FRANCIS+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "1977-07-05T00:00:00.000",
     "last_sale_price": "88000",
     "assessed_value": "2608500",
-    "lot_size": "6273"
+    "lot_size": "6273",
+    "property_pid": "11761",
+    "property_parcel": "146-88"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +38,8 @@
       "contractor": "Dexksos Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "moderate cost ($55,650); keyword: demolish; minor: shed; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($55,650); keyword: demolish; minor: shed; permit completed; all permits completed",
+      "permit_id": "287259"
     }
   ]
 }

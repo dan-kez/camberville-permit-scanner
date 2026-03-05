@@ -1,5 +1,7 @@
 {
   "address": "11 MADISON AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.400038,
+  "lng": -71.135985,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/11%20MADISON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=11+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for a single bathroom renovation by an owner-occupant, which is a minor update rather than a full-scale renovation."
-  },
-  "lat": 42.400038,
-  "lng": -71.135985
+    "reasoning": "Only one bathroom renovation by owner-occupant with modest $28,000 cost; no kitchen updates or multiple bathroom simultaneous work typical of prep-for-sale projects"
+  }
 }

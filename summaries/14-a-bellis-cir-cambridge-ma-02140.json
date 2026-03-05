@@ -1,5 +1,7 @@
 {
   "address": "14-A BELLIS CIR, CAMBRIDGE, MA 02140",
+  "lat": 42.389704,
+  "lng": -71.133427,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=14-A+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/14-A%20BELLIS%20CIR%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=14-A+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -23,7 +25,8 @@
       "contractor": "J B Sash & Door",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($90,992); keyword: structural"
+      "score_reasons": "moderate cost ($90,992); keyword: structural",
+      "permit_id": "1147900"
     }
   ]
 }

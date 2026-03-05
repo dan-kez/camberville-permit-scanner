@@ -1,0 +1,49 @@
+{
+  "address": "18 EASTMAN RD, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.391083958741,
+  "lng": -71.111995210458,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+EASTMAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/18%20EASTMAN%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=18+EASTMAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1040",
+    "year_built": 1905,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 11,
+    "living_area": 2743,
+    "last_sale_date": "2003-12-01",
+    "last_sale_price": 1,
+    "assessed_value": 1365600,
+    "lot_size": 0.101,
+    "property_parcel": "35_A_11"
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Porter",
+  "distance_mi": 0.41,
+  "max_score": 7,
+  "total_cost": 724.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-12-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "CHANGE A 2 TO 1 FAMILY:\r\nkitchen renovation: Remove cabinets, appliances & countertops, demo walls & ceilings to studs, demo partition wall, new layout, replace rotted wood, insulate, update electrical & plumbing, close walls, skim coat, new cabinets, counter tops, appliances, remove linoleum and refinish hardwood or replace w/ new. paint",
+      "cost": 724.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "SILMAC GENERAL REMODELING INC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "38072754",
+      "permit_number": "B24-001262"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "Substantial kitchen renovation with 1-2 family conversion suggests active preparation, but owner occupancy and single permit lower likelihood compared to full property overhaul or owner-non-occupied projects."
+  }
+}

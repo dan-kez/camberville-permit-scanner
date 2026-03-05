@@ -1,5 +1,7 @@
 {
   "address": "22 MEAD ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.400477096625,
+  "lng": -71.128272279691,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=22+MEAD+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/22%20MEAD%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=22+MEAD+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property has been held by the same owner-occupant for over 14 years and the only recent permit is for a minor electrical upgrade (EV charger) rather than significant renovations."
-  },
-  "lat": 42.400477096625,
-  "lng": -71.128272279691
+    "reasoning": "Minor electrical permit for car charger, not a full-scale renovation"
+  }
 }

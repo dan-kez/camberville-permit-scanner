@@ -1,0 +1,45 @@
+{
+  "address": "7 ELLSWORTH AVE, CAMBRIDGE, MA 02139",
+  "lat": 42.37282,
+  "lng": -71.107542,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+ELLSWORTH+AVE%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/7%20ELLSWORTH%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=7+ELLSWORTH+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1870",
+    "bedrooms": "4",
+    "bathrooms": "3/1",
+    "total_rooms": "9",
+    "living_area": "2750",
+    "last_sale_date": "2018-01-22T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "3408300",
+    "lot_size": "5218",
+    "property_pid": "11140",
+    "property_parcel": "139-67"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.43,
+  "max_score": 2,
+  "total_cost": 8000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-07-11",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Work includes removal of existing flooring, installation ofpremium **Ipe hardwood flooring**, *, replacement of rotten joists, and railing restoration. alladhering to original dimensions and design.",
+      "cost": 8000.0,
+      "property_use": "One-Family",
+      "contractor": "Diego p pinto",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: sign; permit completed; all permits completed",
+      "permit_id": "1173728"
+    }
+  ]
+}

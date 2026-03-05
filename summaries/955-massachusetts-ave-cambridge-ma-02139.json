@@ -1,5 +1,7 @@
 {
   "address": "955 MASSACHUSETTS AVE, CAMBRIDGE, MA 02139",
+  "lat": 42.369028,
+  "lng": -71.109926,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=955+MASSACHUSETTS+AVE%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/955%20MASSACHUSETTS%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=955+MASSACHUSETTS+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2022-03-09T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "2565000",
-    "lot_size": "1389"
+    "lot_size": "1389",
+    "property_pid": "18815",
+    "property_parcel": "221-83"
   },
   "property_use": "",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "Zell Builders Co., Inc",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($158,057)"
+      "score_reasons": "moderate cost ($158,057)",
+      "permit_id": "271014"
     }
   ]
 }

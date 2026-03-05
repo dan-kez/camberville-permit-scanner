@@ -1,5 +1,7 @@
 {
   "address": "47 LIBERTY AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.399381791427,
+  "lng": -71.116412641069,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=47+LIBERTY+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/47%20LIBERTY%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=47+LIBERTY+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2005-08-05",
     "last_sale_price": 975000,
     "assessed_value": 1649300,
-    "lot_size": 0.1189
+    "lot_size": 0.1189,
+    "property_parcel": "20_G_9"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",
@@ -32,8 +35,11 @@
       "cost": 60.0,
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "Eric wholey",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: addition"
+      "score_reasons": "keyword: addition",
+      "permit_id": "52690132",
+      "permit_number": "P25-000657"
     }
   ]
 }

@@ -1,6 +1,10 @@
 {
   "address": "10 WELLINGTON AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.389925705451,
+  "lng": -71.090771644884,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+WELLINGTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/10%20WELLINGTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+WELLINGTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1880,
@@ -31,14 +35,15 @@
       "cost": 225.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Andre Batista Lopes Electrician",
+      "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52688464",
+      "permit_number": "E25-001706"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The extremely low cost ($225) and lack of recent sales history indicate minor owner maintenance rather than a full renovation flip."
-  },
-  "zillow_url": "https://www.zillow.com/homes/10%20WELLINGTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
-  "google_search_url": "https://www.google.com/search?q=10+WELLINGTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
+    "reasoning": "Only minor electrical work for heat pump installation with owner-occupied status; no significant renovation scope or kitchen/bathroom updates."
+  }
 }

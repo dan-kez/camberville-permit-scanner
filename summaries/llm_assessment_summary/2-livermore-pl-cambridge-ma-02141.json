@@ -1,5 +1,7 @@
 {
   "address": "2 LIVERMORE PL, CAMBRIDGE, MA 02141",
+  "lat": 42.370841,
+  "lng": -71.094824,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+LIVERMORE+PL%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/2%20LIVERMORE%20PL%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=2+LIVERMORE+PL%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "high",
-    "reasoning": "A comprehensive gut renovation including an elevator and basement excavation initiated just seven months after a recent sale strongly indicates a value-add flip intended for resale."
-  },
-  "lat": 42.370841,
-  "lng": -71.094824
+    "reasoning": "Comprehensive interior demolition-to-stud renovation with $225K cost, complete system upgrades (electric, plumbing, insulation), elevator installation, and basement floor drop, indicating high-end prep-for-sale improvements"
+  }
 }

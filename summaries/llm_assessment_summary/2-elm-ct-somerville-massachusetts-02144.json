@@ -1,5 +1,7 @@
 {
   "address": "2 ELM CT, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396680597401,
+  "lng": -71.121212118827,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+ELM+CT%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/2%20ELM%20CT%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=2+ELM+CT%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "A single minor shower stall replacement by a long-term owner-occupant is consistent with basic maintenance rather than a comprehensive renovation for sale."
-  },
-  "lat": 42.396680597401,
-  "lng": -71.121212118827
+    "reasoning": "Minimal $60 shower stall replacement by owner-occupant with 18+ years of ownership does not indicate sale preparation."
+  }
 }

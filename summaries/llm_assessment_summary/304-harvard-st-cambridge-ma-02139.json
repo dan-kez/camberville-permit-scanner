@@ -1,5 +1,7 @@
 {
   "address": "304 HARVARD ST, CAMBRIDGE, MA 02139",
+  "lat": 42.369749,
+  "lng": -71.106217,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=304+HARVARD+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/304%20HARVARD%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=304+HARVARD+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -29,8 +31,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied and the single permit for a roof deck suggests a personal lifestyle improvement rather than the high-end interior renovations typical of a property being prepared for sale."
-  },
-  "lat": 42.369749,
-  "lng": -71.106217
+    "reasoning": "Maintenance-focused project (roof deck) with owner-occupied status; not indicative of simultaneous full-scale renovations"
+  }
 }

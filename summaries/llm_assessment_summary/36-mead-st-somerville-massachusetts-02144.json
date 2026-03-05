@@ -1,6 +1,10 @@
 {
   "address": "36 MEAD ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.400777713582,
+  "lng": -71.128797657382,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=36+MEAD+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/36%20MEAD%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=36+MEAD+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 2014,
@@ -14,7 +18,7 @@
     "lot_size": 0.07150000000000001,
     "property_parcel": "13_A_21"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Davis",
   "distance_mi": 0.43,
   "max_score": 2,
@@ -24,17 +28,6 @@
   "completion_ratio": "0/2",
   "permits": [
     {
-      "date": "2025-11-24",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "Basement Remodel",
-      "cost": 174.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Attilio Dimascio Jr",
-      "score": 2,
-      "score_reasons": "keyword: remodel"
-    },
-    {
       "date": "2026-01-20",
       "source": "Somerville",
       "status": "Issued",
@@ -42,16 +35,29 @@
       "cost": 7880.0,
       "property_use": "Building Permit - Residential Alteration",
       "contractor": "Attilio Dimascio Jr",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52648760",
+      "permit_number": "B25-001895"
+    },
+    {
+      "date": "2025-11-24",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Basement Remodel",
+      "cost": 174.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Attilio Dimascio Jr",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52692219",
+      "permit_number": "E25-001719"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The last sale date of 2021 indicates the property has been held for several years, and the scope of work is limited to a basement remodel rather than a full renovation."
-  },
-  "lat": 42.400777713582,
-  "lng": -71.128797657382,
-  "zillow_url": "https://www.zillow.com/homes/36%20MEAD%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
-  "google_search_url": "https://www.google.com/search?q=36+MEAD+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
+    "reasoning": "Basement-only renovation with both permits showing owner-occupied status, indicating personal improvement rather than a sale preparation project"
+  }
 }

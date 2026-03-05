@@ -1,5 +1,7 @@
 {
   "address": "13 WALKER ST, CAMBRIDGE, MA 02138",
+  "lat": 42.379742,
+  "lng": -71.12408,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=13+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/13%20WALKER%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=13+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "A long-term owner-occupant of over 20 years is performing a single bathroom renovation, which characterizes a typical home improvement rather than a high-end preparation for sale."
-  },
-  "lat": 42.379742,
-  "lng": -71.12408
+    "reasoning": "Single bathroom renovation at moderate cost by long-term owner-occupant, with no kitchen or multi-bathroom scope, indicating maintenance rather than sale preparation"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "29 BOWDOIN ST, CAMBRIDGE, MA 02138",
+  "lat": 42.383283,
+  "lng": -71.121346,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=29+BOWDOIN+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/29%20BOWDOIN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=29+BOWDOIN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -23,7 +25,8 @@
       "contractor": "Wendel Klein Design Build",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($448,000); keyword: gut"
+      "score_reasons": "high cost ($448,000); keyword: gut",
+      "permit_id": "1148302"
     }
   ]
 }

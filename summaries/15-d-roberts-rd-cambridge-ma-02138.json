@@ -1,0 +1,32 @@
+{
+  "address": "15-D ROBERTS RD, CAMBRIDGE, MA 02138",
+  "lat": 42.375991,
+  "lng": -71.108923,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15-D+ROBERTS+RD%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/15-D%20ROBERTS%20RD%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=15-D+ROBERTS+RD%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.52,
+  "max_score": 7,
+  "total_cost": 12409.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-06-06",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "REMOVE & REPLACE 3 WINDOWS; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 12409.0,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "1168847"
+    }
+  ]
+}

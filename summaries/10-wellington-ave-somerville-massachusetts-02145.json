@@ -1,5 +1,7 @@
 {
   "address": "10 WELLINGTON AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.389925705451,
+  "lng": -71.090771644884,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+WELLINGTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/10%20WELLINGTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=10+WELLINGTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "1993-04-05",
     "last_sale_price": 1,
     "assessed_value": 734400,
-    "lot_size": 0.0509
+    "lot_size": 0.0509,
+    "property_parcel": "78_A_8"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -32,8 +35,11 @@
       "cost": 225.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Andre Batista Lopes Electrician",
+      "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52688464",
+      "permit_number": "E25-001706"
     }
   ]
 }

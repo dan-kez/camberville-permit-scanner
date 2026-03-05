@@ -1,5 +1,7 @@
 {
   "address": "25 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.395527959985,
+  "lng": -71.112970361073,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=25+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/25%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=25+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The long-term owner-occupant is performing standard roof maintenance with no evidence of the high-end interior renovations typical of a pre-sale preparation."
-  },
-  "lat": 42.395527959985,
-  "lng": -71.112970361073
+    "reasoning": "Single $440 roof replacement is routine maintenance, not full-scale renovation; owner_occupied and long-term ownership further indicate this is not a flip project."
+  }
 }

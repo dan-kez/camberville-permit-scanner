@@ -1,6 +1,10 @@
 {
   "address": "5 WILLOW AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.391481302861,
+  "lng": -71.118382304496,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/5%20WILLOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=5+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1900,
@@ -31,14 +35,15 @@
       "cost": 4275.0,
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "Don Foote Contracting",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52687563",
+      "permit_number": "B25-002025"
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The extremely low permit cost ($4,275) and minor scope of work suggest standard owner maintenance rather than a high-cost flip, while the long time since the last sale (2011) indicates long-term ownership and appreciation rather than a recent resale attempt."
-  },
-  "zillow_url": "https://www.zillow.com/homes/5%20WILLOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
-  "google_search_url": "https://www.google.com/search?q=5+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
+    "likelihood": "medium",
+    "reasoning": "Long-term owner-occupied property with a single bathroom addition, not full kitchen/bath overhaul or gut renovation"
+  }
 }

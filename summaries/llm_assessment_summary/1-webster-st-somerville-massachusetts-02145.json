@@ -1,0 +1,49 @@
+{
+  "address": "1 WEBSTER ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.385485182696,
+  "lng": -71.083766134029,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1+WEBSTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/1%20WEBSTER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=1+WEBSTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2509,
+    "last_sale_date": "2022-08-15",
+    "last_sale_price": 1200000,
+    "assessed_value": 1173900,
+    "lot_size": 0.0809,
+    "property_parcel": "91_B_14"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.63,
+  "max_score": 7,
+  "total_cost": 440.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-05-27",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rebuild chimney and install new chimney cap",
+      "cost": 440.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Murray Masonry & More Corp.",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: rebuild; permit completed; all permits completed",
+      "permit_id": "51887727",
+      "permit_number": "B25-000476"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Minor chimney maintenance repair on an owner-occupied property with no extensive renovation work or signs of flip activity"
+  }
+}

@@ -1,5 +1,7 @@
 {
   "address": "15 ROBINSON ST, CAMBRIDGE, MA 02138",
+  "lat": 42.38379,
+  "lng": -71.126276,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+ROBINSON+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/15%20ROBINSON%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=15+ROBINSON+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -21,10 +23,10 @@
   "nearest_square": "Porter",
   "distance_mi": 0.49,
   "max_score": 7,
-  "total_cost": 342071.2,
-  "permit_count": 2,
-  "completed_permits": 2,
-  "completion_ratio": "2/2 complete",
+  "total_cost": 356642.2,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
   "permits": [
     {
       "date": "2025-04-17",
@@ -38,6 +40,19 @@
       "score": 7,
       "score_reasons": "high cost ($279,371); keyword: structural; minor: shed; permit completed; all permits completed",
       "permit_id": "1160698"
+    },
+    {
+      "date": "2025-04-22",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "INSTALL 1 TRIPLE CASEMENT WINDOW FOR REPLACEMENT NO STRUCTURAL CHANGES",
+      "cost": 14571.0,
+      "property_use": "One-Family",
+      "contractor": "PELLA OF BOSTON",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "1161228"
     },
     {
       "date": "2025-05-21",
@@ -55,8 +70,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied by long-term owners and the permits focus on basement finishing and water damage repairs rather than the high-end kitchen and bathroom updates typically associated with sale preparation."
-  },
-  "lat": 42.38379,
-  "lng": -71.126276
+    "reasoning": "All permits are owner-occupied projects focused on basement finishing and water damage repair, not full-scale kitchen and bathroom updates typical of prep-for-sale renovations."
+  }
 }

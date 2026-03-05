@@ -1,5 +1,7 @@
 {
   "address": "9 FREMONT AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.378587714573,
+  "lng": -71.100348388357,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+FREMONT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/9%20FREMONT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=9+FREMONT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,17 +15,32 @@
     "last_sale_date": "1998-09-24",
     "last_sale_price": 1,
     "assessed_value": 994700,
-    "lot_size": 0.0546
+    "lot_size": 0.0546,
+    "property_parcel": "75_C_4"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Inman",
   "distance_mi": 0.34,
   "max_score": 7,
-  "total_cost": 649.0,
-  "permit_count": 2,
-  "completed_permits": 2,
-  "completion_ratio": "2/2 complete",
+  "total_cost": 709.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
   "permits": [
+    {
+      "date": "2024-12-03",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "first floor half bath renovation",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "ridgewood remodeling",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "51223145",
+      "permit_number": "P24-000537"
+    },
     {
       "date": "2024-10-28",
       "source": "Somerville",
@@ -34,7 +51,9 @@
       "contractor": "Edson Miranda",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "51327058",
+      "permit_number": "E24-001757"
     },
     {
       "date": "2024-09-09",
@@ -46,7 +65,9 @@
       "contractor": "Spring Home Improvement",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51170874",
+      "permit_number": "B24-001491"
     }
   ]
 }

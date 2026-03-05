@@ -1,0 +1,73 @@
+{
+  "address": "57 COLUMBUS AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.381754774778,
+  "lng": -71.094551967035,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=57+COLUMBUS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/57%20COLUMBUS%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=57+COLUMBUS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1877,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2318,
+    "last_sale_date": "2003-09-22",
+    "last_sale_price": 428000,
+    "assessed_value": 1173000,
+    "lot_size": 0.09330000000000001,
+    "property_parcel": "80_E_9"
+  },
+  "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+  "nearest_square": "Union",
+  "distance_mi": 0.16,
+  "max_score": 2,
+  "total_cost": 2130.0,
+  "permit_count": 3,
+  "completed_permits": 1,
+  "completion_ratio": "1/10 complete",
+  "permits": [
+    {
+      "date": "2025-01-08",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street for Home renovation",
+      "cost": 1500.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "MBA Building Group",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation",
+      "permit_id": "51514886",
+      "permit_number": "DP25-000002"
+    },
+    {
+      "date": "2024-12-05",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street for Home renovation",
+      "cost": 400.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "MBA Building Group",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation",
+      "permit_id": "51450495",
+      "permit_number": "DP24-000189"
+    },
+    {
+      "date": "2025-03-21",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Supply and Install plumbing for 3 1/2 bathroom, kitchen, and laundry home remodel",
+      "cost": 230.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Powderly & Sons Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel",
+      "permit_id": "51762383",
+      "permit_number": "P25-000182"
+    }
+  ]
+}

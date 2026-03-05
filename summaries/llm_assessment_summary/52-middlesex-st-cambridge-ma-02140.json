@@ -1,0 +1,49 @@
+{
+  "address": "52 MIDDLESEX ST, CAMBRIDGE, MA 02140",
+  "lat": 42.391956,
+  "lng": -71.13056,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=52+MIDDLESEX+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/52%20MIDDLESEX%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=52+MIDDLESEX+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1889",
+    "bedrooms": "4",
+    "bathrooms": "2/0",
+    "total_rooms": "8",
+    "living_area": "1929",
+    "last_sale_date": "1994-02-03T00:00:00.000",
+    "last_sale_price": "254000",
+    "assessed_value": "1284100",
+    "lot_size": "4500",
+    "property_pid": "16304",
+    "property_parcel": "195-43"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.53,
+  "max_score": 7,
+  "total_cost": 6201.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-04-29",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Remove 2 existing windows and replace with 2 new windows. No structural work",
+      "cost": 6201.0,
+      "property_use": "One-Family",
+      "contractor": "Newpro Operating LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "268249"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Permit is for routine window replacement (maintenance work), owner_occupied is true, and last sale occurred in 1994 indicating long-term owner occupancy rather than sale preparation."
+  }
+}

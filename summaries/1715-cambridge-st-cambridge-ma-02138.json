@@ -1,0 +1,45 @@
+{
+  "address": "1715 CAMBRIDGE ST, CAMBRIDGE, MA 02138",
+  "lat": 42.375372,
+  "lng": -71.11247,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1715+CAMBRIDGE+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/1715%20CAMBRIDGE%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=1715+CAMBRIDGE+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1845",
+    "bedrooms": "4",
+    "bathrooms": "4/1",
+    "total_rooms": "9",
+    "living_area": "2794",
+    "last_sale_date": "1989-06-28T00:00:00.000",
+    "last_sale_price": "755000",
+    "assessed_value": "2810100",
+    "lot_size": "5610",
+    "property_pid": "11652",
+    "property_parcel": "142-125"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.68,
+  "max_score": 2,
+  "total_cost": 20410.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-09-25",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Second floor bathroom remodeling/renovation",
+      "cost": 20410.0,
+      "property_use": "One-Family",
+      "contractor": "JNissi Pro Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation",
+      "permit_id": "1185032"
+    }
+  ]
+}

@@ -1,6 +1,10 @@
 {
   "address": "36 CORINTHIAN RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.400522233173,
+  "lng": -71.12370162789,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=36+CORINTHIAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/36%20CORINTHIAN%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=36+CORINTHIAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1920,
@@ -31,8 +35,11 @@
       "cost": 57.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Downing Electric, Inc.",
+      "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; permit completed; most permits completed",
+      "permit_id": "52632806",
+      "permit_number": "E25-001540"
     },
     {
       "date": "2025-10-14",
@@ -42,8 +49,11 @@
       "cost": 60.0,
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "C.C.R.P.H.Inc. Classic Cons. Remodeling Plmb. & Heat Inc.",
+      "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "52617317",
+      "permit_number": "P25-000597"
     },
     {
       "date": "2025-10-15",
@@ -53,14 +63,15 @@
       "cost": 750.0,
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "C.C.R.P.H.Inc. Classic Cons. Remodeling Plmb. & Heat Inc.",
+      "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "52589714",
+      "permit_number": "B25-001700"
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "The permits indicate a focused kitchen renovation rather than a full-house overhaul, suggesting a cosmetic update intended to improve the property's resale value."
-  },
-  "zillow_url": "https://www.zillow.com/homes/36%20CORINTHIAN%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
-  "google_search_url": "https://www.google.com/search?q=36+CORINTHIAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
+    "likelihood": "low",
+    "reasoning": "Only kitchen renovation with moderate cost and owner-occupied status; lacks multiple bathroom updates and significant 'gut' work typical of sale preparation"
+  }
 }

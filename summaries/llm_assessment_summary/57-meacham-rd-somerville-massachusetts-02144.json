@@ -1,0 +1,63 @@
+{
+  "address": "57 MEACHAM RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396837799995,
+  "lng": -71.124986573646,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=57+MEACHAM+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/57%20MEACHAM%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=57+MEACHAM+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1892,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2091,
+    "last_sale_date": "2007-11-15",
+    "last_sale_price": 705000,
+    "assessed_value": 1464700,
+    "lot_size": 0.053000000000000005,
+    "property_parcel": "17_F_11"
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.13,
+  "max_score": 5,
+  "total_cost": 1133.5,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-11-20",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Reconnect power/control wiring for AC/HP, 4 ton and 3 ton and service upgrade 100-200 amp",
+      "cost": 205.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "D'Ambrosio Electric Inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51372400",
+      "permit_number": "E24-001882"
+    },
+    {
+      "date": "2025-04-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replacing AC system with new in existing location in the basement. Reconnecting to existing ductwork. Installing single zone ductless in the 3rd floor living room.",
+      "cost": 928.5,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Central Cooling & Heating",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51332155",
+      "permit_number": "B24-001953"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Permits are limited to HVAC system replacement and service upgrade, no kitchen or bathroom renovations, and both permits confirm owner-occupied status"
+  }
+}

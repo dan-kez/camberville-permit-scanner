@@ -1,0 +1,49 @@
+{
+  "address": "15 FAIRFIELD ST, CAMBRIDGE, MA 02140",
+  "lat": 42.392069,
+  "lng": -71.126379,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+FAIRFIELD+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/15%20FAIRFIELD%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=15+FAIRFIELD+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1898",
+    "bedrooms": "5",
+    "bathrooms": "2/0",
+    "total_rooms": "8",
+    "living_area": "2163",
+    "last_sale_date": "2017-01-23T00:00:00.000",
+    "last_sale_price": "1300000",
+    "assessed_value": "1848200",
+    "lot_size": "4350",
+    "property_pid": "16617",
+    "property_parcel": "198-65"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.38,
+  "max_score": 7,
+  "total_cost": 18650.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-04-06",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Bathroom remodeling",
+      "cost": 18650.0,
+      "property_use": "One-Family",
+      "contractor": "Paulo neres de sousa",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "1158824"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Single bathroom remodel with owner-occupied status, consistent with typical maintenance rather than sale preparation"
+  }
+}

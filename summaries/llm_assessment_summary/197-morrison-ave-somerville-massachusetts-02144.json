@@ -1,5 +1,7 @@
 {
   "address": "197 MORRISON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.397592883742,
+  "lng": -71.119265589453,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=197+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/197%20MORRISON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=197+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -20,10 +22,10 @@
   "nearest_square": "Davis",
   "distance_mi": 0.18,
   "max_score": 5,
-  "total_cost": 60.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "total_cost": 945.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
   "permits": [
     {
       "date": "2024-10-01",
@@ -38,12 +40,38 @@
       "score_reasons": "permit completed; all permits completed",
       "permit_id": "51234453",
       "permit_number": "P24-000550"
+    },
+    {
+      "date": "2024-12-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace existing shower enclosure, layout to remain 'as is'",
+      "cost": 840.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "PL Esposito Construction LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51206263",
+      "permit_number": "B24-001595"
+    },
+    {
+      "date": "2024-12-16",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "install shower trim",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Joseph Nesta",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51392497",
+      "permit_number": "E24-001934"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent activity is a minor bathroom plumbing permit by an owner-occupant who purchased the property in 2023."
-  },
-  "lat": 42.397592883742,
-  "lng": -71.119265589453
+    "reasoning": "Three bathroom-related permits totaling $945 across 2024 for routine maintenance, all owner-occupied work focused on a single bathroom."
+  }
 }

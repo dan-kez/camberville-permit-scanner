@@ -1,5 +1,7 @@
 {
   "address": "10 MILLER AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.392329,
+  "lng": -71.120775,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+MILLER+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/10%20MILLER%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=10+MILLER+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "A significant kitchen renovation by a long-term owner-occupant without accompanying bathroom updates suggests personal use rather than preparation for sale."
-  },
-  "lat": 42.392329,
-  "lng": -71.120775
+    "reasoning": "Single major kitchen renovation in an older home with long-term owner-occupant (since 2016) and no bathroom updates, typical of a homeowner renovation rather than sale prep"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "413 BROADWAY, CAMBRIDGE, MA 02138",
+  "lat": 42.372607,
+  "lng": -71.108927,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=413+BROADWAY%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/413%20BROADWAY%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=413+BROADWAY%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -17,28 +19,15 @@
     "property_pid": "11111",
     "property_parcel": "139-35"
   },
-  "property_use": "Townhouse",
+  "property_use": "One-Family",
   "nearest_square": "Inman",
   "distance_mi": 0.5,
-  "max_score": 2,
-  "total_cost": 650195.0,
-  "permit_count": 2,
+  "max_score": 1,
+  "total_cost": 28402.0,
+  "permit_count": 1,
   "completed_permits": 0,
-  "completion_ratio": "0/2",
+  "completion_ratio": "0/1",
   "permits": [
-    {
-      "date": "2023-12-19",
-      "source": "Cambridge Alteration",
-      "status": "Active",
-      "description": "Renovate basement and bathroom; Replace 7 windows and 1 door; Install 2 new windows; Remove boiler and AC and install heat pumps; Renovate exterior side entry; Replace kitchen range.",
-      "cost": 621793.0,
-      "property_use": "Townhouse",
-      "contractor": "Byggmeister Assoc. Inc.",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "high cost ($621,793); keyword: renovate; minor: boiler",
-      "permit_id": "252638"
-    },
     {
       "date": "2024-03-14",
       "source": "Cambridge Alteration",
@@ -55,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The long-term owner-occupant is performing a major basement renovation and system upgrades rather than the comprehensive kitchen and multi-bathroom updates typical of a high-end sale preparation."
-  },
-  "lat": 42.372607,
-  "lng": -71.108927
+    "reasoning": "Only minor basement window work completed, with no kitchen or bathroom renovations, and owner-occupied status indicates routine maintenance rather than sale preparation"
+  }
 }

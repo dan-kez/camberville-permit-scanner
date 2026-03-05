@@ -1,5 +1,7 @@
 {
   "address": "53 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396361163071,
+  "lng": -71.11240709718,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=53+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/53%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=53+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2021-07-19",
     "last_sale_price": 1350000,
     "assessed_value": 1503300,
-    "lot_size": 0.0781
+    "lot_size": 0.0781,
+    "property_parcel": "28_D_29"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +37,9 @@
       "contractor": "Voltech Electric Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed"
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "14271270",
+      "permit_number": "E24-000423"
     },
     {
       "date": "2024-03-28",
@@ -46,7 +51,9 @@
       "contractor": "Critical Mass Solar",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "14284920",
+      "permit_number": "B24-000480"
     }
   ]
 }

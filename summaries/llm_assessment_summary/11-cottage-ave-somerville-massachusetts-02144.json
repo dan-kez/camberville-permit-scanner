@@ -1,6 +1,10 @@
 {
   "address": "11 COTTAGE AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.39390870202,
+  "lng": -71.121830619463,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/11%20COTTAGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=11+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1920,
@@ -31,14 +35,15 @@
       "cost": 508.0,
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "Giga Property Solutions Inc",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52771062",
+      "permit_number": "B25-002200"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property has been owned since 1997 and has only a single minor permit for a $508 porch remodel, suggesting routine maintenance rather than a major renovation for sale."
-  },
-  "zillow_url": "https://www.zillow.com/homes/11%20COTTAGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
-  "google_search_url": "https://www.google.com/search?q=11+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
+    "reasoning": "Porch remodeling with owner-occupied status indicates maintenance work rather than high-end renovation or sale preparation"
+  }
 }

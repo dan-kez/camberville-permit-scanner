@@ -1,5 +1,7 @@
 {
   "address": "82 AVON HILL ST, CAMBRIDGE, MA 02140",
+  "lat": 42.385626,
+  "lng": -71.1247,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=82+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/82%20AVON%20HILL%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=82+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2022-03-14T00:00:00.000",
     "last_sale_price": "3605000",
     "assessed_value": "3537200",
-    "lot_size": "5962"
+    "lot_size": "5962",
+    "property_pid": "17708",
+    "property_parcel": "210-43"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "ALEXANDER HARWIN",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($682,486); keyword: gut; minor: insulation"
+      "score_reasons": "high cost ($682,486); keyword: gut; minor: insulation",
+      "permit_id": "272687"
     }
   ]
 }

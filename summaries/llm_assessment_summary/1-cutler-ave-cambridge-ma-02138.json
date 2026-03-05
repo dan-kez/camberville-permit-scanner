@@ -1,0 +1,49 @@
+{
+  "address": "1 CUTLER AVE, CAMBRIDGE, MA 02138",
+  "lat": 42.384438,
+  "lng": -71.128083,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1+CUTLER+AVE%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/1%20CUTLER%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=1+CUTLER+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1946",
+    "bedrooms": "2",
+    "bathrooms": "2/0",
+    "total_rooms": "6",
+    "living_area": "1891",
+    "last_sale_date": "1989-01-19T00:00:00.000",
+    "last_sale_price": "225000",
+    "assessed_value": "2024900",
+    "lot_size": "4672",
+    "property_pid": "17559",
+    "property_parcel": "207-72"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.53,
+  "max_score": 7,
+  "total_cost": 10490.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-06-16",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "INSTALL 3 WINDOWS FOR REPLACEMENT NO STRUCTURAL CHANGES",
+      "cost": 10490.0,
+      "property_use": "One-Family",
+      "contractor": "MARVIN REPLACEMENTS",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "1170166"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Window replacement is routine maintenance, not a full renovation. Owner is owner-occupied and only has one minor permit with no kitchen or bathroom updates."
+  }
+}

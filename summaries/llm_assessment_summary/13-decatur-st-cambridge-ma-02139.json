@@ -1,5 +1,7 @@
 {
   "address": "13 DECATUR ST, CAMBRIDGE, MA 02139",
+  "lat": 42.361088,
+  "lng": -71.105192,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=13+DECATUR+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/13%20DECATUR%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=13+DECATUR+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for a minor skylight installation by a long-term owner-occupant, which aligns with maintenance rather than a high-end pre-sale renovation."
-  },
-  "lat": 42.361088,
-  "lng": -71.105192
+    "reasoning": "Owner-occupied single-skylight installation is a personal home improvement, not a high-end prep-for-sale renovation"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "32 LOCKE ST, CAMBRIDGE, MA 02140",
+  "lat": 42.396959,
+  "lng": -71.127466,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/32%20LOCKE%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=32+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2024-04-25T00:00:00.000",
     "last_sale_price": "1573000",
     "assessed_value": "1753300",
-    "lot_size": "2464"
+    "lot_size": "2464",
+    "property_pid": "15029",
+    "property_parcel": "183-121"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +38,8 @@
       "contractor": "Pro touch Home improvement",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($155,000); keyword: renovate"
+      "score_reasons": "moderate cost ($155,000); keyword: renovate",
+      "permit_id": "271093"
     }
   ]
 }

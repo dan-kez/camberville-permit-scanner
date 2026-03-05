@@ -1,0 +1,62 @@
+{
+  "address": "194 SHERMAN ST, CAMBRIDGE, MA 02140",
+  "lat": 42.392784,
+  "lng": -71.132717,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=194+SHERMAN+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/194%20SHERMAN%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=194+SHERMAN+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1863",
+    "bedrooms": "4",
+    "bathrooms": "2/0",
+    "total_rooms": "11",
+    "living_area": "1630",
+    "last_sale_date": "2005-08-25T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1193100",
+    "lot_size": "4750",
+    "property_pid": "16215",
+    "property_parcel": "194-23"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.59,
+  "max_score": 7,
+  "total_cost": 4353.52,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-10-07",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "REMOVE/REPLACE 1 EXISTING EXTERIOR DOOR. NO STRUCTURAL WORK BEING DONE.",
+      "cost": 2353.52,
+      "property_use": "One-Family",
+      "contractor": "EAST COAST MILLWORK",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "1138802"
+    },
+    {
+      "date": "2025-04-09",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Residential weatherization/air sealing. No structural changes. (52859)",
+      "cost": 2000.0,
+      "property_use": "One-Family",
+      "contractor": "Adam Glenn",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "1159344"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Both permits are minor maintenance work (door replacement and weatherization) completed by owner-occupant, no kitchen/bathroom updates or structural changes."
+  }
+}

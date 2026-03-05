@@ -1,5 +1,7 @@
 {
   "address": "17 HURLBUT ST, CAMBRIDGE, MA 02138",
+  "lat": 42.383765,
+  "lng": -71.120741,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+HURLBUT+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/17%20HURLBUT%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=17+HURLBUT+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2015-07-29T00:00:00.000",
     "last_sale_price": "2450000",
     "assessed_value": "3821200",
-    "lot_size": "5092"
+    "lot_size": "5092",
+    "property_pid": "13953",
+    "property_parcel": "175-22"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Bennett Custom Renovations LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($278,763); keyword: gut"
+      "score_reasons": "high cost ($278,763); keyword: gut",
+      "permit_id": "1167725"
     }
   ]
 }

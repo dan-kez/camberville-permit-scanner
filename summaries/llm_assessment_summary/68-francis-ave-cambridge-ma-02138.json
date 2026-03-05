@@ -1,5 +1,7 @@
 {
   "address": "68 FRANCIS AVE, CAMBRIDGE, MA 02138",
+  "lat": 42.381241,
+  "lng": -71.111374,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=68+FRANCIS+AVE%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/68%20FRANCIS%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=68+FRANCIS+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "medium",
-    "reasoning": "The property is undergoing a $1.7M total reconstruction following fire damage, which constitutes significant whole-house work despite the 41-year owner occupancy."
-  },
-  "lat": 42.381241,
-  "lng": -71.111374
+    "reasoning": "While the high rebuild cost and extensive work suggest a major renovation, the owner has occupied this property since 1984 (owner_occupied=true) and the permit is specifically for fire damage reconstruction rather than typical sale preparation renovations."
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "70 CLARENDON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.401511088201,
+  "lng": -71.129771215436,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=70+CLARENDON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/70%20CLARENDON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=70+CLARENDON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,29 +15,18 @@
     "last_sale_date": "2011-06-10",
     "last_sale_price": 437500,
     "assessed_value": 1015000,
-    "lot_size": 0.0736
+    "lot_size": 0.0736,
+    "property_parcel": "9_D_39"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
   "distance_mi": 0.5,
-  "max_score": 2,
-  "total_cost": 643.0,
-  "permit_count": 2,
+  "max_score": 1,
+  "total_cost": 520.0,
+  "permit_count": 1,
   "completed_permits": 1,
-  "completion_ratio": "1/5 complete",
+  "completion_ratio": "1/4 complete",
   "permits": [
-    {
-      "date": "2023-07-28",
-      "source": "Somerville",
-      "status": "Withdrawn",
-      "description": "addition and renovation \r\nWITHDRAWN PER APPLICANT SEE ONLINE MESSAGE - JS 3/18/24",
-      "cost": 123.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "VICTHOR ARGUEDAS ELECTRICIAN",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "keyword: renovation"
-    },
     {
       "date": "2024-09-05",
       "source": "Somerville",
@@ -46,7 +37,9 @@
       "contractor": "Golden Key Construction",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "keyword: rebuild; minor: siding; permit completed"
+      "score_reasons": "keyword: rebuild; minor: siding; permit completed",
+      "permit_id": "17004433",
+      "permit_number": "B24-001049"
     }
   ]
 }

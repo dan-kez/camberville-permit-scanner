@@ -1,0 +1,32 @@
+{
+  "address": "18 ANDREW ST, CAMBRIDGE, MA 02139",
+  "lat": 42.361567,
+  "lng": -71.111805,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+ANDREW+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/18%20ANDREW%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=18+ANDREW+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.49,
+  "max_score": 4,
+  "total_cost": 4000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-10-10",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Residential weatherization/air sealing. No structural changes. (11597)",
+      "cost": 4000.0,
+      "property_use": "One-Family",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "1139259"
+    }
+  ]
+}

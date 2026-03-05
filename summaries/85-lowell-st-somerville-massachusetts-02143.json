@@ -1,5 +1,7 @@
 {
   "address": "85 LOWELL ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.38727333601,
+  "lng": -71.109848185959,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=85+LOWELL+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/85%20LOWELL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=85+LOWELL+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,16 +15,17 @@
     "last_sale_date": "1992-06-26",
     "last_sale_price": 1,
     "assessed_value": 1146100,
-    "lot_size": 0.0918
+    "lot_size": 0.0918,
+    "property_parcel": "38_E_18"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Porter",
   "distance_mi": 0.48,
   "max_score": 5,
-  "total_cost": 390.0,
-  "permit_count": 3,
-  "completed_permits": 3,
-  "completion_ratio": "3/4 complete",
+  "total_cost": 1585.0,
+  "permit_count": 7,
+  "completed_permits": 6,
+  "completion_ratio": "6/8 complete",
   "permits": [
     {
       "date": "2026-01-06",
@@ -32,8 +35,67 @@
       "cost": 165.0,
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "TREK Plumbing and Heating",
+      "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "52800823",
+      "permit_number": "P25-000742"
+    },
+    {
+      "date": "2025-05-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Single family  bathroom in master bedroom on the 3rd floor",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "JR Electrical Services LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51592695",
+      "permit_number": "E25-000233"
+    },
+    {
+      "date": "2025-01-23",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Update kitchen cabinets/flooring/tile/paint/interior doors",
+      "cost": 700.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Somerville Contracting Services Inc",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51515647",
+      "permit_number": "B25-000025"
+    },
+    {
+      "date": "2025-03-03",
+      "source": "Somerville",
+      "status": "Withdrawn",
+      "description": "WITHDRAWN PER APPLICANT 12/22/2025 @8:51am\r\n\r\ncomplete rough plumbing for full bath and half bath.",
+      "cost": 140.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Howell Plumbing and Heating",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "keyword: full; most permits completed",
+      "permit_id": "51661708",
+      "permit_number": "P25-000121"
+    },
+    {
+      "date": "2025-04-03",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Add a bathroom and closet to attic space. Building permits already exist B25-000005. Same contractor will perform the work at the existing permit that has been approved.",
+      "cost": 310.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Somerville Contracting Services Inc",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51745608",
+      "permit_number": "B25-000344"
     },
     {
       "date": "2025-09-08",
@@ -43,8 +105,11 @@
       "cost": 95.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "JR Electrical Services LLC",
+      "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "52361203",
+      "permit_number": "E25-001140"
     },
     {
       "date": "2026-01-15",
@@ -54,8 +119,11 @@
       "cost": 130.0,
       "property_use": "Certificate of Occupancy - Residential",
       "contractor": "Somerville Contracting Services Inc",
+      "owner_occupied": true,
       "score": 3,
-      "score_reasons": "keyword: renovation; most permits completed"
+      "score_reasons": "keyword: renovation; most permits completed",
+      "permit_id": "52929630",
+      "permit_number": "CO26-000001"
     }
   ]
 }

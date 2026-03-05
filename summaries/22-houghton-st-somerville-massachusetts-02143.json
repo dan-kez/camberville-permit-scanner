@@ -1,5 +1,7 @@
 {
   "address": "22 HOUGHTON ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.374634264211,
+  "lng": -71.098537645814,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=22+HOUGHTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/22%20HOUGHTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=22+HOUGHTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,16 +15,17 @@
     "last_sale_date": "2023-10-04",
     "last_sale_price": 400000,
     "assessed_value": 845200,
-    "lot_size": 0.0528
+    "lot_size": 0.0528,
+    "property_parcel": "83_C_10"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
   "distance_mi": 0.08,
-  "max_score": 7,
-  "total_cost": 7698.5,
-  "permit_count": 7,
+  "max_score": 5,
+  "total_cost": 7144.5,
+  "permit_count": 5,
   "completed_permits": 7,
-  "completion_ratio": "7/7 complete",
+  "completion_ratio": "7/8 complete",
   "permits": [
     {
       "date": "2024-03-18",
@@ -33,8 +36,10 @@
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "KNT Construction INC",
       "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: gut; permit completed; all permits completed"
+      "score": 5,
+      "score_reasons": "keyword: gut; permit completed; most permits completed",
+      "permit_id": "14181007",
+      "permit_number": "B24-000246"
     },
     {
       "date": "2024-06-13",
@@ -45,8 +50,10 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "Luciano Miranda Electrician",
       "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+      "score": 5,
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "14452546",
+      "permit_number": "E24-000902"
     },
     {
       "date": "2024-03-18",
@@ -57,8 +64,10 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "Luciano Miranda Electrician",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14267341",
+      "permit_number": "E24-000411"
     },
     {
       "date": "2024-06-11",
@@ -69,8 +78,10 @@
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "RG Plumbing Solutions",
       "owner_occupied": true,
-      "score": 4,
-      "score_reasons": "keyword: remodel; minor: water heater; permit completed; all permits completed"
+      "score": 2,
+      "score_reasons": "keyword: remodel; minor: water heater; permit completed; most permits completed",
+      "permit_id": "14438360",
+      "permit_number": "P24-000311"
     },
     {
       "date": "2024-06-11",
@@ -81,32 +92,10 @@
       "property_use": "Gas Fitting - Residential - Existing",
       "contractor": "RG Plumbing Solutions",
       "owner_occupied": true,
-      "score": 4,
-      "score_reasons": "keyword: remodel; minor: furnace; permit completed; all permits completed"
-    },
-    {
-      "date": "2024-05-21",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Finished basement floor is uneven and cracked in areas. Demo floor And pour new floor to existing elevation. No change in height.",
-      "cost": 250.0,
-      "property_use": "Building Permit - Residential Repair",
-      "contractor": "KNT Construction INC",
-      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: shed; permit completed; all permits completed"
-    },
-    {
-      "date": "2024-07-12",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Install 1 Furnace, 1 Condenser, 1 Coil, New ductwork.",
-      "cost": 304.0,
-      "property_use": "Sheet Metal Permit - Residential",
-      "contractor": "PET HVAC INC",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; minor: furnace; permit completed; most permits completed",
+      "permit_id": "14438392",
+      "permit_number": "G24-000259"
     }
   ]
 }

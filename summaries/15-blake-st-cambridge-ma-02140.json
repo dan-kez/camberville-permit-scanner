@@ -1,0 +1,45 @@
+{
+  "address": "15 BLAKE ST, CAMBRIDGE, MA 02140",
+  "lat": 42.391395,
+  "lng": -71.121769,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+BLAKE+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/15%20BLAKE%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=15+BLAKE+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "3",
+    "bathrooms": "3/1",
+    "total_rooms": "8",
+    "living_area": "2835",
+    "last_sale_date": "2024-06-17T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "2797800",
+    "lot_size": "4250",
+    "property_pid": "14726",
+    "property_parcel": "181-23"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.25,
+  "max_score": 2,
+  "total_cost": 10470.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-10-15",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Rebuilding existing first floor back porch. The porch framing has failed and I will reframe and install new trim as well as new Pt 5/4x6 decking. The stairs will remain and be reattached once the porch is framed.",
+      "cost": 10470.0,
+      "property_use": "One-Family",
+      "contractor": "Finally Finishing",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: rebuild",
+      "permit_id": "1187100"
+    }
+  ]
+}

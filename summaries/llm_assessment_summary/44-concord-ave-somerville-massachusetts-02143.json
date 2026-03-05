@@ -1,5 +1,7 @@
 {
   "address": "44 CONCORD AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.37648779637,
+  "lng": -71.098160795447,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=44+CONCORD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/44%20CONCORD%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=44+CONCORD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "A minor electrical panel swap by a long-term owner-occupant suggests routine maintenance rather than preparation for sale."
-  },
-  "lat": 42.37648779637,
-  "lng": -71.098160795447
+    "reasoning": "Electrical panel swap is a minor maintenance repair, not renovation work. Owner is owner-occupied."
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "37 LANCASTER ST, CAMBRIDGE, MA 02140",
+  "lat": 42.385437,
+  "lng": -71.122852,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37+LANCASTER+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/37%20LANCASTER%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=37+LANCASTER+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -54,9 +56,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The permits describe high-cost structural foundation repairs and historic window restoration on an owner-occupied property, which aligns with long-term maintenance rather than a kitchen/bathroom-focused pre-sale renovation."
-  },
-  "lat": 42.385437,
-  "lng": -71.122852
+    "likelihood": "medium",
+    "reasoning": "Significant structural foundation work ($376k) and substantial window repairs ($146k) indicate active renovation investment, but absence of simultaneous kitchen/bathroom updates and owner-occupied status suggest these are maintenance projects rather than full-scale sale preparation"
+  }
 }

@@ -1,0 +1,45 @@
+{
+  "address": "8 MONTROSE CT, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.389100884269,
+  "lng": -71.099732234655,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+MONTROSE+CT%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/8%20MONTROSE%20CT%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+MONTROSE+CT%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1380,
+    "last_sale_date": "2016-01-11",
+    "last_sale_price": 380000,
+    "assessed_value": 806900,
+    "lot_size": 0.0604,
+    "property_parcel": "50_K_2"
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.74,
+  "max_score": 4,
+  "total_cost": 60.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2025-07-17",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "make safe due to house demolition",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "A&A Electrical,LLC",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: demolition; permit completed",
+      "permit_id": "52326466",
+      "permit_number": "E25-001041"
+    }
+  ]
+}

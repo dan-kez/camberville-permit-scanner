@@ -1,0 +1,77 @@
+{
+  "address": "17 GILMAN ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.384737391204,
+  "lng": -71.089710831218,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/17%20GILMAN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=17+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2967,
+    "last_sale_date": "2013-06-28",
+    "last_sale_price": 639000,
+    "assessed_value": 1463900,
+    "lot_size": 0.2033,
+    "property_parcel": "92_K_22"
+  },
+  "property_use": "Building Permit - Residential New Construction",
+  "nearest_square": "Union",
+  "distance_mi": 0.4,
+  "max_score": 5,
+  "total_cost": 3370.0,
+  "permit_count": 3,
+  "completed_permits": 2,
+  "completion_ratio": "2/3 complete",
+  "permits": [
+    {
+      "date": "2025-07-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Foundation only for a 3 family modular building, see B24-001719 for construction",
+      "cost": 1320.0,
+      "property_use": "Building Permit - Residential New Construction",
+      "contractor": "Reframe Systems",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: foundation; permit completed; most permits completed",
+      "permit_id": "51770837",
+      "permit_number": "B25-000420"
+    },
+    {
+      "date": "2025-08-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Onsite electrical connections and new service for factory built (3rd party inspected) triple decker home.",
+      "cost": 1440.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Reframe Systems, Inc.",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "52264159",
+      "permit_number": "E25-000984"
+    },
+    {
+      "date": "2025-07-31",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "New water and sewer service. Onsite plumbing connections for modular triple decker home.",
+      "cost": 610.0,
+      "property_use": "Plumbing Permit - Residential - New",
+      "contractor": "Domination Plumbing and Heating",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed",
+      "permit_id": "52336725",
+      "permit_number": "P25-000431"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Foundational and utility work (foundation, electrical, water/sewer) with minimal cost indicates infrastructure work rather than prep-for-sale renovations."
+  }
+}

@@ -1,5 +1,7 @@
 {
   "address": "13 HUBBARD AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.388535,
+  "lng": -71.125996,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=13+HUBBARD+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/13%20HUBBARD%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=13+HUBBARD+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2020-12-14T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "1568800",
-    "lot_size": "5000"
+    "lot_size": "5000",
+    "property_pid": "17139",
+    "property_parcel": "202-30"
   },
   "property_use": "One or Two Family Dwelling",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "MAHMOOD FIROUZBAKHT",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "high cost ($875,000); new construction"
+      "score_reasons": "high cost ($875,000); new construction",
+      "permit_id": "1159835"
     },
     {
       "date": "2025-04-14",
@@ -46,7 +51,8 @@
       "contractor": "Boardman + Company",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($780,000); keyword: renovation"
+      "score_reasons": "high cost ($780,000); keyword: renovation",
+      "permit_id": "1159850"
     }
   ]
 }

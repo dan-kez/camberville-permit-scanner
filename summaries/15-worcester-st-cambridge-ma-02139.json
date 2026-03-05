@@ -1,5 +1,7 @@
 {
   "address": "15 WORCESTER ST, CAMBRIDGE, MA 02139",
+  "lat": 42.366777,
+  "lng": -71.099257,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+WORCESTER+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/15%20WORCESTER%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=15+WORCESTER+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2021-12-10T00:00:00.000",
     "last_sale_price": "1375000",
     "assessed_value": "1298100",
-    "lot_size": "3000"
+    "lot_size": "3000",
+    "property_pid": "4546",
+    "property_parcel": "89-66"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "gilnecarpentry@gmail.com",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($361,345); keyword: gut; minor: insulation"
+      "score_reasons": "high cost ($361,345); keyword: gut; minor: insulation",
+      "permit_id": "1190603"
     }
   ]
 }

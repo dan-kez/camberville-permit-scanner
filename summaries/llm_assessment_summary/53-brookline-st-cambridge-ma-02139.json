@@ -1,5 +1,7 @@
 {
   "address": "53 BROOKLINE ST, CAMBRIDGE, MA 02139",
+  "lat": 42.362691,
+  "lng": -71.102918,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=53+BROOKLINE+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/53%20BROOKLINE%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=53+BROOKLINE+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "A long-term owner-occupant (16 years) is performing a single bathroom renovation rather than a full-scale multi-room update."
-  },
-  "lat": 42.362691,
-  "lng": -71.102918
+    "likelihood": "medium",
+    "reasoning": "Single high-end bathroom renovation with $69k cost, but no kitchen updates or whole-house work"
+  }
 }

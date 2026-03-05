@@ -1,5 +1,7 @@
 {
   "address": "3 ST MARY RD, CAMBRIDGE, MA 02139",
+  "lat": 42.370859,
+  "lng": -71.100413,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+ST+MARY+RD%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/3%20ST%20MARY%20RD%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=3+ST+MARY+RD%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permit focuses on exterior maintenance and structural improvements like deck replacement and a new shed by a long-term owner-occupant, lacking the high-end interior updates typical of a sale preparation."
-  },
-  "lat": 42.370859,
-  "lng": -71.100413
+    "reasoning": "Minor outdoor structure renovation (garage removal, deck replacement, new shed) with no kitchen/bathroom updates, owner occupied status, and no evidence of planned sale"
+  }
 }

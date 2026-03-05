@@ -1,5 +1,7 @@
 {
   "address": "59 FRANCIS AVE, CAMBRIDGE, MA 02138",
+  "lat": 42.381099,
+  "lng": -71.112275,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=59+FRANCIS+AVE%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/59%20FRANCIS%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=59+FRANCIS+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "high",
-    "reasoning": "A massive $1.4M renovation of multiple kitchens and bathrooms immediately following a property transfer strongly indicates a high-end developer flip."
-  },
-  "lat": 42.381099,
-  "lng": -71.112275
+    "reasoning": "Extensive $1.4M renovation targeting all living spaces, kitchen, and bathrooms suggests comprehensive property upgrade; unusually high renovation cost indicates preparation for sale"
+  }
 }

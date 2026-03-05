@@ -1,5 +1,7 @@
 {
   "address": "33 FOLLEN ST, CAMBRIDGE, MA 02138",
+  "lat": 42.378747,
+  "lng": -71.120917,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33+FOLLEN+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/33%20FOLLEN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=33+FOLLEN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for owner-occupied window replacement without structural changes, which is consistent with maintenance rather than a high-end pre-sale renovation."
-  },
-  "lat": 42.378747,
-  "lng": -71.120917
+    "reasoning": "Owner-occupied status and single maintenance permit for window replacement (no kitchen/bathroom updates) indicate routine upkeep rather than sale preparation"
+  }
 }

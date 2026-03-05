@@ -1,5 +1,7 @@
 {
   "address": "30 LOCKE ST, CAMBRIDGE, MA 02140",
+  "lat": 42.396831,
+  "lng": -71.127332,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=30+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/30%20LOCKE%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=30+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,16 +15,18 @@
     "last_sale_date": "2017-02-22T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "2218800",
-    "lot_size": "3118"
+    "lot_size": "3118",
+    "property_pid": "15030",
+    "property_parcel": "183-122"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
   "distance_mi": 0.25,
   "max_score": 6,
-  "total_cost": 50500.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "total_cost": 60240.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
   "permits": [
     {
       "date": "2024-03-05",
@@ -34,7 +38,21 @@
       "contractor": "Boston Window and door LLC",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($50,500); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($50,500); permit completed; all permits completed",
+      "permit_id": "260774"
+    },
+    {
+      "date": "2024-03-12",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Replace front door, door provided by homeowner. Relocate two lights. Flatten roof. Build two new brackets to hold roof. Install new shingles where needed and paint shingles to match existing shingles. Install new trim around door, inside and out",
+      "cost": 9740.0,
+      "property_use": "One-Family",
+      "contractor": "Merida Brothers Construction Inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "261565"
     }
   ]
 }

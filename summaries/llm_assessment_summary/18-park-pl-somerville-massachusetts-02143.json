@@ -1,5 +1,7 @@
 {
   "address": "18 PARK PL, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.383747195072,
+  "lng": -71.104204566732,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+PARK+PL%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/18%20PARK%20PL%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=18+PARK+PL%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -16,15 +18,29 @@
     "lot_size": 0.058800000000000005,
     "property_parcel": "52_G_26"
   },
-  "property_use": "Building Permit - Residential Renovation",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.63,
   "max_score": 5,
-  "total_cost": 412.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "total_cost": 492.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
   "permits": [
+    {
+      "date": "2025-09-11",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "EV Charger",
+      "cost": 80.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "JP O'Brien Electric",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52548812",
+      "permit_number": "E25-001338"
+    },
     {
       "date": "2024-10-04",
       "source": "Somerville",
@@ -41,9 +57,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The property is owner-occupied with long-term ownership (8+ years) and the only recent activity is a single outdoor deck and patio project rather than significant interior renovations."
-  },
-  "lat": 42.383747195072,
-  "lng": -71.104204566732
+    "likelihood": "medium",
+    "reasoning": "Modest deck and electrical updates combined with significant value appreciation since 2016 suggest active property management, though permits are completed and relatively minor"
+  }
 }

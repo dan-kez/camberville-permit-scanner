@@ -1,6 +1,10 @@
 {
   "address": "16 BOSTON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.395244023015,
+  "lng": -71.111196917999,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+BOSTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/16%20BOSTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=16+BOSTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
   "property_info": {
     "property_class": "1040",
     "year_built": 1900,
@@ -14,15 +18,29 @@
     "lot_size": 0.0659,
     "property_parcel": "28_F_11"
   },
-  "property_use": "Certificate of Occupancy - Residential",
+  "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Davis",
   "distance_mi": 0.59,
   "max_score": 2,
   "total_cost": 130.0,
-  "permit_count": 1,
-  "completed_permits": 0,
-  "completion_ratio": "0/1",
+  "permit_count": 2,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
   "permits": [
+    {
+      "date": "2025-01-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Change 2 family to single family.  Add dormer, master suite on 3rd fl, add bathroom in basement, bring project from rough to finish- taking over an abandoned project B22-002086 (FEE PAID ON PREVIOUS PERMIT)",
+      "cost": 0.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "STR Properties Unlimited LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed",
+      "permit_id": "51374999",
+      "permit_number": "B24-002091"
+    },
     {
       "date": "2026-02-05",
       "source": "Somerville",
@@ -31,16 +49,15 @@
       "cost": 130.0,
       "property_use": "Certificate of Occupancy - Residential",
       "contractor": "STR Properties Unlimited LLC",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: convert"
+      "score_reasons": "keyword: convert",
+      "permit_id": "52951769",
+      "permit_number": "CO26-000008"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The structural conversion of a 2-family to a single-family indicates a value-add renovation intended to increase property value for a future sale."
-  },
-  "lat": 42.395244023015,
-  "lng": -71.111196917999,
-  "zillow_url": "https://www.zillow.com/homes/16%20BOSTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
-  "google_search_url": "https://www.google.com/search?q=16+BOSTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
+    "likelihood": "medium",
+    "reasoning": "Conversion from 2-family to single-family with dormer and master suite additions suggests a property enhancement project, though low-cost work and owner occupancy indicate this may be primarily for personal use rather than a quick flip."
+  }
 }

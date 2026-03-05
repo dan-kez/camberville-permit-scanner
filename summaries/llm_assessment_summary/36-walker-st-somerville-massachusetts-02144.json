@@ -1,5 +1,7 @@
 {
   "address": "36 WALKER ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.401297098213,
+  "lng": -71.119354772903,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=36+WALKER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/36%20WALKER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=36+WALKER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -20,10 +22,10 @@
   "nearest_square": "Davis",
   "distance_mi": 0.36,
   "max_score": 4,
-  "total_cost": 21214.0,
-  "permit_count": 4,
-  "completed_permits": 4,
-  "completion_ratio": "4/8 complete",
+  "total_cost": 529.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/3 complete",
   "permits": [
     {
       "date": "2024-04-11",
@@ -38,54 +40,10 @@
       "score_reasons": "keyword: gut; permit completed",
       "permit_id": "14314842",
       "permit_number": "E24-000558"
-    },
-    {
-      "date": "2023-07-13",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "reconnect service",
-      "cost": 100.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Sanibel Electrical Corp",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "permit completed",
-      "permit_id": "12062771",
-      "permit_number": "E23-001091"
-    },
-    {
-      "date": "2023-12-22",
-      "source": "Somerville",
-      "status": "Approved/Waiting for Payment",
-      "description": "Gut Renovation, Rebuild 3rd Floor due to fire on 3/20/23, new dormers, underpinning and finish basement, covert 3 fam to single family",
-      "cost": 20335.0,
-      "property_use": "Building Permit - Residential Renovation",
-      "contractor": "jt. construction & remodeling",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "keyword: gut",
-      "permit_id": "13930225",
-      "permit_number": "B23-001876"
-    },
-    {
-      "date": "2024-01-16",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "rough and finish plumbing for 4.5 baths, 2 laundries, 2 bar sinks 1 kitchen",
-      "cost": 250.0,
-      "property_use": "Plumbing Permit - Residential - Existing",
-      "contractor": "Pavidis Plumbing & Heating Inc.",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "permit completed",
-      "permit_id": "14099131",
-      "permit_number": "P24-000001"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property is undergoing a massive gut renovation and conversion from a 3-family to a high-end single-family with 4.5 bathrooms immediately following a 2023 purchase."
-  },
-  "lat": 42.401297098213,
-  "lng": -71.119354772903
+    "likelihood": "low",
+    "reasoning": "Single electrical permit at minimal cost (wire gutted) for routine work, owner_occupied is true, and no evidence of full-scale kitchen/bathroom renovations or other prep-for-sale indicators."
+  }
 }

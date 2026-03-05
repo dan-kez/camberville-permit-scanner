@@ -1,5 +1,7 @@
 {
   "address": "93 INMAN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.371583,
+  "lng": -71.102033,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=93+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/93%20INMAN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=93+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2019-05-22T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "1478700",
-    "lot_size": "2502"
+    "lot_size": "2502",
+    "property_pid": "7676",
+    "property_parcel": "114-83"
   },
   "property_use": "Two-Family",
   "nearest_square": "Inman",
@@ -34,7 +38,8 @@
       "contractor": "Iannelli Custom Contracting",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($177,483); keyword: remodel"
+      "score_reasons": "moderate cost ($177,483); keyword: remodel",
+      "permit_id": "1169378"
     }
   ]
 }

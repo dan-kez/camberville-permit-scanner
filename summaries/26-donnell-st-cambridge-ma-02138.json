@@ -1,5 +1,7 @@
 {
   "address": "26 DONNELL ST, CAMBRIDGE, MA 02138",
+  "lat": 42.384432,
+  "lng": -71.131606,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=26+DONNELL+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/26%20DONNELL%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=26+DONNELL+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2009-12-01T00:00:00.000",
     "last_sale_price": "1200000",
     "assessed_value": "2490800",
-    "lot_size": "4347"
+    "lot_size": "4347",
+    "property_pid": "19258",
+    "property_parcel": "229-25"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Morse Constructions",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($51,442); keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($51,442); keyword: remodel; permit completed; all permits completed",
+      "permit_id": "1159088"
     }
   ]
 }

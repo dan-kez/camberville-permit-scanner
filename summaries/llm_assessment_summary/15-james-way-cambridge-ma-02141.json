@@ -1,5 +1,7 @@
 {
   "address": "15 JAMES WAY, CAMBRIDGE, MA 02141",
+  "lat": 42.370115,
+  "lng": -71.088722,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+JAMES+WAY%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/15%20JAMES%20WAY%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=15+JAMES+WAY%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "This is a single bathroom upgrade by a long-term owner-occupant (10+ years), which is a minor update consistent with lifestyle improvement rather than sale preparation."
-  },
-  "lat": 42.370115,
-  "lng": -71.088722
+    "reasoning": "Only a single bathroom is being renovated (no kitchen work) and owner occupied status eliminates the primary indicator of a flip project"
+  }
 }

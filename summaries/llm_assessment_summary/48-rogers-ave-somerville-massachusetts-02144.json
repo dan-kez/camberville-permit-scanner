@@ -1,0 +1,49 @@
+{
+  "address": "48 ROGERS AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.397136614843,
+  "lng": -71.113242605288,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=48+ROGERS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/48%20ROGERS%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=48+ROGERS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2522,
+    "last_sale_date": "2018-11-30",
+    "last_sale_price": 1500000,
+    "assessed_value": 1707600,
+    "lot_size": 0.0868,
+    "property_parcel": "28_B_2"
+  },
+  "property_use": "Building Permit - Residential Alteration",
+  "nearest_square": "Davis",
+  "distance_mi": 0.47,
+  "max_score": 4,
+  "total_cost": 3685.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2025-07-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "removing existing deck and rebuilding a new deck along with a hardscape patio",
+      "cost": 3685.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Tom Curren Companies",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: rebuild; permit completed",
+      "permit_id": "52129072",
+      "permit_number": "B25-000938"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Single deck rebuild permit with no kitchen/bath updates and owner-occupied status indicates routine renovation rather than sale preparation."
+  }
+}

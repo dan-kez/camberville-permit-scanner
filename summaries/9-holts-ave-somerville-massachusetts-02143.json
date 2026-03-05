@@ -1,5 +1,7 @@
 {
   "address": "9 HOLTS AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.375255363237,
+  "lng": -71.098598917526,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+HOLTS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/9%20HOLTS%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=9+HOLTS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2016-06-29",
     "last_sale_price": 757000,
     "assessed_value": 1051900,
-    "lot_size": 0.0328
+    "lot_size": 0.0328,
+    "property_parcel": "83_E_24"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
@@ -32,8 +35,11 @@
       "cost": 11205.0,
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "Wells & Company builders",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovate"
+      "score_reasons": "keyword: renovate",
+      "permit_id": "52398084",
+      "permit_number": "B25-001354"
     },
     {
       "date": "2025-11-12",
@@ -43,8 +49,11 @@
       "cost": 331.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Modern Electric",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52693489",
+      "permit_number": "E25-001722"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "18 TENNEY ST, CAMBRIDGE, MA 02140",
+  "lat": 42.392838,
+  "lng": -71.120874,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+TENNEY+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/18%20TENNEY%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=18+TENNEY+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -29,8 +31,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The renovation is limited to a single bathroom and cosmetic updates by an owner-occupant, lacking the high-end multi-room or non-owner occupancy indicators of a prep-for-sale project."
-  },
-  "lat": 42.392838,
-  "lng": -71.120874
+    "reasoning": "Single bathroom renovation by owner-occupant with moderate cost, no kitchen or multiple bathroom work, not a flip"
+  }
 }

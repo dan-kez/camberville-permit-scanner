@@ -1,0 +1,32 @@
+{
+  "address": "108 AUBURN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.362418,
+  "lng": -71.10346,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=108+AUBURN+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/108%20AUBURN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=108+AUBURN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.2,
+  "max_score": 7,
+  "total_cost": 12086.93,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-07-05",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Remove decking fasteners. Separate deck surface planks from framing. Remove and dispose of old decking.Install wood decking with favorable site conditions. Re-frame and widen structure by 1ft. Layout and install 6 inwide decking on newly installed deck support framing. Fabricate decking and secure with corrosion resistant, flush mount decking screws.",
+      "cost": 12086.93,
+      "property_use": "One-Family",
+      "contractor": "New Chapter HI Services",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: framing; permit completed; all permits completed",
+      "permit_id": "279196"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 {
   "address": "136 HAMILTON ST, CAMBRIDGE, MA 02139",
+  "lat": 42.359011,
+  "lng": -71.1075,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=136+HAMILTON+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/136%20HAMILTON%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=136+HAMILTON+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permit describes exterior maintenance and repair work by a long-term owner-occupant, which fits the criteria for typical property upkeep rather than high-end interior renovations."
-  },
-  "lat": 42.359011,
-  "lng": -71.1075
+    "reasoning": "Exterior maintenance work on a long-term owner-occupied property with no interior renovations or major updates, indicating typical building upkeep rather than sale preparation"
+  }
 }

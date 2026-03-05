@@ -1,5 +1,7 @@
 {
   "address": "17 GRAY GDNS E, CAMBRIDGE, MA 02138",
+  "lat": 42.384263,
+  "lng": -71.127019,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+GRAY+GDNS+E%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/17%20GRAY%20GDNS%20E%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=17+GRAY+GDNS+E%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "medium",
-    "reasoning": "The property is undergoing a massive $1.5M whole-house gut renovation and addition shortly after a $3.3M purchase, which suggests a high-end customization for a new owner-occupant rather than a speculative flip, yet the total overhaul significantly elevates it to a near-market-ready state."
-  },
-  "lat": 42.384263,
-  "lng": -71.127019
+    "reasoning": "High-cost comprehensive renovation ($1.5M) with extensive structural work including addition, foundation modifications, and new MEPs suggests owner improvement rather than quick sale prep, despite owner-occupied status."
+  }
 }

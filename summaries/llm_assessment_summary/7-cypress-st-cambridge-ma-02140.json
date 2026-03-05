@@ -1,5 +1,7 @@
 {
   "address": "7 CYPRESS ST, CAMBRIDGE, MA 02140",
+  "lat": 42.39005,
+  "lng": -71.123711,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+CYPRESS+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/7%20CYPRESS%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=7+CYPRESS+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "The simultaneous cosmetic renovation of both the kitchen and multiple bathrooms by a long-term owner-occupant is a common indicator of preparing a home for listing."
-  },
-  "lat": 42.39005,
-  "lng": -71.123711
+    "likelihood": "low",
+    "reasoning": "Long-term owner with cosmetic-only updates and owner-occupied status indicate routine maintenance rather than sale preparation."
+  }
 }

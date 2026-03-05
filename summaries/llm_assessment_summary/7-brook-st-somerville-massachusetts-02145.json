@@ -1,5 +1,7 @@
 {
   "address": "7 BROOK ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.387119150901,
+  "lng": -71.0853043809,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+BROOK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/7%20BROOK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=7+BROOK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -19,73 +21,43 @@
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Union",
   "distance_mi": 0.66,
-  "max_score": 5,
-  "total_cost": 3054.0,
-  "permit_count": 4,
-  "completed_permits": 3,
-  "completion_ratio": "3/4 complete",
+  "max_score": 2,
+  "total_cost": 17450.5,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
   "permits": [
     {
-      "date": "2023-07-27",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Remodeling Kitchen, building new bathroom on second floor, resizing the first floor full bath to become half bath, installing walls in second bed room on second floor for small office. All are shown in the sketching floor plans attached with this application.",
-      "cost": 2492.0,
-      "property_use": "Building Permit - Residential Alteration",
-      "contractor": "Tran's home improvement construction",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed",
-      "permit_id": "12035303",
-      "permit_number": "B23-001112"
-    },
-    {
-      "date": "2023-08-07",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "remolding full bathromm,and kitchen sink",
-      "cost": 130.0,
-      "property_use": "Plumbing Permit - Residential - Existing",
-      "contractor": "phu's plumbing and heating",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: full; permit completed; most permits completed",
-      "permit_id": "12185679",
-      "permit_number": "G23-000359"
-    },
-    {
-      "date": "2023-08-14",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Service upgrade, interior renovation",
-      "cost": 372.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Ribeiro Electric",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed",
-      "permit_id": "12192283",
-      "permit_number": "E23-001250"
-    },
-    {
-      "date": "2023-08-07",
+      "date": "2025-07-22",
       "source": "Somerville",
       "status": "Issued",
-      "description": "replace the stove",
-      "cost": 60.0,
-      "property_use": "Gas Fitting - Residential - Existing",
-      "contractor": "phu's plumbing and heating",
+      "description": "Remove existing gable roof system, keeping existing roof turret intact. Note: less than 50% of exterior surfaces (including roof) are to be removed, therefore demolition review by Historic Preservation Commission is not required.\r\nConstruct new Mansard roof system that meets Somerville Zoning Ordinance definition for Half Story. New Half Story to have two bedrooms and one bathroom. Existing stair to remain.\r\nConstruct dormers in new Mansard roof that meet Somerville Zoning Ordinance 3.1.13.1 regarding dormer widths, dormers 3\u00e2\u0080\u0099-0\u00e2\u0080\u009d away from roof ends, and cumulative dormer lengths totaling less than 50% of total roof lengths.\r\nAdd windows at existing second floor office space",
+      "cost": 16842.5,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Feinmann Inc.",
       "owner_occupied": true,
-      "score": 1,
-      "score_reasons": "most permits completed",
-      "permit_id": "12185679",
-      "permit_number": "G23-000359"
+      "score": 2,
+      "score_reasons": "keyword: demolition",
+      "permit_id": "52152933",
+      "permit_number": "B25-001011"
+    },
+    {
+      "date": "2025-12-19",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Replace Mitsubishi system as part of renovation",
+      "cost": 608.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "CPS Corporation",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52716929",
+      "permit_number": "SM25-000275"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property underwent a simultaneous full-scale kitchen remodel and multiple bathroom renovations in 2023, which are primary indicators for high-end preparation for sale."
-  },
-  "lat": 42.387119150901,
-  "lng": -71.0853043809
+    "likelihood": "low",
+    "reasoning": "Both permits list owner_occupied as true, roof work is maintenance for an old structure, and HVAC replacement is standard maintenance with no kitchen/bathroom updates."
+  }
 }

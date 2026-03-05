@@ -1,0 +1,45 @@
+{
+  "address": "14 WESLEY ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.387495204987,
+  "lng": -71.091239857996,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=14+WESLEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/14%20WESLEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=14+WESLEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 1910,
+    "last_sale_date": "2012-05-21",
+    "last_sale_price": 1,
+    "assessed_value": 919300,
+    "lot_size": 0.059300000000000005,
+    "property_parcel": "78_F_10"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.55,
+  "max_score": 2,
+  "total_cost": 815.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-12-03",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Strip roof, install ice and water shield, and install Permalock roofing system.",
+      "cost": 815.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "East Coast Metal Roofing",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: roofing; permit completed; all permits completed",
+      "permit_id": "51365972",
+      "permit_number": "B24-002069"
+    }
+  ]
+}

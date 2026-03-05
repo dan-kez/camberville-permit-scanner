@@ -1,5 +1,7 @@
 {
   "address": "32 BOWDOIN ST, CAMBRIDGE, MA 02138",
+  "lat": 42.383574,
+  "lng": -71.121251,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32+BOWDOIN+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/32%20BOWDOIN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=32+BOWDOIN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The renovation is limited to bathrooms and is being performed by an owner-occupant, lacking the simultaneous kitchen updates or non-owner occupancy associated with a high likelihood of sale preparation."
-  },
-  "lat": 42.383574,
-  "lng": -71.121251
+    "reasoning": "Single bathroom remodel with owner_occupied=True and no kitchen work; moderate cost suggests personal improvement rather than sale preparation"
+  }
 }

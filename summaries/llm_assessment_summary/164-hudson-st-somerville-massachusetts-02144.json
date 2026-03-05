@@ -1,5 +1,7 @@
 {
   "address": "164 HUDSON ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.392235003594,
+  "lng": -71.111140004877,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=164+HUDSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/164%20HUDSON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=164+HUDSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -16,15 +18,29 @@
     "lot_size": 0.1109,
     "property_parcel": "34_E_7"
   },
-  "property_use": "Building Permit - Residential Repair",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
   "distance_mi": 0.48,
-  "max_score": 5,
-  "total_cost": 520.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "max_score": 3,
+  "total_cost": 1210.0,
+  "permit_count": 3,
+  "completed_permits": 2,
+  "completion_ratio": "2/3 complete",
   "permits": [
+    {
+      "date": "2025-07-31",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Installation of 2 condensers, 1 air handler unit, and 1 mini split head\r\nSM25-000120",
+      "cost": 120.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Forge Electrical, LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51983664",
+      "permit_number": "E25-000696"
+    },
     {
       "date": "2024-11-06",
       "source": "Somerville",
@@ -34,16 +50,28 @@
       "property_use": "Building Permit - Residential Repair",
       "contractor": "Bruin Corp of Framingham",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed",
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
       "permit_id": "51343048",
       "permit_number": "B24-001989"
+    },
+    {
+      "date": "2025-05-21",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Installation of 2 condensers, 1 air handler unit, and 1 floor unit",
+      "cost": 570.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "Forge Team, Inc.",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed",
+      "permit_id": "51983565",
+      "permit_number": "SM25-000120"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The work is limited to maintenance (window replacement) by a long-term owner-occupant of nearly 30 years, indicating standard home upkeep rather than preparation for sale."
-  },
-  "lat": 42.392235003594,
-  "lng": -71.111140004877
+    "reasoning": "All permits indicate owner-occupied status and represent maintenance work (HVAC and windows) rather than high-end simultaneous kitchen and bathroom renovations typical of sale preparation."
+  }
 }

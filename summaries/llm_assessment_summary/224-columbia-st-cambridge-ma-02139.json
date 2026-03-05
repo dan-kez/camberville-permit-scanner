@@ -1,0 +1,49 @@
+{
+  "address": "224 COLUMBIA ST, CAMBRIDGE, MA 02139",
+  "lat": 42.368686,
+  "lng": -71.096759,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=224+COLUMBIA+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/224%20COLUMBIA%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=224+COLUMBIA+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1874",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "7",
+    "living_area": "1364",
+    "last_sale_date": "2024-06-04T00:00:00.000",
+    "last_sale_price": "1290000",
+    "assessed_value": "1264000",
+    "lot_size": "938",
+    "property_pid": "3199",
+    "property_parcel": "76-1"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.37,
+  "max_score": 5,
+  "total_cost": 17500.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-06-06",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Remove and replace existing ceiling at lowest level in order to add acoustic separation. \u00a0Relocate 2 closets and remove 1. \u00a0Add interior vestibule to create a in-law suite downstairs. \u00a0Add small galley kitchen to lowest level with sink, mini-refrigerator, and washer and dryer. \u00a0Work includes adding new electrical recepticles for galley kitchen and pluming the sink and washing machine.",
+      "cost": 17500.0,
+      "property_use": "One-Family",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "274868"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Not a sale-prep project - owner-occupied renovation for in-law suite, not high-end kitchen/bathroom updates; limited scope of work"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "address": "359 GREEN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.365706,
+  "lng": -71.105603,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=359+GREEN+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/359%20GREEN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=359+GREEN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.1,
+  "max_score": 2,
+  "total_cost": 4711.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-01-09",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "INSTALL 3 WINDOWS FOR REPLACEMENT NO STRUCTURAL CHANGES",
+      "cost": 4711.0,
+      "property_use": "One-Family",
+      "contractor": "WINDOW WORLD",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "1148117"
+    }
+  ]
+}

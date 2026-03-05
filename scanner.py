@@ -51,8 +51,8 @@ def build_parser():
         help="Run LLM analysis on each summary (optionally only for addresses with score ≥ MIN_SCORE)",
     )
     parser.add_argument(
-        "--llm", choices=["opencode", "sonnet", "gemini"], default="opencode",
-        help="Which LLM to use for analysis (default: opencode / ollama)",
+        "--llm", choices=["ollama", "sonnet", "gemini"], default="ollama",
+        help="Which LLM to use for analysis (default: ollama)",
     )
     parser.add_argument(
         "--workers", type=int, default=4,

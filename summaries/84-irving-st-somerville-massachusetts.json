@@ -1,5 +1,7 @@
 {
   "address": "84 IRVING ST, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.400944848732,
+  "lng": -71.122031533682,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=84+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/84%20IRVING%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=84+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2005-06-07",
     "last_sale_price": 679000,
     "assessed_value": 1484400,
-    "lot_size": 0.1033
+    "lot_size": 0.1033,
+    "property_parcel": "16_A_29"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Davis",
@@ -32,8 +35,11 @@
       "cost": 60.0,
       "property_use": "Gas Fitting - Residential - Existing",
       "contractor": "James Thompson Plumbing & Heating",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "53004976",
+      "permit_number": "G26-000062"
     }
   ]
 }

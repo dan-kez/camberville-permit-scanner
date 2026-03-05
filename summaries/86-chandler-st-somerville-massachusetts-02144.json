@@ -1,0 +1,45 @@
+{
+  "address": "86 CHANDLER ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.400652739406,
+  "lng": -71.120452550762,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=86+CHANDLER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/86%20CHANDLER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=86+CHANDLER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1870,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2576,
+    "last_sale_date": "2013-06-18",
+    "last_sale_price": 1100000,
+    "assessed_value": 1996600,
+    "lot_size": 0.112,
+    "property_parcel": "16_C_27"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Davis",
+  "distance_mi": 0.29,
+  "max_score": 7,
+  "total_cost": 1107.5,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-07-16",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "install 15 replacement windows. no structural changes. 3rd floor window is tempered glass.",
+      "cost": 1107.5,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Pella Windows & Door of Boston",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "52265921",
+      "permit_number": "B25-001132"
+    }
+  ]
+}

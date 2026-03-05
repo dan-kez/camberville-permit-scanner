@@ -1,6 +1,10 @@
 {
   "address": "6 CAMPBELL PK PL, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.397405087202,
+  "lng": -71.127292267572,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=6+CAMPBELL+PK+PL%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/6%20CAMPBELL%20PK%20PL%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=6+CAMPBELL+PK+PL%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1900,
@@ -31,14 +35,15 @@
       "cost": 652.0,
       "property_use": "Building Permit - Residential Other",
       "contractor": "Bay State Renewables LLC",
+      "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed",
+      "permit_id": "52436597",
+      "permit_number": "B25-001394"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The last sale occurred in 2004, and the only permit is for a low-cost solar installation, indicating long-term maintenance rather than a recent flip."
-  },
-  "zillow_url": "https://www.zillow.com/homes/6%20CAMPBELL%20PK%20PL%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
-  "google_search_url": "https://www.google.com/search?q=6+CAMPBELL+PK+PL%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
+    "reasoning": "Only solar panel installation permit (minor cost $652), owner occupied property, no kitchen or bathroom updates."
+  }
 }

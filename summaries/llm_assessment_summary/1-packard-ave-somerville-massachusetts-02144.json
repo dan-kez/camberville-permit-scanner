@@ -1,5 +1,7 @@
 {
   "address": "1 PACKARD AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.402423458361,
+  "lng": -71.124633527885,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1+PACKARD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/1%20PACKARD%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=1+PACKARD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -19,11 +21,11 @@
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Davis",
   "distance_mi": 0.41,
-  "max_score": 7,
-  "total_cost": 400.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "max_score": 4,
+  "total_cost": 7782.5,
+  "permit_count": 6,
+  "completed_permits": 4,
+  "completion_ratio": "4/8 complete",
   "permits": [
     {
       "date": "2024-11-14",
@@ -34,16 +36,84 @@
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "Maven Design + Build",
       "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: gut; permit completed; all permits completed",
+      "score": 4,
+      "score_reasons": "keyword: gut; permit completed",
       "permit_id": "51190326",
       "permit_number": "B24-001549"
+    },
+    {
+      "date": "2025-03-04",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "New ducted heat pump system installed to condition the basement and first floor. ERV and ducting for bathroom fans also included",
+      "cost": 380.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "VIP PRO HVAC Inc.",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed",
+      "permit_id": "51639145",
+      "permit_number": "SM25-000050"
+    },
+    {
+      "date": "2025-05-06",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street for Renovation of single family home",
+      "cost": 500.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "Maven Design + Build",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation",
+      "permit_id": "51975565",
+      "permit_number": "DP25-000064"
+    },
+    {
+      "date": "2025-06-11",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street for Renovation of home",
+      "cost": 400.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "Maven Design + Build",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52126516",
+      "permit_number": "DP25-000084"
+    },
+    {
+      "date": "2025-01-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Renovate exiting single family.  1st fl Create master suite, add bathroom, extend kitchen, add deck on right side.  Create 2 bedrooms and living room in basement.  Add 2 window wells.  New dormer in front with 3 2x10 windows.  Replace windows and new siding.",
+      "cost": 5892.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Maven Design + Build",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "keyword: renovate; minor: replace windows; permit completed",
+      "permit_id": "51365734",
+      "permit_number": "B24-002067"
+    },
+    {
+      "date": "2025-01-29",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remodeling. Basement: 1 heat pump, 1 electric water heater, 1 toilet, 1 lavatory, 1 shower stall, and 1 washing machine connection.  1st Floor: 1 kitchen sink, 1 garbage disposal, 1 dishwasher, 1 ice maker, 2 toilets, 3 lavatories, 2 bathtubs, and 1 shower stall.",
+      "cost": 210.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Bay State Plumbing and Gas Inc",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "keyword: remodel; minor: water heater; permit completed",
+      "permit_id": "51553306",
+      "permit_number": "P25-000055"
     }
   ],
   "llm_assessment": {
     "likelihood": "high",
-    "reasoning": "The property is undergoing a significant gut renovation, which is a critical indicator for sale preparation despite being owner-occupied with long-term ownership."
-  },
-  "lat": 42.402423458361,
-  "lng": -71.124633527885
+    "reasoning": "Significant gut renovation with extensive kitchen and bathroom updates, siding replacement, dormer construction, and multiple permits totaling nearly $15K in work indicates major pre-sale improvements."
+  }
 }

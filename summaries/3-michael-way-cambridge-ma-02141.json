@@ -1,5 +1,7 @@
 {
   "address": "3 MICHAEL WAY, CAMBRIDGE, MA 02141",
+  "lat": 42.369484,
+  "lng": -71.088998,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+MICHAEL+WAY%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/3%20MICHAEL%20WAY%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=3+MICHAEL+WAY%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -13,17 +15,32 @@
     "last_sale_date": "2024-04-12T00:00:00.000",
     "last_sale_price": "1100000",
     "assessed_value": "1091600",
-    "lot_size": "3336"
+    "lot_size": "3336",
+    "property_pid": "2355",
+    "property_parcel": "39-144"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
   "distance_mi": 0.6,
   "max_score": 7,
-  "total_cost": 620000.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "total_cost": 624000.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
   "permits": [
+    {
+      "date": "2025-01-02",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Remove Kitchen cabinets and ceiling of Kitchen, dinning room and living room for detail measurement for future kitchen renovation project",
+      "cost": 4000.0,
+      "property_use": "One-Family",
+      "contractor": "Vertical Konstruction LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "1147351"
+    },
     {
       "date": "2025-02-01",
       "source": "Cambridge Alteration",
@@ -34,7 +51,8 @@
       "contractor": "vertical Konstruction LLC",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($620,000); keyword: renovate; minor: sign; permit completed; all permits completed"
+      "score_reasons": "high cost ($620,000); keyword: renovate; minor: sign; permit completed; all permits completed",
+      "permit_id": "1150341"
     }
   ]
 }

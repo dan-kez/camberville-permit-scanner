@@ -1,6 +1,10 @@
 {
   "address": "3 FAIRLEE ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.392739468437,
+  "lng": -71.114456556325,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+FAIRLEE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/3%20FAIRLEE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=3+FAIRLEE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
   "property_info": {
     "property_class": "1040",
     "year_built": 1900,
@@ -31,14 +35,15 @@
       "cost": 5430.0,
       "property_use": "Building Permit - Residential Alteration",
       "contractor": "North America Development LLC",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52740201",
+      "permit_number": "B25-002118"
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The long-term hold period from the 2010 sale date suggests the owner intends to occupy the property rather than sell it soon."
-  },
-  "zillow_url": "https://www.zillow.com/homes/3%20FAIRLEE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
-  "google_search_url": "https://www.google.com/search?q=3+FAIRLEE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
+    "likelihood": "medium",
+    "reasoning": "Kitchen and bathroom renovations with basement conversion indicate preparation for sale, though owner_occupied status tempers the assessment."
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "12 WINDOM ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.393312078152,
+  "lng": -71.120122052319,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=12+WINDOM+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/12%20WINDOM%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=12+WINDOM+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -16,7 +18,7 @@
     "lot_size": 0.0799,
     "property_parcel": "26_C_6"
   },
-  "property_use": "Building Permit - Residential Repair",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
   "distance_mi": 0.26,
   "max_score": 5,
@@ -26,18 +28,18 @@
   "completion_ratio": "3/3 complete",
   "permits": [
     {
-      "date": "2024-08-27",
+      "date": "2024-10-08",
       "source": "Somerville",
       "status": "Closed",
-      "description": "Remove and Replace front 1 story porch stoop and stairs.  Remove and replace 1 story back stoop and stairs.",
-      "cost": 1515.0,
-      "property_use": "Building Permit - Residential Repair",
-      "contractor": "Delane Construction",
+      "description": "60 amp hard wired EV charger installation . Whole house surge protector installation",
+      "cost": 90.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Kuhlman Electrical Services",
       "owner_occupied": true,
       "score": 5,
       "score_reasons": "permit completed; all permits completed",
-      "permit_id": "51053462",
-      "permit_number": "B24-001300"
+      "permit_id": "51259229",
+      "permit_number": "E24-001599"
     },
     {
       "date": "2024-09-19",
@@ -54,24 +56,22 @@
       "permit_number": "E24-001543"
     },
     {
-      "date": "2024-10-08",
+      "date": "2024-08-27",
       "source": "Somerville",
       "status": "Closed",
-      "description": "60 amp hard wired EV charger installation . Whole house surge protector installation",
-      "cost": 90.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Kuhlman Electrical Services",
+      "description": "Remove and Replace front 1 story porch stoop and stairs.  Remove and replace 1 story back stoop and stairs.",
+      "cost": 1515.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Delane Construction",
       "owner_occupied": true,
       "score": 5,
       "score_reasons": "permit completed; all permits completed",
-      "permit_id": "51259229",
-      "permit_number": "E24-001599"
+      "permit_id": "51053462",
+      "permit_number": "B24-001300"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permits indicate minor maintenance (porch repairs) and utility upgrades (EV charger) by an owner-occupant rather than significant renovations."
-  },
-  "lat": 42.393312078152,
-  "lng": -71.120122052319
+    "reasoning": "Permit activity consists of minor exterior porch repairs and electrical outlet additions, all owner-occupied work with no kitchen or bathroom renovations indicative of a sale prep project."
+  }
 }

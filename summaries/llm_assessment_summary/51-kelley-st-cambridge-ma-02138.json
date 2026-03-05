@@ -1,5 +1,7 @@
 {
   "address": "51 KELLEY ST, CAMBRIDGE, MA 02138",
+  "lat": 42.38312,
+  "lng": -71.130634,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=51+KELLEY+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/51%20KELLEY%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=51+KELLEY+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property is undergoing a $1.05M complete new construction project, which represents the most significant form of whole-house work and typically indicates a high-end redevelopment intended for market sale."
-  },
-  "lat": 42.38312,
-  "lng": -71.130634
+    "likelihood": "medium",
+    "reasoning": "Full new construction project with owner occupying property during construction indicates personal investment rather than sale preparation, though significant project value suggests active real estate interest."
+  }
 }

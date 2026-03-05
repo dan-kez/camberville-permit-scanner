@@ -1,5 +1,7 @@
 {
   "address": "35 FLORENCE ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.383240509025,
+  "lng": -71.082941438576,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35+FLORENCE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/35%20FLORENCE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=35+FLORENCE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for minor electrical maintenance (riser and meter relocation) by a long-term owner-occupant, with no evidence of high-end renovations."
-  },
-  "lat": 42.383240509025,
-  "lng": -71.082941438576
+    "reasoning": "Routine electrical maintenance work by owner-occupant, no high-end renovations, minimal cost"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "40 EVERETT AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.387067853653,
+  "lng": -71.089833542281,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+EVERETT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/40%20EVERETT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=40+EVERETT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,16 +15,17 @@
     "last_sale_date": "2022-05-19",
     "last_sale_price": 810000,
     "assessed_value": 744300,
-    "lot_size": 0.1218
+    "lot_size": 0.1218,
+    "property_parcel": "90_G_2"
   },
   "property_use": "Building Permit - Residential Addition",
   "nearest_square": "Union",
   "distance_mi": 0.54,
   "max_score": 7,
-  "total_cost": 5680.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "total_cost": 6015.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
   "permits": [
     {
       "date": "2024-10-21",
@@ -34,7 +37,23 @@
       "contractor": "MLA Consultants",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: addition; permit completed; all permits completed"
+      "score_reasons": "keyword: addition; permit completed; all permits completed",
+      "permit_id": "11590530",
+      "permit_number": "B23-000729"
+    },
+    {
+      "date": "2025-05-22",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Wire up new detached garage, add sub-panel ground rod, wire new 2nd floor addition bedroom, bathroom and guest bathroom, re-wire first floor area",
+      "cost": 335.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Jeffrey Roderick Electrician",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: addition; minor: panel; permit completed; all permits completed",
+      "permit_id": "51978040",
+      "permit_number": "E25-000686"
     }
   ]
 }

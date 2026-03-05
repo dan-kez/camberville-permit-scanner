@@ -1,5 +1,7 @@
 {
   "address": "11 SELLON PL, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.389347228403,
+  "lng": -71.095704813998,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+SELLON+PL%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/11%20SELLON%20PL%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=11+SELLON+PL%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,29 +15,18 @@
     "last_sale_date": "2023-12-22",
     "last_sale_price": 800000,
     "assessed_value": 749200,
-    "lot_size": 0.14880000000000002
+    "lot_size": 0.14880000000000002,
+    "property_parcel": "60_D_19"
   },
-  "property_use": "Plumbing Permit - Residential - Existing",
+  "property_use": "Building Permit - Residential Other",
   "nearest_square": "Union",
   "distance_mi": 0.69,
   "max_score": 5,
-  "total_cost": 1710.0,
-  "permit_count": 4,
+  "total_cost": 2134.0,
+  "permit_count": 3,
   "completed_permits": 4,
   "completion_ratio": "4/6 complete",
   "permits": [
-    {
-      "date": "2024-02-28",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "KITCHEN AND TWO BATHROOM RENOVATION",
-      "cost": 140.0,
-      "property_use": "Plumbing Permit - Residential - Existing",
-      "contractor": "aldo and victoria services",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
-    },
     {
       "date": "2024-06-26",
       "source": "Somerville",
@@ -46,19 +37,23 @@
       "contractor": "Brausa general construction Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: framing; permit completed; most permits completed"
+      "score_reasons": "keyword: framing; permit completed; most permits completed",
+      "permit_id": "14433237",
+      "permit_number": "B24-000938"
     },
     {
-      "date": "2024-02-15",
+      "date": "2025-02-11",
       "source": "Somerville",
       "status": "Closed",
-      "description": "Rewire entire house",
-      "cost": 405.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "ELIEZER CRUZ ELECTRICIAN",
+      "description": "Install in this single  family house, one (1 ) zones for duct work first floor and two zone for duct work second floor .",
+      "cost": 969.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "Alves Hvac Service Inc.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14219604",
+      "permit_number": "SM24-000056"
     },
     {
       "date": "2024-06-10",
@@ -70,7 +65,9 @@
       "contractor": "ELIEZER CRUZ ELECTRICIAN",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14450803",
+      "permit_number": "E24-000891"
     }
   ]
 }

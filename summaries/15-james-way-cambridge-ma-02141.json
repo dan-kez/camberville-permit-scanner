@@ -1,5 +1,7 @@
 {
   "address": "15 JAMES WAY, CAMBRIDGE, MA 02141",
+  "lat": 42.370115,
+  "lng": -71.088722,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+JAMES+WAY%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/15%20JAMES%20WAY%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=15+JAMES+WAY%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2015-09-09T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "1042400",
-    "lot_size": "3550"
+    "lot_size": "3550",
+    "property_pid": "2373",
+    "property_parcel": "39-162"
   },
   "property_use": "Townhouse",
   "nearest_square": "Inman",
@@ -34,7 +38,8 @@
       "contractor": "jt construction and remodeling LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($26,000); keyword: renovate"
+      "score_reasons": "moderate cost ($26,000); keyword: renovate",
+      "permit_id": "1178477"
     }
   ]
 }

@@ -1,5 +1,7 @@
 {
   "address": "343 ALLSTON ST, CAMBRIDGE, MA 02139",
+  "lat": 42.361332,
+  "lng": -71.11273,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=343+ALLSTON+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/343%20ALLSTON%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=343+ALLSTON+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "A $650,000 gut renovation and conversion from a single-family to a two-family structure by an investment-named contractor indicates a major value-add project typically intended for resale or high-end investment."
-  },
-  "lat": 42.361332,
-  "lng": -71.11273
+    "likelihood": "medium",
+    "reasoning": "Major structural conversion from 1 to 2 families with $650K investment indicates significant value enhancement, though owner occupancy during renovation suggests potential long-term use rather than immediate sale"
+  }
 }

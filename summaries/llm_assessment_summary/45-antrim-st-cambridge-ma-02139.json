@@ -1,0 +1,49 @@
+{
+  "address": "45 ANTRIM ST, CAMBRIDGE, MA 02139",
+  "lat": 42.371475,
+  "lng": -71.10311,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=45+ANTRIM+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/45%20ANTRIM%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=45+ANTRIM+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1903",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "10",
+    "living_area": "2426",
+    "last_sale_date": "2011-09-06T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1907000",
+    "lot_size": "3980",
+    "property_pid": "7656",
+    "property_parcel": "114-28"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.25,
+  "max_score": 7,
+  "total_cost": 8640.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-04-11",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "install 5 marvin replacement windows. Energy star, inserts only with no structural work",
+      "cost": 8640.0,
+      "property_use": "One-Family",
+      "contractor": "Fisher Windows",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "1159641"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "This is routine window replacement work, not full-scale prep-for-sale renovations"
+  }
+}

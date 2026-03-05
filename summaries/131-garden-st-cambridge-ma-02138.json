@@ -1,0 +1,45 @@
+{
+  "address": "131 GARDEN ST, CAMBRIDGE, MA 02138",
+  "lat": 42.384733,
+  "lng": -71.130952,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=131+GARDEN+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/131%20GARDEN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=131+GARDEN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1890",
+    "bedrooms": "4",
+    "bathrooms": "2/2",
+    "total_rooms": "7",
+    "living_area": "1463",
+    "last_sale_date": "1996-07-16T00:00:00.000",
+    "last_sale_price": "339000",
+    "assessed_value": "1310700",
+    "lot_size": "2597",
+    "property_pid": "19192",
+    "property_parcel": "228-6"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.66,
+  "max_score": 4,
+  "total_cost": 2000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-08-19",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Residential weatherization/air sealing. No structural changes.(1431483892 )",
+      "cost": 2000.0,
+      "property_use": "One-Family",
+      "contractor": "Homeworks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "1179799"
+    }
+  ]
+}

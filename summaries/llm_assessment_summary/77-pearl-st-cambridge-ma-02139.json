@@ -1,5 +1,7 @@
 {
   "address": "77 PEARL ST, CAMBRIDGE, MA 02139",
+  "lat": 42.362943,
+  "lng": -71.104646,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=77+PEARL+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/77%20PEARL%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=77+PEARL+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The property is owner-occupied by a long-term resident (12+ years) performing a basement and bathroom renovation, which aligns with lifestyle improvements rather than a high-end 'prep-for-sale' flip."
-  },
-  "lat": 42.362943,
-  "lng": -71.104646
+    "likelihood": "error",
+    "reasoning": "Command '['claude', '--model', 'glm-4.7-flash:latest', '-p', 'Assess the likelihood that this property is being prepared for sale based on building permits and assessment data.\\n\\nCRITICAL INDICATORS FOR HIGH LIKELIHOOD:\\n1. High-end \\'prep-for-sale\\' renovations: Simultaneous full-scale updates to Kitchen AND multiple Bathrooms.\\n2. Non-owner occupied: If the permit lists owner_occupied as False, it is much more likely to be a project/flip.\\n3. Significant \\'Gut\\' or \\'Whole House\\' work even with long-term ownership (8+ years).\\n\\nCRITICAL INDICATORS FOR LOW LIKELIHOOD:\\n1. Maintenance work: Roof, windows (unless part of a larger project), siding, or HVAC only.\\n2. Minor updates: A single bathroom or small kitchen refresh by a long-term owner-occupant.\\n\\nRespond with ONLY valid JSON in this exact format:\\n{\"likelihood\": \"low|medium|high\", \"reasoning\": \"one sentence explanation\"}\\n\\nDATA:\\n{\"address\":\"77 PEARL ST, CAMBRIDGE, MA 02139\",\"property_info\":{\"property_class\":\"SNGL-FAM-RES\",\"year_built\":\"1861\",\"bedrooms\":\"5\",\"bathrooms\":\"2/1\",\"total_rooms\":\"10\",\"living_area\":\"1920\",\"last_sale_date\":\"2013-09-04T00:00:00.000\",\"last_sale_price\":\"775000\",\"assessed_value\":\"1986100\",\"lot_size\":\"1680\",\"property_pid\":\"6516\",\"property_parcel\":\"106-29\"},\"property_use\":\"One-Family\",\"nearest_square\":\"Central\",\"distance_mi\":0.17,\"max_score\":3,\"total_cost\":161343.0,\"permit_count\":1,\"permits\":[{\"date\":\"2025-08-26\",\"source\":\"Cambridge Alteration\",\"status\":\"Active\",\"description\":\"Basement Renovation with a Full Bathroom, and Shower Renovation in the second Floor Bathroom,\",\"cost\":161343.0,\"property_use\":\"One-Family\",\"contractor\":\"CPS BUILDERS\",\"owner_occupied\":true,\"score\":3,\"score_reasons\":\"moderate cost ($161,343); keyword: renovation\",\"permit_id\":\"1181101\"}]}']' timed out after 120 seconds"
+  }
 }

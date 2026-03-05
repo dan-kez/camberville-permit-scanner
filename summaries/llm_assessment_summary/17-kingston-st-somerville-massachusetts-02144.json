@@ -1,0 +1,63 @@
+{
+  "address": "17 KINGSTON ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.397053382544,
+  "lng": -71.125627034868,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+KINGSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/17%20KINGSTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=17+KINGSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2159,
+    "last_sale_date": "2012-06-28",
+    "last_sale_price": 960000,
+    "assessed_value": 1724700,
+    "lot_size": 0.0695,
+    "property_parcel": "17_F_17"
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.16,
+  "max_score": 7,
+  "total_cost": 775.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-12-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Second floor: reconfigure wiring in the existing bedroom, install wiring for the new bedroom to meet code requirements",
+      "cost": 123.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Fernando lopes licensed electrician INC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: reconfigure; permit completed; all permits completed",
+      "permit_id": "51454710",
+      "permit_number": "E24-001981"
+    },
+    {
+      "date": "2024-12-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "This project will remodel an existing large 2nd-floor bedroom, converting it into two separate bedrooms.",
+      "cost": 652.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Express Remodeling Group",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "51372923",
+      "permit_number": "B24-002086"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Owner-occupied property with only two minor bedroom conversion permits totaling $775; no kitchen or bathroom renovations, and work appears to be targeted upgrades rather than extensive pre-sale preparation."
+  }
+}

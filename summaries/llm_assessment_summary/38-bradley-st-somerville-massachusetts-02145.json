@@ -1,0 +1,77 @@
+{
+  "address": "38 BRADLEY ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.389354772116,
+  "lng": -71.094081574629,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38+BRADLEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/38%20BRADLEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=38+BRADLEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1985,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 4,
+    "living_area": 1142,
+    "last_sale_date": "2019-04-19",
+    "last_sale_price": 609000,
+    "assessed_value": 587000,
+    "lot_size": 0.023700000000000002,
+    "property_parcel": "71_E_42"
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Union",
+  "distance_mi": 0.68,
+  "max_score": 7,
+  "total_cost": 818.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2025-01-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Kitchen renovation: Installation of new cabinets, new countertops, recessed lighting and new ceramic floor",
+      "cost": 705.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Passos Construction Corp",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "51533864",
+      "permit_number": "B25-000057"
+    },
+    {
+      "date": "2025-02-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "1 Floor: 1 full kitchen",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "LB4 Plumbing and Heating Inc",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: full; permit completed; all permits completed",
+      "permit_id": "51581391",
+      "permit_number": "P25-000085"
+    },
+    {
+      "date": "2025-02-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Kitchen remodel and new recessed lights",
+      "cost": 53.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Alex Campagnoli",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "51578195",
+      "permit_number": "E25-000194"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Owner-occupied property with routine kitchen renovations by owner suggests typical home improvement rather than sale preparation"
+  }
+}

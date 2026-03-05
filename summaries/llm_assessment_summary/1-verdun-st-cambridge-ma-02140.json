@@ -1,5 +1,7 @@
 {
   "address": "1 VERDUN ST, CAMBRIDGE, MA 02140",
+  "lat": 42.391325,
+  "lng": -71.130721,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1+VERDUN+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/1%20VERDUN%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=1+VERDUN+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied and the permit is for a single basement renovation project rather than the high-impact kitchen and bathroom updates typically associated with pre-sale preparations."
-  },
-  "lat": 42.391325,
-  "lng": -71.130721
+    "reasoning": "Owner is owner-occupied and work focuses on structural basement renovation rather than high-end kitchen/bathroom updates typical of sale preparation"
+  }
 }

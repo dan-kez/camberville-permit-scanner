@@ -1,5 +1,7 @@
 {
   "address": "24 NEWELL ST, CAMBRIDGE, MA 02138",
+  "lat": 42.386362,
+  "lng": -71.129403,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=24+NEWELL+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/24%20NEWELL%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=24+NEWELL+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2024-10-17T00:00:00.000",
     "last_sale_price": "1200000",
     "assessed_value": "991300",
-    "lot_size": "2931"
+    "lot_size": "2931",
+    "property_pid": "17428",
+    "property_parcel": "205-88"
   },
   "property_use": "One or Two Family Dwelling",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Mike Tokatlyan",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "high cost ($710,000); keyword: new construction; new construction"
+      "score_reasons": "high cost ($710,000); keyword: new construction; new construction",
+      "permit_id": "1161364"
     }
   ]
 }

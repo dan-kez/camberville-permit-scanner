@@ -1,5 +1,7 @@
 {
   "address": "11 GRAY GDNS E, CAMBRIDGE, MA 02138",
+  "lat": 42.384557,
+  "lng": -71.127094,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+GRAY+GDNS+E%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/11%20GRAY%20GDNS%20E%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=11+GRAY+GDNS+E%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The owner-occupied property has been held for 10 years and the single active permit is for an exterior portico rather than a high-end interior renovation."
-  },
-  "lat": 42.384557,
-  "lng": -71.127094
+    "reasoning": "Small cosmetic front entry/portico permit (not a major renovation), owner-occupied status, and absence of multiple simultaneous updates indicate normal maintenance rather than sale preparation."
+  }
 }

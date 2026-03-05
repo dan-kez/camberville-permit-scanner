@@ -1,5 +1,7 @@
 {
   "address": "6 CAMPBELL PK PL, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.397405087202,
+  "lng": -71.127292267572,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=6+CAMPBELL+PK+PL%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/6%20CAMPBELL%20PK%20PL%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=6+CAMPBELL+PK+PL%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2004-11-05",
     "last_sale_price": 560000,
     "assessed_value": 1285200,
-    "lot_size": 0.0794
+    "lot_size": 0.0794,
+    "property_parcel": "17_I_2"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Davis",
@@ -32,8 +35,11 @@
       "cost": 652.0,
       "property_use": "Building Permit - Residential Other",
       "contractor": "Bay State Renewables LLC",
+      "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed",
+      "permit_id": "52436597",
+      "permit_number": "B25-001394"
     }
   ]
 }

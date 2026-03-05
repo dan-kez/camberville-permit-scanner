@@ -1,5 +1,7 @@
 {
   "address": "70 IRVING ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.400620636717,
+  "lng": -71.122390865871,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=70+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/70%20IRVING%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=70+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,41 +15,18 @@
     "last_sale_date": "2012-06-08",
     "last_sale_price": 615000,
     "assessed_value": 1646400,
-    "lot_size": 0.1033
+    "lot_size": 0.1033,
+    "property_parcel": "16_A_32"
   },
-  "property_use": "Gas Fitting - Residential - Existing",
+  "property_use": "Building Permit - Residential Other",
   "nearest_square": "Davis",
   "distance_mi": 0.27,
   "max_score": 2,
-  "total_cost": 865.0,
-  "permit_count": 3,
-  "completed_permits": 3,
-  "completion_ratio": "3/3 complete",
+  "total_cost": 700.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
   "permits": [
-    {
-      "date": "2023-12-07",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Replacing gas furnace with new in existing location in the basement.",
-      "cost": 60.0,
-      "property_use": "Gas Fitting - Residential - Existing",
-      "contractor": "Central Cooling & Heating, Inc",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
-    },
-    {
-      "date": "2024-01-16",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Replace and reconnect gas furnace & heat pump in basement.\r\nB23- 002130",
-      "cost": 105.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Central Cooling & Heating, Inc Sila Services LLC",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
-    },
     {
       "date": "2024-10-17",
       "source": "Somerville",
@@ -58,7 +37,9 @@
       "contractor": "Central Cooling & Heating",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "14016361",
+      "permit_number": "B23-002130"
     }
   ]
 }

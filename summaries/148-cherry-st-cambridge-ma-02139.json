@@ -1,0 +1,45 @@
+{
+  "address": "148 CHERRY ST, CAMBRIDGE, MA 02139",
+  "lat": 42.365877,
+  "lng": -71.09667,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=148+CHERRY+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/148%20CHERRY%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=148+CHERRY+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1985",
+    "bedrooms": "2",
+    "bathrooms": "2/0",
+    "total_rooms": "5",
+    "living_area": "1020",
+    "last_sale_date": "2020-02-12T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1001700",
+    "lot_size": "2142",
+    "property_pid": "3064",
+    "property_parcel": "74-134"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.36,
+  "max_score": 7,
+  "total_cost": 8123.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-10-31",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "INSTALL 3 WINDOWS FOR REPLACEMENT NO STRUCTURAL CHANGES",
+      "cost": 8123.0,
+      "property_use": "One-Family",
+      "contractor": "NEWPRO",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "1141721"
+    }
+  ]
+}

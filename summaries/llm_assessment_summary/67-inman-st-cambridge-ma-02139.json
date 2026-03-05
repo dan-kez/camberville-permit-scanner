@@ -1,5 +1,7 @@
 {
   "address": "67 INMAN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.370675,
+  "lng": -71.102646,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=67+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/67%20INMAN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=67+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "A $700,000 full-scale conversion from a multi-family to a single-family dwelling immediately following a recent purchase indicates a massive high-end repositioning typical of a professional flip."
-  },
-  "lat": 42.370675,
-  "lng": -71.102646
+    "likelihood": "medium",
+    "reasoning": "$700,000 structural conversion to single-family indicates major investment, but owner_occupied=true and not a simultaneous kitchen+multiple bathrooms update reduces prep-for-sale indicators"
+  }
 }

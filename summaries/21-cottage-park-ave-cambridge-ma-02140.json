@@ -1,5 +1,7 @@
 {
   "address": "21 COTTAGE PARK AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.398927,
+  "lng": -71.133387,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+COTTAGE+PARK+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/21%20COTTAGE%20PARK%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=21+COTTAGE+PARK+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2024-08-05T00:00:00.000",
     "last_sale_price": "10",
     "assessed_value": "1196900",
-    "lot_size": "4520"
+    "lot_size": "4520",
+    "property_pid": "15490",
+    "property_parcel": "189-40"
   },
   "property_use": "One or Two Family Dwelling",
   "nearest_square": "Davis",
@@ -34,7 +38,8 @@
       "contractor": "FERNANDO J SILVA",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($45,000); keyword: renovation; new construction"
+      "score_reasons": "moderate cost ($45,000); keyword: renovation; new construction",
+      "permit_id": "263673"
     },
     {
       "date": "2024-03-29",
@@ -46,7 +51,8 @@
       "contractor": "New Age Properties LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($949,000); keyword: renovation"
+      "score_reasons": "high cost ($949,000); keyword: renovation",
+      "permit_id": "263672"
     }
   ]
 }

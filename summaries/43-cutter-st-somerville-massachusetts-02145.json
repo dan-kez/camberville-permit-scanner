@@ -1,0 +1,59 @@
+{
+  "address": "43 CUTTER ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.385850046941,
+  "lng": -71.084618322125,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=43+CUTTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/43%20CUTTER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=43+CUTTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1186,
+    "last_sale_date": "2002-04-30",
+    "last_sale_price": 220000,
+    "assessed_value": 651500,
+    "lot_size": 0.0534,
+    "property_parcel": "91_A_25"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.62,
+  "max_score": 4,
+  "total_cost": 1385.0,
+  "permit_count": 2,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2025-08-12",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "remove and replace 9 windows of like sizes and no structural work performed",
+      "cost": 660.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Renewal by Andersen LLC",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; permit completed",
+      "permit_id": "52345028",
+      "permit_number": "B25-001216"
+    },
+    {
+      "date": "2025-05-16",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "REMOVE & REPLACE 9 WINDOWS; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 725.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Renewal by Andersen",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "51931055",
+      "permit_number": "B25-000590"
+    }
+  ]
+}

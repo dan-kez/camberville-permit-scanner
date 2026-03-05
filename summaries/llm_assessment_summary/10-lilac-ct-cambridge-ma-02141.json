@@ -1,0 +1,49 @@
+{
+  "address": "10 LILAC CT, CAMBRIDGE, MA 02141",
+  "lat": 42.367353,
+  "lng": -71.092064,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+LILAC+CT%2C+CAMBRIDGE%2C+MA+02141",
+  "zillow_url": "https://www.zillow.com/homes/10%20LILAC%20CT%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+LILAC+CT%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1981",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "5",
+    "living_area": "1296",
+    "last_sale_date": "1988-10-29T00:00:00.000",
+    "last_sale_price": "205000",
+    "assessed_value": "1315400",
+    "lot_size": "2560",
+    "property_pid": "2490",
+    "property_parcel": "40-208"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.57,
+  "max_score": 2,
+  "total_cost": 11259.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-11-06",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "tub to shower conversion remove old bathtub replace with new no footprint change",
+      "cost": 11259.0,
+      "property_use": "One-Family",
+      "contractor": "PIC Home Pros LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: conversion",
+      "permit_id": "1142456"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Single minor bathroom conversion by long-term owner-occupant, not coordinated multi-room renovation"
+  }
+}

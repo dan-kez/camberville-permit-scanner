@@ -1,5 +1,7 @@
 {
   "address": "30 MADISON ST, CAMBRIDGE, MA 02138",
+  "lat": 42.382779,
+  "lng": -71.128396,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=30+MADISON+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/30%20MADISON%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=30+MADISON+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The work consists of a single bathroom refresh by a long-term owner-occupant, which fits the criteria for a minor update rather than high-end preparation for sale."
-  },
-  "lat": 42.382779,
-  "lng": -71.128396
+    "reasoning": "Single bathroom renovation with insulation and exhaust fan installation by owner-occupant, no kitchen updates or multiple bathroom work to indicate sale preparation"
+  }
 }

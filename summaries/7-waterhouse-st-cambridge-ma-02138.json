@@ -1,5 +1,7 @@
 {
   "address": "7 WATERHOUSE ST, CAMBRIDGE, MA 02138",
+  "lat": 42.377762,
+  "lng": -71.121732,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+WATERHOUSE+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/7%20WATERHOUSE%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=7+WATERHOUSE+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "1984-03-07T00:00:00.000",
     "last_sale_price": "240000",
     "assessed_value": "6088800",
-    "lot_size": "15480"
+    "lot_size": "15480",
+    "property_pid": "13366",
+    "property_parcel": "172-30"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "KEP Construction Inc",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($80,765); keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($80,765); keyword: renovation; permit completed; all permits completed",
+      "permit_id": "1144210"
     }
   ]
 }

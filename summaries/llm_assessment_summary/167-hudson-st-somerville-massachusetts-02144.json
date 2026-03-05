@@ -1,5 +1,7 @@
 {
   "address": "167 HUDSON ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.392600077387,
+  "lng": -71.111230697069,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=167+HUDSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/167%20HUDSON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=167+HUDSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -16,7 +18,7 @@
     "lot_size": 0.0814,
     "property_parcel": "34_D_66"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Building Permit - Residential Other",
   "nearest_square": "Porter",
   "distance_mi": 0.5,
   "max_score": 5,
@@ -25,20 +27,6 @@
   "completed_permits": 2,
   "completion_ratio": "2/2 complete",
   "permits": [
-    {
-      "date": "2024-06-10",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Wiring for 2 mini splits. 1x LAU090HYV3 (back of house) 1x LAN090HYV3 (Dining room/office)",
-      "cost": 120.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Endless Energy New England Inc.",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed",
-      "permit_id": "14345588",
-      "permit_number": "E24-000636"
-    },
     {
       "date": "2024-07-02",
       "source": "Somerville",
@@ -52,12 +40,24 @@
       "score_reasons": "permit completed; all permits completed",
       "permit_id": "14345568",
       "permit_number": "B24-000680"
+    },
+    {
+      "date": "2024-06-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Wiring for 2 mini splits. 1x LAU090HYV3 (back of house) 1x LAN090HYV3 (Dining room/office)",
+      "cost": 120.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Endless Energy New England Inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14345588",
+      "permit_number": "E24-000636"
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The work is limited to minor HVAC upgrades (mini-splits) by a long-term owner-occupant, which falls under maintenance rather than high-end prep-for-sale renovations."
-  },
-  "lat": 42.392600077387,
-  "lng": -71.111230697069
+    "likelihood": "medium",
+    "reasoning": "Significant property value appreciation (6x+ increase since 1994) and multi-unit classification suggest potential, but owner occupancy and simple HVAC/electrical work lower the likelihood compared to major renovations."
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "114-A IRVING ST, CAMBRIDGE, MA 02138",
+  "lat": 42.379282,
+  "lng": -71.11078,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=114-A+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/114-A%20IRVING%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=114-A+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -28,9 +30,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "The renovation combines a bathroom gut with a kitchen cabinet replacement and floor refinishing, which are classic pre-sale updates, though owner-occupancy and the lack of a full kitchen gut suggest it is not a certain flip."
-  },
-  "lat": 42.379282,
-  "lng": -71.11078
+    "likelihood": "low",
+    "reasoning": "Owner-occupied status with single-bathroom renovation (no kitchen work) indicates personal renovation rather than sale preparation"
+  }
 }

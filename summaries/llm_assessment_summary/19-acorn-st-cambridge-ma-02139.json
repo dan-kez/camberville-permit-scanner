@@ -1,5 +1,7 @@
 {
   "address": "19 ACORN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.357465,
+  "lng": -71.109375,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+ACORN+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/19%20ACORN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=19+ACORN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -28,9 +30,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The extremely high permit cost of $450,000 for a single-family renovation indicates a comprehensive whole-house gut project, which is a primary indicator for preparing a property for sale."
-  },
-  "lat": 42.357465,
-  "lng": -71.109375
+    "likelihood": "low",
+    "reasoning": "Owner-occupied status and general renovation description without specific kitchen/bathroom updates or maintenance work makes this unlikely to be preparation for immediate sale."
+  }
 }

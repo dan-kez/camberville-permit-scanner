@@ -1,0 +1,45 @@
+{
+  "address": "186 ELM ST N, CAMBRIDGE, MA 02140",
+  "lat": 42.392955,
+  "lng": -71.120553,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=186+ELM+ST+N%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/186%20ELM%20ST%20N%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=186+ELM+ST+N%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1893",
+    "bedrooms": "4",
+    "bathrooms": "4/1",
+    "total_rooms": "9",
+    "living_area": "3250",
+    "last_sale_date": "2017-11-16T00:00:00.000",
+    "last_sale_price": "10",
+    "assessed_value": "2437800",
+    "lot_size": "4374",
+    "property_pid": "14662",
+    "property_parcel": "180-17"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.28,
+  "max_score": 2,
+  "total_cost": 10386.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-02-19",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "REMOVE & REPLACE 1 PATIO DOORS; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 10386.0,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "1152577"
+    }
+  ]
+}

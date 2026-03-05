@@ -1,5 +1,7 @@
 {
   "address": "32 LOCKE ST, CAMBRIDGE, MA 02140",
+  "lat": 42.396959,
+  "lng": -71.127466,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/32%20LOCKE%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=32+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property recently sold in April 2024 and the owner-occupied permit for bathroom and HVAC upgrades likely indicates a new owner's move-in renovation rather than a pre-sale flip."
-  },
-  "lat": 42.396959,
-  "lng": -71.127466
+    "reasoning": "Single bathroom renovation with moderate cost and owner-occupied status, without kitchen updates or significant whole-house work"
+  }
 }

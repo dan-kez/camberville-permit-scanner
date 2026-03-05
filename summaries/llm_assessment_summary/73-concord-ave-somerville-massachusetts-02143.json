@@ -1,5 +1,7 @@
 {
   "address": "73 CONCORD AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.376602418896,
+  "lng": -71.100237747235,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=73+CONCORD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/73%20CONCORD%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=73+CONCORD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -19,11 +21,11 @@
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
   "distance_mi": 0.21,
-  "max_score": 5,
+  "max_score": 7,
   "total_cost": 435.0,
   "permit_count": 2,
   "completed_permits": 2,
-  "completion_ratio": "2/3 complete",
+  "completion_ratio": "2/2 complete",
   "permits": [
     {
       "date": "2024-06-25",
@@ -34,8 +36,8 @@
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "Luxx Builders Corp",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: rebuild; permit completed; most permits completed",
+      "score": 7,
+      "score_reasons": "keyword: rebuild; permit completed; all permits completed",
       "permit_id": "14416276",
       "permit_number": "B24-000885"
     },
@@ -48,16 +50,14 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "Nilson O Viera-Navarro",
       "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed",
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
       "permit_id": "51339582",
       "permit_number": "E24-001782"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The recent work is limited to exterior deck replacement and minor electrical updates by an owner-occupant who purchased the property relatively recently in 2021."
-  },
-  "lat": 42.376602418896,
-  "lng": -71.100237747235
+    "reasoning": "Exterior deck rebuilds and minor electrical work totaling only $435 are routine maintenance, with no kitchen/bathroom renovations or indication of non-owner occupied status."
+  }
 }

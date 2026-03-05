@@ -1,5 +1,7 @@
 {
   "address": "18 KINGMAN RD, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.37888057827,
+  "lng": -71.097007445571,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+KINGMAN+RD%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/18%20KINGMAN%20RD%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=18+KINGMAN+RD%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2008-03-11",
     "last_sale_price": 1,
     "assessed_value": 795100,
-    "lot_size": 0.0475
+    "lot_size": 0.0475,
+    "property_parcel": "82_B_7"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Union",
@@ -34,7 +37,9 @@
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "51260127",
+      "permit_number": "B24-001776"
     }
   ]
 }

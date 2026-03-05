@@ -1,5 +1,7 @@
 {
   "address": "316 PEARL ST, CAMBRIDGE, MA 02139",
+  "lat": 42.356993,
+  "lng": -71.110807,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=316+PEARL+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/316%20PEARL%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=316+PEARL+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -54,9 +56,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property was recently purchased in early 2024 and is undergoing an exhaustive $2.9M full-house gut renovation, which is a definitive indicator of a high-end redevelopment intended for resale."
-  },
-  "lat": 42.356993,
-  "lng": -71.110807
+    "likelihood": "medium",
+    "reasoning": "High-value gut renovation with comprehensive demolition suggests preparation for sale, though owner-occupied status indicates longer time horizon"
+  }
 }

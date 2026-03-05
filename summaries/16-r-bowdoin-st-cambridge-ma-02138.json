@@ -1,0 +1,32 @@
+{
+  "address": "16-R BOWDOIN ST, CAMBRIDGE, MA 02138",
+  "lat": 42.382839,
+  "lng": -71.120313,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16-R+BOWDOIN+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/16-R%20BOWDOIN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=16-R+BOWDOIN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.39,
+  "max_score": 7,
+  "total_cost": 18064.71,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-04-25",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "REMOVE & REPLACE 3 WINDOWS; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 18064.71,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "1162028"
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 {
   "address": "46 VALENTINE ST, CAMBRIDGE, MA 02139",
+  "lat": 42.360693,
+  "lng": -71.106704,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=46+VALENTINE+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/46%20VALENTINE%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=46+VALENTINE+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "The owner-occupied property is undergoing a significant $84,150 renovation of multiple bathrooms after nine years of ownership, but it lacks the kitchen updates or layout changes typically associated with high-likelihood prep-for-sale projects."
-  },
-  "lat": 42.360693,
-  "lng": -71.106704
+    "likelihood": "low",
+    "reasoning": "Bathroom renovations on owner-occupied property, with no indication of comprehensive kitchen or whole-house updates typical of sale preparation"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "70 HURON AVE, CAMBRIDGE, MA 02138",
+  "lat": 42.384319,
+  "lng": -71.128534,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=70+HURON+AVE%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/70%20HURON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=70+HURON+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "1999-05-21T00:00:00.000",
     "last_sale_price": "762500",
     "assessed_value": "1868400",
-    "lot_size": "2890"
+    "lot_size": "2890",
+    "property_pid": "17534",
+    "property_parcel": "207-20"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Pann Home Services.com",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($25,661)"
+      "score_reasons": "moderate cost ($25,661)",
+      "permit_id": "271664"
     }
   ]
 }

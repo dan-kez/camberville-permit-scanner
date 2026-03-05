@@ -1,5 +1,7 @@
 {
   "address": "11 GARDEN TER, CAMBRIDGE, MA 02138",
+  "lat": 42.382214,
+  "lng": -71.128433,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+GARDEN+TER%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/11%20GARDEN%20TER%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=11+GARDEN+TER%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2009-10-26T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "8149900",
-    "lot_size": "11349"
+    "lot_size": "11349",
+    "property_pid": "185819",
+    "property_parcel": "227-113"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Connection General construction inc",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($127,500)"
+      "score_reasons": "moderate cost ($127,500)",
+      "permit_id": "289588"
     }
   ]
 }

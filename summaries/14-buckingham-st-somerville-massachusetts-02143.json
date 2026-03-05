@@ -1,5 +1,7 @@
 {
   "address": "14 BUCKINGHAM ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.376584942628,
+  "lng": -71.103292699486,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=14+BUCKINGHAM+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/14%20BUCKINGHAM%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=14+BUCKINGHAM+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,17 +15,144 @@
     "last_sale_date": "1996-03-01",
     "last_sale_price": 0,
     "assessed_value": 1062800,
-    "lot_size": 0.082
+    "lot_size": 0.082,
+    "property_parcel": "66_C_7"
   },
-  "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Inman",
   "distance_mi": 0.29,
-  "max_score": 2,
-  "total_cost": 2000.0,
-  "permit_count": 5,
-  "completed_permits": 0,
-  "completion_ratio": "0/5",
+  "max_score": 4,
+  "total_cost": 5099.0,
+  "permit_count": 14,
+  "completed_permits": 2,
+  "completion_ratio": "2/20 complete",
   "permits": [
+    {
+      "date": "2025-07-14",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Kitchen remodel and general repairs B25-000836",
+      "cost": 144.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Vincent Luciano",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: remodel; permit completed",
+      "permit_id": "52276506",
+      "permit_number": "E25-001028"
+    },
+    {
+      "date": "2025-05-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Service Upgrade / Bathroom Remodel  B25-000460",
+      "cost": 115.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Vincent Luciano",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: remodel; permit completed",
+      "permit_id": "51972974",
+      "permit_number": "E25-000674"
+    },
+    {
+      "date": "2025-04-24",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street For Bathroom remodeling",
+      "cost": 100.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel",
+      "permit_id": "51947123",
+      "permit_number": "DP25-000055"
+    },
+    {
+      "date": "2025-07-18",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street for Kitchen remodel",
+      "cost": 400.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52336310",
+      "permit_number": "DP25-000117"
+    },
+    {
+      "date": "2025-04-22",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Asphalt shingles replacement on the entire building with full \u00c2\u00bd-inch CDX plywood overlaying the existing substrate.",
+      "cost": 460.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "FRS Company",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: full",
+      "permit_id": "51903662",
+      "permit_number": "B25-000522"
+    },
+    {
+      "date": "2025-04-23",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "remodel a bathroom",
+      "cost": 1020.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "home improvements by bob",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel",
+      "permit_id": "51782855",
+      "permit_number": "B25-000460"
+    },
+    {
+      "date": "2025-06-20",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street for Gutting kitchen",
+      "cost": 400.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: gut",
+      "permit_id": "52154272",
+      "permit_number": "DP25-000096"
+    },
+    {
+      "date": "2025-05-08",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Renovate 2nd Floor Bathroom",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "R.P.L. Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovate",
+      "permit_id": "51978404",
+      "permit_number": "P25-000291"
+    },
+    {
+      "date": "2025-08-11",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street For Kitchen Remodel",
+      "cost": 400.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52400044",
+      "permit_number": "DP25-000135"
+    },
     {
       "date": "2025-09-09",
       "source": "Somerville",
@@ -32,8 +161,11 @@
       "cost": 400.0,
       "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
       "contractor": "",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52552608",
+      "permit_number": "DP25-000156"
     },
     {
       "date": "2025-10-07",
@@ -43,8 +175,11 @@
       "cost": 400.0,
       "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
       "contractor": "",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52620073",
+      "permit_number": "DP25-000177"
     },
     {
       "date": "2025-11-04",
@@ -54,8 +189,11 @@
       "cost": 400.0,
       "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
       "contractor": "",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52681456",
+      "permit_number": "DP25-000200"
     },
     {
       "date": "2025-12-03",
@@ -65,8 +203,11 @@
       "cost": 400.0,
       "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
       "contractor": "",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52765670",
+      "permit_number": "DP25-000217"
     },
     {
       "date": "2025-12-30",
@@ -76,8 +217,11 @@
       "cost": 400.0,
       "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
       "contractor": "",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52924942",
+      "permit_number": "DP25-000230"
     }
   ]
 }

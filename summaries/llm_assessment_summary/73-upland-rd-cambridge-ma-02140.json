@@ -1,5 +1,7 @@
 {
   "address": "73 UPLAND RD, CAMBRIDGE, MA 02140",
+  "lat": 42.387831,
+  "lng": -71.122335,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=73+UPLAND+RD%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/73%20UPLAND%20RD%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=73+UPLAND+RD%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The single permit for front porch footings by an owner-occupant indicates routine structural maintenance rather than a pre-sale renovation."
-  },
-  "lat": 42.387831,
-  "lng": -71.122335
+    "reasoning": "Minor porch footing repair for long-term owner with no kitchen or bathroom renovations"
+  }
 }

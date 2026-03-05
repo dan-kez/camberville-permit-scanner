@@ -1,5 +1,7 @@
 {
   "address": "60 ORCHARD ST, CAMBRIDGE, MA 02140",
+  "lat": 42.391994,
+  "lng": -71.121374,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=60+ORCHARD+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/60%20ORCHARD%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=60+ORCHARD+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2023-01-10T00:00:00.000",
     "last_sale_price": "0",
     "assessed_value": "3738800",
-    "lot_size": "3640"
+    "lot_size": "3640",
+    "property_pid": "14768",
+    "property_parcel": "181-69"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Creative Construction",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "high cost ($285,475)"
+      "score_reasons": "high cost ($285,475)",
+      "permit_id": "1198299"
     }
   ]
 }

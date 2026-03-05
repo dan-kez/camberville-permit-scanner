@@ -1,5 +1,7 @@
 {
   "address": "7 CUTTER ST, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.387202550837,
+  "lng": -71.08369941408,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+CUTTER+ST%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/7%20CUTTER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=7+CUTTER+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -20,10 +22,10 @@
   "nearest_square": "Union",
   "distance_mi": 0.71,
   "max_score": 5,
-  "total_cost": 175.0,
-  "permit_count": 2,
-  "completed_permits": 2,
-  "completion_ratio": "2/2 complete",
+  "total_cost": 220.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
   "permits": [
     {
       "date": "2024-03-13",
@@ -38,6 +40,20 @@
       "score_reasons": "permit completed; all permits completed",
       "permit_id": "14198451",
       "permit_number": "E24-000284"
+    },
+    {
+      "date": "2025-03-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "install basement lighting/ rework existing electrical circuits to present code requirments.",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Bob Azulay Master Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51765490",
+      "permit_number": "E25-000403"
     },
     {
       "date": "2024-05-09",
@@ -56,8 +72,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The recent permits reflect only minor electrical maintenance and service upgrades by a long-term owner-occupant rather than high-end renovations."
-  },
-  "lat": 42.387202550837,
-  "lng": -71.08369941408
+    "reasoning": "Only electrical maintenance work (service upgrade, lighting, wiring repair) by owner-occupant, no kitchen/bathroom renovations or flip indicators"
+  }
 }

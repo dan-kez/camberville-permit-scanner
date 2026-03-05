@@ -1,0 +1,45 @@
+{
+  "address": "50 PRINCETON ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.392628282491,
+  "lng": -71.106484779672,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=50+PRINCETON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/50%20PRINCETON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=50+PRINCETON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1040",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 1755,
+    "last_sale_date": "2007-11-30",
+    "last_sale_price": 380000,
+    "assessed_value": 889700,
+    "lot_size": 0.0799,
+    "property_parcel": "34_A_26"
+  },
+  "property_use": "Certificate of Occupancy - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.71,
+  "max_score": 2,
+  "total_cost": 130.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-06-03",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "2 Family to Single Family Conversion",
+      "cost": 130.0,
+      "property_use": "Certificate of Occupancy - Residential",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: conversion",
+      "permit_id": "51982878",
+      "permit_number": "CO25-000075"
+    }
+  ]
+}

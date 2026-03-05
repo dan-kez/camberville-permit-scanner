@@ -1,5 +1,7 @@
 {
   "address": "34 ALPINE ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.393390616585,
+  "lng": -71.109678955334,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=34+ALPINE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/34%20ALPINE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=34+ALPINE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,17 +15,32 @@
     "last_sale_date": "2013-05-17",
     "last_sale_price": 505000,
     "assessed_value": 1033200,
-    "lot_size": 0.0995
+    "lot_size": 0.0995,
+    "property_parcel": "34_A_8"
   },
-  "property_use": "Building Permit - Residential Addition",
+  "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Porter",
   "distance_mi": 0.59,
-  "max_score": 2,
-  "total_cost": 2366.0,
-  "permit_count": 2,
-  "completed_permits": 1,
-  "completion_ratio": "1/2 complete",
+  "max_score": 3,
+  "total_cost": 3228.5,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/5 complete",
   "permits": [
+    {
+      "date": "2024-11-20",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Roof replacement",
+      "cost": 862.5,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Advanced Metal Roofing, LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51355244",
+      "permit_number": "B24-002035"
+    },
     {
       "date": "2024-05-29",
       "source": "Somerville",
@@ -33,8 +50,10 @@
       "property_use": "Building Permit - Residential Addition",
       "contractor": "Greenleaf Construction",
       "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "keyword: addition"
+      "score": 3,
+      "score_reasons": "keyword: addition; most permits completed",
+      "permit_id": "14319857",
+      "permit_number": "B24-000612"
     },
     {
       "date": "2024-09-25",
@@ -45,8 +64,10 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "Electric Rushe Inc.",
       "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "permit completed"
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51181850",
+      "permit_number": "E24-001386"
     }
   ]
 }

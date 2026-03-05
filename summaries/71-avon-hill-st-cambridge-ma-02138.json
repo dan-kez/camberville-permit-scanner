@@ -1,0 +1,45 @@
+{
+  "address": "71 AVON HILL ST, CAMBRIDGE, MA 02138",
+  "lat": 42.385266,
+  "lng": -71.124874,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=71+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/71%20AVON%20HILL%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=71+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1912",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "10",
+    "living_area": "2883",
+    "last_sale_date": "2022-07-18T00:00:00.000",
+    "last_sale_price": "4250000",
+    "assessed_value": "3955300",
+    "lot_size": "10348",
+    "property_pid": "17577",
+    "property_parcel": "209-6"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.37,
+  "max_score": 5,
+  "total_cost": 13036.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-06-10",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Replace three windows.",
+      "cost": 13036.0,
+      "property_use": "One-Family",
+      "contractor": "sean",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "1169302"
+    }
+  ]
+}

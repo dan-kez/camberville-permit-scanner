@@ -1,5 +1,7 @@
 {
   "address": "22 ASHLAND ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.38999762218,
+  "lng": -71.114617740323,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=22+ASHLAND+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/22%20ASHLAND%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=22+ASHLAND+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2008-09-05",
     "last_sale_price": 634350,
     "assessed_value": 1302100,
-    "lot_size": 0.0828
+    "lot_size": 0.0828,
+    "property_parcel": "30_F_16"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Porter",
@@ -34,7 +37,9 @@
       "contractor": "Smart Coats",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: rebuild; permit completed; all permits completed"
+      "score_reasons": "keyword: rebuild; permit completed; all permits completed",
+      "permit_id": "14083944",
+      "permit_number": "B23-002197"
     }
   ]
 }

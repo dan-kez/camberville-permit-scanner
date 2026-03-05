@@ -1,5 +1,7 @@
 {
   "address": "5 CHAUNCY LN, CAMBRIDGE, MA 02138",
+  "lat": 42.379989,
+  "lng": -71.122194,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+CHAUNCY+LN%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/5%20CHAUNCY%20LN%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=5+CHAUNCY+LN%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property is undergoing an extensive $561,500 whole-house renovation involving multiple bathrooms and structural additions, which qualifies as significant gut work indicative of preparing a high-end property for sale."
-  },
-  "lat": 42.379989,
-  "lng": -71.122194
+    "likelihood": "medium",
+    "reasoning": "Major luxury renovation with comprehensive upgrades across multiple living spaces suggests sale preparation, but owner occupation status creates uncertainty"
+  }
 }

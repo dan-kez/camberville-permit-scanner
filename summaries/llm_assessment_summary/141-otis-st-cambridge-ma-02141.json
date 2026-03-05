@@ -1,5 +1,7 @@
 {
   "address": "141 OTIS ST, CAMBRIDGE, MA 02141",
+  "lat": 42.370997,
+  "lng": -71.084638,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=141+OTIS+ST%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/141%20OTIS%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=141+OTIS+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "medium",
-    "reasoning": "The recent $100 property transfer followed immediately by a substantial $184,800 third-floor expansion suggests a major value-add project, although the owner-occupied status indicates it may be for personal use."
-  },
-  "lat": 42.370997,
-  "lng": -71.084638
+    "reasoning": "Full floor addition with significant renovation work and substantial $184,800 investment supports resale prep, but owner occupancy flag suggests more of a personal remodel project"
+  }
 }

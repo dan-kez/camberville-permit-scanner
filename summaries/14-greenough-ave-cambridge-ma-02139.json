@@ -1,5 +1,7 @@
 {
   "address": "14 GREENOUGH AVE, CAMBRIDGE, MA 02139",
+  "lat": 42.373397,
+  "lng": -71.106132,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=14+GREENOUGH+AVE%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/14%20GREENOUGH%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=14+GREENOUGH+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2024-09-20T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "2082800",
-    "lot_size": "4000"
+    "lot_size": "4000",
+    "property_pid": "7214",
+    "property_parcel": "112-15"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +38,8 @@
       "contractor": "Robert Tingle",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($564,497); keyword: remodel; minor: insulation"
+      "score_reasons": "high cost ($564,497); keyword: remodel; minor: insulation",
+      "permit_id": "270487"
     }
   ]
 }

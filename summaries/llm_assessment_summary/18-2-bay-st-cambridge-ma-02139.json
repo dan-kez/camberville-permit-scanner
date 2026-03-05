@@ -1,5 +1,7 @@
 {
   "address": "18-2 BAY ST, CAMBRIDGE, MA 02139",
+  "lat": 42.36811,
+  "lng": -71.110635,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18-2+BAY+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/18-2%20BAY%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=18-2+BAY+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -21,10 +23,10 @@
   "nearest_square": "Central",
   "distance_mi": 0.4,
   "max_score": 3,
-  "total_cost": 47402.0,
-  "permit_count": 1,
+  "total_cost": 54313.0,
+  "permit_count": 2,
   "completed_permits": 0,
-  "completion_ratio": "0/1",
+  "completion_ratio": "0/2",
   "permits": [
     {
       "date": "2025-06-05",
@@ -38,12 +40,23 @@
       "score": 3,
       "score_reasons": "moderate cost ($47,402); keyword: structural",
       "permit_id": "1168686"
+    },
+    {
+      "date": "2025-08-19",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "REMOVE & REPLACE 2 WINDOWS; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 6911.0,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "1179976"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "This is a single-item maintenance project (windows) by a long-term owner-occupant (26+ years) with no signs of high-end renovations."
-  },
-  "lat": 42.36811,
-  "lng": -71.110635
+    "reasoning": "Maintenance-focused window replacement with owner-occupied status and long-term ownership indicates routine renovation rather than sale preparation"
+  }
 }

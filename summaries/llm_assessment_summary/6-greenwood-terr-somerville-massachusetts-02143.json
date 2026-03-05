@@ -1,0 +1,49 @@
+{
+  "address": "6 GREENWOOD TERR, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.385332087234,
+  "lng": -71.114431410616,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=6+GREENWOOD+TERR%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/6%20GREENWOOD%20TERR%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=6+GREENWOOD+TERR%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 5,
+    "living_area": 1030,
+    "last_sale_date": "2023-11-21",
+    "last_sale_price": 655000,
+    "assessed_value": 655000,
+    "lot_size": 0.041600000000000005,
+    "property_parcel": "37_C_30"
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Porter",
+  "distance_mi": 0.32,
+  "max_score": 5,
+  "total_cost": 50.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-01-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "The drywall on back porch entry was installed by previous owner without a permit.  I do not need to do anything and I am applying for a permit to make it legal.  The layout of the back porch is 4 feet x 7 feet.",
+      "cost": 50.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51496815",
+      "permit_number": "B24-002319"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Only a minor $50 permit to legalize existing back porch drywall, owner-occupied with no kitchen or bathroom updates"
+  }
+}

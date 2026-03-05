@@ -1,5 +1,7 @@
 {
   "address": "12 COTTAGE AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.393703764488,
+  "lng": -71.122161453181,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=12+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/12%20COTTAGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=12+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "This is a single-room kitchen refresh by an owner-occupant who has lived in the property for over 7 years, which typically suggests maintenance rather than a pre-sale flip."
-  },
-  "lat": 42.393703764488,
-  "lng": -71.122161453181
+    "reasoning": "Owner-occupied kitchen remodel is routine maintenance, not a flip indicator"
+  }
 }

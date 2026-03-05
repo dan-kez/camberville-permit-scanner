@@ -1,5 +1,7 @@
 {
   "address": "26 CLARENDON AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.399934,
+  "lng": -71.131873,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=26+CLARENDON+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/26%20CLARENDON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=26+CLARENDON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2019-02-19T00:00:00.000",
     "last_sale_price": "900000",
     "assessed_value": "1387000",
-    "lot_size": "2397"
+    "lot_size": "2397",
+    "property_pid": "15053",
+    "property_parcel": "184-23"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +38,8 @@
       "contractor": "Streamline Builders LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($185,600); keyword: demolish"
+      "score_reasons": "moderate cost ($185,600); keyword: demolish",
+      "permit_id": "1170467"
     }
   ]
 }

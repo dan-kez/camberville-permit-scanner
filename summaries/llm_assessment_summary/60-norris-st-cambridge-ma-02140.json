@@ -1,5 +1,7 @@
 {
   "address": "60 NORRIS ST, CAMBRIDGE, MA 02140",
+  "lat": 42.394813,
+  "lng": -71.130551,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=60+NORRIS+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/60%20NORRIS%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=60+NORRIS+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property is undergoing a massive $484,000 full-gut renovation and structural kitchen extension, representing a total transformation of the small 1,007 sq ft residence."
-  },
-  "lat": 42.394813,
-  "lng": -71.130551
+    "likelihood": "error",
+    "reasoning": "Command '['claude', '--model', 'glm-4.7-flash:latest', '-p', 'Assess the likelihood that this property is being prepared for sale based on building permits and assessment data.\\n\\nCRITICAL INDICATORS FOR HIGH LIKELIHOOD:\\n1. High-end \\'prep-for-sale\\' renovations: Simultaneous full-scale updates to Kitchen AND multiple Bathrooms.\\n2. Non-owner occupied: If the permit lists owner_occupied as False, it is much more likely to be a project/flip.\\n3. Significant \\'Gut\\' or \\'Whole House\\' work even with long-term ownership (8+ years).\\n\\nCRITICAL INDICATORS FOR LOW LIKELIHOOD:\\n1. Maintenance work: Roof, windows (unless part of a larger project), siding, or HVAC only.\\n2. Minor updates: A single bathroom or small kitchen refresh by a long-term owner-occupant.\\n\\nRespond with ONLY valid JSON in this exact format:\\n{\"likelihood\": \"low|medium|high\", \"reasoning\": \"one sentence explanation\"}\\n\\nDATA:\\n{\"address\":\"60 NORRIS ST, CAMBRIDGE, MA 02140\",\"property_info\":{\"property_class\":\"SNGL-FAM-RES\",\"year_built\":\"1875\",\"bedrooms\":\"2\",\"bathrooms\":\"1/0\",\"total_rooms\":\"5\",\"living_area\":\"1007\",\"last_sale_date\":\"2021-10-29T00:00:00.000\",\"last_sale_price\":\"70000\",\"assessed_value\":\"947800\",\"lot_size\":\"2648\",\"property_pid\":\"15911\",\"property_parcel\":\"192-57\"},\"property_use\":\"One-Family\",\"nearest_square\":\"Davis\",\"distance_mi\":0.43,\"max_score\":2,\"total_cost\":484356.02,\"permit_count\":1,\"permits\":[{\"date\":\"2024-04-18\",\"source\":\"Cambridge Alteration\",\"status\":\"Active\",\"description\":\"Remove & rebuid rear kitchen extension, including a new basement space underneath(to be used as mechanical room not living space). Remove and rebuild roof structure. Full gut of inside of the property to accomadate insulation and envelope upgrades. Replacement of exterior sheathing.\",\"cost\":484356.02,\"property_use\":\"One-Family\",\"contractor\":\"Anderson and Sons Construction\",\"owner_occupied\":true,\"score\":2,\"score_reasons\":\"high cost ($484,356); keyword: gut; minor: insulation\",\"permit_id\":\"266030\"}]}']' timed out after 120 seconds"
+  }
 }

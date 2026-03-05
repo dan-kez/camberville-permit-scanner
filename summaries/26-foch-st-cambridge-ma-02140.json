@@ -1,5 +1,7 @@
 {
   "address": "26 FOCH ST, CAMBRIDGE, MA 02140",
+  "lat": 42.401469,
+  "lng": -71.135104,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=26+FOCH+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/26%20FOCH%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=26+FOCH+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2021-12-29T00:00:00.000",
     "last_sale_price": "1024000",
     "assessed_value": "1096400",
-    "lot_size": "5002"
+    "lot_size": "5002",
+    "property_pid": "15319",
+    "property_parcel": "186-94"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +38,8 @@
       "contractor": "Markos Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($213,800); keyword: remodel; minor: sign"
+      "score_reasons": "high cost ($213,800); keyword: remodel; minor: sign",
+      "permit_id": "282622"
     }
   ]
 }

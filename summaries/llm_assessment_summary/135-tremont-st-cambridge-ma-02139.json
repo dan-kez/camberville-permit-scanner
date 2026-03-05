@@ -1,0 +1,49 @@
+{
+  "address": "135 TREMONT ST, CAMBRIDGE, MA 02139",
+  "lat": 42.374075,
+  "lng": -71.096993,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=135+TREMONT+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/135%20TREMONT%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=135+TREMONT+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "2",
+    "bathrooms": "2/0",
+    "total_rooms": "6",
+    "living_area": "1188",
+    "last_sale_date": "2025-01-09T00:00:00.000",
+    "last_sale_price": "935000",
+    "assessed_value": "932100",
+    "lot_size": "1392",
+    "property_pid": "3870",
+    "property_parcel": "82-101"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.12,
+  "max_score": 5,
+  "total_cost": 9333.04,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-02-11",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Replace existing lallies and install supplemental beam for support. Will utilize existing footings if viable or pour new footings as needed.",
+      "cost": 9333.04,
+      "property_use": "One-Family",
+      "contractor": "Erickson Construction",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "1151689"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Permit is for structural foundation maintenance (replacing pilings and installing support beams) with owner occupied listed as true, indicating repair work rather than sale preparation"
+  }
+}

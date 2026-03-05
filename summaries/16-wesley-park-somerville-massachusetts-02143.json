@@ -1,5 +1,7 @@
 {
   "address": "16 WESLEY PARK, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.382463674239,
+  "lng": -71.097530057234,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+WESLEY+PARK%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/16%20WESLEY%20PARK%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=16+WESLEY+PARK%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,64 +15,31 @@
     "last_sale_date": "2022-05-12",
     "last_sale_price": 1400000,
     "assessed_value": 1258500,
-    "lot_size": 0.06380000000000001
+    "lot_size": 0.06380000000000001,
+    "property_parcel": "73_A_43"
   },
-  "property_use": "Building Permit - Residential Addition",
+  "property_use": "Building Permit - Residential Other",
   "nearest_square": "Union",
   "distance_mi": 0.3,
-  "max_score": 7,
-  "total_cost": 12995.0,
-  "permit_count": 5,
-  "completed_permits": 5,
-  "completion_ratio": "5/5 complete",
+  "max_score": 5,
+  "total_cost": 2075.0,
+  "permit_count": 4,
+  "completed_permits": 3,
+  "completion_ratio": "3/4 complete",
   "permits": [
     {
-      "date": "2023-08-01",
+      "date": "2025-07-22",
       "source": "Somerville",
       "status": "Closed",
-      "description": "CONTRACTOR REMOVED 4/22/25 BY OWNER. Remodel project 2 family to single family: New footprint and foundation for addition, new floor plan, 3rd floor dormer. Update electrical, plumbing and heating (Demo removed from this permit see B23-000517)",
-      "cost": 12030.0,
-      "property_use": "Building Permit - Residential Addition",
-      "contractor": "Any Season Builders LLC",
-      "owner_occupied": true,
-      "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
-    },
-    {
-      "date": "2023-10-06",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Gas water heather and fire place",
-      "cost": 60.0,
-      "property_use": "Gas Fitting - Residential - Existing",
-      "contractor": "Valentim plumbing & htg",
+      "description": "(HOMEOWNER PERMIT)\r\nInstalling 24 roof mounted PV modules total 9.960kW DC",
+      "cost": 1355.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
-    },
-    {
-      "date": "2023-10-11",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Renew 2 bath 1 half bath kitchen",
-      "cost": 160.0,
-      "property_use": "Plumbing Permit - Residential - Existing",
-      "contractor": "Valentim plumbing & htg",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
-    },
-    {
-      "date": "2023-11-14",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Rewiring old work and new work.",
-      "cost": 645.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Thien Le Electrical",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "keyword: total; permit completed; most permits completed",
+      "permit_id": "52179270",
+      "permit_number": "B25-001079"
     },
     {
       "date": "2024-03-14",
@@ -81,8 +50,38 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "Thien Le Electrical",
       "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14218620",
+      "permit_number": "E24-000328"
+    },
+    {
+      "date": "2025-07-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Installing 24 roof mounted PV modules total 9.960kW, Backfeeding house panel",
+      "cost": 200.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Thien Le Electrical",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: total; minor: panel; permit completed; most permits completed",
+      "permit_id": "52179279",
+      "permit_number": "E25-000943"
+    },
+    {
+      "date": "2025-06-06",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Continuity of permit #B23-000112 under new Permit holder, installing 14' by 8' window into existing opening. finishing exterior and interior trim work",
+      "cost": 420.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed",
+      "permit_id": "51981446",
+      "permit_number": "B25-000708"
     }
   ]
 }

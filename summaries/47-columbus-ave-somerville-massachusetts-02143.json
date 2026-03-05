@@ -1,0 +1,45 @@
+{
+  "address": "47 COLUMBUS AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.381433328791,
+  "lng": -71.094062799166,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=47+COLUMBUS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/47%20COLUMBUS%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=47+COLUMBUS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1882,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2475,
+    "last_sale_date": "2012-03-01",
+    "last_sale_price": 700000,
+    "assessed_value": 1641300,
+    "lot_size": 0.0814,
+    "property_parcel": "81_A_48"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.13,
+  "max_score": 4,
+  "total_cost": 748.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2024-12-31",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remove existem damaged iron railing 2- Open to prep the crack areas were the steps are broken 3- Concrete patch the broken steps replace gutters and facial boards",
+      "cost": 748.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "De oliveira renovation",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: gut; permit completed",
+      "permit_id": "51297295",
+      "permit_number": "B24-001892"
+    }
+  ]
+}

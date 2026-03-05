@@ -1,5 +1,7 @@
 {
   "address": "89 WASHINGTON AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.386387,
+  "lng": -71.123949,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=89+WASHINGTON+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/89%20WASHINGTON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=89+WASHINGTON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2024-04-17T00:00:00.000",
     "last_sale_price": "2500000",
     "assessed_value": "2142100",
-    "lot_size": "3796"
+    "lot_size": "3796",
+    "property_pid": "17725",
+    "property_parcel": "210-64"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "RENEWAL BY ANDERSEN",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($47,498); keyword: structural"
+      "score_reasons": "moderate cost ($47,498); keyword: structural",
+      "permit_id": "279443"
     }
   ]
 }

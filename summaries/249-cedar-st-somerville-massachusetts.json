@@ -1,5 +1,7 @@
 {
   "address": "249 CEDAR ST, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.396590994856,
+  "lng": -71.109121391135,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=249+CEDAR+ST%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/249%20CEDAR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=249+CEDAR+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2015-03-31",
     "last_sale_price": 850000,
     "assessed_value": 1142200,
-    "lot_size": 0.41090000000000004
+    "lot_size": 0.41090000000000004,
+    "property_parcel": "33_A_3"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +37,9 @@
       "contractor": "Wilko Systems, Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14310862",
+      "permit_number": "E24-000540"
     }
   ]
 }

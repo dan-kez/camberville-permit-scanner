@@ -1,5 +1,7 @@
 {
   "address": "2 GORDON PL, CAMBRIDGE, MA 02139",
+  "lat": 42.357944,
+  "lng": -71.113375,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+GORDON+PL%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/2%20GORDON%20PL%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=2+GORDON+PL%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "A single kitchen remodel by a long-term owner-occupant of 24 years is consistent with a lifestyle update rather than a professional flip or immediate preparation for sale."
-  },
-  "lat": 42.357944,
-  "lng": -71.113375
+    "likelihood": "medium",
+    "reasoning": "Owner-occupied status lowers likelihood; substantial kitchen remodel indicates personal improvement but not definitive sale preparation without multiple bathroom updates or whole-house work"
+  }
 }

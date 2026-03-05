@@ -1,0 +1,49 @@
+{
+  "address": "33 CORINTHIAN RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.400831148215,
+  "lng": -71.123807323689,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33+CORINTHIAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/33%20CORINTHIAN%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=33+CORINTHIAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1930,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1044,
+    "last_sale_date": "1993-06-22",
+    "last_sale_price": 139600,
+    "assessed_value": 1083600,
+    "lot_size": 0.050800000000000005,
+    "property_parcel": "12_B_10"
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Davis",
+  "distance_mi": 0.29,
+  "max_score": 4,
+  "total_cost": 2359.5,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/3 complete",
+  "permits": [
+    {
+      "date": "2025-06-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "demolition and renovation of the sunroom due to damage from a fallen tree. The space will be habitable and conditioned",
+      "cost": 2359.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Titus General Contracting",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: renovation; permit completed",
+      "permit_id": "51927707",
+      "permit_number": "B25-000586"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Owner-occupied single sunroom renovation for tree damage repair, not a prep-for-sale flip."
+  }
+}

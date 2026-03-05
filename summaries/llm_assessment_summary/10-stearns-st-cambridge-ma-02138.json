@@ -1,5 +1,7 @@
 {
   "address": "10 STEARNS ST, CAMBRIDGE, MA 02138",
+  "lat": 42.385248,
+  "lng": -71.131342,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+STEARNS+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/10%20STEARNS%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=10+STEARNS+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "Long-term owner-occupant of over 30 years performing structural renovations and exterior repairs rather than the high-end kitchen and bath updates typically seen in sale preparation."
-  },
-  "lat": 42.385248,
-  "lng": -71.131342
+    "reasoning": "Owner-occupied status with targeted interior/ exterior work, no simultaneous kitchen or bathroom updates, and moderate renovation scope indicate this is long-term owner maintenance rather than sale preparation."
+  }
 }

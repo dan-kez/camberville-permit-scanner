@@ -1,0 +1,49 @@
+{
+  "address": "223 NORFOLK ST, CAMBRIDGE, MA 02139",
+  "lat": 42.369713,
+  "lng": -71.098544,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=223+NORFOLK+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/223%20NORFOLK%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=223+NORFOLK+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1854",
+    "bedrooms": "6",
+    "bathrooms": "2/0",
+    "total_rooms": "9",
+    "living_area": "2007",
+    "last_sale_date": "2005-12-22T00:00:00.000",
+    "last_sale_price": "100",
+    "assessed_value": "1276600",
+    "lot_size": "2869",
+    "property_pid": "4344",
+    "property_parcel": "87-99"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.28,
+  "max_score": 2,
+  "total_cost": 8000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-08-01",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "INSTALL 10 WINDOWS FOR REPLACEMENT NO STRUCTURAL CHANGES",
+      "cost": 8000.0,
+      "property_use": "One-Family",
+      "contractor": "WINDOW WORLD",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural",
+      "permit_id": "1177001"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Single window replacement on long-term owner-occupied property is routine maintenance, not a prep-for-sale project"
+  }
+}

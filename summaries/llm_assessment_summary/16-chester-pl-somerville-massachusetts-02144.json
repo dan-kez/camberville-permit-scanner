@@ -1,5 +1,7 @@
 {
   "address": "16 CHESTER PL, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.393510310163,
+  "lng": -71.12411368225,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+CHESTER+PL%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/16%20CHESTER%20PL%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=16+CHESTER+PL%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for minor $120 weatherization and air sealing by a long-term owner-occupant, which constitutes basic maintenance rather than preparation for sale."
-  },
-  "lat": 42.393510310163,
-  "lng": -71.12411368225
+    "reasoning": "Weatherization work is typical maintenance, not sale preparation"
+  }
 }

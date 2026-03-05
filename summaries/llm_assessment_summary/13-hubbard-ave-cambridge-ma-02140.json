@@ -1,5 +1,7 @@
 {
   "address": "13 HUBBARD AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.388535,
+  "lng": -71.125996,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=13+HUBBARD+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/13%20HUBBARD%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=13+HUBBARD+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -55,8 +57,6 @@
   ],
   "llm_assessment": {
     "likelihood": "high",
-    "reasoning": "The simultaneous construction of a new $875,000 home and a $780,000 gut renovation of the existing 1894 property indicates a major development project likely intended for sale."
-  },
-  "lat": 42.388535,
-  "lng": -71.125996
+    "reasoning": "Simultaneous filing of two major construction projects totaling $1.655M on the same day, including new rear construction and full renovation, indicates aggressive preparation for sale/flip"
+  }
 }

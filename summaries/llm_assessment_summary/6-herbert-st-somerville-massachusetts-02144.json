@@ -1,0 +1,63 @@
+{
+  "address": "6 HERBERT ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.395066452397,
+  "lng": -71.122800992393,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=6+HERBERT+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/6%20HERBERT%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=6+HERBERT+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1894,
+    "last_sale_date": "2005-06-03",
+    "last_sale_price": 509000,
+    "assessed_value": 1208300,
+    "lot_size": 0.0448,
+    "property_parcel": "22_D_6"
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.11,
+  "max_score": 5,
+  "total_cost": 1879.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2025-06-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "add recessed lighting in 2 rooms",
+      "cost": 49.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "M Jack Electric Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52071650",
+      "permit_number": "E25-000807"
+    },
+    {
+      "date": "2025-06-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Demolish exterior walls and ceilings in 2 rooms to provide adequate insulation. Replace 10 windows, air seal all.",
+      "cost": 1830.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Bennett Custom Renovations LLC",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: demolish; minor: insulation; permit completed; all permits completed",
+      "permit_id": "52046938",
+      "permit_number": "B25-000805"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "No kitchen or bathroom renovations, owner occupied both permits, work focused on insulation and windows rather than sale preparation"
+  }
+}

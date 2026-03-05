@@ -1,0 +1,49 @@
+{
+  "address": "41 ROGERS AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.39671529848,
+  "lng": -71.113094580878,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=41+ROGERS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/41%20ROGERS%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=41+ROGERS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1040",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 12,
+    "living_area": 2817,
+    "last_sale_date": "2001-04-02",
+    "last_sale_price": 0,
+    "assessed_value": 1214900,
+    "lot_size": 0.0771,
+    "property_parcel": "28_C_31"
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Davis",
+  "distance_mi": 0.48,
+  "max_score": 4,
+  "total_cost": 12030.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-01-17",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Changing two family to single family:\r\nGut Reno, replace MEPs, replace siding, and replace roof",
+      "cost": 12030.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "S3 Development LLC",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: gut; minor: siding; permit completed; all permits completed",
+      "permit_id": "51374852",
+      "permit_number": "B24-002090"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "Owner-occupied long-term resident undertaking major gut reno to convert two-family to single-family, which typically indicates personal home improvement rather than investment flip"
+  }
+}

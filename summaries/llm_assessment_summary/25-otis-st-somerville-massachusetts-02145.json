@@ -1,5 +1,7 @@
 {
   "address": "25 OTIS ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.38764125965,
+  "lng": -71.088358830236,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=25+OTIS+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/25%20OTIS%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=25+OTIS+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -56,8 +58,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The recent permits are exclusively for owner-occupied solar panel installation, which is a long-term efficiency upgrade rather than a prep-for-sale renovation."
-  },
-  "lat": 42.38764125965,
-  "lng": -71.088358830236
+    "reasoning": "Solar installation is a minor energy efficiency improvement, not extensive renovation work; owner occupied indicates personal investment rather than flip preparation."
+  }
 }

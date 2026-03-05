@@ -1,5 +1,7 @@
 {
   "address": "8 DELL ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.382787425249,
+  "lng": -71.088192030363,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+DELL+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/8%20DELL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=8+DELL+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,17 +15,74 @@
     "last_sale_date": "2004-03-01",
     "last_sale_price": 349000,
     "assessed_value": 578100,
-    "lot_size": 0.0329
+    "lot_size": 0.0329,
+    "property_parcel": "93_A_8"
   },
-  "property_use": "Building Permit - Residential Other",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.34,
-  "max_score": 4,
-  "total_cost": 150.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "max_score": 5,
+  "total_cost": 1572.0,
+  "permit_count": 5,
+  "completed_permits": 4,
+  "completion_ratio": "4/5 complete",
   "permits": [
+    {
+      "date": "2025-07-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Kitchen renovation- update to decor and replace existing light fixtures",
+      "cost": 137.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "N/A",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "52164764",
+      "permit_number": "E25-000924"
+    },
+    {
+      "date": "2025-06-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Kitchen renovation",
+      "cost": 825.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Spinosa Maintenance and Construction LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "52066064",
+      "permit_number": "B25-000878"
+    },
+    {
+      "date": "2025-06-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Kitchen renovation",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "TND Plumbing",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "52154998",
+      "permit_number": "P25-000376"
+    },
+    {
+      "date": "2025-07-11",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on street for Kitchen remodel",
+      "cost": 400.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "keyword: remodel; most permits completed",
+      "permit_id": "52274957",
+      "permit_number": "DP25-000113"
+    },
     {
       "date": "2025-09-22",
       "source": "Somerville",
@@ -32,8 +91,11 @@
       "cost": 150.0,
       "property_use": "Building Permit - Residential Other",
       "contractor": "HomeWorks Energy",
-      "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; most permits completed",
+      "permit_id": "52552612",
+      "permit_number": "B25-001585"
     }
   ]
 }

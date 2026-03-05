@@ -1,5 +1,7 @@
 {
   "address": "24 KINGSTON ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396939933485,
+  "lng": -71.126234471391,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=24+KINGSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/24%20KINGSTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=24+KINGSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,16 +15,17 @@
     "last_sale_date": "2020-10-01",
     "last_sale_price": 1,
     "assessed_value": 1244100,
-    "lot_size": 0.0506
+    "lot_size": 0.0506,
+    "property_parcel": "17_G_2"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
   "distance_mi": 0.19,
   "max_score": 5,
-  "total_cost": 2979.5,
-  "permit_count": 7,
-  "completed_permits": 6,
-  "completion_ratio": "6/8 complete",
+  "total_cost": 2004.5,
+  "permit_count": 5,
+  "completed_permits": 4,
+  "completion_ratio": "4/5 complete",
   "permits": [
     {
       "date": "2024-09-06",
@@ -34,19 +37,9 @@
       "contractor": "Blacklight electric inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed"
-    },
-    {
-      "date": "2023-08-14",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Installed power/control wiring for 5 ton ductless mini split with 6 ductless fan coils.\r\nB23-001081",
-      "cost": 135.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "D'Ambrosio Electric Inc.",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; permit completed; most permits completed",
+      "permit_id": "51199375",
+      "permit_number": "E24-001431"
     },
     {
       "date": "2024-08-01",
@@ -58,7 +51,9 @@
       "contractor": "Stella Construction",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "17070058",
+      "permit_number": "B24-001236"
     },
     {
       "date": "2024-09-18",
@@ -70,7 +65,9 @@
       "contractor": "Precision Plumbing & HVAC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51222589",
+      "permit_number": "P24-000536"
     },
     {
       "date": "2024-09-18",
@@ -82,19 +79,9 @@
       "contractor": "Precision Plumbing & HVAC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
-    },
-    {
-      "date": "2023-08-25",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "Install New Heat Pump",
-      "cost": 840.0,
-      "property_use": "Building Permit - Residential Other",
-      "contractor": "Cooling Unlimited, Inc.",
-      "owner_occupied": true,
-      "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51222591",
+      "permit_number": "G24-000428"
     },
     {
       "date": "2024-10-02",
@@ -106,7 +93,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "51207660",
+      "permit_number": "PEL24-000220"
     }
   ]
 }

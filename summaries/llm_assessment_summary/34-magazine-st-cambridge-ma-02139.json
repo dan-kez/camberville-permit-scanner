@@ -1,5 +1,7 @@
 {
   "address": "34 MAGAZINE ST, CAMBRIDGE, MA 02139",
+  "lat": 42.363156,
+  "lng": -71.106457,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=34+MAGAZINE+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/34%20MAGAZINE%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=34+MAGAZINE+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "Long-term owner-occupant (26+ years) performing standard window maintenance with no evidence of high-end kitchen or bathroom renovations."
-  },
-  "lat": 42.363156,
-  "lng": -71.106457
+    "likelihood": "medium",
+    "reasoning": "Long-term owner (since 1999) undertaking substantial window replacement project ($56,930) without kitchen or bathroom updates suggests personal improvement rather than full sale preparation, though significant market appreciation may motivate eventual sale."
+  }
 }

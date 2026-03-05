@@ -1,5 +1,7 @@
 {
   "address": "25 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.395527959985,
+  "lng": -71.112970361073,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=25+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/25%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=25+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "1991-04-09",
     "last_sale_price": 30000,
     "assessed_value": 1454400,
-    "lot_size": 0.0781
+    "lot_size": 0.0781,
+    "property_parcel": "28_D_21"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
@@ -34,7 +37,9 @@
       "contractor": "M.I.K. Construction & Remodeling",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: full"
+      "score_reasons": "keyword: full",
+      "permit_id": "14445064",
+      "permit_number": "B24-000987"
     }
   ]
 }

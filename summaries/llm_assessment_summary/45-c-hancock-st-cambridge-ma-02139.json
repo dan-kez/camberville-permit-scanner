@@ -1,0 +1,36 @@
+{
+  "address": "45-C HANCOCK ST, CAMBRIDGE, MA 02139",
+  "lat": 42.368077,
+  "lng": -71.109541,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=45-C+HANCOCK+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/45-C%20HANCOCK%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=45-C+HANCOCK+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.35,
+  "max_score": 4,
+  "total_cost": 400.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-04-15",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Residential weatherization / air sealing. No structural changes. (Site ID: 14189890)",
+      "cost": 400.0,
+      "property_use": "One-Family",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "265570"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Minor weatherization permit by long-term owner occupant indicates routine maintenance rather than sale preparation"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "address": "99 RINDGE AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.393058,
+  "lng": -71.128785,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=99+RINDGE+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/99%20RINDGE%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=99+RINDGE+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "1852",
+    "bedrooms": "5",
+    "bathrooms": "3/1",
+    "total_rooms": "10",
+    "living_area": "2448",
+    "last_sale_date": "2024-02-07T00:00:00.000",
+    "last_sale_price": "2500000",
+    "assessed_value": "2179700",
+    "lot_size": "5202",
+    "property_pid": "16455",
+    "property_parcel": "196-71"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.41,
+  "max_score": 7,
+  "total_cost": 23625.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-03-17",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Bathroom Remodel",
+      "cost": 23625.0,
+      "property_use": "One-Family",
+      "contractor": "Carriker Construction",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "262182"
+    }
+  ]
+}

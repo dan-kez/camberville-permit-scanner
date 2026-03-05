@@ -1,0 +1,45 @@
+{
+  "address": "40 FAIRMONT ST, CAMBRIDGE, MA 02139",
+  "lat": 42.361889,
+  "lng": -71.111287,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+FAIRMONT+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/40%20FAIRMONT%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=40+FAIRMONT+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "5",
+    "bathrooms": "1/1",
+    "total_rooms": "8",
+    "living_area": "1741",
+    "last_sale_date": "2024-04-29T00:00:00.000",
+    "last_sale_price": "1300000",
+    "assessed_value": "1264700",
+    "lot_size": "2010",
+    "property_pid": "9944",
+    "property_parcel": "127-65"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.45,
+  "max_score": 7,
+  "total_cost": 12200.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-03-26",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Additon of a half bath, rennovation of a full bath, additon of applances and lighting fixutres",
+      "cost": 12200.0,
+      "property_use": "One-Family",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: full; permit completed; all permits completed",
+      "permit_id": "263284"
+    }
+  ]
+}

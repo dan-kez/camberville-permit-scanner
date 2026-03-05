@@ -1,0 +1,49 @@
+{
+  "address": "18 WESLEY PARK, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.382562706425,
+  "lng": -71.097483789128,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+WESLEY+PARK%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/18%20WESLEY%20PARK%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=18+WESLEY+PARK%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1040",
+    "year_built": 1915,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 1950,
+    "last_sale_date": "2004-01-20",
+    "last_sale_price": 1,
+    "assessed_value": 887000,
+    "lot_size": 0.0637,
+    "property_parcel": "73_A_42"
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Union",
+  "distance_mi": 0.3,
+  "max_score": 2,
+  "total_cost": 1200.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-08-13",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Existing two-family dwelling. A permit was previously issued to convert the property into three units. We are now revising the scope to convert it into a single-family unit instead.\r\nREVIEW FEE PAID REMAING FEE WAIVED PER MZ AS FEE PAID ON B25-000119 - JS 7/1/25",
+      "cost": 1200.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "North America Development LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: convert",
+      "permit_id": "52173368",
+      "permit_number": "B25-001075"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Owner occupied property with a minor scope change on an old conversion permit from 21 years ago; $1,200 cost indicates limited work"
+  }
+}

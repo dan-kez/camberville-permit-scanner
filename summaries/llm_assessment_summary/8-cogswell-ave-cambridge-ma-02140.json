@@ -1,5 +1,7 @@
 {
   "address": "8 COGSWELL AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.39129,
+  "lng": -71.124353,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/8%20COGSWELL%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=8+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The simultaneous renovation of the kitchen and all three bathrooms (half, master, and full) represents a comprehensive, high-end update highly consistent with preparation for sale."
-  },
-  "lat": 42.39129,
-  "lng": -71.124353
+    "likelihood": "error",
+    "reasoning": "Command '['claude', '--model', 'glm-4.7-flash:latest', '-p', 'Assess the likelihood that this property is being prepared for sale based on building permits and assessment data.\\n\\nCRITICAL INDICATORS FOR HIGH LIKELIHOOD:\\n1. High-end \\'prep-for-sale\\' renovations: Simultaneous full-scale updates to Kitchen AND multiple Bathrooms.\\n2. Non-owner occupied: If the permit lists owner_occupied as False, it is much more likely to be a project/flip.\\n3. Significant \\'Gut\\' or \\'Whole House\\' work even with long-term ownership (8+ years).\\n\\nCRITICAL INDICATORS FOR LOW LIKELIHOOD:\\n1. Maintenance work: Roof, windows (unless part of a larger project), siding, or HVAC only.\\n2. Minor updates: A single bathroom or small kitchen refresh by a long-term owner-occupant.\\n\\nRespond with ONLY valid JSON in this exact format:\\n{\"likelihood\": \"low|medium|high\", \"reasoning\": \"one sentence explanation\"}\\n\\nDATA:\\n{\"address\":\"8 COGSWELL AVE, CAMBRIDGE, MA 02140\",\"property_info\":{\"property_class\":\"SNGL-FAM-RES\",\"year_built\":\"1871\",\"bedrooms\":\"3\",\"bathrooms\":\"2/1\",\"total_rooms\":\"7\",\"living_area\":\"2160\",\"last_sale_date\":\"2017-05-01T00:00:00.000\",\"last_sale_price\":\"1550000\",\"assessed_value\":\"2158000\",\"lot_size\":\"5000\",\"property_pid\":\"16878\",\"property_parcel\":\"199-151\"},\"property_use\":\"One-Family\",\"nearest_square\":\"Porter\",\"distance_mi\":0.33,\"max_score\":3,\"total_cost\":122055.0,\"permit_count\":1,\"permits\":[{\"date\":\"2025-06-23\",\"source\":\"Cambridge Alteration\",\"status\":\"Active\",\"description\":\"Renovation of a kitchen and renovation of a half \\\\u00a0bathroom on the first floor. Renovation of a master bathroom and a full bathroom on the second floor.\",\"cost\":122055.0,\"property_use\":\"One-Family\",\"contractor\":\"Kenny Romero\",\"owner_occupied\":true,\"score\":3,\"score_reasons\":\"moderate cost ($122,055); keyword: renovation\",\"permit_id\":\"1171086\"}]}']' timed out after 120 seconds"
+  }
 }

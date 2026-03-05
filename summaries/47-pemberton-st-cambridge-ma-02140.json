@@ -1,0 +1,32 @@
+{
+  "address": "47 PEMBERTON ST, CAMBRIDGE, MA 02140",
+  "lat": 42.391319,
+  "lng": -71.12589,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=47+PEMBERTON+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/47%20PEMBERTON%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=47+PEMBERTON+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.4,
+  "max_score": 7,
+  "total_cost": 8200.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-12-14",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "INSTALL 3 WINDOWS FOR REPLACMENT. NO STRUCTURAL CHANGES",
+      "cost": 8200.0,
+      "property_use": "One-Family",
+      "contractor": "PELLA OF BOSTON",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "1193160"
+    }
+  ]
+}

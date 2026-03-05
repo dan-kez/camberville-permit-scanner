@@ -1,5 +1,7 @@
 {
   "address": "5 WILLOW AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.391481302861,
+  "lng": -71.118382304496,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/5%20WILLOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=5+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2011-12-16",
     "last_sale_price": 899000,
     "assessed_value": 1788400,
-    "lot_size": 0.1384
+    "lot_size": 0.1384,
+    "property_parcel": "30_A_18"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Porter",
@@ -32,8 +35,11 @@
       "cost": 4275.0,
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "Don Foote Contracting",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52687563",
+      "permit_number": "B25-002025"
     }
   ]
 }

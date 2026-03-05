@@ -1,0 +1,36 @@
+{
+  "address": "41 FAIRFIELD ST, UNIT 1, CAMBRIDGE, MA 02140",
+  "lat": 42.391401,
+  "lng": -71.12641,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=41+FAIRFIELD+ST%2C+UNIT+1%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/41%20FAIRFIELD%20ST%2C%20UNIT%201%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=41+FAIRFIELD+ST%2C+UNIT+1%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.42,
+  "max_score": 4,
+  "total_cost": 1000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-11-25",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Residential weatherization/air sealing. No structural changes. (26260)",
+      "cost": 1000.0,
+      "property_use": "One-Family",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "1144255"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Weatherization/air sealing is maintenance work with no structural changes, not renovation or prep-for-sale activity"
+  }
+}

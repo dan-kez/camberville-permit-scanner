@@ -1,5 +1,7 @@
 {
   "address": "14-A BELLIS CIR, CAMBRIDGE, MA 02140",
+  "lat": 42.389704,
+  "lng": -71.133427,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=14-A+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/14-A%20BELLIS%20CIR%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=14-A+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -29,8 +31,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permit is limited to maintenance-related replacement of windows and doors by an owner-occupant, with no evidence of kitchen or bathroom updates."
-  },
-  "lat": 42.389704,
-  "lng": -71.133427
+    "reasoning": "Single window and door replacement without kitchen/bathroom updates is standard maintenance, and owner_occupied status indicates this is not a flip project"
+  }
 }

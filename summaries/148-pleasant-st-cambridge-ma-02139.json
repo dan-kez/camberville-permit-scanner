@@ -1,5 +1,7 @@
 {
   "address": "148 PLEASANT ST, CAMBRIDGE, MA 02139",
+  "lat": 42.360184,
+  "lng": -71.112607,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=148+PLEASANT+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/148%20PLEASANT%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=148+PLEASANT+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2013-07-29T00:00:00.000",
     "last_sale_price": "711500",
     "assessed_value": "1518700",
-    "lot_size": "2198"
+    "lot_size": "2198",
+    "property_pid": "5919",
+    "property_parcel": "101-155"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "Rahim Home Improvement",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($61,000); keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($61,000); keyword: remodel; permit completed; all permits completed",
+      "permit_id": "268772"
     }
   ]
 }

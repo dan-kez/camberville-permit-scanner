@@ -1,6 +1,10 @@
 {
   "address": "21 RAYMOND AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.406759500693,
+  "lng": -71.126213851909,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+RAYMOND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/21%20RAYMOND%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=21+RAYMOND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1895,
@@ -18,10 +22,10 @@
   "nearest_square": "Davis",
   "distance_mi": 0.72,
   "max_score": 7,
-  "total_cost": 1485.0,
-  "permit_count": 5,
-  "completed_permits": 5,
-  "completion_ratio": "5/5 complete",
+  "total_cost": 3105.0,
+  "permit_count": 6,
+  "completed_permits": 6,
+  "completion_ratio": "6/6 complete",
   "permits": [
     {
       "date": "2025-10-21",
@@ -31,8 +35,11 @@
       "cost": 113.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Raymond Sedar Electrician",
+      "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "52642660",
+      "permit_number": "E25-001562"
     },
     {
       "date": "2025-12-04",
@@ -42,30 +49,11 @@
       "cost": 484.0,
       "property_use": "Building Permit - Residential Other",
       "contractor": "francisco J ruiz heating and cooling",
+      "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
-    },
-    {
-      "date": "2026-01-13",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "add 1 heat pump and 1 air handler in basement with serve receptacle \tB26-000024",
-      "cost": 90.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "3283A1",
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
-    },
-    {
-      "date": "2026-01-26",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Replace air handler and split system heat pump",
-      "cost": 600.0,
-      "property_use": "Building Permit - Residential Other",
-      "contractor": "Keyes North Atlantic",
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52554273",
+      "permit_number": "B25-001596"
     },
     {
       "date": "2026-02-03",
@@ -75,14 +63,57 @@
       "cost": 198.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Carlos Gomez Carrillo",
+      "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52650224",
+      "permit_number": "E25-001588"
+    },
+    {
+      "date": "2026-01-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "add 1 heat pump and 1 air handler in basement with serve receptacle \tB26-000024",
+      "cost": 90.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "3283A1",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52667488",
+      "permit_number": "E25-001637"
+    },
+    {
+      "date": "2026-01-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace air handler and split system heat pump",
+      "cost": 600.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Keyes North Atlantic",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52938430",
+      "permit_number": "B26-000024"
+    },
+    {
+      "date": "2025-07-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Refinishing an existing bedroom and finishing an unfinished attic room as an additional bedroom (both  on 3rd floor)",
+      "cost": 1620.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: addition; minor: shed; permit completed; all permits completed",
+      "permit_id": "10892322",
+      "permit_number": "B22-001642"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The low total cost and mechanical focus on HVAC and electrical systems suggest owner maintenance rather than a renovation for resale."
-  },
-  "zillow_url": "https://www.zillow.com/homes/21%20RAYMOND%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
-  "google_search_url": "https://www.google.com/search?q=21+RAYMOND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
+    "reasoning": "No kitchen or bathroom permits, all owner-occupied work appears to be functional HVAC/electrical upgrades rather than full-scale renovations"
+  }
 }

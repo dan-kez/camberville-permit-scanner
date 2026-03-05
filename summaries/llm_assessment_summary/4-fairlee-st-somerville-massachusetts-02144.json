@@ -1,5 +1,7 @@
 {
   "address": "4 FAIRLEE ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.392533357438,
+  "lng": -71.114592426976,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+FAIRLEE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/4%20FAIRLEE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=4+FAIRLEE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -16,43 +18,15 @@
     "lot_size": 0.049600000000000005,
     "property_parcel": "29_I_11"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Certificate of Occupancy - Residential",
   "nearest_square": "Porter",
   "distance_mi": 0.37,
-  "max_score": 3,
-  "total_cost": 876.0,
-  "permit_count": 3,
-  "completed_permits": 2,
-  "completion_ratio": "2/3 complete",
+  "max_score": 2,
+  "total_cost": 130.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
   "permits": [
-    {
-      "date": "2023-10-11",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Wiring whole house by code and service upgrade",
-      "cost": 480.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Lucas Marques Da Silva",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed",
-      "permit_id": "13896594",
-      "permit_number": "E23-001597"
-    },
-    {
-      "date": "2023-10-18",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Install a 3 zone HVAC system at the basement to supply first, second and third floors.",
-      "cost": 266.0,
-      "property_use": "Sheet Metal Permit - Residential",
-      "contractor": "High End Appliances and AC Repair",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed",
-      "permit_id": "11977471",
-      "permit_number": "SM23-000104"
-    },
     {
       "date": "2024-07-16",
       "source": "Somerville",
@@ -62,16 +36,14 @@
       "property_use": "Certificate of Occupancy - Residential",
       "contractor": "S3 Development LLC",
       "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "keyword: gut; most permits completed",
+      "score": 2,
+      "score_reasons": "keyword: gut",
       "permit_id": "14344284",
       "permit_number": "CO24-000064"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "A full gut renovation and conversion from a two-family to a single-family home by a development LLC shortly after a recent purchase strongly suggests a professional flip for resale."
-  },
-  "lat": 42.392533357438,
-  "lng": -71.114592426976
+    "likelihood": "low",
+    "reasoning": "Owner_occupied is true despite significant 'gut' renovation, indicating personal renovation rather than sale preparation"
+  }
 }

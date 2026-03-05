@@ -1,5 +1,7 @@
 {
   "address": "24 AUTUMN ST, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.388213995094,
+  "lng": -71.087529692374,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=24+AUTUMN+ST%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/24%20AUTUMN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=24+AUTUMN+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2000-10-23",
     "last_sale_price": 260000,
     "assessed_value": 704300,
-    "lot_size": 0.0335
+    "lot_size": 0.0335,
+    "property_parcel": "90_C_26"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +37,9 @@
       "contractor": "Power Home Remodeling Group",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: structural"
+      "score_reasons": "keyword: structural",
+      "permit_id": "51359543",
+      "permit_number": "B24-002048"
     }
   ]
 }

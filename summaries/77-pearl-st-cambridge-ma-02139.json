@@ -1,5 +1,7 @@
 {
   "address": "77 PEARL ST, CAMBRIDGE, MA 02139",
+  "lat": 42.362943,
+  "lng": -71.104646,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=77+PEARL+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/77%20PEARL%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=77+PEARL+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2013-09-04T00:00:00.000",
     "last_sale_price": "775000",
     "assessed_value": "1986100",
-    "lot_size": "1680"
+    "lot_size": "1680",
+    "property_pid": "6516",
+    "property_parcel": "106-29"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "CPS BUILDERS",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($161,343); keyword: renovation"
+      "score_reasons": "moderate cost ($161,343); keyword: renovation",
+      "permit_id": "1181101"
     }
   ]
 }

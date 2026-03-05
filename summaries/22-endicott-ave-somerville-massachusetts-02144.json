@@ -1,5 +1,7 @@
 {
   "address": "22 ENDICOTT AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.403498940358,
+  "lng": -71.12981589098,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=22+ENDICOTT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/22%20ENDICOTT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=22+ENDICOTT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2022-03-30",
     "last_sale_price": 1370000,
     "assessed_value": 1249500,
-    "lot_size": 0.0674
+    "lot_size": 0.0674,
+    "property_parcel": "9_B_39"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Davis",
@@ -32,8 +35,11 @@
       "cost": 3007.5,
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "Our House Contracting",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52910990",
+      "permit_number": "B25-002264"
     }
   ]
 }

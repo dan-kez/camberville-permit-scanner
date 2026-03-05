@@ -1,5 +1,7 @@
 {
   "address": "76 ANTRIM ST, CAMBRIDGE, MA 02139",
+  "lat": 42.372055,
+  "lng": -71.1024,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=76+ANTRIM+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/76%20ANTRIM%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=76+ANTRIM+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2012-07-31T00:00:00.000",
     "last_sale_price": "805000",
     "assessed_value": "2051500",
-    "lot_size": "2972"
+    "lot_size": "2972",
+    "property_pid": "7671",
+    "property_parcel": "114-52"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +38,8 @@
       "contractor": "Eastern Massachusetts Window & Door, LLC",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($26,700); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($26,700); permit completed; all permits completed",
+      "permit_id": "1145019"
     }
   ]
 }

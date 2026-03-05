@@ -1,6 +1,10 @@
 {
   "address": "335 SUMMER ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.393392334875,
+  "lng": -71.118389680571,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=335+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/335%20SUMMER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=335+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1883,
@@ -31,8 +35,11 @@
       "cost": 5180.0,
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "Byggmeister Assoc Inc",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovate"
+      "score_reasons": "keyword: renovate",
+      "permit_id": "52953459",
+      "permit_number": "B26-000059"
     },
     {
       "date": "2026-02-17",
@@ -42,14 +49,15 @@
       "cost": 80.0,
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "Powderhouse Plumbing",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52982503",
+      "permit_number": "P26-000057"
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "The permits focus on high-impact areas like the kitchen and bathrooms with a general contractor, suggesting an effort to maximize property value for sale, though the long ownership history adds ambiguity."
-  },
-  "zillow_url": "https://www.zillow.com/homes/335%20SUMMER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
-  "google_search_url": "https://www.google.com/search?q=335+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
+    "likelihood": "low",
+    "reasoning": "Owner-occupied status and limited scope renovations suggest routine maintenance rather than sale preparation"
+  }
 }

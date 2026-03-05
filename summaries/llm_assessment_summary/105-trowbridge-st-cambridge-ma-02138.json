@@ -1,0 +1,49 @@
+{
+  "address": "105 TROWBRIDGE ST, CAMBRIDGE, MA 02138",
+  "lat": 42.376666,
+  "lng": -71.109793,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=105+TROWBRIDGE+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/105%20TROWBRIDGE%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=105+TROWBRIDGE+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1979",
+    "bedrooms": "3",
+    "bathrooms": "1/2",
+    "total_rooms": "6",
+    "living_area": "1544",
+    "last_sale_date": "1980-06-09T00:00:00.000",
+    "last_sale_price": "92000",
+    "assessed_value": "1462200",
+    "lot_size": "1370",
+    "property_pid": "11692",
+    "property_parcel": "142-160"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.57,
+  "max_score": 5,
+  "total_cost": 6145.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-04-26",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Remove and replace 5 windows",
+      "cost": 6145.0,
+      "property_use": "Two-Family",
+      "contractor": "Mario's Roofing, Inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "267799"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Only a maintenance window replacement completed for an owner-occupied property"
+  }
+}

@@ -1,5 +1,7 @@
 {
   "address": "22 DONNELL ST, CAMBRIDGE, MA 02138",
+  "lat": 42.384339,
+  "lng": -71.131805,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=22+DONNELL+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/22%20DONNELL%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=22+DONNELL+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2010-11-29T00:00:00.000",
     "last_sale_price": "1749000",
     "assessed_value": "3485400",
-    "lot_size": "6707"
+    "lot_size": "6707",
+    "property_pid": "19257",
+    "property_parcel": "229-24"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "credere ventures llc",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($64,963)"
+      "score_reasons": "moderate cost ($64,963)",
+      "permit_id": "1167155"
     }
   ]
 }

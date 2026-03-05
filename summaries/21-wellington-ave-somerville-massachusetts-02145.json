@@ -1,5 +1,7 @@
 {
   "address": "21 WELLINGTON AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.389429371054,
+  "lng": -71.090383646586,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+WELLINGTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/21%20WELLINGTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=21+WELLINGTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2017-12-18",
     "last_sale_price": 565000,
     "assessed_value": 1005900,
-    "lot_size": 0.09040000000000001
+    "lot_size": 0.09040000000000001,
+    "property_parcel": "78_B_39"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Union",
@@ -34,7 +37,9 @@
       "contractor": "J Landry Design Build Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovate; permit completed; most permits completed"
+      "score_reasons": "keyword: renovate; permit completed; most permits completed",
+      "permit_id": "14405313",
+      "permit_number": "B24-000832"
     },
     {
       "date": "2024-07-10",
@@ -46,7 +51,9 @@
       "contractor": "Superior Electrical Contractor Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "17064137",
+      "permit_number": "E24-001066"
     },
     {
       "date": "2024-10-10",
@@ -58,7 +65,9 @@
       "contractor": "Glenn Wicker Plumbing",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51279863",
+      "permit_number": "G24-000484"
     }
   ]
 }

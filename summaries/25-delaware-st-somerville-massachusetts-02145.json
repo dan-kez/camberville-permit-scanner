@@ -1,5 +1,7 @@
 {
   "address": "25 DELAWARE ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.386134277278,
+  "lng": -71.090182313272,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=25+DELAWARE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/25%20DELAWARE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=25+DELAWARE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,28 +15,45 @@
     "last_sale_date": "2023-10-23",
     "last_sale_price": 860000,
     "assessed_value": 764100,
-    "lot_size": 0.0517
+    "lot_size": 0.0517,
+    "property_parcel": "92_A_8"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.48,
-  "max_score": 2,
-  "total_cost": 115.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/2 complete",
+  "max_score": 3,
+  "total_cost": 436.0,
+  "permit_count": 2,
+  "completed_permits": 3,
+  "completion_ratio": "3/5 complete",
   "permits": [
     {
-      "date": "2023-11-30",
+      "date": "2025-09-04",
       "source": "Somerville",
       "status": "Closed",
-      "description": "100 to 200 amp service upgrade. Add a duplex outlet",
-      "cost": 115.0,
+      "description": "Bringing basement lights up to code & installing an outlet in the kitchen",
+      "cost": 46.0,
       "property_use": "Electrical Permit - Residential",
-      "contractor": "Kuhlman Electrical Services",
+      "contractor": "Richard lopez",
       "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "permit completed"
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "52535903",
+      "permit_number": "E25-001306"
+    },
+    {
+      "date": "2025-09-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace deck floors, railings, Stairs Change support columns from 4x4 to 6x6. Inspect for rotted floor joists.",
+      "cost": 390.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Triple Beam Carpentry",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "52547889",
+      "permit_number": "B25-001563"
     }
   ]
 }

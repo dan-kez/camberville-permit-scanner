@@ -1,5 +1,7 @@
 {
   "address": "12 MONDAMIN CT, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.381484123124,
+  "lng": -71.109382235962,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=12+MONDAMIN+CT%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/12%20MONDAMIN%20CT%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=12+MONDAMIN+CT%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -56,8 +58,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permits are exclusively for solar installation and an electrical service upgrade by a long-term owner-occupant, which are typical long-term investments rather than prep-for-sale renovations."
-  },
-  "lat": 42.381484123124,
-  "lng": -71.109382235962
+    "reasoning": "Permits are for routine solar installation and electrical service upgrade (maintenance work), no kitchen/bathroom renovations, and owner is long-term occupant with no sale indicator."
+  }
 }

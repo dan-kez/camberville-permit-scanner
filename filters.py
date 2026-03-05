@@ -73,9 +73,12 @@ def is_residential_single_family(permit, properties=None):
                 if p_class == "1010":
                     return True
                 # Special case: allow 2-family (1040) if permit description suggests conversion
-                if p_class == "1040":
+                if p_class in ("1040", "1050"):
                     desc = permit.get("description", "").lower()
-                    if any(kw in desc for kw in ["to single family", "to 1 family", "to one family"]):
+                    if any(kw in desc for kw in [
+                        "to single family", "to 1 family", "to one family", "to 1 fam",
+                        "into a single family", "into a single-family",
+                    ]):
                         return True
                 return False
 

@@ -1,0 +1,45 @@
+{
+  "address": "7 DANA ST, CAMBRIDGE, MA 02138",
+  "lat": 42.37007,
+  "lng": -71.110294,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+DANA+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/7%20DANA%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=7+DANA+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1902",
+    "bedrooms": "6",
+    "bathrooms": "4/0",
+    "total_rooms": "12",
+    "living_area": "4563",
+    "last_sale_date": "1983-11-16T00:00:00.000",
+    "last_sale_price": "157750",
+    "assessed_value": "5340800",
+    "lot_size": "8970",
+    "property_pid": "8048",
+    "property_parcel": "116-6"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.47,
+  "max_score": 2,
+  "total_cost": 11327.5,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-10-14",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Rebuild the wooden handrail on the 2nd floor back porch to increase the height from the current 36\" to 60\".",
+      "cost": 11327.5,
+      "property_use": "One-Family",
+      "contractor": "Gilman, Guidelli & Bellow",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: rebuild",
+      "permit_id": "1187045"
+    }
+  ]
+}

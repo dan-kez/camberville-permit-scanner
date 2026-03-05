@@ -1,0 +1,49 @@
+{
+  "address": "100 OXFORD ST, CAMBRIDGE, MA 02138",
+  "lat": 42.382972,
+  "lng": -71.116035,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=100+OXFORD+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/100%20OXFORD%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=100+OXFORD+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "8",
+    "living_area": "1919",
+    "last_sale_date": "1995-04-27T00:00:00.000",
+    "last_sale_price": "475000",
+    "assessed_value": "2109100",
+    "lot_size": "5777",
+    "property_pid": "11966",
+    "property_parcel": "150-28"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.41,
+  "max_score": 4,
+  "total_cost": 4000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-07-15",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Residential weatherization/air sealing. No structural changes. (Site ID 5815488)",
+      "cost": 4000.0,
+      "property_use": "One-Family",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "280390"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Only weatherization/air sealing permit, no kitchen or bathroom renovations, owner occupied, no structural changes"
+  }
+}

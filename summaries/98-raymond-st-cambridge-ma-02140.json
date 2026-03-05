@@ -1,5 +1,7 @@
 {
   "address": "98 RAYMOND ST, CAMBRIDGE, MA 02140",
+  "lat": 42.385886,
+  "lng": -71.1268,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=98+RAYMOND+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/98%20RAYMOND%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=98+RAYMOND+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,16 +15,18 @@
     "last_sale_date": "2022-02-02T00:00:00.000",
     "last_sale_price": "4270000",
     "assessed_value": "5789100",
-    "lot_size": "6420"
+    "lot_size": "6420",
+    "property_pid": "17447",
+    "property_parcel": "206-19"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
   "distance_mi": 0.43,
   "max_score": 3,
-  "total_cost": 146000.0,
-  "permit_count": 3,
+  "total_cost": 164000.0,
+  "permit_count": 4,
   "completed_permits": 0,
-  "completion_ratio": "0/3",
+  "completion_ratio": "0/4",
   "permits": [
     {
       "date": "2024-04-10",
@@ -34,19 +38,8 @@
       "contractor": "Andrew",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($25,000); keyword: gut"
-    },
-    {
-      "date": "2024-04-10",
-      "source": "Cambridge Alteration",
-      "status": "Active",
-      "description": "Basement reno.\u00a0 Add shower to bath.\u00a0 Demo already complete on an earlier permit",
-      "cost": 56000.0,
-      "property_use": "One-Family",
-      "contractor": "Greenleaf Construction",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "moderate cost ($56,000); keyword: complete"
+      "score_reasons": "moderate cost ($25,000); keyword: gut",
+      "permit_id": "265091"
     },
     {
       "date": "2024-04-10",
@@ -58,7 +51,34 @@
       "contractor": "Greenleaf Construction",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($65,000); keyword: renovate"
+      "score_reasons": "moderate cost ($65,000); keyword: renovate",
+      "permit_id": "265104"
+    },
+    {
+      "date": "2024-04-10",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Basement reno.\u00a0 Add shower to bath.\u00a0 Demo already complete on an earlier permit",
+      "cost": 56000.0,
+      "property_use": "One-Family",
+      "contractor": "Greenleaf Construction",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($56,000); keyword: complete",
+      "permit_id": "265111"
+    },
+    {
+      "date": "2025-10-13",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Rebuild existing back deck to be safe, useable, and have bike storage underneath",
+      "cost": 18000.0,
+      "property_use": "One-Family",
+      "contractor": "Greenleaf Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: rebuild",
+      "permit_id": "1186920"
     }
   ]
 }

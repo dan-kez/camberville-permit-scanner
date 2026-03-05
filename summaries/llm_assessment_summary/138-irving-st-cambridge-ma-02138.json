@@ -1,5 +1,7 @@
 {
   "address": "138 IRVING ST, CAMBRIDGE, MA 02138",
+  "lat": 42.381037,
+  "lng": -71.11103,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=138+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/138%20IRVING%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=138+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -68,8 +70,6 @@
   ],
   "llm_assessment": {
     "likelihood": "high",
-    "reasoning": "The property is undergoing a massive $6 million gut renovation including a new addition, garage, and pool, representing a total transformation of the estate often seen in high-end 'prep-for-sale' projects."
-  },
-  "lat": 42.381037,
-  "lng": -71.11103
+    "reasoning": "First permit indicates massive $6.12M gut renovation to studs with new addition, facade, and roof; extreme cost and scope strongly suggest pre-sale preparation for high-end flip or major renovation despite owner occupancy status"
+  }
 }

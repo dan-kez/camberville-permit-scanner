@@ -1,5 +1,7 @@
 {
   "address": "204 PEARL ST, CAMBRIDGE, MA 02139",
+  "lat": 42.359738,
+  "lng": -71.107891,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=204+PEARL+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/204%20PEARL%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=204+PEARL+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2012-12-12T00:00:00.000",
     "last_sale_price": "1350000",
     "assessed_value": "2857700",
-    "lot_size": "3685"
+    "lot_size": "3685",
+    "property_pid": "5461",
+    "property_parcel": "97-110"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "Out of the Woods Construction & Cabinetry Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($697,403); keyword: renovate"
+      "score_reasons": "high cost ($697,403); keyword: renovate",
+      "permit_id": "1184051"
     }
   ]
 }

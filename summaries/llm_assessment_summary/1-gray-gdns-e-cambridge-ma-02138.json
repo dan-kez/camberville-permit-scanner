@@ -44,6 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "This is a single maintenance project for window replacement by a long-term owner-occupant, with no indications of high-end renovations or flips."
+    "reasoning": "Routine window replacement maintenance project by owner-occupant, not preparation for sale"
   }
 }

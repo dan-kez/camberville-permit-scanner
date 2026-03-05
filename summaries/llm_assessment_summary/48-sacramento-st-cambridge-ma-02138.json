@@ -1,5 +1,7 @@
 {
   "address": "48 SACRAMENTO ST, CAMBRIDGE, MA 02138",
+  "lat": 42.382462,
+  "lng": -71.114874,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=48+SACRAMENTO+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/48%20SACRAMENTO%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=48+SACRAMENTO+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The property is owner-occupied and was recently transferred for $1, suggesting the $334,000 third-floor expansion is a personal renovation rather than a professional flip or prep-for-sale project."
-  },
-  "lat": 42.382462,
-  "lng": -71.114874
+    "likelihood": "medium",
+    "reasoning": "Significant 3rd floor renovation with dormer and skylight could support sale prep, but owner-occupied status suggests personal use or rental investment rather than immediate flip."
+  }
 }

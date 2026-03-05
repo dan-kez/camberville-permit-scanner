@@ -1,5 +1,7 @@
 {
   "address": "34 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.395857997423,
+  "lng": -71.113292309974,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=34+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/34%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=34+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The single minor electrical permit for a range receptacle by a long-term owner-occupant does not indicate preparation for sale."
-  },
-  "lat": 42.395857997423,
-  "lng": -71.113292309974
+    "reasoning": "Minor electrical upgrade by owner-occupant, cost $60, indicates routine maintenance rather than flip preparation"
+  }
 }

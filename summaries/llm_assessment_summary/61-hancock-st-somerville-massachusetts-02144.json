@@ -1,5 +1,7 @@
 {
   "address": "61 HANCOCK ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.392046787959,
+  "lng": -71.115395664757,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=61+HANCOCK+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/61%20HANCOCK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=61+HANCOCK+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -16,34 +18,46 @@
     "lot_size": 0.0649,
     "property_parcel": "29_I_20"
   },
-  "property_use": "Building Permit - Residential Other",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
   "distance_mi": 0.31,
-  "max_score": 4,
-  "total_cost": 50.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "max_score": 3,
+  "total_cost": 1327.5,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/3 complete",
   "permits": [
     {
-      "date": "2023-11-20",
+      "date": "2026-01-15",
       "source": "Somerville",
       "status": "Closed",
-      "description": "Residential weatherization/ air sealing. No structural changes. SITE ID 8991317",
-      "cost": 50.0,
-      "property_use": "Building Permit - Residential Other",
-      "contractor": "HomeWorks Energy",
+      "description": "replace 2 furn ac 20 amp and 30 amp with 2  45amp heat pumps 1 unit with 5k backup coil",
+      "cost": 150.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "SIS Inc.",
       "owner_occupied": true,
-      "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
-      "permit_id": "13963090",
-      "permit_number": "B23-001979"
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "52929543",
+      "permit_number": "E26-000001"
+    },
+    {
+      "date": "2026-01-15",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Install 1st floor (1) ducted heat pump. Reconnecting to existing ductwork. Install 2nd/3rd floor (2) ceiling cassettes and (1) ducted air handler. Reconnecting to existing ductwork",
+      "cost": 1177.5,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "CPS Corporation",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed",
+      "permit_id": "52912613",
+      "permit_number": "B25-002278"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for minor weatherization and air sealing by a long-term owner-occupant, with no structural changes or high-end renovations indicated."
-  },
-  "lat": 42.392046787959,
-  "lng": -71.115395664757
+    "reasoning": "HVAC system replacement for energy efficiency rather than prep-for-sale renovations; no kitchen or bathroom updates; owner-occupied property"
+  }
 }

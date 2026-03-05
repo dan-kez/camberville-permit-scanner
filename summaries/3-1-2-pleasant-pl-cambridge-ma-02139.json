@@ -1,0 +1,32 @@
+{
+  "address": "3-1/2 PLEASANT PL, CAMBRIDGE, MA 02139",
+  "lat": 42.363482,
+  "lng": -71.108312,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3-1%2F2+PLEASANT+PL%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/3-1/2%20PLEASANT%20PL%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=3-1%2F2+PLEASANT+PL%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.27,
+  "max_score": 7,
+  "total_cost": 13900.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-05-19",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "INSTALL 7 WINDOWS FOR REPLACEMENT NO STRUCTURAL CHANGES",
+      "cost": 13900.0,
+      "property_use": "One-Family",
+      "contractor": "MILLWORK MASTERS",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "1165743"
+    }
+  ]
+}

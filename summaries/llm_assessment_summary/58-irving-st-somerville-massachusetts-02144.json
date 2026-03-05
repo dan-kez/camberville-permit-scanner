@@ -1,6 +1,10 @@
 {
   "address": "58 IRVING ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.40025158152,
+  "lng": -71.122719185018,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=58+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/58%20IRVING%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=58+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1900,
@@ -31,8 +35,11 @@
       "cost": 12220.0,
       "property_use": "Building Permit - Residential Renovation",
       "contractor": "Tom Curren Companies",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52658269",
+      "permit_number": "B25-001927"
     },
     {
       "date": "2025-12-12",
@@ -42,8 +49,11 @@
       "cost": 110.0,
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "caruso plumbing & heating",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52759046",
+      "permit_number": "P25-000703"
     },
     {
       "date": "2026-01-13",
@@ -53,14 +63,15 @@
       "cost": 153.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Michael Feeley",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "52943276",
+      "permit_number": "E26-000036"
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "Renovations targeting bathrooms and basement space alongside the high 2022 purchase price suggest an effort to enhance value for a future resale, though the low total cost indicates minor upgrades rather than a full renovation."
-  },
-  "zillow_url": "https://www.zillow.com/homes/58%20IRVING%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
-  "google_search_url": "https://www.google.com/search?q=58+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
+    "likelihood": "low",
+    "reasoning": "All permits show owner occupied status with maintenance-focused bathroom/ basement work, no evidence of full-scale kitchen or multiple simultaneous bathroom renovations, and low total project cost relative to property value"
+  }
 }

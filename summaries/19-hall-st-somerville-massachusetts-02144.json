@@ -1,5 +1,7 @@
 {
   "address": "19 HALL ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.391663441617,
+  "lng": -71.113836630766,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+HALL+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/19%20HALL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=19+HALL+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,28 +15,59 @@
     "last_sale_date": "2010-05-21",
     "last_sale_price": 379900,
     "assessed_value": 983500,
-    "lot_size": 0.06420000000000001
+    "lot_size": 0.06420000000000001,
+    "property_parcel": "29_G_22"
   },
-  "property_use": "Electrical Permit - Residential",
+  "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Porter",
   "distance_mi": 0.35,
-  "max_score": 4,
-  "total_cost": 184.0,
-  "permit_count": 2,
-  "completed_permits": 2,
-  "completion_ratio": "2/5 complete",
+  "max_score": 2,
+  "total_cost": 1120.0,
+  "permit_count": 5,
+  "completed_permits": 1,
+  "completion_ratio": "1/9 complete",
   "permits": [
     {
-      "date": "2023-08-30",
+      "date": "2025-07-09",
       "source": "Somerville",
-      "status": "Closed",
-      "description": "remodel of kitchen , bathroom and one room",
-      "cost": 104.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "Reilly Electrical Contractors",
+      "status": "Issued",
+      "description": "Foundation permit \r\nConstruction permit B25-000309",
+      "cost": 580.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Treetop Group",
       "owner_occupied": true,
-      "score": 4,
-      "score_reasons": "keyword: remodel; permit completed"
+      "score": 2,
+      "score_reasons": "keyword: foundation",
+      "permit_id": "52051379",
+      "permit_number": "B25-000827"
+    },
+    {
+      "date": "2025-06-05",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Interior Demolition",
+      "cost": 340.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Treetop Group",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: demolition",
+      "permit_id": "52042724",
+      "permit_number": "B25-000792"
+    },
+    {
+      "date": "2025-04-14",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "prep the house for demolition they are demo the inside of the house  B25-000309",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Lucas Luiz",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: demolition",
+      "permit_id": "51913743",
+      "permit_number": "E25-000540"
     },
     {
       "date": "2024-04-09",
@@ -46,7 +79,23 @@
       "contractor": "Reilly Electrical Contractors",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14311079",
+      "permit_number": "E24-000545"
+    },
+    {
+      "date": "2025-06-18",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Grounding foundation requestwd by guilding dpt to be able to pull a building permit B25-000827",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Lucas Luiz",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: foundation",
+      "permit_id": "52146250",
+      "permit_number": "E25-000878"
     }
   ]
 }

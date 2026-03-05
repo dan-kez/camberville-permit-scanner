@@ -1,5 +1,7 @@
 {
   "address": "58 CENTRAL ST, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.387092831725,
+  "lng": -71.104647382677,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=58+CENTRAL+ST%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/58%20CENTRAL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=58+CENTRAL+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The only recent permit is for a minor $45 electrical fixture change by a long-term owner-occupant, which does not indicate significant preparation for sale."
-  },
-  "lat": 42.387092831725,
-  "lng": -71.104647382677
+    "reasoning": "Minor electrical maintenance work (flood light removal and wall sconce installation) by an owner-occupant, not indicative of prep-for-sale renovations"
+  }
 }

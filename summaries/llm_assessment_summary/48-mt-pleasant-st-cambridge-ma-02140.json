@@ -1,5 +1,7 @@
 {
   "address": "48 MT PLEASANT ST, CAMBRIDGE, MA 02140",
+  "lat": 42.387999,
+  "lng": -71.125059,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=48+MT+PLEASANT+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/48%20MT%20PLEASANT%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=48+MT+PLEASANT+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "Long-term owner-occupant (14+ years) performing a single bathroom and laundry renovation, which is a minor update rather than a full-scale prep-for-sale project."
-  },
-  "lat": 42.387999,
-  "lng": -71.125059
+    "likelihood": "medium",
+    "reasoning": "Bathroom and laundry area renovation at $70,000 suggests moderate improvement work, but owner_occupied status and limited scope (single bathroom) reduce sale prep likelihood"
+  }
 }

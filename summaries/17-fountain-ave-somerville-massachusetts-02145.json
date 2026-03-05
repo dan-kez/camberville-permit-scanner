@@ -1,0 +1,73 @@
+{
+  "address": "17 FOUNTAIN AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.383303876213,
+  "lng": -71.088576089166,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+FOUNTAIN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/17%20FOUNTAIN%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=17+FOUNTAIN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 4,
+    "living_area": 1067,
+    "last_sale_date": "2021-03-26",
+    "last_sale_price": 650500,
+    "assessed_value": 700400,
+    "lot_size": 0.041600000000000005,
+    "property_parcel": "92_G_7"
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.35,
+  "max_score": 5,
+  "total_cost": 2094.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2025-07-22",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Strip existing roof shingles and install new asphalt roof shingles - Partial roof",
+      "cost": 220.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Johnnys Pro",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "52173160",
+      "permit_number": "B25-001072"
+    },
+    {
+      "date": "2025-07-14",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "New photovoltaic roof mount solar system. Size 12.04kW - 28 Modules. No Ess and No Structural",
+      "cost": 1644.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Ecoloop Construction",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed",
+      "permit_id": "52080479",
+      "permit_number": "B25-000925"
+    },
+    {
+      "date": "2025-06-23",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install new photovoltaic roof mount system, size 12.04kW - 28 panels",
+      "cost": 230.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Ecoloop Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "52073165",
+      "permit_number": "E25-000810"
+    }
+  ]
+}

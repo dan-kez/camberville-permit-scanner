@@ -1,5 +1,7 @@
 {
   "address": "29 FAIRFIELD ST, CAMBRIDGE, MA 02140",
+  "lat": 42.39166,
+  "lng": -71.126404,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=29+FAIRFIELD+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/29%20FAIRFIELD%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=29+FAIRFIELD+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2024-12-04T00:00:00.000",
     "last_sale_price": "2235000",
     "assessed_value": "2141000",
-    "lot_size": "4541"
+    "lot_size": "4541",
+    "property_pid": "16606",
+    "property_parcel": "198-50"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +38,8 @@
       "contractor": "M&j Contracting",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($83,000); keyword: remodel"
+      "score_reasons": "moderate cost ($83,000); keyword: remodel",
+      "permit_id": "1148004"
     }
   ]
 }

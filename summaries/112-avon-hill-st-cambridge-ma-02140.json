@@ -1,5 +1,7 @@
 {
   "address": "112 AVON HILL ST, CAMBRIDGE, MA 02140",
+  "lat": 42.386437,
+  "lng": -71.125203,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=112+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/112%20AVON%20HILL%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=112+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2005-03-16T00:00:00.000",
     "last_sale_price": "1542500",
     "assessed_value": "3229900",
-    "lot_size": "5516"
+    "lot_size": "5516",
+    "property_pid": "17690",
+    "property_parcel": "210-22"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +38,8 @@
       "contractor": "Bespoke Contracting LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "high cost ($205,644)"
+      "score_reasons": "high cost ($205,644)",
+      "permit_id": "269141"
     }
   ]
 }

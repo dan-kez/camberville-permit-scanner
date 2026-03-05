@@ -1,5 +1,7 @@
 {
   "address": "19 COTTAGE ST, CAMBRIDGE, MA 02139",
+  "lat": 42.362827,
+  "lng": -71.106127,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+COTTAGE+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/19%20COTTAGE%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=19+COTTAGE+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2024-05-31T00:00:00.000",
     "last_sale_price": "2815000",
     "assessed_value": "1993900",
-    "lot_size": "4500"
+    "lot_size": "4500",
+    "property_pid": "6500",
+    "property_parcel": "106-17"
   },
   "property_use": "Two-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "Fresh Start Contracting",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($68,000); keyword: full"
+      "score_reasons": "moderate cost ($68,000); keyword: full",
+      "permit_id": "286338"
     },
     {
       "date": "2025-03-14",
@@ -46,7 +51,8 @@
       "contractor": "Fresh Start Contracting Corp.",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($1,688,000); keyword: gut; minor: roofing"
+      "score_reasons": "high cost ($1,688,000); keyword: gut; minor: roofing",
+      "permit_id": "1155760"
     }
   ]
 }

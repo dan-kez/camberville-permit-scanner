@@ -1,0 +1,45 @@
+{
+  "address": "5 HEALEY ST, CAMBRIDGE, MA 02138",
+  "lat": 42.380127,
+  "lng": -71.128408,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+HEALEY+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/5%20HEALEY%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=5+HEALEY+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1916",
+    "bedrooms": "2",
+    "bathrooms": "1/1",
+    "total_rooms": "5",
+    "living_area": "1266",
+    "last_sale_date": "2021-10-21T00:00:00.000",
+    "last_sale_price": "2100000",
+    "assessed_value": "2000700",
+    "lot_size": "5250",
+    "property_pid": "19048",
+    "property_parcel": "225-13"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.74,
+  "max_score": 5,
+  "total_cost": 15800.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-07-19",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Remove 4!existing deck Post.Add New footing.10 in x 48in deep Concrete form tube.Add 4 New Post 6x6.",
+      "cost": 15800.0,
+      "property_use": "One-Family",
+      "contractor": "codogno construction",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "281138"
+    }
+  ]
+}

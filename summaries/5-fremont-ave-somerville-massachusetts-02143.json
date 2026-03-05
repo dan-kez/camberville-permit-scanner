@@ -1,5 +1,7 @@
 {
   "address": "5 FREMONT AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.378594210548,
+  "lng": -71.10047973278,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+FREMONT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/5%20FREMONT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=5+FREMONT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2018-12-10",
     "last_sale_price": 670000,
     "assessed_value": 1021100,
-    "lot_size": 0.0546
+    "lot_size": 0.0546,
+    "property_parcel": "75_C_3"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Inman",
@@ -34,7 +37,9 @@
       "contractor": "Bryan Harte",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: demolition"
+      "score_reasons": "keyword: demolition",
+      "permit_id": "14452648",
+      "permit_number": "E24-000903"
     }
   ]
 }

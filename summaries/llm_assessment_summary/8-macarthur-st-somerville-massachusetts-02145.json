@@ -1,6 +1,10 @@
 {
   "address": "8 MACARTHUR ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.388980017225,
+  "lng": -71.087955995969,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+MACARTHUR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/8%20MACARTHUR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+MACARTHUR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1915,
@@ -31,14 +35,15 @@
       "cost": 60.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Anthony j Bagni",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: foundation"
+      "score_reasons": "keyword: foundation",
+      "permit_id": "52672005",
+      "permit_number": "E25-001653"
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The single permit is for a minor electrical safety issue at a negligible cost ($60), and the lack of recent sales history (last sale in 2015) suggests a homeowner maintenance project rather than a comprehensive renovation for resale."
-  },
-  "zillow_url": "https://www.zillow.com/homes/8%20MACARTHUR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
-  "google_search_url": "https://www.google.com/search?q=8+MACARTHUR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
+    "likelihood": "error",
+    "reasoning": "Command '['claude', '--model', 'glm-4.7-flash:latest', '-p', 'Assess the likelihood that this property is being prepared for sale based on building permits and assessment data.\\n\\nCRITICAL INDICATORS FOR HIGH LIKELIHOOD:\\n1. High-end \\'prep-for-sale\\' renovations: Simultaneous full-scale updates to Kitchen AND multiple Bathrooms.\\n2. Non-owner occupied: If the permit lists owner_occupied as False, it is much more likely to be a project/flip.\\n3. Significant \\'Gut\\' or \\'Whole House\\' work even with long-term ownership (8+ years).\\n\\nCRITICAL INDICATORS FOR LOW LIKELIHOOD:\\n1. Maintenance work: Roof, windows (unless part of a larger project), siding, or HVAC only.\\n2. Minor updates: A single bathroom or small kitchen refresh by a long-term owner-occupant.\\n\\nRespond with ONLY valid JSON in this exact format:\\n{\"likelihood\": \"low|medium|high\", \"reasoning\": \"one sentence explanation\"}\\n\\nDATA:\\n{\"address\":\"8 MACARTHUR ST, SOMERVILLE MASSACHUSETTS 02145\",\"property_info\":{\"property_class\":\"1010\",\"year_built\":1915,\"bedrooms\":\"unknown\",\"bathrooms\":\"unknown\",\"total_rooms\":8,\"living_area\":2274,\"last_sale_date\":\"2015-01-26\",\"last_sale_price\":1,\"assessed_value\":996300,\"lot_size\":0.0826,\"property_parcel\":\"90_B_24\"},\"property_use\":\"Electrical Permit - Residential\",\"nearest_square\":\"Union\",\"distance_mi\":0.7,\"max_score\":2,\"total_cost\":60.0,\"permit_count\":1,\"permits\":[{\"date\":\"2025-11-04\",\"source\":\"Somerville\",\"status\":\"Issued\",\"description\":\"Ground wire for foundation\",\"cost\":60.0,\"property_use\":\"Electrical Permit - Residential\",\"contractor\":\"Anthony j Bagni\",\"owner_occupied\":true,\"score\":2,\"score_reasons\":\"keyword: foundation\",\"permit_id\":\"52672005\",\"permit_number\":\"E25-001653\"}]}']' timed out after 120 seconds"
+  }
 }

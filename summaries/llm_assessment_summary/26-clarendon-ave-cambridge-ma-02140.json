@@ -1,5 +1,7 @@
 {
   "address": "26 CLARENDON AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.399934,
+  "lng": -71.131873,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=26+CLARENDON+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/26%20CLARENDON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=26+CLARENDON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied and the permit describes a sunroom addition and deck rebuild, which are lifestyle-oriented improvements rather than the kitchen or bathroom renovations characteristic of a sale preparation."
-  },
-  "lat": 42.399934,
-  "lng": -71.131873
+    "reasoning": "Deck demolition and sunroom addition is a minor outdoor improvement rather than full-scale renovation, and owner occupied indicates personal use"
+  }
 }

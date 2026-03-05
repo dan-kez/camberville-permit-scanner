@@ -1,5 +1,7 @@
 {
   "address": "10 ALBION CT, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.391953287829,
+  "lng": -71.109527326706,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+ALBION+CT%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/10%20ALBION%20CT%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=10+ALBION+CT%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2023-11-01",
     "last_sale_price": 100,
     "assessed_value": 843400,
-    "lot_size": 0.0609
+    "lot_size": 0.0609,
+    "property_parcel": "34_D_19"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -22,7 +25,7 @@
   "total_cost": 423.0,
   "permit_count": 3,
   "completed_permits": 3,
-  "completion_ratio": "3/6 complete",
+  "completion_ratio": "3/7 complete",
   "permits": [
     {
       "date": "2024-06-10",
@@ -34,7 +37,9 @@
       "contractor": "Ryan Baugh Electrician",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: demolition; permit completed"
+      "score_reasons": "keyword: demolition; permit completed",
+      "permit_id": "14453390",
+      "permit_number": "E24-000911"
     },
     {
       "date": "2024-06-03",
@@ -46,7 +51,9 @@
       "contractor": "Kuhlman Electrical Services",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14434904",
+      "permit_number": "E24-000839"
     },
     {
       "date": "2024-06-24",
@@ -58,7 +65,9 @@
       "contractor": "A Adam Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14403713",
+      "permit_number": "B24-000826"
     }
   ]
 }

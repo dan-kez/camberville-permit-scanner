@@ -1,5 +1,7 @@
 {
   "address": "23 MAPLE AVE, CAMBRIDGE, MA 02139",
+  "lat": 42.372748,
+  "lng": -71.10488,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=23+MAPLE+AVE%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/23%20MAPLE%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=23+MAPLE+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The single permit is for routine weatherization and insulation by an owner-occupant, which is considered maintenance rather than a pre-sale renovation."
-  },
-  "lat": 42.372748,
-  "lng": -71.10488
+    "likelihood": "error",
+    "reasoning": "Command '['claude', '--model', 'glm-4.7-flash:latest', '-p', 'Assess the likelihood that this property is being prepared for sale based on building permits and assessment data.\\n\\nCRITICAL INDICATORS FOR HIGH LIKELIHOOD:\\n1. High-end \\'prep-for-sale\\' renovations: Simultaneous full-scale updates to Kitchen AND multiple Bathrooms.\\n2. Non-owner occupied: If the permit lists owner_occupied as False, it is much more likely to be a project/flip.\\n3. Significant \\'Gut\\' or \\'Whole House\\' work even with long-term ownership (8+ years).\\n\\nCRITICAL INDICATORS FOR LOW LIKELIHOOD:\\n1. Maintenance work: Roof, windows (unless part of a larger project), siding, or HVAC only.\\n2. Minor updates: A single bathroom or small kitchen refresh by a long-term owner-occupant.\\n\\nRespond with ONLY valid JSON in this exact format:\\n{\"likelihood\": \"low|medium|high\", \"reasoning\": \"one sentence explanation\"}\\n\\nDATA:\\n{\"address\":\"23 MAPLE AVE, CAMBRIDGE, MA 02139\",\"property_info\":{\"property_class\":\"SINGLE FAM W/AUXILIARY APT\",\"year_built\":\"1867\",\"bedrooms\":\"5\",\"bathrooms\":\"3/0\",\"total_rooms\":\"12\",\"living_area\":\"3146\",\"last_sale_date\":\"2018-04-05T00:00:00.000\",\"last_sale_price\":\"1\",\"assessed_value\":\"2723000\",\"lot_size\":\"10465\",\"property_pid\":\"7440\",\"property_parcel\":\"112-102\"},\"property_use\":\"One-Family\",\"nearest_square\":\"Inman\",\"distance_mi\":0.29,\"max_score\":3,\"total_cost\":25608.2,\"permit_count\":1,\"permits\":[{\"date\":\"2024-08-23\",\"source\":\"Cambridge Alteration\",\"status\":\"Complete\",\"description\":\"Weatherization, Insulation, Air Sealing\",\"cost\":25608.2,\"property_use\":\"One-Family\",\"contractor\":\"Weathervane Home Energy\",\"owner_occupied\":true,\"score\":3,\"score_reasons\":\"moderate cost ($25,608); minor: insulation; permit completed; all permits completed\",\"permit_id\":\"286568\"}]}']' timed out after 120 seconds"
+  }
 }

@@ -1,5 +1,7 @@
 {
   "address": "118 AMORY ST, CAMBRIDGE, MA 02139",
+  "lat": 42.371884,
+  "lng": -71.100115,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=118+AMORY+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/118%20AMORY%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=118+AMORY+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "medium",
-    "reasoning": "The property has undergone significant renovations including four bathrooms and a finished basement, which suggests a major refresh for sale despite being owner-occupied and lacking a kitchen remodel."
-  },
-  "lat": 42.371884,
-  "lng": -71.100115
+    "reasoning": "Simultaneous bathroom remodeling totaling $101,200 indicates substantial property improvement, though owner-occupied status reduces but doesn't eliminate prep-for-sale likelihood."
+  }
 }

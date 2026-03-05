@@ -1,0 +1,49 @@
+{
+  "address": "37 TREMONT ST, CAMBRIDGE, MA 02139",
+  "lat": 42.370881,
+  "lng": -71.098685,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37+TREMONT+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/37%20TREMONT%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=37+TREMONT+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1854",
+    "bedrooms": "3",
+    "bathrooms": "1/0",
+    "total_rooms": "6",
+    "living_area": "1350",
+    "last_sale_date": "2020-02-26T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1343600",
+    "lot_size": "2156",
+    "property_pid": "4290",
+    "property_parcel": "87-62"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.2,
+  "max_score": 5,
+  "total_cost": 18500.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-04-01",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Windows replacement",
+      "cost": 18500.0,
+      "property_use": "One-Family",
+      "contractor": "Express Remodeling Group",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "1158290"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Windows replacement is standard maintenance for a 1854 home, owner is listed as owner-occupied, and no simultaneous kitchen or multiple bathroom updates indicate this is routine maintenance rather than sale preparation."
+  }
+}

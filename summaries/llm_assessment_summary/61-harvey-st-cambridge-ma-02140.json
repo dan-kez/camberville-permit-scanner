@@ -1,5 +1,7 @@
 {
   "address": "61 HARVEY ST, CAMBRIDGE, MA 02140",
+  "lat": 42.397352,
+  "lng": -71.132346,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=61+HARVEY+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/61%20HARVEY%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=61+HARVEY+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "A long-term owner-occupant (since 2009) is adding a small second-floor addition, which likely indicates investment in their primary residence rather than a pre-sale renovation."
-  },
-  "lat": 42.397352,
-  "lng": -71.132346
+    "reasoning": "Single addition permit at moderate cost with owner_occupied status indicates standard improvement rather than sale preparation"
+  }
 }

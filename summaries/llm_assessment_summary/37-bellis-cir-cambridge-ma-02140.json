@@ -1,5 +1,7 @@
 {
   "address": "37 BELLIS CIR, CAMBRIDGE, MA 02140",
+  "lat": 42.390378,
+  "lng": -71.134178,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/37%20BELLIS%20CIR%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=37+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -29,8 +31,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The permit is for an owner-occupied property involving a single bathroom addition and third-floor renovation, which aligns with typical resident maintenance and minor updates."
-  },
-  "lat": 42.390378,
-  "lng": -71.134178
+    "reasoning": "Owner-occupied status and limited scope (single bathroom + roof windows on third floor only) suggest targeted maintenance rather than sale preparation."
+  }
 }

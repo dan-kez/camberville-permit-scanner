@@ -1,5 +1,7 @@
 {
   "address": "7 WATERHOUSE ST, CAMBRIDGE, MA 02138",
+  "lat": 42.377762,
+  "lng": -71.121732,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+WATERHOUSE+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/7%20WATERHOUSE%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=7+WATERHOUSE+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "This is a single washroom renovation by a long-term owner-occupant of 40+ years, consistent with maintenance rather than a pre-sale flip."
-  },
-  "lat": 42.377762,
-  "lng": -71.121732
+    "reasoning": "Single bathroom renovation by a 42-year owner-occupant (1984-present) with no kitchen updates or broader renovation pattern indicates personal improvement rather than prep-for-sale activity"
+  }
 }

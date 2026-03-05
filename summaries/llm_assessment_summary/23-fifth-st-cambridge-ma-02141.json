@@ -1,0 +1,36 @@
+{
+  "address": "23 FIFTH ST, CAMBRIDGE, MA 02141",
+  "lat": 42.372242,
+  "lng": -71.083048,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=23+FIFTH+ST%2C+CAMBRIDGE%2C+MA+02141",
+  "zillow_url": "https://www.zillow.com/homes/23%20FIFTH%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
+  "google_search_url": "https://www.google.com/search?q=23+FIFTH+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Union",
+  "distance_mi": 0.73,
+  "max_score": 5,
+  "total_cost": 7000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-03-27",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Removal and replacement of existing exterior deck.",
+      "cost": 7000.0,
+      "property_use": "One-Family",
+      "contractor": "Joao Garcia (John)",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "263365"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Single deck replacement is routine maintenance, owner occupied, not a major renovation"
+  }
+}

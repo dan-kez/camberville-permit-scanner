@@ -1,5 +1,7 @@
 {
   "address": "53 MADISON AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.398869,
+  "lng": -71.135999,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=53+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/53%20MADISON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=53+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -55,8 +57,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied by a long-term resident performing a kitchen renovation and roof replacement without the simultaneous multi-room updates characteristic of a pre-sale flip."
-  },
-  "lat": 42.398869,
-  "lng": -71.135999
+    "reasoning": "Both permits show owner occupied=true and roof replacement is routine maintenance for a 75-year-old home; no multiple bathroom renovations to indicate preparation for sale"
+  }
 }

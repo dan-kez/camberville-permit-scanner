@@ -1,5 +1,7 @@
 {
   "address": "18 RICHDALE AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.389059100481,
+  "lng": -71.098398506222,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+RICHDALE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/18%20RICHDALE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=18+RICHDALE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The single permit for an electrical service upgrade by a long-term owner-occupant is standard maintenance and does not suggest a preparation for sale."
-  },
-  "lat": 42.389059100481,
-  "lng": -71.098398506222
+    "reasoning": "Electrical service upgrade is routine maintenance completed by owner-occupant; no kitchen/bathroom renovations or non-owner occupied status indicates typical home improvement rather than sale preparation."
+  }
 }

@@ -1,0 +1,45 @@
+{
+  "address": "13 CAMPBELL PK, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396673808059,
+  "lng": -71.126149478893,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=13+CAMPBELL+PK%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/13%20CAMPBELL%20PK%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=13+CAMPBELL+PK%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1891,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1918,
+    "last_sale_date": "2006-10-27",
+    "last_sale_price": 795900,
+    "assessed_value": 1423800,
+    "lot_size": 0.056900000000000006,
+    "property_parcel": "17_G_14"
+  },
+  "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+  "nearest_square": "Davis",
+  "distance_mi": 0.19,
+  "max_score": 2,
+  "total_cost": 100.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-06-30",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street for interior demolition",
+      "cost": 100.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "Brayton Dee Carpentry Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: demolition",
+      "permit_id": "52162875",
+      "permit_number": "DP25-000100"
+    }
+  ]
+}

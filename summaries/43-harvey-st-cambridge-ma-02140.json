@@ -1,5 +1,7 @@
 {
   "address": "43 HARVEY ST, CAMBRIDGE, MA 02140",
+  "lat": 42.397608,
+  "lng": -71.131735,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=43+HARVEY+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/43%20HARVEY%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=43+HARVEY+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -13,16 +15,18 @@
     "last_sale_date": "2017-09-07T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "839300",
-    "lot_size": "2422"
+    "lot_size": "2422",
+    "property_pid": "15870",
+    "property_parcel": "191-116"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
   "distance_mi": 0.48,
   "max_score": 8,
-  "total_cost": 25573.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "total_cost": 41416.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
   "permits": [
     {
       "date": "2024-04-12",
@@ -34,7 +38,21 @@
       "contractor": "RENEWAL BY ANDERSEN",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($25,573); keyword: structural; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($25,573); keyword: structural; permit completed; all permits completed",
+      "permit_id": "265393"
+    },
+    {
+      "date": "2025-08-27",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "REMOVE & REPLACE 2 ENTRY DOORS; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 15843.0,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "1181429"
     }
   ]
 }

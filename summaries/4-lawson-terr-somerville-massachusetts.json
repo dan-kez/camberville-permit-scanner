@@ -1,5 +1,7 @@
 {
   "address": "4 LAWSON TERR, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.383757379085,
+  "lng": -71.098038838756,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+LAWSON+TERR%2C+SOMERVILLE+MASSACHUSETTS",
   "zillow_url": "https://www.zillow.com/homes/4%20LAWSON%20TERR%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
   "google_search_url": "https://www.google.com/search?q=4+LAWSON+TERR%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
@@ -13,9 +15,10 @@
     "last_sale_date": "1993-02-12",
     "last_sale_price": 104500,
     "assessed_value": 856300,
-    "lot_size": 0.0543
+    "lot_size": 0.0543,
+    "property_parcel": "62_C_8"
   },
-  "property_use": "Building Permit - Residential Renovation",
+  "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.38,
   "max_score": 4,
@@ -24,18 +27,6 @@
   "completed_permits": 2,
   "completion_ratio": "2/4 complete",
   "permits": [
-    {
-      "date": "2024-04-16",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Kitchen renovation, carpet replacement and chimney demolition",
-      "cost": 1538.0,
-      "property_use": "Building Permit - Residential Renovation",
-      "contractor": "Luis Matute",
-      "owner_occupied": true,
-      "score": 4,
-      "score_reasons": "keyword: renovation; permit completed"
-    },
     {
       "date": "2024-05-02",
       "source": "Somerville",
@@ -46,7 +37,23 @@
       "contractor": "Luis Matute",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: renovation; permit completed"
+      "score_reasons": "keyword: renovation; permit completed",
+      "permit_id": "14296724",
+      "permit_number": "E24-000503"
+    },
+    {
+      "date": "2024-04-16",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Kitchen renovation, carpet replacement and chimney demolition",
+      "cost": 1538.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Luis Matute",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: renovation; permit completed",
+      "permit_id": "14290336",
+      "permit_number": "B24-000508"
     }
   ]
 }

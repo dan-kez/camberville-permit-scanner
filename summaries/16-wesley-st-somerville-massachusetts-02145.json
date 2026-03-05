@@ -1,5 +1,7 @@
 {
   "address": "16 WESLEY ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.387593231344,
+  "lng": -71.091151093641,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+WESLEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
   "zillow_url": "https://www.zillow.com/homes/16%20WESLEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
   "google_search_url": "https://www.google.com/search?q=16+WESLEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
@@ -13,40 +15,31 @@
     "last_sale_date": "2022-11-30",
     "last_sale_price": 910000,
     "assessed_value": 862300,
-    "lot_size": 0.059300000000000005
+    "lot_size": 0.059300000000000005,
+    "property_parcel": "78_F_9"
   },
-  "property_use": "Building Permit - Residential Other",
+  "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
   "distance_mi": 0.56,
   "max_score": 5,
-  "total_cost": 2110.5,
+  "total_cost": 1960.5,
   "permit_count": 4,
-  "completed_permits": 4,
-  "completion_ratio": "4/5 complete",
+  "completed_permits": 5,
+  "completion_ratio": "5/6 complete",
   "permits": [
     {
-      "date": "2023-11-20",
+      "date": "2024-12-03",
       "source": "Somerville",
       "status": "Closed",
-      "description": "Install 18 Harvey Classic, Energy Star, Inserts only with no Structural Work",
-      "cost": 520.0,
-      "property_use": "Building Permit - Residential Other",
-      "contractor": "Fisher Windows",
+      "description": "Demolish walls and ceilings of the two bedrooms.Install 1/2 inch of blueboard and make a new smooth plaster finish on the two bedrooms walls and ceilings..",
+      "cost": 370.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Master Plastering & Services Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: structural; permit completed; most permits completed"
-    },
-    {
-      "date": "2024-10-17",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Ductless mini split install",
-      "cost": 180.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "N.E.T.R",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "keyword: demolish; permit completed; most permits completed",
+      "permit_id": "51337903",
+      "permit_number": "B24-001973"
     },
     {
       "date": "2024-11-18",
@@ -58,7 +51,23 @@
       "contractor": "JP O'Brien Electric",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51364967",
+      "permit_number": "E24-001863"
+    },
+    {
+      "date": "2024-10-17",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Ductless mini split install",
+      "cost": 180.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "N.E.T.R",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51232536",
+      "permit_number": "E24-001522"
     },
     {
       "date": "2024-11-13",
@@ -70,7 +79,9 @@
       "contractor": "N.E.T.R",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "51297307",
+      "permit_number": "B24-001893"
     }
   ]
 }

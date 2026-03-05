@@ -1,5 +1,7 @@
 {
   "address": "17 FIFTH ST, CAMBRIDGE, MA 02141",
+  "lat": 42.372456,
+  "lng": -71.083044,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+FIFTH+ST%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/17%20FIFTH%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=17+FIFTH+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property is undergoing a complete demolition and new construction after 16 years of ownership, which represents significant whole-house work indicating a high likelihood of being prepared for sale."
-  },
-  "lat": 42.372456,
-  "lng": -71.083044
+    "likelihood": "medium",
+    "reasoning": "$700,000 demolition and new construction project indicates a complete overhaul, but owner_occupied status suggests this may be owner-driven rather than a flip."
+  }
 }

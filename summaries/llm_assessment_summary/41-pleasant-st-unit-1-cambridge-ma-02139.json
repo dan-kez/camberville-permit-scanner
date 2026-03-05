@@ -1,5 +1,7 @@
 {
   "address": "41 PLEASANT ST, UNIT 1, CAMBRIDGE, MA 02139",
+  "lat": 42.364281,
+  "lng": -71.108069,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=41+PLEASANT+ST%2C+UNIT+1%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/41%20PLEASANT%20ST%2C%20UNIT%201%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=41+PLEASANT+ST%2C+UNIT+1%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The recent single permit for water damage remediation by an owner-occupant suggests emergency maintenance rather than a strategic pre-sale renovation."
-  },
-  "lat": 42.364281,
-  "lng": -71.108069
+    "reasoning": "Water damage repair is a maintenance task, owner is occupied, cost is moderate, and work scope is limited to specific damage remediation"
+  }
 }

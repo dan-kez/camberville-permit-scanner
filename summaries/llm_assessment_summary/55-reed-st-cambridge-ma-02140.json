@@ -1,5 +1,7 @@
 {
   "address": "55 REED ST, CAMBRIDGE, MA 02140",
+  "lat": 42.395007,
+  "lng": -71.13201,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=55+REED+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/55%20REED%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=55+REED+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -29,8 +31,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The renovation is limited to a single bathroom and an exterior door by an owner-occupant, suggesting personal property improvement rather than a multi-room preparation for sale."
-  },
-  "lat": 42.395007,
-  "lng": -71.13201
+    "reasoning": "Single bathroom renovation with exterior door replacement by owner-occupant, not the multiple high-end upgrades typically seen in prep-for-sale projects"
+  }
 }

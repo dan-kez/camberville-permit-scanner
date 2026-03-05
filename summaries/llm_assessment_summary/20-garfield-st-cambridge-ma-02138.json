@@ -1,5 +1,7 @@
 {
   "address": "20 GARFIELD ST, CAMBRIDGE, MA 02138",
+  "lat": 42.383657,
+  "lng": -71.118553,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20+GARFIELD+ST%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/20%20GARFIELD%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=20+GARFIELD+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "A single bathroom renovation by a long-term owner-occupant of 16 years is a typical home improvement rather than a prep-for-sale project."
-  },
-  "lat": 42.383657,
-  "lng": -71.118553
+    "reasoning": "Single bathroom renovation with owner_occupied=True, moderate cost, and no other major permit activity"
+  }
 }

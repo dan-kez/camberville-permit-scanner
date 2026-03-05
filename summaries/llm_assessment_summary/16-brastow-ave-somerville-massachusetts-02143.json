@@ -1,5 +1,7 @@
 {
   "address": "16 BRASTOW AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.388594994502,
+  "lng": -71.109993025246,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+BRASTOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/16%20BRASTOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=16+BRASTOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -20,10 +22,10 @@
   "nearest_square": "Porter",
   "distance_mi": 0.46,
   "max_score": 7,
-  "total_cost": 8423.5,
-  "permit_count": 2,
-  "completed_permits": 2,
-  "completion_ratio": "2/2 complete",
+  "total_cost": 8543.5,
+  "permit_count": 4,
+  "completed_permits": 4,
+  "completion_ratio": "4/4 complete",
   "permits": [
     {
       "date": "2024-09-26",
@@ -40,6 +42,20 @@
       "permit_number": "B24-001430"
     },
     {
+      "date": "2024-11-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "UFER ground wire for foundation steel rebar",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Attilio Dimascio Jr",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: foundation; permit completed; all permits completed",
+      "permit_id": "51378751",
+      "permit_number": "E24-001897"
+    },
+    {
       "date": "2024-09-19",
       "source": "Somerville",
       "status": "Closed",
@@ -52,12 +68,24 @@
       "score_reasons": "permit completed; all permits completed",
       "permit_id": "51193907",
       "permit_number": "E24-001420"
+    },
+    {
+      "date": "2025-02-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "New plumbing for a half bathroom and a bar sink.",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Dico Plumbing And Heating LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51570091",
+      "permit_number": "P25-000070"
     }
   ],
   "llm_assessment": {
-    "likelihood": "low",
-    "reasoning": "The project is owner-occupied and focuses on converting an outbuilding into a home office and reading area rather than a full-scale renovation of the primary kitchen and bathrooms."
-  },
-  "lat": 42.388594994502,
-  "lng": -71.109993025246
+    "likelihood": "medium",
+    "reasoning": "Modest outbuilding conversion with electrical upgrade, but no major kitchen or bathroom renovations; owner occupied with maintenance-type work rather than full-scale flip renovation."
+  }
 }

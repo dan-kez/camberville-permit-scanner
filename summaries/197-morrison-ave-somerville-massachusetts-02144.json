@@ -1,5 +1,7 @@
 {
   "address": "197 MORRISON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.397592883742,
+  "lng": -71.119265589453,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=197+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/197%20MORRISON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=197+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,16 +15,17 @@
     "last_sale_date": "2023-04-13",
     "last_sale_price": 1730000,
     "assessed_value": 1640800,
-    "lot_size": 0.1323
+    "lot_size": 0.1323,
+    "property_parcel": "20_B_38"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",
   "distance_mi": 0.18,
   "max_score": 5,
-  "total_cost": 60.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "total_cost": 945.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
   "permits": [
     {
       "date": "2024-10-01",
@@ -34,7 +37,37 @@
       "contractor": "Big Blue Plumbing & Heating, Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51234453",
+      "permit_number": "P24-000550"
+    },
+    {
+      "date": "2024-12-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace existing shower enclosure, layout to remain 'as is'",
+      "cost": 840.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "PL Esposito Construction LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51206263",
+      "permit_number": "B24-001595"
+    },
+    {
+      "date": "2024-12-16",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "install shower trim",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Joseph Nesta",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51392497",
+      "permit_number": "E24-001934"
     }
   ]
 }

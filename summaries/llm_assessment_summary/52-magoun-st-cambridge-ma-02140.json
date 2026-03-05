@@ -1,0 +1,49 @@
+{
+  "address": "52 MAGOUN ST, CAMBRIDGE, MA 02140",
+  "lat": 42.399077,
+  "lng": -71.135073,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=52+MAGOUN+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/52%20MAGOUN%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=52+MAGOUN+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "4",
+    "bathrooms": "2/0",
+    "total_rooms": "9",
+    "living_area": "1896",
+    "last_sale_date": "2023-03-09T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1337100",
+    "lot_size": "4000",
+    "property_pid": "15471",
+    "property_parcel": "189-21"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.66,
+  "max_score": 2,
+  "total_cost": 9023.04,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-11-14",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Weatherization, Insulation, Air sealing. Site ID 25749",
+      "cost": 9023.04,
+      "property_use": "One-Family",
+      "contractor": "Weathervane Home Energy",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: insulation; permit completed; all permits completed",
+      "permit_id": "1143216"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Permit is for minor energy efficiency work (weatherization/insulation) completed by an owner-occupant, with no kitchen or bathroom renovations or other indicators of sale preparation"
+  }
+}

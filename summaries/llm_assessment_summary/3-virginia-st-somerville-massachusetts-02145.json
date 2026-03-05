@@ -1,6 +1,10 @@
 {
   "address": "3 VIRGINIA ST, SOMERVILLE MASSACHUSETTS 02145",
+  "lat": 42.386340262548,
+  "lng": -71.09115721243,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+VIRGINIA+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/3%20VIRGINIA%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=3+VIRGINIA+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1900,
@@ -17,11 +21,11 @@
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
   "distance_mi": 0.48,
-  "max_score": 5,
-  "total_cost": 80.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "max_score": 3,
+  "total_cost": 2071.0,
+  "permit_count": 4,
+  "completed_permits": 4,
+  "completion_ratio": "4/5 complete",
   "permits": [
     {
       "date": "2025-10-08",
@@ -31,16 +35,57 @@
       "cost": 80.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Sunrun Installation Services",
-      "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "52616393",
+      "permit_number": "E25-001488"
+    },
+    {
+      "date": "2025-08-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "ROOFTOP SOLAR ;14 PANELS ; 5.67 KWDC ; NO ESS ; NO STRUCTURAL\r\nE25-001125",
+      "cost": 796.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Sunrun Installation Services",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural; minor: solar; permit completed; most permits completed",
+      "permit_id": "52355695",
+      "permit_number": "B25-001258"
+    },
+    {
+      "date": "2025-08-04",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "ROOFTOP SOLAR ;14 PANELS ; 5.67 KWDC ; NO ESS ; NO STRUCTURAL\r\nB25-001258",
+      "cost": 195.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Sunrun Installation Services",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural; minor: solar; permit completed; most permits completed",
+      "permit_id": "52355729",
+      "permit_number": "E25-001125"
+    },
+    {
+      "date": "2024-05-08",
+      "source": "Somerville",
+      "status": "Renewal Required",
+      "description": "Airbnb Short Term Rental",
+      "cost": 1000.0,
+      "property_use": "Short-Term Rental Registration - Short-Term Rental Registration",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed",
+      "permit_id": "12245808",
+      "permit_number": "STR23-000036"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The single permit covers a low-cost electrical service upgrade rather than cosmetic or structural changes associated with a sale preparation flip."
-  },
-  "lat": 42.386340262548,
-  "lng": -71.09115721243,
-  "zillow_url": "https://www.zillow.com/homes/3%20VIRGINIA%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
-  "google_search_url": "https://www.google.com/search?q=3+VIRGINIA+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
+    "reasoning": "Minimal renovations limited to solar panels, minor electrical work, and regulatory compliance without major structural changes or multiple simultaneous room updates"
+  }
 }

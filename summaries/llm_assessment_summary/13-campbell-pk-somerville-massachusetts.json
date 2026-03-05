@@ -1,6 +1,10 @@
 {
   "address": "13 CAMPBELL PK, SOMERVILLE MASSACHUSETTS",
+  "lat": 42.396673808059,
+  "lng": -71.126149478893,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=13+CAMPBELL+PK%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/13%20CAMPBELL%20PK%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=13+CAMPBELL+PK%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
   "property_info": {
     "property_class": "1010",
     "year_built": 1891,
@@ -31,14 +35,15 @@
       "cost": 200.0,
       "property_use": "Plumbing Permit - Residential - Existing",
       "contractor": "Uptack Plumbing & Heating, Inc.",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "52606898",
+      "permit_number": "P25-000584"
     }
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The single, low-cost plumbing permit suggests standard maintenance rather than an active flip or major renovation."
-  },
-  "zillow_url": "https://www.zillow.com/homes/13%20CAMPBELL%20PK%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
-  "google_search_url": "https://www.google.com/search?q=13+CAMPBELL+PK%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
+    "reasoning": "Only a minimal $200 plumbing permit with owner-occupied status indicates routine maintenance rather than prep-for-sale renovations"
+  }
 }

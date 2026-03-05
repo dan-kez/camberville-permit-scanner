@@ -1,5 +1,7 @@
 {
   "address": "47-20 COGSWELL AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.389973,
+  "lng": -71.127014,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=47-20+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/47-20%20COGSWELL%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=47-20+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -21,10 +23,10 @@
   "nearest_square": "Porter",
   "distance_mi": 0.42,
   "max_score": 7,
-  "total_cost": 350000.0,
-  "permit_count": 1,
-  "completed_permits": 1,
-  "completion_ratio": "1/1 complete",
+  "total_cost": 356500.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
   "permits": [
     {
       "date": "2024-11-11",
@@ -38,12 +40,23 @@
       "score": 7,
       "score_reasons": "high cost ($350,000); keyword: renovate; minor: insulation; permit completed; all permits completed",
       "permit_id": "1142854"
+    },
+    {
+      "date": "2025-08-26",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Installation of a\u00a0ST\u00dbV Compact 30 woodstove\u00a0connected with\u00a0UL-listed double-wall smoke pipe\u00a0to an existing\u00a08-inch all-fuel chimney. Installation will also include connection of the\u00a0outside air intake\u00a0per manufacturer\u2019s specifications.",
+      "cost": 6500.0,
+      "property_use": "One-Family",
+      "contractor": "Hearth Perfections LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "1181225"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The project involves a massive $350,000 gut renovation including a kitchen, multiple bathrooms, and an addition, which aligns with the criteria for high-likelihood 'whole house' work despite long-term ownership."
-  },
-  "lat": 42.389973,
-  "lng": -71.127014
+    "likelihood": "medium",
+    "reasoning": "Significant $350K kitchen and 2 full bathroom renovation suggests sale prep, though both permits list owner-occupied status, which somewhat lowers confidence."
+  }
 }

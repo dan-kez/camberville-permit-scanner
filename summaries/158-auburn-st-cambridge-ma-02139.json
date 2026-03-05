@@ -1,5 +1,7 @@
 {
   "address": "158 AUBURN ST, CAMBRIDGE, MA 02139",
+  "lat": 42.363375,
+  "lng": -71.104991,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=158+AUBURN+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/158%20AUBURN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=158+AUBURN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2024-09-27T00:00:00.000",
     "last_sale_price": "99500",
     "assessed_value": "1519000",
-    "lot_size": "3320"
+    "lot_size": "3320",
+    "property_pid": "6514",
+    "property_parcel": "106-26"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "Toro Construction",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($102,265)"
+      "score_reasons": "moderate cost ($102,265)",
+      "permit_id": "1188094"
     }
   ]
 }

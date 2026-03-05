@@ -1,0 +1,49 @@
+{
+  "address": "65 STEARNS ST, CAMBRIDGE, MA 02138",
+  "lat": 42.386138,
+  "lng": -71.129471,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=65+STEARNS+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/65%20STEARNS%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=65+STEARNS+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1931",
+    "bedrooms": "2",
+    "bathrooms": "1/1",
+    "total_rooms": "5",
+    "living_area": "966",
+    "last_sale_date": "2007-12-24T00:00:00.000",
+    "last_sale_price": "0",
+    "assessed_value": "1317200",
+    "lot_size": "3044",
+    "property_pid": "17427",
+    "property_parcel": "205-87"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.55,
+  "max_score": 7,
+  "total_cost": 11376.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-07-26",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "REMOVE & REPLACE 4 WINDOWS; \u00a0LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 11376.0,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "282254"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Routine maintenance window replacement by owner-occupant, no kitchen/bathroom renovations or non-owner occupied indicators"
+  }
+}

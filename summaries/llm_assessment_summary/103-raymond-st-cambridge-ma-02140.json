@@ -1,5 +1,7 @@
 {
   "address": "103 RAYMOND ST, CAMBRIDGE, MA 02140",
+  "lat": 42.386158,
+  "lng": -71.1267,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=103+RAYMOND+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/103%20RAYMOND%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=103+RAYMOND+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "medium",
-    "reasoning": "The long-term owner-occupant is performing a simultaneous kitchen remodel and bathroom addition, which are key resale improvements, though the inclusion of a sauna suggests potential personal use."
-  },
-  "lat": 42.386158,
-  "lng": -71.1267
+    "reasoning": "Simultaneous full-scale kitchen and basement bathroom/sauna renovation indicates high-end preparations, though owner-occupied status and single-project scope suggest maintenance over flip intent."
+  }
 }

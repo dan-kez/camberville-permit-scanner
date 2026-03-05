@@ -1,5 +1,7 @@
 {
   "address": "19 COTTAGE ST, CAMBRIDGE, MA 02139",
+  "lat": 42.362827,
+  "lng": -71.106127,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+COTTAGE+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/19%20COTTAGE%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=19+COTTAGE+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -54,9 +56,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property was recently purchased and is undergoing a massive $1.7M full-gut renovation and conversion to a single-family home, a strong indicator of high-end redevelopment for resale."
-  },
-  "lat": 42.362827,
-  "lng": -71.106127
+    "likelihood": "medium",
+    "reasoning": "Full foundation replacement and gut renovation with significant costs indicate preparation, but owner occupied status and recent purchase reduce immediate likelihood"
+  }
 }

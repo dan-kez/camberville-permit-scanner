@@ -1,5 +1,7 @@
 {
   "address": "36 HANCOCK ST, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.391223475519,
+  "lng": -71.11641859222,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=36+HANCOCK+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/36%20HANCOCK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=36+HANCOCK+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -19,40 +21,12 @@
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
   "distance_mi": 0.24,
-  "max_score": 5,
-  "total_cost": 47204.0,
-  "permit_count": 5,
-  "completed_permits": 4,
-  "completion_ratio": "4/5 complete",
+  "max_score": 2,
+  "total_cost": 701.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
   "permits": [
-    {
-      "date": "2023-09-25",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Foundation Grounding",
-      "cost": 60.0,
-      "property_use": "Electrical Permit - Residential",
-      "contractor": "WIREWORKS LLC",
-      "owner_occupied": true,
-      "score": 5,
-      "score_reasons": "keyword: foundation; permit completed; most permits completed",
-      "permit_id": "12386476",
-      "permit_number": "E23-001521"
-    },
-    {
-      "date": "2024-01-25",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "-  Install new plumbing for 3 bathrooms, kitchen and laundry.",
-      "cost": 140.0,
-      "property_use": "Plumbing Permit - Residential - Existing",
-      "contractor": "Tziavas & Son",
-      "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed",
-      "permit_id": "14138030",
-      "permit_number": "P24-000033"
-    },
     {
       "date": "2024-03-18",
       "source": "Somerville",
@@ -62,44 +36,14 @@
       "property_use": "Electrical Permit - Residential",
       "contractor": "WIREWORKS LLC",
       "owner_occupied": true,
-      "score": 3,
-      "score_reasons": "permit completed; most permits completed",
+      "score": 2,
+      "score_reasons": "permit completed",
       "permit_id": "12324961",
       "permit_number": "E23-001516"
-    },
-    {
-      "date": "2023-07-19",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "A gut renovation of the existing house that will restore the building's original use as a single family home.  The scope of work includes the lifting and moving of the house within the property, a new poured concrete foundation, revised floor layouts, an all new envelope including windows, doors, siding, trim, insulation, and roofing.   All new mechanical systems will be installed and utilities will be replaced to city/utility connections.  New landscaping and onsite drainage systems will be installed, as well.",
-      "cost": 45030.0,
-      "property_use": "Building Permit - Residential Renovation",
-      "contractor": "Nick Portnoy Builders LLC",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "keyword: gut; minor: insulation; permit completed; most permits completed",
-      "permit_id": "11565616",
-      "permit_number": "B23-000627"
-    },
-    {
-      "date": "2024-05-07",
-      "source": "Somerville",
-      "status": "Issued",
-      "description": "installation of two Mitsubishi multi zone heat pump systems",
-      "cost": 1273.0,
-      "property_use": "Sheet Metal Permit - Residential",
-      "contractor": "R. H. Young Cooling & Heating Inc",
-      "owner_occupied": true,
-      "score": 1,
-      "score_reasons": "most permits completed",
-      "permit_id": "14314440",
-      "permit_number": "SM24-000084"
     }
   ],
   "llm_assessment": {
-    "likelihood": "high",
-    "reasoning": "The property underwent a comprehensive gut renovation including a new foundation, 'wiring a new house', and simultaneous updates to the kitchen and three bathrooms following a recent acquisition."
-  },
-  "lat": 42.391223475519,
-  "lng": -71.11641859222
+    "likelihood": "low",
+    "reasoning": "Minimal electrical work (single permit, $701 cost) by long-term owner-occupant does not indicate sale preparation"
+  }
 }

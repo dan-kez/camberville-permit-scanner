@@ -1,5 +1,7 @@
 {
   "address": "141 OTIS ST, CAMBRIDGE, MA 02141",
+  "lat": 42.370997,
+  "lng": -71.084638,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=141+OTIS+ST%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/141%20OTIS%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=141+OTIS+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2023-12-18T00:00:00.000",
     "last_sale_price": "100",
     "assessed_value": "1365300",
-    "lot_size": "1000"
+    "lot_size": "1000",
+    "property_pid": "1075",
+    "property_parcel": "23-74"
   },
   "property_use": "One-Family",
   "nearest_square": "Union",
@@ -34,7 +38,8 @@
       "contractor": "Alex ortega",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($184,800); keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($184,800); keyword: remodel; permit completed; all permits completed",
+      "permit_id": "267128"
     }
   ]
 }

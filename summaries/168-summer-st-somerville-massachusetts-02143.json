@@ -1,5 +1,7 @@
 {
   "address": "168 SUMMER ST, SOMERVILLE MASSACHUSETTS 02143",
+  "lat": 42.386321738542,
+  "lng": -71.106617213742,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=168+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
   "zillow_url": "https://www.zillow.com/homes/168%20SUMMER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
   "google_search_url": "https://www.google.com/search?q=168+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
@@ -13,29 +15,18 @@
     "last_sale_date": "2020-06-30",
     "last_sale_price": 1350000,
     "assessed_value": 1502400,
-    "lot_size": 0.0666
+    "lot_size": 0.0666,
+    "property_parcel": "44_C_2"
   },
-  "property_use": "Gas Fitting - Residential - Existing",
+  "property_use": "Building Permit - Residential Other",
   "nearest_square": "Porter",
   "distance_mi": 0.65,
   "max_score": 2,
-  "total_cost": 370.0,
-  "permit_count": 2,
-  "completed_permits": 2,
-  "completion_ratio": "2/2 complete",
+  "total_cost": 310.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
   "permits": [
-    {
-      "date": "2024-01-26",
-      "source": "Somerville",
-      "status": "Closed",
-      "description": "Replacement of Existing Furnace",
-      "cost": 60.0,
-      "property_use": "Gas Fitting - Residential - Existing",
-      "contractor": "128 Plumbing & Heating",
-      "owner_occupied": true,
-      "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
-    },
     {
       "date": "2024-07-15",
       "source": "Somerville",
@@ -46,7 +37,9 @@
       "contractor": "RB Farina Roofing & Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed"
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "17029614",
+      "permit_number": "B24-001112"
     }
   ]
 }

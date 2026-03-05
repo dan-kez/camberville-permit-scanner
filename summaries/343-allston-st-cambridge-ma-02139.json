@@ -1,5 +1,7 @@
 {
   "address": "343 ALLSTON ST, CAMBRIDGE, MA 02139",
+  "lat": 42.361332,
+  "lng": -71.11273,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=343+ALLSTON+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/343%20ALLSTON%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=343+ALLSTON+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "1978-08-30T00:00:00.000",
     "last_sale_price": "19000",
     "assessed_value": "993100",
-    "lot_size": "2041"
+    "lot_size": "2041",
+    "property_pid": "9938",
+    "property_parcel": "127-56"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "Treetop Investments",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($650,000); keyword: structural; minor: sprinkler"
+      "score_reasons": "high cost ($650,000); keyword: structural; minor: sprinkler",
+      "permit_id": "1169503"
     }
   ]
 }

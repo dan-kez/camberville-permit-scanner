@@ -1,5 +1,7 @@
 {
   "address": "5 MICHAEL WAY, CAMBRIDGE, MA 02141",
+  "lat": 42.369501,
+  "lng": -71.089174,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+MICHAEL+WAY%2C+CAMBRIDGE%2C+MA+02141",
   "zillow_url": "https://www.zillow.com/homes/5%20MICHAEL%20WAY%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
   "google_search_url": "https://www.google.com/search?q=5+MICHAEL+WAY%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The single bathroom renovation by an owner-occupant who has owned the property since 2022 suggests a personal update rather than the high-end, multi-room renovations or non-owner occupancy associated with preparation for sale."
-  },
-  "lat": 42.369501,
-  "lng": -71.089174
+    "reasoning": "Owner-occupied property with only a single bathroom renovation ($25K) and no kitchen updates; long-term owner-occupancy rules out flip"
+  }
 }

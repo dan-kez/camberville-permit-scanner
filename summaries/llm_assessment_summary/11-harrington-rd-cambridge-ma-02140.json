@@ -1,5 +1,7 @@
 {
   "address": "11 HARRINGTON RD, CAMBRIDGE, MA 02140",
+  "lat": 42.396686,
+  "lng": -71.13147,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+HARRINGTON+RD%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/11%20HARRINGTON%20RD%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=11+HARRINGTON+RD%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "This is a single bathroom remodel by a long-term owner-occupant of 40 years, which is a common maintenance update rather than a preparation for sale."
-  },
-  "lat": 42.396686,
-  "lng": -71.13147
+    "reasoning": "Long-term owner-occupant (39 years since last sale) with only one bathroom remodel and no kitchen updates; maintenance work by a confirmed owner-occupied property"
+  }
 }

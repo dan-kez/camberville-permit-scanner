@@ -1,5 +1,7 @@
 {
   "address": "235 ALBANY ST, CAMBRIDGE, MA 02139",
+  "lat": 42.358873,
+  "lng": -71.100702,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=235+ALBANY+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/235%20ALBANY%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=235+ALBANY+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -23,7 +25,8 @@
       "contractor": "Berkeley Building Company",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($107,853); keyword: renovation"
+      "score_reasons": "moderate cost ($107,853); keyword: renovation",
+      "permit_id": "1172191"
     }
   ]
 }

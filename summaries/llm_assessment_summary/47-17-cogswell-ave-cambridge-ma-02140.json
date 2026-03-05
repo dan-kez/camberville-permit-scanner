@@ -1,5 +1,7 @@
 {
   "address": "47-17 COGSWELL AVE, CAMBRIDGE, MA 02140",
+  "lat": 42.389985,
+  "lng": -71.126676,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=47-17+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/47-17%20COGSWELL%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=47-17+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -42,8 +44,6 @@
   ],
   "llm_assessment": {
     "likelihood": "low",
-    "reasoning": "The property is owner-occupied and the renovation is limited to the kitchen and partition walls, failing to meet the high-likelihood criteria of simultaneous multi-room updates or non-owner occupancy."
-  },
-  "lat": 42.389985,
-  "lng": -71.126676
+    "reasoning": "Owner-occupied single kitchen remodel with moderate cost; no bathroom updates, gut renovation, or non-owner indicators"
+  }
 }

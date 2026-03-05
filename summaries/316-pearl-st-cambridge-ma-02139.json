@@ -1,5 +1,7 @@
 {
   "address": "316 PEARL ST, CAMBRIDGE, MA 02139",
+  "lat": 42.356993,
+  "lng": -71.110807,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=316+PEARL+ST%2C+CAMBRIDGE%2C+MA+02139",
   "zillow_url": "https://www.zillow.com/homes/316%20PEARL%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
   "google_search_url": "https://www.google.com/search?q=316+PEARL+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "2024-02-16T00:00:00.000",
     "last_sale_price": "2100000",
     "assessed_value": "1383400",
-    "lot_size": "4500"
+    "lot_size": "4500",
+    "property_pid": "5542",
+    "property_parcel": "98-20"
   },
   "property_use": "Two-Family",
   "nearest_square": "Central",
@@ -34,7 +38,8 @@
       "contractor": "Hawthorn Builders",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($2,924,500); keyword: gut"
+      "score_reasons": "high cost ($2,924,500); keyword: gut",
+      "permit_id": "1148691"
     },
     {
       "date": "2024-03-17",
@@ -46,7 +51,8 @@
       "contractor": "MATHEW ROTH",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($41,950); keyword: demolition"
+      "score_reasons": "moderate cost ($41,950); keyword: demolition",
+      "permit_id": "262161"
     }
   ]
 }

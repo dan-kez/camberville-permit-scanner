@@ -1,5 +1,7 @@
 {
   "address": "31 JACKSON ST, CAMBRIDGE, MA 02140",
+  "lat": 42.39452,
+  "lng": -71.135095,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=31+JACKSON+ST%2C+CAMBRIDGE%2C+MA+02140",
   "zillow_url": "https://www.zillow.com/homes/31%20JACKSON%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
   "google_search_url": "https://www.google.com/search?q=31+JACKSON+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
@@ -41,9 +43,7 @@
     }
   ],
   "llm_assessment": {
-    "likelihood": "medium",
-    "reasoning": "Significant kitchen and bathroom renovations following a recent title transfer are strong indicators of preparation for sale, although owner-occupancy and the single bathroom scope suggest it could be for personal use."
-  },
-  "lat": 42.39452,
-  "lng": -71.135095
+    "likelihood": "low",
+    "reasoning": "Owner occupied permit indicates personal renovation rather than sale preparation, though high cost suggests significant improvement to this 1856 home."
+  }
 }

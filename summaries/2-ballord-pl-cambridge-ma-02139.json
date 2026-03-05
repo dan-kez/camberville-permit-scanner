@@ -1,0 +1,45 @@
+{
+  "address": "2 BALLORD PL, CAMBRIDGE, MA 02139",
+  "lat": 42.363909,
+  "lng": -71.113401,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+BALLORD+PL%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/2%20BALLORD%20PL%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=2+BALLORD+PL%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "3",
+    "bathrooms": "1/0",
+    "total_rooms": "5",
+    "living_area": "1130",
+    "last_sale_date": "2024-06-21T00:00:00.000",
+    "last_sale_price": "950000",
+    "assessed_value": "961400",
+    "lot_size": "1816",
+    "property_pid": "9802",
+    "property_parcel": "126-6"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.5,
+  "max_score": 2,
+  "total_cost": 6666.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-07-16",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Air Sealing and Insulation",
+      "cost": 6666.0,
+      "property_use": "One-Family",
+      "contractor": "Endless Energy New England Inc.",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: insulation; permit completed; all permits completed",
+      "permit_id": "280697"
+    }
+  ]
+}

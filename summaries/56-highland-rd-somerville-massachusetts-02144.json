@@ -1,5 +1,7 @@
 {
   "address": "56 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "lat": 42.396595730631,
+  "lng": -71.11280699778,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=56+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
   "zillow_url": "https://www.zillow.com/homes/56%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
   "google_search_url": "https://www.google.com/search?q=56+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
@@ -13,7 +15,8 @@
     "last_sale_date": "2013-02-07",
     "last_sale_price": 1,
     "assessed_value": 1467300,
-    "lot_size": 0.079
+    "lot_size": 0.079,
+    "property_parcel": "28_C_5"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -32,8 +35,11 @@
       "cost": 120.0,
       "property_use": "Electrical Permit - Residential",
       "contractor": "Joseph Gramolini",
+      "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "52751860",
+      "permit_number": "E25-001815"
     }
   ]
 }
