@@ -250,6 +250,10 @@
 
   thead { background: var(--surface-2); }
 
+  /* Always hide Total Cost (col 6) and Nearest Square (col 8) */
+  thead th:nth-child(6), thead th:nth-child(8),
+  tbody td:nth-child(6), tbody td:nth-child(8) { display: none; }
+
   th {
     padding: 10px 14px;
     text-align: left;
@@ -497,7 +501,7 @@
     border-left: 1px solid var(--btn-border);
   }
   .filter-toggle .filter-btn.active {
-    background: #1a1a2e;
+    background: #3b3b66;
     color: #fff;
   }
 
@@ -538,6 +542,7 @@
     align-items: center;
   }
   .date-placeholder {
+    display: none; /* shown only on iOS where native placeholder is absent */
     position: absolute;
     left: 8px;
     font-size: 13px;
@@ -545,7 +550,8 @@
     pointer-events: none;
     white-space: nowrap;
   }
-  .date-wrap.has-value .date-placeholder { display: none; }
+  .date-wrap.ios-placeholder .date-placeholder { display: block; }
+  .date-wrap.ios-placeholder.has-value .date-placeholder { display: none; }
 
   .star-btn {
     background: none; border: none; cursor: pointer;
@@ -584,11 +590,9 @@
     header { padding: 10px 12px; flex-wrap: wrap; }
     .header-subtitle { display: none; }
 
-    /* Hide non-essential columns — keep only ★(1) Address(2) Likelihood(3) Score(4) */
-    thead th:nth-child(5), thead th:nth-child(6), thead th:nth-child(7),
-    thead th:nth-child(8), thead th:nth-child(9),
-    tbody td:nth-child(5), tbody td:nth-child(6), tbody td:nth-child(7),
-    tbody td:nth-child(8), tbody td:nth-child(9) { display: none; }
+    /* Hide remaining non-essential columns on mobile — keep ★(1) Address(2) Likelihood(3) Score(4) */
+    thead th:nth-child(5), thead th:nth-child(7), thead th:nth-child(9),
+    tbody td:nth-child(5), tbody td:nth-child(7), tbody td:nth-child(9) { display: none; }
     th, td { padding: 8px 8px; }
     th:first-child, td:first-child { padding-left: 10px; }
 
@@ -812,6 +816,11 @@ function permitSourceUrl(permit) {
 function permitSourceLabel(permit) {
   if (permit.source === 'Somerville' && permit.permit_number) return permit.permit_number;
   return permit.permit_id ?? '';
+}
+
+// iOS Safari doesn't show a native placeholder in <input type="date">
+if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
+  document.querySelector('.date-wrap')?.classList.add('ios-placeholder');
 }
 
 // ── Theme toggle ──
