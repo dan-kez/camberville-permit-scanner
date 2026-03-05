@@ -13,7 +13,8 @@
     "last_sale_date": "2023-08-29",
     "last_sale_price": 1,
     "assessed_value": 1155200,
-    "lot_size": 0.0584
+    "lot_size": 0.0584,
+    "property_parcel": "52_C_44"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; permit completed"
+      "score_reasons": "keyword: structural; permit completed",
+      "permit_id": "14421555",
+      "permit_number": "B24-000896"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "1998-09-24",
     "last_sale_price": 1,
     "assessed_value": 994700,
-    "lot_size": 0.0546
+    "lot_size": 0.0546,
+    "property_parcel": "75_C_4"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Edson Miranda",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "51327058",
+      "permit_number": "E24-001757"
     },
     {
       "date": "2024-09-09",
@@ -46,7 +49,9 @@
       "contractor": "Spring Home Improvement",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51170874",
+      "permit_number": "B24-001491"
     }
   ],
   "llm_assessment": {

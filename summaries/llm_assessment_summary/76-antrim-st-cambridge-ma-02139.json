@@ -13,7 +13,9 @@
     "last_sale_date": "2012-07-31T00:00:00.000",
     "last_sale_price": "805000",
     "assessed_value": "2051500",
-    "lot_size": "2972"
+    "lot_size": "2972",
+    "property_pid": "7671",
+    "property_parcel": "114-52"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Eastern Massachusetts Window & Door, LLC",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($26,700); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($26,700); permit completed; all permits completed",
+      "permit_id": "1145019"
     }
   ],
   "llm_assessment": {

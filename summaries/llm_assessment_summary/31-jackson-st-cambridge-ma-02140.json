@@ -13,7 +13,9 @@
     "last_sale_date": "2023-09-19T00:00:00.000",
     "last_sale_price": "100",
     "assessed_value": "1112400",
-    "lot_size": "2357"
+    "lot_size": "2357",
+    "property_pid": "16202",
+    "property_parcel": "193-218"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Fresh Start Contracting Corp",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($74,500); keyword: renovation"
+      "score_reasons": "moderate cost ($74,500); keyword: renovation",
+      "permit_id": "1178007"
     }
   ],
   "llm_assessment": {

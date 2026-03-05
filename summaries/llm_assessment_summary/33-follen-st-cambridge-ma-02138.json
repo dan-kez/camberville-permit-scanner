@@ -13,7 +13,9 @@
     "last_sale_date": "2021-12-01T00:00:00.000",
     "last_sale_price": "2500000",
     "assessed_value": "3207100",
-    "lot_size": "1207"
+    "lot_size": "1207",
+    "property_pid": "13611",
+    "property_parcel": "172-106"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "J B SASH & DOOR",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($61,845); keyword: structural; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($61,845); keyword: structural; permit completed; all permits completed",
+      "permit_id": "1184798"
     }
   ],
   "llm_assessment": {

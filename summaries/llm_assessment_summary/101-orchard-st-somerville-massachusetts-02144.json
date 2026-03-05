@@ -13,7 +13,8 @@
     "last_sale_date": "2021-01-06",
     "last_sale_price": 1,
     "assessed_value": 2368100,
-    "lot_size": 0.12860000000000002
+    "lot_size": 0.12860000000000002,
+    "property_parcel": "26_I_23"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "ECOLOOP CONSTRUCTION LLP",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed"
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "14090390",
+      "permit_number": "B23-002221"
     },
     {
       "date": "2024-02-22",
@@ -46,7 +49,9 @@
       "contractor": "Ecoloop Construction LLP",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed"
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "14127621",
+      "permit_number": "E24-000096"
     }
   ],
   "llm_assessment": {

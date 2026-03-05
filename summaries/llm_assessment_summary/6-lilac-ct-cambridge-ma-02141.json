@@ -13,7 +13,9 @@
     "last_sale_date": "2020-10-08T00:00:00.000",
     "last_sale_price": "1400000",
     "assessed_value": "1517200",
-    "lot_size": "2416"
+    "lot_size": "2416",
+    "property_pid": "2506",
+    "property_parcel": "40-228"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Kneeland Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($316,686); keyword: renovate; minor: panel"
+      "score_reasons": "high cost ($316,686); keyword: renovate; minor: panel",
+      "permit_id": "255253"
     }
   ],
   "llm_assessment": {

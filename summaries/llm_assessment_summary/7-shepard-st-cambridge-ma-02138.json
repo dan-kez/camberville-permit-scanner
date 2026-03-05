@@ -13,7 +13,9 @@
     "last_sale_date": "2022-12-19T00:00:00.000",
     "last_sale_price": "2050000",
     "assessed_value": "2286400",
-    "lot_size": "3556"
+    "lot_size": "3556",
+    "property_pid": "13916",
+    "property_parcel": "174-78"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Lahinch Property Services",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($269,575); keyword: gut"
+      "score_reasons": "high cost ($269,575); keyword: gut",
+      "permit_id": "250770"
     }
   ],
   "llm_assessment": {

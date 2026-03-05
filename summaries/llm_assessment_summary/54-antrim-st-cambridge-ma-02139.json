@@ -13,7 +13,9 @@
     "last_sale_date": "2023-07-10T00:00:00.000",
     "last_sale_price": "2315000",
     "assessed_value": "2957100",
-    "lot_size": "4569"
+    "lot_size": "4569",
+    "property_pid": "7663",
+    "property_parcel": "114-46"
   },
   "property_use": "Two-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Northwoods Builders LLC",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($397,818); keyword: convert; minor: sign; permit completed; all permits completed"
+      "score_reasons": "high cost ($397,818); keyword: convert; minor: sign; permit completed; all permits completed",
+      "permit_id": "258651"
     },
     {
       "date": "2024-03-12",
@@ -46,7 +49,8 @@
       "contractor": "thomas services inc.",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($63,783); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($63,783); permit completed; all permits completed",
+      "permit_id": "261703"
     }
   ],
   "llm_assessment": {

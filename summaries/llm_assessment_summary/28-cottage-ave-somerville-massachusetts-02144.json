@@ -11,7 +11,8 @@
     "last_sale_date": "1998-07-20",
     "last_sale_price": 415000,
     "assessed_value": 1413200,
-    "lot_size": 0.1066
+    "lot_size": 0.1066,
+    "property_parcel": "26_I_2"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Davis",

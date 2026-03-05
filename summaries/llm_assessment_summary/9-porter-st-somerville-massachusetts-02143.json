@@ -13,7 +13,8 @@
     "last_sale_date": "2021-10-28",
     "last_sale_price": 1150000,
     "assessed_value": 1096800,
-    "lot_size": 0.0478
+    "lot_size": 0.0478,
+    "property_parcel": "38_A_13"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Kuhlman Electrical Services",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "17071189",
+      "permit_number": "E24-001096"
     }
   ],
   "llm_assessment": {

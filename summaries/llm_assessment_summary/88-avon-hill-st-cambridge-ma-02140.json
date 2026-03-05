@@ -13,7 +13,9 @@
     "last_sale_date": "2013-07-30T00:00:00.000",
     "last_sale_price": "974000",
     "assessed_value": "2315900",
-    "lot_size": "3395"
+    "lot_size": "3395",
+    "property_pid": "17732",
+    "property_parcel": "210-77"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Bolton Building Group LLC.",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($82,750)"
+      "score_reasons": "moderate cost ($82,750)",
+      "permit_id": "235564"
     }
   ],
   "llm_assessment": {

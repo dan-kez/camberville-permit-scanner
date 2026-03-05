@@ -13,7 +13,9 @@
     "last_sale_date": "2021-08-20T00:00:00.000",
     "last_sale_price": "1825000",
     "assessed_value": "1816000",
-    "lot_size": "2459"
+    "lot_size": "2459",
+    "property_pid": "13641",
+    "property_parcel": "173-28"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Segal Construction and Home Maintenance",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($328,625); keyword: renovate"
+      "score_reasons": "high cost ($328,625); keyword: renovate",
+      "permit_id": "1190454"
     }
   ],
   "llm_assessment": {

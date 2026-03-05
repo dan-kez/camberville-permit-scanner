@@ -13,7 +13,9 @@
     "last_sale_date": "2017-07-17T00:00:00.000",
     "last_sale_price": "1050000",
     "assessed_value": "1481000",
-    "lot_size": "2470"
+    "lot_size": "2470",
+    "property_pid": "15673",
+    "property_parcel": "190-212"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Remodeling Aid, LLC",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($101,975); keyword: renovate; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($101,975); keyword: renovate; permit completed; all permits completed",
+      "permit_id": "251107"
     }
   ],
   "llm_assessment": {

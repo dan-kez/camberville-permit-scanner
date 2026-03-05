@@ -13,7 +13,9 @@
     "last_sale_date": "2007-10-01T00:00:00.000",
     "last_sale_price": "460000",
     "assessed_value": "1619500",
-    "lot_size": "4062"
+    "lot_size": "4062",
+    "property_pid": "2358",
+    "property_parcel": "39-147"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "The Murphy Group",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($41,300); keyword: renovate"
+      "score_reasons": "moderate cost ($41,300); keyword: renovate",
+      "permit_id": "258897"
     },
     {
       "date": "2025-02-20",
@@ -46,7 +49,8 @@
       "contractor": "The Murphy Group",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($30,000); keyword: renovate"
+      "score_reasons": "moderate cost ($30,000); keyword: renovate",
+      "permit_id": "1152736"
     }
   ],
   "llm_assessment": {

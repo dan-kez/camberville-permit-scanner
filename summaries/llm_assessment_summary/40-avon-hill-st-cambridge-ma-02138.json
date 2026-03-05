@@ -13,7 +13,9 @@
     "last_sale_date": "2024-07-31T00:00:00.000",
     "last_sale_price": "3655000",
     "assessed_value": "3230000",
-    "lot_size": "4019"
+    "lot_size": "4019",
+    "property_pid": "17763",
+    "property_parcel": "211-18"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Ohannes",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($1,000,000); keyword: renovation; minor: furnace"
+      "score_reasons": "high cost ($1,000,000); keyword: renovation; minor: furnace",
+      "permit_id": "1171265"
     }
   ],
   "llm_assessment": {

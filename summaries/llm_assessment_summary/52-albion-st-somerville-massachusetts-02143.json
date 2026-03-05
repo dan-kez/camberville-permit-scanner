@@ -13,7 +13,8 @@
     "last_sale_date": "2000-11-30",
     "last_sale_price": 295000,
     "assessed_value": 1099800,
-    "lot_size": 0.0721
+    "lot_size": 0.0721,
+    "property_parcel": "42_C_15"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Sunrun Installation Services",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed",
+      "permit_id": "14002579",
+      "permit_number": "E23-001900"
     },
     {
       "date": "2024-01-09",
@@ -46,7 +49,9 @@
       "contractor": "Sunrun Installation Services",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed",
+      "permit_id": "14002529",
+      "permit_number": "B23-002083"
     }
   ],
   "llm_assessment": {

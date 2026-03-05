@@ -13,7 +13,9 @@
     "last_sale_date": "2013-09-04T00:00:00.000",
     "last_sale_price": "775000",
     "assessed_value": "1986100",
-    "lot_size": "1680"
+    "lot_size": "1680",
+    "property_pid": "6516",
+    "property_parcel": "106-29"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "CPS BUILDERS",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($161,343); keyword: renovation"
+      "score_reasons": "moderate cost ($161,343); keyword: renovation",
+      "permit_id": "1181101"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2018-05-04",
     "last_sale_price": 1600000,
     "assessed_value": 1973800,
-    "lot_size": 0.157
+    "lot_size": 0.157,
+    "property_parcel": "83_A_32"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Wilber Villatoro",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "14092809",
+      "permit_number": "E23-002068"
     }
   ],
   "llm_assessment": {

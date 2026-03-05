@@ -13,7 +13,9 @@
     "last_sale_date": "2024-11-14T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "2006700",
-    "lot_size": "3212"
+    "lot_size": "3212",
+    "property_pid": "2464",
+    "property_parcel": "40-254"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Sergio's Renovations Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "moderate cost ($55,000); keyword: renovate; minor: water heater; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($55,000); keyword: renovate; minor: water heater; permit completed; all permits completed",
+      "permit_id": "275574"
     }
   ],
   "llm_assessment": {

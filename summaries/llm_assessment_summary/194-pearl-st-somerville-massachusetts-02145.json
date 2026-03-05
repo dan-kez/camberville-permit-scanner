@@ -13,7 +13,8 @@
     "last_sale_date": "2015-01-09",
     "last_sale_price": 590000,
     "assessed_value": 1023700,
-    "lot_size": 0.0671
+    "lot_size": 0.0671,
+    "property_parcel": "79_B_3"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "SunPower Corporation Systems",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "12222268",
+      "permit_number": "E23-001343"
     },
     {
       "date": "2024-01-08",
@@ -46,7 +49,9 @@
       "contractor": "SunPower Corporation Systems",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "14092773",
+      "permit_number": "E23-002067"
     },
     {
       "date": "2024-01-09",
@@ -58,7 +63,9 @@
       "contractor": "SUNPOWER CORPORATION SYSTEMS",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "14092742",
+      "permit_number": "B23-002226"
     }
   ],
   "llm_assessment": {

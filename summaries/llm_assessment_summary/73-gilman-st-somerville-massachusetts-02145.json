@@ -11,7 +11,8 @@
     "last_sale_date": "2021-04-22",
     "last_sale_price": 100,
     "assessed_value": 1024800,
-    "lot_size": 0.1401
+    "lot_size": 0.1401,
+    "property_parcel": "79_C_17"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Union",

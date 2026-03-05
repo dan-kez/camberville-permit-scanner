@@ -13,7 +13,8 @@
     "last_sale_date": "2020-10-15",
     "last_sale_price": 1200000,
     "assessed_value": 1258500,
-    "lot_size": 0.0956
+    "lot_size": 0.0956,
+    "property_parcel": "36_B_6"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Quality Framing Contractor Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12016284",
+      "permit_number": "B23-001036"
     },
     {
       "date": "2023-08-31",
@@ -46,7 +49,9 @@
       "contractor": "Santon Plumbing and Heating",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12231532",
+      "permit_number": "G23-000410"
     },
     {
       "date": "2023-08-31",
@@ -58,7 +63,9 @@
       "contractor": "Santon Plumbing and Heating",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12231532",
+      "permit_number": "G23-000410"
     },
     {
       "date": "2023-09-13",
@@ -70,7 +77,9 @@
       "contractor": "Pat Ryan Electric Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12308568",
+      "permit_number": "E23-001461"
     }
   ],
   "llm_assessment": {

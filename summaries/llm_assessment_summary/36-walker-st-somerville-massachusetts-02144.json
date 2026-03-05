@@ -13,7 +13,8 @@
     "last_sale_date": "2023-06-13",
     "last_sale_price": 1025000,
     "assessed_value": 1732600,
-    "lot_size": 0.08070000000000001
+    "lot_size": 0.08070000000000001,
+    "property_parcel": "15_D_7"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Sanibel Electrical Corp",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: gut; permit completed"
+      "score_reasons": "keyword: gut; permit completed",
+      "permit_id": "14314842",
+      "permit_number": "E24-000558"
     },
     {
       "date": "2023-07-13",
@@ -46,7 +49,9 @@
       "contractor": "Sanibel Electrical Corp",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "12062771",
+      "permit_number": "E23-001091"
     },
     {
       "date": "2023-12-22",
@@ -58,7 +63,9 @@
       "contractor": "jt. construction & remodeling",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: gut"
+      "score_reasons": "keyword: gut",
+      "permit_id": "13930225",
+      "permit_number": "B23-001876"
     },
     {
       "date": "2024-01-16",
@@ -70,7 +77,9 @@
       "contractor": "Pavidis Plumbing & Heating Inc.",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14099131",
+      "permit_number": "P24-000001"
     }
   ],
   "llm_assessment": {

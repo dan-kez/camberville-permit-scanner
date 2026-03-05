@@ -23,7 +23,8 @@
       "contractor": "Charlie-Allen Renovations",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($152,000); keyword: gut"
+      "score_reasons": "moderate cost ($152,000); keyword: gut",
+      "permit_id": "1145622"
     }
   ],
   "llm_assessment": {

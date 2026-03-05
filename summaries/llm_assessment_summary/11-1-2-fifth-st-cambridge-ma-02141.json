@@ -23,7 +23,8 @@
       "contractor": "UP DESIGN & BUILD LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($30,000); keyword: convert"
+      "score_reasons": "moderate cost ($30,000); keyword: convert",
+      "permit_id": "1183691"
     }
   ],
   "llm_assessment": {

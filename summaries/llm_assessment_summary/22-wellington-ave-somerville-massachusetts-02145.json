@@ -13,7 +13,8 @@
     "last_sale_date": "2018-03-29",
     "last_sale_price": 550000,
     "assessed_value": 767100,
-    "lot_size": 0.0506
+    "lot_size": 0.0506,
+    "property_parcel": "78_B_41"
   },
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Stay in Somerville",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14180707",
+      "permit_number": "B24-000244"
     }
   ],
   "llm_assessment": {

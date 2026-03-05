@@ -13,7 +13,9 @@
     "last_sale_date": "2019-04-16T00:00:00.000",
     "last_sale_price": "990000",
     "assessed_value": "1365100",
-    "lot_size": "4520"
+    "lot_size": "4520",
+    "property_pid": "15464",
+    "property_parcel": "189-12"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Essential Care Contracting",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($439,000); keyword: remodel; minor: roofing"
+      "score_reasons": "high cost ($439,000); keyword: remodel; minor: roofing",
+      "permit_id": "247397"
     }
   ],
   "llm_assessment": {

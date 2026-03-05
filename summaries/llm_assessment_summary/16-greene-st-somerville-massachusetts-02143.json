@@ -13,7 +13,8 @@
     "last_sale_date": "1999-10-15",
     "last_sale_price": 172924,
     "assessed_value": 1068100,
-    "lot_size": 0.0541
+    "lot_size": 0.0541,
+    "property_parcel": "52_A_5"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "13950932",
+      "permit_number": "P23-000749"
     },
     {
       "date": "2023-11-13",
@@ -46,7 +49,9 @@
       "contractor": "Joe Barry",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "13916106",
+      "permit_number": "B23-001816"
     },
     {
       "date": "2023-11-30",
@@ -58,7 +63,9 @@
       "contractor": "Paul Picardo Electrician",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "13948007",
+      "permit_number": "E23-001736"
     }
   ],
   "llm_assessment": {

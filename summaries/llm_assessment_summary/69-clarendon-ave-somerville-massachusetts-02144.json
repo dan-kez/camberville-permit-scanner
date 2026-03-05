@@ -13,7 +13,8 @@
     "last_sale_date": "2023-09-18",
     "last_sale_price": 949000,
     "assessed_value": 958600,
-    "lot_size": 0.0911
+    "lot_size": 0.0911,
+    "property_parcel": "9_B_15"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Luciano Miranda Electrician",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: demolition; permit completed"
+      "score_reasons": "keyword: demolition; permit completed",
+      "permit_id": "14365513",
+      "permit_number": "E24-000680"
     },
     {
       "date": "2024-06-20",
@@ -46,7 +49,9 @@
       "contractor": "North America Development LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "14128084",
+      "permit_number": "B24-000099"
     }
   ],
   "llm_assessment": {

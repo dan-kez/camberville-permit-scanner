@@ -13,7 +13,9 @@
     "last_sale_date": "2022-02-02T00:00:00.000",
     "last_sale_price": "4270000",
     "assessed_value": "5789100",
-    "lot_size": "6420"
+    "lot_size": "6420",
+    "property_pid": "17447",
+    "property_parcel": "206-19"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Andrew",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($25,000); keyword: gut"
+      "score_reasons": "moderate cost ($25,000); keyword: gut",
+      "permit_id": "265104"
     },
     {
       "date": "2024-04-10",
@@ -46,7 +49,8 @@
       "contractor": "Greenleaf Construction",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($56,000); keyword: complete"
+      "score_reasons": "moderate cost ($56,000); keyword: complete",
+      "permit_id": "265104"
     },
     {
       "date": "2024-04-10",
@@ -58,7 +62,8 @@
       "contractor": "Greenleaf Construction",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($65,000); keyword: renovate"
+      "score_reasons": "moderate cost ($65,000); keyword: renovate",
+      "permit_id": "265104"
     }
   ],
   "llm_assessment": {

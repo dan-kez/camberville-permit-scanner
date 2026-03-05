@@ -13,7 +13,9 @@
     "last_sale_date": "2013-10-23T00:00:00.000",
     "last_sale_price": "10",
     "assessed_value": "2650600",
-    "lot_size": "3287"
+    "lot_size": "3287",
+    "property_pid": "22750",
+    "property_parcel": "201.5-75"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Jacob Harness Construction",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($93,000); keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($93,000); keyword: remodel; permit completed; all permits completed",
+      "permit_id": "1160989"
     }
   ],
   "llm_assessment": {

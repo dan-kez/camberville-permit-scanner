@@ -13,7 +13,9 @@
     "last_sale_date": "2003-08-20T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "1390000",
-    "lot_size": "1953"
+    "lot_size": "1953",
+    "property_pid": "11677",
+    "property_parcel": "142-145"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Kempton Construction Llc.",
       "owner_occupied": true,
       "score": 10,
-      "score_reasons": "high cost ($634,310); keyword: gut; permit completed; all permits completed"
+      "score_reasons": "high cost ($634,310); keyword: gut; permit completed; all permits completed",
+      "permit_id": "246839"
     }
   ],
   "llm_assessment": {

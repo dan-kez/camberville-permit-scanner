@@ -13,7 +13,8 @@
     "last_sale_date": "2023-07-11",
     "last_sale_price": 1015000,
     "assessed_value": 2322800,
-    "lot_size": 0.08900000000000001
+    "lot_size": 0.08900000000000001,
+    "property_parcel": "29_H_20"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "DUY NGUYEN",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: demolition; permit completed; most permits completed"
+      "score_reasons": "keyword: demolition; permit completed; most permits completed",
+      "permit_id": "12175088",
+      "permit_number": "E23-001204"
     },
     {
       "date": "2023-08-09",
@@ -46,7 +49,9 @@
       "contractor": "Well Built Construction INC.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: gut; permit completed; most permits completed"
+      "score_reasons": "keyword: gut; permit completed; most permits completed",
+      "permit_id": "12065567",
+      "permit_number": "B23-001226"
     },
     {
       "date": "2023-08-10",
@@ -58,7 +63,9 @@
       "contractor": "Well Built Construction INC.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: gut; permit completed; most permits completed"
+      "score_reasons": "keyword: gut; permit completed; most permits completed",
+      "permit_id": "12195386",
+      "permit_number": "DP23-000149"
     },
     {
       "date": "2023-12-06",
@@ -70,7 +77,9 @@
       "contractor": "Well Built Construction INC.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "12244119",
+      "permit_number": "B23-001579"
     },
     {
       "date": "2024-01-25",
@@ -82,7 +91,9 @@
       "contractor": "A Spolidoro & Sons Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14146476",
+      "permit_number": "G24-000072"
     },
     {
       "date": "2024-01-25",
@@ -94,7 +105,9 @@
       "contractor": "A Spolidoro & Sons Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14146476",
+      "permit_number": "G24-000072"
     },
     {
       "date": "2024-02-26",
@@ -106,7 +119,9 @@
       "contractor": "Southern Zone HVAC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14197344",
+      "permit_number": "SM24-000040"
     }
   ],
   "llm_assessment": {

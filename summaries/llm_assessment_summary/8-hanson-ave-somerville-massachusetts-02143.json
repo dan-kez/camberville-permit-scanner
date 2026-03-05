@@ -13,7 +13,8 @@
     "last_sale_date": "1984-01-10",
     "last_sale_price": 65000,
     "assessed_value": 884300,
-    "lot_size": 0.045700000000000005
+    "lot_size": 0.045700000000000005,
+    "property_parcel": "54_C_22"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "The Home Depot",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "51157357",
+      "permit_number": "B24-001452"
     }
   ],
   "llm_assessment": {

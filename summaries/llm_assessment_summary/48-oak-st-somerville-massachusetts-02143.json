@@ -13,7 +13,8 @@
     "last_sale_date": "2021-11-15",
     "last_sale_price": 850000,
     "assessed_value": 900600,
-    "lot_size": 0.0297
+    "lot_size": 0.0297,
+    "property_parcel": "83_E_27"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "12040946",
+      "permit_number": "B23-001137"
     }
   ],
   "llm_assessment": {

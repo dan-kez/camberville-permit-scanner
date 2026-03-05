@@ -13,7 +13,9 @@
     "last_sale_date": "2016-05-04T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "1411300",
-    "lot_size": "2361"
+    "lot_size": "2361",
+    "property_pid": "14695",
+    "property_parcel": "180-50"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Design 1 Kitchen and Bath",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($129,759); keyword: demolition; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($129,759); keyword: demolition; permit completed; all permits completed",
+      "permit_id": "1174706"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2013-04-23",
     "last_sale_price": 100,
     "assessed_value": 1135500,
-    "lot_size": 0.1282
+    "lot_size": 0.1282,
+    "property_parcel": "73_A_5"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Alcantara Contractor Inc",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: full; permit completed"
+      "score_reasons": "keyword: full; permit completed",
+      "permit_id": "14004652",
+      "permit_number": "B23-002091"
     },
     {
       "date": "2024-11-05",
@@ -46,7 +49,9 @@
       "contractor": "Ravair Costa Electrician",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "51347416",
+      "permit_number": "E24-001813"
     }
   ],
   "llm_assessment": {

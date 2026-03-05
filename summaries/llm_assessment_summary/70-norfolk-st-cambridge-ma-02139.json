@@ -13,7 +13,9 @@
     "last_sale_date": "2009-06-24T00:00:00.000",
     "last_sale_price": "780000",
     "assessed_value": "2348700",
-    "lot_size": "2240"
+    "lot_size": "2240",
+    "property_pid": "4739",
+    "property_parcel": "91-89"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "RENEWAL BY ANDERSEN",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($54,559); keyword: structural; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($54,559); keyword: structural; permit completed; all permits completed",
+      "permit_id": "266293"
     }
   ],
   "llm_assessment": {

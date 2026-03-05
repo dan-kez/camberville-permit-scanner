@@ -13,7 +13,8 @@
     "last_sale_date": "2002-02-04",
     "last_sale_price": 364900,
     "assessed_value": 1195200,
-    "lot_size": 0.049100000000000005
+    "lot_size": 0.049100000000000005,
+    "property_parcel": "65_A_76"
   },
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Peter S. Cook / Builder",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: foundation; permit completed; all permits completed"
+      "score_reasons": "keyword: foundation; permit completed; all permits completed",
+      "permit_id": "12097927",
+      "permit_number": "B23-001343"
     },
     {
       "date": "2023-08-14",
@@ -46,7 +49,9 @@
       "contractor": "Robert Nazzaro",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "11767477",
+      "permit_number": "E23-000793"
     }
   ],
   "llm_assessment": {

@@ -11,7 +11,8 @@
     "last_sale_date": "2002-12-18",
     "last_sale_price": 660000,
     "assessed_value": 2162200,
-    "lot_size": 0.1597
+    "lot_size": 0.1597,
+    "property_parcel": "20_F_5"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",

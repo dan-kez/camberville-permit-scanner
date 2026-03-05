@@ -13,7 +13,9 @@
     "last_sale_date": "2015-12-04T00:00:00.000",
     "last_sale_price": "955000",
     "assessed_value": "1595000",
-    "lot_size": "2519"
+    "lot_size": "2519",
+    "property_pid": "19181",
+    "property_parcel": "227-110"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Tom Baker",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($47,000)"
+      "score_reasons": "moderate cost ($47,000)",
+      "permit_id": "1152597"
     }
   ],
   "llm_assessment": {

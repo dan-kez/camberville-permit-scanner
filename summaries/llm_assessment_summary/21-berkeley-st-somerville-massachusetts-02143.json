@@ -13,7 +13,8 @@
     "last_sale_date": "2010-08-02",
     "last_sale_price": 519000,
     "assessed_value": 1283700,
-    "lot_size": 0.1135
+    "lot_size": 0.1135,
+    "property_parcel": "51_D_27"
   },
   "property_use": "Sheet Metal Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "lavallee systems dba iec mechanical",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "11793953",
+      "permit_number": "SM23-000094"
     },
     {
       "date": "2023-09-01",
@@ -46,7 +49,9 @@
       "contractor": "Lavallee systems",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "11979605",
+      "permit_number": "E23-000913"
     }
   ],
   "llm_assessment": {

@@ -23,7 +23,8 @@
       "contractor": "Unique Stairways LLC",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($97,049); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($97,049); permit completed; all permits completed",
+      "permit_id": "1164364"
     }
   ],
   "llm_assessment": {

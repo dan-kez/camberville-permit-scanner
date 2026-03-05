@@ -11,7 +11,8 @@
     "last_sale_date": "1991-06-10",
     "last_sale_price": 1,
     "assessed_value": 966700,
-    "lot_size": 0.0762
+    "lot_size": 0.0762,
+    "property_parcel": "34_C_27"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Porter",

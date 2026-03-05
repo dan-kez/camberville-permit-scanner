@@ -13,7 +13,9 @@
     "last_sale_date": "2013-07-29T00:00:00.000",
     "last_sale_price": "711500",
     "assessed_value": "1518700",
-    "lot_size": "2198"
+    "lot_size": "2198",
+    "property_pid": "5919",
+    "property_parcel": "101-155"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Rahim Home Improvement",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($61,000); keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($61,000); keyword: remodel; permit completed; all permits completed",
+      "permit_id": "268772"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2023-08-15",
     "last_sale_price": 900000,
     "assessed_value": 1239100,
-    "lot_size": 0.0461
+    "lot_size": 0.0461,
+    "property_parcel": "45_D_12"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Core Environmental Services, Inc",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: gut; permit completed; all permits completed"
+      "score_reasons": "keyword: gut; permit completed; all permits completed",
+      "permit_id": "13934458",
+      "permit_number": "B23-001893"
     },
     {
       "date": "2024-06-21",
@@ -46,7 +49,9 @@
       "contractor": "Luciano Miranda Electrician",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "14385919",
+      "permit_number": "E24-000701"
     },
     {
       "date": "2023-08-31",
@@ -58,7 +63,9 @@
       "contractor": "Core Environmental Services, Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12235170",
+      "permit_number": "DP23-000164"
     },
     {
       "date": "2023-09-28",
@@ -70,7 +77,9 @@
       "contractor": "Core Environmental Services, Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13871804",
+      "permit_number": "DP23-000183"
     },
     {
       "date": "2024-01-16",
@@ -82,7 +91,9 @@
       "contractor": "Core Environmental Services, Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14120680",
+      "permit_number": "DP24-000010"
     },
     {
       "date": "2024-02-22",
@@ -94,7 +105,9 @@
       "contractor": "Cristie Fernando da Silva",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14196305",
+      "permit_number": "E24-000279"
     },
     {
       "date": "2024-05-06",
@@ -106,7 +119,9 @@
       "contractor": "Wellington Plumbing & Heating, Inc",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: full; minor: water heater; permit completed; all permits completed"
+      "score_reasons": "keyword: full; minor: water heater; permit completed; all permits completed",
+      "permit_id": "14359407",
+      "permit_number": "G24-000220"
     },
     {
       "date": "2024-05-06",
@@ -118,7 +133,9 @@
       "contractor": "Wellington Plumbing & Heating, Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "14359407",
+      "permit_number": "G24-000220"
     },
     {
       "date": "2024-10-01",
@@ -130,7 +147,9 @@
       "contractor": "PET HVAC INC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "51082886",
+      "permit_number": "SM24-000167"
     }
   ],
   "llm_assessment": {

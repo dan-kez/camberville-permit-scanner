@@ -13,7 +13,9 @@
     "last_sale_date": "2024-03-29T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "1079300",
-    "lot_size": "1065"
+    "lot_size": "1065",
+    "property_pid": "6192",
+    "property_parcel": "103-73"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Marcos a Meira",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($27,250); keyword: demolition; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($27,250); keyword: demolition; permit completed; all permits completed",
+      "permit_id": "264587"
     }
   ],
   "llm_assessment": {

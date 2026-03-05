@@ -13,7 +13,9 @@
     "last_sale_date": "2023-10-27T00:00:00.000",
     "last_sale_price": "1400000",
     "assessed_value": "1637100",
-    "lot_size": "2100"
+    "lot_size": "2100",
+    "property_pid": "11207",
+    "property_parcel": "140-28"
   },
   "property_use": "Two-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Treadstone Construction LLC",
       "owner_occupied": true,
       "score": 10,
-      "score_reasons": "high cost ($844,287); keyword: framing; permit completed; all permits completed"
+      "score_reasons": "high cost ($844,287); keyword: framing; permit completed; all permits completed",
+      "permit_id": "250467"
     },
     {
       "date": "2023-11-27",
@@ -46,7 +49,8 @@
       "contractor": "Treadstone Construction LLC",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($35,000); keyword: demolition; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($35,000); keyword: demolition; permit completed; all permits completed",
+      "permit_id": "250467"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,9 @@
     "last_sale_date": "2024-01-12T00:00:00.000",
     "last_sale_price": "3555000",
     "assessed_value": "3202500",
-    "lot_size": "6036"
+    "lot_size": "6036",
+    "property_pid": "11558",
+    "property_parcel": "142-51"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Vast Developers LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($50,000); keyword: renovate"
+      "score_reasons": "moderate cost ($50,000); keyword: renovate",
+      "permit_id": "1183695"
     }
   ],
   "llm_assessment": {

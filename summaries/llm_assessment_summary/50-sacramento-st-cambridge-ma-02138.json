@@ -13,7 +13,9 @@
     "last_sale_date": "2023-09-29T00:00:00.000",
     "last_sale_price": "2200000",
     "assessed_value": "4331300",
-    "lot_size": "3958"
+    "lot_size": "3958",
+    "property_pid": "11983",
+    "property_parcel": "150-49"
   },
   "property_use": "Two-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "ZRE Development",
       "owner_occupied": true,
       "score": 10,
-      "score_reasons": "high cost ($360,000); keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "high cost ($360,000); keyword: renovation; permit completed; all permits completed",
+      "permit_id": "244261"
     },
     {
       "date": "2024-02-12",
@@ -46,7 +49,8 @@
       "contractor": "ZRE Development",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($650,000); keyword: gut; minor: insulation; permit completed; all permits completed"
+      "score_reasons": "high cost ($650,000); keyword: gut; minor: insulation; permit completed; all permits completed",
+      "permit_id": "257992"
     },
     {
       "date": "2023-09-06",
@@ -58,7 +62,8 @@
       "contractor": "ZRE Development",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($33,500); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($33,500); permit completed; all permits completed",
+      "permit_id": "241695"
     }
   ],
   "llm_assessment": {

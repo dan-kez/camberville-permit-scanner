@@ -13,7 +13,9 @@
     "last_sale_date": "2018-07-02T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "2426600",
-    "lot_size": "6335"
+    "lot_size": "6335",
+    "property_pid": "19169",
+    "property_parcel": "227-93"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Krueger Construction",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($36,775)"
+      "score_reasons": "moderate cost ($36,775)",
+      "permit_id": "1170538"
     }
   ],
   "llm_assessment": {

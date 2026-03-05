@@ -13,7 +13,8 @@
     "last_sale_date": "2019-09-17",
     "last_sale_price": 1475000,
     "assessed_value": 2091400,
-    "lot_size": 0.11900000000000001
+    "lot_size": 0.11900000000000001,
+    "property_parcel": "20_G_7"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Ben's Construction, Inc.",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: framing"
+      "score_reasons": "keyword: framing",
+      "permit_id": "12013974",
+      "permit_number": "B23-001028"
     }
   ],
   "llm_assessment": {

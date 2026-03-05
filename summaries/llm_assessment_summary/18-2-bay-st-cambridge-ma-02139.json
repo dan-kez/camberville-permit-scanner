@@ -13,7 +13,9 @@
     "last_sale_date": "1999-06-25T00:00:00.000",
     "last_sale_price": "306600",
     "assessed_value": "975200",
-    "lot_size": "1421"
+    "lot_size": "1421",
+    "property_pid": "9178",
+    "property_parcel": "120-92"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "RENEWAL BY ANDERSEN",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($47,402); keyword: structural"
+      "score_reasons": "moderate cost ($47,402); keyword: structural",
+      "permit_id": "1168686"
     }
   ],
   "llm_assessment": {

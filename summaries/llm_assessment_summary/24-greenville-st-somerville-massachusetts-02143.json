@@ -11,7 +11,8 @@
     "last_sale_date": "1999-01-29",
     "last_sale_price": 315000,
     "assessed_value": 1242100,
-    "lot_size": 0.08750000000000001
+    "lot_size": 0.08750000000000001,
+    "property_parcel": "80_B_22"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",

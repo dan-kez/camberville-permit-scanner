@@ -13,7 +13,9 @@
     "last_sale_date": "2022-01-19T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "7730500",
-    "lot_size": "15408"
+    "lot_size": "15408",
+    "property_pid": "11747",
+    "property_parcel": "146-48"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "JSCL INC",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($25,000); keyword: rebuild; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($25,000); keyword: rebuild; permit completed; all permits completed",
+      "permit_id": "236139"
     }
   ],
   "llm_assessment": {

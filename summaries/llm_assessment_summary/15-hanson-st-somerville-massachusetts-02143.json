@@ -13,7 +13,8 @@
     "last_sale_date": "2023-07-06",
     "last_sale_price": 925000,
     "assessed_value": 961300,
-    "lot_size": 0.052700000000000004
+    "lot_size": 0.052700000000000004,
+    "property_parcel": "54_G_3"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "128 Plumbing & Heating",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: boiler; permit completed; all permits completed"
+      "score_reasons": "minor: boiler; permit completed; all permits completed",
+      "permit_id": "13872723",
+      "permit_number": "G23-000465"
     }
   ],
   "llm_assessment": {

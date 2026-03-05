@@ -13,7 +13,8 @@
     "last_sale_date": "2023-10-06",
     "last_sale_price": 1750000,
     "assessed_value": 1610800,
-    "lot_size": 0.08310000000000001
+    "lot_size": 0.08310000000000001,
+    "property_parcel": "66_E_15"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Gomtegas painting inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14272952",
+      "permit_number": "B24-000433"
     },
     {
       "date": "2024-06-26",
@@ -46,7 +49,9 @@
       "contractor": "Bright Light Electrical",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14410969",
+      "permit_number": "E24-000765"
     }
   ],
   "llm_assessment": {

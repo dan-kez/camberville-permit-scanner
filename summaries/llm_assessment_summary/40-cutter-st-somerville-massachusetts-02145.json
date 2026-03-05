@@ -13,7 +13,8 @@
     "last_sale_date": "1995-12-04",
     "last_sale_price": 110000,
     "assessed_value": 782900,
-    "lot_size": 0.08030000000000001
+    "lot_size": 0.08030000000000001,
+    "property_parcel": "91_B_20"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "capital construction contracting inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: structural"
+      "score_reasons": "keyword: structural",
+      "permit_id": "13958504",
+      "permit_number": "B23-001968"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,9 @@
     "last_sale_date": "2024-05-31T00:00:00.000",
     "last_sale_price": "2815000",
     "assessed_value": "1993900",
-    "lot_size": "4500"
+    "lot_size": "4500",
+    "property_pid": "6500",
+    "property_parcel": "106-17"
   },
   "property_use": "Two-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Fresh Start Contracting",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($68,000); keyword: full"
+      "score_reasons": "moderate cost ($68,000); keyword: full",
+      "permit_id": "286338"
     },
     {
       "date": "2025-03-14",
@@ -46,7 +49,8 @@
       "contractor": "Fresh Start Contracting Corp.",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($1,688,000); keyword: gut; minor: roofing"
+      "score_reasons": "high cost ($1,688,000); keyword: gut; minor: roofing",
+      "permit_id": "1155760"
     }
   ],
   "llm_assessment": {

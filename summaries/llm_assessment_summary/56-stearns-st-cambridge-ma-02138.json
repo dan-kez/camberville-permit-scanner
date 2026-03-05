@@ -13,7 +13,9 @@
     "last_sale_date": "2014-06-27T00:00:00.000",
     "last_sale_price": "1305000",
     "assessed_value": "1827300",
-    "lot_size": "2880"
+    "lot_size": "2880",
+    "property_pid": "17382",
+    "property_parcel": "205-22"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Fresh Start Contracting",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($714,500); keyword: renovation"
+      "score_reasons": "high cost ($714,500); keyword: renovation",
+      "permit_id": "230176"
     },
     {
       "date": "2023-10-10",
@@ -46,7 +49,8 @@
       "contractor": "Fresh Start Contracting",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($37,000); keyword: gut"
+      "score_reasons": "moderate cost ($37,000); keyword: gut",
+      "permit_id": "245847"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2022-08-30",
     "last_sale_price": 1150000,
     "assessed_value": 984500,
-    "lot_size": 0.06520000000000001
+    "lot_size": 0.06520000000000001,
+    "property_parcel": "42_C_19"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Rogers Insulation Specialist Co., Inc.",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "12204716",
+      "permit_number": "B23-001438"
     }
   ],
   "llm_assessment": {

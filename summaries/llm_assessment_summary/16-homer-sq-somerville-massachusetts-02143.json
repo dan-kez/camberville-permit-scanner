@@ -13,7 +13,8 @@
     "last_sale_date": "2019-09-27",
     "last_sale_price": 770000,
     "assessed_value": 908000,
-    "lot_size": 0.0441
+    "lot_size": 0.0441,
+    "property_parcel": "73_E_21"
   },
   "property_use": "Short-Term Rental Registration - Short-Term Rental Registration",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12324028",
+      "permit_number": "STR23-000040"
     },
     {
       "date": "2023-12-05",
@@ -46,7 +49,9 @@
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "13959027",
+      "permit_number": "B23-001970"
     }
   ],
   "llm_assessment": {

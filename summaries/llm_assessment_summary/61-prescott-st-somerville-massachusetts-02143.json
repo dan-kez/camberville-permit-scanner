@@ -13,7 +13,8 @@
     "last_sale_date": "2017-04-14",
     "last_sale_price": 617500,
     "assessed_value": 891200,
-    "lot_size": 0.050300000000000004
+    "lot_size": 0.050300000000000004,
+    "property_parcel": "62_B_23"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Sylvester Electric, Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51089588",
+      "permit_number": "E24-001238"
     },
     {
       "date": "2024-10-08",
@@ -46,7 +49,9 @@
       "contractor": "East Coast Metal Roofing",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: roofing; permit completed; all permits completed"
+      "score_reasons": "minor: roofing; permit completed; all permits completed",
+      "permit_id": "17011452",
+      "permit_number": "B24-001067"
     },
     {
       "date": "2024-10-22",
@@ -58,7 +63,9 @@
       "contractor": "Lunex Power Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed"
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "17068924",
+      "permit_number": "B24-001232"
     },
     {
       "date": "2024-10-22",
@@ -70,7 +77,9 @@
       "contractor": "Lunex Power",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed"
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "17068924",
+      "permit_number": "B24-001232"
     }
   ],
   "llm_assessment": {

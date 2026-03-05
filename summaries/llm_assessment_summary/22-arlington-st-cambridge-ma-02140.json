@@ -13,7 +13,9 @@
     "last_sale_date": "2012-08-23T00:00:00.000",
     "last_sale_price": "1610000",
     "assessed_value": "3482800",
-    "lot_size": "6581"
+    "lot_size": "6581",
+    "property_pid": "14051",
+    "property_parcel": "176-9"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Kevin",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($79,800); keyword: rebuild; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($79,800); keyword: rebuild; permit completed; all permits completed",
+      "permit_id": "246354"
     }
   ],
   "llm_assessment": {

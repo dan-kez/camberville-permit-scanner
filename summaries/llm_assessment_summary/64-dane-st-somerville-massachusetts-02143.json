@@ -11,7 +11,8 @@
     "last_sale_date": "2015-08-13",
     "last_sale_price": 859000,
     "assessed_value": 1666800,
-    "lot_size": 0.1351
+    "lot_size": 0.1351,
+    "property_parcel": "64_C_24"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Inman",

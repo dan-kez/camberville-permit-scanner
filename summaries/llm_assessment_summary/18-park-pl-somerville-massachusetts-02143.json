@@ -13,7 +13,8 @@
     "last_sale_date": "2016-11-08",
     "last_sale_price": 1,
     "assessed_value": 873300,
-    "lot_size": 0.058800000000000005
+    "lot_size": 0.058800000000000005,
+    "property_parcel": "52_G_26"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "De oliveira renovation",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51095160",
+      "permit_number": "B24-001373"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2000-12-15",
     "last_sale_price": 372500,
     "assessed_value": 1386300,
-    "lot_size": 0.055900000000000005
+    "lot_size": 0.055900000000000005,
+    "property_parcel": "21_A_23"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Newport Electric Construction",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "keyword: structural; minor: panel; permit completed"
+      "score_reasons": "keyword: structural; minor: panel; permit completed",
+      "permit_id": "12315130",
+      "permit_number": "B23-001647"
     }
   ],
   "llm_assessment": {

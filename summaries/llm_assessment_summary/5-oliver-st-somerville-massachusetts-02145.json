@@ -13,7 +13,8 @@
     "last_sale_date": "2021-03-02",
     "last_sale_price": 685000,
     "assessed_value": 697400,
-    "lot_size": 0.0849
+    "lot_size": 0.0849,
+    "property_parcel": "104_B_19"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "paul marchant",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "11506104",
+      "permit_number": "E23-000452"
     }
   ],
   "llm_assessment": {

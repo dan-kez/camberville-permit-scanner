@@ -13,7 +13,8 @@
     "last_sale_date": "2021-05-25",
     "last_sale_price": 1,
     "assessed_value": 1398900,
-    "lot_size": 0.0833
+    "lot_size": 0.0833,
+    "property_parcel": "15_E_1"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "13899357",
+      "permit_number": "B23-001764"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,9 @@
     "last_sale_date": "2007-06-11T00:00:00.000",
     "last_sale_price": "810000",
     "assessed_value": "2080600",
-    "lot_size": "3564"
+    "lot_size": "3564",
+    "property_pid": "5407",
+    "property_parcel": "97-50"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "S+H Construction",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($120,774); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($120,774); permit completed; all permits completed",
+      "permit_id": "270030"
     }
   ],
   "llm_assessment": {

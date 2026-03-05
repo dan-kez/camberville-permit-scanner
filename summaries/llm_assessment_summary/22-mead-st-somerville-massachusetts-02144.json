@@ -13,7 +13,8 @@
     "last_sale_date": "2011-08-23",
     "last_sale_price": 751000,
     "assessed_value": 1406400,
-    "lot_size": 0.1042
+    "lot_size": 0.1042,
+    "property_parcel": "13_A_25"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "James DeOliveira",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51177158",
+      "permit_number": "E24-001370"
     }
   ],
   "llm_assessment": {

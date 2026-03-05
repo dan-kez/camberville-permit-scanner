@@ -23,7 +23,8 @@
       "contractor": "delaporte development",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($353,200); keyword: renovate; minor: boiler; permit completed; all permits completed"
+      "score_reasons": "high cost ($353,200); keyword: renovate; minor: boiler; permit completed; all permits completed",
+      "permit_id": "1164224"
     }
   ],
   "llm_assessment": {

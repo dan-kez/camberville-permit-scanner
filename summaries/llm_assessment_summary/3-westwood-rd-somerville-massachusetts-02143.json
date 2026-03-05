@@ -13,7 +13,8 @@
     "last_sale_date": "2012-08-27",
     "last_sale_price": 1,
     "assessed_value": 1577400,
-    "lot_size": 0.0984
+    "lot_size": 0.0984,
+    "property_parcel": "43_F_15"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Vivint LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12226801",
+      "permit_number": "E23-001359"
     }
   ],
   "llm_assessment": {

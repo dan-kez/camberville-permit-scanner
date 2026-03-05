@@ -13,7 +13,8 @@
     "last_sale_date": "2016-07-19",
     "last_sale_price": 1450000,
     "assessed_value": 1971200,
-    "lot_size": 0.09680000000000001
+    "lot_size": 0.09680000000000001,
+    "property_parcel": "13_A_67"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Attilio Dimascio Jr",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "14167143",
+      "permit_number": "E24-000177"
     },
     {
       "date": "2024-02-26",
@@ -46,7 +49,9 @@
       "contractor": "Attilio Dimascio Jr",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovate; permit completed; all permits completed"
+      "score_reasons": "keyword: renovate; permit completed; all permits completed",
+      "permit_id": "14156870",
+      "permit_number": "B24-000157"
     },
     {
       "date": "2024-05-14",
@@ -58,7 +63,9 @@
       "contractor": "Dico Plumbing And Heating LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14392585",
+      "permit_number": "P24-000264"
     },
     {
       "date": "2024-07-26",
@@ -70,7 +77,9 @@
       "contractor": "Basnett Plumbing Heating & AC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "17005326",
+      "permit_number": "SM24-000132"
     },
     {
       "date": "2024-07-19",
@@ -82,7 +91,9 @@
       "contractor": "Basnett Plumbing",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "38070930",
+      "permit_number": "E24-001101"
     }
   ],
   "llm_assessment": {

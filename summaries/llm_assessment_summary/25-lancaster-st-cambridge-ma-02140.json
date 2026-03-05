@@ -13,7 +13,9 @@
     "last_sale_date": "2021-02-24T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "2946500",
-    "lot_size": "4041"
+    "lot_size": "4041",
+    "property_pid": "14128",
+    "property_parcel": "176-23"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "The Harder Group Limited Company",
       "owner_occupied": true,
       "score": 10,
-      "score_reasons": "high cost ($450,000); keyword: convert; permit completed; all permits completed"
+      "score_reasons": "high cost ($450,000); keyword: convert; permit completed; all permits completed",
+      "permit_id": "273162"
     }
   ],
   "llm_assessment": {

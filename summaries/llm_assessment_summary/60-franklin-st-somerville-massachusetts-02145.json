@@ -11,7 +11,8 @@
     "last_sale_date": "2021-12-06",
     "last_sale_price": 1,
     "assessed_value": 817700,
-    "lot_size": 0.1288
+    "lot_size": 0.1288,
+    "property_parcel": "104_D_17"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",

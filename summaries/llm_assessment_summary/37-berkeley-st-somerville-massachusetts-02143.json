@@ -13,7 +13,8 @@
     "last_sale_date": "2023-07-25",
     "last_sale_price": 990000,
     "assessed_value": 875500,
-    "lot_size": 0.0971
+    "lot_size": 0.0971,
+    "property_parcel": "51_D_34"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Jesse Josue Giron Licensed Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: gut; permit completed; most permits completed"
+      "score_reasons": "keyword: gut; permit completed; most permits completed",
+      "permit_id": "14217012",
+      "permit_number": "E24-000325"
     },
     {
       "date": "2023-07-27",
@@ -46,7 +49,9 @@
       "contractor": "sluggers home improvement",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "11191955",
+      "permit_number": "B23-000001"
     },
     {
       "date": "2024-01-16",
@@ -58,7 +63,9 @@
       "contractor": "sluggers home improvement",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "13957008",
+      "permit_number": "DP23-000216"
     },
     {
       "date": "2024-05-17",
@@ -70,7 +77,9 @@
       "contractor": "sluggers home improvement",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14122957",
+      "permit_number": "B24-000083"
     },
     {
       "date": "2024-08-02",
@@ -82,7 +91,9 @@
       "contractor": "Tier One Electrical LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51080806",
+      "permit_number": "E24-001206"
     },
     {
       "date": "2024-01-16",
@@ -94,7 +105,9 @@
       "contractor": "sluggers home improvement",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "13957008",
+      "permit_number": "DP23-000216"
     }
   ],
   "llm_assessment": {

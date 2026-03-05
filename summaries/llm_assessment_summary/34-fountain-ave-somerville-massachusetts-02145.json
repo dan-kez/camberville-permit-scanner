@@ -13,7 +13,8 @@
     "last_sale_date": "1990-08-31",
     "last_sale_price": 80000,
     "assessed_value": 736200,
-    "lot_size": 0.058800000000000005
+    "lot_size": 0.058800000000000005,
+    "property_parcel": "92_F_17"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Robinson duran marte",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14187703",
+      "permit_number": "E24-000254"
     }
   ],
   "llm_assessment": {

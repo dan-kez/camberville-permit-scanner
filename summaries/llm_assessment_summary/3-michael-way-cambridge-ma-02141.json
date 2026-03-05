@@ -13,7 +13,9 @@
     "last_sale_date": "2024-04-12T00:00:00.000",
     "last_sale_price": "1100000",
     "assessed_value": "1091600",
-    "lot_size": "3336"
+    "lot_size": "3336",
+    "property_pid": "2355",
+    "property_parcel": "39-144"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "vertical Konstruction LLC",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($620,000); keyword: renovate; minor: sign; permit completed; all permits completed"
+      "score_reasons": "high cost ($620,000); keyword: renovate; minor: sign; permit completed; all permits completed",
+      "permit_id": "1150341"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2023-10-23",
     "last_sale_price": 1025000,
     "assessed_value": 891900,
-    "lot_size": 0.0801
+    "lot_size": 0.0801,
+    "property_parcel": "36_C_3"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Stephen mcgee",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "13988356",
+      "permit_number": "E23-001837"
     },
     {
       "date": "2023-12-04",
@@ -46,7 +49,9 @@
       "contractor": "DiPierro and Brown Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: structural"
+      "score_reasons": "keyword: structural",
+      "permit_id": "13932428",
+      "permit_number": "B23-001886"
     },
     {
       "date": "2023-12-05",
@@ -58,7 +63,9 @@
       "contractor": "DiPierro and Brown Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: demolition"
+      "score_reasons": "keyword: demolition",
+      "permit_id": "14017558",
+      "permit_number": "DP23-000247"
     },
     {
       "date": "2024-01-16",
@@ -70,7 +77,9 @@
       "contractor": "Stephen mcgee",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: addition"
+      "score_reasons": "keyword: addition",
+      "permit_id": "14116851",
+      "permit_number": "E24-000061"
     },
     {
       "date": "2024-09-24",
@@ -82,7 +91,9 @@
       "contractor": "DiPierro and Brown Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: gut"
+      "score_reasons": "keyword: gut",
+      "permit_id": "14101839",
+      "permit_number": "B24-000009"
     },
     {
       "date": "2024-09-24",
@@ -94,7 +105,9 @@
       "contractor": "DiPierro and Brown Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: gut"
+      "score_reasons": "keyword: gut",
+      "permit_id": "14101839",
+      "permit_number": "B24-000009"
     }
   ],
   "llm_assessment": {

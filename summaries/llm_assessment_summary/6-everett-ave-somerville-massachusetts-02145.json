@@ -13,7 +13,8 @@
     "last_sale_date": "1994-09-28",
     "last_sale_price": 78000,
     "assessed_value": 836300,
-    "lot_size": 0.0921
+    "lot_size": 0.0921,
+    "property_parcel": "90_G_15"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Sunrun Installation Services",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "keyword: structural; minor: solar; permit completed"
+      "score_reasons": "keyword: structural; minor: solar; permit completed",
+      "permit_id": "14313927",
+      "permit_number": "E24-000555"
     },
     {
       "date": "2024-09-17",
@@ -46,7 +49,9 @@
       "contractor": "Freedom Forever Massachusetts, LLC",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "keyword: total; minor: solar; permit completed"
+      "score_reasons": "keyword: total; minor: solar; permit completed",
+      "permit_id": "51220082",
+      "permit_number": "E24-001472"
     },
     {
       "date": "2024-10-25",
@@ -58,7 +63,9 @@
       "contractor": "Freedom Forever Massachusetts, LLC",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "keyword: total; minor: solar; permit completed"
+      "score_reasons": "keyword: total; minor: solar; permit completed",
+      "permit_id": "51220059",
+      "permit_number": "B24-001618"
     }
   ],
   "llm_assessment": {

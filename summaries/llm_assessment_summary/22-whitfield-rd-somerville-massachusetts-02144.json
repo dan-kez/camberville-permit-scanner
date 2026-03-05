@@ -13,7 +13,8 @@
     "last_sale_date": "2004-10-29",
     "last_sale_price": 500000,
     "assessed_value": 1311800,
-    "lot_size": 0.0983
+    "lot_size": 0.0983,
+    "property_parcel": "10_F_9"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Jeremy D Dryden Electrician",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "12245081",
+      "permit_number": "E23-001422"
     }
   ],
   "llm_assessment": {

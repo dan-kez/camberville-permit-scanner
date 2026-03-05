@@ -13,7 +13,8 @@
     "last_sale_date": "1989-08-28",
     "last_sale_price": 167000,
     "assessed_value": 1116500,
-    "lot_size": 0.0555
+    "lot_size": 0.0555,
+    "property_parcel": "22_I_3"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Art Slate Roofing, LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: gut"
+      "score_reasons": "keyword: gut",
+      "permit_id": "12389617",
+      "permit_number": "B23-001692"
     }
   ],
   "llm_assessment": {

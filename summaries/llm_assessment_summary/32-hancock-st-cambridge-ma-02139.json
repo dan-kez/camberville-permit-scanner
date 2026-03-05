@@ -13,7 +13,9 @@
     "last_sale_date": "2000-11-20T00:00:00.000",
     "last_sale_price": "530000",
     "assessed_value": "1439600",
-    "lot_size": "1500"
+    "lot_size": "1500",
+    "property_pid": "8972",
+    "property_parcel": "119-103"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "FRS Roofing Inc.",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($28,549)"
+      "score_reasons": "moderate cost ($28,549)",
+      "permit_id": "245657"
     }
   ],
   "llm_assessment": {

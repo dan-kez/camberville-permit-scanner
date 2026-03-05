@@ -13,7 +13,9 @@
     "last_sale_date": "2016-01-21T00:00:00.000",
     "last_sale_price": "970000",
     "assessed_value": "1917700",
-    "lot_size": "4496"
+    "lot_size": "4496",
+    "property_pid": "2436",
+    "property_parcel": "40-130"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "allen and sons",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "moderate cost ($182,200); keyword: remodel; minor: replace windows; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($182,200); keyword: remodel; minor: replace windows; permit completed; all permits completed",
+      "permit_id": "280358"
     }
   ],
   "llm_assessment": {

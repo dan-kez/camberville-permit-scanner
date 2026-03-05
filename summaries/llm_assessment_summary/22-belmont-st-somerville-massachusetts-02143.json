@@ -13,7 +13,8 @@
     "last_sale_date": "2004-08-25",
     "last_sale_price": 495000,
     "assessed_value": 1002400,
-    "lot_size": 0.0689
+    "lot_size": 0.0689,
+    "property_parcel": "38_E_39"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Five Hills Electric",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: addition; minor: panel; permit completed; all permits completed"
+      "score_reasons": "keyword: addition; minor: panel; permit completed; all permits completed",
+      "permit_id": "51223710",
+      "permit_number": "E24-001483"
     },
     {
       "date": "2023-09-11",
@@ -46,7 +49,9 @@
       "contractor": "M. P. Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: siding; permit completed; all permits completed"
+      "score_reasons": "minor: siding; permit completed; all permits completed",
+      "permit_id": "6926082",
+      "permit_number": "B20-000349"
     }
   ],
   "llm_assessment": {

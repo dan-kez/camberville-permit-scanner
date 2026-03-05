@@ -34,7 +34,8 @@
       "contractor": "OPUS MASTER BUILDERS INC",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($91,000); keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($91,000); keyword: renovation; permit completed; all permits completed",
+      "permit_id": "228873"
     }
   ],
   "llm_assessment": {

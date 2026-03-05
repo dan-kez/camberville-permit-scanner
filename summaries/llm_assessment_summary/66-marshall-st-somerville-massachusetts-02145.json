@@ -13,7 +13,8 @@
     "last_sale_date": "2019-05-31",
     "last_sale_price": 641000,
     "assessed_value": 660700,
-    "lot_size": 0.029300000000000003
+    "lot_size": 0.029300000000000003,
+    "property_parcel": "71_E_66"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Tatra Building Company Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "51110299",
+      "permit_number": "B24-001410"
     }
   ],
   "llm_assessment": {

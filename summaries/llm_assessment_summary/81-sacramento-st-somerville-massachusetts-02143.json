@@ -13,7 +13,8 @@
     "last_sale_date": "2003-01-02",
     "last_sale_price": 295000,
     "assessed_value": 1423400,
-    "lot_size": 0.0478
+    "lot_size": 0.0478,
+    "property_parcel": "39_E_4_A"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Scharn Industries",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12029150",
+      "permit_number": "E23-000994"
     },
     {
       "date": "2024-11-08",
@@ -46,7 +49,9 @@
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "51262534",
+      "permit_number": "B24-001788"
     }
   ],
   "llm_assessment": {

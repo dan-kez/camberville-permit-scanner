@@ -13,7 +13,9 @@
     "last_sale_date": "2009-10-26T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "8149900",
-    "lot_size": "11349"
+    "lot_size": "11349",
+    "property_pid": "185819",
+    "property_parcel": "227-113"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Connection General construction inc",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($127,500)"
+      "score_reasons": "moderate cost ($127,500)",
+      "permit_id": "289588"
     }
   ],
   "llm_assessment": {

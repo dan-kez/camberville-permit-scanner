@@ -13,7 +13,8 @@
     "last_sale_date": "2005-07-01",
     "last_sale_price": 459000,
     "assessed_value": 981600,
-    "lot_size": 0.0716
+    "lot_size": 0.0716,
+    "property_parcel": "90_H_1"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "GOLDEN BUILDER CONSTRUCTION INC",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: gut; permit completed; all permits completed"
+      "score_reasons": "keyword: gut; permit completed; all permits completed",
+      "permit_id": "12321255",
+      "permit_number": "B23-001661"
     },
     {
       "date": "2024-01-17",
@@ -46,7 +49,9 @@
       "contractor": "Clean Tech Construction",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "14111351",
+      "permit_number": "B24-000043"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2003-07-02",
     "last_sale_price": 390000,
     "assessed_value": 1097900,
-    "lot_size": 0.0689
+    "lot_size": 0.0689,
+    "property_parcel": "50_E_8"
   },
   "property_use": "Building Permit - Residential Addition",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Our House Contracting",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: addition; minor: sign; permit completed; all permits completed"
+      "score_reasons": "keyword: addition; minor: sign; permit completed; all permits completed",
+      "permit_id": "17017733",
+      "permit_number": "B24-001083"
     }
   ],
   "llm_assessment": {

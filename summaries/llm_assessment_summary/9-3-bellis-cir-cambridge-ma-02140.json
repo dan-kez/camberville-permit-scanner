@@ -13,7 +13,9 @@
     "last_sale_date": "2001-05-04T00:00:00.000",
     "last_sale_price": "320500",
     "assessed_value": "839700",
-    "lot_size": "1731"
+    "lot_size": "1731",
+    "property_pid": "21810",
+    "property_parcel": "271-74"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Wells & Company Builders Corp",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($78,922)"
+      "score_reasons": "moderate cost ($78,922)",
+      "permit_id": "266632"
     }
   ],
   "llm_assessment": {

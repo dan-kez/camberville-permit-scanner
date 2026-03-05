@@ -13,7 +13,8 @@
     "last_sale_date": "1996-11-08",
     "last_sale_price": 114000,
     "assessed_value": 749600,
-    "lot_size": 0.0702
+    "lot_size": 0.0702,
+    "property_parcel": "105_B_32"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Long Home Products LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: structural"
+      "score_reasons": "keyword: structural",
+      "permit_id": "51081640",
+      "permit_number": "B24-001331"
     }
   ],
   "llm_assessment": {

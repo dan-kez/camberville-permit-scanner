@@ -13,7 +13,8 @@
     "last_sale_date": "2008-03-27",
     "last_sale_price": 0,
     "assessed_value": 1300600,
-    "lot_size": 0.0748
+    "lot_size": 0.0748,
+    "property_parcel": "31_A_4"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "PSNE",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; permit completed"
+      "score_reasons": "keyword: structural; permit completed",
+      "permit_id": "13995307",
+      "permit_number": "B23-002060"
     },
     {
       "date": "2024-11-04",
@@ -46,7 +49,9 @@
       "contractor": "Delarosa Construction & Design",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: demolition"
+      "score_reasons": "keyword: demolition",
+      "permit_id": "51287122",
+      "permit_number": "B24-001855"
     }
   ],
   "llm_assessment": {

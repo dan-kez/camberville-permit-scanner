@@ -13,7 +13,8 @@
     "last_sale_date": "2021-04-29",
     "last_sale_price": 1275000,
     "assessed_value": 1221500,
-    "lot_size": 0.0767
+    "lot_size": 0.0767,
+    "property_parcel": "35_A_15"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Chris Rush plumbing",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: remodel; permit completed"
+      "score_reasons": "keyword: remodel; permit completed",
+      "permit_id": "51282081",
+      "permit_number": "P24-000613"
     },
     {
       "date": "2024-09-05",
@@ -46,7 +49,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "51106433",
+      "permit_number": "B24-001395"
     }
   ],
   "llm_assessment": {

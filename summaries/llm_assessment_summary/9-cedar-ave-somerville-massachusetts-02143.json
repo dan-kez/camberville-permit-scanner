@@ -13,7 +13,8 @@
     "last_sale_date": "2012-08-31",
     "last_sale_price": 410000,
     "assessed_value": 1199800,
-    "lot_size": 0.055900000000000005
+    "lot_size": 0.055900000000000005,
+    "property_parcel": "35_I_3"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Excel Mechanical",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "13894423",
+      "permit_number": "G23-000470"
     }
   ],
   "llm_assessment": {

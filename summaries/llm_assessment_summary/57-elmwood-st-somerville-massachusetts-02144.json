@@ -13,7 +13,8 @@
     "last_sale_date": "2012-06-19",
     "last_sale_price": 1,
     "assessed_value": 1027300,
-    "lot_size": 0.0766
+    "lot_size": 0.0766,
+    "property_parcel": "13_D_19"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "M2 Holdings LLC dba Paradigm Energy Services",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "14405455",
+      "permit_number": "G24-000242"
     }
   ],
   "llm_assessment": {

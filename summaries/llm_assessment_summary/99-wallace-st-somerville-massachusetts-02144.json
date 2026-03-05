@@ -13,7 +13,8 @@
     "last_sale_date": "2021-03-16",
     "last_sale_price": 1,
     "assessed_value": 1529100,
-    "lot_size": 0.0674
+    "lot_size": 0.0674,
+    "property_parcel": "16_C_22"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "CRN PLUMBING, LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14010546",
+      "permit_number": "G23-000587"
     }
   ],
   "llm_assessment": {

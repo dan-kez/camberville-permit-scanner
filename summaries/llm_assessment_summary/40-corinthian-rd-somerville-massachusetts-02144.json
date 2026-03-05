@@ -13,7 +13,8 @@
     "last_sale_date": "2023-08-16",
     "last_sale_price": 1150000,
     "assessed_value": 1122000,
-    "lot_size": 0.0475
+    "lot_size": 0.0475,
+    "property_parcel": "12_C_18"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Steve E. Valenti Builders, Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "14401841",
+      "permit_number": "B24-000820"
     },
     {
       "date": "2024-10-24",
@@ -46,7 +49,9 @@
       "contractor": "Steve E. Valenti Builders, Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: demolition"
+      "score_reasons": "keyword: demolition",
+      "permit_id": "51325226",
+      "permit_number": "DP24-000172"
     }
   ],
   "llm_assessment": {

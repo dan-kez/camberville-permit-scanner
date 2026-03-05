@@ -13,7 +13,8 @@
     "last_sale_date": "2013-07-26",
     "last_sale_price": 255000,
     "assessed_value": 802100,
-    "lot_size": 0.0551
+    "lot_size": 0.0551,
+    "property_parcel": "91_A_9"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Carlos Aguilar",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14198451",
+      "permit_number": "E24-000284"
     },
     {
       "date": "2024-05-09",
@@ -46,7 +49,9 @@
       "contractor": "Carlos Aguilar",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14385489",
+      "permit_number": "E24-000695"
     }
   ],
   "llm_assessment": {

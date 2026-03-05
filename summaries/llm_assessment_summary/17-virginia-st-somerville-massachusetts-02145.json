@@ -13,7 +13,8 @@
     "last_sale_date": "2021-11-19",
     "last_sale_price": 800000,
     "assessed_value": 782400,
-    "lot_size": 0.0606
+    "lot_size": 0.0606,
+    "property_parcel": "79_B_16"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "PSNE",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: structural; permit completed; most permits completed"
+      "score_reasons": "keyword: structural; permit completed; most permits completed",
+      "permit_id": "14171700",
+      "permit_number": "B24-000202"
     },
     {
       "date": "2024-05-02",
@@ -46,7 +49,9 @@
       "contractor": "Anderson Bitencourt Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "14359811",
+      "permit_number": "E24-000666"
     },
     {
       "date": "2024-05-03",
@@ -58,7 +63,9 @@
       "contractor": "Elevate Remodeling Solutions",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "14332435",
+      "permit_number": "B24-000646"
     },
     {
       "date": "2024-05-28",
@@ -70,7 +77,9 @@
       "contractor": "Glenn Wicker Plumbing",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; permit completed; most permits completed",
+      "permit_id": "14415874",
+      "permit_number": "P24-000287"
     },
     {
       "date": "2023-07-06",
@@ -82,7 +91,9 @@
       "contractor": "PSNE",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "keyword: structural; most permits completed"
+      "score_reasons": "keyword: structural; most permits completed",
+      "permit_id": "12034438",
+      "permit_number": "B23-001105"
     },
     {
       "date": "2023-11-20",
@@ -94,7 +105,9 @@
       "contractor": "Jeremy D Dryden Electrician",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "13983758",
+      "permit_number": "E23-001824"
     }
   ],
   "llm_assessment": {

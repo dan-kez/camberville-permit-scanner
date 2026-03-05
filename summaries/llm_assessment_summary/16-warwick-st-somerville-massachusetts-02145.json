@@ -11,7 +11,8 @@
     "last_sale_date": "2003-01-22",
     "last_sale_price": 0,
     "assessed_value": 883300,
-    "lot_size": 0.17220000000000002
+    "lot_size": 0.17220000000000002,
+    "property_parcel": "33_G_22"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",

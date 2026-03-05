@@ -13,7 +13,9 @@
     "last_sale_date": "2003-07-03T00:00:00.000",
     "last_sale_price": "375600",
     "assessed_value": "864200",
-    "lot_size": "2477"
+    "lot_size": "2477",
+    "property_pid": "16868",
+    "property_parcel": "199-140"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Pessote Construction Inc",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($350,000); keyword: renovate; minor: insulation; permit completed; all permits completed"
+      "score_reasons": "high cost ($350,000); keyword: renovate; minor: insulation; permit completed; all permits completed",
+      "permit_id": "1142854"
     }
   ],
   "llm_assessment": {

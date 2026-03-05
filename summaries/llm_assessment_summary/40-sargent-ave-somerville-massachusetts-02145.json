@@ -13,7 +13,8 @@
     "last_sale_date": "2022-06-03",
     "last_sale_price": 1,
     "assessed_value": 800200,
-    "lot_size": 0.0737
+    "lot_size": 0.0737,
+    "property_parcel": "71_B_27"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Ryan McGann",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51114316",
+      "permit_number": "G24-000379"
     }
   ],
   "llm_assessment": {

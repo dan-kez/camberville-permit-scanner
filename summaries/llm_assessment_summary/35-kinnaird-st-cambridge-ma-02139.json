@@ -13,7 +13,9 @@
     "last_sale_date": "2024-12-19T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "2418500",
-    "lot_size": "3680"
+    "lot_size": "3680",
+    "property_pid": "9454",
+    "property_parcel": "123-5"
   },
   "property_use": "Two-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "ACH Construction",
       "owner_occupied": true,
       "score": 10,
-      "score_reasons": "high cost ($649,000); keyword: gut; permit completed; all permits completed"
+      "score_reasons": "high cost ($649,000); keyword: gut; permit completed; all permits completed",
+      "permit_id": "245187"
     }
   ],
   "llm_assessment": {

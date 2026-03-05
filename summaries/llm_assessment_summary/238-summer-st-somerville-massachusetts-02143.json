@@ -13,7 +13,8 @@
     "last_sale_date": "2012-04-27",
     "last_sale_price": 669000,
     "assessed_value": 1268000,
-    "lot_size": 0.10840000000000001
+    "lot_size": 0.10840000000000001,
+    "property_parcel": "36_B_4"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Ideal Electric Co Inc.",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "51363872",
+      "permit_number": "E24-001855"
     },
     {
       "date": "2024-11-07",
@@ -46,7 +49,9 @@
       "contractor": "Morse Constructions",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: renovation; minor: window replacement; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; minor: window replacement; permit completed; all permits completed",
+      "permit_id": "51289704",
+      "permit_number": "B24-001863"
     }
   ],
   "llm_assessment": {

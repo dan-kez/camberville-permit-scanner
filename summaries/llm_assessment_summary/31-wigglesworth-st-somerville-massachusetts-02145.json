@@ -13,7 +13,8 @@
     "last_sale_date": "2016-03-31",
     "last_sale_price": 1,
     "assessed_value": 694700,
-    "lot_size": 0.0574
+    "lot_size": 0.0574,
+    "property_parcel": "78_F_1"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "13956449",
+      "permit_number": "B23-001956"
     },
     {
       "date": "2024-09-19",
@@ -46,7 +49,9 @@
       "contractor": "Trinity Solar LLC",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: panel; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: panel; permit completed; all permits completed",
+      "permit_id": "51222849",
+      "permit_number": "B24-001634"
     },
     {
       "date": "2024-09-19",
@@ -58,7 +63,9 @@
       "contractor": "Trinity Solar",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: panel; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: panel; permit completed; all permits completed",
+      "permit_id": "51222849",
+      "permit_number": "B24-001634"
     }
   ],
   "llm_assessment": {

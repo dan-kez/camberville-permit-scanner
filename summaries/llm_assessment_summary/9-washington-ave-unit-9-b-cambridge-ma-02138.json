@@ -23,7 +23,8 @@
       "contractor": "Coughlin-Shea Builders",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($166,500); keyword: renovation"
+      "score_reasons": "moderate cost ($166,500); keyword: renovation",
+      "permit_id": "284658"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2022-08-26",
     "last_sale_price": 865000,
     "assessed_value": 783400,
-    "lot_size": 0.049800000000000004
+    "lot_size": 0.049800000000000004,
+    "property_parcel": "75_H_28_A"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "ACE Residential Solar",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed"
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "11550966",
+      "permit_number": "B23-000571"
     }
   ],
   "llm_assessment": {

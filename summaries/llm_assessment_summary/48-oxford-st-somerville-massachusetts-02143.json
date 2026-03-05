@@ -13,7 +13,8 @@
     "last_sale_date": "2023-10-16",
     "last_sale_price": 1150000,
     "assessed_value": 906800,
-    "lot_size": 0.0448
+    "lot_size": 0.0448,
+    "property_parcel": "51_D_2"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Spangler Gross",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; permit completed; most permits completed",
+      "permit_id": "14214809",
+      "permit_number": "E24-000317"
     },
     {
       "date": "2024-03-19",
@@ -46,7 +49,9 @@
       "contractor": "MCK Remodeling & Painting Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovate; permit completed; most permits completed"
+      "score_reasons": "keyword: renovate; permit completed; most permits completed",
+      "permit_id": "14197952",
+      "permit_number": "B24-000284"
     },
     {
       "date": "2024-03-25",
@@ -58,7 +63,9 @@
       "contractor": "aldo and victoria services",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14283497",
+      "permit_number": "G24-000165"
     },
     {
       "date": "2024-03-25",
@@ -70,7 +77,9 @@
       "contractor": "aldo and victoria services",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14283497",
+      "permit_number": "G24-000165"
     },
     {
       "date": "2024-04-03",
@@ -82,7 +91,9 @@
       "contractor": "MCK Remodeling & Painting Inc.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14270649",
+      "permit_number": "B24-000426"
     },
     {
       "date": "2024-10-28",
@@ -94,7 +105,9 @@
       "contractor": "Forge Team Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51098880",
+      "permit_number": "E24-001265"
     },
     {
       "date": "2024-08-08",
@@ -106,7 +119,9 @@
       "contractor": "Forge Team Inc",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "51112701",
+      "permit_number": "E24-001307"
     }
   ],
   "llm_assessment": {

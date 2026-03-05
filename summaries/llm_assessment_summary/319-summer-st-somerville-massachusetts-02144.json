@@ -13,7 +13,8 @@
     "last_sale_date": "2023-04-25",
     "last_sale_price": 1275000,
     "assessed_value": 2128600,
-    "lot_size": 0.061900000000000004
+    "lot_size": 0.061900000000000004,
+    "property_parcel": "29_J_25"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Treadstone Construction, LLC.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: convert; permit completed; most permits completed"
+      "score_reasons": "keyword: convert; permit completed; most permits completed",
+      "permit_id": "11544103",
+      "permit_number": "B23-000545"
     },
     {
       "date": "2024-02-26",
@@ -46,7 +49,9 @@
       "contractor": "Rick Picardi",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "14188944",
+      "permit_number": "E24-000258"
     },
     {
       "date": "2023-11-14",
@@ -58,7 +63,9 @@
       "contractor": "PTL Plumbing",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "13945458",
+      "permit_number": "P23-000741"
     }
   ],
   "llm_assessment": {

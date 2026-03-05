@@ -11,7 +11,8 @@
     "last_sale_date": "2020-12-09",
     "last_sale_price": 100,
     "assessed_value": 2203300,
-    "lot_size": 0.18560000000000001
+    "lot_size": 0.18560000000000001,
+    "property_parcel": "22_E_5"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",

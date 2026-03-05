@@ -13,7 +13,8 @@
     "last_sale_date": "2023-12-22",
     "last_sale_price": 800000,
     "assessed_value": 749200,
-    "lot_size": 0.14880000000000002
+    "lot_size": 0.14880000000000002,
+    "property_parcel": "60_D_19"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "aldo and victoria services",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "14196188",
+      "permit_number": "G24-000119"
     },
     {
       "date": "2024-06-26",
@@ -46,7 +49,9 @@
       "contractor": "Brausa general construction Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: framing; permit completed; most permits completed"
+      "score_reasons": "keyword: framing; permit completed; most permits completed",
+      "permit_id": "14433237",
+      "permit_number": "B24-000938"
     },
     {
       "date": "2024-02-15",
@@ -58,7 +63,9 @@
       "contractor": "ELIEZER CRUZ ELECTRICIAN",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14185072",
+      "permit_number": "E24-000244"
     },
     {
       "date": "2024-06-10",
@@ -70,7 +77,9 @@
       "contractor": "ELIEZER CRUZ ELECTRICIAN",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14450803",
+      "permit_number": "E24-000891"
     }
   ],
   "llm_assessment": {

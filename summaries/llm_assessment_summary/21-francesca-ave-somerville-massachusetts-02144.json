@@ -13,7 +13,8 @@
     "last_sale_date": "2021-01-27",
     "last_sale_price": 1425000,
     "assessed_value": 1361400,
-    "lot_size": 0.11610000000000001
+    "lot_size": 0.11610000000000001,
+    "property_parcel": "20_C_9"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "JMR Electric Group",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14166599",
+      "permit_number": "E24-000174"
     },
     {
       "date": "2024-09-06",
@@ -46,7 +49,9 @@
       "contractor": "Savino Energy",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "51081859",
+      "permit_number": "SM24-000166"
     }
   ],
   "llm_assessment": {

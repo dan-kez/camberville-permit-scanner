@@ -13,7 +13,9 @@
     "last_sale_date": "2017-08-28T00:00:00.000",
     "last_sale_price": "2150000",
     "assessed_value": "2377400",
-    "lot_size": "1337"
+    "lot_size": "1337",
+    "property_pid": "13608",
+    "property_parcel": "172-103"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Newpro Operating LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($38,311); keyword: structural"
+      "score_reasons": "moderate cost ($38,311); keyword: structural",
+      "permit_id": "249741"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2016-03-17",
     "last_sale_price": 1690000,
     "assessed_value": 2200800,
-    "lot_size": 0.0755
+    "lot_size": 0.0755,
+    "property_parcel": "20_B_4"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Adilson DeAguair",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: remodel; permit completed"
+      "score_reasons": "keyword: remodel; permit completed",
+      "permit_id": "12240868",
+      "permit_number": "E23-001405"
     },
     {
       "date": "2023-08-10",
@@ -46,7 +49,9 @@
       "contractor": "Tancredo Plumbing & Heating",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: full"
+      "score_reasons": "keyword: full",
+      "permit_id": "12190178",
+      "permit_number": "P23-000522"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2007-12-21",
     "last_sale_price": 1,
     "assessed_value": 991900,
-    "lot_size": 0.0482
+    "lot_size": 0.0482,
+    "property_parcel": "43_C_40"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Bay State Electrical Solutions",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "13891022",
+      "permit_number": "E23-001578"
     },
     {
       "date": "2023-09-29",
@@ -46,7 +49,9 @@
       "contractor": "Vargas Plumbing & Heating Corp.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12387197",
+      "permit_number": "P23-000642"
     }
   ],
   "llm_assessment": {

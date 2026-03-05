@@ -11,7 +11,8 @@
     "last_sale_date": "2019-03-11",
     "last_sale_price": 1246000,
     "assessed_value": 1209000,
-    "lot_size": 0.06810000000000001
+    "lot_size": 0.06810000000000001,
+    "property_parcel": "91_B_15"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",

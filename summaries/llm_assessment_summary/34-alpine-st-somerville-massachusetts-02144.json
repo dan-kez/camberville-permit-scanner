@@ -13,7 +13,8 @@
     "last_sale_date": "2013-05-17",
     "last_sale_price": 505000,
     "assessed_value": 1033200,
-    "lot_size": 0.0995
+    "lot_size": 0.0995,
+    "property_parcel": "34_A_8"
   },
   "property_use": "Building Permit - Residential Addition",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Greenleaf Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: addition"
+      "score_reasons": "keyword: addition",
+      "permit_id": "14319857",
+      "permit_number": "B24-000612"
     },
     {
       "date": "2024-09-25",
@@ -46,7 +49,9 @@
       "contractor": "Electric Rushe Inc.",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "51181850",
+      "permit_number": "E24-001386"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,9 @@
     "last_sale_date": "2022-09-30T00:00:00.000",
     "last_sale_price": "2750000",
     "assessed_value": "3258300",
-    "lot_size": "3990"
+    "lot_size": "3990",
+    "property_pid": "22739",
+    "property_parcel": "201.5-61"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Precision Finish Boston Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($1,309,000); keyword: remodel"
+      "score_reasons": "high cost ($1,309,000); keyword: remodel",
+      "permit_id": "260917"
     },
     {
       "date": "2023-07-24",
@@ -46,7 +49,8 @@
       "contractor": "AB Carpentry, LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "moderate cost ($33,800); keyword: gut; minor: siding; permit completed"
+      "score_reasons": "moderate cost ($33,800); keyword: gut; minor: siding; permit completed",
+      "permit_id": "234202"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,9 @@
     "last_sale_date": "2019-09-16T00:00:00.000",
     "last_sale_price": "1160000",
     "assessed_value": "1919900",
-    "lot_size": "1466"
+    "lot_size": "1466",
+    "property_pid": "4164",
+    "property_parcel": "86-40"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Ned Flaherty Fine Home Finishing llc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "high cost ($298,950)"
+      "score_reasons": "high cost ($298,950)",
+      "permit_id": "261620"
     }
   ],
   "llm_assessment": {

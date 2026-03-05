@@ -13,7 +13,8 @@
     "last_sale_date": "2018-11-06",
     "last_sale_price": 10,
     "assessed_value": 1129100,
-    "lot_size": 0.0533
+    "lot_size": 0.0533,
+    "property_parcel": "26_I_11"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Brody Electrical Services, Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel"
+      "score_reasons": "keyword: remodel",
+      "permit_id": "14359623",
+      "permit_number": "E24-000664"
     }
   ],
   "llm_assessment": {

@@ -23,7 +23,8 @@
       "contractor": "Boardman and Company",
       "owner_occupied": true,
       "score": 10,
-      "score_reasons": "high cost ($520,000); keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "high cost ($520,000); keyword: renovation; permit completed; all permits completed",
+      "permit_id": "255284"
     }
   ],
   "llm_assessment": {

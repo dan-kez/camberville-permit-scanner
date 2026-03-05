@@ -13,7 +13,8 @@
     "last_sale_date": "2009-07-01",
     "last_sale_price": 0,
     "assessed_value": 694800,
-    "lot_size": 0.11410000000000001
+    "lot_size": 0.11410000000000001,
+    "property_parcel": "60_D_20"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Luciano Miranda Electrician",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: foundation; permit completed"
+      "score_reasons": "keyword: foundation; permit completed",
+      "permit_id": "51294539",
+      "permit_number": "E24-001702"
     }
   ],
   "llm_assessment": {

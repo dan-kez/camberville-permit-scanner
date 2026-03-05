@@ -13,7 +13,9 @@
     "last_sale_date": "2014-03-27T00:00:00.000",
     "last_sale_price": "1751000",
     "assessed_value": "3374500",
-    "lot_size": "6506"
+    "lot_size": "6506",
+    "property_pid": "11957",
+    "property_parcel": "150-16"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "EVERSTAND, INC.",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($61,000)"
+      "score_reasons": "moderate cost ($61,000)",
+      "permit_id": "244184"
     }
   ],
   "llm_assessment": {

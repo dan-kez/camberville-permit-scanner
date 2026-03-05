@@ -13,7 +13,9 @@
     "last_sale_date": "2022-06-03T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "1600100",
-    "lot_size": "861"
+    "lot_size": "861",
+    "property_pid": "6950",
+    "property_parcel": "109-5"
   },
   "property_use": "Townhouse",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Supreme Builders & Design, Inc.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($154,000); keyword: remodel"
+      "score_reasons": "moderate cost ($154,000); keyword: remodel",
+      "permit_id": "236763"
     }
   ],
   "llm_assessment": {

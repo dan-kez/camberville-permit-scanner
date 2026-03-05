@@ -13,7 +13,8 @@
     "last_sale_date": "2023-04-14",
     "last_sale_price": 1130000,
     "assessed_value": 1523400,
-    "lot_size": 0.0738
+    "lot_size": 0.0738,
+    "property_parcel": "38_E_17"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Pro Touch Home Improvements INC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: gut; permit completed; most permits completed"
+      "score_reasons": "keyword: gut; permit completed; most permits completed",
+      "permit_id": "11560529",
+      "permit_number": "B23-000607"
     },
     {
       "date": "2023-09-11",
@@ -46,7 +49,9 @@
       "contractor": "Michael Young",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12249170",
+      "permit_number": "E23-001430"
     },
     {
       "date": "2023-09-12",
@@ -58,7 +63,9 @@
       "contractor": "Jorges Company Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12179650",
+      "permit_number": "SM23-000147"
     },
     {
       "date": "2023-09-25",
@@ -70,7 +77,9 @@
       "contractor": "Michael Young",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12412532",
+      "permit_number": "E23-001548"
     },
     {
       "date": "2024-09-04",
@@ -82,7 +91,9 @@
       "contractor": "Pro Touch Home Improvements INC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "17019637",
+      "permit_number": "B24-001091"
     },
     {
       "date": "2024-09-12",
@@ -94,7 +105,9 @@
       "contractor": "Carlos Morales",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51216370",
+      "permit_number": "E24-001454"
     }
   ],
   "llm_assessment": {

@@ -23,7 +23,8 @@
       "contractor": "J B Sash & Door",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($90,992); keyword: structural"
+      "score_reasons": "moderate cost ($90,992); keyword: structural",
+      "permit_id": "1147900"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2015-11-09",
     "last_sale_price": 1,
     "assessed_value": 1063800,
-    "lot_size": 0.1046
+    "lot_size": 0.1046,
+    "property_parcel": "34_A_9"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Trinity Solar LLC",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "keyword: total; minor: solar; permit completed"
+      "score_reasons": "keyword: total; minor: solar; permit completed",
+      "permit_id": "12200803",
+      "permit_number": "E23-001278"
     },
     {
       "date": "2023-09-28",
@@ -46,7 +49,9 @@
       "contractor": "Trinity Solar",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "keyword: structural; minor: solar; permit completed"
+      "score_reasons": "keyword: structural; minor: solar; permit completed",
+      "permit_id": "12200759",
+      "permit_number": "B23-001428"
     }
   ],
   "llm_assessment": {

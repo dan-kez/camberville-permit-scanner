@@ -13,7 +13,8 @@
     "last_sale_date": "2006-11-09",
     "last_sale_price": 425000,
     "assessed_value": 920800,
-    "lot_size": 0.0577
+    "lot_size": 0.0577,
+    "property_parcel": "42_F_17"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Mathew Wilson - Electrician",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14392922",
+      "permit_number": "E24-000717"
     },
     {
       "date": "2024-08-12",
@@ -46,7 +49,9 @@
       "contractor": "Four Star Lighting & Electric Inc.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51115888",
+      "permit_number": "E24-001314"
     },
     {
       "date": "2024-03-04",
@@ -58,7 +63,9 @@
       "contractor": "RB Farina Roofing & Construction",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "14212532",
+      "permit_number": "B24-000307"
     }
   ],
   "llm_assessment": {

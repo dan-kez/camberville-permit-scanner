@@ -11,7 +11,8 @@
     "last_sale_date": "2013-08-09",
     "last_sale_price": 1,
     "assessed_value": 1024500,
-    "lot_size": 0.0742
+    "lot_size": 0.0742,
+    "property_parcel": "9_B_38"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",

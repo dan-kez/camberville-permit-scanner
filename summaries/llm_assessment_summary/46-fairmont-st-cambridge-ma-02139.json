@@ -13,7 +13,9 @@
     "last_sale_date": "2021-07-22T00:00:00.000",
     "last_sale_price": "1480000",
     "assessed_value": "1804600",
-    "lot_size": "2294"
+    "lot_size": "2294",
+    "property_pid": "9932",
+    "property_parcel": "127-46"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "THE NORFOLK COMPANIES, INC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($229,000); keyword: remodel"
+      "score_reasons": "high cost ($229,000); keyword: remodel",
+      "permit_id": "231201"
     },
     {
       "date": "2023-10-12",
@@ -46,7 +49,8 @@
       "contractor": "Paragon Investments",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($67,050); permit completed"
+      "score_reasons": "moderate cost ($67,050); permit completed",
+      "permit_id": "246166"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,9 @@
     "last_sale_date": "2018-04-05T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "2723000",
-    "lot_size": "10465"
+    "lot_size": "10465",
+    "property_pid": "7440",
+    "property_parcel": "112-102"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Weathervane Home Energy",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($25,608); minor: insulation; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($25,608); minor: insulation; permit completed; all permits completed",
+      "permit_id": "286568"
     }
   ],
   "llm_assessment": {

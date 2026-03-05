@@ -13,7 +13,8 @@
     "last_sale_date": "2018-12-10",
     "last_sale_price": 670000,
     "assessed_value": 1021100,
-    "lot_size": 0.0546
+    "lot_size": 0.0546,
+    "property_parcel": "75_C_3"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Bryan Harte",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: demolition"
+      "score_reasons": "keyword: demolition",
+      "permit_id": "14452648",
+      "permit_number": "E24-000903"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2023-04-13",
     "last_sale_price": 1730000,
     "assessed_value": 1640800,
-    "lot_size": 0.1323
+    "lot_size": 0.1323,
+    "property_parcel": "20_B_38"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Big Blue Plumbing & Heating, Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51234453",
+      "permit_number": "P24-000550"
     }
   ],
   "llm_assessment": {

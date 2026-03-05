@@ -13,7 +13,8 @@
     "last_sale_date": "2007-08-12",
     "last_sale_price": 255000,
     "assessed_value": 631700,
-    "lot_size": 0.077
+    "lot_size": 0.077,
+    "property_parcel": "91_H_8"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "TN PLUMBING AND HEATING",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "14291090",
+      "permit_number": "P24-000182"
     },
     {
       "date": "2024-03-19",
@@ -46,7 +49,9 @@
       "contractor": "KCEC LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14275567",
+      "permit_number": "E24-000434"
     },
     {
       "date": "2024-03-27",
@@ -58,7 +63,9 @@
       "contractor": "KCEC LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14291516",
+      "permit_number": "E24-000484"
     },
     {
       "date": "2024-05-07",
@@ -70,7 +77,9 @@
       "contractor": "KCEC LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14277962",
+      "permit_number": "B24-000463"
     }
   ],
   "llm_assessment": {

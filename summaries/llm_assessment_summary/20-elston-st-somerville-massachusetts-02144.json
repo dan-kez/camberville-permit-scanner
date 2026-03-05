@@ -13,7 +13,8 @@
     "last_sale_date": "2023-06-22",
     "last_sale_price": 1,
     "assessed_value": 1790900,
-    "lot_size": 0.08610000000000001
+    "lot_size": 0.08610000000000001,
+    "property_parcel": "26_D_4"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Costas Hatzis Electric",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "12219180",
+      "permit_number": "E23-001334"
     }
   ],
   "llm_assessment": {

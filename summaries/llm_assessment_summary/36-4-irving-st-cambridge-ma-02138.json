@@ -23,7 +23,8 @@
       "contractor": "Kempton Construction Llc",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($28,000); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($28,000); permit completed; all permits completed",
+      "permit_id": "250400"
     }
   ],
   "llm_assessment": {

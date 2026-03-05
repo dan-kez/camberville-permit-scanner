@@ -11,7 +11,8 @@
     "last_sale_date": "2015-08-20",
     "last_sale_price": 1185000,
     "assessed_value": 1760800,
-    "lot_size": 0.09
+    "lot_size": 0.09,
+    "property_parcel": "44_D_7"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",

@@ -13,7 +13,9 @@
     "last_sale_date": "2024-09-27T00:00:00.000",
     "last_sale_price": "99500",
     "assessed_value": "1519000",
-    "lot_size": "3320"
+    "lot_size": "3320",
+    "property_pid": "6514",
+    "property_parcel": "106-26"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Toro Construction",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($102,265)"
+      "score_reasons": "moderate cost ($102,265)",
+      "permit_id": "1188094"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2008-09-05",
     "last_sale_price": 634350,
     "assessed_value": 1302100,
-    "lot_size": 0.0828
+    "lot_size": 0.0828,
+    "property_parcel": "30_F_16"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Smart Coats",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: rebuild; permit completed; all permits completed"
+      "score_reasons": "keyword: rebuild; permit completed; all permits completed",
+      "permit_id": "14083944",
+      "permit_number": "B23-002197"
     }
   ],
   "llm_assessment": {

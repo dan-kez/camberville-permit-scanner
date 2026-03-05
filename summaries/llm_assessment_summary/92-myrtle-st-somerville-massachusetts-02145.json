@@ -13,7 +13,8 @@
     "last_sale_date": "2020-08-03",
     "last_sale_price": 1125000,
     "assessed_value": 1272400,
-    "lot_size": 0.0719
+    "lot_size": 0.0719,
+    "property_parcel": "91_G_6"
   },
   "property_use": "Dumpster (Located on Street) - Dumpster Located on Street",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Artisans Home & Renovations inc.",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "12025626",
+      "permit_number": "DP23-000108"
     }
   ],
   "llm_assessment": {

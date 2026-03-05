@@ -13,7 +13,9 @@
     "last_sale_date": "2021-05-14T00:00:00.000",
     "last_sale_price": "1935000",
     "assessed_value": "1856800",
-    "lot_size": "2084"
+    "lot_size": "2084",
+    "property_pid": "188764",
+    "property_parcel": "214-65"
   },
   "property_use": "Two-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Bertola Custom Homes & Remodeling",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($62,868); keyword: structural"
+      "score_reasons": "moderate cost ($62,868); keyword: structural",
+      "permit_id": "258638"
     }
   ],
   "llm_assessment": {

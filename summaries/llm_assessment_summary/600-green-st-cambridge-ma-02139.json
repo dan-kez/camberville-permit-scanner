@@ -13,7 +13,9 @@
     "last_sale_date": "1983-03-03T00:00:00.000",
     "last_sale_price": "89900",
     "assessed_value": "1326900",
-    "lot_size": "3176"
+    "lot_size": "3176",
+    "property_pid": "9206",
+    "property_parcel": "121-25"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "J&B Construction and More",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($33,840); minor: siding; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($33,840); minor: siding; permit completed; all permits completed",
+      "permit_id": "247778"
     }
   ],
   "llm_assessment": {

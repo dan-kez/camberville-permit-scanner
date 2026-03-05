@@ -13,7 +13,8 @@
     "last_sale_date": "2022-09-28",
     "last_sale_price": 1850000,
     "assessed_value": 2405600,
-    "lot_size": 0.1092
+    "lot_size": 0.1092,
+    "property_parcel": "26_G_5"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Gregg Landry Electrician",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12310586",
+      "permit_number": "E23-001471"
     },
     {
       "date": "2024-01-11",
@@ -46,7 +49,9 @@
       "contractor": "jf gallant",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14103945",
+      "permit_number": "G24-000004"
     },
     {
       "date": "2023-09-28",
@@ -58,7 +63,9 @@
       "contractor": "Cooling Unlimited, Inc.",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "12076316",
+      "permit_number": "SM23-000137"
     }
   ],
   "llm_assessment": {

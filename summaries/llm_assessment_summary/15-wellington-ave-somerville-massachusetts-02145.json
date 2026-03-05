@@ -13,7 +13,8 @@
     "last_sale_date": "2021-12-02",
     "last_sale_price": 775000,
     "assessed_value": 1512100,
-    "lot_size": 0.1467
+    "lot_size": 0.1467,
+    "property_parcel": "78_B_36"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Mikhail Medzhidov Electrician",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: gut; permit completed; all permits completed"
+      "score_reasons": "keyword: gut; permit completed; all permits completed",
+      "permit_id": "12320433",
+      "permit_number": "E23-001494"
     },
     {
       "date": "2023-06-29",
@@ -46,7 +49,9 @@
       "contractor": "Vargas Plumbing & Heating Corp.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12041128",
+      "permit_number": "P23-000437"
     },
     {
       "date": "2023-09-28",
@@ -58,7 +63,9 @@
       "contractor": "Eagle Hvac",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12238009",
+      "permit_number": "SM23-000175"
     },
     {
       "date": "2023-08-18",
@@ -70,7 +77,9 @@
       "contractor": "Vargas Plumbing & Heating Corp.",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: water heater; permit completed; all permits completed"
+      "score_reasons": "minor: water heater; permit completed; all permits completed",
+      "permit_id": "12041144",
+      "permit_number": "G23-000317"
     },
     {
       "date": "2023-11-14",
@@ -82,7 +91,9 @@
       "contractor": "The Boston Solar Company",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed"
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "13936355",
+      "permit_number": "E23-001710"
     },
     {
       "date": "2023-12-04",
@@ -94,7 +105,9 @@
       "contractor": "The Boston Solar Company",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed"
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "13936327",
+      "permit_number": "B23-001901"
     }
   ],
   "llm_assessment": {

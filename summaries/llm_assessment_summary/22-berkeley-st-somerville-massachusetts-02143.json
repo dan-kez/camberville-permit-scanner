@@ -11,7 +11,8 @@
     "last_sale_date": "2019-05-02",
     "last_sale_price": 1200000,
     "assessed_value": 1392200,
-    "lot_size": 0.1246
+    "lot_size": 0.1246,
+    "property_parcel": "51_E_21"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Union",

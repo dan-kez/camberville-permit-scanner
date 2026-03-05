@@ -190,6 +190,20 @@
   }
   #theme-toggle:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.6); }
 
+  #about-link {
+    background: none;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    font-size: 15px;
+    padding: 4px 10px;
+    line-height: 1;
+    text-decoration: none;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  #about-link:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.6); }
+
   .controls {
     padding: 8px 24px;
     background: var(--surface);
@@ -292,7 +306,7 @@
     background: var(--surface);
     border-radius: 10px;
     width: 100%;
-    max-width: 820px;
+    max-width: 1100px;
     max-height: 90vh;
     overflow-y: auto;
     box-shadow: 0 8px 32px var(--shadow-modal);
@@ -353,6 +367,15 @@
   .link-btn-maps   { background: var(--link-maps-bg);   color: var(--link-maps-fg);   border-color: var(--link-maps-bd); }
   .link-btn-zillow { background: var(--link-zillow-bg); color: var(--link-zillow-fg); border-color: var(--link-zillow-bd); }
   .link-btn-search { background: var(--link-search-bg); color: var(--link-search-fg); border-color: var(--link-search-bd); }
+  .link-btn-assess { background: var(--surface-2); color: var(--text-2); border-color: var(--border); }
+
+  .permit-source-link {
+    color: var(--text-faint);
+    text-decoration: none;
+    font-size: 13px;
+    padding: 0 2px;
+  }
+  .permit-source-link:hover { color: var(--text); }
 
   .section-title {
     font-size: 12px;
@@ -466,6 +489,14 @@
   .star-btn:hover { color: #f59e0b; }
   .star-btn.starred { color: #f59e0b; }
 
+  .hide-btn {
+    background: none; border: none; cursor: pointer;
+    font-size: 22px; color: var(--star-idle); padding: 0 4px; line-height: 1;
+    transition: color 0.1s; opacity: 0.5;
+  }
+  .hide-btn:hover { color: #ef4444; opacity: 1; }
+  .hide-btn.hidden { color: #ef4444; opacity: 1; }
+
   .modal-star-btn {
     background: none; border: none; cursor: pointer;
     font-size: 22px; color: var(--star-idle); padding: 0 4px; line-height: 1;
@@ -488,6 +519,7 @@
   <span class="header-subtitle">Property sale-prep assessments</span>
   <div class="header-right">
     <span id="count"></span>
+    <a href="about.html" id="about-link" title="How this works">?</a>
     <button id="theme-toggle" title="Toggle dark/light mode"></button>
     <button class="view-btn active" id="view-list">
       <svg width="14" height="12" viewBox="0 0 14 12" fill="currentColor"><rect y="0" width="14" height="2" rx="1"/><rect y="5" width="14" height="2" rx="1"/><rect y="10" width="14" height="2" rx="1"/></svg>
@@ -508,6 +540,7 @@
     <button class="filter-btn" data-filter="medium">Medium</button>
     <button class="filter-btn" data-filter="low">Low</button>
     <button class="filter-btn" data-filter="starred">★ Starred</button>
+    <button class="filter-btn" data-filter="hidden">⊘ Hidden</button>
     <span class="filter-label" style="margin-left:8px">Permit after:</span>
     <input type="date" id="date-filter" style="padding:4px 8px;border:1px solid var(--input-border);border-radius:6px;font-size:13px">
     <div class="min-score-wrap" style="margin-left:4px">
@@ -526,7 +559,7 @@
   <table id="main-table">
     <thead>
       <tr>
-        <th style="cursor:default;width:32px;color:#ccc">★</th>
+        <th style="cursor:default;width:64px;color:#ccc">★</th>
         <th data-col="address">Address <span class="sort-arrow">↕</span></th>
         <th data-col="likelihood">Likelihood <span class="sort-arrow">↕</span></th>
         <th data-col="total_score">Score <span class="sort-arrow">↕</span></th>
@@ -551,6 +584,7 @@
     <div class="modal-header">
       <h2 id="modal-address"></h2>
       <button class="modal-star-btn" id="modal-star-btn"></button>
+      <button class="hide-btn" id="modal-hide-btn" title="Hide from normal view"></button>
       <button class="close-btn" id="close-btn">&times;</button>
     </div>
     <div class="modal-body" id="modal-body"></div>
@@ -558,6 +592,24 @@
 </div>
 
 <script>
+// ── Source dataset URLs ──
+const SOURCE_DATASET_URLS = {
+  'Cambridge Alteration':       { domain: 'data.cambridgema.gov', resource: 'qu2z-8suj', field: 'id' },
+  'Cambridge New Construction': { domain: 'data.cambridgema.gov', resource: '9qm7-wbdc', field: 'id' },
+  'Somerville':                 { domain: 'data.somervillema.gov', resource: 'nneb-s3f7', field: 'application_id' },
+};
+
+function permitSourceUrl(permit) {
+  const src = SOURCE_DATASET_URLS[permit.source];
+  if (!src || !permit.permit_id) return null;
+  return `https://${src.domain}/resource/${src.resource}.json?${src.field}=${permit.permit_id}`;
+}
+
+function permitSourceLabel(permit) {
+  if (permit.source === 'Somerville' && permit.permit_number) return permit.permit_number;
+  return permit.permit_id ?? '';
+}
+
 // ── Theme toggle ──
 function isDark() {
   const t = document.documentElement.dataset.theme;
@@ -579,6 +631,7 @@ const LIKELIHOOD_ORDER = { high: 0, medium: 1, low: 2 };
 const PIN_COLORS = { high: '#dc2626', medium: '#d97706', low: '#6b7280' };
 
 let starred = new Set(JSON.parse(localStorage.getItem('permit-scanner-stars') || '[]'));
+let hidden = new Set(JSON.parse(localStorage.getItem('permit-scanner-hidden') || '[]'));
 let searchQuery = '';
 
 let allData = [];
@@ -685,8 +738,17 @@ function toggleStar(address) {
   render();
 }
 
+function toggleHidden(address) {
+  if (hidden.has(address)) hidden.delete(address);
+  else hidden.add(address);
+  localStorage.setItem('permit-scanner-hidden', JSON.stringify([...hidden]));
+  render();
+}
+
 function filterData(data) {
   return data.filter(d => {
+    if (currentFilter === 'hidden') return hidden.has(d.address);
+    if (hidden.has(d.address)) return false;
     if (currentFilter === 'starred' && !starred.has(d.address)) return false;
     if (currentFilter !== 'all' && currentFilter !== 'starred' && d.llm_assessment?.likelihood !== currentFilter) return false;
     if (afterDate && (d.latest_permit_date ?? '') < afterDate) return false;
@@ -761,9 +823,12 @@ function render() {
     const likelihood = item.llm_assessment?.likelihood ?? 'unknown';
     const reasoning = item.llm_assessment?.reasoning ?? '';
     const isStarred = starred.has(item.address);
+    const isHidden = hidden.has(item.address);
     const tr = document.createElement('tr');
     tr.innerHTML = `
-      <td style="padding:10px 4px 10px 14px;vertical-align:middle"><button class="star-btn${isStarred ? ' starred' : ''}" data-address="${item.address}">${isStarred ? '★' : '☆'}</button></td>
+      <td style="padding:10px 4px 10px 14px;vertical-align:middle">
+        <button class="star-btn${isStarred ? ' starred' : ''}" data-address="${item.address}">${isStarred ? '★' : '☆'}</button>
+      </td>
       <td><strong>${item.address ?? '—'}</strong></td>
       <td><span class="badge badge-${likelihood}">${likelihood}</span></td>
       <td>${item.total_score ?? 0}</td>
@@ -799,22 +864,37 @@ function openModal(item) {
   const pi = item.property_info ?? {};
   const likelihood = item.llm_assessment?.likelihood ?? 'unknown';
   const reasoning = item.llm_assessment?.reasoning ?? '';
+  const isCambridge = (item.address ?? '').toUpperCase().includes('CAMBRIDGE');
+  let assessingUrl;
+  if (isCambridge && pi.property_pid) {
+    assessingUrl = `https://data.cambridgema.gov/resource/waa7-ibdu.json?pid=${pi.property_pid}`;
+  } else if (isCambridge) {
+    assessingUrl = 'https://www.cambridgema.gov/Departments/Assessing/OnlinePropertyDatabase';
+  } else {
+    assessingUrl = 'https://www.somervillema.gov/departments/finance/assessingdivision';
+  }
 
   const addressEnc = encodeURIComponent(item.address ?? '');
   const mapSrc = `https://maps.google.com/maps?q=${addressEnc}&output=embed`;
 
-  const permitsRows = (item.permits ?? []).map(p => `
+  const permitsRows = (item.permits ?? []).map(p => {
+    const srcUrl = permitSourceUrl(p);
+    const srcCell = srcUrl
+      ? `<a href="${srcUrl}" target="_blank" rel="noopener" class="permit-source-link" title="${permitSourceLabel(p)}">Permit Data →</a>`
+      : '';
+    return `
     <tr>
       <td>${fmtDate(p.date)}</td>
-      <td>${fmtVal(p.source)}</td>
       <td>${fmtVal(p.status)}</td>
       <td style="max-width:200px">${fmtVal(p.description)}</td>
       <td>${fmt$$(p.cost)}</td>
       <td>${fmtVal(p.contractor)}</td>
       <td><span class="score-pill">${p.score ?? '—'}</span></td>
       <td style="max-width:160px">${fmtVal(p.score_reasons)}</td>
+      <td>${srcCell}</td>
     </tr>
-  `).join('');
+  `;
+  }).join('');
 
   document.getElementById('modal-address').innerHTML =
     `${item.address ?? '—'} <span class="badge badge-${likelihood}" style="font-size:11px;vertical-align:middle">${likelihood}</span>`;
@@ -825,15 +905,16 @@ function openModal(item) {
     </div>
 
     <div class="link-row">
-      <a class="link-btn link-btn-maps"   href="${item.google_maps_url ?? '#'}"   target="_blank" rel="noopener">&#127758; Google Maps</a>
       <a class="link-btn link-btn-zillow" href="${item.zillow_url ?? '#'}"         target="_blank" rel="noopener">&#127968; Zillow</a>
       <a class="link-btn link-btn-search" href="${item.google_search_url ?? '#'}"  target="_blank" rel="noopener">&#128269; Google Search</a>
+      ${isCambridge ? `<a class="link-btn link-btn-assess" href="${assessingUrl}" target="_blank" rel="noopener">&#127963; City Socrata API Record</a>` : ''}
     </div>
 
     <div class="section-title">Assessment</div>
     <div class="reasoning">${reasoning}</div>
 
     <div class="section-title">Property Info</div>
+    <div style="font-size:12px;color:var(--text-faint);margin-bottom:8px">⚠ Assessment data may be significantly out of date</div>
     <div class="info-grid">
       <div class="info-cell"><div class="label">Class</div><div class="value">${fmtVal(pi.property_class)}</div></div>
       <div class="info-cell"><div class="label">Year Built</div><div class="value">${fmtVal(pi.year_built)}</div></div>
@@ -852,8 +933,8 @@ function openModal(item) {
     <div class="permits-table-wrap">
       <table class="permits-table">
         <thead><tr>
-          <th>Date</th><th>Source</th><th>Status</th><th>Description</th>
-          <th>Cost</th><th>Contractor</th><th>Score</th><th>Score Reasons</th>
+          <th>Date</th><th>Status</th><th>Description</th>
+          <th>Cost</th><th>Contractor</th><th>Score</th><th>Score Reasons</th><th></th>
         </tr></thead>
         <tbody>${permitsRows}</tbody>
       </table>
@@ -871,6 +952,15 @@ function openModal(item) {
   };
   updateMsb();
   msb.onclick = () => { toggleStar(item.address); updateMsb(); };
+
+  const mhb = document.getElementById('modal-hide-btn');
+  const updateMhb = () => {
+    const h = hidden.has(item.address);
+    mhb.textContent = '⊘';
+    mhb.classList.toggle('hidden', h);
+  };
+  updateMhb();
+  mhb.onclick = () => { toggleHidden(item.address); updateMhb(); };
 }
 
 function closeModal() {

@@ -13,7 +13,8 @@
     "last_sale_date": "2023-05-03",
     "last_sale_price": 1225000,
     "assessed_value": 2238600,
-    "lot_size": 0.0839
+    "lot_size": 0.0839,
+    "property_parcel": "11_E_30"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Bob Keach & Sons Carpentry",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovate; permit completed; all permits completed"
+      "score_reasons": "keyword: renovate; permit completed; all permits completed",
+      "permit_id": "11800560",
+      "permit_number": "B23-000921"
     },
     {
       "date": "2023-09-08",
@@ -46,7 +49,9 @@
       "contractor": "Martin Rylands Plumbing & Heating",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "12232618",
+      "permit_number": "G23-000413"
     },
     {
       "date": "2023-10-26",
@@ -58,7 +63,9 @@
       "contractor": "Figueroa Electric",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13906925",
+      "permit_number": "E23-001621"
     },
     {
       "date": "2023-11-02",
@@ -70,7 +77,9 @@
       "contractor": "ALDOS HVAC LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12232086",
+      "permit_number": "SM23-000170"
     },
     {
       "date": "2023-09-08",
@@ -82,7 +91,9 @@
       "contractor": "Martin Rylands Plumbing & Heating",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: water heater; permit completed; all permits completed"
+      "score_reasons": "minor: water heater; permit completed; all permits completed",
+      "permit_id": "12232618",
+      "permit_number": "G23-000413"
     }
   ],
   "llm_assessment": {

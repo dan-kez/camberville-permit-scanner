@@ -13,7 +13,8 @@
     "last_sale_date": "2007-04-13",
     "last_sale_price": 437000,
     "assessed_value": 1667300,
-    "lot_size": 0.08080000000000001
+    "lot_size": 0.08080000000000001,
+    "property_parcel": "28_C_12"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "CEM Electric Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14399043",
+      "permit_number": "E24-000729"
     }
   ],
   "llm_assessment": {

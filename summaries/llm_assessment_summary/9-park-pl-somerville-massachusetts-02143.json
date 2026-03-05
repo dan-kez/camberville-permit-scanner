@@ -13,7 +13,8 @@
     "last_sale_date": "2015-08-25",
     "last_sale_price": 675000,
     "assessed_value": 811500,
-    "lot_size": 0.0396
+    "lot_size": 0.0396,
+    "property_parcel": "52_G_23"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "keyword: structural; most permits completed"
+      "score_reasons": "keyword: structural; most permits completed",
+      "permit_id": "12210822",
+      "permit_number": "B23-001468"
     },
     {
       "date": "2024-01-16",
@@ -46,7 +49,9 @@
       "contractor": "Tony Nguyen",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14110491",
+      "permit_number": "E24-000041"
     },
     {
       "date": "2024-09-04",
@@ -58,7 +63,9 @@
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; most permits completed"
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; most permits completed",
+      "permit_id": "51163609",
+      "permit_number": "B24-001469"
     }
   ],
   "llm_assessment": {

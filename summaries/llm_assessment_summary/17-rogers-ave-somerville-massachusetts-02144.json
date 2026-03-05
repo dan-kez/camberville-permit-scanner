@@ -13,7 +13,8 @@
     "last_sale_date": "2023-06-02",
     "last_sale_price": 1275000,
     "assessed_value": 2224900,
-    "lot_size": 0.0771
+    "lot_size": 0.0771,
+    "property_parcel": "28_C_23"
   },
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Contempo Builders Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: gut; permit completed; most permits completed"
+      "score_reasons": "keyword: gut; permit completed; most permits completed",
+      "permit_id": "11553447",
+      "permit_number": "B23-000584"
     },
     {
       "date": "2023-08-28",
@@ -46,7 +49,9 @@
       "contractor": "Contempo Builders Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "12228541",
+      "permit_number": "DP23-000160"
     },
     {
       "date": "2023-12-08",
@@ -58,7 +63,9 @@
       "contractor": "Cortez Plumbing and Heating Systems Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: complete; permit completed; most permits completed"
+      "score_reasons": "keyword: complete; permit completed; most permits completed",
+      "permit_id": "13938102",
+      "permit_number": "P23-000737"
     },
     {
       "date": "2023-12-13",
@@ -70,7 +77,9 @@
       "contractor": "Michael Young",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovate; permit completed; most permits completed"
+      "score_reasons": "keyword: renovate; permit completed; most permits completed",
+      "permit_id": "13985926",
+      "permit_number": "E23-001828"
     },
     {
       "date": "2024-01-05",
@@ -82,7 +91,9 @@
       "contractor": "Cortez Plumbing and Heating Systems Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "13938108",
+      "permit_number": "G23-000522"
     },
     {
       "date": "2023-08-29",
@@ -94,7 +105,9 @@
       "contractor": "Contempo Builders Inc.",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation; minor: siding; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; minor: siding; permit completed; most permits completed",
+      "permit_id": "12046443",
+      "permit_number": "B23-001160"
     }
   ],
   "llm_assessment": {

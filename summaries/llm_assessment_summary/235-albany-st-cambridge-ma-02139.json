@@ -23,7 +23,8 @@
       "contractor": "Berkeley Building Company",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($107,853); keyword: renovation"
+      "score_reasons": "moderate cost ($107,853); keyword: renovation",
+      "permit_id": "1172191"
     }
   ],
   "llm_assessment": {

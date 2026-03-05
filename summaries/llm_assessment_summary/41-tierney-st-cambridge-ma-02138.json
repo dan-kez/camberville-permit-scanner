@@ -13,7 +13,9 @@
     "last_sale_date": "2025-01-03T00:00:00.000",
     "last_sale_price": "3000000",
     "assessed_value": "2774200",
-    "lot_size": "3154"
+    "lot_size": "3154",
+    "property_pid": "19266",
+    "property_parcel": "229-32"
   },
   "property_use": "Two-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Gerald McCarthy",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($622,000); keyword: renovation; minor: insulation; permit completed; all permits completed"
+      "score_reasons": "high cost ($622,000); keyword: renovation; minor: insulation; permit completed; all permits completed",
+      "permit_id": "242791"
     }
   ],
   "llm_assessment": {

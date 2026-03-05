@@ -13,7 +13,9 @@
     "last_sale_date": "2013-11-07T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "1154900",
-    "lot_size": "2141"
+    "lot_size": "2141",
+    "property_pid": "16855",
+    "property_parcel": "199-127"
   },
   "property_use": "Townhouse",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Steckel Construction, Inc",
       "owner_occupied": true,
       "score": 10,
-      "score_reasons": "high cost ($862,000); keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "high cost ($862,000); keyword: remodel; permit completed; all permits completed",
+      "permit_id": "266325"
     }
   ],
   "llm_assessment": {

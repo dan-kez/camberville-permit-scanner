@@ -13,7 +13,8 @@
     "last_sale_date": "1983-01-11",
     "last_sale_price": 79655,
     "assessed_value": 1593800,
-    "lot_size": 0.08610000000000001
+    "lot_size": 0.08610000000000001,
+    "property_parcel": "16_B_37"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Ryan LaBrache Electrician",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "12189068",
+      "permit_number": "E23-001242"
     },
     {
       "date": "2023-09-12",
@@ -46,7 +49,9 @@
       "contractor": "Ryan LaBrache Electrician",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "12305022",
+      "permit_number": "E23-001445"
     },
     {
       "date": "2023-09-14",
@@ -58,7 +63,9 @@
       "contractor": "Chase & Tolan Plumbing & Heating Co. Inc.",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "12307280",
+      "permit_number": "P23-000614"
     }
   ],
   "llm_assessment": {

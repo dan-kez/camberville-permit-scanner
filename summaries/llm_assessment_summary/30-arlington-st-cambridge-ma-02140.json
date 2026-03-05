@@ -13,7 +13,9 @@
     "last_sale_date": "2015-08-31T00:00:00.000",
     "last_sale_price": "2525000",
     "assessed_value": "4775900",
-    "lot_size": "8131"
+    "lot_size": "8131",
+    "property_pid": "14147",
+    "property_parcel": "176-50"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Opus Master Builders, Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($402,842); minor: fence; permit completed; all permits completed"
+      "score_reasons": "high cost ($402,842); minor: fence; permit completed; all permits completed",
+      "permit_id": "252023"
     }
   ],
   "llm_assessment": {

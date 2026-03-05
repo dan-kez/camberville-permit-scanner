@@ -13,7 +13,9 @@
     "last_sale_date": "1984-08-15T00:00:00.000",
     "last_sale_price": "430000",
     "assessed_value": "4507300",
-    "lot_size": "10000"
+    "lot_size": "10000",
+    "property_pid": "11772",
+    "property_parcel": "147-33"
   },
   "property_use": "One or Two Family Dwelling",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Kurt D. Fieldhouse",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "high cost ($1,724,365); keyword: foundation; new construction"
+      "score_reasons": "high cost ($1,724,365); keyword: foundation; new construction",
+      "permit_id": "1190046"
     }
   ],
   "llm_assessment": {

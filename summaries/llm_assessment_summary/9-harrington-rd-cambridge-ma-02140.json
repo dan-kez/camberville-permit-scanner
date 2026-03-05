@@ -13,7 +13,9 @@
     "last_sale_date": "2023-11-02T00:00:00.000",
     "last_sale_price": "980000",
     "assessed_value": "760700",
-    "lot_size": "2450"
+    "lot_size": "2450",
+    "property_pid": "15818",
+    "property_parcel": "191-60"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "MATT Construction Mass INC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($712,015); keyword: gut; minor: insulation"
+      "score_reasons": "high cost ($712,015); keyword: gut; minor: insulation",
+      "permit_id": "1189752"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2013-12-04",
     "last_sale_price": 350000,
     "assessed_value": 751500,
-    "lot_size": 0.036500000000000005
+    "lot_size": 0.036500000000000005,
+    "property_parcel": "93_E_13"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Apex Energy Tek",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "14100584",
+      "permit_number": "E24-000006"
     }
   ],
   "llm_assessment": {

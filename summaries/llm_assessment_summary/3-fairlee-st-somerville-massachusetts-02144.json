@@ -11,7 +11,8 @@
     "last_sale_date": "2010-07-14",
     "last_sale_price": 1,
     "assessed_value": 837900,
-    "lot_size": 0.049600000000000005
+    "lot_size": 0.049600000000000005,
+    "property_parcel": "29_I_6"
   },
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Porter",

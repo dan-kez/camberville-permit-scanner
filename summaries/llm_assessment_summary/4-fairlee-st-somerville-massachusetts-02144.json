@@ -13,7 +13,8 @@
     "last_sale_date": "2022-10-03",
     "last_sale_price": 850000,
     "assessed_value": 1679500,
-    "lot_size": 0.049600000000000005
+    "lot_size": 0.049600000000000005,
+    "property_parcel": "29_I_11"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Lucas Marques Da Silva",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "13896594",
+      "permit_number": "E23-001597"
     },
     {
       "date": "2023-10-18",
@@ -46,7 +49,9 @@
       "contractor": "High End Appliances and AC Repair",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "11977471",
+      "permit_number": "SM23-000104"
     },
     {
       "date": "2024-07-16",
@@ -58,7 +63,9 @@
       "contractor": "S3 Development LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "keyword: gut; most permits completed"
+      "score_reasons": "keyword: gut; most permits completed",
+      "permit_id": "14344284",
+      "permit_number": "CO24-000064"
     }
   ],
   "llm_assessment": {

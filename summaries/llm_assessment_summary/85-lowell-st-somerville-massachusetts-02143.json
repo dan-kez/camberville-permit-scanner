@@ -11,7 +11,8 @@
     "last_sale_date": "1992-06-26",
     "last_sale_price": 1,
     "assessed_value": 1146100,
-    "lot_size": 0.0918
+    "lot_size": 0.0918,
+    "property_parcel": "38_E_18"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Porter",

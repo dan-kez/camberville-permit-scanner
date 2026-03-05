@@ -11,7 +11,8 @@
     "last_sale_date": "2022-06-10",
     "last_sale_price": 1284500,
     "assessed_value": 1086900,
-    "lot_size": 0.1148
+    "lot_size": 0.1148,
+    "property_parcel": "7_I_36"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",

@@ -13,7 +13,8 @@
     "last_sale_date": "2023-05-31",
     "last_sale_price": 2300000,
     "assessed_value": 2054000,
-    "lot_size": 0.08510000000000001
+    "lot_size": 0.08510000000000001,
+    "property_parcel": "17_B_24"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Ederson M. Savi Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13980599",
+      "permit_number": "E23-001815"
     },
     {
       "date": "2023-10-12",
@@ -46,7 +49,9 @@
       "contractor": "EZ Help General Service",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: framing; minor: shed; permit completed; all permits completed"
+      "score_reasons": "keyword: framing; minor: shed; permit completed; all permits completed",
+      "permit_id": "12197686",
+      "permit_number": "B23-001417"
     }
   ],
   "llm_assessment": {

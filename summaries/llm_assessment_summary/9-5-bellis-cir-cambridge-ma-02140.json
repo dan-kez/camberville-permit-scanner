@@ -13,7 +13,9 @@
     "last_sale_date": "2024-05-21T00:00:00.000",
     "last_sale_price": "1000000",
     "assessed_value": "873900",
-    "lot_size": "1275"
+    "lot_size": "1275",
+    "property_pid": "21812",
+    "property_parcel": "271-73"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Ted-Co Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "moderate cost ($158,659); keyword: renovate; minor: boiler; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($158,659); keyword: renovate; minor: boiler; permit completed; all permits completed",
+      "permit_id": "287567"
     }
   ],
   "llm_assessment": {

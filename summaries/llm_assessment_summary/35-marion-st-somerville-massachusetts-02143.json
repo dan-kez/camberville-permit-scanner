@@ -13,7 +13,8 @@
     "last_sale_date": "2015-08-25",
     "last_sale_price": 1,
     "assessed_value": 886600,
-    "lot_size": 0.0514
+    "lot_size": 0.0514,
+    "property_parcel": "75_H_28_B"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: structural; permit completed; most permits completed"
+      "score_reasons": "keyword: structural; permit completed; most permits completed",
+      "permit_id": "51092079",
+      "permit_number": "B24-001360"
     },
     {
       "date": "2023-08-08",
@@ -46,7 +49,9 @@
       "contractor": "Alpha Construction and Design Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "keyword: remodel; most permits completed"
+      "score_reasons": "keyword: remodel; most permits completed",
+      "permit_id": "11775310",
+      "permit_number": "B23-000855"
     },
     {
       "date": "2023-08-17",
@@ -58,7 +63,9 @@
       "contractor": "Richard Young Electrician",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12208463",
+      "permit_number": "E23-001301"
     },
     {
       "date": "2023-08-29",
@@ -70,7 +77,9 @@
       "contractor": "Mouradian P@H",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12219263",
+      "permit_number": "P23-000564"
     }
   ],
   "llm_assessment": {

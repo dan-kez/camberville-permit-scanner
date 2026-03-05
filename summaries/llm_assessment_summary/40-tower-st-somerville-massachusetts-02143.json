@@ -13,7 +13,8 @@
     "last_sale_date": "2020-02-18",
     "last_sale_price": 100,
     "assessed_value": 931700,
-    "lot_size": 0.0872
+    "lot_size": 0.0872,
+    "property_parcel": "35_E_19"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Eduardo Rodriguez",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "14399942",
+      "permit_number": "P24-000269"
     },
     {
       "date": "2024-05-28",
@@ -46,7 +49,9 @@
       "contractor": "Rogerio Mauriz Electrician",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: complete; permit completed; all permits completed"
+      "score_reasons": "keyword: complete; permit completed; all permits completed",
+      "permit_id": "14389895",
+      "permit_number": "E24-000707"
     },
     {
       "date": "2024-04-24",
@@ -58,7 +63,9 @@
       "contractor": "Rogerio Mauriz Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14294467",
+      "permit_number": "E24-000496"
     },
     {
       "date": "2024-04-25",
@@ -70,7 +77,9 @@
       "contractor": "Nova Builders",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14283446",
+      "permit_number": "B24-000474"
     },
     {
       "date": "2024-06-11",
@@ -82,7 +91,9 @@
       "contractor": "Rogerio Mauriz Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14450673",
+      "permit_number": "E24-000890"
     },
     {
       "date": "2024-04-26",
@@ -94,7 +105,9 @@
       "contractor": "Nova Builders",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: renovate; minor: replace windows; permit completed; all permits completed"
+      "score_reasons": "keyword: renovate; minor: replace windows; permit completed; all permits completed",
+      "permit_id": "14313186",
+      "permit_number": "B24-000586"
     },
     {
       "date": "2024-05-20",
@@ -106,7 +119,9 @@
       "contractor": "Eduardo Rodriguez",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "14405158",
+      "permit_number": "G24-000241"
     },
     {
       "date": "2024-06-04",
@@ -118,7 +133,9 @@
       "contractor": "Rogerio Mauriz Electrician",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "14439078",
+      "permit_number": "E24-000848"
     },
     {
       "date": "2024-06-24",
@@ -130,7 +147,9 @@
       "contractor": "St Jean Heating and Cooling",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "14394143",
+      "permit_number": "SM24-000105"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2022-12-02",
     "last_sale_price": 750000,
     "assessed_value": 884700,
-    "lot_size": 0.0454
+    "lot_size": 0.0454,
+    "property_parcel": "24_L_2"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Fisher Windows",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: structural; permit completed; most permits completed"
+      "score_reasons": "keyword: structural; permit completed; most permits completed",
+      "permit_id": "12034746",
+      "permit_number": "B23-001108"
     },
     {
       "date": "2024-03-14",
@@ -46,7 +49,9 @@
       "contractor": "Mouradian P@H",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; permit completed; most permits completed",
+      "permit_id": "14235507",
+      "permit_number": "P24-000141"
     },
     {
       "date": "2024-03-21",
@@ -58,7 +63,9 @@
       "contractor": "T D Electrician",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14266962",
+      "permit_number": "E24-000404"
     },
     {
       "date": "2023-12-11",
@@ -70,7 +77,9 @@
       "contractor": "Kent General Contracting",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation; minor: siding; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; minor: siding; permit completed; most permits completed",
+      "permit_id": "12307344",
+      "permit_number": "B23-001616"
     },
     {
       "date": "2023-08-01",
@@ -82,7 +91,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "12034746",
+      "permit_number": "B23-001108"
     }
   ],
   "llm_assessment": {

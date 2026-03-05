@@ -13,7 +13,8 @@
     "last_sale_date": "2015-07-08",
     "last_sale_price": 625000,
     "assessed_value": 1200900,
-    "lot_size": 0.0745
+    "lot_size": 0.0745,
+    "property_parcel": "42_C_11"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Joseph Spinale",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14424494",
+      "permit_number": "E24-000802"
     },
     {
       "date": "2023-12-13",
@@ -46,7 +49,9 @@
       "contractor": "Our House Contracting",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: renovation; minor: shed; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; minor: shed; permit completed; all permits completed",
+      "permit_id": "12324482",
+      "permit_number": "B23-001677"
     },
     {
       "date": "2023-06-16",
@@ -58,7 +63,9 @@
       "contractor": "128 Plumbing & Heating",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "12021323",
+      "permit_number": "G23-000301"
     }
   ],
   "llm_assessment": {

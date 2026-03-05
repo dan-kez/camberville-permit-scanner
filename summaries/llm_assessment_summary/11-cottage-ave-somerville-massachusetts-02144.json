@@ -11,7 +11,8 @@
     "last_sale_date": "1997-07-30",
     "last_sale_price": 247000,
     "assessed_value": 1902400,
-    "lot_size": 0.0951
+    "lot_size": 0.0951,
+    "property_parcel": "26_B_7"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Davis",

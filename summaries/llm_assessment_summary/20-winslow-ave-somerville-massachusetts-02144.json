@@ -11,7 +11,8 @@
     "last_sale_date": "2002-01-28",
     "last_sale_price": 1,
     "assessed_value": 1251300,
-    "lot_size": 0.0497
+    "lot_size": 0.0497,
+    "property_parcel": "20_A_14"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",

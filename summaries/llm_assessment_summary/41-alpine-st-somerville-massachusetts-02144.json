@@ -13,7 +13,8 @@
     "last_sale_date": "2012-11-09",
     "last_sale_price": 372450,
     "assessed_value": 826500,
-    "lot_size": 0.07390000000000001
+    "lot_size": 0.07390000000000001,
+    "property_parcel": "34_C_13"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Newpro Plumbing",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12203262",
+      "permit_number": "P23-000541"
     }
   ],
   "llm_assessment": {

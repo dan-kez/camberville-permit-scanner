@@ -13,7 +13,8 @@
     "last_sale_date": "2016-10-31",
     "last_sale_price": 554000,
     "assessed_value": 908500,
-    "lot_size": 0.039
+    "lot_size": 0.039,
+    "property_parcel": "92_G_19"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Air-Tight Weatherization, LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: insulation; permit completed; all permits completed"
+      "score_reasons": "minor: insulation; permit completed; all permits completed",
+      "permit_id": "12016361",
+      "permit_number": "B23-001038"
     }
   ],
   "llm_assessment": {

@@ -11,7 +11,8 @@
     "last_sale_date": "2021-02-25",
     "last_sale_price": 100,
     "assessed_value": 1577500,
-    "lot_size": 0.07150000000000001
+    "lot_size": 0.07150000000000001,
+    "property_parcel": "13_A_21"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",

@@ -13,7 +13,8 @@
     "last_sale_date": "2005-06-28",
     "last_sale_price": 449000,
     "assessed_value": 1140800,
-    "lot_size": 0.1232
+    "lot_size": 0.1232,
+    "property_parcel": "51_E_16"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Laurino Electric Co. Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12389705",
+      "permit_number": "E23-001540"
     }
   ],
   "llm_assessment": {

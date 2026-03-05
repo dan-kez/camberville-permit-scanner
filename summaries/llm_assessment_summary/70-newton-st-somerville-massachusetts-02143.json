@@ -13,7 +13,8 @@
     "last_sale_date": "1985-06-24",
     "last_sale_price": 0,
     "assessed_value": 696100,
-    "lot_size": 0.030100000000000002
+    "lot_size": 0.030100000000000002,
+    "property_parcel": "82_E_9"
   },
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "tonytran construction",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "14315950",
+      "permit_number": "B24-000601"
     },
     {
       "date": "2024-07-02",
@@ -46,7 +49,9 @@
       "contractor": "An truong plumbing",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "17000736",
+      "permit_number": "G24-000274"
     },
     {
       "date": "2024-07-27",
@@ -58,7 +63,9 @@
       "contractor": "Gregory Coleman",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: complete; permit completed; all permits completed"
+      "score_reasons": "keyword: complete; permit completed; all permits completed",
+      "permit_id": "38071016",
+      "permit_number": "E24-001102"
     },
     {
       "date": "2024-08-08",
@@ -70,7 +77,9 @@
       "contractor": "HUNG HVAC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "17053231",
+      "permit_number": "SM24-000147"
     },
     {
       "date": "2024-09-12",
@@ -82,7 +91,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51197218",
+      "permit_number": "B24-001566"
     },
     {
       "date": "2024-07-02",
@@ -94,7 +105,9 @@
       "contractor": "An truong plumbing",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: boiler; permit completed; all permits completed"
+      "score_reasons": "minor: boiler; permit completed; all permits completed",
+      "permit_id": "17000736",
+      "permit_number": "G24-000274"
     }
   ],
   "llm_assessment": {

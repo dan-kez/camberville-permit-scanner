@@ -13,7 +13,9 @@
     "last_sale_date": "1994-12-30T00:00:00.000",
     "last_sale_price": "280000",
     "assessed_value": "1922300",
-    "lot_size": "3652"
+    "lot_size": "3652",
+    "property_pid": "12429",
+    "property_parcel": "154-104"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Allston contractors Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($213,569); keyword: renovation"
+      "score_reasons": "high cost ($213,569); keyword: renovation",
+      "permit_id": "247936"
     }
   ],
   "llm_assessment": {

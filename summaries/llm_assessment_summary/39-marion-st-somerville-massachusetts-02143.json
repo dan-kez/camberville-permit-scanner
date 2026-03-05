@@ -13,7 +13,8 @@
     "last_sale_date": "1999-08-02",
     "last_sale_price": 208000,
     "assessed_value": 942200,
-    "lot_size": 0.049100000000000005
+    "lot_size": 0.049100000000000005,
+    "property_parcel": "75_H_28"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Atlantic Masonry & Tile, LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13914610",
+      "permit_number": "B23-001812"
     }
   ],
   "llm_assessment": {

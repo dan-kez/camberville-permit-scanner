@@ -13,7 +13,8 @@
     "last_sale_date": "2022-10-31",
     "last_sale_price": 715000,
     "assessed_value": 721800,
-    "lot_size": 0.0359
+    "lot_size": 0.0359,
+    "property_parcel": "62_A_38_A"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "keyword: structural; most permits completed"
+      "score_reasons": "keyword: structural; most permits completed",
+      "permit_id": "11795752",
+      "permit_number": "B23-000890"
     },
     {
       "date": "2023-10-31",
@@ -46,7 +49,9 @@
       "contractor": "joe's electrical corp",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "13937400",
+      "permit_number": "E23-001713"
     }
   ],
   "llm_assessment": {

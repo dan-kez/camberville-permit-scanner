@@ -13,7 +13,8 @@
     "last_sale_date": "2013-08-16",
     "last_sale_price": 500000,
     "assessed_value": 1134000,
-    "lot_size": 0.1024
+    "lot_size": 0.1024,
+    "property_parcel": "51_E_44"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Martins Electric",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: foundation; permit completed"
+      "score_reasons": "keyword: foundation; permit completed",
+      "permit_id": "17062888",
+      "permit_number": "E24-001060"
     }
   ],
   "llm_assessment": {

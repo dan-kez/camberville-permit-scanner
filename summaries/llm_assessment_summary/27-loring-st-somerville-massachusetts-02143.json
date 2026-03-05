@@ -13,7 +13,8 @@
     "last_sale_date": "2020-06-19",
     "last_sale_price": 775000,
     "assessed_value": 1032000,
-    "lot_size": 0.0645
+    "lot_size": 0.0645,
+    "property_parcel": "52_F_18"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Rokocorp Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "17063245",
+      "permit_number": "E24-001062"
     }
   ],
   "llm_assessment": {

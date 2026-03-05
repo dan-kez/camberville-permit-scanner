@@ -13,7 +13,9 @@
     "last_sale_date": "2023-03-27T00:00:00.000",
     "last_sale_price": "1360000",
     "assessed_value": "1518200",
-    "lot_size": "4522"
+    "lot_size": "4522",
+    "property_pid": "15253",
+    "property_parcel": "186-2"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "MB Construction Solutions LLC",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($148,000); keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($148,000); keyword: renovation; permit completed; all permits completed",
+      "permit_id": "229798"
     }
   ],
   "llm_assessment": {

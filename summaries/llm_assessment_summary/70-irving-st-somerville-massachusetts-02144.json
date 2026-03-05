@@ -13,7 +13,8 @@
     "last_sale_date": "2012-06-08",
     "last_sale_price": 615000,
     "assessed_value": 1646400,
-    "lot_size": 0.1033
+    "lot_size": 0.1033,
+    "property_parcel": "16_A_32"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Central Cooling & Heating, Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "14016344",
+      "permit_number": "G23-000597"
     },
     {
       "date": "2024-01-16",
@@ -46,7 +49,9 @@
       "contractor": "Central Cooling & Heating, Inc Sila Services LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "14116972",
+      "permit_number": "E24-000062"
     },
     {
       "date": "2024-10-17",
@@ -58,7 +63,9 @@
       "contractor": "Central Cooling & Heating",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "14016361",
+      "permit_number": "B23-002130"
     }
   ],
   "llm_assessment": {

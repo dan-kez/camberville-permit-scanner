@@ -23,7 +23,8 @@
       "contractor": "Bay State Remodeling",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($34,988); keyword: remodel"
+      "score_reasons": "moderate cost ($34,988); keyword: remodel",
+      "permit_id": "1194414"
     }
   ],
   "llm_assessment": {

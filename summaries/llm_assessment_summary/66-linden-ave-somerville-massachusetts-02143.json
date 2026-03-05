@@ -13,7 +13,8 @@
     "last_sale_date": "2002-06-27",
     "last_sale_price": 333500,
     "assessed_value": 892900,
-    "lot_size": 0.0611
+    "lot_size": 0.0611,
+    "property_parcel": "35_I_8"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Ravair Costa Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14442262",
+      "permit_number": "E24-000860"
     },
     {
       "date": "2024-04-19",
@@ -46,7 +49,9 @@
       "contractor": "Alcantara Contractor Inc",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: remodel; minor: insulation; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; minor: insulation; permit completed; all permits completed",
+      "permit_id": "14301222",
+      "permit_number": "B24-000541"
     }
   ],
   "llm_assessment": {

@@ -23,7 +23,8 @@
       "contractor": "Modern Architectural Construction DBA Archadeck of Suburban Boston",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "moderate cost ($37,000); keyword: renovate; minor: solar; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($37,000); keyword: renovate; minor: solar; permit completed; all permits completed",
+      "permit_id": "1154696"
     }
   ],
   "llm_assessment": {

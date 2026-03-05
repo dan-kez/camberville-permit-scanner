@@ -13,7 +13,8 @@
     "last_sale_date": "2019-07-02",
     "last_sale_price": 100,
     "assessed_value": 953500,
-    "lot_size": 0.10260000000000001
+    "lot_size": 0.10260000000000001,
+    "property_parcel": "91_H_6"
   },
   "property_use": "Building Permit - Residential Addition",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "MASONWORKS LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: addition; permit completed; most permits completed"
+      "score_reasons": "keyword: addition; permit completed; most permits completed",
+      "permit_id": "11556221",
+      "permit_number": "B23-000591"
     },
     {
       "date": "2023-08-21",
@@ -46,7 +49,9 @@
       "contractor": "Bay State Electrical Solutions",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12214207",
+      "permit_number": "E23-001316"
     }
   ],
   "llm_assessment": {

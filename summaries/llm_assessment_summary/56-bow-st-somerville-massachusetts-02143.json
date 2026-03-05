@@ -13,7 +13,8 @@
     "last_sale_date": "2020-06-22",
     "last_sale_price": 1525000,
     "assessed_value": 1615900,
-    "lot_size": 0.0824
+    "lot_size": 0.0824,
+    "property_parcel": "74_C_2"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "WDS Mechanical LLC",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "12188065",
+      "permit_number": "P23-000516"
     },
     {
       "date": "2023-10-23",
@@ -46,7 +49,9 @@
       "contractor": "Vincent Rushe Electrician Inc.",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "13925254",
+      "permit_number": "E23-001676"
     },
     {
       "date": "2023-07-28",
@@ -58,7 +63,9 @@
       "contractor": "Greenleaf Construction",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "9582660",
+      "permit_number": "B22-000038"
     }
   ],
   "llm_assessment": {

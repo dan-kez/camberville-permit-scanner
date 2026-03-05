@@ -13,7 +13,8 @@
     "last_sale_date": "2018-10-22",
     "last_sale_price": 0,
     "assessed_value": 785600,
-    "lot_size": 0.055
+    "lot_size": 0.055,
+    "property_parcel": "78_F_24"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "51344696",
+      "permit_number": "B24-002001"
     },
     {
       "date": "2024-03-25",
@@ -46,7 +49,9 @@
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "14275433",
+      "permit_number": "B24-000447"
     }
   ],
   "llm_assessment": {

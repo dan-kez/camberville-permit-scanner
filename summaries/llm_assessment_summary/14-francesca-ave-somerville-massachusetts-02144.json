@@ -13,7 +13,8 @@
     "last_sale_date": "1983-10-06",
     "last_sale_price": 0,
     "assessed_value": 1108000,
-    "lot_size": 0.109
+    "lot_size": 0.109,
+    "property_parcel": "20_H_27"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Superior Electrical Contractor Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12178886",
+      "permit_number": "E23-001215"
     },
     {
       "date": "2023-08-23",
@@ -46,7 +49,9 @@
       "contractor": "Endless Energy New England Inc.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12218200",
+      "permit_number": "E23-001330"
     },
     {
       "date": "2024-01-08",
@@ -58,7 +63,9 @@
       "contractor": "Endless Energy New England Inc",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "12212135",
+      "permit_number": "B23-001472"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2021-09-03",
     "last_sale_price": 1170000,
     "assessed_value": 2061900,
-    "lot_size": 0.0826
+    "lot_size": 0.0826,
+    "property_parcel": "28_I_5"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "JP Plumbing and Heating LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "12237181",
+      "permit_number": "P23-000591"
     },
     {
       "date": "2023-11-15",
@@ -46,7 +49,9 @@
       "contractor": "Songwoods Real Estate",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: convert"
+      "score_reasons": "keyword: convert",
+      "permit_id": "13872302",
+      "permit_number": "CO23-000170"
     }
   ],
   "llm_assessment": {

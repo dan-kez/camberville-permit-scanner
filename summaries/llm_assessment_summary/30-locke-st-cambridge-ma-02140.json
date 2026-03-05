@@ -13,7 +13,9 @@
     "last_sale_date": "2017-02-22T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "2218800",
-    "lot_size": "3118"
+    "lot_size": "3118",
+    "property_pid": "15030",
+    "property_parcel": "183-122"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Boston Window and door LLC",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($50,500); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($50,500); permit completed; all permits completed",
+      "permit_id": "260774"
     }
   ],
   "llm_assessment": {

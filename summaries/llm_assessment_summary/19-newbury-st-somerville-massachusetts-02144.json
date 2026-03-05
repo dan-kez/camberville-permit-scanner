@@ -13,7 +13,8 @@
     "last_sale_date": "2017-12-28",
     "last_sale_price": 750000,
     "assessed_value": 1261900,
-    "lot_size": 0.08220000000000001
+    "lot_size": 0.08220000000000001,
+    "property_parcel": "9_D_8"
   },
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "B&D Building and Remodeling, Inc.",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: reconfigure; permit completed; all permits completed"
+      "score_reasons": "keyword: reconfigure; permit completed; all permits completed",
+      "permit_id": "12039703",
+      "permit_number": "B23-001131"
     },
     {
       "date": "2023-08-08",
@@ -46,7 +49,9 @@
       "contractor": "Eric C. Foster Plumbing & Heating",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "12188589",
+      "permit_number": "P23-000517"
     },
     {
       "date": "2023-07-13",
@@ -58,7 +63,9 @@
       "contractor": "Robert Nazzaro",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12065708",
+      "permit_number": "E23-001099"
     },
     {
       "date": "2023-10-25",
@@ -70,7 +77,9 @@
       "contractor": "Village Services Corporation DBA Village Home Services",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13932110",
+      "permit_number": "E23-001702"
     },
     {
       "date": "2023-11-20",
@@ -82,7 +91,9 @@
       "contractor": "Village Services Corporation DBA Village Home Services",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13961841",
+      "permit_number": "E23-001790"
     },
     {
       "date": "2023-12-13",
@@ -94,7 +105,9 @@
       "contractor": "Village Services Corporation DBA Village Home Services",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: remodel; minor: shed; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; minor: shed; permit completed; all permits completed",
+      "permit_id": "13931233",
+      "permit_number": "SM23-000216"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,9 @@
     "last_sale_date": "2019-03-08T00:00:00.000",
     "last_sale_price": "3001000",
     "assessed_value": "3899000",
-    "lot_size": "4206"
+    "lot_size": "4206",
+    "property_pid": "6635",
+    "property_parcel": "107-84"
   },
   "property_use": "Townhouse",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Pessote Construction Inc.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($29,383); keyword: renovation"
+      "score_reasons": "moderate cost ($29,383); keyword: renovation",
+      "permit_id": "231449"
     }
   ],
   "llm_assessment": {

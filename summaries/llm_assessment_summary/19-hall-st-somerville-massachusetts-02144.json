@@ -13,7 +13,8 @@
     "last_sale_date": "2010-05-21",
     "last_sale_price": 379900,
     "assessed_value": 983500,
-    "lot_size": 0.06420000000000001
+    "lot_size": 0.06420000000000001,
+    "property_parcel": "29_G_22"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Reilly Electrical Contractors",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: remodel; permit completed"
+      "score_reasons": "keyword: remodel; permit completed",
+      "permit_id": "12214604",
+      "permit_number": "E23-001318"
     },
     {
       "date": "2024-04-09",
@@ -46,7 +49,9 @@
       "contractor": "Reilly Electrical Contractors",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14311079",
+      "permit_number": "E24-000545"
     }
   ],
   "llm_assessment": {

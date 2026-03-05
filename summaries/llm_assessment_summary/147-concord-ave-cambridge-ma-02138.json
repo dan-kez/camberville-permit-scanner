@@ -13,7 +13,9 @@
     "last_sale_date": "2024-03-21T00:00:00.000",
     "last_sale_price": "1550000",
     "assessed_value": "1728300",
-    "lot_size": "2519"
+    "lot_size": "2519",
+    "property_pid": "19180",
+    "property_parcel": "227-109"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "American Precision Developers",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($95,000); keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($95,000); keyword: remodel; permit completed; all permits completed",
+      "permit_id": "264235"
     }
   ],
   "llm_assessment": {

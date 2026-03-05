@@ -13,7 +13,8 @@
     "last_sale_date": "2019-05-03",
     "last_sale_price": 782000,
     "assessed_value": 826400,
-    "lot_size": 0.041800000000000004
+    "lot_size": 0.041800000000000004,
+    "property_parcel": "92_G_12"
   },
   "property_use": "Building Permit - Residential Addition",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "John F Diamond Builders Inc",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: addition; permit completed; all permits completed"
+      "score_reasons": "keyword: addition; permit completed; all permits completed",
+      "permit_id": "11405627",
+      "permit_number": "B23-000272"
     },
     {
       "date": "2023-11-20",
@@ -46,7 +49,9 @@
       "contractor": "Marciano Plumbing",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13982818",
+      "permit_number": "P23-000774"
     },
     {
       "date": "2023-11-21",
@@ -58,7 +63,9 @@
       "contractor": "Timothy Santos Electrician LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13982356",
+      "permit_number": "E23-001822"
     }
   ],
   "llm_assessment": {

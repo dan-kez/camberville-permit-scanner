@@ -13,7 +13,8 @@
     "last_sale_date": "2014-06-04",
     "last_sale_price": 1050000,
     "assessed_value": 1471000,
-    "lot_size": 0.09680000000000001
+    "lot_size": 0.09680000000000001,
+    "property_parcel": "43_F_13"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Ryan LaBrache Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51354025",
+      "permit_number": "E24-001823"
     }
   ],
   "llm_assessment": {

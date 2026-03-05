@@ -13,7 +13,9 @@
     "last_sale_date": "2023-09-21T00:00:00.000",
     "last_sale_price": "3950000",
     "assessed_value": "3856700",
-    "lot_size": "3855"
+    "lot_size": "3855",
+    "property_pid": "18362",
+    "property_parcel": "215-65"
   },
   "property_use": "Townhouse",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Hudson Contracting Company",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($167,300); keyword: remodel"
+      "score_reasons": "moderate cost ($167,300); keyword: remodel",
+      "permit_id": "245587"
     }
   ],
   "llm_assessment": {

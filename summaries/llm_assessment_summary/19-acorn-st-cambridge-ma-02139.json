@@ -23,7 +23,8 @@
       "contractor": "Nardelli Enterprises Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($450,000); keyword: renovate"
+      "score_reasons": "high cost ($450,000); keyword: renovate",
+      "permit_id": "1191276"
     }
   ],
   "llm_assessment": {

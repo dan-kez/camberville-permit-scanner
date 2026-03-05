@@ -11,7 +11,8 @@
     "last_sale_date": "2022-05-04",
     "last_sale_price": 1050000,
     "assessed_value": 1290700,
-    "lot_size": 0.0659
+    "lot_size": 0.0659,
+    "property_parcel": "28_F_11"
   },
   "property_use": "Certificate of Occupancy - Residential",
   "nearest_square": "Davis",

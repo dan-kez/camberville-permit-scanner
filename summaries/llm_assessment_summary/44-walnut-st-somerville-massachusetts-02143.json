@@ -13,7 +13,8 @@
     "last_sale_date": "2016-04-14",
     "last_sale_price": 1,
     "assessed_value": 1742700,
-    "lot_size": 0.0944
+    "lot_size": 0.0944,
+    "property_parcel": "72_C_9"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Robert Nazzaro",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14145741",
+      "permit_number": "E24-000129"
     }
   ],
   "llm_assessment": {

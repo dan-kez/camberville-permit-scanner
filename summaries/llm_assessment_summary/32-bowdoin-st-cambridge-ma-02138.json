@@ -13,7 +13,9 @@
     "last_sale_date": "2024-06-28T00:00:00.000",
     "last_sale_price": "5600000",
     "assessed_value": "5024300",
-    "lot_size": "5295"
+    "lot_size": "5295",
+    "property_pid": "14031",
+    "property_parcel": "175-80"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "McCarthy Enterprises Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($84,400); keyword: remodel"
+      "score_reasons": "moderate cost ($84,400); keyword: remodel",
+      "permit_id": "1171239"
     }
   ],
   "llm_assessment": {

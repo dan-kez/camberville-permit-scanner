@@ -13,7 +13,8 @@
     "last_sale_date": "2000-08-01",
     "last_sale_price": 307000,
     "assessed_value": 1197100,
-    "lot_size": 0.0648
+    "lot_size": 0.0648,
+    "property_parcel": "34_D_55"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Morse Constructions",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "12047564",
+      "permit_number": "B23-001167"
     },
     {
       "date": "2023-11-30",
@@ -46,7 +49,9 @@
       "contractor": "Fiorillo Plumbing and Heating",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; permit completed; most permits completed",
+      "permit_id": "13929880",
+      "permit_number": "G23-000512"
     },
     {
       "date": "2023-11-20",
@@ -58,7 +63,9 @@
       "contractor": "D&M Elite Electrical Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "13960077",
+      "permit_number": "E23-001780"
     },
     {
       "date": "2024-10-29",
@@ -70,7 +77,9 @@
       "contractor": "Morse Constructions",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51284915",
+      "permit_number": "B24-001845"
     },
     {
       "date": "2023-09-26",
@@ -82,7 +91,9 @@
       "contractor": "Morse Constructions",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "12413272",
+      "permit_number": "DP23-000175"
     }
   ],
   "llm_assessment": {

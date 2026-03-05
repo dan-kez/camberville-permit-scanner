@@ -13,7 +13,8 @@
     "last_sale_date": "2022-02-28",
     "last_sale_price": 1050008,
     "assessed_value": 1278900,
-    "lot_size": 0.0669
+    "lot_size": 0.0669,
+    "property_parcel": "30_F_22"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Glenn Wicker Plumbing",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "12072548",
+      "permit_number": "G23-000335"
     }
   ],
   "llm_assessment": {

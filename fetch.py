@@ -175,6 +175,7 @@ def _normalize_cambridge_alteration(rows):
             "status": (r.get("status") or "").strip(),
             "date": (r.get("applicant_submit_date") or "")[:10],
             "source": "Cambridge Alteration",
+            "permit_id": r.get("id"),
         })
     return permits
 
@@ -204,6 +205,7 @@ def _normalize_cambridge_new_construction(rows):
             "status": (r.get("status") or "").strip(),
             "date": (r.get("applicant_submit_date") or "")[:10],
             "source": "Cambridge New Construction",
+            "permit_id": r.get("id"),
         })
     return permits
 
@@ -230,6 +232,8 @@ def _normalize_somerville(rows):
             "status": (r.get("status") or "").strip(),
             "date": (r.get("issue_date") or "")[:10],
             "source": "Somerville",
+            "permit_id": r.get("application_id"),
+            "permit_number": r.get("application_number"),
         })
     return permits
 
@@ -310,6 +314,8 @@ def _normalize_cambridge_property(rows):
             "last_sale_price": r.get("saleprice", "0"),
             "assessed_value": r.get("assessedvalue", "0"),
             "lot_size": r.get("landarea", "0"),
+            "property_pid": r.get("pid"),
+            "property_parcel": r.get("map_lot"),
         }
         
         for addr in addresses:
@@ -341,7 +347,7 @@ def _normalize_somerville_property(rows):
         indexed[f"somerville:{key}"] = {
             "property_class": r.get("USE_CODE", "unknown"),
             "year_built": r.get("YEAR_BUILT", "unknown"),
-            "bedrooms": "unknown", 
+            "bedrooms": "unknown",
             "bathrooms": "unknown",
             "total_rooms": r.get("NUM_ROOMS", "0"),
             "living_area": r.get("RES_AREA", "0"),
@@ -349,6 +355,7 @@ def _normalize_somerville_property(rows):
             "last_sale_price": r.get("LS_PRICE", "0"),
             "assessed_value": r.get("TOTAL_VAL", "0"),
             "lot_size": r.get("LOT_SIZE", "0"),
+            "property_parcel": r.get("PROP_ID"),
         }
     return indexed
 

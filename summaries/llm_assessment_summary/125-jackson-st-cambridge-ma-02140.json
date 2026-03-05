@@ -13,7 +13,9 @@
     "last_sale_date": "2023-01-19T00:00:00.000",
     "last_sale_price": "1350000",
     "assessed_value": "731500",
-    "lot_size": "6000"
+    "lot_size": "6000",
+    "property_pid": "15581",
+    "property_parcel": "190-78"
   },
   "property_use": "One or Two Family Dwelling",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "RICHARD A DUCOTT",
       "owner_occupied": true,
       "score": 11,
-      "score_reasons": "high cost ($665,802); new construction; permit completed; all permits completed"
+      "score_reasons": "high cost ($665,802); new construction; permit completed; all permits completed",
+      "permit_id": "288617"
     }
   ],
   "llm_assessment": {

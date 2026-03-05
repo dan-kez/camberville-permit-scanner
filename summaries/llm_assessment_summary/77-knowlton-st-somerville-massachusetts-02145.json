@@ -13,7 +13,8 @@
     "last_sale_date": "2023-07-27",
     "last_sale_price": 805000,
     "assessed_value": 731800,
-    "lot_size": 0.08170000000000001
+    "lot_size": 0.08170000000000001,
+    "property_parcel": "104_A_27_F"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: siding; permit completed; all permits completed"
+      "score_reasons": "minor: siding; permit completed; all permits completed",
+      "permit_id": "17027093",
+      "permit_number": "B24-001106"
     }
   ],
   "llm_assessment": {

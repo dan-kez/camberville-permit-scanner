@@ -11,7 +11,8 @@
     "last_sale_date": "2020-03-03",
     "last_sale_price": 10,
     "assessed_value": 1484000,
-    "lot_size": 0.1148
+    "lot_size": 0.1148,
+    "property_parcel": "54_C_5"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",

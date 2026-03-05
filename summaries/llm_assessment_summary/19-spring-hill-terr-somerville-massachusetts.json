@@ -13,7 +13,8 @@
     "last_sale_date": "2015-08-21",
     "last_sale_price": 690000,
     "assessed_value": 942400,
-    "lot_size": 0.0487
+    "lot_size": 0.0487,
+    "property_parcel": "43_B_11"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "WOODWASTE OF BOSTON",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12064364",
+      "permit_number": "B23-001221"
     },
     {
       "date": "2023-09-06",
@@ -46,7 +49,9 @@
       "contractor": "Rick Picardi",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12226139",
+      "permit_number": "E23-001357"
     },
     {
       "date": "2023-12-04",
@@ -58,7 +63,9 @@
       "contractor": "Epic Plumbing And Heating Inc.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "13871622",
+      "permit_number": "B23-001725"
     },
     {
       "date": "2023-11-30",
@@ -70,7 +77,9 @@
       "contractor": "Rick Picardi",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "13914891",
+      "permit_number": "E23-001646"
     }
   ],
   "llm_assessment": {

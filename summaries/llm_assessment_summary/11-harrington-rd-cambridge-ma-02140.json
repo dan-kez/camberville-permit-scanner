@@ -13,7 +13,9 @@
     "last_sale_date": "1986-08-22T00:00:00.000",
     "last_sale_price": "179000",
     "assessed_value": "1131700",
-    "lot_size": "2450"
+    "lot_size": "2450",
+    "property_pid": "15817",
+    "property_parcel": "191-59"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Doughty and Sons, Inc.",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($30,000); keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($30,000); keyword: remodel; permit completed; all permits completed",
+      "permit_id": "264544"
     }
   ],
   "llm_assessment": {

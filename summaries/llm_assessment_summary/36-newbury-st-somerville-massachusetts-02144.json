@@ -13,7 +13,8 @@
     "last_sale_date": "2021-03-29",
     "last_sale_price": 1,
     "assessed_value": 1308100,
-    "lot_size": 0.0981
+    "lot_size": 0.0981,
+    "property_parcel": "13_A_74"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Mike Ballou Electrician",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: remodel; permit completed"
+      "score_reasons": "keyword: remodel; permit completed",
+      "permit_id": "14448881",
+      "permit_number": "E24-000880"
     },
     {
       "date": "2024-06-25",
@@ -46,7 +49,9 @@
       "contractor": "David R. Murphy Renovations",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: addition; permit completed"
+      "score_reasons": "keyword: addition; permit completed",
+      "permit_id": "10980352",
+      "permit_number": "B22-001879"
     },
     {
       "date": "2024-09-03",
@@ -58,7 +63,9 @@
       "contractor": "bms plumbing and heating",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovate"
+      "score_reasons": "keyword: renovate",
+      "permit_id": "51182127",
+      "permit_number": "G24-000412"
     }
   ],
   "llm_assessment": {

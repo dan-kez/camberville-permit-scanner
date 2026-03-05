@@ -13,7 +13,8 @@
     "last_sale_date": "2023-08-02",
     "last_sale_price": 970000,
     "assessed_value": 931000,
-    "lot_size": 0.0545
+    "lot_size": 0.0545,
+    "property_parcel": "54_A_2"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Old Court Carpenters",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "14322248",
+      "permit_number": "B24-000617"
     },
     {
       "date": "2023-07-19",
@@ -46,7 +49,9 @@
       "contractor": "Edward Piemonte Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12072414",
+      "permit_number": "E23-001120"
     },
     {
       "date": "2024-02-12",
@@ -58,7 +63,9 @@
       "contractor": "Jaconias Silva Euriques Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14067662",
+      "permit_number": "E23-001973"
     },
     {
       "date": "2024-04-01",
@@ -70,7 +77,9 @@
       "contractor": "ALDOS HVAC LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14011901",
+      "permit_number": "B23-002117"
     },
     {
       "date": "2024-07-05",
@@ -82,7 +91,9 @@
       "contractor": "Bryan Harte",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "17051859",
+      "permit_number": "E24-001037"
     },
     {
       "date": "2024-07-10",
@@ -94,7 +105,9 @@
       "contractor": "Martin Rylands Plumbing & Heating",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "17061757",
+      "permit_number": "P24-000386"
     }
   ],
   "llm_assessment": {

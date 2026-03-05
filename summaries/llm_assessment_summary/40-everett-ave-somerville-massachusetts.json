@@ -13,7 +13,8 @@
     "last_sale_date": "2022-05-19",
     "last_sale_price": 810000,
     "assessed_value": 744300,
-    "lot_size": 0.1218
+    "lot_size": 0.1218,
+    "property_parcel": "90_G_2"
   },
   "property_use": "Demolition Permit - Residential Accessory Structures ( i.e., garages, sheds ) under 1500 sq ft",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "MLA Consultants",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "16999311",
+      "permit_number": "D24-000039"
     }
   ],
   "llm_assessment": {

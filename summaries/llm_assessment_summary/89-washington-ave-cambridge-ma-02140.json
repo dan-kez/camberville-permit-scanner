@@ -13,7 +13,9 @@
     "last_sale_date": "2024-04-17T00:00:00.000",
     "last_sale_price": "2500000",
     "assessed_value": "2142100",
-    "lot_size": "3796"
+    "lot_size": "3796",
+    "property_pid": "17725",
+    "property_parcel": "210-64"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "RENEWAL BY ANDERSEN",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($47,498); keyword: structural"
+      "score_reasons": "moderate cost ($47,498); keyword: structural",
+      "permit_id": "279443"
     }
   ],
   "llm_assessment": {

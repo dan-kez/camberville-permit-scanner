@@ -13,7 +13,9 @@
     "last_sale_date": "2001-11-02T00:00:00.000",
     "last_sale_price": "0",
     "assessed_value": "1431700",
-    "lot_size": "3183"
+    "lot_size": "3183",
+    "property_pid": "9803",
+    "property_parcel": "126-7"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($70,000)"
+      "score_reasons": "moderate cost ($70,000)",
+      "permit_id": "1182320"
     }
   ],
   "llm_assessment": {

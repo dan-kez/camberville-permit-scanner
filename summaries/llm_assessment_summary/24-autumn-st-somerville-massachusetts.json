@@ -13,7 +13,8 @@
     "last_sale_date": "2000-10-23",
     "last_sale_price": 260000,
     "assessed_value": 704300,
-    "lot_size": 0.0335
+    "lot_size": 0.0335,
+    "property_parcel": "90_C_26"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Power Home Remodeling Group",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: structural"
+      "score_reasons": "keyword: structural",
+      "permit_id": "51359543",
+      "permit_number": "B24-002048"
     }
   ],
   "llm_assessment": {

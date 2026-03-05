@@ -13,7 +13,8 @@
     "last_sale_date": "2005-08-01",
     "last_sale_price": 612500,
     "assessed_value": 1702700,
-    "lot_size": 0.09290000000000001
+    "lot_size": 0.09290000000000001,
+    "property_parcel": "28_C_17"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "mph plumbing/heating",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: full; permit completed"
+      "score_reasons": "keyword: full; permit completed",
+      "permit_id": "12179210",
+      "permit_number": "P23-000505"
     },
     {
       "date": "2023-06-09",
@@ -46,7 +49,9 @@
       "contractor": "JL&Sons Contracting",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: addition"
+      "score_reasons": "keyword: addition",
+      "permit_id": "11589258",
+      "permit_number": "B23-000724"
     },
     {
       "date": "2024-08-01",
@@ -58,7 +63,9 @@
       "contractor": "Will Build inc.",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: foundation"
+      "score_reasons": "keyword: foundation",
+      "permit_id": "17005576",
+      "permit_number": "B24-001053"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "1991-11-22",
     "last_sale_price": 130000,
     "assessed_value": 956500,
-    "lot_size": 0.0669
+    "lot_size": 0.0669,
+    "property_parcel": "92_K_27"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51222524",
+      "permit_number": "B24-001631"
     },
     {
       "date": "2024-10-04",
@@ -46,7 +49,9 @@
       "contractor": "m&n solutions inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51264862",
+      "permit_number": "G24-000475"
     },
     {
       "date": "2024-10-10",
@@ -58,7 +63,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "51241721",
+      "permit_number": "B24-001704"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "1992-06-25",
     "last_sale_price": 120100,
     "assessed_value": 1147000,
-    "lot_size": 0.0707
+    "lot_size": 0.0707,
+    "property_parcel": "27_F_6"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Fisher Windows",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "11801569",
+      "permit_number": "B23-000929"
     }
   ],
   "llm_assessment": {

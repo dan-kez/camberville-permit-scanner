@@ -13,7 +13,9 @@
     "last_sale_date": "2020-10-30T00:00:00.000",
     "last_sale_price": "1650000",
     "assessed_value": "1831300",
-    "lot_size": "2560"
+    "lot_size": "2560",
+    "property_pid": "16388",
+    "property_parcel": "195-154"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Smith & Awudo Construction Inc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($137,000); keyword: renovate"
+      "score_reasons": "moderate cost ($137,000); keyword: renovate",
+      "permit_id": "274610"
     }
   ],
   "llm_assessment": {

@@ -11,7 +11,8 @@
     "last_sale_date": "2009-10-28",
     "last_sale_price": 320000,
     "assessed_value": 842300,
-    "lot_size": 0.0285
+    "lot_size": 0.0285,
+    "property_parcel": "83_E_9"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Inman",

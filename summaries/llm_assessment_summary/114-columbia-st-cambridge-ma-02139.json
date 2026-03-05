@@ -13,7 +13,9 @@
     "last_sale_date": "1999-07-20T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "1473100",
-    "lot_size": "2324"
+    "lot_size": "2324",
+    "property_pid": "3085",
+    "property_parcel": "75-24"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Boston Architects and Builders",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($54,125)"
+      "score_reasons": "moderate cost ($54,125)",
+      "permit_id": "1139260"
     }
   ],
   "llm_assessment": {

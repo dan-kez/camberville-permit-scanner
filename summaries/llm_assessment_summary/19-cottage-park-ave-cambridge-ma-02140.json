@@ -13,7 +13,9 @@
     "last_sale_date": "2023-01-04T00:00:00.000",
     "last_sale_price": "825000",
     "assessed_value": "1259400",
-    "lot_size": "4520"
+    "lot_size": "4520",
+    "property_pid": "15489",
+    "property_parcel": "189-39"
   },
   "property_use": "One or Two Family Dwelling",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "FERNANDO J SILVA",
       "owner_occupied": true,
       "score": 9,
-      "score_reasons": "moderate cost ($35,000); new construction; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($35,000); new construction; permit completed; all permits completed",
+      "permit_id": "229454"
     }
   ],
   "llm_assessment": {

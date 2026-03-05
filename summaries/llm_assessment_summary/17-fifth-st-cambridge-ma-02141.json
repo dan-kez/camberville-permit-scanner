@@ -13,7 +13,9 @@
     "last_sale_date": "2009-08-20T00:00:00.000",
     "last_sale_price": "435500",
     "assessed_value": "837300",
-    "lot_size": "2310"
+    "lot_size": "2310",
+    "property_pid": "948",
+    "property_parcel": "22-33"
   },
   "property_use": "One or Two Family Dwelling",
   "nearest_square": "Union",
@@ -34,7 +36,8 @@
       "contractor": "Marcio Ribeiro",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "high cost ($700,000); keyword: demolition; new construction"
+      "score_reasons": "high cost ($700,000); keyword: demolition; new construction",
+      "permit_id": "1151009"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2016-05-19",
     "last_sale_price": 10,
     "assessed_value": 1015600,
-    "lot_size": 0.0745
+    "lot_size": 0.0745,
+    "property_parcel": "43_F_9"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "14163922",
+      "permit_number": "B24-000173"
     }
   ],
   "llm_assessment": {

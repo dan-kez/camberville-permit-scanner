@@ -13,7 +13,9 @@
     "last_sale_date": "2021-08-30T00:00:00.000",
     "last_sale_price": "3975000",
     "assessed_value": "4265800",
-    "lot_size": "5150"
+    "lot_size": "5150",
+    "property_pid": "14912",
+    "property_parcel": "183-46"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Eagle Hill Homes",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($285,709); keyword: remodel"
+      "score_reasons": "high cost ($285,709); keyword: remodel",
+      "permit_id": "251086"
     }
   ],
   "llm_assessment": {

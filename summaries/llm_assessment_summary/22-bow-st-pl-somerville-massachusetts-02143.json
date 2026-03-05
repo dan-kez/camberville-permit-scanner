@@ -13,7 +13,8 @@
     "last_sale_date": "2018-11-09",
     "last_sale_price": 1,
     "assessed_value": 832100,
-    "lot_size": 0.0427
+    "lot_size": 0.0427,
+    "property_parcel": "63_C_25"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "PSNE",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: structural"
+      "score_reasons": "keyword: structural",
+      "permit_id": "13896140",
+      "permit_number": "B23-001747"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,9 @@
     "last_sale_date": "2001-09-06T00:00:00.000",
     "last_sale_price": "908000",
     "assessed_value": "2880300",
-    "lot_size": "3539"
+    "lot_size": "3539",
+    "property_pid": "18035",
+    "property_parcel": "214-12"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Marvel Construction",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($405,350); keyword: renovate; minor: boiler; permit completed; all permits completed"
+      "score_reasons": "high cost ($405,350); keyword: renovate; minor: boiler; permit completed; all permits completed",
+      "permit_id": "252873"
     }
   ],
   "llm_assessment": {

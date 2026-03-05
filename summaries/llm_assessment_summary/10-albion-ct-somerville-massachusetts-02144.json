@@ -13,7 +13,8 @@
     "last_sale_date": "2023-11-01",
     "last_sale_price": 100,
     "assessed_value": 843400,
-    "lot_size": 0.0609
+    "lot_size": 0.0609,
+    "property_parcel": "34_D_19"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Ryan Baugh Electrician",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: demolition; permit completed"
+      "score_reasons": "keyword: demolition; permit completed",
+      "permit_id": "14453390",
+      "permit_number": "E24-000911"
     },
     {
       "date": "2024-06-03",
@@ -46,7 +49,9 @@
       "contractor": "Kuhlman Electrical Services",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14434904",
+      "permit_number": "E24-000839"
     },
     {
       "date": "2024-06-24",
@@ -58,7 +63,9 @@
       "contractor": "A Adam Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14403713",
+      "permit_number": "B24-000826"
     }
   ],
   "llm_assessment": {

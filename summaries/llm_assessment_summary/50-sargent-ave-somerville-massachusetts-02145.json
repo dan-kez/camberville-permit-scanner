@@ -13,7 +13,8 @@
     "last_sale_date": "2023-07-20",
     "last_sale_price": 1000000,
     "assessed_value": 959000,
-    "lot_size": 0.0658
+    "lot_size": 0.0658,
+    "property_parcel": "71_B_24"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Michael Trimarchi",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14401578",
+      "permit_number": "E24-000738"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,9 @@
     "last_sale_date": "2021-04-29T00:00:00.000",
     "last_sale_price": "3950000",
     "assessed_value": "4463900",
-    "lot_size": "4400"
+    "lot_size": "4400",
+    "property_pid": "17036",
+    "property_parcel": "201-69"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Opus Master Builders Inc",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($25,000)"
+      "score_reasons": "moderate cost ($25,000)",
+      "permit_id": "1172525"
     }
   ],
   "llm_assessment": {

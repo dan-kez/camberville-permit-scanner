@@ -13,7 +13,9 @@
     "last_sale_date": "2023-05-05T00:00:00.000",
     "last_sale_price": "3250000",
     "assessed_value": "3382400",
-    "lot_size": "6721"
+    "lot_size": "6721",
+    "property_pid": "17583",
+    "property_parcel": "209-20"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Saltsman Brenzel Design & Construction",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($426,500); keyword: renovation; minor: insulation; permit completed; all permits completed"
+      "score_reasons": "high cost ($426,500); keyword: renovation; minor: insulation; permit completed; all permits completed",
+      "permit_id": "229612"
     }
   ],
   "llm_assessment": {

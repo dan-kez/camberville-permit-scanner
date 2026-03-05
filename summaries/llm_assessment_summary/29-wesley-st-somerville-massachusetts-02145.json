@@ -13,7 +13,8 @@
     "last_sale_date": "2020-08-31",
     "last_sale_price": 770000,
     "assessed_value": 849100,
-    "lot_size": 0.0386
+    "lot_size": 0.0386,
+    "property_parcel": "78_E_31"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Sila Services, LLC Boston Standard",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14086937",
+      "permit_number": "E23-002040"
     }
   ],
   "llm_assessment": {

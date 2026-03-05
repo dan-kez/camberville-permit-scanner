@@ -13,7 +13,8 @@
     "last_sale_date": "1991-04-09",
     "last_sale_price": 30000,
     "assessed_value": 1454400,
-    "lot_size": 0.0781
+    "lot_size": 0.0781,
+    "property_parcel": "28_D_21"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "M.I.K. Construction & Remodeling",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: full"
+      "score_reasons": "keyword: full",
+      "permit_id": "14445064",
+      "permit_number": "B24-000987"
     }
   ],
   "llm_assessment": {

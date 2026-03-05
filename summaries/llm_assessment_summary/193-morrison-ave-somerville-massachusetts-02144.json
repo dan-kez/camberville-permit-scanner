@@ -13,7 +13,8 @@
     "last_sale_date": "2016-04-05",
     "last_sale_price": 851500,
     "assessed_value": 1208900,
-    "lot_size": 0.1056
+    "lot_size": 0.1056,
+    "property_parcel": "20_B_36_A"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Vazzoler Services Inc.",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: water heater; permit completed; all permits completed"
+      "score_reasons": "minor: water heater; permit completed; all permits completed",
+      "permit_id": "51091672",
+      "permit_number": "P24-000431"
     },
     {
       "date": "2024-08-06",
@@ -46,7 +49,9 @@
       "contractor": "Vazzoler Services Inc.",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: water heater; permit completed; all permits completed"
+      "score_reasons": "minor: water heater; permit completed; all permits completed",
+      "permit_id": "51091672",
+      "permit_number": "P24-000431"
     }
   ],
   "llm_assessment": {

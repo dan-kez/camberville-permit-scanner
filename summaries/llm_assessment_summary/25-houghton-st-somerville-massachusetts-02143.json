@@ -13,7 +13,8 @@
     "last_sale_date": "2020-04-30",
     "last_sale_price": 890000,
     "assessed_value": 911200,
-    "lot_size": 0.029500000000000002
+    "lot_size": 0.029500000000000002,
+    "property_parcel": "83_E_13"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "hs plastering and painting",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: gut; permit completed; all permits completed"
+      "score_reasons": "keyword: gut; permit completed; all permits completed",
+      "permit_id": "17007767",
+      "permit_number": "B24-001059"
     },
     {
       "date": "2024-10-24",
@@ -46,7 +49,9 @@
       "contractor": "KPS Plumbing",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "51298513",
+      "permit_number": "P24-000635"
     },
     {
       "date": "2024-10-02",
@@ -58,7 +63,9 @@
       "contractor": "VICTHOR ARGUEDAS ELECTRICIAN",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51255920",
+      "permit_number": "E24-001588"
     }
   ],
   "llm_assessment": {

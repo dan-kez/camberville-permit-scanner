@@ -13,7 +13,9 @@
     "last_sale_date": "2024-08-07T00:00:00.000",
     "last_sale_price": "3300000",
     "assessed_value": "2763300",
-    "lot_size": "6500"
+    "lot_size": "6500",
+    "property_pid": "17544",
+    "property_parcel": "207-42"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "JSV, llc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($1,497,000); keyword: renovation"
+      "score_reasons": "high cost ($1,497,000); keyword: renovation",
+      "permit_id": "1165970"
     }
   ],
   "llm_assessment": {

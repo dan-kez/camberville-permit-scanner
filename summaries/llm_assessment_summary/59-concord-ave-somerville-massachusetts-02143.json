@@ -11,7 +11,8 @@
     "last_sale_date": "2010-09-27",
     "last_sale_price": 400000,
     "assessed_value": 1060000,
-    "lot_size": 0.0912
+    "lot_size": 0.0912,
+    "property_parcel": "75_E_28"
   },
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Inman",

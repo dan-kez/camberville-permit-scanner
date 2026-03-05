@@ -13,7 +13,8 @@
     "last_sale_date": "2023-04-13",
     "last_sale_price": 1167000,
     "assessed_value": 1148600,
-    "lot_size": 0.1227
+    "lot_size": 0.1227,
+    "property_parcel": "64_C_6"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Cut Nail Rebuilders LLC",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovate; permit completed; all permits completed"
+      "score_reasons": "keyword: renovate; permit completed; all permits completed",
+      "permit_id": "14020199",
+      "permit_number": "B23-002137"
     },
     {
       "date": "2024-02-28",
@@ -46,7 +49,9 @@
       "contractor": "Nadeau Electric LLC",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "14118889",
+      "permit_number": "E24-000073"
     },
     {
       "date": "2024-01-19",
@@ -58,7 +63,9 @@
       "contractor": "rigoli plumbing",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14120281",
+      "permit_number": "P24-000019"
     }
   ],
   "llm_assessment": {

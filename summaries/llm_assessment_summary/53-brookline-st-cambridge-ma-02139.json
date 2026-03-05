@@ -13,7 +13,9 @@
     "last_sale_date": "2009-12-18T00:00:00.000",
     "last_sale_price": "474000",
     "assessed_value": "1112700",
-    "lot_size": "1034"
+    "lot_size": "1034",
+    "property_pid": "4929",
+    "property_parcel": "93-130"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Essex Restoration",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($69,108); keyword: renovate"
+      "score_reasons": "moderate cost ($69,108); keyword: renovate",
+      "permit_id": "1149755"
     }
   ],
   "llm_assessment": {

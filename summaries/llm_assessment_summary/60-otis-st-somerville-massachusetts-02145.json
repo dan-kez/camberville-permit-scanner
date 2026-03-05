@@ -13,7 +13,8 @@
     "last_sale_date": "2000-08-25",
     "last_sale_price": 125000,
     "assessed_value": 687300,
-    "lot_size": 0.0344
+    "lot_size": 0.0344,
+    "property_parcel": "78_E_2"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Northeast Insustrial Roof",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: gut"
+      "score_reasons": "keyword: gut",
+      "permit_id": "17050503",
+      "permit_number": "B24-001173"
     }
   ],
   "llm_assessment": {

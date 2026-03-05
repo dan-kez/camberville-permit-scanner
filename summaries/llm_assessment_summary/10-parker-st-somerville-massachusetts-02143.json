@@ -13,7 +13,8 @@
     "last_sale_date": "2022-09-12",
     "last_sale_price": 400000,
     "assessed_value": 1407500,
-    "lot_size": 0.0497
+    "lot_size": 0.0497,
+    "property_parcel": "75_C_10"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "MARK ROOD",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51264716",
+      "permit_number": "B24-001802"
     },
     {
       "date": "2024-09-30",
@@ -46,7 +49,9 @@
       "contractor": "ECOLOOP CONSTRUCTION LLP",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed",
+      "permit_id": "51227957",
+      "permit_number": "B24-001655"
     },
     {
       "date": "2024-09-25",
@@ -58,7 +63,9 @@
       "contractor": "Ecoloop Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "51226371",
+      "permit_number": "E24-001491"
     }
   ],
   "llm_assessment": {

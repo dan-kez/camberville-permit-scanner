@@ -13,7 +13,8 @@
     "last_sale_date": "2013-05-29",
     "last_sale_price": 548700,
     "assessed_value": 992900,
-    "lot_size": 0.049100000000000005
+    "lot_size": 0.049100000000000005,
+    "property_parcel": "45_G_10"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Solarflair Energy Inc",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: full; minor: solar; permit completed; all permits completed"
+      "score_reasons": "keyword: full; minor: solar; permit completed; all permits completed",
+      "permit_id": "51286482",
+      "permit_number": "E24-001678"
     },
     {
       "date": "2024-10-31",
@@ -46,7 +49,9 @@
       "contractor": "Solarflair Energy Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed"
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "51286458",
+      "permit_number": "B24-001853"
     }
   ],
   "llm_assessment": {

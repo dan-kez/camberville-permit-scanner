@@ -34,7 +34,8 @@
       "contractor": "PELLA OF BOSTON",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($30,400); keyword: structural; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($30,400); keyword: structural; permit completed; all permits completed",
+      "permit_id": "1183934"
     }
   ],
   "llm_assessment": {

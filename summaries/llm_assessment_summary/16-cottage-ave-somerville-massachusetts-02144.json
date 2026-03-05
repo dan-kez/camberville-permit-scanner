@@ -13,7 +13,8 @@
     "last_sale_date": "2017-02-22",
     "last_sale_price": 1,
     "assessed_value": 1172900,
-    "lot_size": 0.0514
+    "lot_size": 0.0514,
+    "property_parcel": "26_I_6"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "51302730",
+      "permit_number": "B24-001909"
     }
   ],
   "llm_assessment": {

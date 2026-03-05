@@ -13,7 +13,8 @@
     "last_sale_date": null,
     "last_sale_price": 34500,
     "assessed_value": 644500,
-    "lot_size": 0.0526
+    "lot_size": 0.0526,
+    "property_parcel": "33_F_6"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14391826",
+      "permit_number": "B24-000781"
     }
   ],
   "llm_assessment": {

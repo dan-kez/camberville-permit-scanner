@@ -23,7 +23,8 @@
       "contractor": "Lyndemberg",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($90,000); keyword: renovation"
+      "score_reasons": "moderate cost ($90,000); keyword: renovation",
+      "permit_id": "273191"
     }
   ],
   "llm_assessment": {

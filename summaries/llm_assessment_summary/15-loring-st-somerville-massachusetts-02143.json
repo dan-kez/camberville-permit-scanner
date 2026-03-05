@@ -13,7 +13,8 @@
     "last_sale_date": "2023-07-14",
     "last_sale_price": 2050000,
     "assessed_value": 1843900,
-    "lot_size": 0.06430000000000001
+    "lot_size": 0.06430000000000001,
+    "property_parcel": "52_F_14"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Kuhlman Electrical Services",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "17011750",
+      "permit_number": "E24-000967"
     }
   ],
   "llm_assessment": {

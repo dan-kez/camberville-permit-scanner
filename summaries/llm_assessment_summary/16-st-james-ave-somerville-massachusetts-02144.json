@@ -13,7 +13,8 @@
     "last_sale_date": "2010-09-30",
     "last_sale_price": 1001000,
     "assessed_value": 1990000,
-    "lot_size": 0.0838
+    "lot_size": 0.0838,
+    "property_parcel": "25_F_8"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "True Vision INC",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: demolish; permit completed; all permits completed"
+      "score_reasons": "keyword: demolish; permit completed; all permits completed",
+      "permit_id": "12022398",
+      "permit_number": "B23-001061"
     }
   ],
   "llm_assessment": {

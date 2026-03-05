@@ -13,7 +13,9 @@
     "last_sale_date": "2022-04-29T00:00:00.000",
     "last_sale_price": "1800000",
     "assessed_value": "1808200",
-    "lot_size": "3037"
+    "lot_size": "3037",
+    "property_pid": "6214",
+    "property_parcel": "103-97"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Cambridge Home Renovations",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($121,588)"
+      "score_reasons": "moderate cost ($121,588)",
+      "permit_id": "275036"
     }
   ],
   "llm_assessment": {

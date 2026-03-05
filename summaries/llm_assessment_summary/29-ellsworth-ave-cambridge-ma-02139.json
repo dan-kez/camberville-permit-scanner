@@ -13,7 +13,9 @@
     "last_sale_date": "2023-07-13T00:00:00.000",
     "last_sale_price": "2155000",
     "assessed_value": "2201000",
-    "lot_size": "2293"
+    "lot_size": "2293",
+    "property_pid": "11164",
+    "property_parcel": "139-80"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "ReModern Builders LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($743,762); keyword: remodel; minor: replace windows"
+      "score_reasons": "high cost ($743,762); keyword: remodel; minor: replace windows",
+      "permit_id": "1185671"
     }
   ],
   "llm_assessment": {

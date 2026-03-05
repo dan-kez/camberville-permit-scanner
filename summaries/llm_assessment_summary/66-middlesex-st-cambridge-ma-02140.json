@@ -13,7 +13,9 @@
     "last_sale_date": "2024-07-10T00:00:00.000",
     "last_sale_price": "3300000",
     "assessed_value": "3094600",
-    "lot_size": "4050"
+    "lot_size": "4050",
+    "property_pid": "16288",
+    "property_parcel": "195-27"
   },
   "property_use": "Two-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Boardmand + Company",
       "owner_occupied": true,
       "score": 10,
-      "score_reasons": "high cost ($695,295); keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "high cost ($695,295); keyword: renovation; permit completed; all permits completed",
+      "permit_id": "235416"
     }
   ],
   "llm_assessment": {

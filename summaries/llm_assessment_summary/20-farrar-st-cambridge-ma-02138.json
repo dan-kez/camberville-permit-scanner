@@ -13,7 +13,9 @@
     "last_sale_date": "2019-03-28T00:00:00.000",
     "last_sale_price": "0",
     "assessed_value": "3887300",
-    "lot_size": "7693"
+    "lot_size": "7693",
+    "property_pid": "22017",
+    "property_parcel": "146A-98"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Peterson Construction",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "high cost ($221,000); permit completed; all permits completed"
+      "score_reasons": "high cost ($221,000); permit completed; all permits completed",
+      "permit_id": "238175"
     }
   ],
   "llm_assessment": {

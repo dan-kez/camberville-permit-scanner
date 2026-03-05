@@ -23,7 +23,8 @@
       "contractor": "MV Construction and Management, LLC",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($45,000); keyword: gut; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($45,000); keyword: gut; permit completed; all permits completed",
+      "permit_id": "1171666"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,9 @@
     "last_sale_date": "2023-06-27T00:00:00.000",
     "last_sale_price": "1275000",
     "assessed_value": "2601800",
-    "lot_size": "1650"
+    "lot_size": "1650",
+    "property_pid": "15768",
+    "property_parcel": "191-8"
   },
   "property_use": "Multi-Family (3 units or greater)",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Boston Masonry, INC",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($25,000); keyword: demolition; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($25,000); keyword: demolition; permit completed; all permits completed",
+      "permit_id": "237067"
     },
     {
       "date": "2024-03-01",
@@ -46,7 +49,8 @@
       "contractor": "Boston Masonry Inc",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($370,000); keyword: renovation; minor: temporary; permit completed; all permits completed"
+      "score_reasons": "high cost ($370,000); keyword: renovation; minor: temporary; permit completed; all permits completed",
+      "permit_id": "260309"
     }
   ],
   "llm_assessment": {

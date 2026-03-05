@@ -13,7 +13,9 @@
     "last_sale_date": "2024-01-22T00:00:00.000",
     "last_sale_price": "2100000",
     "assessed_value": "3034900",
-    "lot_size": "4099"
+    "lot_size": "4099",
+    "property_pid": "7687",
+    "property_parcel": "114-93"
   },
   "property_use": "Multi-Family (3 units or greater)",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Broadbridge Construction LLC",
       "owner_occupied": true,
       "score": 10,
-      "score_reasons": "high cost ($700,000); keyword: convert; permit completed; all permits completed"
+      "score_reasons": "high cost ($700,000); keyword: convert; permit completed; all permits completed",
+      "permit_id": "263495"
     }
   ],
   "llm_assessment": {

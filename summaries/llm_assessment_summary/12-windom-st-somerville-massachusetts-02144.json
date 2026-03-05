@@ -13,7 +13,8 @@
     "last_sale_date": "2023-09-08",
     "last_sale_price": 100,
     "assessed_value": 1695200,
-    "lot_size": 0.0799
+    "lot_size": 0.0799,
+    "property_parcel": "26_C_6"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Delane Construction",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51053462",
+      "permit_number": "B24-001300"
     },
     {
       "date": "2024-09-19",
@@ -46,7 +49,9 @@
       "contractor": "ANIANO CARVALHO",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51238796",
+      "permit_number": "E24-001543"
     },
     {
       "date": "2024-10-08",
@@ -58,7 +63,9 @@
       "contractor": "Kuhlman Electrical Services",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51259229",
+      "permit_number": "E24-001599"
     }
   ],
   "llm_assessment": {

@@ -23,7 +23,8 @@
       "contractor": "M. Driscoll",
       "owner_occupied": true,
       "score": 10,
-      "score_reasons": "high cost ($262,000); keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "high cost ($262,000); keyword: remodel; permit completed; all permits completed",
+      "permit_id": "248672"
     }
   ],
   "llm_assessment": {

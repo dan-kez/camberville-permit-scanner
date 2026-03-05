@@ -13,7 +13,8 @@
     "last_sale_date": "2017-05-05",
     "last_sale_price": 555000,
     "assessed_value": 650000,
-    "lot_size": 0.0723
+    "lot_size": 0.0723,
+    "property_parcel": "34_C_15"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Boisvert Electrical",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: foundation; permit completed; most permits completed"
+      "score_reasons": "keyword: foundation; permit completed; most permits completed",
+      "permit_id": "51077865",
+      "permit_number": "E24-001195"
     },
     {
       "date": "2024-08-21",
@@ -46,7 +49,9 @@
       "contractor": "J&F Construction LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "17005004",
+      "permit_number": "D24-000041"
     },
     {
       "date": "2024-10-07",
@@ -58,7 +63,9 @@
       "contractor": "J&F Construction LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "keyword: foundation; most permits completed"
+      "score_reasons": "keyword: foundation; most permits completed",
+      "permit_id": "17067250",
+      "permit_number": "B24-001225"
     },
     {
       "date": "2023-09-12",
@@ -70,7 +77,9 @@
       "contractor": "Boisvert Electrical",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "12246144",
+      "permit_number": "E23-001424"
     }
   ],
   "llm_assessment": {

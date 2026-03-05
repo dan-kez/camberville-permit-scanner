@@ -13,7 +13,8 @@
     "last_sale_date": "2022-11-30",
     "last_sale_price": 910000,
     "assessed_value": 862300,
-    "lot_size": 0.059300000000000005
+    "lot_size": 0.059300000000000005,
+    "property_parcel": "78_F_9"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Fisher Windows",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: structural; permit completed; most permits completed"
+      "score_reasons": "keyword: structural; permit completed; most permits completed",
+      "permit_id": "13951898",
+      "permit_number": "B23-001943"
     },
     {
       "date": "2024-10-17",
@@ -46,7 +49,9 @@
       "contractor": "N.E.T.R",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51232536",
+      "permit_number": "E24-001522"
     },
     {
       "date": "2024-11-18",
@@ -58,7 +63,9 @@
       "contractor": "JP O'Brien Electric",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51364967",
+      "permit_number": "E24-001863"
     },
     {
       "date": "2024-11-13",
@@ -70,7 +77,9 @@
       "contractor": "N.E.T.R",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "51297307",
+      "permit_number": "B24-001893"
     }
   ],
   "llm_assessment": {

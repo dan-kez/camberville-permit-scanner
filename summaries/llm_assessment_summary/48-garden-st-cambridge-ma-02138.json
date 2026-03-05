@@ -13,7 +13,9 @@
     "last_sale_date": "2023-02-09T00:00:00.000",
     "last_sale_price": "2800000",
     "assessed_value": "3026000",
-    "lot_size": "10000"
+    "lot_size": "10000",
+    "property_pid": "18289",
+    "property_parcel": "215-24"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Lian Concorde Construction",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($50,000)"
+      "score_reasons": "moderate cost ($50,000)",
+      "permit_id": "245683"
     }
   ],
   "llm_assessment": {

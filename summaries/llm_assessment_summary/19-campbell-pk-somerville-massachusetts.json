@@ -13,7 +13,8 @@
     "last_sale_date": "1992-09-10",
     "last_sale_price": 187500,
     "assessed_value": 1148300,
-    "lot_size": 0.0494
+    "lot_size": 0.0494,
+    "property_parcel": "17_G_16"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "14432600",
+      "permit_number": "B24-000934"
     }
   ],
   "llm_assessment": {

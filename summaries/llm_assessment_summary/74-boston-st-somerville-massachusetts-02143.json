@@ -13,7 +13,8 @@
     "last_sale_date": "2023-05-01",
     "last_sale_price": 1400000,
     "assessed_value": 1790100,
-    "lot_size": 0.0763
+    "lot_size": 0.0763,
+    "property_parcel": "80_F_6"
   },
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Treadstone Construction, LLC.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: framing; permit completed; most permits completed"
+      "score_reasons": "keyword: framing; permit completed; most permits completed",
+      "permit_id": "12075314",
+      "permit_number": "B23-001260"
     },
     {
       "date": "2024-04-22",
@@ -46,7 +49,9 @@
       "contractor": "Rick Picardi",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "14324751",
+      "permit_number": "E24-000580"
     },
     {
       "date": "2024-02-20",
@@ -58,7 +63,9 @@
       "contractor": "PTL Plumbing",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14183249",
+      "permit_number": "P24-000089"
     }
   ],
   "llm_assessment": {

@@ -23,7 +23,8 @@
       "contractor": "Northwoods Builders",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($244,330); keyword: renovation; minor: insulation"
+      "score_reasons": "high cost ($244,330); keyword: renovation; minor: insulation",
+      "permit_id": "257483"
     }
   ],
   "llm_assessment": {

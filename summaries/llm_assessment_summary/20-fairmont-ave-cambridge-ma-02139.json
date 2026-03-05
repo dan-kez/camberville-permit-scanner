@@ -13,7 +13,9 @@
     "last_sale_date": "2015-10-07T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "1589200",
-    "lot_size": "2680"
+    "lot_size": "2680",
+    "property_pid": "9924",
+    "property_parcel": "127-41"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Gilberto",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($158,800); keyword: addition; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($158,800); keyword: addition; permit completed; all permits completed",
+      "permit_id": "249772"
     }
   ],
   "llm_assessment": {

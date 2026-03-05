@@ -23,7 +23,8 @@
       "contractor": "Wendel Klein Design Build",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($448,000); keyword: gut"
+      "score_reasons": "high cost ($448,000); keyword: gut",
+      "permit_id": "1148302"
     }
   ],
   "llm_assessment": {

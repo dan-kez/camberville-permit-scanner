@@ -13,7 +13,8 @@
     "last_sale_date": "2021-11-29",
     "last_sale_price": 965000,
     "assessed_value": 1023900,
-    "lot_size": 0.0376
+    "lot_size": 0.0376,
+    "property_parcel": "62_C_6"
   },
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Luis Matute",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51263736",
+      "permit_number": "B24-001798"
     }
   ],
   "llm_assessment": {

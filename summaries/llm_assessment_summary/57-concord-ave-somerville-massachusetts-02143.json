@@ -13,7 +13,8 @@
     "last_sale_date": "2021-03-26",
     "last_sale_price": 1,
     "assessed_value": 1252100,
-    "lot_size": 0.0881
+    "lot_size": 0.0881,
+    "property_parcel": "75_E_27"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Cre Tsolias Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14141988",
+      "permit_number": "E24-000118"
     },
     {
       "date": "2024-10-18",
@@ -46,7 +49,9 @@
       "contractor": "Sunrun Installation Services",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed",
+      "permit_id": "51241737",
+      "permit_number": "B24-001705"
     },
     {
       "date": "2024-10-21",
@@ -58,7 +63,9 @@
       "contractor": "Sunrun Installation Services",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed",
+      "permit_id": "51241763",
+      "permit_number": "E24-001552"
     },
     {
       "date": "2024-07-23",
@@ -70,7 +77,9 @@
       "contractor": "Power Solution Services inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: siding; permit completed; all permits completed"
+      "score_reasons": "minor: siding; permit completed; all permits completed",
+      "permit_id": "51057634",
+      "permit_number": "E24-001172"
     },
     {
       "date": "2024-08-08",
@@ -82,7 +91,9 @@
       "contractor": "Finey Home Improvement corp",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: siding; permit completed; all permits completed"
+      "score_reasons": "minor: siding; permit completed; all permits completed",
+      "permit_id": "17010426",
+      "permit_number": "B24-001064"
     }
   ],
   "llm_assessment": {

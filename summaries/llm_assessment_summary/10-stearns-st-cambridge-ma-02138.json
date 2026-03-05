@@ -13,7 +13,9 @@
     "last_sale_date": "1993-09-01T00:00:00.000",
     "last_sale_price": "247000",
     "assessed_value": "1749100",
-    "lot_size": "3040"
+    "lot_size": "3040",
+    "property_pid": "19198",
+    "property_parcel": "228-17"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Our House Contracting",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($124,016); keyword: renovation"
+      "score_reasons": "moderate cost ($124,016); keyword: renovation",
+      "permit_id": "289549"
     }
   ],
   "llm_assessment": {

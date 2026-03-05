@@ -13,7 +13,9 @@
     "last_sale_date": "2006-12-28T00:00:00.000",
     "last_sale_price": "100",
     "assessed_value": "934600",
-    "lot_size": "4300"
+    "lot_size": "4300",
+    "property_pid": "17162",
+    "property_parcel": "202-50"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Boardman + Company",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($862,500); keyword: renovation"
+      "score_reasons": "high cost ($862,500); keyword: renovation",
+      "permit_id": "1151100"
     }
   ],
   "llm_assessment": {

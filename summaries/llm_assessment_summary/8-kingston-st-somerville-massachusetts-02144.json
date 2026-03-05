@@ -13,7 +13,8 @@
     "last_sale_date": "2011-03-29",
     "last_sale_price": 965000,
     "assessed_value": 1788900,
-    "lot_size": 0.06720000000000001
+    "lot_size": 0.06720000000000001,
+    "property_parcel": "17_G_7"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14261405",
+      "permit_number": "B24-000401"
     },
     {
       "date": "2024-04-11",
@@ -46,7 +49,9 @@
       "contractor": "BM HOLMESPLUMBING AND HEATING",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14313341",
+      "permit_number": "P24-000202"
     },
     {
       "date": "2024-04-24",
@@ -58,7 +63,9 @@
       "contractor": "Robert Medeiros Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14341500",
+      "permit_number": "E24-000621"
     }
   ],
   "llm_assessment": {

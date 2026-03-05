@@ -11,7 +11,8 @@
     "last_sale_date": "2012-05-10",
     "last_sale_price": 474900,
     "assessed_value": 992900,
-    "lot_size": 0.0872
+    "lot_size": 0.0872,
+    "property_parcel": "35_E_20"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",

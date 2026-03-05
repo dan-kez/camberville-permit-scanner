@@ -11,7 +11,8 @@
     "last_sale_date": "2016-06-29",
     "last_sale_price": 757000,
     "assessed_value": 1051900,
-    "lot_size": 0.0328
+    "lot_size": 0.0328,
+    "property_parcel": "83_E_24"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",

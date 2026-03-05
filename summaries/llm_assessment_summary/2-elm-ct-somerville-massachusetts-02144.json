@@ -13,7 +13,8 @@
     "last_sale_date": "2005-05-31",
     "last_sale_price": 520000,
     "assessed_value": 1095000,
-    "lot_size": 0.0483
+    "lot_size": 0.0483,
+    "property_parcel": "21_B_6"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "HIP Construction",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "14273195",
+      "permit_number": "P24-000162"
     }
   ],
   "llm_assessment": {

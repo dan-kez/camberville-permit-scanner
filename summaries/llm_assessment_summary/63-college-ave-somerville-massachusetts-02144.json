@@ -13,7 +13,8 @@
     "last_sale_date": "2016-03-17",
     "last_sale_price": 1690000,
     "assessed_value": 2200800,
-    "lot_size": 0.0755
+    "lot_size": 0.0755,
+    "property_parcel": "20_B_4"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "MBA Building Group",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: gut"
+      "score_reasons": "keyword: gut",
+      "permit_id": "12018212",
+      "permit_number": "B23-001048"
     }
   ],
   "llm_assessment": {

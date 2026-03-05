@@ -13,7 +13,9 @@
     "last_sale_date": "2023-02-21T00:00:00.000",
     "last_sale_price": "100",
     "assessed_value": "1482900",
-    "lot_size": "2443"
+    "lot_size": "2443",
+    "property_pid": "2325",
+    "property_parcel": "39-113"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "The Murphy Group",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($37,050)"
+      "score_reasons": "moderate cost ($37,050)",
+      "permit_id": "232587"
     }
   ],
   "llm_assessment": {

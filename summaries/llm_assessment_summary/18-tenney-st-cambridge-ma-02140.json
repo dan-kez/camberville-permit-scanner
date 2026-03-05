@@ -23,7 +23,8 @@
       "contractor": "The Murphy Group",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($100,000); keyword: renovate"
+      "score_reasons": "moderate cost ($100,000); keyword: renovate",
+      "permit_id": "289382"
     }
   ],
   "llm_assessment": {

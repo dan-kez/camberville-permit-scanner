@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>How It Works — Permit Scanner</title>
+<script>
+  (function() {
+    const t = localStorage.getItem('permit-scanner-theme');
+    if (t) document.documentElement.dataset.theme = t;
+  })();
+</script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  /* ── Light theme tokens ── */
+  :root {
+    --bg:               #f5f5f5;
+    --surface:          #ffffff;
+    --surface-2:        #f0f0f5;
+    --surface-3:        #f9f9f9;
+    --border:           #e0e0e0;
+    --border-light:     #f0f0f0;
+    --text:             #222222;
+    --text-2:           #444444;
+    --text-3:           #555555;
+    --text-muted:       #666666;
+    --text-faint:       #888888;
+    --btn-border:       #cccccc;
+    --shadow:           rgba(0,0,0,0.08);
+    --code-bg:          #f0f0f5;
+  }
+
+  /* ── Dark theme tokens ── */
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg:               #0d0d1a;
+      --surface:          #16162a;
+      --surface-2:        #1e1e36;
+      --surface-3:        #1a1a30;
+      --border:           #2a2a46;
+      --border-light:     #222238;
+      --text:             #e4e4f0;
+      --text-2:           #b8b8d0;
+      --text-3:           #9898b8;
+      --text-muted:       #7878a0;
+      --text-faint:       #606088;
+      --btn-border:       #363660;
+      --shadow:           rgba(0,0,0,0.30);
+      --code-bg:          #111128;
+    }
+  }
+  html[data-theme="dark"] {
+    --bg:               #0d0d1a;
+    --surface:          #16162a;
+    --surface-2:        #1e1e36;
+    --surface-3:        #1a1a30;
+    --border:           #2a2a46;
+    --border-light:     #222238;
+    --text:             #e4e4f0;
+    --text-2:           #b8b8d0;
+    --text-3:           #9898b8;
+    --text-muted:       #7878a0;
+    --text-faint:       #606088;
+    --btn-border:       #363660;
+    --shadow:           rgba(0,0,0,0.30);
+    --code-bg:          #111128;
+  }
+  html[data-theme="light"] {
+    --bg:               #f5f5f5;
+    --surface:          #ffffff;
+    --surface-2:        #f0f0f5;
+    --surface-3:        #f9f9f9;
+    --border:           #e0e0e0;
+    --border-light:     #f0f0f0;
+    --text:             #222222;
+    --text-2:           #444444;
+    --text-3:           #555555;
+    --text-muted:       #666666;
+    --text-faint:       #888888;
+    --btn-border:       #cccccc;
+    --shadow:           rgba(0,0,0,0.08);
+    --code-bg:          #f0f0f5;
+  }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  header {
+    background: #1a1a2e;
+    color: #fff;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  header h1 { font-size: 20px; font-weight: 700; }
+  .header-right { margin-left: auto; display: flex; align-items: center; gap: 8px; }
+
+  .header-back {
+    background: none;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    color: rgba(255,255,255,0.8);
+    font-size: 13px;
+    padding: 4px 12px;
+    text-decoration: none;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  .header-back:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.6); }
+
+  #theme-toggle {
+    background: none;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    color: rgba(255,255,255,0.8);
+    cursor: pointer;
+    font-size: 15px;
+    padding: 4px 10px;
+    line-height: 1;
+    transition: background 0.15s, border-color 0.15s;
+  }
+  #theme-toggle:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.6); }
+
+  main {
+    max-width: 780px;
+    margin: 32px auto;
+    padding: 0 24px 48px;
+  }
+
+  .card {
+    background: var(--surface);
+    border-radius: 10px;
+    padding: 24px 28px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 4px var(--shadow);
+  }
+
+  h2 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--text);
+  }
+
+  p {
+    color: var(--text-2);
+    margin-bottom: 10px;
+  }
+  p:last-child { margin-bottom: 0; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+  th {
+    background: var(--surface-2);
+    padding: 8px 12px;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+    border-bottom: 1px solid var(--border);
+  }
+  td {
+    padding: 8px 12px;
+    border-top: 1px solid var(--border-light);
+    color: var(--text-2);
+    vertical-align: top;
+  }
+  td a { color: #5b8dd9; text-decoration: none; }
+  td a:hover { text-decoration: underline; }
+
+  ol, ul {
+    padding-left: 20px;
+    color: var(--text-2);
+  }
+  li { margin-bottom: 6px; }
+  li strong { color: var(--text); }
+
+  code {
+    background: var(--code-bg);
+    padding: 1px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    font-family: ui-monospace, "Cascadia Code", "Source Code Pro", monospace;
+    color: var(--text-3);
+  }
+
+  pre {
+    background: var(--code-bg);
+    border-radius: 8px;
+    padding: 16px 18px;
+    overflow-x: auto;
+    font-family: ui-monospace, "Cascadia Code", "Source Code Pro", monospace;
+    font-size: 13px;
+    color: var(--text-2);
+    margin-top: 12px;
+    line-height: 1.5;
+  }
+
+  .section-label {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-faint);
+    margin-bottom: 6px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Permit Scanner</h1>
+  <div class="header-right">
+    <a href="index.html" class="header-back">← Scanner</a>
+    <button id="theme-toggle" title="Toggle dark/light mode"></button>
+  </div>
+</header>
+
+<main>
+
+  <div class="card">
+    <h2>What it does</h2>
+    <p>Permit Scanner monitors building permit activity near Davis, Porter, Central, Inman, and Union squares in Cambridge and Somerville, MA, looking for patterns that suggest a property is being prepared for sale.</p>
+    <p>It combines public permit data, property assessment records, and an LLM evaluation to surface the most likely sale-prep candidates — high-value renovation clusters at non-owner-occupied or recently purchased properties.</p>
+  </div>
+
+  <div class="card">
+    <h2>Data sources</h2>
+    <table>
+      <thead>
+        <tr><th>Source</th><th>Type</th><th>Coverage</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://data.cambridgema.gov/Inspectional-Services/Building-Permits-Alteration/qu2z-8suj" target="_blank" rel="noopener">Cambridge Alteration Permits</a></td>
+          <td>Permits</td>
+          <td>Cambridge alteration/renovation permits</td>
+        </tr>
+        <tr>
+          <td><a href="https://data.cambridgema.gov/Inspectional-Services/Building-Permits-New-Construction/9qm7-wbdc" target="_blank" rel="noopener">Cambridge New Construction Permits</a></td>
+          <td>Permits</td>
+          <td>Cambridge new construction permits</td>
+        </tr>
+        <tr>
+          <td><a href="https://data.somervillema.gov/Permits-Licenses-and-Certificates/Permits-Issued/nneb-s3f7" target="_blank" rel="noopener">Somerville Permits Issued</a></td>
+          <td>Permits</td>
+          <td>All Somerville building permits</td>
+        </tr>
+        <tr>
+          <td><a href="https://data.cambridgema.gov/Assessing/Property-Database/waa7-ibdu" target="_blank" rel="noopener">Cambridge Property Database</a></td>
+          <td>Assessment</td>
+          <td>Assessed value, sale history, bedrooms, year built</td>
+        </tr>
+        <tr>
+          <td>Somerville Parcels (MassGIS ArcGIS)</td>
+          <td>Assessment</td>
+          <td>Assessed value, sale history, year built, lot size</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Pipeline</h2>
+    <ol>
+      <li><strong>Fetch</strong> — Pull permits and property records from Socrata and ArcGIS APIs; cache raw JSON locally in <code>.cache/</code></li>
+      <li><strong>Filter</strong> — Keep only permits within the configured radius of target squares; apply a minimum cost threshold for Cambridge alteration permits</li>
+      <li><strong>Score</strong> — Assign a significance score to each permit based on keywords, cost, completion status, and owner-occupancy flags</li>
+      <li><strong>Enrich</strong> — Join each address to the property assessment database to add year built, sale history, bedrooms, assessed value, etc.</li>
+      <li><strong>LLM assess</strong> — Send each address's permit + property summary to Claude Sonnet for a likelihood assessment (high / medium / low)</li>
+      <li><strong>Build site</strong> — Compile all assessments into <code>docs/data.json</code> and serve the static HTML dashboard</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Scoring</h2>
+    <p>Each permit gets a numeric score; the sum drives the main table sort. Higher scores surface addresses with more renovation signals.</p>
+    <table>
+      <thead>
+        <tr><th>Factor</th><th>Points</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Significant keyword match (gut, renovate, addition, etc.)</td><td>+3</td></tr>
+        <tr><td>Non-owner-occupied</td><td>+2</td></tr>
+        <tr><td>Cost ≥ $100k</td><td>+2</td></tr>
+        <tr><td>Cost ≥ $25k (moderate)</td><td>+1</td></tr>
+        <tr><td>Permit completed/closed</td><td>+1</td></tr>
+        <tr><td>All permits at address completed</td><td>+1</td></tr>
+        <tr><td>Minor keyword match (solar, roof, windows…)</td><td>+1 (reduced)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>LLM assessment</h2>
+    <p>Each address summary is sent to Claude Sonnet via the <code>claude</code> CLI. The prompt instructs the model to assess sale-prep likelihood based on the permit descriptions, costs, owner-occupancy, and property history.</p>
+    <p>Key signals the LLM weighs:</p>
+    <ul>
+      <li>Simultaneous kitchen + bathroom renovations → high likelihood</li>
+      <li>Non-owner-occupied property with significant work → high likelihood</li>
+      <li>Maintenance-only work (roof, HVAC, solar) by long-term owner → low likelihood</li>
+    </ul>
+    <p>Addresses are processed in parallel (up to 10 at once) to keep run time reasonable.</p>
+  </div>
+
+
+</main>
+
+<script>
+function isDark() {
+  const t = document.documentElement.dataset.theme;
+  if (t) return t === 'dark';
+  return window.matchMedia('(prefers-color-scheme: dark)').matches;
+}
+function updateThemeBtn() {
+  document.getElementById('theme-toggle').textContent = isDark() ? '☀' : '🌙';
+}
+document.getElementById('theme-toggle').addEventListener('click', () => {
+  const next = isDark() ? 'light' : 'dark';
+  document.documentElement.dataset.theme = next;
+  localStorage.setItem('permit-scanner-theme', next);
+  updateThemeBtn();
+});
+updateThemeBtn();
+</script>
+</body>
+</html>

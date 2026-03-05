@@ -11,7 +11,8 @@
     "last_sale_date": "2004-11-05",
     "last_sale_price": 560000,
     "assessed_value": 1285200,
-    "lot_size": 0.0794
+    "lot_size": 0.0794,
+    "property_parcel": "17_I_2"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Davis",

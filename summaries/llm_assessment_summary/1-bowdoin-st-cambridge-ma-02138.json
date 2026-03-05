@@ -13,7 +13,9 @@
     "last_sale_date": "2023-08-10T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "1520200",
-    "lot_size": "3375"
+    "lot_size": "3375",
+    "property_pid": "13920",
+    "property_parcel": "174-84"
   },
   "property_use": "Townhouse",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Marvin Replacement LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($68,438); keyword: structural"
+      "score_reasons": "moderate cost ($68,438); keyword: structural",
+      "permit_id": "257153"
     }
   ],
   "llm_assessment": {

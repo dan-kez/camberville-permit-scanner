@@ -13,7 +13,8 @@
     "last_sale_date": "2022-01-26",
     "last_sale_price": 830000,
     "assessed_value": 798000,
-    "lot_size": 0.0698
+    "lot_size": 0.0698,
+    "property_parcel": "90_C_33"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: framing"
+      "score_reasons": "keyword: framing",
+      "permit_id": "38071641",
+      "permit_number": "B24-001257"
     },
     {
       "date": "2023-12-11",
@@ -46,7 +49,9 @@
       "contractor": "Trinity Solar LLC",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "keyword: structural; minor: solar; permit completed"
+      "score_reasons": "keyword: structural; minor: solar; permit completed",
+      "permit_id": "13987142",
+      "permit_number": "E23-001831"
     }
   ],
   "llm_assessment": {

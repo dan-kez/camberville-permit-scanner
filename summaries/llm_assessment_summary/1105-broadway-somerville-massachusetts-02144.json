@@ -13,7 +13,8 @@
     "last_sale_date": "2021-03-31",
     "last_sale_price": 1315000,
     "assessed_value": 1335200,
-    "lot_size": 0.1029
+    "lot_size": 0.1029,
+    "property_parcel": "11_G_12"
   },
   "property_use": "Plumbing Permit - Residential - New",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Hantyler Corp",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: full; permit completed; all permits completed"
+      "score_reasons": "keyword: full; permit completed; all permits completed",
+      "permit_id": "12222441",
+      "permit_number": "P23-000571"
     },
     {
       "date": "2023-07-03",
@@ -46,7 +49,9 @@
       "contractor": "S&W Consulting Group",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "11796329",
+      "permit_number": "B23-000894"
     },
     {
       "date": "2023-07-27",
@@ -58,7 +63,9 @@
       "contractor": "Chio Electrician",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "12094744",
+      "permit_number": "E23-001187"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,9 @@
     "last_sale_date": "1999-12-28T00:00:00.000",
     "last_sale_price": "613500",
     "assessed_value": "1697500",
-    "lot_size": "4495"
+    "lot_size": "4495",
+    "property_pid": "5371",
+    "property_parcel": "97-10"
   },
   "property_use": "One or Two Family Dwelling",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "ANTONIO B NARDELLI, JR",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "high cost ($550,000); new construction"
+      "score_reasons": "high cost ($550,000); new construction",
+      "permit_id": "1188836"
     }
   ],
   "llm_assessment": {

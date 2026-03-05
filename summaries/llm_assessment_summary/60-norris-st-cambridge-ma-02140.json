@@ -13,7 +13,9 @@
     "last_sale_date": "2021-10-29T00:00:00.000",
     "last_sale_price": "70000",
     "assessed_value": "947800",
-    "lot_size": "2648"
+    "lot_size": "2648",
+    "property_pid": "15911",
+    "property_parcel": "192-57"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Anderson and Sons Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($484,356); keyword: gut; minor: insulation"
+      "score_reasons": "high cost ($484,356); keyword: gut; minor: insulation",
+      "permit_id": "266030"
     }
   ],
   "llm_assessment": {

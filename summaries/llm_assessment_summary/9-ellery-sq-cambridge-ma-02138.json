@@ -13,7 +13,9 @@
     "last_sale_date": "2021-07-13T00:00:00.000",
     "last_sale_price": "2000000",
     "assessed_value": "2100100",
-    "lot_size": "901"
+    "lot_size": "901",
+    "property_pid": "10968",
+    "property_parcel": "135-133"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Charlie-Allen Renovations",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($238,700); keyword: gut"
+      "score_reasons": "high cost ($238,700); keyword: gut",
+      "permit_id": "275956"
     }
   ],
   "llm_assessment": {

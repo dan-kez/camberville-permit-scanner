@@ -13,7 +13,8 @@
     "last_sale_date": "2023-10-23",
     "last_sale_price": 860000,
     "assessed_value": 764100,
-    "lot_size": 0.0517
+    "lot_size": 0.0517,
+    "property_parcel": "92_A_8"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Kuhlman Electrical Services",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14003398",
+      "permit_number": "E23-001906"
     }
   ],
   "llm_assessment": {

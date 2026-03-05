@@ -13,7 +13,8 @@
     "last_sale_date": "2009-12-14",
     "last_sale_price": 0,
     "assessed_value": 654900,
-    "lot_size": 0.0539
+    "lot_size": 0.0539,
+    "property_parcel": "91_A_24"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "51253635",
+      "permit_number": "B24-001739"
     },
     {
       "date": "2024-09-09",
@@ -46,7 +49,9 @@
       "contractor": "Suffolk Weatherization LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51191354",
+      "permit_number": "B24-001553"
     },
     {
       "date": "2024-10-03",
@@ -58,7 +63,9 @@
       "contractor": "GH Electrical Services DBA Hassett Electrical Services",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51262813",
+      "permit_number": "E24-001605"
     },
     {
       "date": "2024-11-01",
@@ -70,7 +77,9 @@
       "contractor": "Homero Morais",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: water heater; permit completed; all permits completed"
+      "score_reasons": "minor: water heater; permit completed; all permits completed",
+      "permit_id": "51289768",
+      "permit_number": "P24-000623"
     }
   ],
   "llm_assessment": {

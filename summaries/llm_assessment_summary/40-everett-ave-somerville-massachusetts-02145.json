@@ -13,7 +13,8 @@
     "last_sale_date": "2022-05-19",
     "last_sale_price": 810000,
     "assessed_value": 744300,
-    "lot_size": 0.1218
+    "lot_size": 0.1218,
+    "property_parcel": "90_G_2"
   },
   "property_use": "Building Permit - Residential Addition",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "MLA Consultants",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: addition; permit completed; all permits completed"
+      "score_reasons": "keyword: addition; permit completed; all permits completed",
+      "permit_id": "11590530",
+      "permit_number": "B23-000729"
     }
   ],
   "llm_assessment": {

@@ -11,7 +11,8 @@
     "last_sale_date": "2023-05-09",
     "last_sale_price": 625000,
     "assessed_value": 618300,
-    "lot_size": 0.0473
+    "lot_size": 0.0473,
+    "property_parcel": "90_C_8"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Union",

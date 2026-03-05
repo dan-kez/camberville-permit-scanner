@@ -13,7 +13,9 @@
     "last_sale_date": "2019-03-01T00:00:00.000",
     "last_sale_price": "2900000",
     "assessed_value": "4052100",
-    "lot_size": "3377"
+    "lot_size": "3377",
+    "property_pid": "18361",
+    "property_parcel": "215-64"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Auburndale Builders",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($25,500); keyword: gut"
+      "score_reasons": "moderate cost ($25,500); keyword: gut",
+      "permit_id": "1193474"
     }
   ],
   "llm_assessment": {

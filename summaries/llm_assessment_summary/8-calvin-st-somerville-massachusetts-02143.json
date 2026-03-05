@@ -13,7 +13,8 @@
     "last_sale_date": "2016-07-01",
     "last_sale_price": 860000,
     "assessed_value": 1197600,
-    "lot_size": 0.0675
+    "lot_size": 0.0675,
+    "property_parcel": "65_A_4"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Express Remodeling Group",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "51255964",
+      "permit_number": "B24-001751"
     },
     {
       "date": "2024-10-17",
@@ -46,7 +49,9 @@
       "contractor": "Fernando lopes licensed electrician INC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51278725",
+      "permit_number": "E24-001645"
     }
   ],
   "llm_assessment": {

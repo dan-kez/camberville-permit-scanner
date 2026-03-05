@@ -13,7 +13,8 @@
     "last_sale_date": "2018-03-11",
     "last_sale_price": 0,
     "assessed_value": 1101300,
-    "lot_size": 0.08610000000000001
+    "lot_size": 0.08610000000000001,
+    "property_parcel": "13_D_17"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "GCF PHD",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13981691",
+      "permit_number": "G23-000555"
     }
   ],
   "llm_assessment": {

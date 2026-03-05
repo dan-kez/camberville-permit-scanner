@@ -11,7 +11,8 @@
     "last_sale_date": "2019-09-05",
     "last_sale_price": 100,
     "assessed_value": 747700,
-    "lot_size": 0.0273
+    "lot_size": 0.0273,
+    "property_parcel": "83_E_29"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",

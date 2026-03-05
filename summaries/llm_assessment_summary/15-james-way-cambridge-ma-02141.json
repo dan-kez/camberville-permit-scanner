@@ -13,7 +13,9 @@
     "last_sale_date": "2015-09-09T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "1042400",
-    "lot_size": "3550"
+    "lot_size": "3550",
+    "property_pid": "2373",
+    "property_parcel": "39-162"
   },
   "property_use": "Townhouse",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "jt construction and remodeling LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($26,000); keyword: renovate"
+      "score_reasons": "moderate cost ($26,000); keyword: renovate",
+      "permit_id": "1178477"
     }
   ],
   "llm_assessment": {

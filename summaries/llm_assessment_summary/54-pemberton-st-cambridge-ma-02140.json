@@ -34,7 +34,8 @@
       "contractor": "MTC BuildersLLC",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($58,440)"
+      "score_reasons": "moderate cost ($58,440)",
+      "permit_id": "1168640"
     }
   ],
   "llm_assessment": {

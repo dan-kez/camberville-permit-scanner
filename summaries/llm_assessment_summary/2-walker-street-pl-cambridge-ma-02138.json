@@ -13,7 +13,9 @@
     "last_sale_date": "2013-07-10T00:00:00.000",
     "last_sale_price": "0",
     "assessed_value": "1672300",
-    "lot_size": "2537"
+    "lot_size": "2537",
+    "property_pid": "18041",
+    "property_parcel": "214-22"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Bertola Custom Homes",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($100,477); keyword: remodel"
+      "score_reasons": "moderate cost ($100,477); keyword: remodel",
+      "permit_id": "285475"
     }
   ],
   "llm_assessment": {

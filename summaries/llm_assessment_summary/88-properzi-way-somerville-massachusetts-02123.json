@@ -13,7 +13,8 @@
     "last_sale_date": "2018-10-23",
     "last_sale_price": 1600000,
     "assessed_value": 1775600,
-    "lot_size": 0.1693
+    "lot_size": 0.1693,
+    "property_parcel": "54_G_23"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Marcell Construction Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51108924",
+      "permit_number": "B24-001406"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "1994-04-20",
     "last_sale_price": 94000,
     "assessed_value": 699100,
-    "lot_size": 0.0471
+    "lot_size": 0.0471,
+    "property_parcel": "63_C_24"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Justin pawlik",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14173653",
+      "permit_number": "E24-000201"
     },
     {
       "date": "2024-01-12",
@@ -46,7 +49,9 @@
       "contractor": "Erie Construction Mid West  Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: siding; permit completed; all permits completed"
+      "score_reasons": "minor: siding; permit completed; all permits completed",
+      "permit_id": "10292008",
+      "permit_number": "B22-000927"
     }
   ],
   "llm_assessment": {

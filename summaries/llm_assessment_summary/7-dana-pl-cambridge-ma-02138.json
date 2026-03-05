@@ -34,7 +34,8 @@
       "contractor": "Pro Touch Home Improvement",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($44,460)"
+      "score_reasons": "moderate cost ($44,460)",
+      "permit_id": "1195101"
     }
   ],
   "llm_assessment": {

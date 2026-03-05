@@ -13,7 +13,8 @@
     "last_sale_date": "2023-07-26",
     "last_sale_price": 925000,
     "assessed_value": 1336700,
-    "lot_size": 0.1148
+    "lot_size": 0.1148,
+    "property_parcel": "9_A_10"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Rick Picardi",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "12208137",
+      "permit_number": "E23-001299"
     },
     {
       "date": "2023-11-03",
@@ -46,7 +49,9 @@
       "contractor": "Treadstone Construction, LLC.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: convert; permit completed; most permits completed"
+      "score_reasons": "keyword: convert; permit completed; most permits completed",
+      "permit_id": "12228210",
+      "permit_number": "B23-001533"
     },
     {
       "date": "2024-04-24",
@@ -58,7 +63,9 @@
       "contractor": "Rick Picardi",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "14346228",
+      "permit_number": "E24-000637"
     },
     {
       "date": "2023-08-18",
@@ -70,7 +77,9 @@
       "contractor": "Treadstone Construction, LLC.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12175772",
+      "permit_number": "B23-001352"
     },
     {
       "date": "2023-10-16",
@@ -82,7 +91,9 @@
       "contractor": "Bruno Brothers Plumbing & Hvac",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "keyword: renovation; most permits completed"
+      "score_reasons": "keyword: renovation; most permits completed",
+      "permit_id": "13909200",
+      "permit_number": "G23-000488"
     },
     {
       "date": "2023-10-16",
@@ -94,7 +105,9 @@
       "contractor": "Bruno Brothers Plumbing & Hvac",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "keyword: renovation; most permits completed"
+      "score_reasons": "keyword: renovation; most permits completed",
+      "permit_id": "13909200",
+      "permit_number": "G23-000488"
     },
     {
       "date": "2024-01-19",
@@ -106,7 +119,9 @@
       "contractor": "PTL Plumbing",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14121699",
+      "permit_number": "P24-000021"
     },
     {
       "date": "2024-10-25",
@@ -118,7 +133,9 @@
       "contractor": "Treadstone Construction, LLC.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "keyword: convert; most permits completed"
+      "score_reasons": "keyword: convert; most permits completed",
+      "permit_id": "51246539",
+      "permit_number": "CO24-000156"
     }
   ],
   "llm_assessment": {

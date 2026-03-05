@@ -13,7 +13,8 @@
     "last_sale_date": "2001-07-13",
     "last_sale_price": 425000,
     "assessed_value": 1604700,
-    "lot_size": 0.079
+    "lot_size": 0.079,
+    "property_parcel": "28_C_7"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Revision Energy",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12081036",
+      "permit_number": "E23-001142"
     },
     {
       "date": "2023-09-13",
@@ -46,7 +49,9 @@
       "contractor": "Nadeau Electric LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "12307144",
+      "permit_number": "E23-001455"
     }
   ],
   "llm_assessment": {

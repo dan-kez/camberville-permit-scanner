@@ -13,7 +13,8 @@
     "last_sale_date": "2018-05-31",
     "last_sale_price": 833000,
     "assessed_value": 1052700,
-    "lot_size": 0.1233
+    "lot_size": 0.1233,
+    "property_parcel": "73_A_4"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Alcantara Contractor Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovate; permit completed; most permits completed"
+      "score_reasons": "keyword: renovate; permit completed; most permits completed",
+      "permit_id": "14004850",
+      "permit_number": "B23-002092"
     },
     {
       "date": "2024-11-06",
@@ -46,7 +49,9 @@
       "contractor": "Ravair Costa Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: full; permit completed; most permits completed"
+      "score_reasons": "keyword: full; permit completed; most permits completed",
+      "permit_id": "51282136",
+      "permit_number": "E24-001666"
     },
     {
       "date": "2024-09-30",
@@ -58,7 +63,9 @@
       "contractor": "Bay State Plumbing and Gas Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel; minor: furnace; permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; minor: furnace; permit completed; most permits completed",
+      "permit_id": "51244823",
+      "permit_number": "P24-000571"
     },
     {
       "date": "2024-09-30",
@@ -70,7 +77,9 @@
       "contractor": "Bay State Plumbing and Gas Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: remodel; minor: water heater; permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; minor: water heater; permit completed; most permits completed",
+      "permit_id": "51244823",
+      "permit_number": "P24-000571"
     },
     {
       "date": "2024-07-22",
@@ -82,7 +91,9 @@
       "contractor": "Alcantara Contractor Inc",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "51075874",
+      "permit_number": "DP24-000119"
     },
     {
       "date": "2024-10-24",
@@ -94,7 +105,9 @@
       "contractor": "Alcantara Contractor Inc",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "51326417",
+      "permit_number": "DP24-000174"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2017-12-29",
     "last_sale_price": 1,
     "assessed_value": 2086900,
-    "lot_size": 0.1037
+    "lot_size": 0.1037,
+    "property_parcel": "16_C_30"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Masis Cinar Electrician",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14451508",
+      "permit_number": "E24-000898"
     }
   ],
   "llm_assessment": {

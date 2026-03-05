@@ -13,7 +13,8 @@
     "last_sale_date": "2020-10-01",
     "last_sale_price": 1,
     "assessed_value": 1244100,
-    "lot_size": 0.0506
+    "lot_size": 0.0506,
+    "property_parcel": "17_G_2"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Blacklight electric inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; permit completed; most permits completed",
+      "permit_id": "51199375",
+      "permit_number": "E24-001431"
     },
     {
       "date": "2023-08-14",
@@ -46,7 +49,9 @@
       "contractor": "D'Ambrosio Electric Inc.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12179437",
+      "permit_number": "E23-001220"
     },
     {
       "date": "2024-08-01",
@@ -58,7 +63,9 @@
       "contractor": "Stella Construction",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "17070058",
+      "permit_number": "B24-001236"
     },
     {
       "date": "2024-09-18",
@@ -70,7 +77,9 @@
       "contractor": "Precision Plumbing & HVAC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51222591",
+      "permit_number": "G24-000428"
     },
     {
       "date": "2024-09-18",
@@ -82,7 +91,9 @@
       "contractor": "Precision Plumbing & HVAC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51222591",
+      "permit_number": "G24-000428"
     },
     {
       "date": "2023-08-25",
@@ -94,7 +105,9 @@
       "contractor": "Cooling Unlimited, Inc.",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "12026268",
+      "permit_number": "B23-001081"
     },
     {
       "date": "2024-10-02",
@@ -106,7 +119,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "51207660",
+      "permit_number": "PEL24-000220"
     }
   ],
   "llm_assessment": {

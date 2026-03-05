@@ -13,7 +13,9 @@
     "last_sale_date": "2024-05-16T00:00:00.000",
     "last_sale_price": "1300000",
     "assessed_value": "1580200",
-    "lot_size": "2250"
+    "lot_size": "2250",
+    "property_pid": "9723",
+    "property_parcel": "125-61"
   },
   "property_use": "Townhouse",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "BenJon Construction & Consulting Services, LLC",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($274,550); keyword: demolition; minor: sign; permit completed; all permits completed"
+      "score_reasons": "high cost ($274,550); keyword: demolition; minor: sign; permit completed; all permits completed",
+      "permit_id": "277911"
     }
   ],
   "llm_assessment": {

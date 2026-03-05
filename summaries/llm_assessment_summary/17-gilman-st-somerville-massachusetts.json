@@ -13,7 +13,8 @@
     "last_sale_date": "2013-06-28",
     "last_sale_price": 639000,
     "assessed_value": 1463900,
-    "lot_size": 0.2033
+    "lot_size": 0.2033,
+    "property_parcel": "92_K_22"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Domination Plumbing and Heating",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51338464",
+      "permit_number": "G24-000538"
     },
     {
       "date": "2024-11-06",
@@ -46,7 +49,9 @@
       "contractor": "Domination Plumbing and Heating",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51338464",
+      "permit_number": "G24-000538"
     }
   ],
   "llm_assessment": {

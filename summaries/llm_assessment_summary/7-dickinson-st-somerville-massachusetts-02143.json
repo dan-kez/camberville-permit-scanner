@@ -11,7 +11,8 @@
     "last_sale_date": "1975-08-29",
     "last_sale_price": 0,
     "assessed_value": 887800,
-    "lot_size": 0.024800000000000003
+    "lot_size": 0.024800000000000003,
+    "property_parcel": "76_C_15"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Inman",

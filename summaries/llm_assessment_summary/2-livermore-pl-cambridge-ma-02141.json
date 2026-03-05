@@ -13,7 +13,9 @@
     "last_sale_date": "2024-10-03T00:00:00.000",
     "last_sale_price": "820000",
     "assessed_value": "843800",
-    "lot_size": "925"
+    "lot_size": "925",
+    "property_pid": "3651",
+    "property_parcel": "79-128"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "royalty finish carpentry",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($225,000); keyword: renovation; minor: insulation"
+      "score_reasons": "high cost ($225,000); keyword: renovation; minor: insulation",
+      "permit_id": "1165370"
     }
   ],
   "llm_assessment": {

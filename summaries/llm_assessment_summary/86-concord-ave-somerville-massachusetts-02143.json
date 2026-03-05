@@ -13,7 +13,8 @@
     "last_sale_date": "2022-03-28",
     "last_sale_price": 100,
     "assessed_value": 1172500,
-    "lot_size": 0.0492
+    "lot_size": 0.0492,
+    "property_parcel": "76_C_2"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Joseph Spinale",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12223109",
+      "permit_number": "E23-001349"
     },
     {
       "date": "2024-03-12",
@@ -46,7 +49,9 @@
       "contractor": "Executive Plumbing and heating llc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14224101",
+      "permit_number": "P24-000129"
     },
     {
       "date": "2024-07-31",
@@ -58,7 +63,9 @@
       "contractor": "Our House Contracting",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "17054271",
+      "permit_number": "B24-001183"
     },
     {
       "date": "2023-10-02",
@@ -70,7 +77,9 @@
       "contractor": "Our House Contracting",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: gut; minor: sign; permit completed; all permits completed"
+      "score_reasons": "keyword: gut; minor: sign; permit completed; all permits completed",
+      "permit_id": "12048787",
+      "permit_number": "B23-001168"
     },
     {
       "date": "2024-06-28",
@@ -82,7 +91,9 @@
       "contractor": "Joseph Spinale",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: siding; permit completed; all permits completed"
+      "score_reasons": "minor: siding; permit completed; all permits completed",
+      "permit_id": "17027371",
+      "permit_number": "E24-000990"
     },
     {
       "date": "2024-09-25",
@@ -94,7 +105,9 @@
       "contractor": "Executive Plumbing and heating llc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "14278229",
+      "permit_number": "G24-000162"
     },
     {
       "date": "2024-11-05",
@@ -106,7 +119,9 @@
       "contractor": "Unique Indoor Comfort",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "51255938",
+      "permit_number": "SM24-000221"
     }
   ],
   "llm_assessment": {

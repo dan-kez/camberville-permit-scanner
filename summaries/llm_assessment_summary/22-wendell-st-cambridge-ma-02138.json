@@ -23,7 +23,8 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($507,000); keyword: gut; minor: siding"
+      "score_reasons": "high cost ($507,000); keyword: gut; minor: siding",
+      "permit_id": "257613"
     }
   ],
   "llm_assessment": {

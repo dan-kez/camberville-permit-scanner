@@ -13,7 +13,9 @@
     "last_sale_date": "2001-07-30T00:00:00.000",
     "last_sale_price": "549000",
     "assessed_value": "1588900",
-    "lot_size": "2925"
+    "lot_size": "2925",
+    "property_pid": "5709",
+    "property_parcel": "100-8"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "CDI",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($47,300); keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($47,300); keyword: remodel; permit completed; all permits completed",
+      "permit_id": "1139901"
     }
   ],
   "llm_assessment": {

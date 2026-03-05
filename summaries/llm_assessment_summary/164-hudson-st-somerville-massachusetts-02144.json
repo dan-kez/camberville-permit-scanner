@@ -13,7 +13,8 @@
     "last_sale_date": "1997-03-27",
     "last_sale_price": 170000,
     "assessed_value": 1251900,
-    "lot_size": 0.1109
+    "lot_size": 0.1109,
+    "property_parcel": "34_E_7"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Bruin Corp of Framingham",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51343048",
+      "permit_number": "B24-001989"
     }
   ],
   "llm_assessment": {

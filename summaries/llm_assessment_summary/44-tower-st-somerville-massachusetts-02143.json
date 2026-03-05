@@ -13,7 +13,8 @@
     "last_sale_date": "1997-12-05",
     "last_sale_price": 1,
     "assessed_value": 980200,
-    "lot_size": 0.07640000000000001
+    "lot_size": 0.07640000000000001,
+    "property_parcel": "35_E_18"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Costas Hatzis Electric",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "14269023",
+      "permit_number": "E24-000414"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2021-03-01",
     "last_sale_price": 1,
     "assessed_value": 803900,
-    "lot_size": 0.0589
+    "lot_size": 0.0589,
+    "property_parcel": "105_B_25"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Trinity Solar LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "51106776",
+      "permit_number": "E24-001281"
     }
   ],
   "llm_assessment": {

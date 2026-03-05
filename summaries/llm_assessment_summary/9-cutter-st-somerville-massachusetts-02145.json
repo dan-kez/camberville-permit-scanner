@@ -13,7 +13,8 @@
     "last_sale_date": "2022-11-10",
     "last_sale_price": 510000,
     "assessed_value": 507700,
-    "lot_size": 0.039900000000000005
+    "lot_size": 0.039900000000000005,
+    "property_parcel": "91_A_9_A"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "SG GROUP INC.",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "13995226",
+      "permit_number": "E23-001871"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,9 @@
     "last_sale_date": "2022-04-14T00:00:00.000",
     "last_sale_price": "1925000",
     "assessed_value": "1678000",
-    "lot_size": "2227"
+    "lot_size": "2227",
+    "property_pid": "5708",
+    "property_parcel": "100-7"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Pro Touch construction",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($98,092); keyword: renovation"
+      "score_reasons": "moderate cost ($98,092); keyword: renovation",
+      "permit_id": "237069"
     }
   ],
   "llm_assessment": {

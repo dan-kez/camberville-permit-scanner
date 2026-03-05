@@ -13,7 +13,9 @@
     "last_sale_date": "2023-05-16T00:00:00.000",
     "last_sale_price": "2150000",
     "assessed_value": "2606600",
-    "lot_size": "3789"
+    "lot_size": "3789",
+    "property_pid": "17451",
+    "property_parcel": "206-23"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Creative Construction",
       "owner_occupied": true,
       "score": 10,
-      "score_reasons": "high cost ($600,000); keyword: gut; permit completed; all permits completed"
+      "score_reasons": "high cost ($600,000); keyword: gut; permit completed; all permits completed",
+      "permit_id": "255179"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "1993-02-12",
     "last_sale_price": 104500,
     "assessed_value": 856300,
-    "lot_size": 0.0543
+    "lot_size": 0.0543,
+    "property_parcel": "62_C_8"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Luis Matute",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: renovation; permit completed"
+      "score_reasons": "keyword: renovation; permit completed",
+      "permit_id": "14290336",
+      "permit_number": "B24-000508"
     },
     {
       "date": "2024-05-02",
@@ -46,7 +49,9 @@
       "contractor": "Luis Matute",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: renovation; permit completed"
+      "score_reasons": "keyword: renovation; permit completed",
+      "permit_id": "14296724",
+      "permit_number": "E24-000503"
     }
   ],
   "llm_assessment": {

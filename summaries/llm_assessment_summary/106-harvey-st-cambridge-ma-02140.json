@@ -23,7 +23,8 @@
       "contractor": "Michael T Pendleton",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($74,875)"
+      "score_reasons": "moderate cost ($74,875)",
+      "permit_id": "1150168"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,8 @@
     "last_sale_date": "2021-05-03",
     "last_sale_price": 1276000,
     "assessed_value": 1307200,
-    "lot_size": 0.1078
+    "lot_size": 0.1078,
+    "property_parcel": "75_F_7"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Luxx Builders Corp",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: rebuild; permit completed; most permits completed"
+      "score_reasons": "keyword: rebuild; permit completed; most permits completed",
+      "permit_id": "14416276",
+      "permit_number": "B24-000885"
     },
     {
       "date": "2024-11-05",
@@ -46,7 +49,9 @@
       "contractor": "Nilson O Viera-Navarro",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51339582",
+      "permit_number": "E24-001782"
     }
   ],
   "llm_assessment": {

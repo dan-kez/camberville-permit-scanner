@@ -11,7 +11,8 @@
     "last_sale_date": "1997-07-01",
     "last_sale_price": 374000,
     "assessed_value": 1632200,
-    "lot_size": 0.25880000000000003
+    "lot_size": 0.25880000000000003,
+    "property_parcel": "43_C_15"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Porter",

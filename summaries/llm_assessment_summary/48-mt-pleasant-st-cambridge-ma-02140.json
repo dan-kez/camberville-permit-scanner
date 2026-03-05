@@ -13,7 +13,9 @@
     "last_sale_date": "2011-07-14T00:00:00.000",
     "last_sale_price": "1192500",
     "assessed_value": "2272700",
-    "lot_size": "2956"
+    "lot_size": "2956",
+    "property_pid": "17015",
+    "property_parcel": "201-27"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Eduardo's Painting and Remodeling",
       "owner_occupied": true,
       "score": 6,
-      "score_reasons": "moderate cost ($70,000); permit completed; all permits completed"
+      "score_reasons": "moderate cost ($70,000); permit completed; all permits completed",
+      "permit_id": "1177034"
     }
   ],
   "llm_assessment": {

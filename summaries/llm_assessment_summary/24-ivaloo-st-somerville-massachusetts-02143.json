@@ -13,7 +13,8 @@
     "last_sale_date": "2019-04-08",
     "last_sale_price": 100,
     "assessed_value": 1109200,
-    "lot_size": 0.0689
+    "lot_size": 0.0689,
+    "property_parcel": "45_D_1"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "MECHO CONTRACTING, INC.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14308922",
+      "permit_number": "B24-000564"
     },
     {
       "date": "2024-10-03",
@@ -46,7 +49,9 @@
       "contractor": "Sousa Construction & Cleaning Services Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51225290",
+      "permit_number": "B24-001644"
     }
   ],
   "llm_assessment": {

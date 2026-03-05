@@ -13,7 +13,8 @@
     "last_sale_date": "2022-05-12",
     "last_sale_price": 1400000,
     "assessed_value": 1258500,
-    "lot_size": 0.06380000000000001
+    "lot_size": 0.06380000000000001,
+    "property_parcel": "73_A_43"
   },
   "property_use": "Building Permit - Residential Addition",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Any Season Builders LLC",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; permit completed; all permits completed",
+      "permit_id": "11227243",
+      "permit_number": "B23-000112"
     },
     {
       "date": "2023-10-06",
@@ -46,7 +49,9 @@
       "contractor": "Valentim plumbing & htg",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13896956",
+      "permit_number": "G23-000471"
     },
     {
       "date": "2023-10-11",
@@ -58,7 +63,9 @@
       "contractor": "Valentim plumbing & htg",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13896902",
+      "permit_number": "P23-000670"
     },
     {
       "date": "2023-11-14",
@@ -70,7 +77,9 @@
       "contractor": "Thien Le Electrical",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13935651",
+      "permit_number": "E23-001707"
     },
     {
       "date": "2024-03-14",
@@ -82,7 +91,9 @@
       "contractor": "Thien Le Electrical",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14218620",
+      "permit_number": "E24-000328"
     }
   ],
   "llm_assessment": {

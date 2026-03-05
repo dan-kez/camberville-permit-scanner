@@ -13,7 +13,8 @@
     "last_sale_date": "2015-09-16",
     "last_sale_price": 1,
     "assessed_value": 900100,
-    "lot_size": 0.0413
+    "lot_size": 0.0413,
+    "property_parcel": "83_F_4"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "Eddy W Herrera Quezada",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "12206884",
+      "permit_number": "E23-001296"
     },
     {
       "date": "2023-09-07",
@@ -46,7 +49,9 @@
       "contractor": "NORTH ANDOVER MECHANICAL CONST. INC.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12089811",
+      "permit_number": "P23-000487"
     },
     {
       "date": "2023-06-30",
@@ -58,7 +63,9 @@
       "contractor": "MECHO CONTRACTING, INC.",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "11795855",
+      "permit_number": "B23-000892"
     }
   ],
   "llm_assessment": {

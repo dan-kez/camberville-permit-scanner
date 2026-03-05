@@ -13,7 +13,9 @@
     "last_sale_date": "2021-12-29T00:00:00.000",
     "last_sale_price": "1024000",
     "assessed_value": "1096400",
-    "lot_size": "5002"
+    "lot_size": "5002",
+    "property_pid": "15319",
+    "property_parcel": "186-94"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Markos Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($213,800); keyword: remodel; minor: sign"
+      "score_reasons": "high cost ($213,800); keyword: remodel; minor: sign",
+      "permit_id": "282622"
     }
   ],
   "llm_assessment": {

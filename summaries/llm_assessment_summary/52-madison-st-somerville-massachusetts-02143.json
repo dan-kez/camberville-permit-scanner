@@ -13,7 +13,8 @@
     "last_sale_date": "2018-11-16",
     "last_sale_price": 999000,
     "assessed_value": 1216900,
-    "lot_size": 0.0734
+    "lot_size": 0.0734,
+    "property_parcel": "50_F_2"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Rick Picardi",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "12066015",
+      "permit_number": "E23-001101"
     }
   ],
   "llm_assessment": {

@@ -13,7 +13,9 @@
     "last_sale_date": "2023-10-31T00:00:00.000",
     "last_sale_price": "1700000",
     "assessed_value": "1428600",
-    "lot_size": "1660"
+    "lot_size": "1660",
+    "property_pid": "6281",
+    "property_parcel": "104-50"
   },
   "property_use": "Townhouse",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Pessote Construction Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "moderate cost ($72,750); keyword: gut; minor: insulation; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($72,750); keyword: gut; minor: insulation; permit completed; all permits completed",
+      "permit_id": "248480"
     }
   ],
   "llm_assessment": {

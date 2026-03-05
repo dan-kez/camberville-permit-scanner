@@ -23,7 +23,8 @@
       "contractor": "RENEWAL BY ANDERSEN LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($28,789); keyword: structural"
+      "score_reasons": "moderate cost ($28,789); keyword: structural",
+      "permit_id": "1158327"
     }
   ],
   "llm_assessment": {

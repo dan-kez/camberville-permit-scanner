@@ -13,7 +13,8 @@
     "last_sale_date": "2022-09-26",
     "last_sale_price": 1,
     "assessed_value": 1491500,
-    "lot_size": 0.0983
+    "lot_size": 0.0983,
+    "property_parcel": "30_C_9"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "WIREWORKS LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: foundation; permit completed; most permits completed"
+      "score_reasons": "keyword: foundation; permit completed; most permits completed",
+      "permit_id": "12386476",
+      "permit_number": "E23-001521"
     },
     {
       "date": "2024-01-25",
@@ -46,7 +49,9 @@
       "contractor": "Tziavas & Son",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14138030",
+      "permit_number": "P24-000033"
     },
     {
       "date": "2024-03-18",
@@ -58,7 +63,9 @@
       "contractor": "WIREWORKS LLC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12324961",
+      "permit_number": "E23-001516"
     },
     {
       "date": "2023-07-19",
@@ -70,7 +77,9 @@
       "contractor": "Nick Portnoy Builders LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: gut; minor: insulation; permit completed; most permits completed"
+      "score_reasons": "keyword: gut; minor: insulation; permit completed; most permits completed",
+      "permit_id": "11565616",
+      "permit_number": "B23-000627"
     },
     {
       "date": "2024-05-07",
@@ -82,7 +91,9 @@
       "contractor": "R. H. Young Cooling & Heating Inc",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "14314440",
+      "permit_number": "SM24-000084"
     }
   ],
   "llm_assessment": {

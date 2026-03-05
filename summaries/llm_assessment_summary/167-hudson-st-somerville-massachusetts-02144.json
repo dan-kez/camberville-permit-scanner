@@ -13,7 +13,8 @@
     "last_sale_date": "1994-08-31",
     "last_sale_price": 148000,
     "assessed_value": 928800,
-    "lot_size": 0.0814
+    "lot_size": 0.0814,
+    "property_parcel": "34_D_66"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Endless Energy New England Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14345588",
+      "permit_number": "E24-000636"
     },
     {
       "date": "2024-07-02",
@@ -46,7 +49,9 @@
       "contractor": "Endless Energy New England",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14345568",
+      "permit_number": "B24-000680"
     }
   ],
   "llm_assessment": {

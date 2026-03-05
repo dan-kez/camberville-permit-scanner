@@ -13,7 +13,8 @@
     "last_sale_date": "2023-10-04",
     "last_sale_price": 400000,
     "assessed_value": 845200,
-    "lot_size": 0.0528
+    "lot_size": 0.0528,
+    "property_parcel": "83_C_10"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "KNT Construction INC",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: gut; permit completed; all permits completed"
+      "score_reasons": "keyword: gut; permit completed; all permits completed",
+      "permit_id": "14267341",
+      "permit_number": "E24-000411"
     },
     {
       "date": "2024-06-13",
@@ -46,7 +49,9 @@
       "contractor": "Luciano Miranda Electrician",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "keyword: renovation; permit completed; all permits completed",
+      "permit_id": "14452546",
+      "permit_number": "E24-000902"
     },
     {
       "date": "2024-03-18",
@@ -58,7 +63,9 @@
       "contractor": "Luciano Miranda Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14267341",
+      "permit_number": "E24-000411"
     },
     {
       "date": "2024-06-11",
@@ -70,7 +77,9 @@
       "contractor": "RG Plumbing Solutions",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: remodel; minor: water heater; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; minor: water heater; permit completed; all permits completed",
+      "permit_id": "14438392",
+      "permit_number": "G24-000259"
     },
     {
       "date": "2024-06-11",
@@ -82,7 +91,9 @@
       "contractor": "RG Plumbing Solutions",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: remodel; minor: furnace; permit completed; all permits completed"
+      "score_reasons": "keyword: remodel; minor: furnace; permit completed; all permits completed",
+      "permit_id": "14438392",
+      "permit_number": "G24-000259"
     },
     {
       "date": "2024-05-21",
@@ -94,7 +105,9 @@
       "contractor": "KNT Construction INC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: shed; permit completed; all permits completed"
+      "score_reasons": "minor: shed; permit completed; all permits completed",
+      "permit_id": "14355510",
+      "permit_number": "B24-000714"
     },
     {
       "date": "2024-07-12",
@@ -106,7 +119,9 @@
       "contractor": "PET HVAC INC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "17026967",
+      "permit_number": "SM24-000140"
     }
   ],
   "llm_assessment": {

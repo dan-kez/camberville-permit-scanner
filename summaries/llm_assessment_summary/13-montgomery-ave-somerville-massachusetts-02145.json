@@ -13,7 +13,8 @@
     "last_sale_date": "2002-06-26",
     "last_sale_price": 305000,
     "assessed_value": 906600,
-    "lot_size": 0.0858
+    "lot_size": 0.0858,
+    "property_parcel": "78_A_7"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Primis Electric Corp",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; permit completed; most permits completed",
+      "permit_id": "13911863",
+      "permit_number": "E23-001639"
     },
     {
       "date": "2023-11-30",
@@ -46,7 +49,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12411944",
+      "permit_number": "B23-001697"
     },
     {
       "date": "2023-12-21",
@@ -58,7 +63,9 @@
       "contractor": "viviani plumbing",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "14083270",
+      "permit_number": "P23-000861"
     }
   ],
   "llm_assessment": {

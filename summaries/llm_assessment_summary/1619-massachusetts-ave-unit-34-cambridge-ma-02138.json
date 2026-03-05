@@ -13,7 +13,9 @@
     "last_sale_date": "2014-09-03T00:00:00.000",
     "last_sale_price": "845000",
     "assessed_value": "1190700",
-    "lot_size": "1437"
+    "lot_size": "1437",
+    "property_pid": "12615",
+    "property_parcel": "157-39-B2"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Wendel Klein Design Build",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($45,000); keyword: gut"
+      "score_reasons": "moderate cost ($45,000); keyword: gut",
+      "permit_id": "247909"
     }
   ],
   "llm_assessment": {

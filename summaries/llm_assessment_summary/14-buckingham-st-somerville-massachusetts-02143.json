@@ -11,7 +11,8 @@
     "last_sale_date": "1996-03-01",
     "last_sale_price": 0,
     "assessed_value": 1062800,
-    "lot_size": 0.082
+    "lot_size": 0.082,
+    "property_parcel": "66_C_7"
   },
   "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
   "nearest_square": "Inman",

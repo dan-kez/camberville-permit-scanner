@@ -13,7 +13,8 @@
     "last_sale_date": "2009-06-30",
     "last_sale_price": 802000,
     "assessed_value": 1651200,
-    "lot_size": 0.0781
+    "lot_size": 0.0781,
+    "property_parcel": "28_D_31"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Sparrow Electric d/b/a Gibbons Electric",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13928704",
+      "permit_number": "E23-001688"
     }
   ],
   "llm_assessment": {

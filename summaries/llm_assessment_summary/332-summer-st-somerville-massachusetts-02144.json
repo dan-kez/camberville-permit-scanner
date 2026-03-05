@@ -13,7 +13,8 @@
     "last_sale_date": "2007-02-05",
     "last_sale_price": 1,
     "assessed_value": 1222300,
-    "lot_size": 0.0756
+    "lot_size": 0.0756,
+    "property_parcel": "25_E_1"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Driscoll Contracting & Development, Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14426819",
+      "permit_number": "B24-000917"
     },
     {
       "date": "2024-07-29",
@@ -46,7 +49,9 @@
       "contractor": "Marco Tirella Electrician",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "17070663",
+      "permit_number": "E24-001090"
     },
     {
       "date": "2024-09-06",
@@ -58,7 +63,9 @@
       "contractor": "MJ Digby Plumbing & Heating",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51199908",
+      "permit_number": "P24-000519"
     },
     {
       "date": "2024-10-02",
@@ -70,7 +77,9 @@
       "contractor": "ima construction corp",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: reroof; permit completed; all permits completed"
+      "score_reasons": "minor: reroof; permit completed; all permits completed",
+      "permit_id": "51205865",
+      "permit_number": "B24-001592"
     }
   ],
   "llm_assessment": {

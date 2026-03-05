@@ -13,7 +13,9 @@
     "last_sale_date": "2024-04-23T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "1421600",
-    "lot_size": "1524"
+    "lot_size": "1524",
+    "property_pid": "2502",
+    "property_parcel": "40-255"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Renewal by Andersen LLC",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($33,363); keyword: structural; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($33,363); keyword: structural; permit completed; all permits completed",
+      "permit_id": "251437"
     }
   ],
   "llm_assessment": {

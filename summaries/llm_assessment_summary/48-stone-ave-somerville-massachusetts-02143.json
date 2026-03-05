@@ -11,7 +11,8 @@
     "last_sale_date": "2011-07-29",
     "last_sale_price": 750000,
     "assessed_value": 1481300,
-    "lot_size": 0.066
+    "lot_size": 0.066,
+    "property_parcel": "73_D_4"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",

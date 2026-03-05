@@ -13,7 +13,8 @@
     "last_sale_date": "2019-07-31",
     "last_sale_price": 977500,
     "assessed_value": 1077200,
-    "lot_size": 0.08070000000000001
+    "lot_size": 0.08070000000000001,
+    "property_parcel": "42_C_58"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "James DeOliveira",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "13960101",
+      "permit_number": "E23-001782"
     }
   ],
   "llm_assessment": {

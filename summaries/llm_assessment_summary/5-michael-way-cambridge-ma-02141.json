@@ -13,7 +13,9 @@
     "last_sale_date": "2022-08-03T00:00:00.000",
     "last_sale_price": "1350000",
     "assessed_value": "1139200",
-    "lot_size": "3336"
+    "lot_size": "3336",
+    "property_pid": "2353",
+    "property_parcel": "39-142"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "The Murphy Group",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($25,000); keyword: renovate; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($25,000); keyword: renovate; permit completed; all permits completed",
+      "permit_id": "1161337"
     }
   ],
   "llm_assessment": {

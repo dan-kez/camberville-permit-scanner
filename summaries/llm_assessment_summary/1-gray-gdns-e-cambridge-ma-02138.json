@@ -1,5 +1,7 @@
 {
   "address": "1 GRAY GDNS E, CAMBRIDGE, MA 02138",
+  "lat": 42.384574,
+  "lng": -71.126153,
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1+GRAY+GDNS+E%2C+CAMBRIDGE%2C+MA+02138",
   "zillow_url": "https://www.zillow.com/homes/1%20GRAY%20GDNS%20E%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
   "google_search_url": "https://www.google.com/search?q=1+GRAY+GDNS+E%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
@@ -13,7 +15,9 @@
     "last_sale_date": "1997-01-07T00:00:00.000",
     "last_sale_price": "780000",
     "assessed_value": "4102100",
-    "lot_size": "11922"
+    "lot_size": "11922",
+    "property_pid": "17556",
+    "property_parcel": "207-68"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,13 +38,12 @@
       "contractor": "RENEWAL BY ANDERSEN LLC",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($47,472); keyword: structural; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($47,472); keyword: structural; permit completed; all permits completed",
+      "permit_id": "1166975"
     }
   ],
   "llm_assessment": {
-    "likelihood": "error",
-    "reasoning": "timed out"
-  },
-  "lat": 42.384574,
-  "lng": -71.126153
+    "likelihood": "low",
+    "reasoning": "This is a single maintenance project for window replacement by a long-term owner-occupant, with no indications of high-end renovations or flips."
+  }
 }

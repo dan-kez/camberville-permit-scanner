@@ -13,7 +13,8 @@
     "last_sale_date": "2020-06-30",
     "last_sale_price": 1350000,
     "assessed_value": 1502400,
-    "lot_size": 0.0666
+    "lot_size": 0.0666,
+    "property_parcel": "44_C_2"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "128 Plumbing & Heating",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "14130072",
+      "permit_number": "G24-000054"
     },
     {
       "date": "2024-07-15",
@@ -46,7 +49,9 @@
       "contractor": "RB Farina Roofing & Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed"
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "17029614",
+      "permit_number": "B24-001112"
     }
   ],
   "llm_assessment": {

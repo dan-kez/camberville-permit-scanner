@@ -13,7 +13,9 @@
     "last_sale_date": "2024-07-11T00:00:00.000",
     "last_sale_price": "4276000",
     "assessed_value": "4225100",
-    "lot_size": "4407"
+    "lot_size": "4407",
+    "property_pid": "9715",
+    "property_parcel": "125-52"
   },
   "property_use": "Two-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Mark F Sullivan",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($35,000)"
+      "score_reasons": "moderate cost ($35,000)",
+      "permit_id": "1193761"
     }
   ],
   "llm_assessment": {

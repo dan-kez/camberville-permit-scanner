@@ -13,7 +13,9 @@
     "last_sale_date": "2010-07-09T00:00:00.000",
     "last_sale_price": "970000",
     "assessed_value": "2866800",
-    "lot_size": "5015"
+    "lot_size": "5015",
+    "property_pid": "17571",
+    "property_parcel": "208-12"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "FBN Construction Company LLC",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($279,371); keyword: structural; minor: shed; permit completed; all permits completed"
+      "score_reasons": "high cost ($279,371); keyword: structural; minor: shed; permit completed; all permits completed",
+      "permit_id": "1160698"
     },
     {
       "date": "2025-05-21",
@@ -46,7 +49,8 @@
       "contractor": "O Connell Carpentry and Remodeling",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "moderate cost ($62,700); keyword: framing; minor: insulation; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($62,700); keyword: framing; minor: insulation; permit completed; all permits completed",
+      "permit_id": "1166232"
     }
   ],
   "llm_assessment": {

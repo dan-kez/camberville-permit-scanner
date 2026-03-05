@@ -13,7 +13,9 @@
     "last_sale_date": "2021-02-10T00:00:00.000",
     "last_sale_price": "780000",
     "assessed_value": "864600",
-    "lot_size": "1989"
+    "lot_size": "1989",
+    "property_pid": "16865",
+    "property_parcel": "199-137"
   },
   "property_use": "Townhouse",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Pann Home Services",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($40,833)"
+      "score_reasons": "moderate cost ($40,833)",
+      "permit_id": "1194812"
     }
   ],
   "llm_assessment": {

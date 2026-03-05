@@ -13,7 +13,8 @@
     "last_sale_date": "2012-12-24",
     "last_sale_price": 1,
     "assessed_value": 1203100,
-    "lot_size": 0.0835
+    "lot_size": 0.0835,
+    "property_parcel": "34_D_37"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "14093942",
+      "permit_number": "B23-002229"
     },
     {
       "date": "2024-02-06",
@@ -46,7 +49,9 @@
       "contractor": "JP OBrien Electric LLP",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "13926431",
+      "permit_number": "E23-001684"
     }
   ],
   "llm_assessment": {

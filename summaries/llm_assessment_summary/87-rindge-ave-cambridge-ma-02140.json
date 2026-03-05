@@ -23,7 +23,8 @@
       "contractor": "sean gallagher construction llc",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($32,200); permit completed"
+      "score_reasons": "moderate cost ($32,200); permit completed",
+      "permit_id": "247387"
     },
     {
       "date": "2025-06-09",
@@ -35,7 +36,8 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($42,400); keyword: renovation"
+      "score_reasons": "moderate cost ($42,400); keyword: renovation",
+      "permit_id": "1169191"
     }
   ],
   "llm_assessment": {

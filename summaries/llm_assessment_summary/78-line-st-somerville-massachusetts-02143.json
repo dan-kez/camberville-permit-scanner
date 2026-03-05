@@ -13,7 +13,8 @@
     "last_sale_date": "2021-11-10",
     "last_sale_price": 1075000,
     "assessed_value": 1019700,
-    "lot_size": 0.0489
+    "lot_size": 0.0489,
+    "property_parcel": "66_D_13"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Inman",
@@ -34,7 +35,9 @@
       "contractor": "PSNE",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "14174448",
+      "permit_number": "B24-000219"
     },
     {
       "date": "2023-10-02",
@@ -46,7 +49,9 @@
       "contractor": "Restorepro Inc.",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12246103",
+      "permit_number": "B23-001583"
     }
   ],
   "llm_assessment": {

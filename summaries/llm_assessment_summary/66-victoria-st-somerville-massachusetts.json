@@ -13,7 +13,8 @@
     "last_sale_date": "2017-01-06",
     "last_sale_price": 1,
     "assessed_value": 1235900,
-    "lot_size": 0.0765
+    "lot_size": 0.0765,
+    "property_parcel": "6_C_22"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "BM HOLMESPLUMBING AND HEATING",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14196388",
+      "permit_number": "G24-000120"
     }
   ],
   "llm_assessment": {

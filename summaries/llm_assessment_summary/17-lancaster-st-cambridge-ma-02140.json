@@ -13,7 +13,9 @@
     "last_sale_date": "2023-09-05T00:00:00.000",
     "last_sale_price": "5100000",
     "assessed_value": "4815700",
-    "lot_size": "4681"
+    "lot_size": "4681",
+    "property_pid": "14126",
+    "property_parcel": "176-20"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Refined Renovations",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($390,000); keyword: renovation"
+      "score_reasons": "high cost ($390,000); keyword: renovation",
+      "permit_id": "250083"
     },
     {
       "date": "2025-10-23",
@@ -46,7 +49,8 @@
       "contractor": "A&A Building and Remodeling",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($40,000)"
+      "score_reasons": "moderate cost ($40,000)",
+      "permit_id": "1188084"
     }
   ],
   "llm_assessment": {

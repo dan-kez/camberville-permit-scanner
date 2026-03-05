@@ -13,7 +13,8 @@
     "last_sale_date": "2001-08-27",
     "last_sale_price": 325000,
     "assessed_value": 1077300,
-    "lot_size": 0.055200000000000006
+    "lot_size": 0.055200000000000006,
+    "property_parcel": "25_C_9"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: structural; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; permit completed; all permits completed",
+      "permit_id": "14436339",
+      "permit_number": "B24-000963"
     }
   ],
   "llm_assessment": {

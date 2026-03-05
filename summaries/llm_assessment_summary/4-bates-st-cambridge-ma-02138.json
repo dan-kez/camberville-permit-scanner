@@ -23,7 +23,8 @@
       "contractor": "Blesson Improvement",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($39,500)"
+      "score_reasons": "moderate cost ($39,500)",
+      "permit_id": "240462"
     }
   ],
   "llm_assessment": {

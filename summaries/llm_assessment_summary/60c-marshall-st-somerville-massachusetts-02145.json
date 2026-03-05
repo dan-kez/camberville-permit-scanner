@@ -13,7 +13,8 @@
     "last_sale_date": "2017-07-28",
     "last_sale_price": 600000,
     "assessed_value": 822600,
-    "lot_size": 0.066
+    "lot_size": 0.066,
+    "property_parcel": "71_E_55"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Lowe's Home Centers, LLC",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: addition; minor: insulation; permit completed; all permits completed"
+      "score_reasons": "keyword: addition; minor: insulation; permit completed; all permits completed",
+      "permit_id": "12089025",
+      "permit_number": "B23-001312"
     },
     {
       "date": "2023-10-17",
@@ -46,7 +49,9 @@
       "contractor": "SAF Electrical Service Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: siding; permit completed; all permits completed"
+      "score_reasons": "minor: siding; permit completed; all permits completed",
+      "permit_id": "13912056",
+      "permit_number": "E23-001640"
     }
   ],
   "llm_assessment": {

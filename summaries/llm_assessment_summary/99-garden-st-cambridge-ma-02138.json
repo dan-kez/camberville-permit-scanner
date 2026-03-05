@@ -13,7 +13,9 @@
     "last_sale_date": "2023-04-06T00:00:00.000",
     "last_sale_price": "2900000",
     "assessed_value": "2647000",
-    "lot_size": "5265"
+    "lot_size": "5265",
+    "property_pid": "17549",
+    "property_parcel": "207-59"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Charlie-Allen Renovations",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "moderate cost ($62,255); keyword: gut; minor: siding; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($62,255); keyword: gut; minor: siding; permit completed; all permits completed",
+      "permit_id": "1141651"
     }
   ],
   "llm_assessment": {

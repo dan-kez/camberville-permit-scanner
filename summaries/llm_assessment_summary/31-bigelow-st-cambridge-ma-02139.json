@@ -13,7 +13,9 @@
     "last_sale_date": "1990-09-27T00:00:00.000",
     "last_sale_price": "0",
     "assessed_value": "2271700",
-    "lot_size": "3128"
+    "lot_size": "3128",
+    "property_pid": "8909",
+    "property_parcel": "118-85"
   },
   "property_use": "Two-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Purdy Construction",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($25,000); keyword: gut"
+      "score_reasons": "moderate cost ($25,000); keyword: gut",
+      "permit_id": "245285"
     }
   ],
   "llm_assessment": {

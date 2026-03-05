@@ -13,7 +13,8 @@
     "last_sale_date": "1993-12-31",
     "last_sale_price": 1,
     "assessed_value": 698400,
-    "lot_size": 0.06670000000000001
+    "lot_size": 0.06670000000000001,
+    "property_parcel": "92_B_3"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "RB Farina Roofing & Construction",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "51325940",
+      "permit_number": "B24-001941"
     }
   ],
   "llm_assessment": {

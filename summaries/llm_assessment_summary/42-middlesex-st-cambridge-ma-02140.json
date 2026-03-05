@@ -13,7 +13,9 @@
     "last_sale_date": "2020-09-11T00:00:00.000",
     "last_sale_price": "100",
     "assessed_value": "2035400",
-    "lot_size": "4500"
+    "lot_size": "4500",
+    "property_pid": "16306",
+    "property_parcel": "195-45"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "MATT Construction Mass INC",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($45,405)"
+      "score_reasons": "moderate cost ($45,405)",
+      "permit_id": "1159981"
     }
   ],
   "llm_assessment": {

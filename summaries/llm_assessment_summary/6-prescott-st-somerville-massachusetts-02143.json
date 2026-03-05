@@ -13,7 +13,8 @@
     "last_sale_date": "1983-01-06",
     "last_sale_price": 57000,
     "assessed_value": 815100,
-    "lot_size": 0.041600000000000005
+    "lot_size": 0.041600000000000005,
+    "property_parcel": "62_A_38"
   },
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Pionarch Architecture and Interiors",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "14040278",
+      "permit_number": "B23-002153"
     },
     {
       "date": "2024-04-30",
@@ -46,7 +49,9 @@
       "contractor": "Ribeiro, Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "14350496",
+      "permit_number": "E24-000646"
     }
   ],
   "llm_assessment": {

@@ -80,6 +80,8 @@ def _build_summary_record(address, permits, properties):
                 "owner_occupied": p.get("owner_occupied", True),
                 "score": p.get("score", 0),
                 "score_reasons": p.get("score_reasons", ""),
+                **({} if not p.get("permit_id") else {"permit_id": p["permit_id"]}),
+                **({} if not p.get("permit_number") else {"permit_number": p["permit_number"]}),
             }
             for p in permits
         ],

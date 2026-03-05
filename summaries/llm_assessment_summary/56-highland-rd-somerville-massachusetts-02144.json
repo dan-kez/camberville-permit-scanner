@@ -11,7 +11,8 @@
     "last_sale_date": "2013-02-07",
     "last_sale_price": 1,
     "assessed_value": 1467300,
-    "lot_size": 0.079
+    "lot_size": 0.079,
+    "property_parcel": "28_C_5"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",

@@ -13,7 +13,8 @@
     "last_sale_date": "2020-08-13",
     "last_sale_price": 1,
     "assessed_value": 1373800,
-    "lot_size": 0.1192
+    "lot_size": 0.1192,
+    "property_parcel": "20_C_5"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Kinney Electric",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: remodel; permit completed"
+      "score_reasons": "keyword: remodel; permit completed",
+      "permit_id": "14217928",
+      "permit_number": "E24-000327"
     },
     {
       "date": "2023-11-29",
@@ -46,7 +49,9 @@
       "contractor": "Luiky de Figueiredo",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: renovation"
+      "score_reasons": "keyword: renovation",
+      "permit_id": "14000037",
+      "permit_number": "P23-000794"
     },
     {
       "date": "2024-04-24",
@@ -58,7 +63,9 @@
       "contractor": "Kinney Electric",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "14319029",
+      "permit_number": "E24-000569"
     }
   ],
   "llm_assessment": {

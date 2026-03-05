@@ -13,7 +13,9 @@
     "last_sale_date": "2024-09-20T00:00:00.000",
     "last_sale_price": "1",
     "assessed_value": "2082800",
-    "lot_size": "4000"
+    "lot_size": "4000",
+    "property_pid": "7214",
+    "property_parcel": "112-15"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "Robert Tingle",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($564,497); keyword: remodel; minor: insulation"
+      "score_reasons": "high cost ($564,497); keyword: remodel; minor: insulation",
+      "permit_id": "270487"
     }
   ],
   "llm_assessment": {

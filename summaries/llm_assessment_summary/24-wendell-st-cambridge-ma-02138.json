@@ -23,7 +23,8 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($497,000); keyword: gut; minor: insulation"
+      "score_reasons": "high cost ($497,000); keyword: gut; minor: insulation",
+      "permit_id": "257612"
     }
   ],
   "llm_assessment": {

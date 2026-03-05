@@ -13,7 +13,9 @@
     "last_sale_date": "2023-11-01T00:00:00.000",
     "last_sale_price": "2525000",
     "assessed_value": "4802400",
-    "lot_size": "5785"
+    "lot_size": "5785",
+    "property_pid": "13950",
+    "property_parcel": "175-19"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "ZRE Development",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($572,001); keyword: gut; minor: siding; permit completed; all permits completed"
+      "score_reasons": "high cost ($572,001); keyword: gut; minor: siding; permit completed; all permits completed",
+      "permit_id": "246307"
     }
   ],
   "llm_assessment": {

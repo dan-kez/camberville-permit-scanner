@@ -23,7 +23,8 @@
       "contractor": "Lewis Weitzman Renovations",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($33,750); keyword: rebuild; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($33,750); keyword: rebuild; permit completed; all permits completed",
+      "permit_id": "247476"
     }
   ],
   "llm_assessment": {

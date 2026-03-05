@@ -13,7 +13,9 @@
     "last_sale_date": "2022-03-14T00:00:00.000",
     "last_sale_price": "3605000",
     "assessed_value": "3537200",
-    "lot_size": "5962"
+    "lot_size": "5962",
+    "property_pid": "17708",
+    "property_parcel": "210-43"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "ALEXANDER HARWIN",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($682,486); keyword: gut; minor: insulation"
+      "score_reasons": "high cost ($682,486); keyword: gut; minor: insulation",
+      "permit_id": "272687"
     }
   ],
   "llm_assessment": {

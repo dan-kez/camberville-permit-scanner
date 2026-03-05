@@ -13,7 +13,9 @@
     "last_sale_date": "2023-06-09T00:00:00.000",
     "last_sale_price": "6000000",
     "assessed_value": "4132900",
-    "lot_size": "6912"
+    "lot_size": "6912",
+    "property_pid": "12540",
+    "property_parcel": "156-53"
   },
   "property_use": "One or Two Family Dwelling",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Broadbridge Construction LLC",
       "owner_occupied": true,
       "score": 13,
-      "score_reasons": "high cost ($1,025,000); keyword: foundation; new construction; permit completed; all permits completed"
+      "score_reasons": "high cost ($1,025,000); keyword: foundation; new construction; permit completed; all permits completed",
+      "permit_id": "255934"
     },
     {
       "date": "2023-10-12",
@@ -46,7 +49,8 @@
       "contractor": "GM Development and Investments LLC",
       "owner_occupied": true,
       "score": 11,
-      "score_reasons": "moderate cost ($75,000); keyword: foundation; new construction; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($75,000); keyword: foundation; new construction; permit completed; all permits completed",
+      "permit_id": "246156"
     }
   ],
   "llm_assessment": {

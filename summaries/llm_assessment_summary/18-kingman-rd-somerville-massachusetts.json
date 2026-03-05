@@ -13,7 +13,8 @@
     "last_sale_date": "2008-03-11",
     "last_sale_price": 1,
     "assessed_value": 795100,
-    "lot_size": 0.0475
+    "lot_size": 0.0475,
+    "property_parcel": "82_B_7"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "51260127",
+      "permit_number": "B24-001776"
     }
   ],
   "llm_assessment": {

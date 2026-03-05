@@ -23,7 +23,8 @@
       "contractor": "JB Sash & Door Co",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($59,187); keyword: structural"
+      "score_reasons": "moderate cost ($59,187); keyword: structural",
+      "permit_id": "250055"
     }
   ],
   "llm_assessment": {

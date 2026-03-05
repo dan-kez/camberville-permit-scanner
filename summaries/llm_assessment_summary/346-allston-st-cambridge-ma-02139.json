@@ -13,7 +13,9 @@
     "last_sale_date": "2022-04-22T00:00:00.000",
     "last_sale_price": "3200000",
     "assessed_value": "2886400",
-    "lot_size": "2640"
+    "lot_size": "2640",
+    "property_pid": "9907",
+    "property_parcel": "127-4"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "RK Construction Company",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($185,000)"
+      "score_reasons": "moderate cost ($185,000)",
+      "permit_id": "1167385"
     }
   ],
   "llm_assessment": {

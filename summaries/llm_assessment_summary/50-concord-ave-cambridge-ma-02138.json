@@ -13,7 +13,9 @@
     "last_sale_date": "2023-01-31T00:00:00.000",
     "last_sale_price": "2335000",
     "assessed_value": "3181800",
-    "lot_size": "6144"
+    "lot_size": "6144",
+    "property_pid": "19080",
+    "property_parcel": "225-56"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Fennell Engineering",
       "owner_occupied": true,
       "score": 10,
-      "score_reasons": "high cost ($368,000); keyword: addition; permit completed; all permits completed"
+      "score_reasons": "high cost ($368,000); keyword: addition; permit completed; all permits completed",
+      "permit_id": "252440"
     }
   ],
   "llm_assessment": {

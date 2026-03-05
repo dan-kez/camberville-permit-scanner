@@ -13,7 +13,8 @@
     "last_sale_date": "2013-10-11",
     "last_sale_price": 952000,
     "assessed_value": 1598200,
-    "lot_size": 0.0937
+    "lot_size": 0.0937,
+    "property_parcel": "28_B_12"
   },
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Kent General Contracting",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+      "score_reasons": "keyword: renovation; permit completed; most permits completed",
+      "permit_id": "11615963",
+      "permit_number": "B23-000808"
     },
     {
       "date": "2023-07-12",
@@ -46,7 +49,9 @@
       "contractor": "Mouradian P@H",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; permit completed; most permits completed",
+      "permit_id": "12061382",
+      "permit_number": "P23-000453"
     },
     {
       "date": "2023-10-24",
@@ -58,7 +63,9 @@
       "contractor": "Gregory F. Comeau, Master Electrician LLC",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+      "score_reasons": "keyword: remodel; permit completed; most permits completed",
+      "permit_id": "13921909",
+      "permit_number": "E23-001663"
     },
     {
       "date": "2023-09-12",
@@ -70,7 +77,9 @@
       "contractor": "J Lawson Inc",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "12217644",
+      "permit_number": "SM23-000160"
     },
     {
       "date": "2023-10-30",
@@ -82,7 +91,9 @@
       "contractor": "Elite Media Solutions, LLC.",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "13936999",
+      "permit_number": "E23-001711"
     }
   ],
   "llm_assessment": {

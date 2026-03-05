@@ -13,7 +13,9 @@
     "last_sale_date": "2022-06-02T00:00:00.000",
     "last_sale_price": "2414000",
     "assessed_value": "2076000",
-    "lot_size": "2200"
+    "lot_size": "2200",
+    "property_pid": "10885",
+    "property_parcel": "135-63"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Landmark Services Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($290,000); keyword: renovate"
+      "score_reasons": "high cost ($290,000); keyword: renovate",
+      "permit_id": "236572"
     },
     {
       "date": "2025-12-22",
@@ -46,7 +49,8 @@
       "contractor": "Landmark Services Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($417,900); keyword: gut; minor: insulation"
+      "score_reasons": "high cost ($417,900); keyword: gut; minor: insulation",
+      "permit_id": "1193784"
     }
   ],
   "llm_assessment": {

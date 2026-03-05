@@ -34,7 +34,8 @@
       "contractor": "B&D Building and Remodeling, Inc.",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($50,075)"
+      "score_reasons": "moderate cost ($50,075)",
+      "permit_id": "1163180"
     }
   ],
   "llm_assessment": {

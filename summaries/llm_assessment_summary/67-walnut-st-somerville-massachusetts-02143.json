@@ -11,7 +11,8 @@
     "last_sale_date": "1993-08-25",
     "last_sale_price": 189000,
     "assessed_value": 1157900,
-    "lot_size": 0.1131
+    "lot_size": 0.1131,
+    "property_parcel": "72_B_44"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Union",

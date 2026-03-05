@@ -13,7 +13,8 @@
     "last_sale_date": "2022-12-20",
     "last_sale_price": 730000,
     "assessed_value": 735600,
-    "lot_size": 0.07440000000000001
+    "lot_size": 0.07440000000000001,
+    "property_parcel": "42_C_6"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "A Adam Construction",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: rebuild; permit completed"
+      "score_reasons": "keyword: rebuild; permit completed",
+      "permit_id": "14193852",
+      "permit_number": "B24-000274"
     },
     {
       "date": "2024-04-04",
@@ -46,7 +49,9 @@
       "contractor": "",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: convert"
+      "score_reasons": "keyword: convert",
+      "permit_id": "14275041",
+      "permit_number": "B24-000441"
     }
   ],
   "llm_assessment": {

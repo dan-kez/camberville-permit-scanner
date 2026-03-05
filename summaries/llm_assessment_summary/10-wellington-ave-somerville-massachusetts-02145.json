@@ -11,7 +11,8 @@
     "last_sale_date": "1993-04-05",
     "last_sale_price": 1,
     "assessed_value": 734400,
-    "lot_size": 0.0509
+    "lot_size": 0.0509,
+    "property_parcel": "78_A_8"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",

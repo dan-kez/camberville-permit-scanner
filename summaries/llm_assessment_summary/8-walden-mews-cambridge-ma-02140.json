@@ -13,7 +13,9 @@
     "last_sale_date": "2016-10-26T00:00:00.000",
     "last_sale_price": "1175000",
     "assessed_value": "1865000",
-    "lot_size": "1687"
+    "lot_size": "1687",
+    "property_pid": "17221",
+    "property_parcel": "202-126"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Wendel Klein Design Build",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($147,225); keyword: structural; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($147,225); keyword: structural; permit completed; all permits completed",
+      "permit_id": "276959"
     }
   ],
   "llm_assessment": {

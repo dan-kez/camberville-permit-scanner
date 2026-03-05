@@ -11,7 +11,8 @@
     "last_sale_date": "2022-03-30",
     "last_sale_price": 1370000,
     "assessed_value": 1249500,
-    "lot_size": 0.0674
+    "lot_size": 0.0674,
+    "property_parcel": "9_B_39"
   },
   "property_use": "Building Permit - Residential Renovation",
   "nearest_square": "Davis",

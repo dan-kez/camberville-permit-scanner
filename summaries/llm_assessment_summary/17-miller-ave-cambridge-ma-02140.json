@@ -13,7 +13,9 @@
     "last_sale_date": "2023-12-01T00:00:00.000",
     "last_sale_price": "910000",
     "assessed_value": "1986000",
-    "lot_size": "2552"
+    "lot_size": "2552",
+    "property_pid": "14664",
+    "property_parcel": "180-19"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Fombelle Design",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "high cost ($522,000); keyword: renovation; minor: shed; permit completed; all permits completed"
+      "score_reasons": "high cost ($522,000); keyword: renovation; minor: shed; permit completed; all permits completed",
+      "permit_id": "253781"
     }
   ],
   "llm_assessment": {

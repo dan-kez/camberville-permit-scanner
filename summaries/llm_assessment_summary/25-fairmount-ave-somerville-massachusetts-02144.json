@@ -13,7 +13,8 @@
     "last_sale_date": "2021-10-29",
     "last_sale_price": 1305000,
     "assessed_value": 1510400,
-    "lot_size": 0.12510000000000002
+    "lot_size": 0.12510000000000002,
+    "property_parcel": "8_C_20"
   },
   "property_use": "Gas Fitting - Residential - Existing",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "O'Regan Plumbing & Heating",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "permit completed"
+      "score_reasons": "permit completed",
+      "permit_id": "12231220",
+      "permit_number": "G23-000409"
     }
   ],
   "llm_assessment": {

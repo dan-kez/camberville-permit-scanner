@@ -11,7 +11,8 @@
     "last_sale_date": "2018-03-22",
     "last_sale_price": 649000,
     "assessed_value": 949200,
-    "lot_size": 0.0932
+    "lot_size": 0.0932,
+    "property_parcel": "105_D_10"
   },
   "property_use": "Building Permit - Residential Alteration",
   "nearest_square": "Union",

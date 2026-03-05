@@ -13,7 +13,8 @@
     "last_sale_date": "2023-09-13",
     "last_sale_price": 100,
     "assessed_value": 814100,
-    "lot_size": 0.0333
+    "lot_size": 0.0333,
+    "property_parcel": "35_H_21"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "Synergy Construction LLC DBA Synergy Skylights",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "38072994",
+      "permit_number": "B24-001265"
     }
   ],
   "llm_assessment": {

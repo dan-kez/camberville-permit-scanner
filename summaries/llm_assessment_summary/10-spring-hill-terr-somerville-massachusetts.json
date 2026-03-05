@@ -11,7 +11,8 @@
     "last_sale_date": "2023-01-12",
     "last_sale_price": 950000,
     "assessed_value": 1039700,
-    "lot_size": 0.0482
+    "lot_size": 0.0482,
+    "property_parcel": "43_C_38"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Porter",

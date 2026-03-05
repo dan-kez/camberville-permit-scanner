@@ -13,7 +13,9 @@
     "last_sale_date": "2022-12-09T00:00:00.000",
     "last_sale_price": "1525000",
     "assessed_value": "1341500",
-    "lot_size": "2163"
+    "lot_size": "2163",
+    "property_pid": "6231",
+    "property_parcel": "103-107"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Top Notch Contracting",
       "owner_occupied": true,
       "score": 10,
-      "score_reasons": "high cost ($217,750); keyword: renovation; permit completed; all permits completed"
+      "score_reasons": "high cost ($217,750); keyword: renovation; permit completed; all permits completed",
+      "permit_id": "289909"
     }
   ],
   "llm_assessment": {

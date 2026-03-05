@@ -13,7 +13,8 @@
     "last_sale_date": "2023-06-26",
     "last_sale_price": 1630000,
     "assessed_value": 1451400,
-    "lot_size": 0.0776
+    "lot_size": 0.0776,
+    "property_parcel": "28_A_26"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Renewal by Andersen",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "keyword: structural; most permits completed"
+      "score_reasons": "keyword: structural; most permits completed",
+      "permit_id": "14085991",
+      "permit_number": "B23-002206"
     },
     {
       "date": "2024-03-30",
@@ -46,7 +49,9 @@
       "contractor": "James DeOliveira",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "14286180",
+      "permit_number": "E24-000464"
     },
     {
       "date": "2023-12-05",
@@ -58,7 +63,9 @@
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; most permits completed"
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; most permits completed",
+      "permit_id": "14002085",
+      "permit_number": "B23-002080"
     }
   ],
   "llm_assessment": {

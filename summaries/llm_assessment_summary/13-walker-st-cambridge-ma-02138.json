@@ -13,7 +13,9 @@
     "last_sale_date": "2005-04-19T00:00:00.000",
     "last_sale_price": "1220000",
     "assessed_value": "2618300",
-    "lot_size": "2440"
+    "lot_size": "2440",
+    "property_pid": "18039",
+    "property_parcel": "214-20"
   },
   "property_use": "Townhouse",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "Bruno Rafael",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($35,500)"
+      "score_reasons": "moderate cost ($35,500)",
+      "permit_id": "287322"
     }
   ],
   "llm_assessment": {

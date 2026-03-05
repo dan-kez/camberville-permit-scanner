@@ -13,7 +13,8 @@
     "last_sale_date": "2022-11-22",
     "last_sale_price": 100,
     "assessed_value": 2091300,
-    "lot_size": 0.12050000000000001
+    "lot_size": 0.12050000000000001,
+    "property_parcel": "16_C_3"
   },
   "property_use": "Building Permit - Residential Repair",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Cezario & Fein Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: roofing; permit completed; all permits completed"
+      "score_reasons": "minor: roofing; permit completed; all permits completed",
+      "permit_id": "51334938",
+      "permit_number": "B24-001963"
     }
   ],
   "llm_assessment": {

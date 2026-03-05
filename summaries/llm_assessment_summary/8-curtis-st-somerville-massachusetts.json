@@ -13,7 +13,8 @@
     "last_sale_date": "2018-04-18",
     "last_sale_price": 100,
     "assessed_value": 2038900,
-    "lot_size": 0.1274
+    "lot_size": 0.1274,
+    "property_parcel": "8_D_7"
   },
   "property_use": "Plumbing Permit - Residential - Existing",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Cortez Plumbing and Heating Systems Inc",
       "owner_occupied": true,
       "score": 7,
-      "score_reasons": "keyword: full; permit completed; all permits completed"
+      "score_reasons": "keyword: full; permit completed; all permits completed",
+      "permit_id": "11577973",
+      "permit_number": "P23-000296"
     },
     {
       "date": "2023-06-13",
@@ -46,7 +49,9 @@
       "contractor": "Gino DiPietrantonio",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: addition; minor: panel; permit completed; all permits completed"
+      "score_reasons": "keyword: addition; minor: panel; permit completed; all permits completed",
+      "permit_id": "11575285",
+      "permit_number": "E23-000661"
     },
     {
       "date": "2023-06-21",
@@ -58,7 +63,9 @@
       "contractor": "Khalsa Design, INC.",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: addition; minor: shed; permit completed; all permits completed"
+      "score_reasons": "keyword: addition; minor: shed; permit completed; all permits completed",
+      "permit_id": "11016849",
+      "permit_number": "B22-002039"
     },
     {
       "date": "2024-02-02",
@@ -70,7 +77,9 @@
       "contractor": "Indresano Energy",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "13961925",
+      "permit_number": "SM23-000228"
     },
     {
       "date": "2024-03-15",
@@ -82,7 +91,9 @@
       "contractor": "Cortez Plumbing and Heating Systems Inc",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: furnace; permit completed; all permits completed"
+      "score_reasons": "minor: furnace; permit completed; all permits completed",
+      "permit_id": "11577976",
+      "permit_number": "G23-000220"
     }
   ],
   "llm_assessment": {

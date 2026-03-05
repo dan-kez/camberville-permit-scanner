@@ -13,7 +13,9 @@
     "last_sale_date": "2023-12-18T00:00:00.000",
     "last_sale_price": "100",
     "assessed_value": "1365300",
-    "lot_size": "1000"
+    "lot_size": "1000",
+    "property_pid": "1075",
+    "property_parcel": "23-74"
   },
   "property_use": "One-Family",
   "nearest_square": "Union",
@@ -34,7 +36,8 @@
       "contractor": "Alex ortega",
       "owner_occupied": true,
       "score": 8,
-      "score_reasons": "moderate cost ($184,800); keyword: remodel; permit completed; all permits completed"
+      "score_reasons": "moderate cost ($184,800); keyword: remodel; permit completed; all permits completed",
+      "permit_id": "267128"
     }
   ],
   "llm_assessment": {

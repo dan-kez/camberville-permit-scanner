@@ -13,7 +13,9 @@
     "last_sale_date": "2017-08-03T00:00:00.000",
     "last_sale_price": "1300000",
     "assessed_value": "1746800",
-    "lot_size": "3153"
+    "lot_size": "3153",
+    "property_pid": "7113",
+    "property_parcel": "110-110"
   },
   "property_use": "One-Family",
   "nearest_square": "Inman",
@@ -34,7 +36,8 @@
       "contractor": "CRM Construction LLC",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($209,846); keyword: demolish; minor: shed"
+      "score_reasons": "high cost ($209,846); keyword: demolish; minor: shed",
+      "permit_id": "1174680"
     }
   ],
   "llm_assessment": {

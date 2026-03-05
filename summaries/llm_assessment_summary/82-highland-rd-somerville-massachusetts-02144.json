@@ -13,7 +13,8 @@
     "last_sale_date": "1999-02-09",
     "last_sale_price": 1,
     "assessed_value": 1325700,
-    "lot_size": 0.079
+    "lot_size": 0.079,
+    "property_parcel": "27_I_19"
   },
   "property_use": "Demolition Permit - Residential Accessory Structures ( i.e., garages, sheds ) under 1500 sq ft",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "JRG Masonry & Construction Inc",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "12031953",
+      "permit_number": "D23-000042"
     }
   ],
   "llm_assessment": {

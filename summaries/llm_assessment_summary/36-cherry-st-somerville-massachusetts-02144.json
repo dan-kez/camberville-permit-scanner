@@ -13,7 +13,8 @@
     "last_sale_date": "2003-12-04",
     "last_sale_price": 850000,
     "assessed_value": 2698100,
-    "lot_size": 0.2341
+    "lot_size": 0.2341,
+    "property_parcel": "30_D_7"
   },
   "property_use": "Sheet Metal Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "New England Cooling Towers Inc.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "keyword: renovation; most permits completed"
+      "score_reasons": "keyword: renovation; most permits completed",
+      "permit_id": "11526478",
+      "permit_number": "SM23-000053"
     },
     {
       "date": "2023-10-18",
@@ -46,7 +49,9 @@
       "contractor": "Just Woodcraft, Inc.",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "11808100",
+      "permit_number": "B23-000953"
     },
     {
       "date": "2024-07-30",
@@ -58,7 +63,9 @@
       "contractor": "PUCCIO ELECTRIC INC",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51080945",
+      "permit_number": "E24-001208"
     }
   ],
   "llm_assessment": {

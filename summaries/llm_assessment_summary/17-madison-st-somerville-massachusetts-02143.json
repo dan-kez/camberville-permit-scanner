@@ -13,7 +13,8 @@
     "last_sale_date": "2017-09-19",
     "last_sale_price": 762500,
     "assessed_value": 1440600,
-    "lot_size": 0.0689
+    "lot_size": 0.0689,
+    "property_parcel": "50_E_27"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "Newport Electric Construction",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "51283838",
+      "permit_number": "E24-001670"
     },
     {
       "date": "2024-09-19",
@@ -46,7 +49,9 @@
       "contractor": "Newport Electric Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: structural; minor: solar; permit completed; most permits completed"
+      "score_reasons": "keyword: structural; minor: solar; permit completed; most permits completed",
+      "permit_id": "51235528",
+      "permit_number": "E24-001534"
     },
     {
       "date": "2024-09-19",
@@ -58,7 +63,9 @@
       "contractor": "Newport Electric Construction",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "keyword: structural; minor: solar; permit completed; most permits completed"
+      "score_reasons": "keyword: structural; minor: solar; permit completed; most permits completed",
+      "permit_id": "51235528",
+      "permit_number": "E24-001534"
     }
   ],
   "llm_assessment": {

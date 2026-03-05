@@ -13,7 +13,8 @@
     "last_sale_date": "2022-12-21",
     "last_sale_price": 713000,
     "assessed_value": 916600,
-    "lot_size": 0.0407
+    "lot_size": 0.0407,
+    "property_parcel": "45_G_10_A"
   },
   "property_use": "Sheet Metal Permit - Residential",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "T and  K mechanical",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "11609714",
+      "permit_number": "SM23-000083"
     },
     {
       "date": "2023-08-07",
@@ -46,7 +49,9 @@
       "contractor": "The Boston Solar Company",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed"
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "11580344",
+      "permit_number": "E23-000682"
     },
     {
       "date": "2023-08-07",
@@ -58,7 +63,9 @@
       "contractor": "The Boston Solar Company",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: solar; permit completed; all permits completed"
+      "score_reasons": "minor: solar; permit completed; all permits completed",
+      "permit_id": "11580344",
+      "permit_number": "E23-000682"
     }
   ],
   "llm_assessment": {

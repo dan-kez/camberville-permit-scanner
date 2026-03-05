@@ -13,7 +13,8 @@
     "last_sale_date": "2020-10-14",
     "last_sale_price": 1,
     "assessed_value": 1378400,
-    "lot_size": 0.1148
+    "lot_size": 0.1148,
+    "property_parcel": "12_A_7"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Davis",
@@ -34,7 +35,9 @@
       "contractor": "Apex Energy Tek",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: complete; minor: sign; permit completed; all permits completed"
+      "score_reasons": "keyword: complete; minor: sign; permit completed; all permits completed",
+      "permit_id": "14290940",
+      "permit_number": "B24-000509"
     },
     {
       "date": "2024-07-07",
@@ -46,7 +49,9 @@
       "contractor": "Apex Energy Tek",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: complete; minor: sign; permit completed; all permits completed"
+      "score_reasons": "keyword: complete; minor: sign; permit completed; all permits completed",
+      "permit_id": "14290993",
+      "permit_number": "E24-000480"
     },
     {
       "date": "2024-06-10",
@@ -58,7 +63,9 @@
       "contractor": "Apex Energy Tek",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "minor: panel; permit completed; all permits completed"
+      "score_reasons": "minor: panel; permit completed; all permits completed",
+      "permit_id": "14451127",
+      "permit_number": "E24-000895"
     }
   ],
   "llm_assessment": {

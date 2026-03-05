@@ -13,7 +13,8 @@
     "last_sale_date": "2001-10-26",
     "last_sale_price": 269900,
     "assessed_value": 808400,
-    "lot_size": 0.0964
+    "lot_size": 0.0964,
+    "property_parcel": "79_E_5"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "REGIS LAFAYETTE ELECTRICIAN",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "12217043",
+      "permit_number": "E23-001325"
     },
     {
       "date": "2023-10-11",
@@ -46,7 +49,9 @@
       "contractor": "Willians Alvarado Electrician",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "13896624",
+      "permit_number": "E23-001599"
     },
     {
       "date": "2023-11-20",
@@ -58,7 +63,9 @@
       "contractor": "REGIS LAFAYETTE ELECTRICIAN",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "permit completed; most permits completed"
+      "score_reasons": "permit completed; most permits completed",
+      "permit_id": "13961707",
+      "permit_number": "E23-001789"
     },
     {
       "date": "2023-12-13",
@@ -70,7 +77,9 @@
       "contractor": "HR HVAC",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "most permits completed"
+      "score_reasons": "most permits completed",
+      "permit_id": "13914368",
+      "permit_number": "B23-001808"
     }
   ],
   "llm_assessment": {

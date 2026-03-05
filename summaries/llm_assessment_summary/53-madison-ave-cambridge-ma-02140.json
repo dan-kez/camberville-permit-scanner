@@ -13,7 +13,9 @@
     "last_sale_date": "2008-10-10T00:00:00.000",
     "last_sale_price": "529500",
     "assessed_value": "1242400",
-    "lot_size": "1986"
+    "lot_size": "1986",
+    "property_pid": "15433",
+    "property_parcel": "188-105"
   },
   "property_use": "One-Family",
   "nearest_square": "Davis",
@@ -34,7 +36,8 @@
       "contractor": "Coen Construction",
       "owner_occupied": true,
       "score": 3,
-      "score_reasons": "moderate cost ($98,475); keyword: renovate"
+      "score_reasons": "moderate cost ($98,475); keyword: renovate",
+      "permit_id": "1191335"
     },
     {
       "date": "2024-06-04",
@@ -46,7 +49,8 @@
       "contractor": "FRS Roofing Inc.",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($25,749)"
+      "score_reasons": "moderate cost ($25,749)",
+      "permit_id": "274514"
     }
   ],
   "llm_assessment": {

@@ -11,7 +11,8 @@
     "last_sale_date": "2004-03-01",
     "last_sale_price": 349000,
     "assessed_value": 578100,
-    "lot_size": 0.0329
+    "lot_size": 0.0329,
+    "property_parcel": "93_A_8"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Union",

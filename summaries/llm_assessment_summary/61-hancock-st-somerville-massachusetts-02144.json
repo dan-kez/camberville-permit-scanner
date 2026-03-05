@@ -13,7 +13,8 @@
     "last_sale_date": "2016-12-21",
     "last_sale_price": 1100000,
     "assessed_value": 1447500,
-    "lot_size": 0.0649
+    "lot_size": 0.0649,
+    "property_parcel": "29_I_20"
   },
   "property_use": "Building Permit - Residential Other",
   "nearest_square": "Porter",
@@ -34,7 +35,9 @@
       "contractor": "HomeWorks Energy",
       "owner_occupied": true,
       "score": 4,
-      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed",
+      "permit_id": "13963090",
+      "permit_number": "B23-001979"
     }
   ],
   "llm_assessment": {

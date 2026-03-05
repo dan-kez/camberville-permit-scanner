@@ -23,7 +23,8 @@
       "contractor": "M J Mawn, Inc.",
       "owner_occupied": true,
       "score": 1,
-      "score_reasons": "moderate cost ($127,300)"
+      "score_reasons": "moderate cost ($127,300)",
+      "permit_id": "1183574"
     }
   ],
   "llm_assessment": {

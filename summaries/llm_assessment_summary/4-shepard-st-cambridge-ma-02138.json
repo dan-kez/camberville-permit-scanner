@@ -13,7 +13,9 @@
     "last_sale_date": "2022-04-08T00:00:00.000",
     "last_sale_price": "3400000",
     "assessed_value": "3437800",
-    "lot_size": "4772"
+    "lot_size": "4772",
+    "property_pid": "13649",
+    "property_parcel": "173-30"
   },
   "property_use": "One-Family",
   "nearest_square": "Porter",
@@ -34,7 +36,8 @@
       "contractor": "S+H Construction",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "high cost ($250,000); keyword: structural"
+      "score_reasons": "high cost ($250,000); keyword: structural",
+      "permit_id": "254300"
     }
   ],
   "llm_assessment": {

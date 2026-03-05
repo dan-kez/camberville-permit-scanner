@@ -13,7 +13,8 @@
     "last_sale_date": "2005-05-13",
     "last_sale_price": 500000,
     "assessed_value": 806100,
-    "lot_size": 0.0698
+    "lot_size": 0.0698,
+    "property_parcel": "50_A_7"
   },
   "property_use": "Electrical Permit - Residential",
   "nearest_square": "Union",
@@ -34,7 +35,9 @@
       "contractor": "William Morrissey",
       "owner_occupied": true,
       "score": 5,
-      "score_reasons": "permit completed; all permits completed"
+      "score_reasons": "permit completed; all permits completed",
+      "permit_id": "17010406",
+      "permit_number": "E24-000962"
     }
   ],
   "llm_assessment": {

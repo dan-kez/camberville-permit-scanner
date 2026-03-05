@@ -13,7 +13,9 @@
     "last_sale_date": "2021-10-01T00:00:00.000",
     "last_sale_price": "1450000",
     "assessed_value": "1567000",
-    "lot_size": "2961"
+    "lot_size": "2961",
+    "property_pid": "4880",
+    "property_parcel": "93-68"
   },
   "property_use": "One-Family",
   "nearest_square": "Central",
@@ -34,7 +36,8 @@
       "contractor": "Steve B Mei",
       "owner_occupied": true,
       "score": 2,
-      "score_reasons": "high cost ($600,000); keyword: renovation; minor: siding"
+      "score_reasons": "high cost ($600,000); keyword: renovation; minor: siding",
+      "permit_id": "235278"
     }
   ],
   "llm_assessment": {
