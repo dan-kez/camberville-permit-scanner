@@ -1,0 +1,44 @@
+{
+  "address": "61 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=61+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/61%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=61+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2595,
+    "last_sale_date": "2009-06-30",
+    "last_sale_price": 802000,
+    "assessed_value": 1651200,
+    "lot_size": 0.0781
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.52,
+  "max_score": 5,
+  "total_cost": 72.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-11-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install and wire 50 AMP charging station",
+      "cost": 72.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Sparrow Electric d/b/a Gibbons Electric",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied by long-term owners and the only recent permit is for a single minor electrical upgrade for an EV charging station."
+  }
+}

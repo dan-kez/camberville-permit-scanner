@@ -1,0 +1,64 @@
+{
+  "address": "9 PARK PL, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+PARK+PL%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/9%20PARK%20PL%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+PARK+PL%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1136,
+    "last_sale_date": "2015-08-25",
+    "last_sale_price": 675000,
+    "assessed_value": 811500,
+    "lot_size": 0.0396
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.61,
+  "max_score": 3,
+  "total_cost": 1137.5,
+  "permit_count": 3,
+  "completed_permits": 2,
+  "completion_ratio": "2/3 complete",
+  "permits": [
+    {
+      "date": "2023-09-07",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Remove and replace 18 windows, like sizes with no structural changes.",
+      "cost": 837.5,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Renewal by Andersen",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "keyword: structural; most permits completed"
+    },
+    {
+      "date": "2024-01-16",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Service upgrade and car charger installation",
+      "cost": 150.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Tony Nguyen",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2024-09-04",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Residential weatherization / air sealing. No structural changes. (Site ID: 12058632)",
+      "cost": 150.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; most permits completed"
+    }
+  ]
+}

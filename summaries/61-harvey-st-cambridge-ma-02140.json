@@ -1,0 +1,40 @@
+{
+  "address": "61 HARVEY ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=61+HARVEY+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/61%20HARVEY%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=61+HARVEY+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1893",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "6",
+    "living_area": "1059",
+    "last_sale_date": "2009-01-30T00:00:00.000",
+    "last_sale_price": "405000",
+    "assessed_value": "873300",
+    "lot_size": "1650"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.5,
+  "max_score": 3,
+  "total_cost": 32000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-03-04",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Build 11x6 addition on second floor on top of existing first floor bump out of home",
+      "cost": 32000.0,
+      "property_use": "One-Family",
+      "contractor": "American Precision Developers",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($32,000); keyword: addition"
+    }
+  ]
+}

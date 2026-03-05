@@ -1,0 +1,44 @@
+{
+  "address": "24 LIBERTY AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=24+LIBERTY+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/24%20LIBERTY%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=24+LIBERTY+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2481,
+    "last_sale_date": "2007-07-18",
+    "last_sale_price": 798000,
+    "assessed_value": 1890100,
+    "lot_size": 0.1262
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Davis",
+  "distance_mi": 0.42,
+  "max_score": 5,
+  "total_cost": 240.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-12-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Strip and re roof detached garage roof",
+      "cost": 240.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Aurora Architects + Builders",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is for minor maintenance on a detached garage by a long-term owner-occupant, with no evidence of significant interior renovations."
+  }
+}

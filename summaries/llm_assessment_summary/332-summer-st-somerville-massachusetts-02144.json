@@ -1,0 +1,80 @@
+{
+  "address": "332 SUMMER ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=332+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/332%20SUMMER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=332+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1887,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2131,
+    "last_sale_date": "2007-02-05",
+    "last_sale_price": 1,
+    "assessed_value": 1222300,
+    "lot_size": 0.0756
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Porter",
+  "distance_mi": 0.32,
+  "max_score": 5,
+  "total_cost": 1026.0,
+  "permit_count": 4,
+  "completed_permits": 4,
+  "completion_ratio": "4/4 complete",
+  "permits": [
+    {
+      "date": "2024-07-15",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Bathroom project ONLY, kitchen not included in this permit",
+      "cost": 600.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Driscoll Contracting & Development, Inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-07-29",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Wire Bathroom,  reconnect kitchen appliances",
+      "cost": 46.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Marco Tirella Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-09-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Bathroom reno",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "MJ Digby Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-10-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "strip and reroof",
+      "cost": 320.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "ima construction corp",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: reroof; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Long-term owner-occupant performing a single bathroom update and routine roof maintenance."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "address": "118 AMORY ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=118+AMORY+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/118%20AMORY%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=118+AMORY+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.13,
+  "max_score": 8,
+  "total_cost": 101200.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-04-22",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Remodeling of three bathrooms.",
+      "cost": 58200.0,
+      "property_use": "One-Family",
+      "contractor": "Diego p pinto",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($58,200); keyword: remodel; permit completed; all permits completed"
+    },
+    {
+      "date": "2025-06-24",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Remodeling basement. Basement is already finished basement but we will be adding a bathroom in this space. Walls and doors will divide the space in the basement with recreation room and gym. This house we already did the remodeling of upstairs bathrooms under permit 266450.",
+      "cost": 43000.0,
+      "property_use": "One-Family",
+      "contractor": "Diego p pinto",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "moderate cost ($43,000); keyword: remodel; minor: shed; permit completed; all permits completed"
+    }
+  ]
+}

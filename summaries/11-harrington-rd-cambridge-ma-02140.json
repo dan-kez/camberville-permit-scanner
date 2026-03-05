@@ -1,0 +1,40 @@
+{
+  "address": "11 HARRINGTON RD, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+HARRINGTON+RD%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/11%20HARRINGTON%20RD%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=11+HARRINGTON+RD%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1891",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "7",
+    "living_area": "1675",
+    "last_sale_date": "1986-08-22T00:00:00.000",
+    "last_sale_price": "179000",
+    "assessed_value": "1131700",
+    "lot_size": "2450"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.46,
+  "max_score": 8,
+  "total_cost": 30000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-04-05",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Bathroom remodel",
+      "cost": 30000.0,
+      "property_use": "One-Family",
+      "contractor": "Doughty and Sons, Inc.",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($30,000); keyword: remodel; permit completed; all permits completed"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "address": "91-1/2 INMAN ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=91-1%2F2+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/91-1/2%20INMAN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=91-1%2F2+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.2,
+  "max_score": 8,
+  "total_cost": 45000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-06-25",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Removal and replacement of 11 windows using Pella Reserve Traditional and Pella Reserve Traditional Double-Hung units, as applicable.Removal and replacement of gutters and downspouts.Removal and replacement of fascia and soffits.",
+      "cost": 45000.0,
+      "property_use": "One-Family",
+      "contractor": "MV Construction and Management, LLC",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($45,000); keyword: gut; permit completed; all permits completed"
+    }
+  ]
+}

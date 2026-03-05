@@ -1,0 +1,29 @@
+{
+  "address": "29 BOWDOIN ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=29+BOWDOIN+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/29%20BOWDOIN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=29+BOWDOIN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.37,
+  "max_score": 5,
+  "total_cost": 448000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-01-10",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "The renovation relates to two disctinct areas in the house:Second floor: gut renovation of the master bathroom. Bathtub is replaced by a steam shower.First floor: reconfiguration of the floor plan for the back portion of the house.\u00a0The project includes the demolition of a bearing wall to create an open space and kitchen. New windows and doors on the left side and rear facades. A new stoop will be built to access the patio. Add clapboard cladding and trim to two sides of the cinder block garage.",
+      "cost": 448000.0,
+      "property_use": "One-Family",
+      "contractor": "Wendel Klein Design Build",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($448,000); keyword: gut"
+    }
+  ]
+}

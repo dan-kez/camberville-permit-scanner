@@ -1,0 +1,44 @@
+{
+  "address": "114 COLUMBIA ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=114+COLUMBIA+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/114%20COLUMBIA%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=114+COLUMBIA+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "4",
+    "bathrooms": "3/0",
+    "total_rooms": "9",
+    "living_area": "1708",
+    "last_sale_date": "1999-07-20T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1473100",
+    "lot_size": "2324"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.29,
+  "max_score": 1,
+  "total_cost": 54125.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-10-10",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "1.\u00a0 \u00a0\u00a0Replace existing basement rear egress door and bulkhead with new door and open stair up to grade.2.\u00a0 \u00a0\u00a0Install new Egress Window at basement Bedroom.",
+      "cost": 54125.0,
+      "property_use": "One-Family",
+      "contractor": "Boston Architects and Builders",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($54,125)"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The work involves specific basement egress improvements by a long-term owner-occupant of 26 years, which is more indicative of a safety/utility upgrade than a pre-sale renovation."
+  }
+}

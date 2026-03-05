@@ -1,0 +1,39 @@
+{
+  "address": "17 FRANCESCA AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+FRANCESCA+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/17%20FRANCESCA%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=17+FRANCESCA+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2229,
+    "last_sale_date": "1957-01-19",
+    "last_sale_price": 0,
+    "assessed_value": 1276400,
+    "lot_size": 0.1169
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Davis",
+  "distance_mi": 0.22,
+  "max_score": 2,
+  "total_cost": 280.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-10-24",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Remodel of five bathrooms, two laundries and a kitchen",
+      "cost": 280.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Faron Young Plumbing and Heating",
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    }
+  ]
+}

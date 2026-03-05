@@ -1,0 +1,44 @@
+{
+  "address": "43 HANCOCK ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=43+HANCOCK+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/43%20HANCOCK%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=43+HANCOCK+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1854",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "6",
+    "living_area": "1136",
+    "last_sale_date": "1995-09-18T00:00:00.000",
+    "last_sale_price": "319000",
+    "assessed_value": "1440700",
+    "lot_size": "1502"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.34,
+  "max_score": 2,
+  "total_cost": 475711.58,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-04-04",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Replacement of doors, windows, skylights, siding, roof. \u00a0Interior renovation of 1 bathroom, 1 utility room, 1 stair case, general improvements.\u00a0 New mechanical systems.",
+      "cost": 475711.58,
+      "property_use": "One-Family",
+      "contractor": "Stillwater Building & Renovation, LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($475,712); keyword: renovation; minor: siding"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The significant $475,000 'whole house' modernization of the building envelope, mechanical systems, and interior spaces after 30 years of ownership is a strong indicator of a property being prepared for a high-value sale."
+  }
+}

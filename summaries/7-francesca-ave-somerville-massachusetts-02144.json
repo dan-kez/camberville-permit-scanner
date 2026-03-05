@@ -1,0 +1,64 @@
+{
+  "address": "7 FRANCESCA AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+FRANCESCA+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/7%20FRANCESCA%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=7+FRANCESCA+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1892,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1908,
+    "last_sale_date": "2020-08-13",
+    "last_sale_price": 1,
+    "assessed_value": 1373800,
+    "lot_size": 0.1192
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.21,
+  "max_score": 4,
+  "total_cost": 244.0,
+  "permit_count": 3,
+  "completed_permits": 2,
+  "completion_ratio": "2/4 complete",
+  "permits": [
+    {
+      "date": "2024-03-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Kitchen remodel",
+      "cost": 78.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Kinney Electric",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: remodel; permit completed"
+    },
+    {
+      "date": "2023-11-29",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Kitchen renovation, full bathroom renovation, replace main stack.",
+      "cost": 90.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Luiky de Figueiredo",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    },
+    {
+      "date": "2024-04-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "wiring bathroom for light and power. Remove old service from house",
+      "cost": 76.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Kinney Electric",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed"
+    }
+  ]
+}

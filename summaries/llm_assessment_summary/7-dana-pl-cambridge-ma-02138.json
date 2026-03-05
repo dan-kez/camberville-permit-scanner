@@ -1,0 +1,44 @@
+{
+  "address": "7 DANA PL, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+DANA+PL%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/7%20DANA%20PL%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=7+DANA+PL%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "1979",
+    "bedrooms": "3",
+    "bathrooms": "3/0",
+    "total_rooms": "7",
+    "living_area": "1748",
+    "last_sale_date": "2021-07-09T00:00:00.000",
+    "last_sale_price": "1800000",
+    "assessed_value": "1993500",
+    "lot_size": "1603"
+  },
+  "property_use": "Townhouse",
+  "nearest_square": "Central",
+  "distance_mi": 0.5,
+  "max_score": 1,
+  "total_cost": 44460.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2026-01-09",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Replace of a galey kithchen cabinets and counter tops. Replacement of 6 recessed lights",
+      "cost": 44460.0,
+      "property_use": "Townhouse",
+      "contractor": "Pro Touch Home Improvement",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($44,460)"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "This is a single kitchen refresh by an owner-occupant who has held the property for over four years, which lacks the simultaneous multi-room updates typical of a pre-sale renovation."
+  }
+}

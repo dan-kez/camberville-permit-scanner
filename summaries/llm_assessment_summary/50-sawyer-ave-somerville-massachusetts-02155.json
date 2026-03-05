@@ -1,0 +1,44 @@
+{
+  "address": "50 SAWYER AVE, SOMERVILLE MASSACHUSETTS 02155",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=50+SAWYER+AVE%2C+SOMERVILLE+MASSACHUSETTS+02155",
+  "zillow_url": "https://www.zillow.com/homes/50%20SAWYER%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002155_rb/",
+  "google_search_url": "https://www.google.com/search?q=50+SAWYER+AVE%2C+SOMERVILLE+MASSACHUSETTS+02155+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1940,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1456,
+    "last_sale_date": null,
+    "last_sale_price": 0,
+    "assessed_value": 1329700,
+    "lot_size": 0.1665
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Davis",
+  "distance_mi": 0.71,
+  "max_score": 2,
+  "total_cost": 360.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-01-16",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "STRIP AND REROOF ENTIRE ROOF; APPLY ICE AND WATER SHIELD TO THE BOTTOM 6 FEET OF ROOF, UP VALLEYS, AND AROUND ALL PROTRUSIONS; 8\u00e2\u0080\u0099\u00e2\u0080\u0099 ALUMINUM DRIP EDGE, UNDERLAYMENT FELT PAPER, ARCHITECTURAL SHINGLE; INSTALL RIDGE VENT",
+      "cost": 360.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Mark Brady Roofing",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: reroof; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is for routine roof maintenance by an owner-occupant, which is a standard maintenance task rather than a pre-sale renovation."
+  }
+}

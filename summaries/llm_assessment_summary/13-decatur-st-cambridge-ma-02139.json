@@ -1,0 +1,44 @@
+{
+  "address": "13 DECATUR ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=13+DECATUR+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/13%20DECATUR%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=13+DECATUR+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "9",
+    "living_area": "2386",
+    "last_sale_date": "2017-07-12T00:00:00.000",
+    "last_sale_price": "1700000",
+    "assessed_value": "2399100",
+    "lot_size": "4600"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.3,
+  "max_score": 6,
+  "total_cost": 26089.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-04-22",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Installation of (3) Skylights on 2nd floor living room roof",
+      "cost": 26089.0,
+      "property_use": "One-Family",
+      "contractor": "M&M Skylights",
+      "owner_occupied": true,
+      "score": 6,
+      "score_reasons": "moderate cost ($26,089); permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is for a minor skylight installation by a long-term owner-occupant, which aligns with maintenance rather than a high-end pre-sale renovation."
+  }
+}

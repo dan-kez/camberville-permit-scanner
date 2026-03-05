@@ -1,0 +1,40 @@
+{
+  "address": "11 MADISON AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/11%20MADISON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=11+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1903",
+    "bedrooms": "4",
+    "bathrooms": "3/0",
+    "total_rooms": "8",
+    "living_area": "2098",
+    "last_sale_date": "2018-08-31T00:00:00.000",
+    "last_sale_price": "1085000",
+    "assessed_value": "1386700",
+    "lot_size": "4000"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.73,
+  "max_score": 8,
+  "total_cost": 28000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-09-24",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Renovate existing bathroom",
+      "cost": 28000.0,
+      "property_use": "One-Family",
+      "contractor": "The Murphy Group",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($28,000); keyword: renovate; permit completed; all permits completed"
+    }
+  ]
+}

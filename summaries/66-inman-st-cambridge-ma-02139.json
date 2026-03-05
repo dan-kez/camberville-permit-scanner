@@ -1,0 +1,52 @@
+{
+  "address": "66 INMAN ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=66+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/66%20INMAN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=66+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "8",
+    "living_area": "2689",
+    "last_sale_date": "2014-06-19T00:00:00.000",
+    "last_sale_price": "1428000",
+    "assessed_value": "2085300",
+    "lot_size": "2746"
+  },
+  "property_use": "Townhouse",
+  "nearest_square": "Inman",
+  "distance_mi": 0.27,
+  "max_score": 3,
+  "total_cost": 116500.0,
+  "permit_count": 2,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2024-04-12",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "repair roof as part of roof replacement under seperate permit. Remove master ceiling to access roof repair, demo existing bath, remove tub, add shower. New plumbing and electric in bathroom. tile floros and shower walls in bathroom. Install new vanity and toilet.Replace existing roof deck with new decking and rails after roof repair. Plaster bathroom and master ceiling and 1 wall. frame for 1 new non bearing wall to create a hall to access master bedroom. Install 8 new recessed lights and 1 vanity light. Paint newly plastered areas.",
+      "cost": 42500.0,
+      "property_use": "Townhouse",
+      "contractor": "Delaporte Development Inc.",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($42,500); permit completed"
+    },
+    {
+      "date": "2024-06-10",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Rennovate existing kitchen to include new cabinets and appliances. Replace existing windows. Update electrical and add recessed lights. update plumbing location for the sink and stove. Install radiant heat in floor.",
+      "cost": 74000.0,
+      "property_use": "One-Family",
+      "contractor": "Delaporte Development",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($74,000)"
+    }
+  ]
+}

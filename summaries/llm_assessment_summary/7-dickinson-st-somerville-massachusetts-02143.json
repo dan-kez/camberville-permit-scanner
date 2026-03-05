@@ -1,0 +1,41 @@
+{
+  "address": "7 DICKINSON ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+DICKINSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1448,
+    "last_sale_date": "1975-08-29",
+    "last_sale_price": 0,
+    "assessed_value": 887800,
+    "lot_size": 0.024800000000000003
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Inman",
+  "distance_mi": 0.15,
+  "max_score": 2,
+  "total_cost": 420.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-12-03",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Replacement of window sashes.  No structural changes.  No alteration to existing openings.",
+      "cost": 420.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "King Shade & Window",
+      "score": 2,
+      "score_reasons": "keyword: structural"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The single permit describes minor window replacement with no structural changes at a very low cost ($420), indicating routine maintenance rather than a significant renovation intended for resale."
+  }
+}

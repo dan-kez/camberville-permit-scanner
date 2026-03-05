@@ -1,0 +1,44 @@
+{
+  "address": "12 KINNAIRD ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=12+KINNAIRD+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/12%20KINNAIRD%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=12+KINNAIRD+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1854",
+    "bedrooms": "2",
+    "bathrooms": "3/0",
+    "total_rooms": "8",
+    "living_area": "1520",
+    "last_sale_date": "2024-05-16T00:00:00.000",
+    "last_sale_price": "1300000",
+    "assessed_value": "1580200",
+    "lot_size": "2250"
+  },
+  "property_use": "Townhouse",
+  "nearest_square": "Central",
+  "distance_mi": 0.27,
+  "max_score": 7,
+  "total_cost": 274550.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-06-26",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Selective Demolition from 1st - 3rd for. including kitchen, 2 bathrooms. \u00a0Perimeter walls & ceilings in those areas. \u00a0New stairs from basement thru 3rd for. All new electric 200amp service including all new wiring, circuits, GFI & Arc-Fault receptacles, lighting, switches, wired smoke/heat detectors (per code). \u00a0New HVAC system including ductwork, ventilation, line set & condenser mounted outside. \u00a0Frame new dormer, new interior partition walls (per plan), Closed Cell Foam Insulation, fire stopping, Gypsum Board and plaster (on all open walls) and patching on all remaining existing walls and ceilings. \u00a0Tile work, finish existing flooring, Treads and Risers for new stairs, handrails, balusters, interior doors, new windows (where designated), Kitchen cabinets, countertops, vanities, bathroom accessories, and interior painting. Exterior work includes a new deck in the rear of the building and misc. repairs and siding for the new dormer area (see attached plans for details)",
+      "cost": 274550.0,
+      "property_use": "Townhouse",
+      "contractor": "BenJon Construction & Consulting Services, LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "high cost ($274,550); keyword: demolition; minor: sign; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "A comprehensive $274,550 gut renovation including the kitchen, multiple bathrooms, and structural updates was initiated just one month after the May 2024 purchase, strongly suggesting a professional flip."
+  }
+}

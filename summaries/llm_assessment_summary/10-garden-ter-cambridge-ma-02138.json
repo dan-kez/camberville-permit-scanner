@@ -1,0 +1,56 @@
+{
+  "address": "10 GARDEN TER, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+GARDEN+TER%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/10%20GARDEN%20TER%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+GARDEN+TER%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1913",
+    "bedrooms": "5",
+    "bathrooms": "3/2",
+    "total_rooms": "9",
+    "living_area": "4107",
+    "last_sale_date": "2016-02-11T00:00:00.000",
+    "last_sale_price": "4000000",
+    "assessed_value": "5058000",
+    "lot_size": "8435"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.63,
+  "max_score": 8,
+  "total_cost": 207158.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2023-06-20",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Full Bathroom Remodel",
+      "cost": 123590.0,
+      "property_use": "One-Family",
+      "contractor": "Payne Bouchier Inc",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($123,590); keyword: remodel; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-05-31",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "New laundry rm finishes and layout",
+      "cost": 83568.0,
+      "property_use": "One-Family",
+      "contractor": "Payne Bouchier Inc",
+      "owner_occupied": true,
+      "score": 6,
+      "score_reasons": "moderate cost ($83,568); permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The renovations consist of a single bathroom and laundry room remodel by a long-term owner-occupant, which aligns more with lifestyle improvements than high-end preparation for sale."
+  }
+}

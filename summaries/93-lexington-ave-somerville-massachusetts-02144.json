@@ -1,0 +1,52 @@
+{
+  "address": "93 LEXINGTON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=93+LEXINGTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/93%20LEXINGTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=93+LEXINGTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 3071,
+    "last_sale_date": "2021-09-03",
+    "last_sale_price": 1170000,
+    "assessed_value": 2061900,
+    "lot_size": 0.0826
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Davis",
+  "distance_mi": 0.38,
+  "max_score": 2,
+  "total_cost": 190.0,
+  "permit_count": 2,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2023-09-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "install steam generator third floor for second fl bath",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "JP Plumbing and Heating LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed"
+    },
+    {
+      "date": "2023-11-15",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Converted two family to single family home",
+      "cost": 130.0,
+      "property_use": "Certificate of Occupancy - Residential",
+      "contractor": "Songwoods Real Estate",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: convert"
+    }
+  ]
+}

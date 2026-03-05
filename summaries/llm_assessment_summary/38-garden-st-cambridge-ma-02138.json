@@ -1,0 +1,44 @@
+{
+  "address": "38 GARDEN ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38+GARDEN+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/38%20GARDEN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=38+GARDEN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1992",
+    "bedrooms": "4",
+    "bathrooms": "3/2",
+    "total_rooms": "9",
+    "living_area": "2975",
+    "last_sale_date": "2019-03-01T00:00:00.000",
+    "last_sale_price": "2900000",
+    "assessed_value": "4052100",
+    "lot_size": "3377"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.69,
+  "max_score": 3,
+  "total_cost": 25500.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-12-17",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Gutting of basement - walls and ceiling, no structural work.\u00a0Gutting two interior partition walls on the second floor, no structural work.",
+      "cost": 25500.0,
+      "property_use": "One-Family",
+      "contractor": "Auburndale Builders",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($25,500); keyword: gut"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied and the recent permit for basement gutting at a relatively low cost ($25,500) lacks the high-end kitchen and multi-bathroom updates characteristic of sale preparation."
+  }
+}

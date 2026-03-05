@@ -1,0 +1,61 @@
+{
+  "address": "36 CORINTHIAN RD, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=36+CORINTHIAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/36%20CORINTHIAN%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=36+CORINTHIAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1209,
+    "last_sale_date": "2022-08-01",
+    "last_sale_price": 1230000,
+    "assessed_value": 1163600,
+    "lot_size": 0.049600000000000005
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.27,
+  "max_score": 5,
+  "total_cost": 867.0,
+  "permit_count": 3,
+  "completed_permits": 2,
+  "completion_ratio": "2/3 complete",
+  "permits": [
+    {
+      "date": "2025-10-20",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Kitchen remodel using existing 200Amp service",
+      "cost": 57.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Downing Electric, Inc.",
+      "score": 5,
+      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+    },
+    {
+      "date": "2025-10-14",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "kitchen sink, dishwasher",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "C.C.R.P.H.Inc. Classic Cons. Remodeling Plmb. & Heat Inc.",
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2025-10-15",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Replace Kitchen cabinets, plumbing & electric permits to follow",
+      "cost": 750.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "C.C.R.P.H.Inc. Classic Cons. Remodeling Plmb. & Heat Inc.",
+      "score": 1,
+      "score_reasons": "most permits completed"
+    }
+  ]
+}

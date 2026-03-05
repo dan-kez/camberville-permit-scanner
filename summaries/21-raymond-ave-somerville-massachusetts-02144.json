@@ -1,0 +1,83 @@
+{
+  "address": "21 RAYMOND AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+RAYMOND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/21%20RAYMOND%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=21+RAYMOND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1895,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1556,
+    "last_sale_date": "2022-06-10",
+    "last_sale_price": 1284500,
+    "assessed_value": 1086900,
+    "lot_size": 0.1148
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.72,
+  "max_score": 7,
+  "total_cost": 1485.0,
+  "permit_count": 5,
+  "completed_permits": 5,
+  "completion_ratio": "5/5 complete",
+  "permits": [
+    {
+      "date": "2025-10-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Attic remodeling",
+      "cost": 113.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Raymond Sedar Electrician",
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+    },
+    {
+      "date": "2025-12-04",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "installing 2 mini split ductless on the attic",
+      "cost": 484.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "francisco J ruiz heating and cooling",
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2026-01-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "add 1 heat pump and 1 air handler in basement with serve receptacle \tB26-000024",
+      "cost": 90.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "3283A1",
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2026-01-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace air handler and split system heat pump",
+      "cost": 600.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Keyes North Atlantic",
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2026-02-03",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Third floor 2 rooms wiring.      Mini split wiring.",
+      "cost": 198.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Carlos Gomez Carrillo",
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

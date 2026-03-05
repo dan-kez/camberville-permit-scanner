@@ -1,0 +1,44 @@
+{
+  "address": "16 SARGENT ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+SARGENT+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/16%20SARGENT%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=16+SARGENT+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "6",
+    "living_area": "2151",
+    "last_sale_date": "2003-11-06T00:00:00.000",
+    "last_sale_price": "100",
+    "assessed_value": "2263700",
+    "lot_size": "4000"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.55,
+  "max_score": 3,
+  "total_cost": 291127.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-12-10",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Finish part of basement with new bedroom, bathroom, laundry room. \u00a0Construct new \"library\" room on first floor.",
+      "cost": 291127.0,
+      "property_use": "One-Family",
+      "contractor": "Stillwater Building & Renovation, LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "high cost ($291,127)"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied by a long-term resident (22+ years) who is performing a targeted expansion and basement finish rather than the full-scale kitchen and multiple-bathroom renovations typical of sale preparation."
+  }
+}

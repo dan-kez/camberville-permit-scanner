@@ -1,0 +1,41 @@
+{
+  "address": "47 LIBERTY AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=47+LIBERTY+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 11,
+    "living_area": 3157,
+    "last_sale_date": "2005-08-05",
+    "last_sale_price": 975000,
+    "assessed_value": 1649300,
+    "lot_size": 0.1189
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Davis",
+  "distance_mi": 0.36,
+  "max_score": 2,
+  "total_cost": 60.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-11-17",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Addition of 3rd floor bathroom",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Eric wholey",
+      "score": 2,
+      "score_reasons": "keyword: addition"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property has not been sold since 2005, indicating an owner-occupied residence, and the permit activity consists of only a single low-cost plumbing addition rather than a comprehensive renovation."
+  }
+}

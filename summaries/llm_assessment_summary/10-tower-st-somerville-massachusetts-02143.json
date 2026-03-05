@@ -1,0 +1,41 @@
+{
+  "address": "10 TOWER ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+TOWER+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1905,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2112,
+    "last_sale_date": "2005-10-18",
+    "last_sale_price": 516400,
+    "assessed_value": 1293300,
+    "lot_size": 0.0918
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.54,
+  "max_score": 5,
+  "total_cost": 70.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-10-22",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "install a 40 amp car charger.",
+      "cost": 70.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "James DeOliveira",
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The likelihood is low because the last sale occurred in 2005 and the scope of work is minimal, limited to a single $70 electrical permit for an EV charger rather than a renovation."
+  }
+}

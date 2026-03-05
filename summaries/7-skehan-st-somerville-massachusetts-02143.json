@@ -1,0 +1,39 @@
+{
+  "address": "7 SKEHAN ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+SKEHAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/7%20SKEHAN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=7+SKEHAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 2420,
+    "last_sale_date": "2022-04-21",
+    "last_sale_price": 1525000,
+    "assessed_value": 1515000,
+    "lot_size": 0.0878
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Inman",
+  "distance_mi": 0.53,
+  "max_score": 2,
+  "total_cost": 2787.5,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-09-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rooftop Solar Installation\r\n20.70 kW DC",
+      "cost": 2787.5,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Chris Normandin",
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed"
+    }
+  ]
+}

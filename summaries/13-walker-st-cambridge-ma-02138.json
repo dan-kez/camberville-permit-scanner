@@ -1,0 +1,40 @@
+{
+  "address": "13 WALKER ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=13+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/13%20WALKER%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=13+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "4",
+    "bathrooms": "3/1",
+    "total_rooms": "7",
+    "living_area": "2008",
+    "last_sale_date": "2005-04-19T00:00:00.000",
+    "last_sale_price": "1220000",
+    "assessed_value": "2618300",
+    "lot_size": "2440"
+  },
+  "property_use": "Townhouse",
+  "nearest_square": "Porter",
+  "distance_mi": 0.65,
+  "max_score": 1,
+  "total_cost": 35500.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-08-28",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Renovating existing bath at 2nd floor",
+      "cost": 35500.0,
+      "property_use": "Townhouse",
+      "contractor": "Bruno Rafael",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($35,500)"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "address": "9-5 BELLIS CIR, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9-5+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/9-5%20BELLIS%20CIR%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=9-5+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1979",
+    "bedrooms": "2",
+    "bathrooms": "1/1",
+    "total_rooms": "5",
+    "living_area": "1191",
+    "last_sale_date": "2024-05-21T00:00:00.000",
+    "last_sale_price": "1000000",
+    "assessed_value": "873900",
+    "lot_size": "1275"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.71,
+  "max_score": 5,
+  "total_cost": 158659.45,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-08-29",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Replace Boiler, Upgrade Electrical Panel, Add Mitsubishi Hyper Heat Mini-Split System, Renovate Bathrooms,Install New Windows,No structural work, no reconfiguration of existing layout",
+      "cost": 158659.45,
+      "property_use": "One-Family",
+      "contractor": "Ted-Co Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "moderate cost ($158,659); keyword: renovate; minor: boiler; permit completed; all permits completed"
+    }
+  ]
+}

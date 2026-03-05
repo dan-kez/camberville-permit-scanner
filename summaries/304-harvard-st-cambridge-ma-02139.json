@@ -1,0 +1,29 @@
+{
+  "address": "304 HARVARD ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=304+HARVARD+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/304%20HARVARD%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=304+HARVARD+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.33,
+  "max_score": 6,
+  "total_cost": 97049.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-05-09",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Roof Deck ConstructionFrame equals pressure treated 2x8 lumber4x4 posts5/4 decking",
+      "cost": 97049.0,
+      "property_use": "One-Family",
+      "contractor": "Unique Stairways LLC",
+      "owner_occupied": true,
+      "score": 6,
+      "score_reasons": "moderate cost ($97,049); permit completed; all permits completed"
+    }
+  ]
+}

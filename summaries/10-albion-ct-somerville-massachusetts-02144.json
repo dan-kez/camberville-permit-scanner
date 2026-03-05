@@ -1,0 +1,64 @@
+{
+  "address": "10 ALBION CT, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+ALBION+CT%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/10%20ALBION%20CT%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+ALBION+CT%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 5,
+    "living_area": 1105,
+    "last_sale_date": "2023-11-01",
+    "last_sale_price": 100,
+    "assessed_value": 843400,
+    "lot_size": 0.0609
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.55,
+  "max_score": 4,
+  "total_cost": 423.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/6 complete",
+  "permits": [
+    {
+      "date": "2024-06-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Electrical demolition for a wall",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Ryan Baugh Electrician",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: demolition; permit completed"
+    },
+    {
+      "date": "2024-06-03",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Knob and tube remediation. Not whole house. Add a dryer outlet. Add a stove cicuit",
+      "cost": 123.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Kuhlman Electrical Services",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed"
+    },
+    {
+      "date": "2024-06-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remove wall coverings, insulate and cover various walls. Move 1 window up from floor. Reframe 1 interior door",
+      "cost": 240.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "A Adam Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed"
+    }
+  ]
+}

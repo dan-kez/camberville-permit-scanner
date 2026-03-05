@@ -1,0 +1,68 @@
+{
+  "address": "27 GIBBENS ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=27+GIBBENS+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/27%20GIBBENS%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=27+GIBBENS+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1726,
+    "last_sale_date": "2021-08-30",
+    "last_sale_price": 100,
+    "assessed_value": 913900,
+    "lot_size": 0.0689
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.71,
+  "max_score": 5,
+  "total_cost": 565.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2024-07-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Service change. Service size staying the same, just updating the equipment",
+      "cost": 135.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Apex Energy Tek",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-09-17",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "This homeowner signed a contract with Sunrun to install a PV system on their house. Sunrun, a national company, used Vision Solar as the subcontractor to build the system, but Vision Solar never pulled the permits and have since gone out of business. My company, Apex Energy Tek were hired by Sunrun to complete this job. As of now, panels are on the roof with no production. (2.88kW)",
+      "cost": 300.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Apex Energy Tek",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: complete; minor: sign; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-09-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "This homeowner signed a contract with Sunrun to install a PV system on their house. Sunrun, a national company, used Vision Solar as the subcontractor to build the system, but Vision Solar never pulled the permits and have since gone out of business. My company, Apex Energy Tek were hired by Sunrun to complete this job. As of now, panels are on the roof with no production. Apex plans to take over work and pass all inspections and get permission to operate.",
+      "cost": 130.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Apex Energy Tek",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: complete; minor: sign; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permits reflect minor maintenance work including an electrical service update and the completion of a solar installation by an owner-occupant, rather than high-end renovations."
+  }
+}

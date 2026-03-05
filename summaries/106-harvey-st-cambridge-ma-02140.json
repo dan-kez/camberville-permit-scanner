@@ -1,0 +1,29 @@
+{
+  "address": "106 HARVEY ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=106+HARVEY+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/106%20HARVEY%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=106+HARVEY+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.56,
+  "max_score": 1,
+  "total_cost": 74875.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-01-30",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Install a 8' x 14' inground swimspa pool",
+      "cost": 74875.0,
+      "property_use": "One-Family",
+      "contractor": "Michael T Pendleton",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($74,875)"
+    }
+  ]
+}

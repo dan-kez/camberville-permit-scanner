@@ -1,0 +1,44 @@
+{
+  "address": "8 FOLLEN ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+FOLLEN+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/8%20FOLLEN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+FOLLEN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1871",
+    "bedrooms": "4",
+    "bathrooms": "7/1",
+    "total_rooms": "12",
+    "living_area": "5188",
+    "last_sale_date": "1995-08-29T00:00:00.000",
+    "last_sale_price": "1775000",
+    "assessed_value": "7065600",
+    "lot_size": "15344"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.71,
+  "max_score": 10,
+  "total_cost": 611584.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-03-27",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Full bathroom renovation. New tile on the floors and walls. New cabinets and countertops. New plumbing and electrical fixtures. Replace bathroom exhaust fan. Replace three windows. New accessories.",
+      "cost": 611584.0,
+      "property_use": "One-Family",
+      "contractor": "SL Mario Construction Corp",
+      "owner_occupied": true,
+      "score": 10,
+      "score_reasons": "high cost ($611,584); keyword: renovation; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied by a long-term resident of 30 years and the permit reflects a single bathroom renovation and window replacement rather than a full-scale flip."
+  }
+}

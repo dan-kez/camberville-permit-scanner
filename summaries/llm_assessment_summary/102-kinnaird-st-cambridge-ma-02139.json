@@ -1,0 +1,44 @@
+{
+  "address": "102 KINNAIRD ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=102+KINNAIRD+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/102%20KINNAIRD%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=102+KINNAIRD+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1902",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "5",
+    "living_area": "1211",
+    "last_sale_date": "2015-11-12T00:00:00.000",
+    "last_sale_price": "918000",
+    "assessed_value": "1379000",
+    "lot_size": "4300"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.45,
+  "max_score": 6,
+  "total_cost": 63776.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-03-16",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Add a bathroom and closet on the existing bedroom",
+      "cost": 63776.0,
+      "property_use": "One-Family",
+      "contractor": "Junior's Construction",
+      "owner_occupied": true,
+      "score": 6,
+      "score_reasons": "moderate cost ($63,776); permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "A single bathroom addition by a long-term owner-occupant is a common lifestyle improvement rather than a high-end prep-for-sale renovation."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "address": "22 ENDICOTT AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=22+ENDICOTT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/22%20ENDICOTT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=22+ENDICOTT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1965,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 1619,
+    "last_sale_date": "2022-03-30",
+    "last_sale_price": 1370000,
+    "assessed_value": 1249500,
+    "lot_size": 0.0674
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Davis",
+  "distance_mi": 0.6,
+  "max_score": 2,
+  "total_cost": 3007.5,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2026-02-02",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Basement Renovation. Remove existing partition, install flush framed beams. Remove and replace basement window and exterior door. Replace flooring. New basement HVAC",
+      "cost": 3007.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Our House Contracting",
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    }
+  ]
+}

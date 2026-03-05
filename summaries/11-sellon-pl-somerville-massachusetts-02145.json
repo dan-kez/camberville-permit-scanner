@@ -1,0 +1,76 @@
+{
+  "address": "11 SELLON PL, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+SELLON+PL%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/11%20SELLON%20PL%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=11+SELLON+PL%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1357,
+    "last_sale_date": "2023-12-22",
+    "last_sale_price": 800000,
+    "assessed_value": 749200,
+    "lot_size": 0.14880000000000002
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Union",
+  "distance_mi": 0.69,
+  "max_score": 5,
+  "total_cost": 1710.0,
+  "permit_count": 4,
+  "completed_permits": 4,
+  "completion_ratio": "4/6 complete",
+  "permits": [
+    {
+      "date": "2024-02-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "KITCHEN AND TWO BATHROOM RENOVATION",
+      "cost": 140.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "aldo and victoria services",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+    },
+    {
+      "date": "2024-06-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Only Demoltion of interior walls leaving just wooden framing members of home and knocking down just the walls, plaster etc \r\nPermit to construct B24-000073",
+      "cost": 1090.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Brausa general construction Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: framing; permit completed; most permits completed"
+    },
+    {
+      "date": "2024-02-15",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rewire entire house",
+      "cost": 405.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "ELIEZER CRUZ ELECTRICIAN",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2024-06-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Electrical demo/Make safe",
+      "cost": 75.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "ELIEZER CRUZ ELECTRICIAN",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    }
+  ]
+}

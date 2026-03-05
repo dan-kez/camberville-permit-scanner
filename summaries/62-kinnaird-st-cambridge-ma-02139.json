@@ -1,0 +1,40 @@
+{
+  "address": "62 KINNAIRD ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=62+KINNAIRD+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/62%20KINNAIRD%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=62+KINNAIRD+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "9",
+    "living_area": "2242",
+    "last_sale_date": "2006-07-18T00:00:00.000",
+    "last_sale_price": "760000",
+    "assessed_value": "1759900",
+    "lot_size": "2880"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.33,
+  "max_score": 1,
+  "total_cost": 50075.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-05-02",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "reonvation of existing kitchen & half-bathrm and relocate laundry",
+      "cost": 50075.0,
+      "property_use": "One-Family",
+      "contractor": "B&D Building and Remodeling, Inc.",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($50,075)"
+    }
+  ]
+}

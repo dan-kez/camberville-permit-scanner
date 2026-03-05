@@ -1,0 +1,40 @@
+{
+  "address": "86 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=86+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/86%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=86+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2448,
+    "last_sale_date": "1993-02-11",
+    "last_sale_price": 1,
+    "assessed_value": 1606300,
+    "lot_size": 0.079
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Davis",
+  "distance_mi": 0.53,
+  "max_score": 2,
+  "total_cost": 750.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-09-11",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Remove and replace 13 windows, like sizes with no structural changes.",
+      "cost": 750.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Renewal by Andersen",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural"
+    }
+  ]
+}

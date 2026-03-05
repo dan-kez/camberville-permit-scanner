@@ -1,0 +1,52 @@
+{
+  "address": "40 CORINTHIAN RD, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+CORINTHIAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/40%20CORINTHIAN%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=40+CORINTHIAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1930,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1281,
+    "last_sale_date": "2023-08-16",
+    "last_sale_price": 1150000,
+    "assessed_value": 1122000,
+    "lot_size": 0.0475
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Davis",
+  "distance_mi": 0.27,
+  "max_score": 2,
+  "total_cost": 6345.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2024-07-15",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Remodel existing kitchen and 2nd floor bathroom, bathroom to include new laundry. Install new bathroom in existing study on 2nd floor. Replace existing HVAC and HWH. Remove existing chimney and patch roof.",
+      "cost": 6145.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Steve E. Valenti Builders, Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    },
+    {
+      "date": "2024-10-24",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street for demolition",
+      "cost": 200.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "Steve E. Valenti Builders, Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: demolition"
+    }
+  ]
+}

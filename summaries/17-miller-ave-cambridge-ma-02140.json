@@ -1,0 +1,40 @@
+{
+  "address": "17 MILLER AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+MILLER+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/17%20MILLER%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=17+MILLER+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1900",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "6",
+    "living_area": "1594",
+    "last_sale_date": "2023-12-01T00:00:00.000",
+    "last_sale_price": "910000",
+    "assessed_value": "1986000",
+    "lot_size": "2552"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.3,
+  "max_score": 7,
+  "total_cost": 522000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-01-05",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Full Renovation with Dormer @ existing 5' height and Finished Basement",
+      "cost": 522000.0,
+      "property_use": "One-Family",
+      "contractor": "Fombelle Design",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "high cost ($522,000); keyword: renovation; minor: shed; permit completed; all permits completed"
+    }
+  ]
+}

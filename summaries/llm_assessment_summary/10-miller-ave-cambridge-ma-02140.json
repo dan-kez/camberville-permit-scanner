@@ -1,0 +1,44 @@
+{
+  "address": "10 MILLER AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+MILLER+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/10%20MILLER%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+MILLER+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1893",
+    "bedrooms": "5",
+    "bathrooms": "2/0",
+    "total_rooms": "8",
+    "living_area": "1664",
+    "last_sale_date": "2016-05-04T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1411300",
+    "lot_size": "2361"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.28,
+  "max_score": 8,
+  "total_cost": 129759.31,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-07-17",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Demolition of existing cabinets, countertops, appliances, flooring, and finishes.Installation of new kitchen cabinets, countertops, backsplash, and appliances.Electrical work to update outlets, lighting, and switches to meet current code, including new under-cabinet lighting and GFCI protection as required.Plumbing work to reconfigure sink, dishwasher hookups, install a new faucet, garbage disposal and converting a ratiator to a toekick heater.Minor framing work as needed to accommodate new cabinet layout and/or mechanical runs.Installation of new flooring and painting of all walls and ceilings.No changes to existing window or door openings.No change to building footprint or load-bearing structural elements.All work will comply with current Massachusetts Building Code, State Plumbing and Electrical Codes, and City of Cambridge requirements.",
+      "cost": 129759.31,
+      "property_use": "One-Family",
+      "contractor": "Design 1 Kitchen and Bath",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($129,759); keyword: demolition; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "A significant kitchen renovation by a long-term owner-occupant without accompanying bathroom updates suggests personal use rather than preparation for sale."
+  }
+}

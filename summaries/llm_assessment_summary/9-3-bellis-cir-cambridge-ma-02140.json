@@ -1,0 +1,44 @@
+{
+  "address": "9-3 BELLIS CIR, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9-3+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/9-3%20BELLIS%20CIR%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=9-3+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1979",
+    "bedrooms": "2",
+    "bathrooms": "1/1",
+    "total_rooms": "5",
+    "living_area": "1200",
+    "last_sale_date": "2001-05-04T00:00:00.000",
+    "last_sale_price": "320500",
+    "assessed_value": "839700",
+    "lot_size": "1731"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.71,
+  "max_score": 1,
+  "total_cost": 78922.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-04-22",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Windows replacement and tub/surround replacement",
+      "cost": 78922.0,
+      "property_use": "One-Family",
+      "contractor": "Wells & Company Builders Corp",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($78,922)"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The long-term owner-occupant (since 2001) is performing maintenance-heavy work (windows) and a minor bathroom update rather than a full-scale renovation."
+  }
+}

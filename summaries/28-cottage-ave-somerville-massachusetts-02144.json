@@ -1,0 +1,50 @@
+{
+  "address": "28 COTTAGE AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=28+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/28%20COTTAGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=28+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1582,
+    "last_sale_date": "1998-07-20",
+    "last_sale_price": 415000,
+    "assessed_value": 1413200,
+    "lot_size": 0.1066
+  },
+  "property_use": "Gas Fitting - Residential - Existing",
+  "nearest_square": "Davis",
+  "distance_mi": 0.17,
+  "max_score": 2,
+  "total_cost": 120.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2025-10-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "repalce gas boiler",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "Daniel E. Cadotte Plumbing & Heating Inc.",
+      "score": 2,
+      "score_reasons": "minor: boiler; permit completed; all permits completed"
+    },
+    {
+      "date": "2025-10-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "repalce water heater with indirect water heater and replace watts 9D",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Daniel E. Cadotte Plumbing & Heating Inc.",
+      "score": 2,
+      "score_reasons": "minor: water heater; permit completed; all permits completed"
+    }
+  ]
+}

@@ -52,7 +52,7 @@ SOURCES = {
     "cambridge_properties": {
         "url": CAMBRIDGE_PROPERTY_DB,
         "params": {
-            "$where": "yearofassessment='2025'",
+            "$where": "yearofassessment='2026'",
             "$limit": 50000,
         },
     },
@@ -315,8 +315,9 @@ def _normalize_cambridge_property(rows):
         for addr in addresses:
             if not addr: continue
             key = normalize_address_key(addr)
-            if key and key not in indexed:
-                indexed[key] = info
+            if key:
+                # Add city prefix to avoid collisions
+                indexed[f"cambridge:{key}"] = info
                 
     return indexed
 
@@ -337,7 +338,7 @@ def _normalize_somerville_property(rows):
             s = str(ls_date)
             ls_date = f"{s[:4]}-{s[4:6]}-{s[6:]}"
             
-        indexed[key] = {
+        indexed[f"somerville:{key}"] = {
             "property_class": r.get("USE_CODE", "unknown"),
             "year_built": r.get("YEAR_BUILT", "unknown"),
             "bedrooms": "unknown", 
@@ -359,9 +360,9 @@ def fetch_properties(use_cache=True):
     # Cambridge
     try:
         rows, status = _get_rows("cambridge_properties", use_cache=use_cache)
-        if not rows: # Try fallback to 2024
+        if not rows: # Try fallback to 2025
             orig_params = SOURCES["cambridge_properties"]["params"].copy()
-            SOURCES["cambridge_properties"]["params"]["$where"] = "yearofassessment='2024'"
+            SOURCES["cambridge_properties"]["params"]["$where"] = "yearofassessment='2025'"
             rows, status = _get_rows("cambridge_properties", use_cache=False)
             SOURCES["cambridge_properties"]["params"] = orig_params
             

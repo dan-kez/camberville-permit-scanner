@@ -1,0 +1,56 @@
+{
+  "address": "8 WHITTIER ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+WHITTIER+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/8%20WHITTIER%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+WHITTIER+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1902",
+    "bedrooms": "4",
+    "bathrooms": "3/0",
+    "total_rooms": "9",
+    "living_area": "2958",
+    "last_sale_date": "2022-09-30T00:00:00.000",
+    "last_sale_price": "2750000",
+    "assessed_value": "3258300",
+    "lot_size": "3990"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.39,
+  "max_score": 5,
+  "total_cost": 1342800.0,
+  "permit_count": 2,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2024-03-06",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Remodel of existing single family home to include new kitchen (first floor)primary bed bathroom(second floor) with single story bumpout at rear and re build existing front entryway. Create new entryway to basement and relocate driveway to original side of the property. Remodel existing basement (less living space)",
+      "cost": 1309000.0,
+      "property_use": "One-Family",
+      "contractor": "Precision Finish Boston Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($1,309,000); keyword: remodel"
+    },
+    {
+      "date": "2023-07-24",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Replace existing asphalt roof shingles with Max Dec Colonial Slate. \u00a0Remove existing roof vent dormer and install Velux 3046 manual venting skylight. \u00a0Replace siding on dormers, estimate includes repair and painting all trim above freezeboard line of home and new 5\" whitle K style gutters.",
+      "cost": 33800.0,
+      "property_use": "One-Family",
+      "contractor": "AB Carpentry, LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "moderate cost ($33,800); keyword: gut; minor: siding; permit completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The property is undergoing a massive $1.3 million whole-house remodel shortly after its 2022 purchase, but the owner-occupied status suggests it may be a personal residence upgrade rather than a professional flip."
+  }
+}

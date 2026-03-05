@@ -1,0 +1,40 @@
+{
+  "address": "2 ELM CT, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+ELM+CT%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/2%20ELM%20CT%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=2+ELM+CT%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1188,
+    "last_sale_date": "2005-05-31",
+    "last_sale_price": 520000,
+    "assessed_value": 1095000,
+    "lot_size": 0.0483
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Davis",
+  "distance_mi": 0.07,
+  "max_score": 7,
+  "total_cost": 60.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-03-20",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace shower stall. No structural change.",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "HIP Construction",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed"
+    }
+  ]
+}

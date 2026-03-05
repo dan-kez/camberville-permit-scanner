@@ -6,7 +6,7 @@ import argparse
 
 from analyze import print_llm_report, run_llm_analysis, write_summaries
 from config import DEFAULT_MIN_SCORE, DEFAULT_RADIUS_MI
-from fetch import fetch_all, fetch_properties
+from fetch import fetch_all, fetch_properties, normalize_address_key
 from filters import apply_filters
 from report import export_csv, print_table
 
@@ -14,6 +14,9 @@ from report import export_csv, print_table
 def build_parser():
     parser = argparse.ArgumentParser(
         description="Scan building permits near target squares to find homes likely coming to market."
+    )
+    parser.add_argument(
+        "--address", help="Target a specific address (ignores radius filter)",
     )
     parser.add_argument(
         "--radius", type=float, default=DEFAULT_RADIUS_MI,
@@ -48,8 +51,12 @@ def build_parser():
         help="Run LLM analysis on each summary (optionally only for addresses with score ≥ MIN_SCORE)",
     )
     parser.add_argument(
-        "--llm", choices=["opencode", "sonnet"], default="opencode",
+        "--llm", choices=["opencode", "sonnet", "gemini"], default="opencode",
         help="Which LLM to use for analysis (default: opencode / ollama)",
+    )
+    parser.add_argument(
+        "--workers", type=int, default=4,
+        help="Number of parallel workers for LLM analysis (default: 4)",
     )
     return parser
 
@@ -74,10 +81,18 @@ def main():
     properties = fetch_properties(use_cache=use_cache)
 
     print("Filtering...")
+    if args.address:
+        target = normalize_address_key(args.address)
+        permits = [p for p in permits if normalize_address_key(p.get("address", "")) == target]
+        # Bypass radius if address is targeted
+        radius = 999.0
+    else:
+        radius = args.radius
+
     permits = apply_filters(
         permits,
         properties,
-        radius_mi=args.radius,
+        radius_mi=radius,
         min_score=args.min_score,
         skip_residential=args.all,
         skip_significance=args.all,
@@ -93,7 +108,7 @@ def main():
         llm_min_score = args.analyze_llm if args.analyze_llm is not None else None
         summary_files = write_summaries(permits, properties, min_score=llm_min_score)
         if args.analyze_llm is not None and summary_files:
-            results = run_llm_analysis(summary_files, permits, llm_type=args.llm)
+            results = run_llm_analysis(summary_files, permits, llm_type=args.llm, max_workers=args.workers)
             print_llm_report(results)
 
 

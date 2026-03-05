@@ -1,0 +1,37 @@
+{
+  "address": "120 HAMPSHIRE ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=120+HAMPSHIRE+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "property_info": {
+    "property_class": "CONDOMINIUM",
+    "year_built": "1996",
+    "bedrooms": "3",
+    "bathrooms": "1/1",
+    "total_rooms": "6",
+    "living_area": "1243",
+    "last_sale_date": "2010-05-25T00:00:00.000",
+    "last_sale_price": "125000",
+    "assessed_value": "192000",
+    "lot_size": "0"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.29,
+  "max_score": 1,
+  "total_cost": 36600.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2026-01-13",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Replace water damaged drywall, flooring, and cabinets due to water pipe break/leak.",
+      "cost": 36600.0,
+      "property_use": "One-Family",
+      "contractor": "Bostex Builders and Construction Management, LLC",
+      "score": 1,
+      "score_reasons": "moderate cost ($36,600)"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "address": "35 FLORENCE ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35+FLORENCE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/35%20FLORENCE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=35+FLORENCE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1768,
+    "last_sale_date": "2021-03-01",
+    "last_sale_price": 1,
+    "assessed_value": 803900,
+    "lot_size": 0.0589
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.58,
+  "max_score": 2,
+  "total_cost": 80.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-08-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replacing riser, relocating meter to exterior of home, re feeding existing panelboard.",
+      "cost": 80.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Trinity Solar LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: panel; permit completed; all permits completed"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "address": "21 COTTAGE PARK AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+COTTAGE+PARK+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/21%20COTTAGE%20PARK%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=21+COTTAGE+PARK+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1889",
+    "bedrooms": "3",
+    "bathrooms": "3/0",
+    "total_rooms": "8",
+    "living_area": "2074",
+    "last_sale_date": "2024-08-05T00:00:00.000",
+    "last_sale_price": "10",
+    "assessed_value": "1196900",
+    "lot_size": "4520"
+  },
+  "property_use": "One or Two Family Dwelling",
+  "nearest_square": "Davis",
+  "distance_mi": 0.58,
+  "max_score": 6,
+  "total_cost": 994000.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2024-03-29",
+      "source": "Cambridge New Construction",
+      "status": "Active",
+      "description": "Detached Garage-Part Of Main Building Application Permit#263672 Single Family Major Renovations",
+      "cost": 45000.0,
+      "property_use": "One or Two Family Dwelling",
+      "contractor": "FERNANDO J SILVA",
+      "owner_occupied": true,
+      "score": 6,
+      "score_reasons": "moderate cost ($45,000); keyword: renovation; new construction"
+    },
+    {
+      "date": "2024-03-29",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Single Family Major Renovations",
+      "cost": 949000.0,
+      "property_use": "One-Family",
+      "contractor": "New Age Properties LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($949,000); keyword: renovation"
+    }
+  ]
+}

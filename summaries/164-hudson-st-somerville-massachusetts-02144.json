@@ -1,0 +1,40 @@
+{
+  "address": "164 HUDSON ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=164+HUDSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/164%20HUDSON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=164+HUDSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 2191,
+    "last_sale_date": "1997-03-27",
+    "last_sale_price": 170000,
+    "assessed_value": 1251900,
+    "lot_size": 0.1109
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Porter",
+  "distance_mi": 0.48,
+  "max_score": 5,
+  "total_cost": 520.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-11-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace 18 windows",
+      "cost": 520.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Bruin Corp of Framingham",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

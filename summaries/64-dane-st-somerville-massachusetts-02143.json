@@ -1,0 +1,50 @@
+{
+  "address": "64 DANE ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=64+DANE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/64%20DANE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=64+DANE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1850,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2340,
+    "last_sale_date": "2015-08-13",
+    "last_sale_price": 859000,
+    "assessed_value": 1666800,
+    "lot_size": 0.1351
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Inman",
+  "distance_mi": 0.47,
+  "max_score": 2,
+  "total_cost": 1002.5,
+  "permit_count": 2,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2025-11-17",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Repiar Porch \tB25-001822",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Steven Giardini Electric",
+      "score": 2,
+      "score_reasons": "permit completed"
+    },
+    {
+      "date": "2025-11-24",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Renovate existing front porch, install new closet, replace roof, install new gutters and downspouts",
+      "cost": 957.5,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Chavez Construction",
+      "score": 2,
+      "score_reasons": "keyword: gut"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "address": "59 FRANCIS AVE, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=59+FRANCIS+AVE%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/59%20FRANCIS%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=59+FRANCIS+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "1916",
+    "bedrooms": "7",
+    "bathrooms": "3/1",
+    "total_rooms": "17",
+    "living_area": "4025",
+    "last_sale_date": "2024-07-01T00:00:00.000",
+    "last_sale_price": "100",
+    "assessed_value": "4465900",
+    "lot_size": "10335"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.61,
+  "max_score": 5,
+  "total_cost": 1436529.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-09-04",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Interior Renovation of Kitchens and Bathrooms and other Misc. Living Spaces. Installation of New Wood Deck. Replace and Relocate Bulkhead. Replace all Windows.",
+      "cost": 1436529.0,
+      "property_use": "Two-Family",
+      "contractor": "Howland Company, inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($1,436,529); keyword: renovation"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "A massive $1.4M renovation of multiple kitchens and bathrooms immediately following a property transfer strongly indicates a high-end developer flip."
+  }
+}

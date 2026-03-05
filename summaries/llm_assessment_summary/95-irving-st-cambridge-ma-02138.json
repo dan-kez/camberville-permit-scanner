@@ -1,0 +1,44 @@
+{
+  "address": "95 IRVING ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=95+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/95%20IRVING%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=95+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "1889",
+    "bedrooms": "6",
+    "bathrooms": "6/2",
+    "total_rooms": "14",
+    "living_area": "8176",
+    "last_sale_date": "2022-08-31T00:00:00.000",
+    "last_sale_price": "12166000",
+    "assessed_value": "15821700",
+    "lot_size": "16824"
+  },
+  "property_use": "One or Two Family Dwelling",
+  "nearest_square": "Inman",
+  "distance_mi": 0.67,
+  "max_score": 9,
+  "total_cost": 100000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-01-25",
+      "source": "Cambridge New Construction",
+      "status": "Complete",
+      "description": "Building a new detached garage",
+      "cost": 100000.0,
+      "property_use": "One or Two Family Dwelling",
+      "contractor": "ERIC L HILL",
+      "owner_occupied": true,
+      "score": 9,
+      "score_reasons": "moderate cost ($100,000); new construction; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied and the only permit is for a detached garage, lacking the simultaneous kitchen and bathroom renovations typical of a pre-sale flip."
+  }
+}

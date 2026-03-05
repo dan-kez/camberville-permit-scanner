@@ -1,0 +1,83 @@
+{
+  "address": "16 WARWICK ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+WARWICK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/16%20WARWICK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=16+WARWICK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1856,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1210,
+    "last_sale_date": "2003-01-22",
+    "last_sale_price": 0,
+    "assessed_value": 883300,
+    "lot_size": 0.17220000000000002
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.62,
+  "max_score": 2,
+  "total_cost": 9705.0,
+  "permit_count": 5,
+  "completed_permits": 1,
+  "completion_ratio": "1/5 complete",
+  "permits": [
+    {
+      "date": "2025-10-06",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Demolition",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Juan Camilo Gallego Bohorquez",
+      "score": 2,
+      "score_reasons": "keyword: demolition"
+    },
+    {
+      "date": "2025-11-26",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Foundation: Construction of a new one-story detached accessory dwelling unit (\u00e2\u0080\u009cbackyard cottage\u00e2\u0080\u009d) located at the rear of the lot. \r\nPERMIT TO CONSTRUCT B25-001402",
+      "cost": 825.0,
+      "property_use": "Building Permit - Residential New Construction",
+      "contractor": "North America Development LLC",
+      "score": 2,
+      "score_reasons": "keyword: foundation"
+    },
+    {
+      "date": "2025-12-04",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Foundation: Single-family renovation with rear addition \r\nPERMIT TO CONSTRUCT B25-001404",
+      "cost": 580.0,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "North America Development LLC",
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    },
+    {
+      "date": "2026-01-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Grounding fundation!!",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Juan Camilo Gallego Bohorquez",
+      "score": 2,
+      "score_reasons": "permit completed"
+    },
+    {
+      "date": "2026-01-12",
+      "source": "Somerville",
+      "status": "Withdrawn",
+      "description": "Vertical: Single-family renovation with rear addition\r\nFOUNDATION ONLY PERMIT B25-001403\r\nWITHDRAWN PER APPLICANT, SEE UPLOADED DOCUMENT.",
+      "cost": 8180.0,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "North America Development LLC",
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    }
+  ]
+}

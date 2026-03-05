@@ -1,0 +1,44 @@
+{
+  "address": "89 WASHINGTON AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=89+WASHINGTON+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/89%20WASHINGTON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=89+WASHINGTON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1940",
+    "bedrooms": "2",
+    "bathrooms": "2/1",
+    "total_rooms": "5",
+    "living_area": "1577",
+    "last_sale_date": "2024-04-17T00:00:00.000",
+    "last_sale_price": "2500000",
+    "assessed_value": "2142100",
+    "lot_size": "3796"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.28,
+  "max_score": 3,
+  "total_cost": 47498.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-07-08",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "REMOVE & REPLACE 9 WINDOWS; 1 PATIO DOOR; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 47498.0,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($47,498); keyword: structural"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permit is limited to routine window and door replacement by an owner-occupant, which is classified as maintenance work rather than a high-end renovation for sale."
+  }
+}

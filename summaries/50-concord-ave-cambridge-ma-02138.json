@@ -1,0 +1,40 @@
+{
+  "address": "50 CONCORD AVE, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=50+CONCORD+AVE%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/50%20CONCORD%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=50+CONCORD+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1913",
+    "bedrooms": "5",
+    "bathrooms": "4/1",
+    "total_rooms": "11",
+    "living_area": "3696",
+    "last_sale_date": "2023-01-31T00:00:00.000",
+    "last_sale_price": "2335000",
+    "assessed_value": "3181800",
+    "lot_size": "6144"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.71,
+  "max_score": 10,
+  "total_cost": 368000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-12-18",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Construct addition to the rear of the existing house in accordance with enclosed drawings. \u00a0Sister floor joists in basement ceilling.",
+      "cost": 368000.0,
+      "property_use": "One-Family",
+      "contractor": "Fennell Engineering",
+      "owner_occupied": true,
+      "score": 10,
+      "score_reasons": "high cost ($368,000); keyword: addition; permit completed; all permits completed"
+    }
+  ]
+}

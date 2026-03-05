@@ -1,0 +1,44 @@
+{
+  "address": "29 FOLLEN ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=29+FOLLEN+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/29%20FOLLEN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=29+FOLLEN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "1838",
+    "bedrooms": "4",
+    "bathrooms": "4/1",
+    "total_rooms": "12",
+    "living_area": "4970",
+    "last_sale_date": "2016-07-26T00:00:00.000",
+    "last_sale_price": "3200000",
+    "assessed_value": "4476500",
+    "lot_size": "13529"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.66,
+  "max_score": 3,
+  "total_cost": 64000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-12-17",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Interior selective demolition of finishes, fixtures, etc. \u00a0The interior of the building will be fully renovated under a seperate permit filing.",
+      "cost": 64000.0,
+      "property_use": "Two-Family",
+      "contractor": "ADCO Realty",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($64,000); keyword: renovate"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The property is undergoing a full interior renovation after nearly ten years of ownership, which matches the criteria for significant gut work indicating sale preparation."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "address": "9 HOLTS AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+HOLTS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1425,
+    "last_sale_date": "2016-06-29",
+    "last_sale_price": 757000,
+    "assessed_value": 1051900,
+    "lot_size": 0.0328
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Inman",
+  "distance_mi": 0.11,
+  "max_score": 2,
+  "total_cost": 11536.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2025-10-06",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Renovate kitchen within existing footprint of building and renovate second floor bathroom.",
+      "cost": 11205.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Wells & Company builders",
+      "score": 2,
+      "score_reasons": "keyword: renovate"
+    },
+    {
+      "date": "2025-11-12",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "kitchen and bath remodel, new 200A service",
+      "cost": 331.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Modern Electric",
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The last sale date of 2016 indicates long-term ownership, and the relatively low cost and limited scope of kitchen and bathroom work suggest an owner-occupied renovation rather than a cosmetic flip."
+  }
+}

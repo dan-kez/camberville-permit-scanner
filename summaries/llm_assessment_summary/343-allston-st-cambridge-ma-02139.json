@@ -1,0 +1,44 @@
+{
+  "address": "343 ALLSTON ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=343+ALLSTON+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/343%20ALLSTON%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=343+ALLSTON+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "1",
+    "bathrooms": "1/0",
+    "total_rooms": "5",
+    "living_area": "912",
+    "last_sale_date": "1978-08-30T00:00:00.000",
+    "last_sale_price": "19000",
+    "assessed_value": "993100",
+    "lot_size": "2041"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.54,
+  "max_score": 2,
+  "total_cost": 650000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-06-11",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Expand existing single family unit and add another unit in the rear to create a 2-family structure. New structural system, new floors, new mepfp, new finishes. No expansion of basement. Building will be sprinklered.",
+      "cost": 650000.0,
+      "property_use": "One-Family",
+      "contractor": "Treetop Investments",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($650,000); keyword: structural; minor: sprinkler"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "A $650,000 gut renovation and conversion from a single-family to a two-family structure by an investment-named contractor indicates a major value-add project typically intended for resale or high-end investment."
+  }
+}

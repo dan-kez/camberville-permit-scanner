@@ -1,0 +1,40 @@
+{
+  "address": "42 WALKER ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=42+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/42%20WALKER%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=42+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "3",
+    "bathrooms": "3/1",
+    "total_rooms": "8",
+    "living_area": "2167",
+    "last_sale_date": "2001-09-06T00:00:00.000",
+    "last_sale_price": "908000",
+    "assessed_value": "2880300",
+    "lot_size": "3539"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.61,
+  "max_score": 7,
+  "total_cost": 405350.16,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-12-21",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Renovate second floor bathroom, add first floor powder room, add multi zone heat pump system, replace back door and a family room window, and replace boiler.",
+      "cost": 405350.16,
+      "property_use": "One-Family",
+      "contractor": "Marvel Construction",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "high cost ($405,350); keyword: renovate; minor: boiler; permit completed; all permits completed"
+    }
+  ]
+}

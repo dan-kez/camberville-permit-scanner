@@ -1,0 +1,56 @@
+{
+  "address": "17 GILMAN ST, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/17%20GILMAN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=17+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2967,
+    "last_sale_date": "2013-06-28",
+    "last_sale_price": 639000,
+    "assessed_value": 1463900,
+    "lot_size": 0.2033
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Union",
+  "distance_mi": 0.4,
+  "max_score": 5,
+  "total_cost": 120.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-11-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Cap a water line",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Domination Plumbing and Heating",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-11-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Capping a gas line",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "Domination Plumbing and Heating",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The minor utility maintenance work (capping lines) by a long-term owner-occupant (12+ years) does not indicate a prep-for-sale renovation."
+  }
+}

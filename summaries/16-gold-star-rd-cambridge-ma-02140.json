@@ -1,0 +1,40 @@
+{
+  "address": "16 GOLD STAR RD, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+GOLD+STAR+RD%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/16%20GOLD%20STAR%20RD%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=16+GOLD+STAR+RD%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1899",
+    "bedrooms": "5",
+    "bathrooms": "2/1",
+    "total_rooms": "8",
+    "living_area": "1864",
+    "last_sale_date": "2019-11-13T00:00:00.000",
+    "last_sale_price": "990000",
+    "assessed_value": "1411800",
+    "lot_size": "2275"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.45,
+  "max_score": 2,
+  "total_cost": 321300.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-11-05",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Renovate 1ts floor kitchen, remove 1st floor separation walls and install posts and cross beams as per engineer's structural plans, install a full bathroom in the basement, renovate existing 1st floor bathroom as per architectural plans, move laundry from basement to 1st floor as per plans, move back entrance door and rebuild back steps as per plans, rebuild steps to the 2nd floor, replace front enclosed porch door & windows and build a coat closet, rebuild front steps as per plans, close basement back entrance and patch foundation wall, install a basement window drywell as per plans, install a Navien hot water & heat boiler, install HVAC for basment, 1st & 2nd floor, Install a split heat & cooling system in 3rd floor, sand & poly 1st floor hardwood floors, prime and paint the entire 1st floor.",
+      "cost": 321300.0,
+      "property_use": "One-Family",
+      "contractor": "MCK Remodeling & Painting Inc.",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($321,300); keyword: renovate; minor: boiler"
+    }
+  ]
+}

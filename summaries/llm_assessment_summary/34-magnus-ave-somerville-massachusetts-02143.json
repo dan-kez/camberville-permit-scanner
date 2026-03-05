@@ -1,0 +1,44 @@
+{
+  "address": "34 MAGNUS AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=34+MAGNUS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/34%20MAGNUS%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=34+MAGNUS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2144,
+    "last_sale_date": "2020-05-04",
+    "last_sale_price": 1430000,
+    "assessed_value": 1493400,
+    "lot_size": 0.0639
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Inman",
+  "distance_mi": 0.36,
+  "max_score": 7,
+  "total_cost": 100.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-11-27",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Service Upgrade, Convert service from 2 family to single Family with 1 meter",
+      "cost": 100.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "EDDIE RODRIGUES",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: convert; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The property was converted from a two-family to a single-family home by a relatively recent owner, suggesting a significant structural optimization that often precedes a resale or high-end repositioning."
+  }
+}

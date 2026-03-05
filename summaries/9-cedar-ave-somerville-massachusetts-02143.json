@@ -1,0 +1,40 @@
+{
+  "address": "9 CEDAR AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+CEDAR+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/9%20CEDAR%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+CEDAR+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1864,
+    "last_sale_date": "2012-08-31",
+    "last_sale_price": 410000,
+    "assessed_value": 1199800,
+    "lot_size": 0.055900000000000005
+  },
+  "property_use": "Gas Fitting - Residential - Existing",
+  "nearest_square": "Porter",
+  "distance_mi": 0.36,
+  "max_score": 2,
+  "total_cost": 60.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-10-16",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Furnace Replacement",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "Excel Mechanical",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed"
+    }
+  ]
+}

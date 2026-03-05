@@ -1,0 +1,44 @@
+{
+  "address": "5 LIVERMORE PL, CAMBRIDGE, MA 02141",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+LIVERMORE+PL%2C+CAMBRIDGE%2C+MA+02141",
+  "zillow_url": "https://www.zillow.com/homes/5%20LIVERMORE%20PL%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
+  "google_search_url": "https://www.google.com/search?q=5+LIVERMORE+PL%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1903",
+    "bedrooms": "1",
+    "bathrooms": "1/0",
+    "total_rooms": "4",
+    "living_area": "1120",
+    "last_sale_date": "1989-06-30T00:00:00.000",
+    "last_sale_price": "120000",
+    "assessed_value": "917400",
+    "lot_size": "947"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.29,
+  "max_score": 3,
+  "total_cost": 132800.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-01-27",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Interior renovation second floor bathroom renovation same layout add washer and dryer to second floor replace doors refinish floor at second floor kitchen reconfigure space to accommodate new half bathroom new cabinets and new windows at kitchen area first floor living room remove existing closet floor leveling installing new floor installing new bay windowRoof estructural reinforcement install new roof",
+      "cost": 132800.0,
+      "property_use": "One-Family",
+      "contractor": "Valle Builders Corporation",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($132,800); keyword: renovation"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "Significant whole-house renovation including the kitchen, bathroom, and a new half-bathroom by a long-term owner of 36 years strongly indicates preparation for a market exit."
+  }
+}

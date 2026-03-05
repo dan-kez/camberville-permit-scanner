@@ -1,0 +1,76 @@
+{
+  "address": "11 SPRING HILL TERR, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/11%20SPRING%20HILL%20TERR%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=11+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1757,
+    "last_sale_date": "2014-09-26",
+    "last_sale_price": 1,
+    "assessed_value": 910300,
+    "lot_size": 0.0472
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.59,
+  "max_score": 5,
+  "total_cost": 1028.0,
+  "permit_count": 4,
+  "completed_permits": 4,
+  "completion_ratio": "4/4 complete",
+  "permits": [
+    {
+      "date": "2024-06-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rewire kitchen to code",
+      "cost": 198.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Richard kippenberger Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-07-03",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "re-modell kitchen",
+      "cost": 680.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "T.R.Installations",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-08-22",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install new kitchen sink with dishwasher and garbage disposal and water line for ice maker to fridge on 1st floor",
+      "cost": 70.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Economize Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-09-11",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "add sub panel to existing panel, replace basement lights",
+      "cost": 80.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Richard kippenberger Electrician",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: panel; permit completed; all permits completed"
+    }
+  ]
+}

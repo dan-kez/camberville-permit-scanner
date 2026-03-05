@@ -1,0 +1,33 @@
+{
+  "address": "72 INMAN ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=72+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/72%20INMAN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=72+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.25,
+  "max_score": 7,
+  "total_cost": 353200.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-05-08",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "rennovate kitchen, add bath on 2nd floor, renovate existing bath. replace windows ( already discussed with historial) relocate 4 windows at rear of house. Replace boiler, remove/ repair plaster walls and ceiling in 2 rooms where failing. Insulate walls where possible. add some led recessed lights in 4 rooms. Repair main staircase and railings that are missing ballusters. Repair roof. Remove vinyl siding on side of house and replace with new clapboard. Repair entry stair.",
+      "cost": 353200.0,
+      "property_use": "One-Family",
+      "contractor": "delaporte development",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "high cost ($353,200); keyword: renovate; minor: boiler; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The renovation involves a simultaneous full-scale kitchen and multiple bathroom update alongside comprehensive exterior and interior work, characteristic of high-end pre-sale preparation."
+  }
+}

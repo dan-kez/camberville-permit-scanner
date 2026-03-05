@@ -1,0 +1,26 @@
+{
+  "address": "10 KELLY RD, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+KELLY+RD%2C+CAMBRIDGE%2C+MA+02139",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.34,
+  "max_score": 2,
+  "total_cost": 628000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2026-01-14",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "This Job will entail the gutting of interior down to studs and Joists, and new layout to be built according to drawings. \u00a02 new Bathrooms and a NewKitchen to be Installed so new plumbing Wiring (NewService )New Minisplits \u00a0to be Installed. Framing new walls, installing LVLS, \u00a0new stair layout. All new insulation throughout, newly plastered, new floors \u00a0painting ETC",
+      "cost": 628000.0,
+      "property_use": "One-Family",
+      "contractor": "Kelly Construction INC",
+      "score": 2,
+      "score_reasons": "high cost ($628,000); keyword: gut; minor: insulation"
+    }
+  ]
+}

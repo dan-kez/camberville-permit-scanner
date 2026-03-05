@@ -1,0 +1,40 @@
+{
+  "address": "51 KELLEY ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=51+KELLEY+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/51%20KELLEY%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=51+KELLEY+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1905",
+    "bedrooms": "3",
+    "bathrooms": "1/1",
+    "total_rooms": "7",
+    "living_area": "1614",
+    "last_sale_date": "2018-08-23T00:00:00.000",
+    "last_sale_price": "100",
+    "assessed_value": "801100",
+    "lot_size": "5000"
+  },
+  "property_use": "One or Two Family Dwelling",
+  "nearest_square": "Porter",
+  "distance_mi": 0.69,
+  "max_score": 5,
+  "total_cost": 1052795.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-07-07",
+      "source": "Cambridge New Construction",
+      "status": "Active",
+      "description": "New Construction of single family houseExcavate for new foundation. Provide new foundation acccording to design drawings.Prefabricated air tight shell package to be constructed by Unity Homes of Walpole NH and assembled on site. Building package to include all carpentry elements to meet the requirements of rough inspection as well as insulation. Exterior siding, trim and porches, interior finishes, plumbing, electrical and HVAC to be provided by General Contractor, Jake Stewart dba Palo Duro East",
+      "cost": 1052795.0,
+      "property_use": "One or Two Family Dwelling",
+      "contractor": "JAKE D STEWART",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($1,052,795); keyword: new construction; minor: sign; new construction"
+    }
+  ]
+}

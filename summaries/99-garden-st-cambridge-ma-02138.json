@@ -1,0 +1,40 @@
+{
+  "address": "99 GARDEN ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=99+GARDEN+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/99%20GARDEN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=99+GARDEN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1842",
+    "bedrooms": "4",
+    "bathrooms": "2/2",
+    "total_rooms": "8",
+    "living_area": "2050",
+    "last_sale_date": "2023-04-06T00:00:00.000",
+    "last_sale_price": "2900000",
+    "assessed_value": "2647000",
+    "lot_size": "5265"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.58,
+  "max_score": 5,
+  "total_cost": 62255.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-10-30",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Repair/replace elements of front porch, repair siding, add gutters and downspouts for better drainage away from house. Footings are new and will remain. Repair flashing details on roof. Interior work includes reworking ducts to better distribute HAVC on first floor. Include painting as needed.",
+      "cost": 62255.0,
+      "property_use": "One-Family",
+      "contractor": "Charlie-Allen Renovations",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "moderate cost ($62,255); keyword: gut; minor: siding; permit completed; all permits completed"
+    }
+  ]
+}

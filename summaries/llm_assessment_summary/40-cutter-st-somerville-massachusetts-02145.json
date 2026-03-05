@@ -1,0 +1,44 @@
+{
+  "address": "40 CUTTER ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+CUTTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/40%20CUTTER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=40+CUTTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1930,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1575,
+    "last_sale_date": "1995-12-04",
+    "last_sale_price": 110000,
+    "assessed_value": 782900,
+    "lot_size": 0.08030000000000001
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.63,
+  "max_score": 2,
+  "total_cost": 260.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-12-04",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "replace three windows - no structural changes",
+      "cost": 260.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "capital construction contracting inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Minor maintenance for three windows by a 30-year owner-occupant suggests routine upkeep rather than preparation for sale."
+  }
+}

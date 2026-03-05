@@ -1,0 +1,40 @@
+{
+  "address": "36 COGSWELL AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=36+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/36%20COGSWELL%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=36+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1860",
+    "bedrooms": "3",
+    "bathrooms": "1/1",
+    "total_rooms": "6",
+    "living_area": "1494",
+    "last_sale_date": "2008-05-19T00:00:00.000",
+    "last_sale_price": "755000",
+    "assessed_value": "1666400",
+    "lot_size": "2240"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.35,
+  "max_score": 2,
+  "total_cost": 412780.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-01-24",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Selective demo in basement, 1st, 2nd, floors. Remove crawlspace in back of basementand build new concrete wall at same area. Add bathroom in basement, and install new bedrooms in basement. 1st floor, renovate kitchen with new cabinetry, add new finishes and cabinets in front of home. Rebuild and finish back porch. 2nd floor, Install new baths and renovate finishes to existing rooms. Install new windowsand doors. Replace roofing and repair siding.",
+      "cost": 412780.0,
+      "property_use": "Two-Family",
+      "contractor": "Paul Leaman, master craftsman",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($412,780); keyword: renovate; minor: roofing"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "address": "6 EVERETT AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=6+EVERETT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/6%20EVERETT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=6+EVERETT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1566,
+    "last_sale_date": "1994-09-28",
+    "last_sale_price": 78000,
+    "assessed_value": 836300,
+    "lot_size": 0.0921
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.55,
+  "max_score": 1,
+  "total_cost": 958.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/6 complete",
+  "permits": [
+    {
+      "date": "2024-04-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rooftop mounted solar 19 panels 7.600kw dc No ESS No structural ugrades",
+      "cost": 180.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Sunrun Installation Services",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "keyword: structural; minor: solar; permit completed"
+    },
+    {
+      "date": "2024-09-17",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Roof Mounted PV Solar Installation  10 Panels - 3.800 KWAC - 100 -  No Battery TOTAL ARRAY AREA: 209.89 SQFT (4.3kWDC)",
+      "cost": 150.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Freedom Forever Massachusetts, LLC",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "keyword: total; minor: solar; permit completed"
+    },
+    {
+      "date": "2024-10-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Roof Mounted PV Solar Installation  10 Panels - 3.800 KWAC - 100 -  No Battery TOTAL ARRAY AREA: 209.89 SQFT (4.3kWDC)",
+      "cost": 628.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Freedom Forever Massachusetts, LLC",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "keyword: total; minor: solar; permit completed"
+    }
+  ]
+}

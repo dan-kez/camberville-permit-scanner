@@ -1,0 +1,41 @@
+{
+  "address": "24 ENDICOTT AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=24+ENDICOTT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1970,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1392,
+    "last_sale_date": "2013-08-09",
+    "last_sale_price": 1,
+    "assessed_value": 1024500,
+    "lot_size": 0.0742
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Davis",
+  "distance_mi": 0.6,
+  "max_score": 2,
+  "total_cost": 260.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-12-04",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Install 8 Harvey Classic, Energy Star, Inserts only with no Structural Work",
+      "cost": 260.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Fisher Windows",
+      "score": 2,
+      "score_reasons": "keyword: structural"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The single permit for low-cost wood stove inserts and the 12-year gap since the last sale suggest a minor efficiency upgrade rather than a profit-driven renovation or flip."
+  }
+}

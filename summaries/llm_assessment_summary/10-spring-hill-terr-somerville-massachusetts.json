@@ -1,0 +1,41 @@
+{
+  "address": "10 SPRING HILL TERR, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1854,
+    "last_sale_date": "2023-01-12",
+    "last_sale_price": 950000,
+    "assessed_value": 1039700,
+    "lot_size": 0.0482
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Porter",
+  "distance_mi": 0.61,
+  "max_score": 2,
+  "total_cost": 70.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-10-03",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "basement bathroom remodel",
+      "cost": 70.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Epic Plumbing And Heating Inc.",
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The likelihood is low because the scope of work is limited to a single, low-cost permit for a minor basement bathroom remodel rather than a comprehensive renovation."
+  }
+}

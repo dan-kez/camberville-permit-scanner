@@ -1,0 +1,40 @@
+{
+  "address": "26 DELAWARE ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=26+DELAWARE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/26%20DELAWARE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=26+DELAWARE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 2011,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 2053,
+    "last_sale_date": "2012-07-09",
+    "last_sale_price": 100,
+    "assessed_value": 977100,
+    "lot_size": 0.0376
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.46,
+  "max_score": 2,
+  "total_cost": 200.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-06-21",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Remove 2 existing doors and replace with 2 new replacement doors. No structural work",
+      "cost": 200.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "PSNE",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural"
+    }
+  ]
+}

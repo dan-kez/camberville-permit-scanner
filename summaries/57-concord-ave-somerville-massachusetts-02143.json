@@ -1,0 +1,88 @@
+{
+  "address": "57 CONCORD AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=57+CONCORD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/57%20CONCORD%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=57+CONCORD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1880,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2238,
+    "last_sale_date": "2021-03-26",
+    "last_sale_price": 1,
+    "assessed_value": 1252100,
+    "lot_size": 0.0881
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Inman",
+  "distance_mi": 0.21,
+  "max_score": 5,
+  "total_cost": 2199.0,
+  "permit_count": 5,
+  "completed_permits": 5,
+  "completion_ratio": "5/5 complete",
+  "permits": [
+    {
+      "date": "2024-01-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Add 2 220 circuits for heat pumps 1 40 amp 1 20 amp",
+      "cost": 120.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Cre Tsolias Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-10-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "ROOFTOP SOLAR- 20 PANELS 8.2KWDC NO ESS NO STRUCTURAL REQUIRED",
+      "cost": 1116.5,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Sunrun Installation Services",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-10-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "ROOFTOP SOLAR- 20 PANELS 8.2KWDC NO ESS NO STRUCTURAL REQUIRED",
+      "cost": 190.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Sunrun Installation Services",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-07-23",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "remove and reinstall electrcal meter for siding company",
+      "cost": 90.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Power Solution Services inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: siding; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-08-08",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Siding replacement",
+      "cost": 682.5,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Finey Home Improvement corp",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: siding; permit completed; all permits completed"
+    }
+  ]
+}

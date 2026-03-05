@@ -1,0 +1,52 @@
+{
+  "address": "7 CUTTER ST, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+CUTTER+ST%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/7%20CUTTER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=7+CUTTER+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1150,
+    "last_sale_date": "2013-07-26",
+    "last_sale_price": 255000,
+    "assessed_value": 802100,
+    "lot_size": 0.0551
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.71,
+  "max_score": 5,
+  "total_cost": 175.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-03-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Upgrade service to 200 amps one family house",
+      "cost": 100.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Carlos Aguilar",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-05-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Repair basement wiring",
+      "cost": 75.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Carlos Aguilar",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

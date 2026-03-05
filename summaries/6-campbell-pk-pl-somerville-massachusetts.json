@@ -1,0 +1,39 @@
+{
+  "address": "6 CAMPBELL PK PL, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=6+CAMPBELL+PK+PL%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/6%20CAMPBELL%20PK%20PL%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=6+CAMPBELL+PK+PL%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2056,
+    "last_sale_date": "2004-11-05",
+    "last_sale_price": 560000,
+    "assessed_value": 1285200,
+    "lot_size": 0.0794
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Davis",
+  "distance_mi": 0.25,
+  "max_score": 4,
+  "total_cost": 652.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-09-16",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "install 11 roof mounted solar panels No structural No storage (4.565 kW DC)",
+      "cost": 652.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Bay State Renewables LLC",
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: solar; permit completed; all permits completed"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "address": "16 COTTAGE AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/16%20COTTAGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=16+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1896,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1504,
+    "last_sale_date": "2017-02-22",
+    "last_sale_price": 1,
+    "assessed_value": 1172900,
+    "lot_size": 0.0514
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Davis",
+  "distance_mi": 0.19,
+  "max_score": 2,
+  "total_cost": 822.5,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-11-18",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "2 Bathroom renovations and chimney removal",
+      "cost": 822.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    }
+  ]
+}

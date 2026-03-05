@@ -1,0 +1,40 @@
+{
+  "address": "58 CENTRAL ST, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=58+CENTRAL+ST%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/58%20CENTRAL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=58+CENTRAL+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1898,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2652,
+    "last_sale_date": "2014-06-04",
+    "last_sale_price": 1050000,
+    "assessed_value": 1471000,
+    "lot_size": 0.09680000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.74,
+  "max_score": 5,
+  "total_cost": 45.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-11-12",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remove flood light on side of house. Install wall sconce.",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Ryan LaBrache Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

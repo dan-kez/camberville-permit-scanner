@@ -1,0 +1,44 @@
+{
+  "address": "9 YERXA RD, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+YERXA+RD%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/9%20YERXA%20RD%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+YERXA+RD%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1900",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "7",
+    "living_area": "1601",
+    "last_sale_date": "2017-01-26T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1319000",
+    "lot_size": "3788"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.45,
+  "max_score": 8,
+  "total_cost": 40000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-06-09",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Kitchen renovation",
+      "cost": 40000.0,
+      "property_use": "One-Family",
+      "contractor": "The Carpentry co",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($40,000); keyword: renovation; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "A single $40,000 kitchen renovation by a long-term owner-occupant is more indicative of a home improvement project than a pre-sale flip."
+  }
+}

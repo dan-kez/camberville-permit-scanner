@@ -1,0 +1,44 @@
+{
+  "address": "26 CLARENDON AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=26+CLARENDON+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/26%20CLARENDON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=26+CLARENDON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1895",
+    "bedrooms": "4",
+    "bathrooms": "1/0",
+    "total_rooms": "8",
+    "living_area": "1356",
+    "last_sale_date": "2019-02-19T00:00:00.000",
+    "last_sale_price": "900000",
+    "assessed_value": "1387000",
+    "lot_size": "2397"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.53,
+  "max_score": 3,
+  "total_cost": 185600.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-06-17",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "We are planning to demolish and existing deck rebuild it which also will include a new sunroom / porch.",
+      "cost": 185600.0,
+      "property_use": "One-Family",
+      "contractor": "Streamline Builders LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($185,600); keyword: demolish"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied and the permit describes a sunroom addition and deck rebuild, which are lifestyle-oriented improvements rather than the kitchen or bathroom renovations characteristic of a sale preparation."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "address": "88 AVON HILL ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=88+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/88%20AVON%20HILL%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=88+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1880",
+    "bedrooms": "5",
+    "bathrooms": "3/1",
+    "total_rooms": "10",
+    "living_area": "2560",
+    "last_sale_date": "2013-07-30T00:00:00.000",
+    "last_sale_price": "974000",
+    "assessed_value": "2315900",
+    "lot_size": "3395"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.34,
+  "max_score": 1,
+  "total_cost": 82750.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-08-01",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Repair of existing bathrooms",
+      "cost": 82750.0,
+      "property_use": "One-Family",
+      "contractor": "Bolton Building Group LLC.",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($82,750)"
+    }
+  ]
+}

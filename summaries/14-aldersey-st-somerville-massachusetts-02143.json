@@ -1,0 +1,52 @@
+{
+  "address": "14 ALDERSEY ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=14+ALDERSEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/14%20ALDERSEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=14+ALDERSEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 1822,
+    "last_sale_date": "2013-04-23",
+    "last_sale_price": 100,
+    "assessed_value": 1135500,
+    "lot_size": 0.1282
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Union",
+  "distance_mi": 0.32,
+  "max_score": 4,
+  "total_cost": 3222.5,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/4 complete",
+  "permits": [
+    {
+      "date": "2024-07-20",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Reconfiguration of exiting closet under front entry. Add cabinet storage in basement. Reconfiguration of laundry room and full bathroom. Please see contract and attached plans.",
+      "cost": 3147.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Alcantara Contractor Inc",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: full; permit completed"
+    },
+    {
+      "date": "2024-11-05",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Wire bathroom and laundry",
+      "cost": 75.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Ravair Costa Electrician",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed"
+    }
+  ]
+}

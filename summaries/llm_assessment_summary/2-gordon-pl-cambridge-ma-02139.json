@@ -1,0 +1,44 @@
+{
+  "address": "2 GORDON PL, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+GORDON+PL%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/2%20GORDON%20PL%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=2+GORDON+PL%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1969",
+    "bedrooms": "1",
+    "bathrooms": "1/1",
+    "total_rooms": "6",
+    "living_area": "1560",
+    "last_sale_date": "2001-07-30T00:00:00.000",
+    "last_sale_price": "549000",
+    "assessed_value": "1588900",
+    "lot_size": "2925"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.71,
+  "max_score": 8,
+  "total_cost": 47300.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-10-16",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Remodel kitchen update electical, plumbing",
+      "cost": 47300.0,
+      "property_use": "One-Family",
+      "contractor": "CDI",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($47,300); keyword: remodel; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "A single kitchen remodel by a long-term owner-occupant of 24 years is consistent with a lifestyle update rather than a professional flip or immediate preparation for sale."
+  }
+}

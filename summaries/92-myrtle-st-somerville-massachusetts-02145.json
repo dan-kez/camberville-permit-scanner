@@ -1,0 +1,40 @@
+{
+  "address": "92 MYRTLE ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=92+MYRTLE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/92%20MYRTLE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=92+MYRTLE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1915,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2228,
+    "last_sale_date": "2020-08-03",
+    "last_sale_price": 1125000,
+    "assessed_value": 1272400,
+    "lot_size": 0.0719
+  },
+  "property_use": "Dumpster (Located on Street) - Dumpster Located on Street",
+  "nearest_square": "Union",
+  "distance_mi": 0.65,
+  "max_score": 7,
+  "total_cost": 400.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-06-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Dumpster on Street for Remodeling",
+      "cost": 400.0,
+      "property_use": "Dumpster (Located on Street) - Dumpster Located on Street",
+      "contractor": "Artisans Home & Renovations inc.",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+    }
+  ]
+}

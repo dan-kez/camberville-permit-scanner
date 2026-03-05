@@ -1,0 +1,68 @@
+{
+  "address": "25 HOUGHTON ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=25+HOUGHTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/25%20HOUGHTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=25+HOUGHTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1400,
+    "last_sale_date": "2020-04-30",
+    "last_sale_price": 890000,
+    "assessed_value": 911200,
+    "lot_size": 0.029500000000000002
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Inman",
+  "distance_mi": 0.09,
+  "max_score": 7,
+  "total_cost": 1440.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2024-07-31",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "BATHROOM FULL GUT RENOVATION",
+      "cost": 1326.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "hs plastering and painting",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: gut; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-10-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Bath remodel",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "KPS Plumbing",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-10-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Wire a bathroom and mudroom",
+      "cost": 54.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "VICTHOR ARGUEDAS ELECTRICIAN",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied and the renovations are limited to a single bathroom and mudroom, which is consistent with typical homeowner maintenance rather than a comprehensive pre-sale flip."
+  }
+}

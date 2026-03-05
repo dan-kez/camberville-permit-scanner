@@ -1,0 +1,40 @@
+{
+  "address": "8 FLORENCE ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+FLORENCE+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/8%20FLORENCE%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+FLORENCE+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1877",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "6",
+    "living_area": "1482",
+    "last_sale_date": "2022-04-14T00:00:00.000",
+    "last_sale_price": "1925000",
+    "assessed_value": "1678000",
+    "lot_size": "2227"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.69,
+  "max_score": 3,
+  "total_cost": 98092.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-08-09",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Kitchen Renovation",
+      "cost": 98092.0,
+      "property_use": "One-Family",
+      "contractor": "Pro Touch construction",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($98,092); keyword: renovation"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "address": "24 NEWELL ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=24+NEWELL+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/24%20NEWELL%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=24+NEWELL+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1931",
+    "bedrooms": "2",
+    "bathrooms": "1/0",
+    "total_rooms": "5",
+    "living_area": "1124",
+    "last_sale_date": "2024-10-17T00:00:00.000",
+    "last_sale_price": "1200000",
+    "assessed_value": "991300",
+    "lot_size": "2931"
+  },
+  "property_use": "One or Two Family Dwelling",
+  "nearest_square": "Porter",
+  "distance_mi": 0.54,
+  "max_score": 8,
+  "total_cost": 710000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-04-22",
+      "source": "Cambridge New Construction",
+      "status": "Active",
+      "description": "New construction of a 3 level single family home, including lower level, 3,658 SF, 4 bed and 4.5 bath",
+      "cost": 710000.0,
+      "property_use": "One or Two Family Dwelling",
+      "contractor": "Mike Tokatlyan",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "high cost ($710,000); keyword: new construction; new construction"
+    }
+  ]
+}

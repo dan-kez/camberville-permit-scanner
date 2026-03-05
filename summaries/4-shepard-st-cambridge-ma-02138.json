@@ -1,0 +1,40 @@
+{
+  "address": "4 SHEPARD ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+SHEPARD+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/4%20SHEPARD%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=4+SHEPARD+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "1895",
+    "bedrooms": "7",
+    "bathrooms": "4/0",
+    "total_rooms": "14",
+    "living_area": "3985",
+    "last_sale_date": "2022-04-08T00:00:00.000",
+    "last_sale_price": "3400000",
+    "assessed_value": "3437800",
+    "lot_size": "4772"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.47,
+  "max_score": 5,
+  "total_cost": 250000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-01-10",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Perform necessary shoring and replace basement footings and columns per stamped structural plan at new lowered elevations. Excavate for, form and pour new steel reinforced conrete curbing per stamped structural plan for new lowered slabExcavate for and pour new concrete slab approximately 12 inches below existing elevation.",
+      "cost": 250000.0,
+      "property_use": "One-Family",
+      "contractor": "S+H Construction",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($250,000); keyword: structural"
+    }
+  ]
+}

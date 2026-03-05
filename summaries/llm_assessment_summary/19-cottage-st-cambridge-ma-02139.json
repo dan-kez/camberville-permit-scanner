@@ -1,0 +1,56 @@
+{
+  "address": "19 COTTAGE ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+COTTAGE+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/19%20COTTAGE%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=19+COTTAGE+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "11",
+    "bathrooms": "3/0",
+    "total_rooms": "9",
+    "living_area": "3132",
+    "last_sale_date": "2024-05-31T00:00:00.000",
+    "last_sale_price": "2815000",
+    "assessed_value": "1993900",
+    "lot_size": "4500"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.21,
+  "max_score": 3,
+  "total_cost": 1756000.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2024-08-22",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "DEMO ONLY. Demo kitchen, full bath, dining room walls, 2 bedrooms, rear interior stairs and chimney completely. Cleanup basement.",
+      "cost": 68000.0,
+      "property_use": "Two-Family",
+      "contractor": "Fresh Start Contracting",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($68,000); keyword: full"
+    },
+    {
+      "date": "2025-03-14",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Replacing entire foundation, excavating the basement. Full gut of existing two family house on all levels. Converting to a single family. New framing, siding, windows & roofing, adding drainage.",
+      "cost": 1688000.0,
+      "property_use": "Two-Family",
+      "contractor": "Fresh Start Contracting Corp.",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($1,688,000); keyword: gut; minor: roofing"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The property was recently purchased and is undergoing a massive $1.7M full-gut renovation and conversion to a single-family home, a strong indicator of high-end redevelopment for resale."
+  }
+}

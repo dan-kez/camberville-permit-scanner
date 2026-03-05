@@ -1,0 +1,44 @@
+{
+  "address": "8 HANSON AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+HANSON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/8%20HANSON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+HANSON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 972,
+    "last_sale_date": "1984-01-10",
+    "last_sale_price": 65000,
+    "assessed_value": 884300,
+    "lot_size": 0.045700000000000005
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Inman",
+  "distance_mi": 0.5,
+  "max_score": 7,
+  "total_cost": 120.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-09-03",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "INSTALL 1 ENTRY DOOR FOR REPLACEMENT NO STRUCTURAL CHANGES",
+      "cost": 120.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "The Home Depot",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property has been owner-occupied for over 40 years and the only recent activity is a minor $120 entry door replacement."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "address": "28 UPTON ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=28+UPTON+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/28%20UPTON%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=28+UPTON+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1871",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "8",
+    "living_area": "1448",
+    "last_sale_date": "2023-10-31T00:00:00.000",
+    "last_sale_price": "1700000",
+    "assessed_value": "1428600",
+    "lot_size": "1660"
+  },
+  "property_use": "Townhouse",
+  "nearest_square": "Central",
+  "distance_mi": 0.31,
+  "max_score": 5,
+  "total_cost": 72750.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-11-03",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Gut Renovate the kitchen and powder room, reconfigure to a new layout as per plans, upgrade plumbing electrical and HVAC on the areas affected by the work. new hardwood floor on the firs and second floors, replace 3 exterior doors as per plans insulation to code in the areas affected by the work, new blue board and plaster, trim work,\u00a0prime and paint the areas affected by the work.",
+      "cost": 72750.0,
+      "property_use": "Townhouse",
+      "contractor": "Pessote Construction Inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "moderate cost ($72,750); keyword: gut; minor: insulation; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The significant renovation occurred immediately after the October 2023 purchase by an owner-occupant, indicating move-in improvements rather than preparation for a new sale."
+  }
+}

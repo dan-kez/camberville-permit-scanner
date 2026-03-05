@@ -1,0 +1,44 @@
+{
+  "address": "22 DONNELL ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=22+DONNELL+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/22%20DONNELL%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=22+DONNELL+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "2005",
+    "bedrooms": "4",
+    "bathrooms": "2/2",
+    "total_rooms": "8",
+    "living_area": "2896",
+    "last_sale_date": "2010-11-29T00:00:00.000",
+    "last_sale_price": "1749000",
+    "assessed_value": "3485400",
+    "lot_size": "6707"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.71,
+  "max_score": 1,
+  "total_cost": 64963.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-05-28",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Updated kitchen cabinets and island with new cabinets and appliances. All locations to remain.",
+      "cost": 64963.0,
+      "property_use": "One-Family",
+      "contractor": "credere ventures llc",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($64,963)"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "This is a single-component kitchen refresh by a long-term owner-occupant of 15 years, which lacks the simultaneous multi-room updates characteristic of a pre-sale flip."
+  }
+}

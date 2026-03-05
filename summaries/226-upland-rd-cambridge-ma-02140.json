@@ -1,0 +1,40 @@
+{
+  "address": "226 UPLAND RD, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=226+UPLAND+RD%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/226%20UPLAND%20RD%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=226+UPLAND+RD%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1903",
+    "bedrooms": "5",
+    "bathrooms": "3/1",
+    "total_rooms": "11",
+    "living_area": "3418",
+    "last_sale_date": "2013-12-03T00:00:00.000",
+    "last_sale_price": "2037000",
+    "assessed_value": "3480400",
+    "lot_size": "6170"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.48,
+  "max_score": 1,
+  "total_cost": 37345.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-08-28",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "INSTALL 7 ANDERSON AND 7 HARVEY REPLACMENT WINDOWS. ENERGY STAR, INSERTS ONY WITN NO STUCTURAL WORK. INSTALL 1 ANDERSON PATIO DOOR",
+      "cost": 37345.0,
+      "property_use": "One-Family",
+      "contractor": "Fisher Windows",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($37,345)"
+    }
+  ]
+}

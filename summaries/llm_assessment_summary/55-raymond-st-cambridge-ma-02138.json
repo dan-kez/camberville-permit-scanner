@@ -1,0 +1,33 @@
+{
+  "address": "55 RAYMOND ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=55+RAYMOND+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/55%20RAYMOND%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=55+RAYMOND+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.43,
+  "max_score": 6,
+  "total_cost": 168250.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-03-01",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Front walls and driveway gate. No grade change needed.",
+      "cost": 168250.0,
+      "property_use": "One-Family",
+      "contractor": "ZEN Associates",
+      "owner_occupied": true,
+      "score": 6,
+      "score_reasons": "moderate cost ($168,250); permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The single permit describes high-end exterior landscaping (walls and gate) by an owner-occupant, which lacks the comprehensive interior renovations or non-owner occupancy typically indicative of sale preparation."
+  }
+}

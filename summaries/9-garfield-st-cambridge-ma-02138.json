@@ -1,0 +1,40 @@
+{
+  "address": "9 GARFIELD ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+GARFIELD+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/9%20GARFIELD%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+GARFIELD+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1939",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "7",
+    "living_area": "1767",
+    "last_sale_date": "1994-12-30T00:00:00.000",
+    "last_sale_price": "280000",
+    "assessed_value": "1922300",
+    "lot_size": "3652"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.3,
+  "max_score": 5,
+  "total_cost": 213569.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-10-30",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Remodeling of a Kitchen and four bathrooms, Renovation of the basement, and refinishing the front deck",
+      "cost": 213569.0,
+      "property_use": "One-Family",
+      "contractor": "Allston contractors Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($213,569); keyword: renovation"
+    }
+  ]
+}

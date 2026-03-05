@@ -1,0 +1,40 @@
+{
+  "address": "60 ORCHARD ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=60+ORCHARD+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/60%20ORCHARD%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=60+ORCHARD+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1898",
+    "bedrooms": "4",
+    "bathrooms": "4/1",
+    "total_rooms": "14",
+    "living_area": "3771",
+    "last_sale_date": "2023-01-10T00:00:00.000",
+    "last_sale_price": "0",
+    "assessed_value": "3738800",
+    "lot_size": "3640"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.27,
+  "max_score": 3,
+  "total_cost": 285474.56,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2026-02-09",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Reframe stairs to basement, reframe rear wall and stairs to grade. Install new island and miscellaneous cabinetry in kitchen. Remove bearing post and install new beams on 1st and 2nd floors.",
+      "cost": 285474.56,
+      "property_use": "One-Family",
+      "contractor": "Creative Construction",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "high cost ($285,475)"
+    }
+  ]
+}

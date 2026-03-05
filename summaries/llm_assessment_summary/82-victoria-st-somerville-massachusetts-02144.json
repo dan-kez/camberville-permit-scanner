@@ -1,0 +1,68 @@
+{
+  "address": "82 VICTORIA ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=82+VICTORIA+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/82%20VICTORIA%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=82+VICTORIA+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1929,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1291,
+    "last_sale_date": "2021-02-12",
+    "last_sale_price": 799000,
+    "assessed_value": 814800,
+    "lot_size": 0.058800000000000005
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.73,
+  "max_score": 5,
+  "total_cost": 1838.0,
+  "permit_count": 3,
+  "completed_permits": 2,
+  "completion_ratio": "2/3 complete",
+  "permits": [
+    {
+      "date": "2024-04-23",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "2nd floor bathroom remodel",
+      "cost": 52.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "John Downie",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+    },
+    {
+      "date": "2024-05-13",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "2nd floor bathroom, hall, loft and office remodel",
+      "cost": 1726.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "John Downie",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "keyword: remodel; most permits completed"
+    },
+    {
+      "date": "2024-05-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "2ND FLOOR BATHROOM RENO",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Epic Plumbing And Heating Inc.",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied and the renovations are limited to a single bathroom and minor 2nd-floor updates rather than the high-end kitchen and multi-bathroom remodels typical of sale preparation."
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "address": "19 HALL ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+HALL+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/19%20HALL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=19+HALL+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1915,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1468,
+    "last_sale_date": "2010-05-21",
+    "last_sale_price": 379900,
+    "assessed_value": 983500,
+    "lot_size": 0.06420000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.35,
+  "max_score": 4,
+  "total_cost": 184.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/5 complete",
+  "permits": [
+    {
+      "date": "2023-08-30",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "remodel of kitchen , bathroom and one room",
+      "cost": 104.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Reilly Electrical Contractors",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: remodel; permit completed"
+    },
+    {
+      "date": "2024-04-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace whole electrical service with new 100amp",
+      "cost": 80.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Reilly Electrical Contractors",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed"
+    }
+  ]
+}

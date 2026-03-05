@@ -1,0 +1,52 @@
+{
+  "address": "1 LAMONT AVE, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1+LAMONT+AVE%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/1%20LAMONT%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=1+LAMONT+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1902",
+    "bedrooms": "5",
+    "bathrooms": "3/0",
+    "total_rooms": "10",
+    "living_area": "2346",
+    "last_sale_date": "2023-10-27T00:00:00.000",
+    "last_sale_price": "1400000",
+    "assessed_value": "1637100",
+    "lot_size": "2100"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.48,
+  "max_score": 10,
+  "total_cost": 879287.24,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2023-11-27",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Update all framing and MEP's per proposed plans: BASEMENT: Remove partition walls, add (1) half bathroom. 1ST FLOOR: Remove 2 bedrooms and 1 bathroom 2ND FLOOR: Remove kitchen, add (2) bedrooms, add washer and dryer, add one bathroom. THIRD FLOOR: Remove (1) bedrooms.",
+      "cost": 844287.24,
+      "property_use": "Two-Family",
+      "contractor": "Treadstone Construction LLC",
+      "owner_occupied": true,
+      "score": 10,
+      "score_reasons": "high cost ($844,287); keyword: framing; permit completed; all permits completed"
+    },
+    {
+      "date": "2023-11-27",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "INTERIOR DEMO ONLY - interior demolition of all flooring and drywall",
+      "cost": 35000.0,
+      "property_use": "One-Family",
+      "contractor": "Treadstone Construction LLC",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($35,000); keyword: demolition; permit completed; all permits completed"
+    }
+  ]
+}

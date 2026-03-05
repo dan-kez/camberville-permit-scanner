@@ -1,0 +1,68 @@
+{
+  "address": "31 GILMAN ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=31+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/31%20GILMAN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=31+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1973,
+    "last_sale_date": "1991-11-22",
+    "last_sale_price": 130000,
+    "assessed_value": 956500,
+    "lot_size": 0.0669
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Union",
+  "distance_mi": 0.41,
+  "max_score": 3,
+  "total_cost": 1527.5,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/5 complete",
+  "permits": [
+    {
+      "date": "2024-09-19",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "add shower stall to existing 1/2 bath. 13 replacement windows",
+      "cost": 997.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2024-10-04",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "change fixtures in half batth and add shower",
+      "cost": 70.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "m&n solutions inc",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2024-10-10",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Remove existing brick/ masonry chimney system, secure / patch roofline. Secure interior conditions",
+      "cost": 460.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The work consists of minor bathroom updates and maintenance (windows/chimney removal) by a very long-term owner-occupant who has held the property since 1991."
+  }
+}

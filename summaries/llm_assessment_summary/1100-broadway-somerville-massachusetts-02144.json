@@ -1,0 +1,68 @@
+{
+  "address": "1100 BROADWAY, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1100+BROADWAY%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/1100%20BROADWAY%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=1100+BROADWAY%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1897,
+    "last_sale_date": "2020-10-14",
+    "last_sale_price": 1,
+    "assessed_value": 1378400,
+    "lot_size": 0.1148
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Davis",
+  "distance_mi": 0.44,
+  "max_score": 4,
+  "total_cost": 1104.5,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2024-06-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "This homeowner signed a contract with Sunrun to install a PV system on their house. Sunrun, a national company, used Vision Solar as the subcontractor to build the system, but Vision Solar never pulled the permits and have since gone out of business. My company, Apex Energy Tek were hired by Sunrun to complete this job. As of now, panels are on the roof with no production. Apex plans to take over this project and close out with required inspections (20 Panels, 6.6kW)",
+      "cost": 904.5,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Apex Energy Tek",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: complete; minor: sign; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-07-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "This homeowner signed a contract with Sunrun to install a PV system on their house. Sunrun, a national company, used Vision Solar as the subcontractor to build the system, but Vision Solar has since gone out of business. My company, Apex Energy Tek were hired by Sunrun to complete this job. As of now, panels are on the roof with no production. We plan to make adjustments and get this operational and pass all inspections",
+      "cost": 170.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Apex Energy Tek",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: complete; minor: sign; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-06-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Service panel upgrade to 200 amp service\r\n Take over of permit E22-002012",
+      "cost": 30.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Apex Energy Tek",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: panel; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permits are exclusively for finishing a solar panel installation and associated electrical panel upgrade by an owner-occupant, which is maintenance work rather than a pre-sale renovation."
+  }
+}

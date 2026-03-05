@@ -1,0 +1,56 @@
+{
+  "address": "73 CONCORD AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=73+CONCORD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/73%20CONCORD%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=73+CONCORD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 5,
+    "living_area": 1720,
+    "last_sale_date": "2021-05-03",
+    "last_sale_price": 1276000,
+    "assessed_value": 1307200,
+    "lot_size": 0.1078
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Inman",
+  "distance_mi": 0.21,
+  "max_score": 5,
+  "total_cost": 435.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/3 complete",
+  "permits": [
+    {
+      "date": "2024-06-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "We will need to remove and dispose of three existing exterior decks and rebuild them @ existing location.",
+      "cost": 390.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Luxx Builders Corp",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: rebuild; permit completed; most permits completed"
+    },
+    {
+      "date": "2024-11-05",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Run a dedicated circuit for a gfci in back porch and front porch",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Nilson O Viera-Navarro",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The recent work is limited to exterior deck replacement and minor electrical updates by an owner-occupant who purchased the property relatively recently in 2021."
+  }
+}

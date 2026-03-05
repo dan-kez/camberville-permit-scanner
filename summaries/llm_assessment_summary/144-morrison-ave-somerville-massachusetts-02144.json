@@ -1,0 +1,68 @@
+{
+  "address": "144 MORRISON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=144+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/144%20MORRISON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=144+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1895,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1258,
+    "last_sale_date": "2009-03-30",
+    "last_sale_price": 465000,
+    "assessed_value": 905900,
+    "lot_size": 0.0454
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Davis",
+  "distance_mi": 0.27,
+  "max_score": 7,
+  "total_cost": 1300.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2024-09-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Bathroom Renovation",
+      "cost": 1155.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Cambridge Home Renovations LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-09-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remodel existing second floor bathroom and washing machine connection.",
+      "cost": 70.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Chase & Tolan Plumbing & Heating Co. Inc.",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-09-27",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "wire bathroom",
+      "cost": 75.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Keith Bryant",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The work is limited to a single bathroom renovation by a long-term (15+ year) owner-occupant, which typically indicates personal maintenance rather than a preparation for sale."
+  }
+}

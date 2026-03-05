@@ -1,0 +1,76 @@
+{
+  "address": "10 PERRY ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+PERRY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/10%20PERRY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+PERRY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1623,
+    "last_sale_date": "2014-06-17",
+    "last_sale_price": 620000,
+    "assessed_value": 1059200,
+    "lot_size": 0.0492
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Inman",
+  "distance_mi": 0.38,
+  "max_score": 5,
+  "total_cost": 8801.0,
+  "permit_count": 4,
+  "completed_permits": 4,
+  "completion_ratio": "4/4 complete",
+  "permits": [
+    {
+      "date": "2023-12-14",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Add 2  bathrooms and a bedroom",
+      "cost": 274.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Frank Pluck Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-08-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "New bathroom kitchen laundry.",
+      "cost": 120.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "MJ Digby Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-10-29",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "New Service 200 amp, Kitchen , Basement office and mechanical room",
+      "cost": 252.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Frank Pluck Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-05-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "1)\tAdd one half bath on the first floor and one full bath with shower in the           basement   2)\tAdd a bedroom to the basement level 3)\tUpgrade a leaking sewer line under the existing slab 4)\tUpgrade the kitchen including appliances 5)\tIncrease head room in the basement (client is 6\u00e2\u0080\u00996\u00e2\u0080\u009d tall) 6)\tRelocate the washer / dryer from basement to second floor  7)\tProvide an interior perimeter drain with sump pump (10 Perry St elevation is ~20\u00e2\u0080\u0099, one of the lowest lying areas of the city is prone to flooding)  8)\tProvide an unconditioned storage shed to the rear of the house 9)\tRebuild a crumbling bulkhead and stair 10)\tCorrect undersized and damaged first floor framing and support columns 11)\tRemove existing abandoned chimney",
+      "cost": 8155.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Artisan Builders",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: rebuild; minor: shed; permit completed; all permits completed"
+    }
+  ]
+}

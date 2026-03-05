@@ -1,0 +1,40 @@
+{
+  "address": "116 UPLAND RD, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=116+UPLAND+RD%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/116%20UPLAND%20RD%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=116+UPLAND+RD%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "4",
+    "bathrooms": "3/1",
+    "total_rooms": "11",
+    "living_area": "3587",
+    "last_sale_date": "2023-11-13T00:00:00.000",
+    "last_sale_price": "2100000",
+    "assessed_value": "2349500",
+    "lot_size": "3372"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.25,
+  "max_score": 3,
+  "total_cost": 35514.5,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-07-12",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "DECK INSTALL: Install PT \"Sleepers\" Structural Deck Platform - 4\u2019 x 3\u2019 WalkOut. Install TimberTech to new structure. Install railing system to structure.Window Install: Remove and dispose of 2 Casement Windows. Install Anderson 400 Casement \"Ins-Swing\" Windows for deck access.",
+      "cost": 35514.5,
+      "property_use": "One-Family",
+      "contractor": "G.F. Sprague and Company LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($35,514); keyword: structural"
+    }
+  ]
+}

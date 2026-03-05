@@ -1,0 +1,40 @@
+{
+  "address": "52 CONCORD AVE, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=52+CONCORD+AVE%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/52%20CONCORD%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=52+CONCORD+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "1873",
+    "bedrooms": "5",
+    "bathrooms": "3/1",
+    "total_rooms": "13",
+    "living_area": "3412",
+    "last_sale_date": "2018-07-12T00:00:00.000",
+    "last_sale_price": "2600000",
+    "assessed_value": "3841500",
+    "lot_size": "6100"
+  },
+  "property_use": "Multi-Family (3 units or greater)",
+  "nearest_square": "Porter",
+  "distance_mi": 0.71,
+  "max_score": 8,
+  "total_cost": 110937.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-03-26",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "REMOVE & REPLACE 32 WINDOWS; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 110937.0,
+      "property_use": "Multi-Family (3 units or greater)",
+      "contractor": "RENEWAL BY ANDERSEN",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($110,937); keyword: structural; permit completed; all permits completed"
+    }
+  ]
+}

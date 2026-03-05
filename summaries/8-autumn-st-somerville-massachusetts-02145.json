@@ -1,0 +1,52 @@
+{
+  "address": "8 AUTUMN ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+AUTUMN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/8%20AUTUMN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+AUTUMN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1504,
+    "last_sale_date": "2022-01-26",
+    "last_sale_price": 830000,
+    "assessed_value": 798000,
+    "lot_size": 0.0698
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.7,
+  "max_score": 2,
+  "total_cost": 420.0,
+  "permit_count": 2,
+  "completed_permits": 1,
+  "completion_ratio": "1/5 complete",
+  "permits": [
+    {
+      "date": "2024-07-30",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Repairing a second floor balcony due to current framing rotting.  Scope of work is 1) removing current railings, boards, and framing, 2) replacing framing and boards as needed, 3) reinstallation of current railings (homeowner permit)",
+      "cost": 260.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: framing"
+    },
+    {
+      "date": "2023-12-11",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install 5.265kw solar panels will not exceed roof panels but will add 6\" to roof height. 13 panels . NO ESS/ NO STRUCTURAL",
+      "cost": 160.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Trinity Solar LLC",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "keyword: structural; minor: solar; permit completed"
+    }
+  ]
+}

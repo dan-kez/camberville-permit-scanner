@@ -1,0 +1,40 @@
+{
+  "address": "70 NORFOLK ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=70+NORFOLK+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/70%20NORFOLK%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=70+NORFOLK+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1859",
+    "bedrooms": "4",
+    "bathrooms": "3/1",
+    "total_rooms": "7",
+    "living_area": "2430",
+    "last_sale_date": "2009-06-24T00:00:00.000",
+    "last_sale_price": "780000",
+    "assessed_value": "2348700",
+    "lot_size": "2240"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.16,
+  "max_score": 8,
+  "total_cost": 54559.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-04-19",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "REMOVE & REPLACE 16 WINDOWS; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 54559.0,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($54,559); keyword: structural; permit completed; all permits completed"
+    }
+  ]
+}

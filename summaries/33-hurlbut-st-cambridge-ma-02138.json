@@ -1,0 +1,40 @@
+{
+  "address": "33 HURLBUT ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=33+HURLBUT+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/33%20HURLBUT%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=33+HURLBUT+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "5",
+    "bathrooms": "4/1",
+    "total_rooms": "10",
+    "living_area": "3173",
+    "last_sale_date": "2023-11-01T00:00:00.000",
+    "last_sale_price": "2525000",
+    "assessed_value": "4802400",
+    "lot_size": "5785"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.31,
+  "max_score": 7,
+  "total_cost": 572001.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-10-13",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "The work shall include the gut renovation of the kitchen and baths, selective repair and replacement of damaged finishes, upgrade of electrical systems, plumbing as necessary, new hvac system, new windows and siding, repair the front stairs and covered entry joists and decking and painting.",
+      "cost": 572001.0,
+      "property_use": "One-Family",
+      "contractor": "ZRE Development",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "high cost ($572,001); keyword: gut; minor: siding; permit completed; all permits completed"
+    }
+  ]
+}

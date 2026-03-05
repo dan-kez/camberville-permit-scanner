@@ -1,0 +1,112 @@
+{
+  "address": "277 SUMMER ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=277+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/277%20SUMMER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=277+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 11,
+    "living_area": 3543,
+    "last_sale_date": "2023-07-11",
+    "last_sale_price": 1015000,
+    "assessed_value": 2322800,
+    "lot_size": 0.08900000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.31,
+  "max_score": 5,
+  "total_cost": 17635.0,
+  "permit_count": 7,
+  "completed_permits": 8,
+  "completion_ratio": "8/9 complete",
+  "permits": [
+    {
+      "date": "2023-08-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "demolition wire  and make safe add two outlet",
+      "cost": 105.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "DUY NGUYEN",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: demolition; permit completed; most permits completed"
+    },
+    {
+      "date": "2023-08-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Gut existing two family (DEMO ONLY), asbestos removal",
+      "cost": 705.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Well Built Construction INC.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: gut; permit completed; most permits completed"
+    },
+    {
+      "date": "2023-08-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Dumpster on Street for Gut existing two family",
+      "cost": 2200.0,
+      "property_use": "Dumpster (Located on Street) - Dumpster Located on Street",
+      "contractor": "Well Built Construction INC.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: gut; permit completed; most permits completed"
+    },
+    {
+      "date": "2023-12-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Perform a full renovation to an existing two-family home: Unit 1 adding in basement 2 bedrooms, media room,  bathroom and laundry. Unit 2 removing bedrooms and adding a bathroom on 3rd fl",
+      "cost": 13955.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Well Built Construction INC.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+    },
+    {
+      "date": "2024-01-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "install waste vent and water pipe for single family home",
+      "cost": 230.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "A Spolidoro & Sons Inc",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2024-01-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "install gas pipe for single family house",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "A Spolidoro & Sons Inc",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2024-02-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install 2 HVAC system for single family home",
+      "cost": 380.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "Southern Zone HVAC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    }
+  ]
+}

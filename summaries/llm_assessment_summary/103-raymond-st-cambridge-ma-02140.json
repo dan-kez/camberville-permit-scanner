@@ -1,0 +1,44 @@
+{
+  "address": "103 RAYMOND ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=103+RAYMOND+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/103%20RAYMOND%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=103+RAYMOND+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1898",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "13",
+    "living_area": "3351",
+    "last_sale_date": "2013-10-23T00:00:00.000",
+    "last_sale_price": "10",
+    "assessed_value": "2650600",
+    "lot_size": "3287"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.42,
+  "max_score": 8,
+  "total_cost": 93000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-04-18",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Kitchen Remodel, New cabinets and appliances and electric. Construct new basement bathroom and sauna. Shower, and toilet and sink. Install bathroom fan in shower.",
+      "cost": 93000.0,
+      "property_use": "One-Family",
+      "contractor": "Jacob Harness Construction",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($93,000); keyword: remodel; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The long-term owner-occupant is performing a simultaneous kitchen remodel and bathroom addition, which are key resale improvements, though the inclusion of a sauna suggests potential personal use."
+  }
+}

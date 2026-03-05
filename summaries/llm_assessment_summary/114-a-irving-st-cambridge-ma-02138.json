@@ -1,0 +1,33 @@
+{
+  "address": "114-A IRVING ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=114-A+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/114-A%20IRVING%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=114-A+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.7,
+  "max_score": 3,
+  "total_cost": 152000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-12-10",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Gut and remodel existing bathroom, fixtures remain in same location. Do not gut existing kitchen but replace cabinets in same location. Update plumbing and electrical as needed, paint and refinish floors.",
+      "cost": 152000.0,
+      "property_use": "One-Family",
+      "contractor": "Charlie-Allen Renovations",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($152,000); keyword: gut"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The renovation combines a bathroom gut with a kitchen cabinet replacement and floor refinishing, which are classic pre-sale updates, though owner-occupancy and the lack of a full kitchen gut suggest it is not a certain flip."
+  }
+}

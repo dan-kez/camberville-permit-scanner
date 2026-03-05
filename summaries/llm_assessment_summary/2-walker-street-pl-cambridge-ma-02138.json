@@ -1,0 +1,44 @@
+{
+  "address": "2 WALKER STREET PL, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+WALKER+STREET+PL%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/2%20WALKER%20STREET%20PL%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=2+WALKER+STREET+PL%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1892",
+    "bedrooms": "5",
+    "bathrooms": "2/1",
+    "total_rooms": "7",
+    "living_area": "1640",
+    "last_sale_date": "2013-07-10T00:00:00.000",
+    "last_sale_price": "0",
+    "assessed_value": "1672300",
+    "lot_size": "2537"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.66,
+  "max_score": 3,
+  "total_cost": 100477.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-08-16",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Remodel 3rd floor bathroom - see drawings",
+      "cost": 100477.0,
+      "property_use": "One-Family",
+      "contractor": "Bertola Custom Homes",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($100,477); keyword: remodel"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "This is a single bathroom remodel by a long-term owner-occupant, which is characteristic of a personal home improvement rather than a pre-sale renovation."
+  }
+}

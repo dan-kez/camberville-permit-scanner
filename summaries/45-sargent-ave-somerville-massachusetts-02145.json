@@ -1,0 +1,64 @@
+{
+  "address": "45 SARGENT AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=45+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/45%20SARGENT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=45+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2289,
+    "last_sale_date": "2006-07-17",
+    "last_sale_price": 0,
+    "assessed_value": 847800,
+    "lot_size": 0.07010000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.71,
+  "max_score": 7,
+  "total_cost": 10955.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2024-09-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "demolition / make safe /leave one working outlet on each floor for construction purposes\r\nB24-001557",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Tier One Electrical LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: demolition; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-09-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Expletory demolition of walls and ceilings to determine condition of structure of bearing and non-bearing walls, vinal siding, roof and windows.",
+      "cost": 930.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: demolition; minor: siding; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-11-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Perform a complete gut rehab as follows: Basement create a playroom and one bedroom and bathroom. 1st floor consist of living, dining and kitchen with a half bath. 2nd floor will consist of 3 bedrooms and 2 bathrooms. 3rd floor will consist of 1 bedroom and one bathroom. New siding, new roofing and new windows. All work will remain within the same existing footprint.",
+      "cost": 9965.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: gut; minor: roofing; permit completed; all permits completed"
+    }
+  ]
+}

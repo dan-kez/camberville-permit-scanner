@@ -1,0 +1,40 @@
+{
+  "address": "40 GARDEN ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+GARDEN+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/40%20GARDEN%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=40+GARDEN+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1994",
+    "bedrooms": "3",
+    "bathrooms": "3/1",
+    "total_rooms": "8",
+    "living_area": "3591",
+    "last_sale_date": "2023-09-21T00:00:00.000",
+    "last_sale_price": "3950000",
+    "assessed_value": "3856700",
+    "lot_size": "3855"
+  },
+  "property_use": "Townhouse",
+  "nearest_square": "Porter",
+  "distance_mi": 0.68,
+  "max_score": 3,
+  "total_cost": 167300.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-10-06",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Remodel of newly purchased home.\u00a0Full bath remodel.\u00a0Kitchen remodel.\u00a0Refinish floors.\u00a0Add storage closet in basement.\u00a0Replace hardware and accesories. Paint",
+      "cost": 167300.0,
+      "property_use": "Townhouse",
+      "contractor": "Hudson Contracting Company",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($167,300); keyword: remodel"
+    }
+  ]
+}

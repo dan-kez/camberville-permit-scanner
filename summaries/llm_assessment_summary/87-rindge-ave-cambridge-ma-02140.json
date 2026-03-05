@@ -1,0 +1,45 @@
+{
+  "address": "87 RINDGE AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=87+RINDGE+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/87%20RINDGE%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=87+RINDGE+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.4,
+  "max_score": 3,
+  "total_cost": 74600.0,
+  "permit_count": 2,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2023-10-24",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Install new bathroom in the existing bedroom/shower ,toilet ,peadsial sink all new electric /plaster. A new Bathroom 5' by 15' in size. The bathroom wis to be located in the master bedroom. There will be 1 new wall framed 2x6 between bedroom and bathroom.",
+      "cost": 32200.0,
+      "property_use": "One-Family",
+      "contractor": "sean gallagher construction llc",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($32,200); permit completed"
+    },
+    {
+      "date": "2025-06-09",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Kitchen Renovation",
+      "cost": 42400.0,
+      "property_use": "One-Family",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($42,400); keyword: renovation"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The property has undergone sequential major renovations to both a master bathroom and the kitchen within a two-year period, representing a systematic update of key resale areas despite being owner-occupied."
+  }
+}

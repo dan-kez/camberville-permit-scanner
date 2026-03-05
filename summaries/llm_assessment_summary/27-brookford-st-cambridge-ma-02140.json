@@ -1,0 +1,44 @@
+{
+  "address": "27 BROOKFORD ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=27+BROOKFORD+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/27%20BROOKFORD%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=27+BROOKFORD+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1893",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "8",
+    "living_area": "1286",
+    "last_sale_date": "2019-04-16T00:00:00.000",
+    "last_sale_price": "990000",
+    "assessed_value": "1365100",
+    "lot_size": "4520"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.63,
+  "max_score": 2,
+  "total_cost": 439000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-10-24",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "3rd floor full remodel (dormer additions); basement footings/columns; new stairs to 3rd floor; partial 2nd floor remodel; New roofing; all new windows; new exterior siding/trim; masonry repoint; new split unit ductless throughout",
+      "cost": 439000.0,
+      "property_use": "One-Family",
+      "contractor": "Essential Care Contracting",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($439,000); keyword: remodel; minor: roofing"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "A massive $439k whole-house gut renovation including structural changes and full interior/exterior updates by a relatively recent owner (2019) strongly indicates a flip or high-end preparation for sale."
+  }
+}

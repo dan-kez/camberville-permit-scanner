@@ -1,0 +1,40 @@
+{
+  "address": "9 HARRINGTON RD, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+HARRINGTON+RD%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/9%20HARRINGTON%20RD%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+HARRINGTON+RD%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1891",
+    "bedrooms": "3",
+    "bathrooms": "1/0",
+    "total_rooms": "6",
+    "living_area": "1120",
+    "last_sale_date": "2023-11-02T00:00:00.000",
+    "last_sale_price": "980000",
+    "assessed_value": "760700",
+    "lot_size": "2450"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.46,
+  "max_score": 2,
+  "total_cost": 712015.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-11-07",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Full gut renovation, no addition, new structural, new HVAC, plumbling, electrical, roof, doors, siding, insulation, and windows.",
+      "cost": 712015.0,
+      "property_use": "One-Family",
+      "contractor": "MATT Construction Mass INC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($712,015); keyword: gut; minor: insulation"
+    }
+  ]
+}

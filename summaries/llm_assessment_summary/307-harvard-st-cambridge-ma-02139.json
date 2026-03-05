@@ -1,0 +1,56 @@
+{
+  "address": "307 HARVARD ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=307+HARVARD+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/307%20HARVARD%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=307+HARVARD+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "1865",
+    "bedrooms": "6",
+    "bathrooms": "3/2",
+    "total_rooms": "13",
+    "living_area": "5153",
+    "last_sale_date": "2018-07-27T00:00:00.000",
+    "last_sale_price": "3700000",
+    "assessed_value": "5039100",
+    "lot_size": "12270"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.36,
+  "max_score": 8,
+  "total_cost": 105481.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-07-22",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "We hereby propose to furnish materials and labor for the completion of:Installation of 14 squares of new slate roof system.We hereby propose to furnish materials and labor for the installation of 14 square(s) of Certainteed Landmark Architectural Shingles.Bay windows roof replacement + Front porch - 6 units. Gutter maintenance",
+      "cost": 66481.0,
+      "property_use": "Two-Family",
+      "contractor": "RB Farina Roofing & Construction Inc.",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($66,481); keyword: gut; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-09-27",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Deck replacement, Deck size: 320 sqft; EPDM Membrane Replacement 5 squares",
+      "cost": 39000.0,
+      "property_use": "Two-Family",
+      "contractor": "RB Farina Roofing",
+      "owner_occupied": true,
+      "score": 6,
+      "score_reasons": "moderate cost ($39,000); permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permits focus exclusively on exterior maintenance (roof and deck) for an owner-occupied property, lacking the high-end interior renovations typical of pre-sale preparation."
+  }
+}

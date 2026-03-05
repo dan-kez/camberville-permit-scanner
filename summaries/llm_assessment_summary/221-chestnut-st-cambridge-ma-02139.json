@@ -1,0 +1,33 @@
+{
+  "address": "221 CHESTNUT ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=221+CHESTNUT+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/221%20CHESTNUT%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=221+CHESTNUT+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.63,
+  "max_score": 3,
+  "total_cost": 28789.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-04-02",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "REMOVE & REPLACE 9 WINDOWS; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 28789.0,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($28,789); keyword: structural"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The work consists only of window replacement by an owner-occupant, which is classified as standard maintenance rather than a pre-sale renovation."
+  }
+}

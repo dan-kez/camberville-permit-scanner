@@ -1,0 +1,40 @@
+{
+  "address": "16 RUSSELL ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+RUSSELL+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/16%20RUSSELL%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=16+RUSSELL+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1890",
+    "bedrooms": "5",
+    "bathrooms": "2/1",
+    "total_rooms": "9",
+    "living_area": "3842",
+    "last_sale_date": "2005-01-26T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1216400",
+    "lot_size": "3964"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.3,
+  "max_score": 8,
+  "total_cost": 30000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-10-01",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Demolition and replacement of approx. 1,550 SF basement concrete slab, including removal of deteriorated concrete, surface prep, and installation of new 1.5\u20132 in. high-strength topping slab. Apply new cementitious parge coat to approx. 1,300 SF of basement walls. No structural changes or utility relocations included.",
+      "cost": 30000.0,
+      "property_use": "One-Family",
+      "contractor": "Ev abatement Inc",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($30,000); keyword: demolition; permit completed; all permits completed"
+    }
+  ]
+}

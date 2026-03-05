@@ -1,0 +1,41 @@
+{
+  "address": "59 CONCORD AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=59+CONCORD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1628,
+    "last_sale_date": "2010-09-27",
+    "last_sale_price": 400000,
+    "assessed_value": 1060000,
+    "lot_size": 0.0912
+  },
+  "property_use": "Building Permit - Residential Alteration",
+  "nearest_square": "Inman",
+  "distance_mi": 0.21,
+  "max_score": 2,
+  "total_cost": 604.0,
+  "permit_count": 1,
+  "completed_permits": 2,
+  "completion_ratio": "2/3 complete",
+  "permits": [
+    {
+      "date": "2025-12-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "ROOFTOP SOLAR 10 PANELS 4.1 KWDC NO ESS NO STRUCTURAL",
+      "cost": 604.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Sunrun Installation Services",
+      "score": 2,
+      "score_reasons": "keyword: structural; minor: solar; permit completed; most permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The work consists of a single, minor solar installation at a very low cost, suggesting an energy efficiency update rather than a major renovation."
+  }
+}

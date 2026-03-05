@@ -1,0 +1,44 @@
+{
+  "address": "55 STEARNS ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=55+STEARNS+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/55%20STEARNS%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=55+STEARNS+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1892",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "6",
+    "living_area": "2769",
+    "last_sale_date": "2023-03-27T00:00:00.000",
+    "last_sale_price": "3500000",
+    "assessed_value": "2650700",
+    "lot_size": "5302"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.57,
+  "max_score": 5,
+  "total_cost": 878918.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-04-11",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "We will be removing the existing 3rd floor roof to put a higher roofline with dormers to create a larger 3rd floor volume, we will also be reconfiguring the second floor layout with new bathroom and laundry. The first floor will have its kitchen and bathroom remodeled, with minor layout changes. New HVAC throughout, updated electrical and plumbing as required. The garage is also to be razed and rebuild in existing location and size.",
+      "cost": 878918.0,
+      "property_use": "One-Family",
+      "contractor": "Bespoke Contracting LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($878,918); keyword: remodel"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The property is undergoing a massive $878,000 whole-house renovation involving structural changes and simultaneous full-scale updates to the kitchen and multiple bathrooms, which matches the primary indicator for high-end preparation for sale."
+  }
+}

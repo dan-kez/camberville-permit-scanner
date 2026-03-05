@@ -1,0 +1,40 @@
+{
+  "address": "4 ESSEX ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+ESSEX+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/4%20ESSEX%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=4+ESSEX+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 1682,
+    "last_sale_date": "2005-05-13",
+    "last_sale_price": 500000,
+    "assessed_value": 806100,
+    "lot_size": 0.0698
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.74,
+  "max_score": 5,
+  "total_cost": 145.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-07-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Service upgrade.  100 amp to 200 amp single meter overhead 240v.",
+      "cost": 145.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "William Morrissey",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

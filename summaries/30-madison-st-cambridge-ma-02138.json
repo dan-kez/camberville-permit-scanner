@@ -1,0 +1,40 @@
+{
+  "address": "30 MADISON ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=30+MADISON+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/30%20MADISON%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=30+MADISON+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1840",
+    "bedrooms": "5",
+    "bathrooms": "3/1",
+    "total_rooms": "10",
+    "living_area": "2510",
+    "last_sale_date": "2018-07-02T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "2426600",
+    "lot_size": "6335"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.61,
+  "max_score": 1,
+  "total_cost": 36775.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-06-17",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Demo existing bathroom. Reconstruct with walk-in shower instead of bath tub. Insulate exterior wall r-19, install exhaust fan, and tile floor and shower walls. \u00a0No stuctural",
+      "cost": 36775.0,
+      "property_use": "One-Family",
+      "contractor": "Krueger Construction",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($36,775)"
+    }
+  ]
+}

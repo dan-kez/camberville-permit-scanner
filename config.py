@@ -17,7 +17,7 @@ CAMBRIDGE_NEW_CONSTRUCTION = "https://data.cambridgema.gov/resource/9qm7-wbdc.js
 SOMERVILLE_PERMITS = "https://data.somervillema.gov/resource/nneb-s3f7.json"
 
 # Property database endpoints
-CAMBRIDGE_PROPERTY_DB = "https://data.cambridgema.gov/resource/eey2-rv59.json"
+CAMBRIDGE_PROPERTY_DB = "https://data.cambridgema.gov/resource/waa7-ibdu.json"
 SOMERVILLE_PROPERTY_DB = "https://services1.arcgis.com/hGdibHYSPO59RG1h/arcgis/rest/services/L3_TAXPAR_POLY_ASSESS_gdb/FeatureServer/0/query"
 SOMERVILLE_TOWN_ID = 274
 

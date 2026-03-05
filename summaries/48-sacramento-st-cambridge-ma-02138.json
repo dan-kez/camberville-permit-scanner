@@ -1,0 +1,40 @@
+{
+  "address": "48 SACRAMENTO ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=48+SACRAMENTO+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/48%20SACRAMENTO%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=48+SACRAMENTO+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "5",
+    "bathrooms": "3/0",
+    "total_rooms": "8",
+    "living_area": "2379",
+    "last_sale_date": "2024-01-22T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "2543800",
+    "lot_size": "4726"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.46,
+  "max_score": 5,
+  "total_cost": 334000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-04-30",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "New dormer and skylight per plans. Renovation of 3rd floor, including new bedrooms and bathroom. New windows per plans",
+      "cost": 334000.0,
+      "property_use": "One-Family",
+      "contractor": "Fresh Start Contracting",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($334,000); keyword: renovation"
+    }
+  ]
+}

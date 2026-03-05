@@ -1,0 +1,52 @@
+{
+  "address": "53 MADISON AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=53+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/53%20MADISON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=53+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1949",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "7",
+    "living_area": "1386",
+    "last_sale_date": "2008-10-10T00:00:00.000",
+    "last_sale_price": "529500",
+    "assessed_value": "1242400",
+    "lot_size": "1986"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.7,
+  "max_score": 3,
+  "total_cost": 124224.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2025-11-24",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Renovate kitchen and install beam",
+      "cost": 98475.0,
+      "property_use": "One-Family",
+      "contractor": "Coen Construction",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($98,475); keyword: renovate"
+    },
+    {
+      "date": "2024-06-04",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Asphalt shingles replacement on the entire house.",
+      "cost": 25749.0,
+      "property_use": "One-Family",
+      "contractor": "FRS Roofing Inc.",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($25,749)"
+    }
+  ]
+}

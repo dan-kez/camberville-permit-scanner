@@ -1,0 +1,40 @@
+{
+  "address": "52 MADISON ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=52+MADISON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/52%20MADISON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=52+MADISON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2224,
+    "last_sale_date": "2018-11-16",
+    "last_sale_price": 999000,
+    "assessed_value": 1216900,
+    "lot_size": 0.0734
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.73,
+  "max_score": 2,
+  "total_cost": 95.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/3 complete",
+  "permits": [
+    {
+      "date": "2023-07-27",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rough and finish electrical on garage with Electric car charger",
+      "cost": 95.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Rick Picardi",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed"
+    }
+  ]
+}

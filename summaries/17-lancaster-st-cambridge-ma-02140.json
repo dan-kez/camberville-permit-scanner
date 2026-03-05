@@ -1,0 +1,52 @@
+{
+  "address": "17 LANCASTER ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+LANCASTER+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/17%20LANCASTER%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=17+LANCASTER+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1883",
+    "bedrooms": "4",
+    "bathrooms": "3/2",
+    "total_rooms": "10",
+    "living_area": "3169",
+    "last_sale_date": "2023-09-05T00:00:00.000",
+    "last_sale_price": "5100000",
+    "assessed_value": "4815700",
+    "lot_size": "4681"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.2,
+  "max_score": 5,
+  "total_cost": 430000.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2023-11-21",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Cosmetic renovations of the kitchen, primary bathroom, primary closet, hall bath and office. Exterior envelope to remain. Replacing exterior door in the office at the back of the house not viewable from any public way.",
+      "cost": 390000.0,
+      "property_use": "One-Family",
+      "contractor": "Refined Renovations",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($390,000); keyword: renovation"
+    },
+    {
+      "date": "2025-10-23",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Remove side porch finishes including decking, railings, trim and lattice and reinstall new finishe to match the existing",
+      "cost": 40000.0,
+      "property_use": "One-Family",
+      "contractor": "A&A Building and Remodeling",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($40,000)"
+    }
+  ]
+}

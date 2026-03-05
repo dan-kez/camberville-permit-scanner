@@ -1,0 +1,64 @@
+{
+  "address": "319 SUMMER ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=319+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/319%20SUMMER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=319+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1915,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 17,
+    "living_area": 2927,
+    "last_sale_date": "2023-04-25",
+    "last_sale_price": 1275000,
+    "assessed_value": 2128600,
+    "lot_size": 0.061900000000000004
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Porter",
+  "distance_mi": 0.32,
+  "max_score": 5,
+  "total_cost": 21756.5,
+  "permit_count": 3,
+  "completed_permits": 5,
+  "completion_ratio": "5/6 complete",
+  "permits": [
+    {
+      "date": "2023-08-17",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Convert 2 family to single family. Update all framing and MEP's per proposed plans: BASEMENT: Finish basement, add 1 bathroom FIRST FLOOR: remove 2 bedrooms, relayout kitchen SECOND FLOOR: Remove kitchen, add 1 bathroom, add 1 bedroom THIRD FLOOR: Remove 1 bedroom, add 1 bathroom. Install new board and plaster, tile, flooring, cabinets, and trim work. Paint exterior and interior.",
+      "cost": 20997.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Treadstone Construction, LLC.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: convert; permit completed; most permits completed"
+    },
+    {
+      "date": "2024-02-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rough and finish electrical on single family renovation",
+      "cost": 489.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Rick Picardi",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+    },
+    {
+      "date": "2023-11-14",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install drainage waste and vents to serve 4.5 baths laundry and kitchen . Install water piping to each fixture",
+      "cost": 270.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "PTL Plumbing",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    }
+  ]
+}

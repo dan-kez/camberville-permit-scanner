@@ -1,0 +1,44 @@
+{
+  "address": "156 PEARL ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=156+PEARL+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/156%20PEARL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=156+PEARL+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1244,
+    "last_sale_date": "1993-12-31",
+    "last_sale_price": 1,
+    "assessed_value": 698400,
+    "lot_size": 0.06670000000000001
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.48,
+  "max_score": 5,
+  "total_cost": 360.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-11-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Shingle roof replacement 11 squares + EPDM roof replacement 3 squares",
+      "cost": 360.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "RB Farina Roofing & Construction",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is for routine roof maintenance by a long-term owner-occupant who has owned the property since 1993."
+  }
+}

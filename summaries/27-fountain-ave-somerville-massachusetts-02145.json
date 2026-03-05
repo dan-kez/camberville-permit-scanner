@@ -1,0 +1,64 @@
+{
+  "address": "27 FOUNTAIN AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=27+FOUNTAIN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/27%20FOUNTAIN%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=27+FOUNTAIN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1372,
+    "last_sale_date": "2019-05-03",
+    "last_sale_price": 782000,
+    "assessed_value": 826400,
+    "lot_size": 0.041800000000000004
+  },
+  "property_use": "Building Permit - Residential Addition",
+  "nearest_square": "Union",
+  "distance_mi": 0.36,
+  "max_score": 7,
+  "total_cost": 3720.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2023-10-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Add a 2nd floor addition above an existing 1st floor bumpout to accomodate a new bathroom and walk in closet",
+      "cost": 3615.0,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "John F Diamond Builders Inc",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: addition; permit completed; all permits completed"
+    },
+    {
+      "date": "2023-11-20",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "2nd floor bathroom",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Marciano Plumbing",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2023-11-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "wire bathroom and mud room to code",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Timothy Santos Electrician LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

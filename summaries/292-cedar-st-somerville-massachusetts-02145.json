@@ -1,0 +1,39 @@
+{
+  "address": "292 CEDAR ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=292+CEDAR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/292%20CEDAR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=292+CEDAR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1542,
+    "last_sale_date": "2021-02-02",
+    "last_sale_price": 1,
+    "assessed_value": 786800,
+    "lot_size": 0.0917
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.72,
+  "max_score": 5,
+  "total_cost": 75.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-10-30",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Installation of 50 amp 240V dedicated circuit for electric range. Replacement of bathroom outlet with AF and GF protection.",
+      "cost": 75.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Costas Hatzis Electric",
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

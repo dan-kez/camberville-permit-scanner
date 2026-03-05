@@ -1,0 +1,29 @@
+{
+  "address": "23 LOCKE ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=23+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/23%20LOCKE%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=23+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.25,
+  "max_score": 8,
+  "total_cost": 31041.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-10-01",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "REMOVE & REPLACE 13 WINDOWS; \u00a0LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 31041.0,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($31,041); keyword: structural; permit completed; all permits completed"
+    }
+  ]
+}

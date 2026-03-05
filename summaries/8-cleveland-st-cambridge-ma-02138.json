@@ -1,0 +1,52 @@
+{
+  "address": "8 CLEVELAND ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+CLEVELAND+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/8%20CLEVELAND%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+CLEVELAND+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1880",
+    "bedrooms": "5",
+    "bathrooms": "2/0",
+    "total_rooms": "8",
+    "living_area": "2055",
+    "last_sale_date": "2022-06-02T00:00:00.000",
+    "last_sale_price": "2414000",
+    "assessed_value": "2076000",
+    "lot_size": "2200"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.53,
+  "max_score": 5,
+  "total_cost": 707900.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2023-08-07",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Add a bathroom and laundry hookup and renovate an existing bathroom on the second floor. Add a bathroom to third floor. Install skylight and patch roof. Add 2 new windows. Update wiring in some areas and add a car charger.",
+      "cost": 290000.0,
+      "property_use": "One-Family",
+      "contractor": "Landmark Services Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($290,000); keyword: renovate"
+    },
+    {
+      "date": "2025-12-22",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Kitchen renovation: gut kitchen and update plumbing, wiring, HVAC, insulation, board and plaster, cabinets, counters and appliances",
+      "cost": 417900.0,
+      "property_use": "One-Family",
+      "contractor": "Landmark Services Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($417,900); keyword: gut; minor: insulation"
+    }
+  ]
+}

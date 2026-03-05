@@ -1,0 +1,40 @@
+{
+  "address": "82 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=82+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/82%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=82+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2705,
+    "last_sale_date": "1999-02-09",
+    "last_sale_price": 1,
+    "assessed_value": 1325700,
+    "lot_size": 0.079
+  },
+  "property_use": "Demolition Permit - Residential Accessory Structures ( i.e., garages, sheds ) under 1500 sq ft",
+  "nearest_square": "Davis",
+  "distance_mi": 0.52,
+  "max_score": 5,
+  "total_cost": 150.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-11-29",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Demo existing cinder blocks garage \r\nDemo on or after December 5, 2023",
+      "cost": 150.0,
+      "property_use": "Demolition Permit - Residential Accessory Structures ( i.e., garages, sheds ) under 1500 sq ft",
+      "contractor": "JRG Masonry & Construction Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "address": "30 MONTGOMERY ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=30+MONTGOMERY+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/30%20MONTGOMERY%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=30+MONTGOMERY+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1903",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "8",
+    "living_area": "1725",
+    "last_sale_date": "2006-12-19T00:00:00.000",
+    "last_sale_price": "480000",
+    "assessed_value": "1077400",
+    "lot_size": "1800"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.57,
+  "max_score": 8,
+  "total_cost": 45438.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-12-14",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "REMOVE & REPLACE 18 WINDOWS; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 45438.0,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($45,438); keyword: structural; permit completed; all permits completed"
+    }
+  ]
+}

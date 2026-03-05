@@ -1,0 +1,44 @@
+{
+  "address": "41 PLEASANT ST, UNIT 1, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=41+PLEASANT+ST%2C+UNIT+1%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/41%20PLEASANT%20ST%2C%20UNIT%201%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=41+PLEASANT+ST%2C+UNIT+1%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "2016",
+    "bedrooms": "6",
+    "bathrooms": "6/1",
+    "total_rooms": "10",
+    "living_area": "3843",
+    "last_sale_date": "2024-07-11T00:00:00.000",
+    "last_sale_price": "4276000",
+    "assessed_value": "4225100",
+    "lot_size": "4407"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.23,
+  "max_score": 1,
+  "total_cost": 35000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-12-22",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Removal all water damaged material in home, walls, ceilings and floors.",
+      "cost": 35000.0,
+      "property_use": "Two-Family",
+      "contractor": "Mark F Sullivan",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($35,000)"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The recent single permit for water damage remediation by an owner-occupant suggests emergency maintenance rather than a strategic pre-sale renovation."
+  }
+}

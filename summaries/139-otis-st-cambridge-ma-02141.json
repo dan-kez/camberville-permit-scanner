@@ -1,0 +1,40 @@
+{
+  "address": "139 OTIS ST, CAMBRIDGE, MA 02141",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=139+OTIS+ST%2C+CAMBRIDGE%2C+MA+02141",
+  "zillow_url": "https://www.zillow.com/homes/139%20OTIS%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
+  "google_search_url": "https://www.google.com/search?q=139+OTIS+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1852",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "7",
+    "living_area": "1788",
+    "last_sale_date": "2021-03-31T00:00:00.000",
+    "last_sale_price": "980000",
+    "assessed_value": "1230900",
+    "lot_size": "1000"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Union",
+  "distance_mi": 0.74,
+  "max_score": 8,
+  "total_cost": 36080.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-03-28",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Second floor bathroom complete remodeling, same foot print and elevations, upgrade pluming and electrical.upgrade the electrical service of the house",
+      "cost": 36080.0,
+      "property_use": "One-Family",
+      "contractor": "Alex Ortega",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($36,080); keyword: remodel; permit completed; all permits completed"
+    }
+  ]
+}

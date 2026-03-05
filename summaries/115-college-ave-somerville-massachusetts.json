@@ -1,0 +1,39 @@
+{
+  "address": "115 COLLEGE AVE, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=115+COLLEGE+AVE%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/115%20COLLEGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=115+COLLEGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1940,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 3900,
+    "last_sale_date": "2002-12-18",
+    "last_sale_price": 660000,
+    "assessed_value": 2162200,
+    "lot_size": 0.1597
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Davis",
+  "distance_mi": 0.32,
+  "max_score": 2,
+  "total_cost": 60.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2026-01-12",
+      "source": "Somerville",
+      "status": "Withdrawn",
+      "description": "WITHDRAWN PER APPLICANT\r\n\r\nRemodeling. 1st Floor: 1 toilet, 1 lavatory, and 1 bathtub",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Bay State Plumbing and Gas Inc",
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    }
+  ]
+}

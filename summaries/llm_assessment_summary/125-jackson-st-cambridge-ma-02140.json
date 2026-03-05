@@ -1,0 +1,44 @@
+{
+  "address": "125 JACKSON ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=125+JACKSON+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/125%20JACKSON%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=125+JACKSON+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "2022",
+    "bedrooms": "4",
+    "bathrooms": "3/1",
+    "total_rooms": "7",
+    "living_area": "2174",
+    "last_sale_date": "2023-01-19T00:00:00.000",
+    "last_sale_price": "1350000",
+    "assessed_value": "731500",
+    "lot_size": "6000"
+  },
+  "property_use": "One or Two Family Dwelling",
+  "nearest_square": "Davis",
+  "distance_mi": 0.65,
+  "max_score": 11,
+  "total_cost": 665802.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-09-07",
+      "source": "Cambridge New Construction",
+      "status": "Complete",
+      "description": "Permit #\u00a0274616",
+      "cost": 665802.0,
+      "property_use": "One or Two Family Dwelling",
+      "contractor": "RICHARD A DUCOTT",
+      "owner_occupied": true,
+      "score": 11,
+      "score_reasons": "high cost ($665,802); new construction; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "A massive $665,802 new construction project completed shortly after the 2023 purchase indicates a full-scale property transformation typical of a high-end development or flip."
+  }
+}

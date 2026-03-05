@@ -1,0 +1,40 @@
+{
+  "address": "47-17 COGSWELL AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=47-17+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/47-17%20COGSWELL%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=47-17+COGSWELL+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1982",
+    "bedrooms": "2",
+    "bathrooms": "1/0",
+    "total_rooms": "4",
+    "living_area": "753",
+    "last_sale_date": "2021-02-10T00:00:00.000",
+    "last_sale_price": "780000",
+    "assessed_value": "864600",
+    "lot_size": "1989"
+  },
+  "property_use": "Townhouse",
+  "nearest_square": "Porter",
+  "distance_mi": 0.4,
+  "max_score": 1,
+  "total_cost": 40833.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2026-01-07",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Removing 2 partition walls, adding 2 kitchen cabinets, replacing kitchen flooring, replacing kitchen countertops, installing kitchen backsplash tile",
+      "cost": 40833.0,
+      "property_use": "Townhouse",
+      "contractor": "Pann Home Services",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($40,833)"
+    }
+  ]
+}

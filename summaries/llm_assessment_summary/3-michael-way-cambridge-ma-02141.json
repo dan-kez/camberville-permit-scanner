@@ -1,0 +1,44 @@
+{
+  "address": "3 MICHAEL WAY, CAMBRIDGE, MA 02141",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+MICHAEL+WAY%2C+CAMBRIDGE%2C+MA+02141",
+  "zillow_url": "https://www.zillow.com/homes/3%20MICHAEL%20WAY%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
+  "google_search_url": "https://www.google.com/search?q=3+MICHAEL+WAY%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1984",
+    "bedrooms": "2",
+    "bathrooms": "1/1",
+    "total_rooms": "5",
+    "living_area": "1248",
+    "last_sale_date": "2024-04-12T00:00:00.000",
+    "last_sale_price": "1100000",
+    "assessed_value": "1091600",
+    "lot_size": "3336"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.6,
+  "max_score": 7,
+  "total_cost": 620000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-02-01",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "new addition, excavation foundation for basement walkable, kitchen renovation, two existing bathrooms renovation and add two bathrooms: one in the second floor and one in the attic floor, increase the height of the roof, add dormer at the back of the house in the attic, install new roof, new insulation to the renovated areas, and replace existing windows as followed the designed plan",
+      "cost": 620000.0,
+      "property_use": "One-Family",
+      "contractor": "vertical Konstruction LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "high cost ($620,000); keyword: renovate; minor: sign; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "A massive $620,000 renovation including a kitchen and four bathroom projects immediately following a 2024 purchase strongly suggests a high-end property flip."
+  }
+}

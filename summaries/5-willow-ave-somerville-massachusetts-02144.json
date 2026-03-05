@@ -1,0 +1,39 @@
+{
+  "address": "5 WILLOW AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/5%20WILLOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=5+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2876,
+    "last_sale_date": "2011-12-16",
+    "last_sale_price": 899000,
+    "assessed_value": 1788400,
+    "lot_size": 0.1384
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Porter",
+  "distance_mi": 0.22,
+  "max_score": 2,
+  "total_cost": 4275.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-12-04",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Minor renovations, add 3rd floor bathroom",
+      "cost": 4275.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Don Foote Contracting",
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    }
+  ]
+}

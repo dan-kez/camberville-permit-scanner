@@ -1,0 +1,40 @@
+{
+  "address": "75 BONAIR ST, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=75+BONAIR+ST%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/75%20BONAIR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=75+BONAIR+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1859,
+    "last_sale_date": "2015-07-15",
+    "last_sale_price": 735000,
+    "assessed_value": 1010400,
+    "lot_size": 0.0516
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.67,
+  "max_score": 5,
+  "total_cost": 240.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-07-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Reskin existing deck",
+      "cost": 240.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Spinosa Maintenance and Construction LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

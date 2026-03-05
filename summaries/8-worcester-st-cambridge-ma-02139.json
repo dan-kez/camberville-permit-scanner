@@ -1,0 +1,40 @@
+{
+  "address": "8 WORCESTER ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+WORCESTER+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/8%20WORCESTER%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+WORCESTER+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1839",
+    "bedrooms": "4",
+    "bathrooms": "3/1",
+    "total_rooms": "10",
+    "living_area": "2090",
+    "last_sale_date": "2022-09-09T00:00:00.000",
+    "last_sale_price": "1200000",
+    "assessed_value": "2324300",
+    "lot_size": "3415"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.26,
+  "max_score": 10,
+  "total_cost": 893550.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-07-05",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Full Gut Remodel",
+      "cost": 893550.0,
+      "property_use": "One-Family",
+      "contractor": "Justin Kelly Contracting",
+      "owner_occupied": true,
+      "score": 10,
+      "score_reasons": "high cost ($893,550); keyword: gut; permit completed; all permits completed"
+    }
+  ]
+}

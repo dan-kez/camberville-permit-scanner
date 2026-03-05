@@ -1,0 +1,44 @@
+{
+  "address": "7 WATERHOUSE ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+WATERHOUSE+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/7%20WATERHOUSE%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=7+WATERHOUSE+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1905",
+    "bedrooms": "4",
+    "bathrooms": "3/1",
+    "total_rooms": "10",
+    "living_area": "3996",
+    "last_sale_date": "1984-03-07T00:00:00.000",
+    "last_sale_price": "240000",
+    "assessed_value": "6088800",
+    "lot_size": "15480"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.75,
+  "max_score": 8,
+  "total_cost": 80765.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-11-23",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Carriedge house washroom full renovation",
+      "cost": 80765.0,
+      "property_use": "One-Family",
+      "contractor": "KEP Construction Inc",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($80,765); keyword: renovation; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "This is a single washroom renovation by a long-term owner-occupant of 40+ years, consistent with maintenance rather than a pre-sale flip."
+  }
+}

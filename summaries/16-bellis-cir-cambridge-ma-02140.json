@@ -1,0 +1,37 @@
+{
+  "address": "16 BELLIS CIR, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+BELLIS+CIR%2C+CAMBRIDGE%2C+MA+02140",
+  "property_info": {
+    "property_class": "CONDO-BLDG",
+    "year_built": "0",
+    "bedrooms": "0",
+    "bathrooms": "0/0",
+    "total_rooms": "0",
+    "living_area": "0",
+    "last_sale_date": "unknown",
+    "last_sale_price": "0",
+    "assessed_value": "0",
+    "lot_size": "9810"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.75,
+  "max_score": 3,
+  "total_cost": 57830.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-10-16",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "The plan is to remodel and expand the existing backyard deck (first-floor). \u00a0The current rear deck is 8' x 24' and we would like to add an additional 8' of depth to create a new deck that is 16' x 24', with two steps to grade. \u00a0A site plan showing the proposed layout is provided along with a detailed framing plan.",
+      "cost": 57830.0,
+      "property_use": "One-Family",
+      "contractor": "Dexkos Inc",
+      "score": 3,
+      "score_reasons": "moderate cost ($57,830); keyword: remodel"
+    }
+  ]
+}

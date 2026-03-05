@@ -1,0 +1,52 @@
+{
+  "address": "316 PEARL ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=316+PEARL+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/316%20PEARL%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=316+PEARL+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "5",
+    "bathrooms": "3/1",
+    "total_rooms": "10",
+    "living_area": "2294",
+    "last_sale_date": "2024-02-16T00:00:00.000",
+    "last_sale_price": "2100000",
+    "assessed_value": "1383400",
+    "lot_size": "4500"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.68,
+  "max_score": 5,
+  "total_cost": 2966450.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2025-01-15",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Gut renovation of existing house at 316 Pearl Street",
+      "cost": 2924500.0,
+      "property_use": "Two-Family",
+      "contractor": "Hawthorn Builders",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($2,924,500); keyword: gut"
+    },
+    {
+      "date": "2024-03-17",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "The proposed work is to perform demolition on the whole interior of the building. \u00a0Cut and Cap permits for Gas, Electric and Water will be included with this work.\u00a0 All of the remaining plumbing fixtures, piping, plaster and lath, carpets, appliances will be removed and the wood studs/structure will remain.",
+      "cost": 41950.0,
+      "property_use": "Two-Family",
+      "contractor": "MATHEW ROTH",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($41,950); keyword: demolition"
+    }
+  ]
+}

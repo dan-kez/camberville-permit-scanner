@@ -1,0 +1,44 @@
+{
+  "address": "197 MORRISON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=197+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/197%20MORRISON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=197+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1860,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1728,
+    "last_sale_date": "2023-04-13",
+    "last_sale_price": 1730000,
+    "assessed_value": 1640800,
+    "lot_size": 0.1323
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Davis",
+  "distance_mi": 0.18,
+  "max_score": 5,
+  "total_cost": 60.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-10-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "2nd fl bathroom shower",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Big Blue Plumbing & Heating, Inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent activity is a minor bathroom plumbing permit by an owner-occupant who purchased the property in 2023."
+  }
+}

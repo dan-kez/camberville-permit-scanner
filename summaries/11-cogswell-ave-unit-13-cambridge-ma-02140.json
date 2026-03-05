@@ -1,0 +1,37 @@
+{
+  "address": "11 COGSWELL AVE, UNIT 13, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+COGSWELL+AVE%2C+UNIT+13%2C+CAMBRIDGE%2C+MA+02140",
+  "property_info": {
+    "property_class": "CONDOMINIUM",
+    "year_built": "1968",
+    "bedrooms": "2",
+    "bathrooms": "1/0",
+    "total_rooms": "4",
+    "living_area": "745",
+    "last_sale_date": "2017-06-01T00:00:00.000",
+    "last_sale_price": "585000",
+    "assessed_value": "581100",
+    "lot_size": "0"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.35,
+  "max_score": 8,
+  "total_cost": 110000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-10-02",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Scope of work entails floor to ceiling renovation of all interior surfaces including without limitations floors, ceiling, walls, trim, doors, windows, built-ins, cabinetry, air conditioning units, heating baseboard, and all finishes.",
+      "cost": 110000.0,
+      "property_use": "One-Family",
+      "contractor": "Michael",
+      "score": 8,
+      "score_reasons": "moderate cost ($110,000); keyword: renovation; permit completed; all permits completed"
+    }
+  ]
+}

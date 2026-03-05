@@ -1,0 +1,56 @@
+{
+  "address": "54 ANTRIM ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=54+ANTRIM+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/54%20ANTRIM%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=54+ANTRIM+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1870",
+    "bedrooms": "3",
+    "bathrooms": "3/0",
+    "total_rooms": "11",
+    "living_area": "2427",
+    "last_sale_date": "2023-07-10T00:00:00.000",
+    "last_sale_price": "2315000",
+    "assessed_value": "2957100",
+    "lot_size": "4569"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.23,
+  "max_score": 7,
+  "total_cost": 461601.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-02-16",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Converting ADU back to a single family home. \u00a0Renovating kitchen and eliminating second kitchen. \u00a0Renovating maste bathroom, removing 2 chimneys, and replacing/ adding windows in back of home with Marvin Elavate in keeping with historic design. \u00a0Also Replacing back door with Marvin Elavate french door.",
+      "cost": 397818.0,
+      "property_use": "Two-Family",
+      "contractor": "Northwoods Builders LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "high cost ($397,818); keyword: convert; minor: sign; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-03-12",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "install new hvac system",
+      "cost": 63783.0,
+      "property_use": "One-Family",
+      "contractor": "thomas services inc.",
+      "owner_occupied": true,
+      "score": 6,
+      "score_reasons": "moderate cost ($63,783); permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The very recent purchase in 2023 and owner-occupied status suggest the major renovations are for personal use by a new owner rather than preparation for a resale."
+  }
+}

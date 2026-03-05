@@ -1,0 +1,40 @@
+{
+  "address": "4 GLOVER CIR, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+GLOVER+CIR%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/4%20GLOVER%20CIR%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=4+GLOVER+CIR%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1851,
+    "last_sale_date": "1989-08-28",
+    "last_sale_price": 167000,
+    "assessed_value": 1116500,
+    "lot_size": 0.0555
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Davis",
+  "distance_mi": 0.09,
+  "max_score": 2,
+  "total_cost": 2468.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-10-03",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Slate restoration & gutter installation",
+      "cost": 2468.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Art Slate Roofing, LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: gut"
+    }
+  ]
+}

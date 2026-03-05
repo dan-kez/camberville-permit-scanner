@@ -1,0 +1,40 @@
+{
+  "address": "40 EVERETT AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+EVERETT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/40%20EVERETT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=40+EVERETT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 5,
+    "living_area": 1186,
+    "last_sale_date": "2022-05-19",
+    "last_sale_price": 810000,
+    "assessed_value": 744300,
+    "lot_size": 0.1218
+  },
+  "property_use": "Building Permit - Residential Addition",
+  "nearest_square": "Union",
+  "distance_mi": 0.54,
+  "max_score": 7,
+  "total_cost": 5680.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-10-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Addition of second floor Bedroom/Bathroom over existing Kitchen. Addition of new attached Garage.",
+      "cost": 5680.0,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "MLA Consultants",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: addition; permit completed; all permits completed"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "address": "19 FAIRMONT ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+FAIRMONT+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/19%20FAIRMONT%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=19+FAIRMONT+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1841",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "6",
+    "living_area": "1740",
+    "last_sale_date": "2024-03-01T00:00:00.000",
+    "last_sale_price": "1600000",
+    "assessed_value": "1587500",
+    "lot_size": "1887"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.43,
+  "max_score": 10,
+  "total_cost": 262000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-07-09",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "On the first floor, the existing powder room will be renovated and there will be some added cabinetry to the kitchen to accommodate new steam oven & coffee appliances. \u00a0On the second floor, two bedrooms and an existing bath will be gut renovated to create a primary suite, a laundry room, and a new hall bath.",
+      "cost": 262000.0,
+      "property_use": "One-Family",
+      "contractor": "Nick Portnoy Builders LLC",
+      "owner_occupied": true,
+      "score": 10,
+      "score_reasons": "high cost ($262,000); keyword: gut; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The property underwent a significant $262,000 gut renovation involving the kitchen and multiple bathrooms shortly after purchase, which is a primary indicator for high-end resale preparation."
+  }
+}

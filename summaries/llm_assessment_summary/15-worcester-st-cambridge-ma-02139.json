@@ -1,0 +1,44 @@
+{
+  "address": "15 WORCESTER ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+WORCESTER+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/15%20WORCESTER%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=15+WORCESTER+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1854",
+    "bedrooms": "3",
+    "bathrooms": "1/0",
+    "total_rooms": "7",
+    "living_area": "2111",
+    "last_sale_date": "2021-12-10T00:00:00.000",
+    "last_sale_price": "1375000",
+    "assessed_value": "1298100",
+    "lot_size": "3000"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.25,
+  "max_score": 2,
+  "total_cost": 361345.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-11-17",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "full gut reframe with new layout, new plumbing, new electrical, insulation and all new finishes. Attic raised to become habitable space.",
+      "cost": 361345.0,
+      "property_use": "One-Family",
+      "contractor": "gilnecarpentry@gmail.com",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($361,345); keyword: gut; minor: insulation"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The property is undergoing a massive $361,345 full-gut renovation including a total reframe, new layout, and attic conversion, which are definitive indicators of a whole-house modernization for sale."
+  }
+}

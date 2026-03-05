@@ -1,0 +1,41 @@
+{
+  "address": "84 IRVING ST, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=84+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2455,
+    "last_sale_date": "2005-06-07",
+    "last_sale_price": 679000,
+    "assessed_value": 1484400,
+    "lot_size": 0.1033
+  },
+  "property_use": "Gas Fitting - Residential - Existing",
+  "nearest_square": "Davis",
+  "distance_mi": 0.29,
+  "max_score": 2,
+  "total_cost": 60.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2026-02-12",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replacement furnace",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "James Thompson Plumbing & Heating",
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The likelihood is low as the single permit is for a minor furnace replacement rather than major renovations or cosmetic updates."
+  }
+}

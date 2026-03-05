@@ -1,0 +1,40 @@
+{
+  "address": "61 HANCOCK ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=61+HANCOCK+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/61%20HANCOCK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=61+HANCOCK+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1892,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2134,
+    "last_sale_date": "2016-12-21",
+    "last_sale_price": 1100000,
+    "assessed_value": 1447500,
+    "lot_size": 0.0649
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Porter",
+  "distance_mi": 0.31,
+  "max_score": 4,
+  "total_cost": 50.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-11-20",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Residential weatherization/ air sealing. No structural changes. SITE ID 8991317",
+      "cost": 50.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+    }
+  ]
+}

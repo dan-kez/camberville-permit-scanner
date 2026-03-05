@@ -1,0 +1,33 @@
+{
+  "address": "15 EUSTIS ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+EUSTIS+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/15%20EUSTIS%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=15+EUSTIS+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.38,
+  "max_score": 8,
+  "total_cost": 75480.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-08-21",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Primary bath renovation. Remove existing tile, shower fixtures and tub. Install new tile, shower fixtures, and tub. Reinstall existing vanity and toilet. Replace one window in the bathroom.",
+      "cost": 75480.0,
+      "property_use": "One-Family",
+      "contractor": "Bridey Design + Build",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($75,480); keyword: renovation; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permit involves a single bathroom renovation by an owner-occupant, which is consistent with personal maintenance rather than a comprehensive preparation for sale."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "address": "36 NEWBURY ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=36+NEWBURY+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/36%20NEWBURY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=36+NEWBURY+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1821,
+    "last_sale_date": "2021-03-29",
+    "last_sale_price": 1,
+    "assessed_value": 1308100,
+    "lot_size": 0.0981
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.46,
+  "max_score": 4,
+  "total_cost": 21061.0,
+  "permit_count": 3,
+  "completed_permits": 2,
+  "completion_ratio": "2/4 complete",
+  "permits": [
+    {
+      "date": "2024-06-14",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "3 floor addition , kitchen and bathroom remodel .",
+      "cost": 476.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Mike Ballou Electrician",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: remodel; permit completed"
+    },
+    {
+      "date": "2024-06-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Addition of 14x24 two story addition + foundation to single family residence",
+      "cost": 20425.0,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "David R. Murphy Renovations",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: addition; permit completed"
+    },
+    {
+      "date": "2024-09-03",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "renovate kitchen, add laundry connection, add master bathroom group and two half bathrooms",
+      "cost": 160.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "bms plumbing and heating",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovate"
+    }
+  ]
+}

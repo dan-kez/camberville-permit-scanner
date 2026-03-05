@@ -1,0 +1,44 @@
+{
+  "address": "20-C BOND ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20-C+BOND+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/20-C%20BOND%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=20-C+BOND+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1880",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "6",
+    "living_area": "1776",
+    "last_sale_date": "1999-10-29T00:00:00.000",
+    "last_sale_price": "495000",
+    "assessed_value": "1970100",
+    "lot_size": "3024"
+  },
+  "property_use": "Multi-Family (3 units or greater)",
+  "nearest_square": "Porter",
+  "distance_mi": 0.63,
+  "max_score": 8,
+  "total_cost": 30400.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-09-17",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "INSTALL 3 WINDOWS FOR REPLACEMENT NO STRUCTURAL CHANGES",
+      "cost": 30400.0,
+      "property_use": "Multi-Family (3 units or greater)",
+      "contractor": "PELLA OF BOSTON",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($30,400); keyword: structural; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is for routine maintenance (window replacement) by a long-term owner-occupant of over 25 years."
+  }
+}

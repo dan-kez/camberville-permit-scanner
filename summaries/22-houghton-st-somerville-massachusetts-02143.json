@@ -1,0 +1,112 @@
+{
+  "address": "22 HOUGHTON ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=22+HOUGHTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/22%20HOUGHTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=22+HOUGHTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1488,
+    "last_sale_date": "2023-10-04",
+    "last_sale_price": 400000,
+    "assessed_value": 845200,
+    "lot_size": 0.0528
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Inman",
+  "distance_mi": 0.08,
+  "max_score": 7,
+  "total_cost": 7698.5,
+  "permit_count": 7,
+  "completed_permits": 7,
+  "completion_ratio": "7/7 complete",
+  "permits": [
+    {
+      "date": "2024-03-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Gut renovation of single family dwelling to studs.  Demo chimney to basement, new roof, new electrical, new plumbing, new windows. Adding powder room to 1st fl and 2nd fl. Rework 2nd fl layout removing a bedroom.",
+      "cost": 6367.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "KNT Construction INC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: gut; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-06-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Single family house renovation w a 200 amps service",
+      "cost": 467.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Luciano Miranda Electrician",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-03-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Demo make safe",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Luciano Miranda Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-06-11",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remodeling Basement: 1 water heater, 1 washing machine connection, and 1 hose bibb. 1st Floor: 1 kitchen sink, 1 garbage disposal, 1 dishwasher, 1 ice maker, 1 toilet, and 1 lavatory. 2nd Floor: 2 toilets, 3 lavatories, and 2 shower stalls.",
+      "cost": 190.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "RG Plumbing Solutions",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: remodel; minor: water heater; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-06-11",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remodeling Basement: 1 furnace, 1 water heater 1st Floor: 1 range",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "RG Plumbing Solutions",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: remodel; minor: furnace; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-05-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Finished basement floor is uneven and cracked in areas. Demo floor And pour new floor to existing elevation. No change in height.",
+      "cost": 250.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "KNT Construction INC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: shed; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-07-12",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install 1 Furnace, 1 Condenser, 1 Coil, New ductwork.",
+      "cost": 304.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "PET HVAC INC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed"
+    }
+  ]
+}

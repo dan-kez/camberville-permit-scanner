@@ -1,0 +1,40 @@
+{
+  "address": "22 ARLINGTON ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=22+ARLINGTON+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/22%20ARLINGTON%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=22+ARLINGTON+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1862",
+    "bedrooms": "6",
+    "bathrooms": "2/1",
+    "total_rooms": "12",
+    "living_area": "3393",
+    "last_sale_date": "2012-08-23T00:00:00.000",
+    "last_sale_price": "1610000",
+    "assessed_value": "3482800",
+    "lot_size": "6581"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.18,
+  "max_score": 8,
+  "total_cost": 79800.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-10-14",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Demo existing 4'5\"x22' rear deck, rebuild and add 4'x15' extension. Install 36\" rails and balusters. Support extension with 3 10\" diameter x 48\" deep concrete piers. Demo and rebuild side entryway. Repair retainer wall of basement entryway below porch. Replace 12' section of concrete walkway.",
+      "cost": 79800.0,
+      "property_use": "One-Family",
+      "contractor": "Kevin",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($79,800); keyword: rebuild; permit completed; all permits completed"
+    }
+  ]
+}

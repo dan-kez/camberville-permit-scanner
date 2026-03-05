@@ -1,0 +1,40 @@
+{
+  "address": "28 BRISTOL ST, CAMBRIDGE, MA 02141",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=28+BRISTOL+ST%2C+CAMBRIDGE%2C+MA+02141",
+  "zillow_url": "https://www.zillow.com/homes/28%20BRISTOL%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
+  "google_search_url": "https://www.google.com/search?q=28+BRISTOL+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "6",
+    "living_area": "1824",
+    "last_sale_date": "2024-11-14T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "2006700",
+    "lot_size": "3212"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.55,
+  "max_score": 5,
+  "total_cost": 55000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-06-10",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Full basement renovation: renovate bathroom, plumbing, electrical, insulation, flooring, woodwork and painting. Install washer/dryer. Install eject pump, replace water heater with electric heat pump.Replace tile floor with floating floorReframe basement, insulate with spray foam, blueboard and plaster, woodwork and paiting.Create new bedroom with window well (2nd means of egress)See contract attached for more details.",
+      "cost": 55000.0,
+      "property_use": "One-Family",
+      "contractor": "Sergio's Renovations Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "moderate cost ($55,000); keyword: renovate; minor: water heater; permit completed; all permits completed"
+    }
+  ]
+}

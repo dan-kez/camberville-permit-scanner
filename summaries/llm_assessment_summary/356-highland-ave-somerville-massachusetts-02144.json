@@ -1,0 +1,44 @@
+{
+  "address": "356 HIGHLAND AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=356+HIGHLAND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/356%20HIGHLAND%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=356+HIGHLAND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1296,
+    "last_sale_date": "2001-08-27",
+    "last_sale_price": 325000,
+    "assessed_value": 1077300,
+    "lot_size": 0.055200000000000006
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Davis",
+  "distance_mi": 0.31,
+  "max_score": 7,
+  "total_cost": 400.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-06-20",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remove and replace 3 bay windows, like sizes with no structural changes.",
+      "cost": 400.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Renewal by Andersen",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The single permit for minor window replacement by a long-term owner-occupant of 24 years indicates routine maintenance rather than preparation for sale."
+  }
+}

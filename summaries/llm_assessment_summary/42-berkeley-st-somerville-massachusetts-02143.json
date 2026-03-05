@@ -1,0 +1,52 @@
+{
+  "address": "42 BERKELEY ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=42+BERKELEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1930,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1216,
+    "last_sale_date": "2019-12-04",
+    "last_sale_price": 905000,
+    "assessed_value": 1140100,
+    "lot_size": 0.126
+  },
+  "property_use": "Building Permit - Residential Addition",
+  "nearest_square": "Union",
+  "distance_mi": 0.65,
+  "max_score": 2,
+  "total_cost": 1564.5,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/3 complete",
+  "permits": [
+    {
+      "date": "2025-10-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Installation of (26) 440w roof top solar modules and associated electrical work. (11.44KWDC, 8.32KWAC, NO Battery/ESS, NO structural upgrades)",
+      "cost": 1564.5,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "ReVision Energy Inc.",
+      "score": 2,
+      "score_reasons": "keyword: structural; minor: solar; permit completed; most permits completed"
+    },
+    {
+      "date": "2025-09-24",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Berkeley St Block Party",
+      "cost": 0.0,
+      "property_use": "Block Party - Block Party",
+      "contractor": "",
+      "score": 1,
+      "score_reasons": "most permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The limited scope of work involves low-cost solar panel installation and a block party permit, neither indicating the major renovations typically associated with a house flip."
+  }
+}

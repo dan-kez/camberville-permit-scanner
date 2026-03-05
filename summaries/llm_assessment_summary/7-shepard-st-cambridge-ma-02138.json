@@ -1,0 +1,44 @@
+{
+  "address": "7 SHEPARD ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+SHEPARD+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/7%20SHEPARD%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=7+SHEPARD+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1854",
+    "bedrooms": "3",
+    "bathrooms": "3/1",
+    "total_rooms": "6",
+    "living_area": "2254",
+    "last_sale_date": "2022-12-19T00:00:00.000",
+    "last_sale_price": "2050000",
+    "assessed_value": "2286400",
+    "lot_size": "3556"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.47,
+  "max_score": 5,
+  "total_cost": 269575.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-11-30",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Gut and remodel 3rd floor bathroom.\u00a0Gut and remodel 2nd floor bathroom plus adding a dormer to that roof to gain ceiling height.\u00a0Gut and remodel 1st floor kitchen.\u00a0Strip and replace roof with GAF shingles.",
+      "cost": 269575.0,
+      "property_use": "One-Family",
+      "contractor": "Lahinch Property Services",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($269,575); keyword: gut"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The property is undergoing simultaneous gut renovations of the kitchen and multiple bathrooms shortly after purchase, matching a primary high-likelihood indicator for resale preparation."
+  }
+}

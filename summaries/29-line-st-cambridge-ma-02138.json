@@ -1,0 +1,40 @@
+{
+  "address": "29 LINE ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=29+LINE+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/29%20LINE%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=29+LINE+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "4",
+    "bathrooms": "3/1",
+    "total_rooms": "8",
+    "living_area": "1548",
+    "last_sale_date": "2024-04-24T00:00:00.000",
+    "last_sale_price": "950000",
+    "assessed_value": "1266300",
+    "lot_size": "1722"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.45,
+  "max_score": 10,
+  "total_cost": 263000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-05-29",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Renovate the house, kitchen, bath and add a domer in attic",
+      "cost": 263000.0,
+      "property_use": "One-Family",
+      "contractor": "Jianwen",
+      "owner_occupied": true,
+      "score": 10,
+      "score_reasons": "high cost ($263,000); keyword: renovate; permit completed; all permits completed"
+    }
+  ]
+}

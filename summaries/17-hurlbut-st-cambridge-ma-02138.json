@@ -1,0 +1,40 @@
+{
+  "address": "17 HURLBUT ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+HURLBUT+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/17%20HURLBUT%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=17+HURLBUT+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "5",
+    "bathrooms": "3/1",
+    "total_rooms": "12",
+    "living_area": "3085",
+    "last_sale_date": "2015-07-29T00:00:00.000",
+    "last_sale_price": "2450000",
+    "assessed_value": "3821200",
+    "lot_size": "5092"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.33,
+  "max_score": 5,
+  "total_cost": 278763.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-06-01",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Renovate kitchen, pantry and half bath. Gut to studs, insulate, sheetrock, flooring, cabinetry. Replace 2 exterior doors, 2 windows.",
+      "cost": 278763.0,
+      "property_use": "One-Family",
+      "contractor": "Bennett Custom Renovations LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($278,763); keyword: gut"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "address": "335 SUMMER ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=335+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/335%20SUMMER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=335+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1883,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2463,
+    "last_sale_date": "2004-06-30",
+    "last_sale_price": 799000,
+    "assessed_value": 1775500,
+    "lot_size": 0.1233
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Davis",
+  "distance_mi": 0.31,
+  "max_score": 2,
+  "total_cost": 5260.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2026-02-11",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Renovate second floor bathroom, replace front door with 2 windows, replace kitchen cabinets, lights and appliances",
+      "cost": 5180.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Byggmeister Assoc Inc",
+      "score": 2,
+      "score_reasons": "keyword: renovate"
+    },
+    {
+      "date": "2026-02-17",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "remodel bathroom",
+      "cost": 80.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Powderhouse Plumbing",
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    }
+  ]
+}

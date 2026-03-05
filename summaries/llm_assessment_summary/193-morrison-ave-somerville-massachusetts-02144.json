@@ -1,0 +1,56 @@
+{
+  "address": "193 MORRISON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=193+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/193%20MORRISON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=193+MORRISON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1930,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1534,
+    "last_sale_date": "2016-04-05",
+    "last_sale_price": 851500,
+    "assessed_value": 1208900,
+    "lot_size": 0.1056
+  },
+  "property_use": "Gas Fitting - Residential - Existing",
+  "nearest_square": "Davis",
+  "distance_mi": 0.19,
+  "max_score": 2,
+  "total_cost": 120.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-08-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remove the existing gas water heater permanently. Replacing it with a new Heat Pump electric water heater.",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "Vazzoler Services Inc.",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: water heater; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-08-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remove the existing gas water heater and replace it with a new Heat Pump electric water heater.",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Vazzoler Services Inc.",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: water heater; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permits are for a routine water heater replacement by a long-term owner-occupant, which constitutes basic maintenance rather than preparation for sale."
+  }
+}

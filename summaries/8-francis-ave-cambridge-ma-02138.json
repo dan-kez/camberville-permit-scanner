@@ -1,0 +1,40 @@
+{
+  "address": "8 FRANCIS AVE, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+FRANCIS+AVE%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/8%20FRANCIS%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+FRANCIS+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1941",
+    "bedrooms": "5",
+    "bathrooms": "4/1",
+    "total_rooms": "10",
+    "living_area": "2160",
+    "last_sale_date": "1977-07-05T00:00:00.000",
+    "last_sale_price": "88000",
+    "assessed_value": "2608500",
+    "lot_size": "6273"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.68,
+  "max_score": 5,
+  "total_cost": 55650.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-08-28",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "The existing deck, located in the back yard, will be demolished and a new deck built in it's place, to the exact same footprint and layout. \u00a0Framing plan attached and all work according to safe building code and regulations.",
+      "cost": 55650.0,
+      "property_use": "One-Family",
+      "contractor": "Dexksos Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "moderate cost ($55,650); keyword: demolish; minor: shed; permit completed; all permits completed"
+    }
+  ]
+}

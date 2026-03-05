@@ -1,0 +1,44 @@
+{
+  "address": "11 GARDEN TER, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+GARDEN+TER%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/11%20GARDEN%20TER%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=11+GARDEN+TER%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "1930",
+    "bedrooms": "6",
+    "bathrooms": "5/2",
+    "total_rooms": "13",
+    "living_area": "5184",
+    "last_sale_date": "2009-10-26T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "8149900",
+    "lot_size": "11349"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.64,
+  "max_score": 1,
+  "total_cost": 127500.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-09-16",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Brick all restore , repoint",
+      "cost": 127500.0,
+      "property_use": "One-Family",
+      "contractor": "Connection General construction inc",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($127,500)"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is for exterior brick restoration and repointing by a long-term owner-occupant, which constitutes major maintenance rather than a prep-for-sale renovation."
+  }
+}

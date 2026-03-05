@@ -1,0 +1,41 @@
+{
+  "address": "11 COTTAGE AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 11,
+    "living_area": 2883,
+    "last_sale_date": "1997-07-30",
+    "last_sale_price": 247000,
+    "assessed_value": 1902400,
+    "lot_size": 0.0951
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Davis",
+  "distance_mi": 0.2,
+  "max_score": 2,
+  "total_cost": 508.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2026-01-05",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Porch Remodeling. \r\nRemove de handrail . Replace the columns .Replace wood trims with pvc ( beam, columns, staircase, bottom of the deck) .Replace COMPOSITE DECKING ( TIMBERTECH mahogany or cypress) .Replace beadboard ( ceiling) .Trash removal",
+      "cost": 508.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Giga Property Solutions Inc",
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property has been owned since 1997 and has only a single minor permit for a $508 porch remodel, suggesting routine maintenance rather than a major renovation for sale."
+  }
+}

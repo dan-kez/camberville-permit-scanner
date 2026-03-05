@@ -1,0 +1,56 @@
+{
+  "address": "53 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=53+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/53%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=53+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2453,
+    "last_sale_date": "2021-07-19",
+    "last_sale_price": 1350000,
+    "assessed_value": 1503300,
+    "lot_size": 0.0781
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.52,
+  "max_score": 2,
+  "total_cost": 1591.5,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-03-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "PV Rooftop solar array consisting  of 24 425W panels and 24 enphase micro inverters(10.2kW)",
+      "cost": 210.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Voltech Electric Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-03-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "24 Panel PV Roof Array (10.2 kW,",
+      "cost": 1381.5,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Critical Mass Solar",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: panel; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permits are for solar panel installation on an owner-occupied property, which constitutes a long-term efficiency upgrade rather than a pre-sale renovation."
+  }
+}

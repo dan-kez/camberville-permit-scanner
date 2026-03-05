@@ -1,0 +1,40 @@
+{
+  "address": "3 WESTWOOD RD, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+WESTWOOD+RD%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/3%20WESTWOOD%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=3+WESTWOOD+RD%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1892,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2885,
+    "last_sale_date": "2012-08-27",
+    "last_sale_price": 1,
+    "assessed_value": 1577400,
+    "lot_size": 0.0984
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.73,
+  "max_score": 5,
+  "total_cost": 95.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-08-30",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Low voltage wireless burglar alarm installation",
+      "cost": 95.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Vivint LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

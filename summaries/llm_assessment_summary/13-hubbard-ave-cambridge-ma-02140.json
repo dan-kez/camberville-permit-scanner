@@ -1,0 +1,56 @@
+{
+  "address": "13 HUBBARD AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=13+HUBBARD+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/13%20HUBBARD%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=13+HUBBARD+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "2",
+    "bathrooms": "2/0",
+    "total_rooms": "5",
+    "living_area": "1857",
+    "last_sale_date": "2020-12-14T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1568800",
+    "lot_size": "5000"
+  },
+  "property_use": "One or Two Family Dwelling",
+  "nearest_square": "Porter",
+  "distance_mi": 0.35,
+  "max_score": 6,
+  "total_cost": 1655000.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2025-04-14",
+      "source": "Cambridge New Construction",
+      "status": "Active",
+      "description": "Construction of new single family home in rear of lot per the plans provided.",
+      "cost": 875000.0,
+      "property_use": "One or Two Family Dwelling",
+      "contractor": "MAHMOOD FIROUZBAKHT",
+      "owner_occupied": true,
+      "score": 6,
+      "score_reasons": "high cost ($875,000); new construction"
+    },
+    {
+      "date": "2025-04-14",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Renovation of existing single family home per the plans provided.",
+      "cost": 780000.0,
+      "property_use": "One-Family",
+      "contractor": "Boardman + Company",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($780,000); keyword: renovation"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The simultaneous construction of a new $875,000 home and a $780,000 gut renovation of the existing 1894 property indicates a major development project likely intended for sale."
+  }
+}

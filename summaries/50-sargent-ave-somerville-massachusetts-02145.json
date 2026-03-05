@@ -1,0 +1,40 @@
+{
+  "address": "50 SARGENT AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=50+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/50%20SARGENT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=50+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2410,
+    "last_sale_date": "2023-07-20",
+    "last_sale_price": 1000000,
+    "assessed_value": 959000,
+    "lot_size": 0.0658
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.72,
+  "max_score": 2,
+  "total_cost": 100.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2024-05-23",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace 100a service with 200a",
+      "cost": 100.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Michael Trimarchi",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed"
+    }
+  ]
+}

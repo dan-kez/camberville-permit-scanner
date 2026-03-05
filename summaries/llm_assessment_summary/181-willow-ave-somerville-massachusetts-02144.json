@@ -1,0 +1,68 @@
+{
+  "address": "181 WILLOW AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=181+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/181%20WILLOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=181+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2329,
+    "last_sale_date": "2023-06-26",
+    "last_sale_price": 1630000,
+    "assessed_value": 1451400,
+    "lot_size": 0.0776
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Davis",
+  "distance_mi": 0.4,
+  "max_score": 3,
+  "total_cost": 1857.5,
+  "permit_count": 3,
+  "completed_permits": 2,
+  "completion_ratio": "2/3 complete",
+  "permits": [
+    {
+      "date": "2024-01-11",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Remove and install 26 windows- like sizes. No structural changes.",
+      "cost": 1557.5,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Renewal by Andersen",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "keyword: structural; most permits completed"
+    },
+    {
+      "date": "2024-03-30",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "upgrade service to 200 amps",
+      "cost": 100.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "James DeOliveira",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2023-12-05",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Residential weatherization/ air sealing. No structural changes. SITE ID 3105819",
+      "cost": 200.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; most permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The recent permits for windows, weatherization, and electrical service following a 2023 purchase indicate owner-occupant maintenance and energy efficiency improvements rather than a preparation for sale."
+  }
+}

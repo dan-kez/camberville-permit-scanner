@@ -1,0 +1,44 @@
+{
+  "address": "100 LANDSDOWNE ST, UNIT 101, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=100+LANDSDOWNE+ST%2C+UNIT+101%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/100%20LANDSDOWNE%20ST%2C%20UNIT%20101%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=100+LANDSDOWNE+ST%2C+UNIT+101%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1895",
+    "bedrooms": "5",
+    "bathrooms": "3/2",
+    "total_rooms": "11",
+    "living_area": "5708",
+    "last_sale_date": "2020-01-27T00:00:00.000",
+    "last_sale_price": "10",
+    "assessed_value": "7112700",
+    "lot_size": "17731"
+  },
+  "property_use": "Multi-Family (3 units or greater)",
+  "nearest_square": "Central",
+  "distance_mi": 0.39,
+  "max_score": 1,
+  "total_cost": 34000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-02-05",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Repairs to units 503, 403 and 101 due to water leak.\u00a0 Drywall repair and trim replacement.\u00a0 Heating line caused leak.",
+      "cost": 34000.0,
+      "property_use": "Multi-Family (3 units or greater)",
+      "contractor": "EHI Contracting, Inc.",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($34,000)"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is for essential repairs following a water leak rather than elective high-end renovations or significant property updates."
+  }
+}

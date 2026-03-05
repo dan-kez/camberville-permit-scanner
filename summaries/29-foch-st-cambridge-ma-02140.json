@@ -1,0 +1,40 @@
+{
+  "address": "29 FOCH ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=29+FOCH+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/29%20FOCH%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=29+FOCH+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1892",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "7",
+    "living_area": "1624",
+    "last_sale_date": "2023-03-27T00:00:00.000",
+    "last_sale_price": "1360000",
+    "assessed_value": "1518200",
+    "lot_size": "4522"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.73,
+  "max_score": 8,
+  "total_cost": 148000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-06-22",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Basement renovation, change laundry from 1st floor to the basement,",
+      "cost": 148000.0,
+      "property_use": "One-Family",
+      "contractor": "MB Construction Solutions LLC",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($148,000); keyword: renovation; permit completed; all permits completed"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "address": "9 OLIVE AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+OLIVE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/9%20OLIVE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+OLIVE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 12,
+    "living_area": 1989,
+    "last_sale_date": "2023-10-23",
+    "last_sale_price": 1025000,
+    "assessed_value": 891900,
+    "lot_size": 0.0801
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.33,
+  "max_score": 2,
+  "total_cost": 21750.0,
+  "permit_count": 6,
+  "completed_permits": 1,
+  "completion_ratio": "1/9 complete",
+  "permits": [
+    {
+      "date": "2023-11-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Make safe",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Stephen mcgee",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed"
+    },
+    {
+      "date": "2023-12-04",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Demo ONLY non-structural interiors.",
+      "cost": 600.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "DiPierro and Brown Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural"
+    },
+    {
+      "date": "2023-12-05",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street for Interior & Exterior Demolition",
+      "cost": 800.0,
+      "property_use": "Dumpster (Located on Street) - Dumpster Located on Street",
+      "contractor": "DiPierro and Brown Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: demolition"
+    },
+    {
+      "date": "2024-01-16",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Bonding ufer ground to new foundation addition connected to existing building",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Stephen mcgee",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: addition"
+    },
+    {
+      "date": "2024-09-24",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street for Gut renovation",
+      "cost": 800.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "DiPierro and Brown Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: gut"
+    },
+    {
+      "date": "2024-09-24",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Gut renovate existing structure, add addition on rear of building.",
+      "cost": 19430.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "DiPierro and Brown Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: gut"
+    }
+  ]
+}

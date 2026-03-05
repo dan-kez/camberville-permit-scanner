@@ -1,0 +1,44 @@
+{
+  "address": "34 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=34+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/34%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=34+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2475,
+    "last_sale_date": "2007-04-13",
+    "last_sale_price": 437000,
+    "assessed_value": 1667300,
+    "lot_size": 0.08080000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.47,
+  "max_score": 5,
+  "total_cost": 60.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-05-15",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "add a 50A receptacle for range",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "CEM Electric Inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The single minor electrical permit for a range receptacle by a long-term owner-occupant does not indicate preparation for sale."
+  }
+}

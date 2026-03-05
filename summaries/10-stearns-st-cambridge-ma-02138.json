@@ -1,0 +1,40 @@
+{
+  "address": "10 STEARNS ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=10+STEARNS+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/10%20STEARNS%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+STEARNS+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1891",
+    "bedrooms": "3",
+    "bathrooms": "1/1",
+    "total_rooms": "6",
+    "living_area": "1690",
+    "last_sale_date": "1993-09-01T00:00:00.000",
+    "last_sale_price": "247000",
+    "assessed_value": "1749100",
+    "lot_size": "3040"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.66,
+  "max_score": 3,
+  "total_cost": 124016.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-09-16",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Interior renovation to include reframing 2nd floor stair opening. Removing interior partiions at 1st floor foyer. Exterior wrok to include demo and rebuild of wood framed front stoop",
+      "cost": 124016.0,
+      "property_use": "One-Family",
+      "contractor": "Our House Contracting",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($124,016); keyword: renovation"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "address": "15 HASKELL ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+HASKELL+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/15%20HASKELL%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=15+HASKELL+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.33,
+  "max_score": 8,
+  "total_cost": 51760.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-10-05",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "5 Fixures Bahtroom Remodel",
+      "cost": 51760.0,
+      "property_use": "One-Family",
+      "contractor": "MAIZE RESTORATION GROUP 2",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($51,760); keyword: remodel; permit completed; all permits completed"
+    }
+  ]
+}

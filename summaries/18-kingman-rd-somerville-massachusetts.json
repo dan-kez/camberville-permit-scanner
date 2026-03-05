@@ -1,0 +1,40 @@
+{
+  "address": "18 KINGMAN RD, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+KINGMAN+RD%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/18%20KINGMAN%20RD%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=18+KINGMAN+RD%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1356,
+    "last_sale_date": "2008-03-11",
+    "last_sale_price": 1,
+    "assessed_value": 795100,
+    "lot_size": 0.0475
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Union",
+  "distance_mi": 0.2,
+  "max_score": 4,
+  "total_cost": 180.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-11-08",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Residential weatherization / air sealing. No structural changes. (Site ID: 7234528)",
+      "cost": 180.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "address": "9 ELLERY SQ, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+ELLERY+SQ%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/9%20ELLERY%20SQ%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+ELLERY+SQ%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1979",
+    "bedrooms": "3",
+    "bathrooms": "3/0",
+    "total_rooms": "7",
+    "living_area": "1932",
+    "last_sale_date": "2021-07-13T00:00:00.000",
+    "last_sale_price": "2000000",
+    "assessed_value": "2100100",
+    "lot_size": "901"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.53,
+  "max_score": 5,
+  "total_cost": 238700.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-06-12",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Gut and replace entire kitchen, new cabinets, countertops appliances. New wood floor, painting throughout. Replace bath fixtures and vanity in bathroom. Bathroom not gutted, fixtures replaced in same locations.Refinish some of the existing floor and replace some lighting.",
+      "cost": 238700.0,
+      "property_use": "One-Family",
+      "contractor": "Charlie-Allen Renovations",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($238,700); keyword: gut"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The renovation includes a significant kitchen gut and painting throughout, but the owner-occupied status and relatively recent 2021 purchase suggest personal use rather than a typical flip."
+  }
+}

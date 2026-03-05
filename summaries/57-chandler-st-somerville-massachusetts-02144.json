@@ -1,0 +1,40 @@
+{
+  "address": "57 CHANDLER ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=57+CHANDLER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/57%20CHANDLER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=57+CHANDLER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1876,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2212,
+    "last_sale_date": "2008-07-31",
+    "last_sale_price": 800000,
+    "assessed_value": 1680100,
+    "lot_size": 0.1033
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Davis",
+  "distance_mi": 0.21,
+  "max_score": 2,
+  "total_cost": 200.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-07-31",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Weatherization",
+      "cost": 200.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "J &  L Energy Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: weatherization; permit completed; all permits completed"
+    }
+  ]
+}

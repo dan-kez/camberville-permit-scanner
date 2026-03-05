@@ -1,0 +1,64 @@
+{
+  "address": "25 WARWICK ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=25+WARWICK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/25%20WARWICK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=25+WARWICK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1886,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1111,
+    "last_sale_date": "2020-07-20",
+    "last_sale_price": 10,
+    "assessed_value": 822100,
+    "lot_size": 0.0668
+  },
+  "property_use": "Building Permit - Residential Addition",
+  "nearest_square": "Porter",
+  "distance_mi": 0.61,
+  "max_score": 7,
+  "total_cost": 9450.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2024-06-11",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Convert existing 1 \u00c2\u00be story house to a full 2 stories house by renovating the basement/first floor and adding the second floor on the single floor additions. Roof to be flat and gable to accommodate roof deck on the back of the building. Selected demolition approved by HC.",
+      "cost": 9085.0,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: addition; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-11-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remodel of basement, 1st and 2nd floor",
+      "cost": 190.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Joel ortiz",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-06-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Make safe for demo, temp service, and grounding the foundation",
+      "cost": 175.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Junior Fernandes Electrician",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: foundation; minor: temp ; permit completed; all permits completed"
+    }
+  ]
+}

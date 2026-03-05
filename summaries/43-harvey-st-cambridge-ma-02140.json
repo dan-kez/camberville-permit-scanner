@@ -1,0 +1,40 @@
+{
+  "address": "43 HARVEY ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=43+HARVEY+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/43%20HARVEY%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=43+HARVEY+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1985",
+    "bedrooms": "3",
+    "bathrooms": "1/1",
+    "total_rooms": "5",
+    "living_area": "1314",
+    "last_sale_date": "2017-09-07T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "839300",
+    "lot_size": "2422"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.48,
+  "max_score": 8,
+  "total_cost": 25573.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-04-12",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "REMOVE & REPLACE 7 WINDOWS; 1 PATIO DOOR; LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 25573.0,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($25,573); keyword: structural; permit completed; all permits completed"
+    }
+  ]
+}

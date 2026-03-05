@@ -1,0 +1,64 @@
+{
+  "address": "275 WILLOW AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=275+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/275%20WILLOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=275+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2325,
+    "last_sale_date": "2015-06-08",
+    "last_sale_price": 796000,
+    "assessed_value": 1468700,
+    "lot_size": 0.0771
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Davis",
+  "distance_mi": 0.54,
+  "max_score": 3,
+  "total_cost": 9305.5,
+  "permit_count": 3,
+  "completed_permits": 4,
+  "completion_ratio": "4/5 complete",
+  "permits": [
+    {
+      "date": "2023-09-15",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "remodel 1st and second floor",
+      "cost": 8262.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Monto Construction",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "keyword: remodel; most permits completed"
+    },
+    {
+      "date": "2023-09-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "installing 2 high efficiencey ducted heatpumps",
+      "cost": 532.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "OMEGA H.V.A.C.",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2023-10-23",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "rewire single family house",
+      "cost": 511.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Joseph Caloiero Electric",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    }
+  ]
+}

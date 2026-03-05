@@ -1,0 +1,52 @@
+{
+  "address": "66 LINDEN AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=66+LINDEN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/66%20LINDEN%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=66+LINDEN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 5,
+    "living_area": 1088,
+    "last_sale_date": "2002-06-27",
+    "last_sale_price": 333500,
+    "assessed_value": 892900,
+    "lot_size": 0.0611
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.36,
+  "max_score": 5,
+  "total_cost": 2206.5,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-06-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Attic wiring - 1 bedroom and office",
+      "cost": 112.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Ravair Costa Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-04-19",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "2nd floor remodeling, new hardwood floor, insulation, closet, lighting",
+      "cost": 2094.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Alcantara Contractor Inc",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: remodel; minor: insulation; permit completed; all permits completed"
+    }
+  ]
+}

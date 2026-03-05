@@ -1,0 +1,40 @@
+{
+  "address": "108 COLLEGE AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=108+COLLEGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/108%20COLLEGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=108+COLLEGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1893,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 13,
+    "living_area": 3491,
+    "last_sale_date": "2020-05-18",
+    "last_sale_price": 1,
+    "assessed_value": 1811100,
+    "lot_size": 0.11850000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.29,
+  "max_score": 2,
+  "total_cost": 86.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-10-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Detached garage wiring to code, garage electric heater, and replacing existing sub panel",
+      "cost": 86.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Breno C Araujo",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: panel; permit completed; all permits completed"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "address": "235 ALBANY ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=235+ALBANY+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/235%20ALBANY%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=235+ALBANY+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "",
+  "nearest_square": "Central",
+  "distance_mi": 0.47,
+  "max_score": 3,
+  "total_cost": 107853.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-06-30",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Renovation of 380sf of living to bedroom 5HM20. The closet in room 5HM10 won't be completed during this project.",
+      "cost": 107853.0,
+      "property_use": "",
+      "contractor": "Berkeley Building Company",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($107,853); keyword: renovation"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "This is a single-permit renovation for a specific room conversion by an owner-occupant, which lacks the comprehensive kitchen/bath updates typical of a pre-sale flip."
+  }
+}

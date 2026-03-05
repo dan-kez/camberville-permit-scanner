@@ -1,0 +1,52 @@
+{
+  "address": "56 STEARNS ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=56+STEARNS+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/56%20STEARNS%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=56+STEARNS+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1903",
+    "bedrooms": "3",
+    "bathrooms": "3/0",
+    "total_rooms": "11",
+    "living_area": "1740",
+    "last_sale_date": "2014-06-27T00:00:00.000",
+    "last_sale_price": "1305000",
+    "assessed_value": "1827300",
+    "lot_size": "2880"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.57,
+  "max_score": 5,
+  "total_cost": 751500.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2023-06-26",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Interior renovation of single-family per plans. Remove rear deck for new 2-storey rear addition. ZBA approval case no. 206313.",
+      "cost": 714500.0,
+      "property_use": "One-Family",
+      "contractor": "Fresh Start Contracting",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($714,500); keyword: renovation"
+    },
+    {
+      "date": "2023-10-10",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "DEMO ONLY. Full gut of kitchen, bathrooms, laundry room and some bedrooms. Remove chimney entirely and old heating system. Demo back mudroom, porch and deck, including portion of rear wall for new addition.",
+      "cost": 37000.0,
+      "property_use": "One-Family",
+      "contractor": "Fresh Start Contracting",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($37,000); keyword: gut"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "address": "76 ANTRIM ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=76+ANTRIM+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/76%20ANTRIM%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=76+ANTRIM+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "4",
+    "bathrooms": "3/0",
+    "total_rooms": "8",
+    "living_area": "1769",
+    "last_sale_date": "2012-07-31T00:00:00.000",
+    "last_sale_price": "805000",
+    "assessed_value": "2051500",
+    "lot_size": "2972"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.19,
+  "max_score": 6,
+  "total_cost": 26700.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-12-04",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Replace 18 windows into the existing openings.",
+      "cost": 26700.0,
+      "property_use": "One-Family",
+      "contractor": "Eastern Massachusetts Window & Door, LLC",
+      "owner_occupied": true,
+      "score": 6,
+      "score_reasons": "moderate cost ($26,700); permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property has been owner-occupied for over 13 years and the single recent permit is for routine window replacement, which is classified as maintenance work."
+  }
+}

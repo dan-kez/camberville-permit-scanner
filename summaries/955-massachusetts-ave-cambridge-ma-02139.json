@@ -1,0 +1,40 @@
+{
+  "address": "955 MASSACHUSETTS AVE, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=955+MASSACHUSETTS+AVE%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/955%20MASSACHUSETTS%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=955+MASSACHUSETTS+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1930",
+    "bedrooms": "3",
+    "bathrooms": "3/0",
+    "total_rooms": "6",
+    "living_area": "1779",
+    "last_sale_date": "2022-03-09T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "2565000",
+    "lot_size": "1389"
+  },
+  "property_use": "",
+  "nearest_square": "Central",
+  "distance_mi": 0.41,
+  "max_score": 1,
+  "total_cost": 158057.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-05-15",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Remove all now bearing drywall partitions, ACT ceiling, flooring, millwork & interior doors",
+      "cost": 158057.0,
+      "property_use": "",
+      "contractor": "Zell Builders Co., Inc",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($158,057)"
+    }
+  ]
+}

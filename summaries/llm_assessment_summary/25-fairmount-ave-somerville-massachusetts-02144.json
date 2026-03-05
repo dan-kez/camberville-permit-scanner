@@ -1,0 +1,44 @@
+{
+  "address": "25 FAIRMOUNT AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=25+FAIRMOUNT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/25%20FAIRMOUNT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=25+FAIRMOUNT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1889,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2451,
+    "last_sale_date": "2021-10-29",
+    "last_sale_price": 1305000,
+    "assessed_value": 1510400,
+    "lot_size": 0.12510000000000002
+  },
+  "property_use": "Gas Fitting - Residential - Existing",
+  "nearest_square": "Davis",
+  "distance_mi": 0.62,
+  "max_score": 2,
+  "total_cost": 60.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2023-09-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "New gas piping for stove and grill",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "O'Regan Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is for minor gas piping work by a long-term owner-occupant, which constitutes routine maintenance rather than a prep-for-sale renovation."
+  }
+}

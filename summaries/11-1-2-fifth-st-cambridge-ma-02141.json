@@ -1,0 +1,29 @@
+{
+  "address": "11-1/2 FIFTH ST, CAMBRIDGE, MA 02141",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=11-1%2F2+FIFTH+ST%2C+CAMBRIDGE%2C+MA+02141",
+  "zillow_url": "https://www.zillow.com/homes/11-1/2%20FIFTH%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
+  "google_search_url": "https://www.google.com/search?q=11-1%2F2+FIFTH+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Union",
+  "distance_mi": 0.7,
+  "max_score": 3,
+  "total_cost": 30000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-09-15",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "CONVERT EXISTING BATHROOM INTO 2 BATHROOMS ON 1ST FLOOR. ADD HALF BATHROOM ON 2ND FLOOR",
+      "cost": 30000.0,
+      "property_use": "One-Family",
+      "contractor": "UP DESIGN & BUILD LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($30,000); keyword: convert"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "address": "15 MAGAZINE ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+MAGAZINE+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/15%20MAGAZINE%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=15+MAGAZINE+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1871",
+    "bedrooms": "5",
+    "bathrooms": "2/2",
+    "total_rooms": "9",
+    "living_area": "2439",
+    "last_sale_date": "2023-05-02T00:00:00.000",
+    "last_sale_price": "1810000",
+    "assessed_value": "2099300",
+    "lot_size": "1651"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.12,
+  "max_score": 8,
+  "total_cost": 211425.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2023-06-30",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Selective demolition and \u00a0renovation on first floor, \u00a0install new kitchen and renovate and make existing bath on first floor a half bath. New fixtures and finishes. Infill of existing level 1 interior balcony, light rework of non-structural partitions.",
+      "cost": 170800.0,
+      "property_use": "One-Family",
+      "contractor": "Ned Flaherty Fine Home Finishings LLC",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($170,800); keyword: renovate; permit completed; all permits completed"
+    },
+    {
+      "date": "2025-02-12",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "install 15 Marvin replacement windows. Energy star, inserts only with no structural work",
+      "cost": 40625.0,
+      "property_use": "One-Family",
+      "contractor": "Fisher Windows",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($40,625); keyword: structural; permit completed; all permits completed"
+    }
+  ]
+}

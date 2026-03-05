@@ -1,0 +1,44 @@
+{
+  "address": "41 WALKER ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=41+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/41%20WALKER%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=41+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "1874",
+    "bedrooms": "4",
+    "bathrooms": "3/1",
+    "total_rooms": "8",
+    "living_area": "1480",
+    "last_sale_date": "2021-05-14T00:00:00.000",
+    "last_sale_price": "1935000",
+    "assessed_value": "1856800",
+    "lot_size": "2084"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.62,
+  "max_score": 3,
+  "total_cost": 62868.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-02-16",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Re-do existing basement bathroom - No structural changes - Remove and Replace tiles and fixtures",
+      "cost": 62868.0,
+      "property_use": "Two-Family",
+      "contractor": "Bertola Custom Homes & Remodeling",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($62,868); keyword: structural"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permit is for a single bathroom renovation by an owner-occupant, which lacks the scale of a comprehensive high-end preparation for sale."
+  }
+}

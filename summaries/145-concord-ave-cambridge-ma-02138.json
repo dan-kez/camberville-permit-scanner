@@ -1,0 +1,40 @@
+{
+  "address": "145 CONCORD AVE, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=145+CONCORD+AVE%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/145%20CONCORD%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=145+CONCORD+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1896",
+    "bedrooms": "4",
+    "bathrooms": "3/0",
+    "total_rooms": "6",
+    "living_area": "1640",
+    "last_sale_date": "2015-12-04T00:00:00.000",
+    "last_sale_price": "955000",
+    "assessed_value": "1595000",
+    "lot_size": "2519"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.71,
+  "max_score": 1,
+  "total_cost": 47000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-02-20",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Creating a finish basement",
+      "cost": 47000.0,
+      "property_use": "One-Family",
+      "contractor": "Tom Baker",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($47,000)"
+    }
+  ]
+}

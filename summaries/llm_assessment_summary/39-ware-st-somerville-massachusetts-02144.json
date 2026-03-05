@@ -1,0 +1,68 @@
+{
+  "address": "39 WARE ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=39+WARE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/39%20WARE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=39+WARE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2270,
+    "last_sale_date": "2015-02-13",
+    "last_sale_price": 1,
+    "assessed_value": 1353800,
+    "lot_size": 0.0826
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.67,
+  "max_score": 5,
+  "total_cost": 822.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2023-12-04",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "200 Amp service",
+      "cost": 100.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Cameron Electric LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2023-12-05",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install roof mounted solar pv array panel 21/8.505 kW DC *No Battery Storage*",
+      "cost": 190.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Palmetto Solar LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-01-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install roof mounted solar pv array panel 21/8.505 kW DC *No Battery Storage***39 WARE ST",
+      "cost": 532.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Palmetto Solar LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permits consist only of solar installation and a minor electrical service upgrade by a long-term owner-occupant, which is characteristic of maintenance rather than preparation for sale."
+  }
+}

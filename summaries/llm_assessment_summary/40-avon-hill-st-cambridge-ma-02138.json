@@ -1,0 +1,44 @@
+{
+  "address": "40 AVON HILL ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=40+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/40%20AVON%20HILL%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=40+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1898",
+    "bedrooms": "5",
+    "bathrooms": "3/1",
+    "total_rooms": "9",
+    "living_area": "2660",
+    "last_sale_date": "2024-07-31T00:00:00.000",
+    "last_sale_price": "3655000",
+    "assessed_value": "3230000",
+    "lot_size": "4019"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.37,
+  "max_score": 2,
+  "total_cost": 1000000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-06-23",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "We are completing a 30% renovation of this home, focusing on the entire first floor and two second-floor bathrooms. The scope includes bringing all MEP systems up to code, installing a new furnace, and making siding repairs. Exterior work also involves a full roof replacement and the construction of a new rear deck Please refer to the new contract and plans as they have changed the scope of work.",
+      "cost": 1000000.0,
+      "property_use": "One-Family",
+      "contractor": "Ohannes",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($1,000,000); keyword: renovation; minor: furnace"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "A massive $1,000,000 renovation of the entire first floor and multiple bathrooms following a very recent purchase strongly suggests a high-end flip or major value-add project intended for resale."
+  }
+}

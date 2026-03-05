@@ -1,0 +1,40 @@
+{
+  "address": "1564 MASSACHUSETTS AVE, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1564+MASSACHUSETTS+AVE%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/1564%20MASSACHUSETTS%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=1564+MASSACHUSETTS+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1831",
+    "bedrooms": "4",
+    "bathrooms": "3/2",
+    "total_rooms": "7",
+    "living_area": "1615",
+    "last_sale_date": "2017-08-28T00:00:00.000",
+    "last_sale_price": "2150000",
+    "assessed_value": "2377400",
+    "lot_size": "1337"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.68,
+  "max_score": 3,
+  "total_cost": 38311.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-11-16",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Remove 13 existing windows and replace with 13 new windows. No structural work",
+      "cost": 38311.0,
+      "property_use": "One-Family",
+      "contractor": "Newpro Operating LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($38,311); keyword: structural"
+    }
+  ]
+}

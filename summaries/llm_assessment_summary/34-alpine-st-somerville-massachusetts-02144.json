@@ -1,0 +1,56 @@
+{
+  "address": "34 ALPINE ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=34+ALPINE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/34%20ALPINE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=34+ALPINE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1355,
+    "last_sale_date": "2013-05-17",
+    "last_sale_price": 505000,
+    "assessed_value": 1033200,
+    "lot_size": 0.0995
+  },
+  "property_use": "Building Permit - Residential Addition",
+  "nearest_square": "Porter",
+  "distance_mi": 0.59,
+  "max_score": 2,
+  "total_cost": 2366.0,
+  "permit_count": 2,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2024-05-29",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Remove portion of rear deck to add a mudroom.  Add bulkhead.  Replace faulty foundation under existing old addition.",
+      "cost": 2256.0,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "Greenleaf Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: addition"
+    },
+    {
+      "date": "2024-09-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Wire car charger, stove, and mudroom",
+      "cost": 110.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Electric Rushe Inc.",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "permit completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The long-term owner-occupant is performing minor structural repairs and a small mudroom addition rather than high-end kitchen or multiple bathroom renovations."
+  }
+}

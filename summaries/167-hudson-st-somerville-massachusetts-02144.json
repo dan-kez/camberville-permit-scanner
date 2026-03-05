@@ -1,0 +1,52 @@
+{
+  "address": "167 HUDSON ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=167+HUDSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/167%20HUDSON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=167+HUDSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1362,
+    "last_sale_date": "1994-08-31",
+    "last_sale_price": 148000,
+    "assessed_value": 928800,
+    "lot_size": 0.0814
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.5,
+  "max_score": 5,
+  "total_cost": 400.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-06-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Wiring for 2 mini splits. 1x LAU090HYV3 (back of house) 1x LAN090HYV3 (Dining room/office)",
+      "cost": 120.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Endless Energy New England Inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-07-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Mini splits installation. 1x LAU090HYV3 (back of house) 1x LAN090HYV3 (Dining room/office)",
+      "cost": 280.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Endless Energy New England",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

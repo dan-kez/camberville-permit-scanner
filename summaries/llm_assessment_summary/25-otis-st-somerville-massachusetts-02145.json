@@ -1,0 +1,56 @@
+{
+  "address": "25 OTIS ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=25+OTIS+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/25%20OTIS%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=25+OTIS+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 2178,
+    "last_sale_date": "2020-09-02",
+    "last_sale_price": 745000,
+    "assessed_value": 1169400,
+    "lot_size": 0.0664
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.61,
+  "max_score": 5,
+  "total_cost": 2212.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-07-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "New Photovoltaic roof mounted system 14.450kW - 34",
+      "cost": 250.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Ecoloop Construction",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-07-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "INSTALL ROOF MOUNTED SOLAR SYSTEM 14.450-kW",
+      "cost": 1962.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "ECOLOOP CONSTRUCTION LLP",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The recent permits are exclusively for owner-occupied solar panel installation, which is a long-term efficiency upgrade rather than a prep-for-sale renovation."
+  }
+}

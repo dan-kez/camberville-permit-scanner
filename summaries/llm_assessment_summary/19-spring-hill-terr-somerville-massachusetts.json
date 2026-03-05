@@ -1,0 +1,80 @@
+{
+  "address": "19 SPRING HILL TERR, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/19%20SPRING%20HILL%20TERR%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=19+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1693,
+    "last_sale_date": "2015-08-21",
+    "last_sale_price": 690000,
+    "assessed_value": 942400,
+    "lot_size": 0.0487
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Porter",
+  "distance_mi": 0.58,
+  "max_score": 3,
+  "total_cost": 1495.0,
+  "permit_count": 4,
+  "completed_permits": 3,
+  "completion_ratio": "3/4 complete",
+  "permits": [
+    {
+      "date": "2023-08-31",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Demo existing 3 seasons porch down to studs. Replace existing windows and door. Frame as needed. Blueboard and plaster walls. Insulate walls. Paint walls.",
+      "cost": 1175.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "WOODWASTE OF BOSTON",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2023-09-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rough and finish electrical on porch",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Rick Picardi",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2023-12-04",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "install 1 ductless mini split",
+      "cost": 200.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Epic Plumbing And Heating Inc.",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2023-11-30",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Wire one 20amp Ductless unit",
+      "cost": 75.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Rick Picardi",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permits indicate minor porch repairs and HVAC installation by a long-term owner-occupant, lacking the major kitchen or bathroom renovations typical of sale preparation."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "address": "14 GREENOUGH AVE, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=14+GREENOUGH+AVE%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/14%20GREENOUGH%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=14+GREENOUGH+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "3",
+    "bathrooms": "3/1",
+    "total_rooms": "10",
+    "living_area": "2460",
+    "last_sale_date": "2024-09-20T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "2082800",
+    "lot_size": "4000"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.35,
+  "max_score": 2,
+  "total_cost": 564497.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-05-13",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "demolition of 2 bathrooms and kichen complete demo of attic space , install new stairway to attic to conform to code install half bath in attic Insulate with open cell foam insulation. second floor remodel 2 bathrooms and install new back stairway from kitchen also to conform to code insatll new framing to create as per draweingsremove non bearing pocket door wall on first floor. removal of back stairs (winders) to second floor and basement first floor install new bathroom and mud room as per drawing. Basement install new poured concrete walls around perimeter to reinforce and stabilize stone walls, complete with structural steel and 4000psi concrete four feet in height from floor.Remove all castiron drains and running trap to outside install new PVC drains to code. install new bathroom plumbing for future bathroom . insatll new french drain around perimeter with perforated pipe and fabric over pipe to two new sump pumps will discharge into new 300 gallon drywell. Repair existing bulkhead doorway \u00a0to accomodate new doorway to basement and new stairs.Removal of both chimneys which are in state of collapse and are not safe non functioning chimneys structural engineer will provide letter to remove.",
+      "cost": 564497.0,
+      "property_use": "One-Family",
+      "contractor": "Robert Tingle",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($564,497); keyword: remodel; minor: insulation"
+    }
+  ]
+}

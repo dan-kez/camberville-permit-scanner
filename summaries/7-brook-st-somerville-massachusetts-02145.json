@@ -1,0 +1,76 @@
+{
+  "address": "7 BROOK ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+BROOK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/7%20BROOK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=7+BROOK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2090,
+    "last_sale_date": "2021-01-22",
+    "last_sale_price": 100,
+    "assessed_value": 1046100,
+    "lot_size": 0.11670000000000001
+  },
+  "property_use": "Building Permit - Residential Alteration",
+  "nearest_square": "Union",
+  "distance_mi": 0.66,
+  "max_score": 5,
+  "total_cost": 3054.0,
+  "permit_count": 4,
+  "completed_permits": 3,
+  "completion_ratio": "3/4 complete",
+  "permits": [
+    {
+      "date": "2023-07-27",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remodeling Kitchen, building new bathroom on second floor, resizing the first floor full bath to become half bath, installing walls in second bed room on second floor for small office. All are shown in the sketching floor plans attached with this application.",
+      "cost": 2492.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Tran's home improvement construction",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+    },
+    {
+      "date": "2023-08-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "remolding full bathromm,and kitchen sink",
+      "cost": 130.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "phu's plumbing and heating",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: full; permit completed; most permits completed"
+    },
+    {
+      "date": "2023-08-14",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Service upgrade, interior renovation",
+      "cost": 372.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Ribeiro Electric",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+    },
+    {
+      "date": "2023-08-07",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "replace the stove",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "phu's plumbing and heating",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed"
+    }
+  ]
+}

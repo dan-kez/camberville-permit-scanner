@@ -1,0 +1,29 @@
+{
+  "address": "1 NEWPORT RD, UNIT 1/2, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=1+NEWPORT+RD%2C+UNIT+1%2F2%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/1%20NEWPORT%20RD%2C%20UNIT%201/2%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=1+NEWPORT+RD%2C+UNIT+1%2F2%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.18,
+  "max_score": 8,
+  "total_cost": 47495.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-08-20",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Minor Condo Renvovation : light kitchen and bath renovation, bathroom, painting and refinishing the floors. No walls will be taken down",
+      "cost": 47495.0,
+      "property_use": "One-Family",
+      "contractor": "Kellogg Construction LLC",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($47,495); keyword: renovation; permit completed; all permits completed"
+    }
+  ]
+}

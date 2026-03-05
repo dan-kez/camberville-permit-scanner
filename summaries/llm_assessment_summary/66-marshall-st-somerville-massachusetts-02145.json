@@ -1,0 +1,44 @@
+{
+  "address": "66 MARSHALL ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=66+MARSHALL+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/66%20MARSHALL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=66+MARSHALL+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1985,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 4,
+    "living_area": 1142,
+    "last_sale_date": "2019-05-31",
+    "last_sale_price": 641000,
+    "assessed_value": 660700,
+    "lot_size": 0.029300000000000003
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Union",
+  "distance_mi": 0.7,
+  "max_score": 2,
+  "total_cost": 860.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-08-20",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Second Floor Bathroom Remodeling",
+      "cost": 860.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Tatra Building Company Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied and the only recent permit is for a single bathroom remodel with an extremely low reported cost, which is consistent with minor maintenance rather than a comprehensive pre-sale renovation."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "address": "9 WASHINGTON AVE, UNIT 9/B, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+WASHINGTON+AVE%2C+UNIT+9%2FB%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/9%20WASHINGTON%20AVE%2C%20UNIT%209/B%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+WASHINGTON+AVE%2C+UNIT+9%2FB%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.34,
+  "max_score": 3,
+  "total_cost": 166500.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-08-12",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Interior renovation to garden level unit imcluding bathroom, kitchen, flooring and paint.",
+      "cost": 166500.0,
+      "property_use": "One-Family",
+      "contractor": "Coughlin-Shea Builders",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($166,500); keyword: renovation"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The $166,500 project involves a comprehensive renovation of the unit's kitchen, bathroom, flooring, and paint, representing a significant value-add despite being owner-occupied."
+  }
+}

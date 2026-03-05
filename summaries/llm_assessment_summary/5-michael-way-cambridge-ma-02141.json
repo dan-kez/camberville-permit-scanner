@@ -1,0 +1,44 @@
+{
+  "address": "5 MICHAEL WAY, CAMBRIDGE, MA 02141",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+MICHAEL+WAY%2C+CAMBRIDGE%2C+MA+02141",
+  "zillow_url": "https://www.zillow.com/homes/5%20MICHAEL%20WAY%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
+  "google_search_url": "https://www.google.com/search?q=5+MICHAEL+WAY%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1984",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "6",
+    "living_area": "1296",
+    "last_sale_date": "2022-08-03T00:00:00.000",
+    "last_sale_price": "1350000",
+    "assessed_value": "1139200",
+    "lot_size": "3336"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.59,
+  "max_score": 8,
+  "total_cost": 25000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-04-22",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Renovate bathroom, add new tub,shower, vanity etc tile",
+      "cost": 25000.0,
+      "property_use": "One-Family",
+      "contractor": "The Murphy Group",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($25,000); keyword: renovate; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The single bathroom renovation by an owner-occupant who has owned the property since 2022 suggests a personal update rather than the high-end, multi-room renovations or non-owner occupancy associated with preparation for sale."
+  }
+}

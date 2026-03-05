@@ -1,0 +1,64 @@
+{
+  "address": "56 BOW ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=56+BOW+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/56%20BOW%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=56+BOW+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2232,
+    "last_sale_date": "2020-06-22",
+    "last_sale_price": 1525000,
+    "assessed_value": 1615900,
+    "lot_size": 0.0824
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Union",
+  "distance_mi": 0.31,
+  "max_score": 7,
+  "total_cost": 2265.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2023-08-08",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "bathroom remodel",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "WDS Mechanical LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+    },
+    {
+      "date": "2023-10-23",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "renovation of basement",
+      "cost": 70.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Vincent Rushe Electrician Inc.",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+    },
+    {
+      "date": "2023-07-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Finish Basement, extend living into basement",
+      "cost": 2135.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Greenleaf Construction",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

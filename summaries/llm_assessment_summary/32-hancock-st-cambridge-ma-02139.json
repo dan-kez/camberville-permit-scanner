@@ -1,0 +1,44 @@
+{
+  "address": "32 HANCOCK ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32+HANCOCK+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/32%20HANCOCK%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=32+HANCOCK+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1902",
+    "bedrooms": "2",
+    "bathrooms": "2/0",
+    "total_rooms": "6",
+    "living_area": "2008",
+    "last_sale_date": "2000-11-20T00:00:00.000",
+    "last_sale_price": "530000",
+    "assessed_value": "1439600",
+    "lot_size": "1500"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.34,
+  "max_score": 1,
+  "total_cost": 28549.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-10-06",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "4 customized manual vented Existing Skylight replacement on the left side of the roof.We have applied for the permit - BLDC-244049-2023\u00a0and the inspector oriented to apply for this permit only for the skylights.",
+      "cost": 28549.0,
+      "property_use": "One-Family",
+      "contractor": "FRS Roofing Inc.",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($28,549)"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property has been owned for over 25 years by an owner-occupant whose only recent permit is for routine maintenance (skylight replacement)."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "address": "4 ALLSTON CT, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+ALLSTON+CT%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/4%20ALLSTON%20CT%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=4+ALLSTON+CT%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "6",
+    "living_area": "1369",
+    "last_sale_date": "1997-03-28T00:00:00.000",
+    "last_sale_price": "275000",
+    "assessed_value": "1519000",
+    "lot_size": "2448"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.53,
+  "max_score": 5,
+  "total_cost": 255700.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-04-22",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Full KitchenRemodel,Bathrooms Remodel",
+      "cost": 255700.0,
+      "property_use": "One-Family",
+      "contractor": "XR SERVICES LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($255,700); keyword: remodel"
+    }
+  ]
+}

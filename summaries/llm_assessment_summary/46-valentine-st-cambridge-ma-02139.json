@@ -1,0 +1,44 @@
+{
+  "address": "46 VALENTINE ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=46+VALENTINE+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/46%20VALENTINE%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=46+VALENTINE+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1976",
+    "bedrooms": "2",
+    "bathrooms": "1/0",
+    "total_rooms": "7",
+    "living_area": "1084",
+    "last_sale_date": "2017-01-17T00:00:00.000",
+    "last_sale_price": "882000",
+    "assessed_value": "1157200",
+    "lot_size": "1525"
+  },
+  "property_use": "Townhouse",
+  "nearest_square": "Central",
+  "distance_mi": 0.35,
+  "max_score": 3,
+  "total_cost": 84150.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-06-11",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "The scope of work includes the renovation of the full bathroom and the half-bathroom, with no changes to their existing layouts.",
+      "cost": 84150.0,
+      "property_use": "Townhouse",
+      "contractor": "Fachini Home Improvement",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($84,150); keyword: renovation"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The owner-occupied property is undergoing a significant $84,150 renovation of multiple bathrooms after nine years of ownership, but it lacks the kitchen updates or layout changes typically associated with high-likelihood prep-for-sale projects."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "address": "60 MARKET ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=60+MARKET+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/60%20MARKET%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=60+MARKET+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "3",
+    "bathrooms": "3/0",
+    "total_rooms": "6",
+    "living_area": "1890",
+    "last_sale_date": "2019-09-16T00:00:00.000",
+    "last_sale_price": "1160000",
+    "assessed_value": "1919900",
+    "lot_size": "1466"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.34,
+  "max_score": 3,
+  "total_cost": 298950.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-03-12",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Replace gable roof with mansard roof. New 3rd floor floor plan and stair from 2nd floor.",
+      "cost": 298950.0,
+      "property_use": "One-Family",
+      "contractor": "Ned Flaherty Fine Home Finishing llc",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "high cost ($298,950)"
+    }
+  ]
+}

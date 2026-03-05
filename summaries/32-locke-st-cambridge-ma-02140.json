@@ -1,0 +1,40 @@
+{
+  "address": "32 LOCKE ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=32+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/32%20LOCKE%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=32+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "5",
+    "bathrooms": "1/1",
+    "total_rooms": "10",
+    "living_area": "2277",
+    "last_sale_date": "2024-04-25T00:00:00.000",
+    "last_sale_price": "1573000",
+    "assessed_value": "1753300",
+    "lot_size": "2464"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.25,
+  "max_score": 3,
+  "total_cost": 155000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-05-15",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Renovate Existing Bathroom, Add half bathroom in existing space, Add Heat pump System electric, update main electric service, remove one chimney and replace both existing porch stairs.",
+      "cost": 155000.0,
+      "property_use": "One-Family",
+      "contractor": "Pro touch Home improvement",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($155,000); keyword: renovate"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "address": "21 HOWE ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+HOWE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/21%20HOWE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=21+HOWE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 2076,
+    "last_sale_date": "2023-12-14",
+    "last_sale_price": 1220000,
+    "assessed_value": 1105600,
+    "lot_size": 0.08950000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.73,
+  "max_score": 5,
+  "total_cost": 972.0,
+  "permit_count": 4,
+  "completed_permits": 4,
+  "completion_ratio": "4/4 complete",
+  "permits": [
+    {
+      "date": "2024-02-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "upgrade service to 200 amps",
+      "cost": 100.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "James DeOliveira",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-09-20",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "enlarge closet in main bedroom. add laundry off of 2nd floor hall.",
+      "cost": 628.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Cut Nail Rebuilders LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-09-30",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "update basement dwv / water heater.     add 2nd floor laundry",
+      "cost": 80.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "rigoli plumbing",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: water heater; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-10-17",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "wiring update to bedroom 1, install a new heat pump water heater, add sub panel",
+      "cost": 164.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Nadeau Electric LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: water heater; permit completed; all permits completed"
+    }
+  ]
+}

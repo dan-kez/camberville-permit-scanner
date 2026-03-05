@@ -1,0 +1,44 @@
+{
+  "address": "23 WALLACE ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=23+WALLACE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/23%20WALLACE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=23+WALLACE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2090,
+    "last_sale_date": "2022-11-22",
+    "last_sale_price": 100,
+    "assessed_value": 2091300,
+    "lot_size": 0.12050000000000001
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Davis",
+  "distance_mi": 0.13,
+  "max_score": 2,
+  "total_cost": 440.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-11-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "remove damaged roofing, fascia and trim.  Install new roof",
+      "cost": 440.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Cezario & Fein Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: roofing; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is for routine roof maintenance by an owner-occupant, with no evidence of the high-end interior renovations typical of a property being prepared for sale."
+  }
+}

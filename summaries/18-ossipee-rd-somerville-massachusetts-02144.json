@@ -1,0 +1,64 @@
+{
+  "address": "18 OSSIPEE RD, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+OSSIPEE+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/18%20OSSIPEE%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=18+OSSIPEE+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1930,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1478,
+    "last_sale_date": "2022-08-29",
+    "last_sale_price": 1,
+    "assessed_value": 1112600,
+    "lot_size": 0.0789
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.44,
+  "max_score": 5,
+  "total_cost": 355.0,
+  "permit_count": 3,
+  "completed_permits": 2,
+  "completion_ratio": "2/3 complete",
+  "permits": [
+    {
+      "date": "2023-08-31",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "bathroom remodeling",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Lucas Marques Da Silva",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+    },
+    {
+      "date": "2023-10-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "adding 1 skylight to an existing bathroom",
+      "cost": 250.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Petarson Renovations",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2023-09-12",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "bath",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "aldo and victoria services",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed"
+    }
+  ]
+}

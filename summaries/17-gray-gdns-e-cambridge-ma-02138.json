@@ -1,0 +1,40 @@
+{
+  "address": "17 GRAY GDNS E, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=17+GRAY+GDNS+E%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/17%20GRAY%20GDNS%20E%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=17+GRAY+GDNS+E%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1958",
+    "bedrooms": "3",
+    "bathrooms": "3/0",
+    "total_rooms": "8",
+    "living_area": "1503",
+    "last_sale_date": "2024-08-07T00:00:00.000",
+    "last_sale_price": "3300000",
+    "assessed_value": "2763300",
+    "lot_size": "6500"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.5,
+  "max_score": 5,
+  "total_cost": 1497000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-05-20",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Renovation to existing home with work expected to include new roof with light monitors, all new windows and doors, all new MEPs, all new finishes, a small second floor addition and some alterations to the foundation for installation of lower level windows and exit door.",
+      "cost": 1497000.0,
+      "property_use": "One-Family",
+      "contractor": "JSV, llc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($1,497,000); keyword: renovation"
+    }
+  ]
+}

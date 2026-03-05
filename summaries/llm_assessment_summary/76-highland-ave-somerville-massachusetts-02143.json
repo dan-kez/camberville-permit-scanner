@@ -1,0 +1,44 @@
+{
+  "address": "76 HIGHLAND AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=76+HIGHLAND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/76%20HIGHLAND%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=76+HIGHLAND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1895,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 15,
+    "living_area": 4914,
+    "last_sale_date": "2018-12-19",
+    "last_sale_price": 1,
+    "assessed_value": 1676000,
+    "lot_size": 0.1206
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.49,
+  "max_score": 4,
+  "total_cost": 815.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-08-12",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remove & Install A Lifetime GAF Roofing System & Genflex fully adhered rubber roofing system. Remove existing chimney down to the roofline",
+      "cost": 815.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Storm Works Roofing & Restoration Inc",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: full; minor: roofing; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The recent permit activity is limited to routine roof maintenance on an owner-occupied property with no indications of high-end interior renovations."
+  }
+}

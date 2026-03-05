@@ -1,0 +1,40 @@
+{
+  "address": "12 ARLINGTON ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=12+ARLINGTON+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/12%20ARLINGTON%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=12+ARLINGTON+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1860",
+    "bedrooms": "4",
+    "bathrooms": "1/1",
+    "total_rooms": "7",
+    "living_area": "2128",
+    "last_sale_date": "1986-10-09T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "2150500",
+    "lot_size": "5081"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.17,
+  "max_score": 3,
+  "total_cost": 36034.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-07-17",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Removing existing rubber roof and deck, replacing existing framing and rubber with new.",
+      "cost": 36034.0,
+      "property_use": "One-Family",
+      "contractor": "S+H Construction",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($36,034); keyword: framing"
+    }
+  ]
+}

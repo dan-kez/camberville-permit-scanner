@@ -1,0 +1,44 @@
+{
+  "address": "38 HUBBARD AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38+HUBBARD+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/38%20HUBBARD%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=38+HUBBARD+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "3",
+    "bathrooms": "1/0",
+    "total_rooms": "6",
+    "living_area": "1000",
+    "last_sale_date": "2006-12-28T00:00:00.000",
+    "last_sale_price": "100",
+    "assessed_value": "934600",
+    "lot_size": "4300"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.41,
+  "max_score": 5,
+  "total_cost": 862500.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-02-05",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Renovation and addition to existing single family home per the plans submitted.",
+      "cost": 862500.0,
+      "property_use": "One-Family",
+      "contractor": "Boardman + Company",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($862,500); keyword: renovation"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The massive $862,500 renovation and addition after 19 years of ownership represents a significant whole-house transformation, which is a critical indicator for a property being prepared for sale."
+  }
+}

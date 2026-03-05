@@ -1,0 +1,140 @@
+{
+  "address": "13 MORGAN ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=13+MORGAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/13%20MORGAN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=13+MORGAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2262,
+    "last_sale_date": "2023-08-15",
+    "last_sale_price": 900000,
+    "assessed_value": 1239100,
+    "lot_size": 0.0461
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Inman",
+  "distance_mi": 0.69,
+  "max_score": 7,
+  "total_cost": 20310.0,
+  "permit_count": 9,
+  "completed_permits": 9,
+  "completion_ratio": "9/9 complete",
+  "permits": [
+    {
+      "date": "2023-12-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Single family gut renovation",
+      "cost": 16675.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Core Environmental Services, Inc",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: gut; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-06-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Single family renovation w a 200 amps service upgrade",
+      "cost": 473.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Luciano Miranda Electrician",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+    },
+    {
+      "date": "2023-08-31",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Dumpster on Street for Clean out of home",
+      "cost": 400.0,
+      "property_use": "Dumpster (Located on Street) - Dumpster Located on Street",
+      "contractor": "Core Environmental Services, Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2023-09-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Dumpster on Street for Clean out of home",
+      "cost": 600.0,
+      "property_use": "Dumpster (Located on Street) - Dumpster Located on Street",
+      "contractor": "Core Environmental Services, Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-01-16",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Clean out of home",
+      "cost": 1200.0,
+      "property_use": "Dumpster (Located on Street) - Dumpster Located on Street",
+      "contractor": "Core Environmental Services, Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-02-22",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Ufer ground",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Cristie Fernando da Silva",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-05-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "1 water heater, 2 laundries, 1 3/4 bathroom, 1 bar sink, 1 kitchen, 1 ice maker, 1 half bathroom, 1 master bathroom and 2 full bathrooms",
+      "cost": 280.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Wellington Plumbing & Heating, Inc",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: full; minor: water heater; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-05-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "1 gas water heater, 1 gas stove, 3 furnaces and 1 fireplace",
+      "cost": 90.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "Wellington Plumbing & Heating, Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-10-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install 2 Furnaces, 2 Condensers, 2 Coils, New ductwork.",
+      "cost": 532.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "PET HVAC INC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "A comprehensive gut renovation including a kitchen and four bathrooms was initiated immediately following the property's purchase in August 2023."
+  }
+}

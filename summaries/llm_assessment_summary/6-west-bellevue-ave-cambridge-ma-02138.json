@@ -1,0 +1,44 @@
+{
+  "address": "6 WEST BELLEVUE AVE, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=6+WEST+BELLEVUE+AVE%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/6%20WEST%20BELLEVUE%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=6+WEST+BELLEVUE+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1892",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "8",
+    "living_area": "2909",
+    "last_sale_date": "2023-05-16T00:00:00.000",
+    "last_sale_price": "2150000",
+    "assessed_value": "2606600",
+    "lot_size": "3789"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.45,
+  "max_score": 10,
+  "total_cost": 600000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-01-19",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Gut and replace kitchen, second floor bath, third floor bath. Install new kitchen, new bathroom on 2nd floor and install master suite on 3rd floor and demolish garage.",
+      "cost": 600000.0,
+      "property_use": "One-Family",
+      "contractor": "Creative Construction",
+      "owner_occupied": true,
+      "score": 10,
+      "score_reasons": "high cost ($600,000); keyword: gut; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The $600,000 gut renovation of the kitchen and multiple bathrooms immediately following a 2023 purchase is a classic indicator of a high-end property flip."
+  }
+}

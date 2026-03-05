@@ -1,0 +1,44 @@
+{
+  "address": "20 GARFIELD ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20+GARFIELD+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/20%20GARFIELD%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=20+GARFIELD+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "5",
+    "bathrooms": "3/2",
+    "total_rooms": "11",
+    "living_area": "3356",
+    "last_sale_date": "2009-11-05T00:00:00.000",
+    "last_sale_price": "1742500",
+    "assessed_value": "3964400",
+    "lot_size": "6600"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.33,
+  "max_score": 5,
+  "total_cost": 53850.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2025-05-18",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Bathroom renovation",
+      "cost": 53850.0,
+      "property_use": "One-Family",
+      "contractor": "Paulo neres de sousa",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "moderate cost ($53,850); keyword: renovation; permit completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "A single bathroom renovation by a long-term owner-occupant of 16 years is a typical home improvement rather than a prep-for-sale project."
+  }
+}

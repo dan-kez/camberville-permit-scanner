@@ -1,0 +1,64 @@
+{
+  "address": "138 IRVING ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=138+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/138%20IRVING%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=138+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "1912",
+    "bedrooms": "7",
+    "bathrooms": "3/1",
+    "total_rooms": "12",
+    "living_area": "4604",
+    "last_sale_date": "2020-12-02T00:00:00.000",
+    "last_sale_price": "850000",
+    "assessed_value": "4382400",
+    "lot_size": "14501"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.65,
+  "max_score": 5,
+  "total_cost": 6428300.0,
+  "permit_count": 3,
+  "completed_permits": 0,
+  "completion_ratio": "0/3",
+  "permits": [
+    {
+      "date": "2024-06-26",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Renovation of existing home. Structure to be demo'd down to the studs and renovated. Replacement of windows, facade, roof and new addition.",
+      "cost": 6120000.0,
+      "property_use": "One-Family",
+      "contractor": "Wellen Construction",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($6,120,000); keyword: renovate"
+    },
+    {
+      "date": "2024-10-10",
+      "source": "Cambridge New Construction",
+      "status": "Active",
+      "description": "Construction of a new Garage Structure",
+      "cost": 150000.0,
+      "property_use": "One or Two Family Dwelling",
+      "contractor": "RICHARD D NICHOLS",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "moderate cost ($150,000); new construction"
+    },
+    {
+      "date": "2025-04-02",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Install a 12'4\"x36'10\" inground gunite pool with all necessary sanitation and circulation equipment.TO BE COMPLIANT WITH ISPSC, 780 CMR AND TOWN ZONING\u00a0BY LAWS.",
+      "cost": 158300.0,
+      "property_use": "One-Family",
+      "contractor": "Easton Pool Group",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($158,300)"
+    }
+  ]
+}

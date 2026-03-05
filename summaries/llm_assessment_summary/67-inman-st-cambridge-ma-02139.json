@@ -1,0 +1,44 @@
+{
+  "address": "67 INMAN ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=67+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/67%20INMAN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=67+INMAN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1880",
+    "bedrooms": "6",
+    "bathrooms": "4/1",
+    "total_rooms": "9",
+    "living_area": "2661",
+    "last_sale_date": "2024-01-22T00:00:00.000",
+    "last_sale_price": "2100000",
+    "assessed_value": "3034900",
+    "lot_size": "4099"
+  },
+  "property_use": "Multi-Family (3 units or greater)",
+  "nearest_square": "Inman",
+  "distance_mi": 0.27,
+  "max_score": 10,
+  "total_cost": 700000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-03-27",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Converting a three family into a single family dwelling",
+      "cost": 700000.0,
+      "property_use": "Multi-Family (3 units or greater)",
+      "contractor": "Broadbridge Construction LLC",
+      "owner_occupied": true,
+      "score": 10,
+      "score_reasons": "high cost ($700,000); keyword: convert; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "A $700,000 full-scale conversion from a multi-family to a single-family dwelling immediately following a recent purchase indicates a massive high-end repositioning typical of a professional flip."
+  }
+}

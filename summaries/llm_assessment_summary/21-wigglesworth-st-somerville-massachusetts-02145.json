@@ -1,0 +1,56 @@
+{
+  "address": "21 WIGGLESWORTH ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+WIGGLESWORTH+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/21%20WIGGLESWORTH%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=21+WIGGLESWORTH+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 1850,
+    "last_sale_date": "2018-10-22",
+    "last_sale_price": 0,
+    "assessed_value": 785600,
+    "lot_size": 0.055
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.58,
+  "max_score": 7,
+  "total_cost": 660.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-11-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "REMOVE & REPLACE1 PATIO DOORS;  LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 300.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Renewal by Andersen",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-03-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Residential weatherization/air sealing. No structural changes. (CAP-15446)",
+      "cost": 360.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permits are for minor maintenance and weatherization by an owner-occupant with no significant renovations or 'gut' work."
+  }
+}

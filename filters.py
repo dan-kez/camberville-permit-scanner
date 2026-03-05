@@ -52,28 +52,32 @@ def is_residential_single_family(permit, properties=None):
     source = permit.get("source", "")
     
     # 1. Use property database if available
-    if properties and norm_addr in properties:
-        p_info = properties[norm_addr]
-        p_class = p_info.get("property_class", "").upper()
+    if properties:
+        city = "cambridge" if "Cambridge" in source else "somerville"
+        city_key = f"{city}:{norm_addr}"
         
-        # Cambridge single-family classes
-        if "Cambridge" in source:
-            sngl_fam_classes = ["SNGL-FAM-RES", "SINGLE FAM W/AUXILIARY APT", "MXD SNGL-FAM-RES"]
-            if p_class in sngl_fam_classes:
-                return True
-            return False
+        if city_key in properties:
+            p_info = properties[city_key]
+            p_class = p_info.get("property_class", "").upper()
             
-        # Somerville
-        if "Somerville" in source:
-            # MassGIS USE_CODE 1010 is single-family
-            if p_class == "1010":
-                return True
-            # Special case: allow 2-family (1040) if permit description suggests conversion
-            if p_class == "1040":
-                desc = permit.get("description", "").lower()
-                if any(kw in desc for kw in ["to single family", "to 1 family", "to one family"]):
+            # Cambridge single-family classes
+            if city == "cambridge":
+                sngl_fam_classes = ["SNGL-FAM-RES", "SINGLE FAM W/AUXILIARY APT", "MXD SNGL-FAM-RES"]
+                if p_class in sngl_fam_classes:
                     return True
-            return False
+                return False
+                
+            # Somerville
+            if city == "somerville":
+                # MassGIS USE_CODE 1010 is single-family
+                if p_class == "1010":
+                    return True
+                # Special case: allow 2-family (1040) if permit description suggests conversion
+                if p_class == "1040":
+                    desc = permit.get("description", "").lower()
+                    if any(kw in desc for kw in ["to single family", "to 1 family", "to one family"]):
+                        return True
+                return False
 
     # 2. Fallback to permit data (if property info missing or source is Somerville)
     prop_use = permit.get("property_use", "").lower()

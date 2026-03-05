@@ -1,0 +1,44 @@
+{
+  "address": "34 MAGAZINE ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=34+MAGAZINE+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/34%20MAGAZINE%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=34+MAGAZINE+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1800",
+    "bedrooms": "5",
+    "bathrooms": "3/1",
+    "total_rooms": "10",
+    "living_area": "2548",
+    "last_sale_date": "1999-07-01T00:00:00.000",
+    "last_sale_price": "695000",
+    "assessed_value": "2562000",
+    "lot_size": "5175"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.2,
+  "max_score": 8,
+  "total_cost": 56930.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-04-26",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "install 22 marvin replacement windows. Energy star, insertsonly with no structural work",
+      "cost": 56930.0,
+      "property_use": "One-Family",
+      "contractor": "Fisher Windows",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($56,930); keyword: structural; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Long-term owner-occupant (26+ years) performing standard window maintenance with no evidence of high-end kitchen or bathroom renovations."
+  }
+}

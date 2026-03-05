@@ -1,0 +1,44 @@
+{
+  "address": "18 PARK PL, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+PARK+PL%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/18%20PARK%20PL%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=18+PARK+PL%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1121,
+    "last_sale_date": "2016-11-08",
+    "last_sale_price": 1,
+    "assessed_value": 873300,
+    "lot_size": 0.058800000000000005
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Union",
+  "distance_mi": 0.63,
+  "max_score": 5,
+  "total_cost": 412.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-10-04",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remove and rebuilt back deck change size to smaller deck with a paver patio",
+      "cost": 412.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "De oliveira renovation",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied with long-term ownership (8+ years) and the only recent activity is a single outdoor deck and patio project rather than significant interior renovations."
+  }
+}

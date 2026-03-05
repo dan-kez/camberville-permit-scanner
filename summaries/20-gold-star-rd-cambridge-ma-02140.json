@@ -1,0 +1,29 @@
+{
+  "address": "20 GOLD STAR RD, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20+GOLD+STAR+RD%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/20%20GOLD%20STAR%20RD%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=20+GOLD+STAR+RD%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.45,
+  "max_score": 8,
+  "total_cost": 33750.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-10-25",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Emergency Rebuild of Front Porch Destroyed by Tree Fall.\u00a0No change to footprint.",
+      "cost": 33750.0,
+      "property_use": "One-Family",
+      "contractor": "Lewis Weitzman Renovations",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($33,750); keyword: rebuild; permit completed; all permits completed"
+    }
+  ]
+}

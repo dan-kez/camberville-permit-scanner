@@ -1,0 +1,50 @@
+{
+  "address": "5 WEBSTER ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+WEBSTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/5%20WEBSTER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=5+WEBSTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 1568,
+    "last_sale_date": "2019-03-11",
+    "last_sale_price": 1246000,
+    "assessed_value": 1209000,
+    "lot_size": 0.06810000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.63,
+  "max_score": 2,
+  "total_cost": 1644.5,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2025-10-08",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install a 24-panel PV solar system with microinverters.\r\nB25-001465",
+      "cost": 210.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "East Coast Solar, LLC",
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed"
+    },
+    {
+      "date": "2025-10-15",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install a 24-panel PV solar system with microinverters.\r\n10.56 KW DC",
+      "cost": 1434.5,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "East Coast Solar, LLC",
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed"
+    }
+  ]
+}

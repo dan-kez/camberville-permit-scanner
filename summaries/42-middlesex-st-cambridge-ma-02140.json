@@ -1,0 +1,40 @@
+{
+  "address": "42 MIDDLESEX ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=42+MIDDLESEX+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/42%20MIDDLESEX%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=42+MIDDLESEX+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1891",
+    "bedrooms": "4",
+    "bathrooms": "2/0",
+    "total_rooms": "11",
+    "living_area": "2394",
+    "last_sale_date": "2020-09-11T00:00:00.000",
+    "last_sale_price": "100",
+    "assessed_value": "2035400",
+    "lot_size": "4500"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.52,
+  "max_score": 1,
+  "total_cost": 45405.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-04-14",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Extend existing back deck, build overgang over patio door and side door. Replace side door.",
+      "cost": 45405.0,
+      "property_use": "One-Family",
+      "contractor": "MATT Construction Mass INC",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($45,405)"
+    }
+  ]
+}

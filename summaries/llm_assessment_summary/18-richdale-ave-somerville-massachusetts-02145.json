@@ -1,0 +1,44 @@
+{
+  "address": "18 RICHDALE AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+RICHDALE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/18%20RICHDALE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=18+RICHDALE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2244,
+    "last_sale_date": "2009-02-27",
+    "last_sale_price": 100,
+    "assessed_value": 886900,
+    "lot_size": 0.07350000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.71,
+  "max_score": 5,
+  "total_cost": 100.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-10-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "200 amp service upgrade.",
+      "cost": 100.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Kuhlman Electrical Services",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The single permit for an electrical service upgrade by a long-term owner-occupant is standard maintenance and does not suggest a preparation for sale."
+  }
+}

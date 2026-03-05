@@ -1,0 +1,76 @@
+{
+  "address": "18 PINCKNEY ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+PINCKNEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/18%20PINCKNEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=18+PINCKNEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1472,
+    "last_sale_date": "2023-12-12",
+    "last_sale_price": 630000,
+    "assessed_value": 591000,
+    "lot_size": 0.07350000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.58,
+  "max_score": 5,
+  "total_cost": 2015.5,
+  "permit_count": 4,
+  "completed_permits": 3,
+  "completion_ratio": "3/4 complete",
+  "permits": [
+    {
+      "date": "2024-02-23",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Demolition, remodeling rewiring and service upgrade",
+      "cost": 493.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Carlos Eduardo de Oliveira Lourenco",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+    },
+    {
+      "date": "2024-05-08",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Renovation",
+      "cost": 150.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Comfortcool Mass Inc.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+    },
+    {
+      "date": "2024-03-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remove existing vinyl panel from walls, and prep all the walls for drywall and ceiling. 2. Pain (smoothing of ceiling and smooth / finish ceiling before painting). 2. Painting ceiling and whole House, including trims and doors * painting will be decided after whole house is ready. 3. Main level - Kitchen and bath, replace old cabinets with new and remove all cabinets from the unit and demolish the walls shown in the architecture designs provided. 4. Framing of new bathroom on main level and second level per designs. 5. Remove all the construction debris from the property and cleanup the floor. 6. 2nd level flooring needs to be replaced with Vinyl flooring and main level kitchen area will be tiles. 7. All ceilings on second level and newly demolished area on main level will be prepped and ready for painting. This includes entryway ceiling tiles as well. 8. Will be coordinating with Plumber and electrician.",
+      "cost": 952.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Northeast Kitchen & Bath",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: demolish; minor: sign; permit completed; most permits completed"
+    },
+    {
+      "date": "2024-04-12",
+      "source": "Somerville",
+      "status": "Withdrawn",
+      "description": "Insulate the walls\r\nWITHDRAWN PER APPLICANT SEE ONLINE MESSAGE - JS 7/25/24",
+      "cost": 420.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Suffolk Weatherization LLC",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed"
+    }
+  ]
+}

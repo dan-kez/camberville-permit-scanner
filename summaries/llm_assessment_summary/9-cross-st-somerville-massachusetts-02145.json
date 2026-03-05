@@ -1,0 +1,41 @@
+{
+  "address": "9 CROSS ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+CROSS+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1727,
+    "last_sale_date": "2023-05-09",
+    "last_sale_price": 625000,
+    "assessed_value": 618300,
+    "lot_size": 0.0473
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Union",
+  "distance_mi": 0.69,
+  "max_score": 2,
+  "total_cost": 120.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2026-01-12",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "New feature replacement on the first floor including a water closet and a full kitchen. On the second floor there will be new feature replacements for a full bathroom.",
+      "cost": 120.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Cortez Plumbing Inc.",
+      "score": 2,
+      "score_reasons": "keyword: full"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permit cost of $120.00 for work involving a full kitchen and bathroom is unusually low for a renovation project, suggesting minor plumbing repairs or fixture replacements rather than a full-scale renovation."
+  }
+}

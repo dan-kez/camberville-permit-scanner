@@ -1,0 +1,40 @@
+{
+  "address": "7 MADISON AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/7%20MADISON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=7+MADISON+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1895",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "8",
+    "living_area": "1422",
+    "last_sale_date": "2015-12-23T00:00:00.000",
+    "last_sale_price": "640000",
+    "assessed_value": "1118300",
+    "lot_size": "4000"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.73,
+  "max_score": 3,
+  "total_cost": 49000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-07-06",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "The second floor of the home will be fully gutted and 70 percent of the first floor as well. On the second floor a bump out that exists on the first floor will be added to add 45 additional square feet into the interior living space. The current 3 season 2 floor front portches will be added into to the interior living space. This will add an additional 143 square feet to the property. This 3 season front prorch space was a new build back in 2017. Seperate permits will be pulled from the contrators for electric, plumbing, and HVAC. The total square feet of the interior living space will be 1610 sqaure feet after the project is completed and the lot is just under 4000 sqaure feet, so this will meet the requirements not to need a veriance. As well no foundation changes will be done.",
+      "cost": 49000.0,
+      "property_use": "One-Family",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($49,000); keyword: gut"
+    }
+  ]
+}

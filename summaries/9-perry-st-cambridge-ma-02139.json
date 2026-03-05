@@ -1,0 +1,40 @@
+{
+  "address": "9 PERRY ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+PERRY+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/9%20PERRY%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+PERRY+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "8",
+    "living_area": "1890",
+    "last_sale_date": "2022-04-29T00:00:00.000",
+    "last_sale_price": "1800000",
+    "assessed_value": "1808200",
+    "lot_size": "3037"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.26,
+  "max_score": 1,
+  "total_cost": 121588.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-06-06",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "1) Pour \"Rat Slab\"(Thin) concrete in basement to make current dirt floor rat proof and sanitary for storage (non-habitable basement). \u00a02) Reinforce exisitng \"tree posts\" supporting basement beams with proper lally columns with footings. \u00a03) Also, replace current MDF separation wall (between attached houses, with fire-code X sheetrock (1 hr); currently perforated MDF (cardboard). \u00a04) Install basement French drain to reduce water infiltration",
+      "cost": 121588.0,
+      "property_use": "One-Family",
+      "contractor": "Cambridge Home Renovations",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($121,588)"
+    }
+  ]
+}

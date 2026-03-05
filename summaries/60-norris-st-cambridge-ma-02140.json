@@ -1,0 +1,40 @@
+{
+  "address": "60 NORRIS ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=60+NORRIS+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/60%20NORRIS%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=60+NORRIS+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1875",
+    "bedrooms": "2",
+    "bathrooms": "1/0",
+    "total_rooms": "5",
+    "living_area": "1007",
+    "last_sale_date": "2021-10-29T00:00:00.000",
+    "last_sale_price": "70000",
+    "assessed_value": "947800",
+    "lot_size": "2648"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.43,
+  "max_score": 2,
+  "total_cost": 484356.02,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-04-18",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Remove & rebuid rear kitchen extension, including a new basement space underneath(to be used as mechanical room not living space). Remove and rebuild roof structure. Full gut of inside of the property to accomadate insulation and envelope upgrades. Replacement of exterior sheathing.",
+      "cost": 484356.02,
+      "property_use": "One-Family",
+      "contractor": "Anderson and Sons Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($484,356); keyword: gut; minor: insulation"
+    }
+  ]
+}

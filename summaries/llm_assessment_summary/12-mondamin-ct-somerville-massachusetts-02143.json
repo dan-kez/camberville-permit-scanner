@@ -1,0 +1,56 @@
+{
+  "address": "12 MONDAMIN CT, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=12+MONDAMIN+CT%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/12%20MONDAMIN%20CT%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=12+MONDAMIN+CT%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 4,
+    "living_area": 1320,
+    "last_sale_date": "2013-05-29",
+    "last_sale_price": 548700,
+    "assessed_value": 992900,
+    "lot_size": 0.049100000000000005
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.69,
+  "max_score": 4,
+  "total_cost": 1188.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-10-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rooftop PV Solar Install. System Size 7.225 kW DC (17 panels), plus doing a Full Service Change (New 100A meter main outside replacing the old style can. New Riser and run new SER feeder to a new 100a MSP w/main breaker.).",
+      "cost": 180.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Solarflair Energy Inc",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: full; minor: solar; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-10-31",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rooftop PV Solar Install. System Size 7.225 kW DC (17 panels)",
+      "cost": 1008.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Solarflair Energy Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permits are exclusively for solar installation and an electrical service upgrade by a long-term owner-occupant, which are typical long-term investments rather than prep-for-sale renovations."
+  }
+}

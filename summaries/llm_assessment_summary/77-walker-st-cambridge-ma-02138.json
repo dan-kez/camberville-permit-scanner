@@ -1,0 +1,44 @@
+{
+  "address": "77 WALKER ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=77+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/77%20WALKER%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=77+WALKER+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "3",
+    "bathrooms": "1/2",
+    "total_rooms": "6",
+    "living_area": "1559",
+    "last_sale_date": "2021-08-20T00:00:00.000",
+    "last_sale_price": "1825000",
+    "assessed_value": "1816000",
+    "lot_size": "2459"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.56,
+  "max_score": 5,
+  "total_cost": 328625.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-11-16",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Add 2 Dormers. Create 2 bedrooms on 3rd floor. Renovate kitchen",
+      "cost": 328625.0,
+      "property_use": "One-Family",
+      "contractor": "Segal Construction and Home Maintenance",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($328,625); keyword: renovate"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The property is undergoing a major $328,000 structural expansion and kitchen renovation by a relatively recent owner, which adds significant value but lacks the non-owner status or multiple bathroom updates characteristic of a high-likelihood flip."
+  }
+}

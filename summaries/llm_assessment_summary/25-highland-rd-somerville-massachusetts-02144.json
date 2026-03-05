@@ -1,0 +1,44 @@
+{
+  "address": "25 HIGHLAND RD, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=25+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/25%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=25+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1930,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2320,
+    "last_sale_date": "1991-04-09",
+    "last_sale_price": 30000,
+    "assessed_value": 1454400,
+    "lot_size": 0.0781
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Davis",
+  "distance_mi": 0.49,
+  "max_score": 2,
+  "total_cost": 440.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-07-12",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Strip existing rubber roof and dispose, Install new fully adhered EPDM rubber roof system, flashing and all accesories",
+      "cost": 440.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "M.I.K. Construction & Remodeling",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: full"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The long-term owner-occupant is performing standard roof maintenance with no evidence of the high-end interior renovations typical of a pre-sale preparation."
+  }
+}

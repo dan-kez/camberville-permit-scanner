@@ -1,0 +1,92 @@
+{
+  "address": "8 CURTIS ST, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=8+CURTIS+ST%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/8%20CURTIS%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+CURTIS+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 2015,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 17,
+    "living_area": 4231,
+    "last_sale_date": "2018-04-18",
+    "last_sale_price": 100,
+    "assessed_value": 2038900,
+    "lot_size": 0.1274
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Davis",
+  "distance_mi": 0.54,
+  "max_score": 7,
+  "total_cost": 4557.0,
+  "permit_count": 5,
+  "completed_permits": 5,
+  "completion_ratio": "5/5 complete",
+  "permits": [
+    {
+      "date": "2023-11-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "New plumbing work for 3 full bathrooms kitchen and 3 half bathrooms",
+      "cost": 230.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Cortez Plumbing and Heating Systems Inc",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: full; permit completed; all permits completed"
+    },
+    {
+      "date": "2023-06-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "complete wiring of 3 level addition to existing residential single family . New receptacles, switches, and lighting. new subpanel for addition",
+      "cost": 518.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Gino DiPietrantonio",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: addition; minor: panel; permit completed; all permits completed"
+    },
+    {
+      "date": "2023-06-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "2 1/2 story 478 sq ft Rear addition to detached house, expand existing shed dormer to 25'6\" long,",
+      "cost": 2930.0,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "Khalsa Design, INC.",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: addition; minor: shed; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-02-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install two Gas fired Furnaces with duct work and ERV",
+      "cost": 779.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "Indresano Energy",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-03-15",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "to run gas line for furnace water heater and gas stove",
+      "cost": 100.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "Cortez Plumbing and Heating Systems Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The property underwent a massive three-level addition alongside a simultaneous full-scale renovation of the kitchen and six bathrooms, which are primary indicators for preparing a high-value asset for sale."
+  }
+}

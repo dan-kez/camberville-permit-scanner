@@ -1,0 +1,44 @@
+{
+  "address": "51 SAWYER AVE, SOMERVILLE MASSACHUSETTS 02155",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=51+SAWYER+AVE%2C+SOMERVILLE+MASSACHUSETTS+02155",
+  "zillow_url": "https://www.zillow.com/homes/51%20SAWYER%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002155_rb/",
+  "google_search_url": "https://www.google.com/search?q=51+SAWYER+AVE%2C+SOMERVILLE+MASSACHUSETTS+02155+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1950,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1889,
+    "last_sale_date": null,
+    "last_sale_price": 0,
+    "assessed_value": 1472600,
+    "lot_size": 0.1957
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.72,
+  "max_score": 5,
+  "total_cost": 100.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-01-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Repair service conduit.",
+      "cost": 100.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Jeremy D Dryden Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is a minor $100 electrical maintenance repair for a service conduit by an owner-occupant, with no evidence of prep-for-sale renovations."
+  }
+}

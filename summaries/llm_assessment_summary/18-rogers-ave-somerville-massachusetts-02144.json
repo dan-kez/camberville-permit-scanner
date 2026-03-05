@@ -1,0 +1,92 @@
+{
+  "address": "18 ROGERS AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18+ROGERS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/18%20ROGERS%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=18+ROGERS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1925,
+    "last_sale_date": "2013-10-11",
+    "last_sale_price": 952000,
+    "assessed_value": 1598200,
+    "lot_size": 0.0937
+  },
+  "property_use": "Building Permit - Residential Alteration",
+  "nearest_square": "Davis",
+  "distance_mi": 0.44,
+  "max_score": 5,
+  "total_cost": 14107.0,
+  "permit_count": 5,
+  "completed_permits": 3,
+  "completion_ratio": "3/5 complete",
+  "permits": [
+    {
+      "date": "2023-06-27",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Partial first floor renovation incl. kitchen, powder room and bulk head.  Partial third floor renovation incl small roof deck.",
+      "cost": 12305.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Kent General Contracting",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+    },
+    {
+      "date": "2023-07-12",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "First floor kitchen remodel and powder room",
+      "cost": 90.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Mouradian P@H",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+    },
+    {
+      "date": "2023-10-24",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Wire first and 3rd floor remodel",
+      "cost": 469.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Gregory F. Comeau, Master Electrician LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+    },
+    {
+      "date": "2023-09-12",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Install two ducted heat-pump systems",
+      "cost": 1178.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "J Lawson Inc",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed"
+    },
+    {
+      "date": "2023-10-30",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "TV's, speakers etc.",
+      "cost": 65.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Elite Media Solutions, LLC.",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The long-term owner-occupant is performing a kitchen and powder room refresh along with personal upgrades like a roof deck, which is consistent with personal improvement rather than a preparation for sale."
+  }
+}

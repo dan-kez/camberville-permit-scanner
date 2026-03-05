@@ -1,0 +1,52 @@
+{
+  "address": "36 MEAD ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=36+MEAD+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 2014,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 2161,
+    "last_sale_date": "2021-02-25",
+    "last_sale_price": 100,
+    "assessed_value": 1577500,
+    "lot_size": 0.07150000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.43,
+  "max_score": 2,
+  "total_cost": 8054.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2025-11-24",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Basement Remodel",
+      "cost": 174.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Attilio Dimascio Jr",
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    },
+    {
+      "date": "2026-01-20",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Basement remodel  - adding family room, 1/2 bath, exercise room, lower floor 18\", new staircase",
+      "cost": 7880.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Attilio Dimascio Jr",
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The last sale date of 2021 indicates the property has been held for several years, and the scope of work is limited to a basement remodel rather than a full renovation."
+  }
+}

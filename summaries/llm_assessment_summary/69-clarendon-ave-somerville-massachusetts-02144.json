@@ -1,0 +1,56 @@
+{
+  "address": "69 CLARENDON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=69+CLARENDON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/69%20CLARENDON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=69+CLARENDON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1905,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1123,
+    "last_sale_date": "2023-09-18",
+    "last_sale_price": 949000,
+    "assessed_value": 958600,
+    "lot_size": 0.0911
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.52,
+  "max_score": 4,
+  "total_cost": 22065.0,
+  "permit_count": 2,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2024-05-14",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Demolition/make safe and grounding foundation",
+      "cost": 135.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Luciano Miranda Electrician",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: demolition; permit completed"
+    },
+    {
+      "date": "2024-06-20",
+      "source": "Somerville",
+      "status": "Withdrawn",
+      "description": "SEE B24-002040 CHANGE IN PLAN\r\nFull renovation of a single-family house into a three-family",
+      "cost": 21930.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "North America Development LLC",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "Recent acquisition in late 2023 followed by a full single-to-three-family conversion project by a development LLC strongly indicates a major project intended for sale."
+  }
+}

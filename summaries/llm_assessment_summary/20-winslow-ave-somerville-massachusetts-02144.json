@@ -1,0 +1,41 @@
+{
+  "address": "20 WINSLOW AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20+WINSLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2048,
+    "last_sale_date": "2002-01-28",
+    "last_sale_price": 1,
+    "assessed_value": 1251300,
+    "lot_size": 0.0497
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.1,
+  "max_score": 5,
+  "total_cost": 100.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-11-12",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "upgrade service to 200 amps",
+      "cost": 100.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "James DeOliveira",
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Only one minimal permit exists for a basic electrical upgrade and the last recorded sale was in 2002, but without current purchase history or permits for structural work, this is likely maintenance rather than a flip."
+  }
+}

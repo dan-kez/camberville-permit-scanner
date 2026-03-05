@@ -1,0 +1,56 @@
+{
+  "address": "38 CHARNWOOD RD, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38+CHARNWOOD+RD%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/38%20CHARNWOOD%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=38+CHARNWOOD+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1915,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2230,
+    "last_sale_date": "2015-07-01",
+    "last_sale_price": 950000,
+    "assessed_value": 1512200,
+    "lot_size": 0.0682
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Porter",
+  "distance_mi": 0.34,
+  "max_score": 7,
+  "total_cost": 2142.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-06-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Renovation of existing front porch and landscape improvements",
+      "cost": 2097.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Fresh Start Contracting Corp",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-08-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Deck remodeling; install 2 recessed lights and 1 switched outlet",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "ELUX ELECTRICAL SOLUTIONS INC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The recent work is limited to minor exterior maintenance (porch and deck remodeling) by a long-term owner-occupant, with no indications of high-end interior renovations."
+  }
+}

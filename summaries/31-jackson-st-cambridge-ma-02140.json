@@ -1,0 +1,40 @@
+{
+  "address": "31 JACKSON ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=31+JACKSON+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/31%20JACKSON%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=31+JACKSON+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1856",
+    "bedrooms": "3",
+    "bathrooms": "1/0",
+    "total_rooms": "7",
+    "living_area": "1436",
+    "last_sale_date": "2023-09-19T00:00:00.000",
+    "last_sale_price": "100",
+    "assessed_value": "1112400",
+    "lot_size": "2357"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.66,
+  "max_score": 3,
+  "total_cost": 74500.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-08-07",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Kitchen renovation - layout to remain as is. New cabinets/finsihes. Taking out stand up shower, and installing bath tub on first floor bathroom.",
+      "cost": 74500.0,
+      "property_use": "One-Family",
+      "contractor": "Fresh Start Contracting Corp",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($74,500); keyword: renovation"
+    }
+  ]
+}

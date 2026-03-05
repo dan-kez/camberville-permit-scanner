@@ -38,17 +38,25 @@ def _build_summary_record(address, permits, properties):
     p0 = permits[0]
     total_cost = sum(p.get("cost", 0) for p in permits)
     
-    # Create Google Maps URL
+    # Create Search URLs
     encoded_addr = urllib.parse.quote_plus(address)
+    # Zillow often prefers hyphens or %20 over + in the path-based URL
+    encoded_addr_path = urllib.parse.quote(address)
     google_maps_url = f"https://www.google.com/maps/search/?api=1&query={encoded_addr}"
+    zillow_url = f"https://www.zillow.com/homes/{encoded_addr_path}_rb/"
+    # Google search fallback
+    google_search_url = f"https://www.google.com/search?q={encoded_addr}+zillow+redfin"
     
     # Lookup property info from pre-fetched properties
     norm_addr = normalize_address_key(address)
-    property_info = properties.get(norm_addr)
+    city = "cambridge" if "Cambridge" in p0.get("source", "") else "somerville"
+    property_info = properties.get(f"{city}:{norm_addr}")
     
     return {
         "address": address,
         "google_maps_url": google_maps_url,
+        "zillow_url": zillow_url,
+        "google_search_url": google_search_url,
         "property_info": property_info,
         "property_use": p0.get("property_use", ""),
         "nearest_square": p0.get("nearest_square", ""),
@@ -67,6 +75,7 @@ def _build_summary_record(address, permits, properties):
                 "cost": p.get("cost", 0),
                 "property_use": p.get("property_use", ""),
                 "contractor": p.get("contractor", ""),
+                "owner_occupied": p.get("owner_occupied", True),
                 "score": p.get("score", 0),
                 "score_reasons": p.get("score_reasons", ""),
             }
@@ -109,11 +118,15 @@ def write_summaries(permits, properties, output_dir="summaries", min_score=None)
 
 
 LLM_PROMPT = (
-    "Given these building permits and property assessment data for a single-family home, "
-    "assess the likelihood that this property is being renovated for sale. "
-    "Consider: scope of work, cost, number of permits, property type, bedrooms/baths, "
-    "purchase history (if available), and whether work suggests a cosmetic flip vs owner renovation.\n\n"
-    "Respond with ONLY valid JSON in this exact format, no other text:\n"
+    "Assess the likelihood that this property is being prepared for sale based on building permits and assessment data.\n\n"
+    "CRITICAL INDICATORS FOR HIGH LIKELIHOOD:\n"
+    "1. High-end 'prep-for-sale' renovations: Simultaneous full-scale updates to Kitchen AND multiple Bathrooms.\n"
+    "2. Non-owner occupied: If the permit lists owner_occupied as False, it is much more likely to be a project/flip.\n"
+    "3. Significant 'Gut' or 'Whole House' work even with long-term ownership (8+ years).\n\n"
+    "CRITICAL INDICATORS FOR LOW LIKELIHOOD:\n"
+    "1. Maintenance work: Roof, windows (unless part of a larger project), siding, or HVAC only.\n"
+    "2. Minor updates: A single bathroom or small kitchen refresh by a long-term owner-occupant.\n\n"
+    "Respond with ONLY valid JSON in this exact format:\n"
     '{"likelihood": "low|medium|high", "reasoning": "one sentence explanation"}'
 )
 
@@ -208,6 +221,13 @@ def _analyze_one(address, filepath, llm_type="opencode"):
                 text=True,
                 timeout=120,
             )
+        elif llm_type == "gemini":
+            result = subprocess.run(
+                ["gemini", "-m", "flash", "-p", prompt],
+                capture_output=True,
+                text=True,
+                timeout=120,
+            )
         else:
             result = subprocess.run(
                 ["ollama", "run", "glm-4.7-flash:latest", prompt],
@@ -237,7 +257,7 @@ def _write_assessment(summary_path, assessment, output_dir):
     return out_path
 
 
-def run_llm_analysis(summary_files, permits, llm_type="opencode", max_workers=4, output_dir="summaries/llm_assessment_summary"):
+def run_llm_analysis(summary_files, permits, llm_type="opencode", max_workers=10, output_dir="summaries/llm_assessment_summary"):
     """Run LLM analysis on each summary file with parallel execution."""
     results = []
     total = len(summary_files)

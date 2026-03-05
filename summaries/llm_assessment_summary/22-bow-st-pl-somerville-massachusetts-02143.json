@@ -1,0 +1,44 @@
+{
+  "address": "22 BOW ST PL, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=22+BOW+ST+PL%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/22%20BOW%20ST%20PL%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=22+BOW+ST+PL%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 5,
+    "living_area": 1572,
+    "last_sale_date": "2018-11-09",
+    "last_sale_price": 1,
+    "assessed_value": 832100,
+    "lot_size": 0.0427
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.37,
+  "max_score": 2,
+  "total_cost": 180.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-10-16",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Remove 1 existing door and replace with 1 new replacement door. No structural work",
+      "cost": 180.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "PSNE",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is for a single door replacement by a long-term owner-occupant, which constitutes minor maintenance rather than high-end renovation."
+  }
+}

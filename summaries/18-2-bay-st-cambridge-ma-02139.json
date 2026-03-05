@@ -1,0 +1,40 @@
+{
+  "address": "18-2 BAY ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=18-2+BAY+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/18-2%20BAY%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=18-2+BAY+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1978",
+    "bedrooms": "2",
+    "bathrooms": "1/1",
+    "total_rooms": "5",
+    "living_area": "1300",
+    "last_sale_date": "1999-06-25T00:00:00.000",
+    "last_sale_price": "306600",
+    "assessed_value": "975200",
+    "lot_size": "1421"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.4,
+  "max_score": 3,
+  "total_cost": 47402.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-06-05",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "REMOVE & REPLACE 15 WINDOWS; \u00a0LIKE FOR LIKE SIZE; NO STRUCTURAL CHANGES",
+      "cost": 47402.0,
+      "property_use": "One-Family",
+      "contractor": "RENEWAL BY ANDERSEN",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($47,402); keyword: structural"
+    }
+  ]
+}

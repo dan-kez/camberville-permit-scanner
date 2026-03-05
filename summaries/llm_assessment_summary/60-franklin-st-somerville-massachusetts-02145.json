@@ -1,0 +1,129 @@
+{
+  "address": "60 FRANKLIN ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=60+FRANKLIN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1828,
+    "last_sale_date": "2021-12-06",
+    "last_sale_price": 1,
+    "assessed_value": 817700,
+    "lot_size": 0.1288
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.49,
+  "max_score": 4,
+  "total_cost": 32057.5,
+  "permit_count": 9,
+  "completed_permits": 1,
+  "completion_ratio": "1/10 complete",
+  "permits": [
+    {
+      "date": "2025-10-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Pull Permit for foundation rebar ground, both foundation front & Rear\r\nB25-001484",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "MPS Electric LLC",
+      "score": 4,
+      "score_reasons": "keyword: foundation; permit completed"
+    },
+    {
+      "date": "2025-10-06",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Pull Permit for foundation rebar ground, both foundation front & Rear",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "MPS Electric LLC",
+      "score": 2,
+      "score_reasons": "keyword: foundation"
+    },
+    {
+      "date": "2025-10-23",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Foundation permit for new construction one unit backyard cottage \r\nPERMIT TO CONSTRUCT B25-001590",
+      "cost": 957.5,
+      "property_use": "Building Permit - Residential New Construction",
+      "contractor": "Picker Construction",
+      "score": 2,
+      "score_reasons": "keyword: new construction"
+    },
+    {
+      "date": "2025-10-23",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Foundation permit for new construction two unit buildling \r\nPERMIT TO CONSTRUCT B25-001484",
+      "cost": 2680.0,
+      "property_use": "Building Permit - Residential New Construction",
+      "contractor": "Picker Construction",
+      "score": 2,
+      "score_reasons": "keyword: new construction"
+    },
+    {
+      "date": "2025-12-23",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Construct New Detached House with Two Units\r\nFOUNDATION ONLY PERMIT B25-001586",
+      "cost": 20555.0,
+      "property_use": "Building Permit - Residential New Construction",
+      "contractor": "Picker Construction",
+      "score": 2,
+      "score_reasons": "keyword: foundation"
+    },
+    {
+      "date": "2026-01-27",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Construct New Backyard Cottage with One Unit\r\nFOUNDATION ONLY PERMIT B25-001589",
+      "cost": 6805.0,
+      "property_use": "Building Permit - Residential New Construction",
+      "contractor": "Picker Construction",
+      "score": 2,
+      "score_reasons": "keyword: foundation"
+    },
+    {
+      "date": "2026-02-18",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Renovation Unit B",
+      "cost": 300.0,
+      "property_use": "Plumbing Permit - Residential - New",
+      "contractor": "Plumr Inc",
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    },
+    {
+      "date": "2026-02-18",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Renovation Unit C",
+      "cost": 310.0,
+      "property_use": "Plumbing Permit - Residential - New",
+      "contractor": "Plumr Inc",
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    },
+    {
+      "date": "2026-02-18",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Renovation Unit A",
+      "cost": 330.0,
+      "property_use": "Plumbing Permit - Residential - New",
+      "contractor": "Plumr Inc",
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The substantial permits for new construction, foundation work, and multiple renovation units, totaling over $32k, indicate a significant value-add project designed to increase the property's value for a future sale."
+  }
+}

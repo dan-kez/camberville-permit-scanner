@@ -1,0 +1,76 @@
+{
+  "address": "35 MARION ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=35+MARION+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/35%20MARION%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=35+MARION+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1986,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 5,
+    "living_area": 1100,
+    "last_sale_date": "2015-08-25",
+    "last_sale_price": 1,
+    "assessed_value": 886600,
+    "lot_size": 0.0514
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Inman",
+  "distance_mi": 0.26,
+  "max_score": 5,
+  "total_cost": 1192.5,
+  "permit_count": 4,
+  "completed_permits": 3,
+  "completion_ratio": "3/4 complete",
+  "permits": [
+    {
+      "date": "2024-08-12",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remove/Replace 3 windows & 1 Patio Door, like for like with no structural changes",
+      "cost": 360.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Renewal by Andersen",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: structural; permit completed; most permits completed"
+    },
+    {
+      "date": "2023-08-08",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Bathroom Remodel",
+      "cost": 727.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Alpha Construction and Design Inc",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "keyword: remodel; most permits completed"
+    },
+    {
+      "date": "2023-08-17",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Wire bathroom 2nd floor",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Richard Young Electrician",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2023-08-29",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "2nd floor bathroom",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Mouradian P@H",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    }
+  ]
+}

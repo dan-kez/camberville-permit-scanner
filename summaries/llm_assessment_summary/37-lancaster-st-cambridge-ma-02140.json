@@ -1,0 +1,56 @@
+{
+  "address": "37 LANCASTER ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=37+LANCASTER+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/37%20LANCASTER%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=37+LANCASTER+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1880",
+    "bedrooms": "7",
+    "bathrooms": "4/1",
+    "total_rooms": "15",
+    "living_area": "7640",
+    "last_sale_date": "2023-04-10T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "8093900",
+    "lot_size": "26670"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.28,
+  "max_score": 7,
+  "total_cost": 522300.0,
+  "permit_count": 2,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2025-03-17",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Carriage house scope: \u00a0Form & pour of structural reinforcement to one basement foundation wall in carriage house. \u00a0Pour of new rat slab. \u00a0Repoint of foundation as required at full perimeter.",
+      "cost": 376000.0,
+      "property_use": "One-Family",
+      "contractor": "Payne Bouchier Inc",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "high cost ($376,000); keyword: structural; permit completed"
+    },
+    {
+      "date": "2025-03-26",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Main House-Repairs to select South-facing window sash with associated trim work & paint, as per marked-up drawings dated 3.7.25 indicating windows for repair. \u00a0Supply & install of half screens at 6 windows.",
+      "cost": 146300.0,
+      "property_use": "One-Family",
+      "contractor": "Payne Bouchier Inc",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($146,300)"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permits describe high-cost structural foundation repairs and historic window restoration on an owner-occupied property, which aligns with long-term maintenance rather than a kitchen/bathroom-focused pre-sale renovation."
+  }
+}

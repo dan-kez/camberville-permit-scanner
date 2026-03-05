@@ -1,0 +1,39 @@
+{
+  "address": "3 FAIRLEE ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+FAIRLEE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/3%20FAIRLEE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=3+FAIRLEE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1040",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2056,
+    "last_sale_date": "2010-07-14",
+    "last_sale_price": 1,
+    "assessed_value": 837900,
+    "lot_size": 0.049600000000000005
+  },
+  "property_use": "Building Permit - Residential Alteration",
+  "nearest_square": "Porter",
+  "distance_mi": 0.38,
+  "max_score": 2,
+  "total_cost": 5430.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2026-01-28",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Converting 2 fam to single family. Renovation to including a basement with a mechanical room and storage; a first floor with a foyer, living room, TV room, dining area, kitchen, powder room, and deck; a second floor with two bedrooms, a bathroom, and a laundry area; and a third floor with a master bedroom and master bathroom.",
+      "cost": 5430.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "North America Development LLC",
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    }
+  ]
+}

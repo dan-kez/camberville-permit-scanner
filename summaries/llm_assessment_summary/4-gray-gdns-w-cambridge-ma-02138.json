@@ -1,0 +1,33 @@
+{
+  "address": "4 GRAY GDNS W, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+GRAY+GDNS+W%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/4%20GRAY%20GDNS%20W%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=4+GRAY+GDNS+W%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.61,
+  "max_score": 5,
+  "total_cost": 37000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-03-05",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Renovate the existing solarium with new support columns, windows and door. \u00a0Existing roof and masonry base will remain as is.\u00a0 Walls will be partially re-framed.",
+      "cost": 37000.0,
+      "property_use": "One-Family",
+      "contractor": "Modern Architectural Construction DBA Archadeck of Suburban Boston",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "moderate cost ($37,000); keyword: renovate; minor: solar; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permit is for a single, moderate-cost solarium renovation at an owner-occupied property, lacking the high-end kitchen or bathroom updates typical of a pre-sale flip."
+  }
+}

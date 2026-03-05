@@ -1,0 +1,40 @@
+{
+  "address": "30 HOWARD ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=30+HOWARD+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/30%20HOWARD%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=30+HOWARD+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "4",
+    "bathrooms": "3/0",
+    "total_rooms": "9",
+    "living_area": "1900",
+    "last_sale_date": "2019-11-26T00:00:00.000",
+    "last_sale_price": "0",
+    "assessed_value": "1315100",
+    "lot_size": "1678"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.36,
+  "max_score": 1,
+  "total_cost": 25000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-09-10",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Build a new bathroom inside a bedroom on second floor.",
+      "cost": 25000.0,
+      "property_use": "One-Family",
+      "contractor": "5 stars",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($25,000)"
+    }
+  ]
+}

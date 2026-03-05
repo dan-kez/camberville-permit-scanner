@@ -1,0 +1,44 @@
+{
+  "address": "5 KING PL, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+KING+PL%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/5%20KING%20PL%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=5+KING+PL%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "7",
+    "living_area": "1218",
+    "last_sale_date": "2022-06-03T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1600100",
+    "lot_size": "861"
+  },
+  "property_use": "Townhouse",
+  "nearest_square": "Inman",
+  "distance_mi": 0.23,
+  "max_score": 3,
+  "total_cost": 154000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-08-08",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Remodel unit to include new kitchen cabinets, new bathroom fixtures replace existing sliders and front door, new hardwood flooring, update electric & plumbing.",
+      "cost": 154000.0,
+      "property_use": "Townhouse",
+      "contractor": "Supreme Builders & Design, Inc.",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($154,000); keyword: remodel"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The property is undergoing a comprehensive $154,000 full-scale remodel of the kitchen, bathrooms, flooring, and systems shortly after a 2022 ownership transfer, meeting the primary criteria for high-end preparation for sale."
+  }
+}

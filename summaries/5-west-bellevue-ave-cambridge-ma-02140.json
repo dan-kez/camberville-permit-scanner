@@ -1,0 +1,40 @@
+{
+  "address": "5 WEST BELLEVUE AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=5+WEST+BELLEVUE+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/5%20WEST%20BELLEVUE%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=5+WEST+BELLEVUE+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1889",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "9",
+    "living_area": "3260",
+    "last_sale_date": "2024-02-28T00:00:00.000",
+    "last_sale_price": "3600000",
+    "assessed_value": "2757400",
+    "lot_size": "5860"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.45,
+  "max_score": 10,
+  "total_cost": 416000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-08-12",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Mr. Simon Gustavsson and Ms. Kelly McQuighan recently bought this single-family house, located in theAvon Hill Neighborhood. Before settling in, they wish to undertake some renovation to improvefunctionality and ultimately to make their home more enjoyable to live in.On the outside, we are planning to replace all the windows with Marvin ones from the Elevate collection.When possible, they will be 8\u201d taller than the ones we currently have existing. We would retain the current height of the sill. The new windows and trim will retain the existing color scheme and style.On the driveway side, one exterior door and stoop \u00a0stairs will be removed.The main change consists in removing the canopy of the front porch, and replacing it with a flat roof which has an open deck. Access to this would be provided by converting the central window into a glazed door. The intention here is to create a quiet space to spend time in the sun as it is South-East facing and not shaded by trees. By using an access door with full glass, we will also be able to bring light into a dark area of the home.Inside the houseFirst Floor: creation of an open space on the East side of the house, with a new kitchen and living space. The full bathroom will be removed and replaced with a powder room. That also implies removing the \"servant\" staircase from the basement to the second floor, and relocating a new staircase to access to the basement.Second floor: the layout stays as it is with minor changes in a converted bedroom into an office space, with new washer/dryer.Third floor (master suite): bathroom gut renovation, new closet and lighting. The layout remains the same.Heating/cooling: installation of a new ducted heat pump system for the second and third floors.",
+      "cost": 416000.0,
+      "property_use": "One-Family",
+      "contractor": "Jared",
+      "owner_occupied": true,
+      "score": 10,
+      "score_reasons": "high cost ($416,000); keyword: gut; permit completed; all permits completed"
+    }
+  ]
+}

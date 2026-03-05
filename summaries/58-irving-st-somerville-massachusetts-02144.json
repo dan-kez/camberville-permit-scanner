@@ -1,0 +1,61 @@
+{
+  "address": "58 IRVING ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=58+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/58%20IRVING%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=58+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 2470,
+    "last_sale_date": "2022-05-25",
+    "last_sale_price": 2500000,
+    "assessed_value": 2244200,
+    "lot_size": 0.0781
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Davis",
+  "distance_mi": 0.25,
+  "max_score": 2,
+  "total_cost": 12483.0,
+  "permit_count": 3,
+  "completed_permits": 0,
+  "completion_ratio": "0/3",
+  "permits": [
+    {
+      "date": "2025-11-24",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Remodel of two existing bathrooms and basement space",
+      "cost": 12220.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Tom Curren Companies",
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    },
+    {
+      "date": "2025-12-12",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "bathrooms renovations and basement plumbing",
+      "cost": 110.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "caruso plumbing & heating",
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    },
+    {
+      "date": "2026-01-13",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Bathroom + Basement Remodel",
+      "cost": 153.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Michael Feeley",
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    }
+  ]
+}

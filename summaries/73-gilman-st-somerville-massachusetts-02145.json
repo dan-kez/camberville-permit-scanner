@@ -1,0 +1,39 @@
+{
+  "address": "73 GILMAN ST, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=73+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/73%20GILMAN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=73+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1884,
+    "last_sale_date": "2021-04-22",
+    "last_sale_price": 100,
+    "assessed_value": 1024800,
+    "lot_size": 0.1401
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Union",
+  "distance_mi": 0.45,
+  "max_score": 2,
+  "total_cost": 747.5,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2026-02-11",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Bathroom Remodeling",
+      "cost": 747.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "D&S partners construction inc",
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "address": "238 SUMMER ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=238+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/238%20SUMMER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=238+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1749,
+    "last_sale_date": "2012-04-27",
+    "last_sale_price": 669000,
+    "assessed_value": 1268000,
+    "lot_size": 0.10840000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.35,
+  "max_score": 7,
+  "total_cost": 5822.5,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-11-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Renovation of Kitchen and entry",
+      "cost": 145.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Ideal Electric Co Inc.",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-11-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Renovation of a kitchen in a single family home: kitchen renovation of an existing single family home. The kitchen will be completely stripped of all cabinets and finishes and there will be some slight wall modifications, door opening shifts, and window replacements. We also plan to re-level the kitchen floor, re-insulate the exposed exterior walls, and create a new exterior staircase and entrance.",
+      "cost": 5677.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Morse Constructions",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: renovation; minor: window replacement; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The renovation is limited to the kitchen and entry by a long-term owner-occupant (14 years), which typically indicates an update for personal use rather than a preparation for sale."
+  }
+}

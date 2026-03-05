@@ -1,0 +1,52 @@
+{
+  "address": "16 BRASTOW AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+BRASTOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/16%20BRASTOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=16+BRASTOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1885,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1887,
+    "last_sale_date": "2018-12-18",
+    "last_sale_price": 1,
+    "assessed_value": 1227500,
+    "lot_size": 0.08420000000000001
+  },
+  "property_use": "Building Permit - Residential Alteration",
+  "nearest_square": "Porter",
+  "distance_mi": 0.46,
+  "max_score": 7,
+  "total_cost": 8423.5,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2024-09-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Demo and Rebuild existing attached outbuilding as living space. (1st fl: half bath, coffee counter, office, storage. 2nd fl: office, reading area and storage)",
+      "cost": 8042.5,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Attilio Dimascio Jr",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: rebuild; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-09-19",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Service Upgrade 100A to 200A and wire attached outbuilding according to plan",
+      "cost": 381.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Attilio Dimascio Jr",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "address": "3 AMORY PL, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+AMORY+PL%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/3%20AMORY%20PL%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=3+AMORY+PL%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1870",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "6",
+    "living_area": "1468",
+    "last_sale_date": "2023-08-11T00:00:00.000",
+    "last_sale_price": "1750000",
+    "assessed_value": "1815500",
+    "lot_size": "2624"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.26,
+  "max_score": 5,
+  "total_cost": 278078.0,
+  "permit_count": 2,
+  "completed_permits": 0,
+  "completion_ratio": "0/2",
+  "permits": [
+    {
+      "date": "2023-10-11",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Work consists of Basement renovation work including basement slab and foundation wall underpinning, sewer lateral replacement , rough plumbing for a future bathroom.",
+      "cost": 222369.0,
+      "property_use": "One-Family",
+      "contractor": "Mateus",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($222,369); keyword: renovation"
+    },
+    {
+      "date": "2025-09-04",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Bathroom Renovation. Windows will remain the same and tempered film will be added. No dumpster permit, debris will be hauled away.",
+      "cost": 55709.0,
+      "property_use": "One-Family",
+      "contractor": "MATT Construction Mass INC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($55,709); keyword: renovation"
+    }
+  ]
+}

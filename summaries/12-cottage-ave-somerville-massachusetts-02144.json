@@ -1,0 +1,40 @@
+{
+  "address": "12 COTTAGE AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=12+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/12%20COTTAGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=12+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1550,
+    "last_sale_date": "2018-11-06",
+    "last_sale_price": 10,
+    "assessed_value": 1129100,
+    "lot_size": 0.0533
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.21,
+  "max_score": 2,
+  "total_cost": 101.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-05-02",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Kitchen remodel",
+      "cost": 101.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Brody Electrical Services, Inc",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    }
+  ]
+}

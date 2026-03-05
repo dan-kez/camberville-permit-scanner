@@ -1,0 +1,92 @@
+{
+  "address": "58 NEWBURY ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=58+NEWBURY+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/58%20NEWBURY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=58+NEWBURY+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2486,
+    "last_sale_date": "2016-07-19",
+    "last_sale_price": 1450000,
+    "assessed_value": 1971200,
+    "lot_size": 0.09680000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.46,
+  "max_score": 7,
+  "total_cost": 8538.0,
+  "permit_count": 5,
+  "completed_permits": 5,
+  "completion_ratio": "5/5 complete",
+  "permits": [
+    {
+      "date": "2024-02-08",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Basement Remodel",
+      "cost": 143.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Attilio Dimascio Jr",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-02-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Basement Remodel: Adding family room, exercise area, kitchenette and renovate bathroom, lower basement floor 18\", new staircase",
+      "cost": 7880.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Attilio Dimascio Jr",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovate; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-05-14",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "New plumbing for a half bath and a bar sink in the basement.",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Dico Plumbing And Heating LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-07-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "new duct system installation",
+      "cost": 380.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "Basnett Plumbing Heating & AC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-07-19",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Relocated service outlet and switch for furnace. Ran new thermostat wire for basement zone. Installed zone damper control board by furnace.\r\nSM24-000132",
+      "cost": 75.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Basnett Plumbing",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The owner-occupied property underwent a significant structural basement renovation including lowering the floor and adding a kitchenette and bathroom, which are substantial value-add improvements despite being limited to a single level."
+  }
+}

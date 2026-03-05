@@ -1,0 +1,64 @@
+{
+  "address": "62 ALBION ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=62+ALBION+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/62%20ALBION%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=62+ALBION+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1920,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2138,
+    "last_sale_date": "2015-07-08",
+    "last_sale_price": 625000,
+    "assessed_value": 1200900,
+    "lot_size": 0.0745
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.7,
+  "max_score": 5,
+  "total_cost": 8421.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2024-05-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Wire 3rd floor for a music room",
+      "cost": 156.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Joseph Spinale",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2023-12-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Renovation of 3rd floor, add (2) shed roofed dormers. Reframe stairs from 2nd to 3rd floor.",
+      "cost": 8205.0,
+      "property_use": "Building Permit - Residential Addition",
+      "contractor": "Our House Contracting",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: renovation; minor: shed; permit completed; all permits completed"
+    },
+    {
+      "date": "2023-06-16",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replacement of existing gas furnace",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "128 Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "address": "82 BENTON RD, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=82+BENTON+RD%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/82%20BENTON%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=82+BENTON+RD%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 2147,
+    "last_sale_date": "2006-11-09",
+    "last_sale_price": 425000,
+    "assessed_value": 920800,
+    "lot_size": 0.0577
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Porter",
+  "distance_mi": 0.72,
+  "max_score": 3,
+  "total_cost": 480.0,
+  "permit_count": 3,
+  "completed_permits": 5,
+  "completion_ratio": "5/6 complete",
+  "permits": [
+    {
+      "date": "2024-05-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Upgrade electrical service (100a to 200a)",
+      "cost": 100.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Mathew Wilson - Electrician",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2024-08-12",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "5 ton heat pump, air handler and 10 KW heat strips",
+      "cost": 120.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Four Star Lighting & Electric Inc.",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2024-03-04",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Partial Shingle Roof replacement - 9 SQ",
+      "cost": 260.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "RB Farina Roofing & Construction",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permits reflect standard maintenance and system upgrades (roof, HVAC, and electrical) by a long-term owner-occupant without any indication of high-end cosmetic renovations."
+  }
+}

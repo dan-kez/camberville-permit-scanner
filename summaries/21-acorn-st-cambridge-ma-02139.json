@@ -1,0 +1,40 @@
+{
+  "address": "21 ACORN ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+ACORN+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/21%20ACORN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=21+ACORN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1920",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "6",
+    "living_area": "1984",
+    "last_sale_date": "1999-12-28T00:00:00.000",
+    "last_sale_price": "613500",
+    "assessed_value": "1697500",
+    "lot_size": "4495"
+  },
+  "property_use": "One or Two Family Dwelling",
+  "nearest_square": "Central",
+  "distance_mi": 0.62,
+  "max_score": 6,
+  "total_cost": 550000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-10-30",
+      "source": "Cambridge New Construction",
+      "status": "Active",
+      "description": "Erect a new single family home",
+      "cost": 550000.0,
+      "property_use": "One or Two Family Dwelling",
+      "contractor": "ANTONIO B NARDELLI, JR",
+      "owner_occupied": true,
+      "score": 6,
+      "score_reasons": "high cost ($550,000); new construction"
+    }
+  ]
+}

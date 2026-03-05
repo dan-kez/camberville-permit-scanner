@@ -1,0 +1,56 @@
+{
+  "address": "4 LAWSON TERR, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=4+LAWSON+TERR%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/4%20LAWSON%20TERR%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=4+LAWSON+TERR%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1348,
+    "last_sale_date": "1993-02-12",
+    "last_sale_price": 104500,
+    "assessed_value": 856300,
+    "lot_size": 0.0543
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Union",
+  "distance_mi": 0.38,
+  "max_score": 4,
+  "total_cost": 1669.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/4 complete",
+  "permits": [
+    {
+      "date": "2024-04-16",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Kitchen renovation, carpet replacement and chimney demolition",
+      "cost": 1538.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Luis Matute",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: renovation; permit completed"
+    },
+    {
+      "date": "2024-05-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Wire kitchen renovation",
+      "cost": 131.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Luis Matute",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: renovation; permit completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied by a long-term resident (30+ years) who is performing a single-room kitchen refresh rather than a full-scale renovation."
+  }
+}

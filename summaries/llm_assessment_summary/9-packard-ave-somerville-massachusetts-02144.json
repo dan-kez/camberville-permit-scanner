@@ -1,0 +1,92 @@
+{
+  "address": "9 PACKARD AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+PACKARD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/9%20PACKARD%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+PACKARD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 12,
+    "living_area": 3118,
+    "last_sale_date": "2023-05-03",
+    "last_sale_price": 1225000,
+    "assessed_value": 2238600,
+    "lot_size": 0.0839
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Davis",
+  "distance_mi": 0.42,
+  "max_score": 7,
+  "total_cost": 8934.5,
+  "permit_count": 5,
+  "completed_permits": 5,
+  "completion_ratio": "5/5 complete",
+  "permits": [
+    {
+      "date": "2023-06-14",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Interior: kitchen renovation - open up wall between kitchen and living space, new LVL, refinish hardwood floors; renovate bathrooms. Exterior: strip existing and add new hardi plank clap; new vinyl replacement windows; new PVC trim where applicable; new exterior doors (5), new decking with same footprint (Changing 2 fam to 1 fam per plans)",
+      "cost": 7272.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Bob Keach & Sons Carpentry",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovate; permit completed; all permits completed"
+    },
+    {
+      "date": "2023-09-08",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remodel existing bathrooms and kitchen",
+      "cost": 210.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Martin Rylands Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+    },
+    {
+      "date": "2023-10-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install new wiring for single family home. 4 bedroom, 3.5 bathrooms.   New service upgrade from 100 to 200",
+      "cost": 613.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Figueroa Electric",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2023-11-02",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Fujitsu 17.3 Seer and 11 HSPF heat-pump system. The system will have a 3 ton inverter condenser working with a variable speed 3 ton air handler.",
+      "cost": 779.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "ALDOS HVAC LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2023-09-08",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "replace existing water heater and relocate existing gas for stove",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "Martin Rylands Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: water heater; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The property underwent a comprehensive whole-house renovation, including a 2-family to 1-family conversion and full kitchen/bathroom updates, immediately following its May 2023 purchase."
+  }
+}

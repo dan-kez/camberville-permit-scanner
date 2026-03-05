@@ -1,0 +1,40 @@
+{
+  "address": "3 WALLACE ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+WALLACE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/3%20WALLACE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=3+WALLACE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 11,
+    "living_area": 1963,
+    "last_sale_date": "2000-12-15",
+    "last_sale_price": 372500,
+    "assessed_value": 1386300,
+    "lot_size": 0.055900000000000005
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Davis",
+  "distance_mi": 0.1,
+  "max_score": 1,
+  "total_cost": 1220.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/4 complete",
+  "permits": [
+    {
+      "date": "2023-09-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "22 REC 405W panels with micros. Roof mounted. No structural upgrades. No ESS (8.910 kW)",
+      "cost": 1220.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Newport Electric Construction",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "keyword: structural; minor: panel; permit completed"
+    }
+  ]
+}

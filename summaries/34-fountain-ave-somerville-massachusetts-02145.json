@@ -1,0 +1,40 @@
+{
+  "address": "34 FOUNTAIN AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=34+FOUNTAIN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/34%20FOUNTAIN%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=34+FOUNTAIN+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1546,
+    "last_sale_date": "1990-08-31",
+    "last_sale_price": 80000,
+    "assessed_value": 736200,
+    "lot_size": 0.058800000000000005
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.38,
+  "max_score": 5,
+  "total_cost": 60.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-02-26",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Repair, meter socket",
+      "cost": 60.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Robinson duran marte",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

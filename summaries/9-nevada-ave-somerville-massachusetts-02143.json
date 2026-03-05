@@ -1,0 +1,100 @@
+{
+  "address": "9 NEVADA AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=9+NEVADA+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/9%20NEVADA%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+NEVADA+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1895,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 4,
+    "living_area": 957,
+    "last_sale_date": "2023-08-02",
+    "last_sale_price": 970000,
+    "assessed_value": 931000,
+    "lot_size": 0.0545
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Inman",
+  "distance_mi": 0.56,
+  "max_score": 7,
+  "total_cost": 3499.5,
+  "permit_count": 6,
+  "completed_permits": 6,
+  "completion_ratio": "6/6 complete",
+  "permits": [
+    {
+      "date": "2024-05-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Remodel kitchen. Repair existing closed in porch.",
+      "cost": 2388.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Old Court Carpenters",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: remodel; permit completed; all permits completed"
+    },
+    {
+      "date": "2023-07-19",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Added gfci outlets on front and back decks",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Edward Piemonte Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-02-12",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Provide power for a AC/Heat unit.",
+      "cost": 135.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Jaconias Silva Euriques Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-04-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Heat Pump Mini Split Ductless",
+      "cost": 652.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "ALDOS HVAC LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-07-05",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "kitchen and mudroom rewire plus service upgrade   100amp to 200 amp",
+      "cost": 219.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Bryan Harte",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-07-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Re-pipe existing kitchen",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Martin Rylands Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

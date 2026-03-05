@@ -1,0 +1,41 @@
+{
+  "address": "16 BOSTON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+BOSTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "property_info": {
+    "property_class": "1040",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 16,
+    "living_area": 3374,
+    "last_sale_date": "2022-05-04",
+    "last_sale_price": 1050000,
+    "assessed_value": 1290700,
+    "lot_size": 0.0659
+  },
+  "property_use": "Certificate of Occupancy - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.59,
+  "max_score": 2,
+  "total_cost": 130.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2026-02-05",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "converted 2 family to single family",
+      "cost": 130.0,
+      "property_use": "Certificate of Occupancy - Residential",
+      "contractor": "STR Properties Unlimited LLC",
+      "score": 2,
+      "score_reasons": "keyword: convert"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The structural conversion of a 2-family to a single-family indicates a value-add renovation intended to increase property value for a future sale."
+  }
+}

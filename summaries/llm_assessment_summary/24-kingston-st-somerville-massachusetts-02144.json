@@ -1,0 +1,116 @@
+{
+  "address": "24 KINGSTON ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=24+KINGSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/24%20KINGSTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=24+KINGSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1719,
+    "last_sale_date": "2020-10-01",
+    "last_sale_price": 1,
+    "assessed_value": 1244100,
+    "lot_size": 0.0506
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.19,
+  "max_score": 5,
+  "total_cost": 2979.5,
+  "permit_count": 7,
+  "completed_permits": 6,
+  "completion_ratio": "6/8 complete",
+  "permits": [
+    {
+      "date": "2024-09-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Kitchen remodeling and new lights layout",
+      "cost": 108.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Blacklight electric inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "keyword: remodel; permit completed; most permits completed"
+    },
+    {
+      "date": "2023-08-14",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Installed power/control wiring for 5 ton ductless mini split with 6 ductless fan coils.\r\nB23-001081",
+      "cost": 135.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "D'Ambrosio Electric Inc.",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2024-08-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace cabinets, no walls opened.  No layout changes.   One window replaced.",
+      "cost": 1776.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Stella Construction",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2024-09-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Disconnect and reconnect kitchen sink and gas stove",
+      "cost": 60.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Precision Plumbing & HVAC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2024-09-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "disconnect and reconnect gas stove",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "Precision Plumbing & HVAC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2023-08-25",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Install New Heat Pump",
+      "cost": 840.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Cooling Unlimited, Inc.",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed"
+    },
+    {
+      "date": "2024-10-02",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Jeremy Blackowicz",
+      "cost": 0.0,
+      "property_use": "Public Event License - Public Event/Special Alcohol License",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The recent work consists of a kitchen refresh and HVAC upgrades by an owner-occupant, lacking the simultaneous multi-room renovations typical of a property being flipped or prepared for sale."
+  }
+}

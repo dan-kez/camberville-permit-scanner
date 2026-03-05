@@ -1,0 +1,40 @@
+{
+  "address": "88 PROPERZI WAY, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=88+PROPERZI+WAY%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/88%20PROPERZI%20WAY%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=88+PROPERZI+WAY%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1850,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1625,
+    "last_sale_date": "2018-10-23",
+    "last_sale_price": 1600000,
+    "assessed_value": 1775600,
+    "lot_size": 0.1693
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Inman",
+  "distance_mi": 0.59,
+  "max_score": 5,
+  "total_cost": 45.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-10-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "2 deck plugs",
+      "cost": 45.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Jose D. Andrade",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

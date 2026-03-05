@@ -1,0 +1,100 @@
+{
+  "address": "60 AVON ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=60+AVON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/60%20AVON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=60+AVON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1930,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1808,
+    "last_sale_date": "1972-01-19",
+    "last_sale_price": 33000,
+    "assessed_value": 1000300,
+    "lot_size": 0.1218
+  },
+  "property_use": "Building Permit - Residential Alteration",
+  "nearest_square": "Union",
+  "distance_mi": 0.67,
+  "max_score": 7,
+  "total_cost": 17306.0,
+  "permit_count": 6,
+  "completed_permits": 6,
+  "completion_ratio": "6/6 complete",
+  "permits": [
+    {
+      "date": "2024-07-25",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Non-structural interior demolition down to studs",
+      "cost": 436.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Fombelle Design",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: demolition; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-07-18",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Demo make safe",
+      "cost": 75.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Luciano Miranda Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-10-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "ASBESTOS REMOVAL",
+      "cost": 400.0,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Advanced Abatement",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-10-01",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "renovating the interior and landscape of the existing property",
+      "cost": 16045.0,
+      "property_use": "Building Permit - Residential Alteration",
+      "contractor": "Fombelle Design",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2024-10-30",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "1 water heater, 1 ejector pump, 1 bar sink, 1 kitchen,  1 ice maker, 1 half bath, 1 wet bar, 1 utility sink, 1 laundry, 1 full bath, 1 master bath and 1 3/4 bath",
+      "cost": 280.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "Innovate Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: full; minor: water heater; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-10-30",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "1 gas water heater, 1 gas stove and 2 furnaces",
+      "cost": 70.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "Innovate Plumbing & Heating",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "minor: furnace; permit completed; all permits completed"
+    }
+  ]
+}

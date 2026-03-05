@@ -1,0 +1,44 @@
+{
+  "address": "53 BROOKLINE ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=53+BROOKLINE+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/53%20BROOKLINE%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=53+BROOKLINE+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1986",
+    "bedrooms": "2",
+    "bathrooms": "2/0",
+    "total_rooms": "4",
+    "living_area": "1173",
+    "last_sale_date": "2009-12-18T00:00:00.000",
+    "last_sale_price": "474000",
+    "assessed_value": "1112700",
+    "lot_size": "1034"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.18,
+  "max_score": 3,
+  "total_cost": 69108.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-01-27",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Renovate bathroom. \u00a0Remove tub and tile new shower. \u00a0Replace vanity.",
+      "cost": 69108.0,
+      "property_use": "One-Family",
+      "contractor": "Essex Restoration",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($69,108); keyword: renovate"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "A long-term owner-occupant (16 years) is performing a single bathroom renovation rather than a full-scale multi-room update."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "address": "19 CAMPBELL PK, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+CAMPBELL+PK%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/19%20CAMPBELL%20PK%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=19+CAMPBELL+PK%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1891,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 1722,
+    "last_sale_date": "1992-09-10",
+    "last_sale_price": 187500,
+    "assessed_value": 1148300,
+    "lot_size": 0.0494
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Davis",
+  "distance_mi": 0.19,
+  "max_score": 4,
+  "total_cost": 210.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-10-07",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Residential weatherization/air sealing. No structural changes. (15879110)",
+      "cost": 210.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "HomeWorks Energy",
+      "owner_occupied": true,
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is for minor weatherization by a long-term owner-occupant, which is consistent with routine maintenance rather than preparation for sale."
+  }
+}

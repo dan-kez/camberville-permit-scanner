@@ -1,0 +1,33 @@
+{
+  "address": "19 ACORN ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=19+ACORN+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/19%20ACORN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=19+ACORN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.61,
+  "max_score": 5,
+  "total_cost": 450000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-11-24",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "renovate existing single fam home. home to remain single fam",
+      "cost": 450000.0,
+      "property_use": "One-Family",
+      "contractor": "Nardelli Enterprises Inc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($450,000); keyword: renovate"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The extremely high permit cost of $450,000 for a single-family renovation indicates a comprehensive whole-house gut project, which is a primary indicator for preparing a property for sale."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "address": "54 GARFIELD ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=54+GARFIELD+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/54%20GARFIELD%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=54+GARFIELD+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "1890",
+    "bedrooms": "6",
+    "bathrooms": "3/1",
+    "total_rooms": "12",
+    "living_area": "4585",
+    "last_sale_date": "2019-01-30T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "4492800",
+    "lot_size": "7150"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.34,
+  "max_score": 5,
+  "total_cost": 521235.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-03-27",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Extend first floor kitchen and second floor bathroom as per drawings. remodel two second floor bathrooms, remoldel second floor wet room to shower room and laundry,Remodel first floor kitchen and half bathroom. New entry to top floor unit to drive way side of building with deck and stairs.",
+      "cost": 521235.0,
+      "property_use": "Two-Family",
+      "contractor": "b p donoghue carpentry llc",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "high cost ($521,235); keyword: remodel"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The property is undergoing a massive $521,235 renovation that includes simultaneous full-scale updates to the kitchen and multiple bathrooms, which is a primary indicator for pre-sale preparation."
+  }
+}

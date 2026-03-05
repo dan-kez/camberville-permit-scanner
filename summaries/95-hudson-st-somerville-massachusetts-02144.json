@@ -1,0 +1,52 @@
+{
+  "address": "95 HUDSON ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=95+HUDSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/95%20HUDSON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=95+HUDSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 1783,
+    "last_sale_date": "2020-08-07",
+    "last_sale_price": 1125000,
+    "assessed_value": 1204700,
+    "lot_size": 0.0723
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Porter",
+  "distance_mi": 0.61,
+  "max_score": 5,
+  "total_cost": 884.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2023-06-15",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install deck 7'x10' plus stairs coming out of the existing sliding door. Replace the existing side steps with composite materials. Size will not be modified.",
+      "cost": 604.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "MASONWORKS LLC",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    },
+    {
+      "date": "2023-08-15",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replacing the shingles of old roof above front porch; Replacing rubber membrane on top of garage",
+      "cost": 280.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Home Vision Co.",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ]
+}

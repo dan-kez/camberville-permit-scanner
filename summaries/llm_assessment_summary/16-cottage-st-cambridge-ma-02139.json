@@ -1,0 +1,44 @@
+{
+  "address": "16 COTTAGE ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=16+COTTAGE+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/16%20COTTAGE%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=16+COTTAGE+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1982",
+    "bedrooms": "3",
+    "bathrooms": "1/1",
+    "total_rooms": "6",
+    "living_area": "1492",
+    "last_sale_date": "2022-12-09T00:00:00.000",
+    "last_sale_price": "1525000",
+    "assessed_value": "1341500",
+    "lot_size": "2163"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.22,
+  "max_score": 10,
+  "total_cost": 217750.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-09-18",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Third Story bedroom renovation. Adding a bathroom in the primary bedroom. Replacing 3 windows.",
+      "cost": 217750.0,
+      "property_use": "One-Family",
+      "contractor": "Top Notch Contracting",
+      "owner_occupied": true,
+      "score": 10,
+      "score_reasons": "high cost ($217,750); keyword: renovation; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The high cost of the primary suite renovation by a relatively recent owner-occupant indicates significant value-adding, but the limited scope to a single floor and the lack of a kitchen update lean toward personal use."
+  }
+}

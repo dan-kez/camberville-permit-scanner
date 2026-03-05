@@ -1,0 +1,44 @@
+{
+  "address": "36 IRVING ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=36+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/36%20IRVING%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=36+IRVING+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1978",
+    "bedrooms": "2",
+    "bathrooms": "2/0",
+    "total_rooms": "6",
+    "living_area": "1174",
+    "last_sale_date": "2003-08-20T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1390000",
+    "lot_size": "1953"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.6,
+  "max_score": 10,
+  "total_cost": 634310.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-10-18",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Complete renovation of interior consisting of gutting the property. Installing new finishes and mechanaical systems. The proporty will be converted to all electric.",
+      "cost": 634310.0,
+      "property_use": "One-Family",
+      "contractor": "Kempton Construction Llc.",
+      "owner_occupied": true,
+      "score": 10,
+      "score_reasons": "high cost ($634,310); keyword: gut; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "A comprehensive $634,000 gut renovation and mechanical overhaul of a small single-family property after 20 years of ownership is a strong indicator of preparation for a high-value sale."
+  }
+}

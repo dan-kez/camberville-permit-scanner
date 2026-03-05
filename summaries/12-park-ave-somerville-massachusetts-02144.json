@@ -1,0 +1,50 @@
+{
+  "address": "12 PARK AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=12+PARK+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/12%20PARK%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=12+PARK+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2094,
+    "last_sale_date": "1999-05-26",
+    "last_sale_price": 369000,
+    "assessed_value": 1583100,
+    "lot_size": 0.1101
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.08,
+  "max_score": 2,
+  "total_cost": 1618.0,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2025-10-09",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "10.32KW Solar System consisting 24 x SEG 430W Modules/24 x Enphase IQ8+ Microinverters\r\nB25-001420",
+      "cost": 210.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Better Solar Solutions, LLC",
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed"
+    },
+    {
+      "date": "2025-10-22",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Installing ONLY the roof attachments and rails for 24 solar panels (10.32 kW DC)\r\nE25-001217",
+      "cost": 1408.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "Hallmark Homes Associates, Inc.",
+      "score": 2,
+      "score_reasons": "minor: solar; permit completed; all permits completed"
+    }
+  ]
+}

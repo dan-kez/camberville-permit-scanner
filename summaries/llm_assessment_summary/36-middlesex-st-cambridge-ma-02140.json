@@ -1,0 +1,44 @@
+{
+  "address": "36 MIDDLESEX ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=36+MIDDLESEX+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/36%20MIDDLESEX%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=36+MIDDLESEX+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "4",
+    "bathrooms": "2/0",
+    "total_rooms": "8",
+    "living_area": "2130",
+    "last_sale_date": "2003-08-18T00:00:00.000",
+    "last_sale_price": "638000",
+    "assessed_value": "2028100",
+    "lot_size": "4478"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.51,
+  "max_score": 3,
+  "total_cost": 29144.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-11-13",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Removing and replacing 10 windows, replacing like with like, no structural changes.",
+      "cost": 29144.0,
+      "property_use": "One-Family",
+      "contractor": "Robicco, Inc.",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($29,144); keyword: structural"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "Single maintenance project (window replacement) by a long-term owner-occupant (20+ years) typically indicates routine upkeep rather than a preparation for sale."
+  }
+}

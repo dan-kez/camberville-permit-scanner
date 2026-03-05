@@ -1,0 +1,64 @@
+{
+  "address": "88 ORCHARD ST, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=88+ORCHARD+ST%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/88%20ORCHARD%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=88+ORCHARD+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1898,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 12,
+    "living_area": 3737,
+    "last_sale_date": "2022-09-28",
+    "last_sale_price": 1850000,
+    "assessed_value": 2405600,
+    "lot_size": 0.1092
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.27,
+  "max_score": 3,
+  "total_cost": 1764.0,
+  "permit_count": 3,
+  "completed_permits": 4,
+  "completion_ratio": "4/5 complete",
+  "permits": [
+    {
+      "date": "2023-09-21",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Rewire of old house",
+      "cost": 906.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Gregg Landry Electrician",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2024-01-11",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "vented gas fire place 1st floor",
+      "cost": 60.0,
+      "property_use": "Gas Fitting - Residential - Existing",
+      "contractor": "jf gallant",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2023-09-28",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Install New Heat Pump",
+      "cost": 798.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "Cooling Unlimited, Inc.",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed"
+    }
+  ]
+}

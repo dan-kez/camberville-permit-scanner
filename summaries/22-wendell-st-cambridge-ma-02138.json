@@ -1,0 +1,29 @@
+{
+  "address": "22 WENDELL ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=22+WENDELL+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/22%20WENDELL%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=22+WENDELL+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.48,
+  "max_score": 2,
+  "total_cost": 507000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-02-08",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Gut renovation of Existing Interior and Exterior of building. Dig out existing foundation approx. 2' to add ceiling height to basement. Existing interior walls to remain. Install new roof, siding, windows and doors.",
+      "cost": 507000.0,
+      "property_use": "One-Family",
+      "contractor": "",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($507,000); keyword: gut; minor: siding"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "address": "2 BERKSHIRE PL, CAMBRIDGE, MA 02141",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=2+BERKSHIRE+PL%2C+CAMBRIDGE%2C+MA+02141",
+  "zillow_url": "https://www.zillow.com/homes/2%20BERKSHIRE%20PL%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
+  "google_search_url": "https://www.google.com/search?q=2+BERKSHIRE+PL%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1978",
+    "bedrooms": "4",
+    "bathrooms": "3/0",
+    "total_rooms": "9",
+    "living_area": "1728",
+    "last_sale_date": "2016-01-21T00:00:00.000",
+    "last_sale_price": "970000",
+    "assessed_value": "1917700",
+    "lot_size": "4496"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.57,
+  "max_score": 5,
+  "total_cost": 182200.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-07-14",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "raise roof on front side of house to match rear of house per plans, install new HVAC unit, rewire top floor,replace windows on top floor, remodel bathroom complete,install new prefinish hardwood floors,install new doors and baseboards,insulate exterior walls, drywall and tape finish,paint interior,remove vynil siding and replace with hardi siding and pvc trims, repiar masonary steps,repair and paint deck",
+      "cost": 182200.0,
+      "property_use": "One-Family",
+      "contractor": "allen and sons",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "moderate cost ($182,200); keyword: remodel; minor: replace windows; permit completed; all permits completed"
+    }
+  ]
+}

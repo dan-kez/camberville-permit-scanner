@@ -1,0 +1,44 @@
+{
+  "address": "74 BOSTON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=74+BOSTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/74%20BOSTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=74+BOSTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1955,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1433,
+    "last_sale_date": "1992-06-25",
+    "last_sale_price": 120100,
+    "assessed_value": 1147000,
+    "lot_size": 0.0707
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Davis",
+  "distance_mi": 0.64,
+  "max_score": 7,
+  "total_cost": 200.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-06-13",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Install 7 Harvey Classic, Energy Star, Inserts only with no Structural Work",
+      "cost": 200.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Fisher Windows",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: structural; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is for minor window replacement by a long-term (30+ year) owner-occupant, which is typical maintenance rather than a pre-sale renovation."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "address": "38 FULKERSON ST, CAMBRIDGE, MA 02141",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=38+FULKERSON+ST%2C+CAMBRIDGE%2C+MA+02141",
+  "zillow_url": "https://www.zillow.com/homes/38%20FULKERSON%20ST%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
+  "google_search_url": "https://www.google.com/search?q=38+FULKERSON+ST%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "3",
+    "bathrooms": "1/1",
+    "total_rooms": "6",
+    "living_area": "1520",
+    "last_sale_date": "2019-08-27T00:00:00.000",
+    "last_sale_price": "1075000",
+    "assessed_value": "1233800",
+    "lot_size": "1612"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.66,
+  "max_score": 5,
+  "total_cost": 45000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-07-18",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Kitchen Renovation:**- Removal of existing fixtures/cabinetry.- Installation of new custom cabinets, countertops, and appliances.- Plumbing and electrical updates to meet code.2. **Recessed Lighting:**- Installation of recessed LED lights in designated areas.3. **Engineering Floor Installation:**- Professional installation of engineered hardwood flooring throughout the main living area.",
+      "cost": 45000.0,
+      "property_use": "One-Family",
+      "contractor": "Diego p pinto",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "moderate cost ($45,000); keyword: renovation; minor: sign; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied and the renovation is limited to a kitchen and flooring refresh without the simultaneous bathroom updates characteristic of a high-end pre-sale preparation."
+  }
+}

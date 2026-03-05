@@ -1,0 +1,44 @@
+{
+  "address": "154 PLEASANT ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=154+PLEASANT+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/154%20PLEASANT%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=154+PLEASANT+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1879",
+    "bedrooms": "2",
+    "bathrooms": "3/1",
+    "total_rooms": "6",
+    "living_area": "1443",
+    "last_sale_date": "2020-12-30T00:00:00.000",
+    "last_sale_price": "1470000",
+    "assessed_value": "1287700",
+    "lot_size": "1588"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.6,
+  "max_score": 8,
+  "total_cost": 31995.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-10-18",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Replace 10 windows with new Andersen 400 series , interior solid wood/exterior white clad, full divifded lights U Factor 0.31 SHGC 0.27",
+      "cost": 31995.0,
+      "property_use": "One-Family",
+      "contractor": "Elite Co Boston Quality LLC",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($31,995); keyword: full; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent permit is for window replacement by an owner-occupant, which is classified as maintenance work rather than a high-end renovation."
+  }
+}

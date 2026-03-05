@@ -1,0 +1,56 @@
+{
+  "address": "6 WALNUT AVE, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=6+WALNUT+AVE%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/6%20WALNUT%20AVE%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=6+WALNUT+AVE%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SINGLE FAM W/AUXILIARY APT",
+    "year_built": "1886",
+    "bedrooms": "7",
+    "bathrooms": "4/3",
+    "total_rooms": "12",
+    "living_area": "5089",
+    "last_sale_date": "1993-07-14T00:00:00.000",
+    "last_sale_price": "8700",
+    "assessed_value": "5975200",
+    "lot_size": "26492"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.21,
+  "max_score": 3,
+  "total_cost": 109406.0,
+  "permit_count": 2,
+  "completed_permits": 1,
+  "completion_ratio": "1/2 complete",
+  "permits": [
+    {
+      "date": "2024-07-29",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Replace rotten 3rd floor emergency egress structure, in kind.",
+      "cost": 56965.0,
+      "property_use": "One-Family",
+      "contractor": "S+H Construction",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($56,965); permit completed"
+    },
+    {
+      "date": "2026-01-16",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Replace coroded lally columns in carraige house basement at beam as per engineers specifications",
+      "cost": 52441.0,
+      "property_use": "One-Family",
+      "contractor": "S+H Construction, Inc.",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($52,441)"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property has been held long-term since 1993 and the recent permits are strictly for structural maintenance (egress and columns) by an owner-occupant rather than high-end cosmetic renovations."
+  }
+}

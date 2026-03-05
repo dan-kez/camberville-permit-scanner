@@ -1,0 +1,44 @@
+{
+  "address": "103 AVON HILL ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=103+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/103%20AVON%20HILL%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=103+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "3",
+    "bathrooms": "2/1",
+    "total_rooms": "9",
+    "living_area": "1688",
+    "last_sale_date": "1993-04-07T00:00:00.000",
+    "last_sale_price": "398000",
+    "assessed_value": "2020800",
+    "lot_size": "3750"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.36,
+  "max_score": 3,
+  "total_cost": 27200.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-03-22",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Kitchen remodel including removal of a load-bearing wall and installation of LVL beam.",
+      "cost": 27200.0,
+      "property_use": "One-Family",
+      "contractor": "EMC Company",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($27,200); keyword: remodel"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "A long-term owner-occupant of over 30 years performing a single kitchen remodel without concurrent bathroom updates is characteristic of personal property improvement rather than sale preparation."
+  }
+}

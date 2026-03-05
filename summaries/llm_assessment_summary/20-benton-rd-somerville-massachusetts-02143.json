@@ -1,0 +1,41 @@
+{
+  "address": "20 BENTON RD, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20+BENTON+RD%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1930,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2039,
+    "last_sale_date": "1997-07-01",
+    "last_sale_price": 374000,
+    "assessed_value": 1632200,
+    "lot_size": 0.25880000000000003
+  },
+  "property_use": "Building Permit - Residential Other",
+  "nearest_square": "Porter",
+  "distance_mi": 0.64,
+  "max_score": 4,
+  "total_cost": 380.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-11-04",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Residential weatherization/air sealing. No structural changes. (368586507)",
+      "cost": 380.0,
+      "property_use": "Building Permit - Residential Other",
+      "contractor": "HomeWorks Energy",
+      "score": 4,
+      "score_reasons": "keyword: structural; minor: weatherization; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permits consist of a single, low-cost weatherization project with no structural changes, indicating maintenance rather than a sale-focused renovation."
+  }
+}

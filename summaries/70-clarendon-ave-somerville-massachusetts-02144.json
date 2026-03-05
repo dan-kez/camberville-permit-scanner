@@ -1,0 +1,52 @@
+{
+  "address": "70 CLARENDON AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=70+CLARENDON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/70%20CLARENDON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=70+CLARENDON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1930,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 1098,
+    "last_sale_date": "2011-06-10",
+    "last_sale_price": 437500,
+    "assessed_value": 1015000,
+    "lot_size": 0.0736
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.5,
+  "max_score": 2,
+  "total_cost": 643.0,
+  "permit_count": 2,
+  "completed_permits": 1,
+  "completion_ratio": "1/5 complete",
+  "permits": [
+    {
+      "date": "2023-07-28",
+      "source": "Somerville",
+      "status": "Withdrawn",
+      "description": "addition and renovation \r\nWITHDRAWN PER APPLICANT SEE ONLINE MESSAGE - JS 3/18/24",
+      "cost": 123.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "VICTHOR ARGUEDAS ELECTRICIAN",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    },
+    {
+      "date": "2024-09-05",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Replace the siding on three sides of the house (front, left, and right). Rebuild the front steps with composite materials (three front granite steps, which will be replaced with composite).",
+      "cost": 520.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Golden Key Construction",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "keyword: rebuild; minor: siding; permit completed"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "address": "158 AUBURN ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=158+AUBURN+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/158%20AUBURN%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=158+AUBURN+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1805",
+    "bedrooms": "2",
+    "bathrooms": "2/0",
+    "total_rooms": "6",
+    "living_area": "1933",
+    "last_sale_date": "2024-09-27T00:00:00.000",
+    "last_sale_price": "99500",
+    "assessed_value": "1519000",
+    "lot_size": "3320"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.15,
+  "max_score": 1,
+  "total_cost": 102265.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-10-23",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Work to basement, first floor living room per preservation collaborative plans attached.",
+      "cost": 102265.0,
+      "property_use": "One-Family",
+      "contractor": "Toro Construction",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($102,265)"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied and the permit for basement and living room work lacks the high-end kitchen and bathroom updates typically associated with pre-sale renovations."
+  }
+}

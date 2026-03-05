@@ -1,0 +1,33 @@
+{
+  "address": "55 REED ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=55+REED+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/55%20REED%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=55+REED+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": null,
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.5,
+  "max_score": 8,
+  "total_cost": 148000.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2025-03-07",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Bath renovation.\u00a0 Replace Exterior Door same location",
+      "cost": 148000.0,
+      "property_use": "One-Family",
+      "contractor": "Carpenter & MacNeille Architects and Builders, Inc.",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($148,000); keyword: renovation; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The renovation is limited to a single bathroom and an exterior door by an owner-occupant, suggesting personal property improvement rather than a multi-room preparation for sale."
+  }
+}

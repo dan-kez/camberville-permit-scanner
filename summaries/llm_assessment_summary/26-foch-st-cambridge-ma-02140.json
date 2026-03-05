@@ -1,0 +1,44 @@
+{
+  "address": "26 FOCH ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=26+FOCH+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/26%20FOCH%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=26+FOCH+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1888",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "9",
+    "living_area": "1426",
+    "last_sale_date": "2021-12-29T00:00:00.000",
+    "last_sale_price": "1024000",
+    "assessed_value": "1096400",
+    "lot_size": "5002"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.72,
+  "max_score": 2,
+  "total_cost": 213800.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-07-30",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Attic space will be remodeled , rood will be lifted and rebuilt in accordance with Designed plans : see attached",
+      "cost": 213800.0,
+      "property_use": "One-Family",
+      "contractor": "Markos Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($213,800); keyword: remodel; minor: sign"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The property is undergoing a significant $213,800 attic expansion and roof lift which adds substantial value, but the owner-occupied status and 4-year ownership period don't clearly meet the high-likelihood flip or low-likelihood maintenance criteria."
+  }
+}

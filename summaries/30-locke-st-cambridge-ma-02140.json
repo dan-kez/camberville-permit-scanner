@@ -1,0 +1,40 @@
+{
+  "address": "30 LOCKE ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=30+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/30%20LOCKE%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=30+LOCKE+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1965",
+    "bedrooms": "4",
+    "bathrooms": "3/1",
+    "total_rooms": "7",
+    "living_area": "2364",
+    "last_sale_date": "2017-02-22T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "2218800",
+    "lot_size": "3118"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Davis",
+  "distance_mi": 0.25,
+  "max_score": 6,
+  "total_cost": 50500.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-03-05",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Replace 5 windows",
+      "cost": 50500.0,
+      "property_use": "One-Family",
+      "contractor": "Boston Window and door LLC",
+      "owner_occupied": true,
+      "score": 6,
+      "score_reasons": "moderate cost ($50,500); permit completed; all permits completed"
+    }
+  ]
+}

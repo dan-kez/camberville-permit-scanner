@@ -1,0 +1,44 @@
+{
+  "address": "62 KIRKLAND ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=62+KIRKLAND+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/62%20KIRKLAND%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=62+KIRKLAND+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1903",
+    "bedrooms": "8",
+    "bathrooms": "4/0",
+    "total_rooms": "13",
+    "living_area": "3554",
+    "last_sale_date": "2024-01-12T00:00:00.000",
+    "last_sale_price": "3555000",
+    "assessed_value": "3202500",
+    "lot_size": "6036"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.62,
+  "max_score": 3,
+  "total_cost": 50000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-09-15",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Renovate the basement as described on the attached plans.-Existing gym and family room will be converted to bedrooms-Existing Office will be converted to Living room-Storage area to be converted into Kitchenette-1/2 Bath to be converted to a full bath.-Repartition mechanical room-Install 2 egress window in Bedrooms",
+      "cost": 50000.0,
+      "property_use": "One-Family",
+      "contractor": "Vast Developers LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($50,000); keyword: renovate"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "A significant basement conversion adding bedrooms and a kitchenette following a recent 2024 purchase suggests a value-add strategy, though the owner-occupied status and focused scope point toward personal use or a mid-term hold."
+  }
+}

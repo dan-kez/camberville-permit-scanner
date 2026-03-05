@@ -1,0 +1,56 @@
+{
+  "address": "15 ROBINSON ST, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+ROBINSON+ST%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/15%20ROBINSON%20ST%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=15+ROBINSON+ST%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1955",
+    "bedrooms": "3",
+    "bathrooms": "3/1",
+    "total_rooms": "6",
+    "living_area": "2160",
+    "last_sale_date": "2010-07-09T00:00:00.000",
+    "last_sale_price": "970000",
+    "assessed_value": "2866800",
+    "lot_size": "5015"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.49,
+  "max_score": 7,
+  "total_cost": 342071.2,
+  "permit_count": 2,
+  "completed_permits": 2,
+  "completion_ratio": "2/2 complete",
+  "permits": [
+    {
+      "date": "2025-04-17",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Finish Basement. Insulate and frame walls, install new prefinished flooring, install new dropped ceiling tile,re-locate washer/dryer, millwork, miscellaneous electricalfor lighting and painting.No structural change, no change of egress, no life safety modifications.",
+      "cost": 279371.2,
+      "property_use": "One-Family",
+      "contractor": "FBN Construction Company LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "high cost ($279,371); keyword: structural; minor: shed; permit completed; all permits completed"
+    },
+    {
+      "date": "2025-05-21",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "Remove waterdamaged beam and 2x4 framing. Install new beam and framing. Install new insulation, sheetrock and trim. Paint new work",
+      "cost": 62700.0,
+      "property_use": "One-Family",
+      "contractor": "O Connell Carpentry and Remodeling",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "moderate cost ($62,700); keyword: framing; minor: insulation; permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied by long-term owners and the permits focus on basement finishing and water damage repairs rather than the high-end kitchen and bathroom updates typically associated with sale preparation."
+  }
+}

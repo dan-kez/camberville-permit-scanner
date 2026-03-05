@@ -1,0 +1,44 @@
+{
+  "address": "6 LILAC CT, CAMBRIDGE, MA 02141",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=6+LILAC+CT%2C+CAMBRIDGE%2C+MA+02141",
+  "zillow_url": "https://www.zillow.com/homes/6%20LILAC%20CT%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
+  "google_search_url": "https://www.google.com/search?q=6+LILAC+CT%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1981",
+    "bedrooms": "2",
+    "bathrooms": "1/1",
+    "total_rooms": "5",
+    "living_area": "1368",
+    "last_sale_date": "2020-10-08T00:00:00.000",
+    "last_sale_price": "1400000",
+    "assessed_value": "1517200",
+    "lot_size": "2416"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.57,
+  "max_score": 2,
+  "total_cost": 316686.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-01-19",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Install new half bath. Replace/Move/Add 7 windows. Install 1 new 4 panel sliding door. Construct a 6' dormer addition. Infill the second story space. Renovate existing interior space. Plumbing reconfiguration. Electrical reconfiguration.",
+      "cost": 316686.0,
+      "property_use": "One-Family",
+      "contractor": "Kneeland Construction",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "high cost ($316,686); keyword: renovate; minor: panel"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The renovation is very significant ($316k) and involves structural additions like a dormer and second-story infill, but the property is owner-occupied and was purchased relatively recently in 2020."
+  }
+}

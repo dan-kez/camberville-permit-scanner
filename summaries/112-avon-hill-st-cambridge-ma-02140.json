@@ -1,0 +1,40 @@
+{
+  "address": "112 AVON HILL ST, CAMBRIDGE, MA 02140",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=112+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02140",
+  "zillow_url": "https://www.zillow.com/homes/112%20AVON%20HILL%20ST%2C%20CAMBRIDGE%2C%20MA%2002140_rb/",
+  "google_search_url": "https://www.google.com/search?q=112+AVON+HILL+ST%2C+CAMBRIDGE%2C+MA+02140+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1894",
+    "bedrooms": "4",
+    "bathrooms": "2/1",
+    "total_rooms": "12",
+    "living_area": "2409",
+    "last_sale_date": "2005-03-16T00:00:00.000",
+    "last_sale_price": "1542500",
+    "assessed_value": "3229900",
+    "lot_size": "5516"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.34,
+  "max_score": 3,
+  "total_cost": 205644.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-05-03",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Replace finishes only in kitchen and primary bathroom.",
+      "cost": 205644.0,
+      "property_use": "One-Family",
+      "contractor": "Bespoke Contracting LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "high cost ($205,644)"
+    }
+  ]
+}

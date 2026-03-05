@@ -1,0 +1,40 @@
+{
+  "address": "20 FAIRMONT AVE, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=20+FAIRMONT+AVE%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/20%20FAIRMONT%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=20+FAIRMONT+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "2",
+    "bathrooms": "1/1",
+    "total_rooms": "5",
+    "living_area": "1178",
+    "last_sale_date": "2015-10-07T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1589200",
+    "lot_size": "2680"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.5,
+  "max_score": 8,
+  "total_cost": 158799.9,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-11-16",
+      "source": "Cambridge Alteration",
+      "status": "Complete",
+      "description": "demolish the back mudroom and \u00a0rebuilt a replace with a new two story addition",
+      "cost": 158799.9,
+      "property_use": "One-Family",
+      "contractor": "Gilberto",
+      "owner_occupied": true,
+      "score": 8,
+      "score_reasons": "moderate cost ($158,800); keyword: addition; permit completed; all permits completed"
+    }
+  ]
+}

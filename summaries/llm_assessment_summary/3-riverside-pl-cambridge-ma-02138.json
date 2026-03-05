@@ -1,0 +1,44 @@
+{
+  "address": "3 RIVERSIDE PL, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=3+RIVERSIDE+PL%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/3%20RIVERSIDE%20PL%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=3+RIVERSIDE+PL%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1886",
+    "bedrooms": "3",
+    "bathrooms": "2/0",
+    "total_rooms": "7",
+    "living_area": "1558",
+    "last_sale_date": "2016-10-24T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1427800",
+    "lot_size": "1212"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.57,
+  "max_score": 3,
+  "total_cost": 96575.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-03-10",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Kitchen renovation: demolition, framing, plumbing, electrical/lighting, HVAC, floor covering, hang drywall & paint, cabinet & granite installation,",
+      "cost": 96575.0,
+      "property_use": "One-Family",
+      "contractor": "Roman's Renovation",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($96,575); keyword: renovation"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property is owner-occupied by a long-term resident (9 years) and the renovation is limited to a single room (kitchen) rather than a comprehensive whole-house update."
+  }
+}

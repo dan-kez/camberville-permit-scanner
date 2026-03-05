@@ -1,0 +1,44 @@
+{
+  "address": "24 AUTUMN ST, SOMERVILLE MASSACHUSETTS",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=24+AUTUMN+ST%2C+SOMERVILLE+MASSACHUSETTS",
+  "zillow_url": "https://www.zillow.com/homes/24%20AUTUMN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=24+AUTUMN+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 9,
+    "living_area": 1415,
+    "last_sale_date": "2000-10-23",
+    "last_sale_price": 260000,
+    "assessed_value": 704300,
+    "lot_size": 0.0335
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.66,
+  "max_score": 2,
+  "total_cost": 380.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-11-18",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Installing 16 replacement windows. No structural changes",
+      "cost": 380.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Power Home Remodeling Group",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: structural"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The permit is for standard window replacement maintenance by a long-term owner-occupant of 25 years with no signs of high-end renovations."
+  }
+}

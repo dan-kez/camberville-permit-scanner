@@ -1,0 +1,40 @@
+{
+  "address": "15 JAMES WAY, CAMBRIDGE, MA 02141",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=15+JAMES+WAY%2C+CAMBRIDGE%2C+MA+02141",
+  "zillow_url": "https://www.zillow.com/homes/15%20JAMES%20WAY%2C%20CAMBRIDGE%2C%20MA%2002141_rb/",
+  "google_search_url": "https://www.google.com/search?q=15+JAMES+WAY%2C+CAMBRIDGE%2C+MA+02141+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1984",
+    "bedrooms": "2",
+    "bathrooms": "1/1",
+    "total_rooms": "5",
+    "living_area": "1248",
+    "last_sale_date": "2015-09-09T00:00:00.000",
+    "last_sale_price": "1",
+    "assessed_value": "1042400",
+    "lot_size": "3550"
+  },
+  "property_use": "Townhouse",
+  "nearest_square": "Inman",
+  "distance_mi": 0.59,
+  "max_score": 3,
+  "total_cost": 26000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-08-11",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Renovate half bath firts floor to a full bathroom with a shower",
+      "cost": 26000.0,
+      "property_use": "Townhouse",
+      "contractor": "jt construction and remodeling LLC",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($26,000); keyword: renovate"
+    }
+  ]
+}

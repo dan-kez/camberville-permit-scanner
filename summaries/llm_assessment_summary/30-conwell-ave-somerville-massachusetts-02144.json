@@ -1,0 +1,44 @@
+{
+  "address": "30 CONWELL AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=30+CONWELL+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/30%20CONWELL%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=30+CONWELL+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1910,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2862,
+    "last_sale_date": "2021-09-15",
+    "last_sale_price": 1880000,
+    "assessed_value": 2007600,
+    "lot_size": 0.163
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.75,
+  "max_score": 5,
+  "total_cost": 300.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2023-07-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Service Upgrade",
+      "cost": 300.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Michael Tobio Electrician",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only permit is a minor $300 electrical service upgrade by an owner-occupant who purchased the property recently in 2021."
+  }
+}

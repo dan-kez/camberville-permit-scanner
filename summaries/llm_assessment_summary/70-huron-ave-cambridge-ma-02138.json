@@ -1,0 +1,44 @@
+{
+  "address": "70 HURON AVE, CAMBRIDGE, MA 02138",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=70+HURON+AVE%2C+CAMBRIDGE%2C+MA+02138",
+  "zillow_url": "https://www.zillow.com/homes/70%20HURON%20AVE%2C%20CAMBRIDGE%2C%20MA%2002138_rb/",
+  "google_search_url": "https://www.google.com/search?q=70+HURON+AVE%2C+CAMBRIDGE%2C+MA+02138+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1920",
+    "bedrooms": "3",
+    "bathrooms": "3/0",
+    "total_rooms": "9",
+    "living_area": "2602",
+    "last_sale_date": "1999-05-21T00:00:00.000",
+    "last_sale_price": "762500",
+    "assessed_value": "1868400",
+    "lot_size": "2890"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Porter",
+  "distance_mi": 0.56,
+  "max_score": 1,
+  "total_cost": 25661.47,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-05-17",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "removing existing bathrtub and surronding walls, install bath tub witn new tile wallsi nstall new plumbling drain and water lines thi new tub and shower valve.Paint areas suc as bathroom ceiling",
+      "cost": 25661.47,
+      "property_use": "One-Family",
+      "contractor": "Pann Home Services.com",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($25,661)"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "This is a single bathroom refresh by a long-term owner-occupant who has held the property since 1999."
+  }
+}

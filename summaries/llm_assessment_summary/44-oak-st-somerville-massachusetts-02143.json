@@ -1,0 +1,63 @@
+{
+  "address": "44 OAK ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=44+OAK+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 6,
+    "living_area": 952,
+    "last_sale_date": "2019-09-05",
+    "last_sale_price": 100,
+    "assessed_value": 747700,
+    "lot_size": 0.0273
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Inman",
+  "distance_mi": 0.13,
+  "max_score": 4,
+  "total_cost": 2390.5,
+  "permit_count": 3,
+  "completed_permits": 2,
+  "completion_ratio": "2/4 complete",
+  "permits": [
+    {
+      "date": "2025-10-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Kitchen and bathroom renovation, windows replacement and flooring replacement.",
+      "cost": 2032.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Passos Construction Corp",
+      "score": 4,
+      "score_reasons": "keyword: renovation; permit completed"
+    },
+    {
+      "date": "2025-11-10",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "renovation of kitchen and bathroom",
+      "cost": 158.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Carlos Camargo Electrician",
+      "score": 4,
+      "score_reasons": "keyword: renovation; permit completed"
+    },
+    {
+      "date": "2025-10-14",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Dumpster on Street for Kitchen and bathroom renovation",
+      "cost": 200.0,
+      "property_use": "Dumpster (Located on Street) Permit - Dumpster Located on Street",
+      "contractor": "Passos Construction Corp",
+      "score": 2,
+      "score_reasons": "keyword: renovation"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The property is undergoing significant renovation work on major systems and living spaces by professional contractors, though the sale date from 2019 suggests a longer-term investment rather than a quick flip."
+  }
+}

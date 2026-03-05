@@ -1,0 +1,44 @@
+{
+  "address": "52 VINAL AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=52+VINAL+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/52%20VINAL%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=52+VINAL+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2305,
+    "last_sale_date": "2016-10-14",
+    "last_sale_price": 1,
+    "assessed_value": 1230800,
+    "lot_size": 0.0755
+  },
+  "property_use": "Building Permit - Residential Repair",
+  "nearest_square": "Union",
+  "distance_mi": 0.42,
+  "max_score": 5,
+  "total_cost": 80.0,
+  "permit_count": 1,
+  "completed_permits": 1,
+  "completion_ratio": "1/1 complete",
+  "permits": [
+    {
+      "date": "2024-07-30",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Emergency Bathroom, Repair 1 section wall with insolation, cement board and re-tile wall section.",
+      "cost": 80.0,
+      "property_use": "Building Permit - Residential Repair",
+      "contractor": "Renove Boston",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The only recent activity is a minor $80 emergency bathroom repair by a long-term owner-occupant, which is consistent with routine maintenance rather than a pre-sale renovation."
+  }
+}

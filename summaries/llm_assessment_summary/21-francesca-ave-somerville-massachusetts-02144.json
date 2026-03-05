@@ -1,0 +1,56 @@
+{
+  "address": "21 FRANCESCA AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=21+FRANCESCA+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/21%20FRANCESCA%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=21+FRANCESCA+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 13,
+    "living_area": 3397,
+    "last_sale_date": "2021-01-27",
+    "last_sale_price": 1425000,
+    "assessed_value": 1361400,
+    "lot_size": 0.11610000000000001
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Davis",
+  "distance_mi": 0.22,
+  "max_score": 3,
+  "total_cost": 971.0,
+  "permit_count": 2,
+  "completed_permits": 3,
+  "completion_ratio": "3/5 complete",
+  "permits": [
+    {
+      "date": "2024-02-15",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "400A Overhead Service Upgrade.",
+      "cost": 135.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "JMR Electric Group",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2024-09-06",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Install 2 ducted mini split units with all ductwork",
+      "cost": 836.0,
+      "property_use": "Sheet Metal Permit - Residential",
+      "contractor": "Savino Energy",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "most permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The recent permits are for infrastructure maintenance (electrical upgrade and HVAC) performed by an owner-occupant who purchased the property relatively recently in 2021."
+  }
+}

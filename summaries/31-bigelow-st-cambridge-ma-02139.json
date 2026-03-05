@@ -1,0 +1,40 @@
+{
+  "address": "31 BIGELOW ST, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=31+BIGELOW+ST%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/31%20BIGELOW%20ST%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=31+BIGELOW+ST%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1873",
+    "bedrooms": "2",
+    "bathrooms": "3/1",
+    "total_rooms": "5",
+    "living_area": "2738",
+    "last_sale_date": "1990-09-27T00:00:00.000",
+    "last_sale_price": "0",
+    "assessed_value": "2271700",
+    "lot_size": "3128"
+  },
+  "property_use": "Two-Family",
+  "nearest_square": "Central",
+  "distance_mi": 0.24,
+  "max_score": 3,
+  "total_cost": 25000.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-10-04",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Replace all gutters as well as facias and soffits as needed. Prepare, prime, and paint all new work.",
+      "cost": 25000.0,
+      "property_use": "Two-Family",
+      "contractor": "Purdy Construction",
+      "owner_occupied": true,
+      "score": 3,
+      "score_reasons": "moderate cost ($25,000); keyword: gut"
+    }
+  ]
+}

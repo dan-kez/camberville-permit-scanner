@@ -1,0 +1,39 @@
+{
+  "address": "42 SARGENT AVE, SOMERVILLE MASSACHUSETTS 02145",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=42+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145",
+  "zillow_url": "https://www.zillow.com/homes/42%20SARGENT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=42+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1890,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 8,
+    "living_area": 2120,
+    "last_sale_date": "2022-11-09",
+    "last_sale_price": 1205000,
+    "assessed_value": 1328800,
+    "lot_size": 0.081
+  },
+  "property_use": "Electrical Permit - Residential",
+  "nearest_square": "Union",
+  "distance_mi": 0.73,
+  "max_score": 2,
+  "total_cost": 54.0,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2025-10-14",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "remodel basement, waffer lts, switches, outlets",
+      "cost": 54.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Kevin Escott Elect.",
+      "score": 2,
+      "score_reasons": "keyword: remodel"
+    }
+  ]
+}

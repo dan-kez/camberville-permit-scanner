@@ -1,0 +1,68 @@
+{
+  "address": "23 DANE AVE, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=23+DANE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "zillow_url": "https://www.zillow.com/homes/23%20DANE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=23+DANE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1885,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 5,
+    "living_area": 1091,
+    "last_sale_date": "2023-04-13",
+    "last_sale_price": 1167000,
+    "assessed_value": 1148600,
+    "lot_size": 0.1227
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Inman",
+  "distance_mi": 0.49,
+  "max_score": 7,
+  "total_cost": 1497.5,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/3 complete",
+  "permits": [
+    {
+      "date": "2023-12-27",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Renovate existing basement living space. R&R existing bath. Add bar sink. R&R existing slab in place. \u00c2\u00a0All work will be done in the existing footprint with no changes to exterior doors or windows.",
+      "cost": 1328.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "Cut Nail Rebuilders LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovate; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-02-28",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Basement renovation",
+      "cost": 79.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "Nadeau Electric LLC",
+      "owner_occupied": true,
+      "score": 7,
+      "score_reasons": "keyword: renovation; permit completed; all permits completed"
+    },
+    {
+      "date": "2024-01-19",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "update existing 3/5 bath and 1/2 bath",
+      "cost": 90.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "rigoli plumbing",
+      "owner_occupied": true,
+      "score": 5,
+      "score_reasons": "permit completed; all permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "low",
+    "reasoning": "The property was purchased recently in 2023 and is owner-occupied, indicating that the basement and bathroom renovations are likely homeowner improvements for personal use rather than preparations for a quick resale."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "address": "63 COLLEGE AVE, SOMERVILLE MASSACHUSETTS 02144",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=63+COLLEGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144",
+  "zillow_url": "https://www.zillow.com/homes/63%20COLLEGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=63+COLLEGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1900,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 10,
+    "living_area": 2667,
+    "last_sale_date": "2016-03-17",
+    "last_sale_price": 1690000,
+    "assessed_value": 2200800,
+    "lot_size": 0.0755
+  },
+  "property_use": "Building Permit - Residential Renovation",
+  "nearest_square": "Davis",
+  "distance_mi": 0.15,
+  "max_score": 2,
+  "total_cost": 4742.5,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2023-07-06",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Renovations full gut(s) of guest bathroom & master bathroom both on 2nd floor",
+      "cost": 4742.5,
+      "property_use": "Building Permit - Residential Renovation",
+      "contractor": "MBA Building Group",
+      "owner_occupied": true,
+      "score": 2,
+      "score_reasons": "keyword: gut"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "medium",
+    "reasoning": "The full gut renovation of multiple bathrooms including the master bath is a significant update typical of preparing for a sale, though owner-occupancy and the absence of kitchen renovations moderate the likelihood."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "address": "85 LOWELL ST, SOMERVILLE MASSACHUSETTS 02143",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=85+LOWELL+ST%2C+SOMERVILLE+MASSACHUSETTS+02143",
+  "property_info": {
+    "property_class": "1010",
+    "year_built": 1885,
+    "bedrooms": "unknown",
+    "bathrooms": "unknown",
+    "total_rooms": 7,
+    "living_area": 1846,
+    "last_sale_date": "1992-06-26",
+    "last_sale_price": 1,
+    "assessed_value": 1146100,
+    "lot_size": 0.0918
+  },
+  "property_use": "Plumbing Permit - Residential - Existing",
+  "nearest_square": "Porter",
+  "distance_mi": 0.48,
+  "max_score": 5,
+  "total_cost": 390.0,
+  "permit_count": 3,
+  "completed_permits": 3,
+  "completion_ratio": "3/4 complete",
+  "permits": [
+    {
+      "date": "2026-01-06",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Bathroom and kitchen renovation",
+      "cost": 165.0,
+      "property_use": "Plumbing Permit - Residential - Existing",
+      "contractor": "TREK Plumbing and Heating",
+      "score": 5,
+      "score_reasons": "keyword: renovation; permit completed; most permits completed"
+    },
+    {
+      "date": "2025-09-08",
+      "source": "Somerville",
+      "status": "Closed",
+      "description": "Installing light fixtures throughout the house to existing circuits. Took down old fixture installing new.installing fan boxes to bedrooms on the second floor.",
+      "cost": 95.0,
+      "property_use": "Electrical Permit - Residential",
+      "contractor": "JR Electrical Services LLC",
+      "score": 3,
+      "score_reasons": "permit completed; most permits completed"
+    },
+    {
+      "date": "2026-01-15",
+      "source": "Somerville",
+      "status": "Issued",
+      "description": "Renovation\r\nSingle family",
+      "cost": 130.0,
+      "property_use": "Certificate of Occupancy - Residential",
+      "contractor": "Somerville Contracting Services Inc",
+      "score": 3,
+      "score_reasons": "keyword: renovation; most permits completed"
+    }
+  ],
+  "llm_assessment": {
+    "likelihood": "high",
+    "reasoning": "The property hasn't been sold in over 30 years, and the permits indicate low-cost cosmetic updates to the kitchen and bathroom consistent with a flipper's renovation strategy."
+  }
+}

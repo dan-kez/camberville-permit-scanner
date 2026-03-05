@@ -1,0 +1,40 @@
+{
+  "address": "7 LEONARD AVE, CAMBRIDGE, MA 02139",
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=7+LEONARD+AVE%2C+CAMBRIDGE%2C+MA+02139",
+  "zillow_url": "https://www.zillow.com/homes/7%20LEONARD%20AVE%2C%20CAMBRIDGE%2C%20MA%2002139_rb/",
+  "google_search_url": "https://www.google.com/search?q=7+LEONARD+AVE%2C+CAMBRIDGE%2C+MA+02139+zillow+redfin",
+  "property_info": {
+    "property_class": "SNGL-FAM-RES",
+    "year_built": "1903",
+    "bedrooms": "4",
+    "bathrooms": "3/1",
+    "total_rooms": "9",
+    "living_area": "2402",
+    "last_sale_date": "2020-12-03T00:00:00.000",
+    "last_sale_price": "2550000",
+    "assessed_value": "2807500",
+    "lot_size": "3690"
+  },
+  "property_use": "One-Family",
+  "nearest_square": "Inman",
+  "distance_mi": 0.34,
+  "max_score": 1,
+  "total_cost": 95816.78,
+  "permit_count": 1,
+  "completed_permits": 0,
+  "completion_ratio": "0/1",
+  "permits": [
+    {
+      "date": "2024-04-02",
+      "source": "Cambridge Alteration",
+      "status": "Active",
+      "description": "Remove and replace existing front stairs at same location. \u00a0Remove existing back deck (200 sq. ft). Replace with smaller landing (16 sq. ft.) and stairs down to new patio.",
+      "cost": 95816.78,
+      "property_use": "One-Family",
+      "contractor": "Bailey-Davol",
+      "owner_occupied": true,
+      "score": 1,
+      "score_reasons": "moderate cost ($95,817)"
+    }
+  ]
+}
