@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The extremely low cost ($225) and lack of recent sales history indicate minor owner maintenance rather than a full renovation flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/10%20WELLINGTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+WELLINGTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
 }

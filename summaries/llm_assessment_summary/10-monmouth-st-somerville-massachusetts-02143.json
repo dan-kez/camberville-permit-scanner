@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "With a last sale date of 2015 and a single, low-cost electrical permit for a bedroom, the scope of work is too minor to suggest a full renovation for resale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/10%20MONMOUTH%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+MONMOUTH+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

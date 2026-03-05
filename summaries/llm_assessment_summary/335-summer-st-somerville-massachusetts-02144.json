@@ -49,5 +49,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The permits focus on high-impact areas like the kitchen and bathrooms with a general contractor, suggesting an effort to maximize property value for sale, though the long ownership history adds ambiguity."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/335%20SUMMER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=335+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

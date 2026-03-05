@@ -49,5 +49,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The low total cost ($589) for bathroom additions and remodels suggests limited scope work likely for maintenance rather than a full-scale renovation."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/30%20BOSTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=30+BOSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

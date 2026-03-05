@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work is limited to a low-cost mechanical repair ($75) rather than extensive renovations, and the property has not been sold recently, suggesting routine maintenance rather than a quick flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/22%20KNAPP%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=22+KNAPP+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

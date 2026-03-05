@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The likelihood is low because the single permit for plumbing work was withdrawn and not completed, and the negligible cost indicates no active renovation."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/115%20COLLEGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=115+COLLEGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
 }

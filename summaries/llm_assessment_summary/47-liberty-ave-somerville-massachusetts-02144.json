@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has not been sold since 2005, indicating an owner-occupied residence, and the permit activity consists of only a single low-cost plumbing addition rather than a comprehensive renovation."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/47%20LIBERTY%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=47+LIBERTY+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

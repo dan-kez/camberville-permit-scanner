@@ -82,5 +82,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The low total cost and mechanical focus on HVAC and electrical systems suggest owner maintenance rather than a renovation for resale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/21%20RAYMOND%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=21+RAYMOND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

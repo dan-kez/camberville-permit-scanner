@@ -126,5 +126,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The substantial permits for new construction, foundation work, and multiple renovation units, totaling over $32k, indicate a significant value-add project designed to increase the property's value for a future sale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/60%20FRANKLIN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=60+FRANKLIN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
 }

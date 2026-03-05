@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The likelihood is low because the last sale occurred in 2005 and the scope of work is minimal, limited to a single $70 electrical permit for an EV charger rather than a renovation."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/10%20TOWER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+TOWER+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

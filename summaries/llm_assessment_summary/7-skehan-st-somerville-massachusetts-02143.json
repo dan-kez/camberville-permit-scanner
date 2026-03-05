@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A single low-cost permit for rooftop solar installation indicates a minor improvement rather than a full-scale renovation for sale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/7%20SKEHAN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=7+SKEHAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has a long-standing ownership history and is only seeking a permit for low-cost cosmetic window replacements with no structural changes, suggesting routine maintenance rather than a sale-oriented flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/67%20WALNUT%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=67+WALNUT+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single, low-cost permit for minor electrical work suggests standard maintenance rather than a comprehensive renovation for sale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/56%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=56+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

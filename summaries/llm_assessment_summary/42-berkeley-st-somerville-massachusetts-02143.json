@@ -49,5 +49,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The limited scope of work involves low-cost solar panel installation and a block party permit, neither indicating the major renovations typically associated with a house flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/42%20BERKELEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=42+BERKELEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

@@ -60,5 +60,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The property hasn't been sold in over 30 years, and the permits indicate low-cost cosmetic updates to the kitchen and bathroom consistent with a flipper's renovation strategy."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/85%20LOWELL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=85+LOWELL+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

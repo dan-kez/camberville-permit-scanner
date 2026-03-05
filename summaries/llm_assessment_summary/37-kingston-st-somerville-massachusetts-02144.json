@@ -93,5 +93,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The extensive scope of work involving a residential addition, new cottage construction, and the conversion from a single family to a 3-family residence indicates a value-add investment flip rather than a cosmetic renovation."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/37%20KINGSTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=37+KINGSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

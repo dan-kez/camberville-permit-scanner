@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The last sale occurred in 2004, and the only permit is for a low-cost solar installation, indicating long-term maintenance rather than a recent flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/6%20CAMPBELL%20PK%20PL%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=6+CAMPBELL+PK+PL%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
 }

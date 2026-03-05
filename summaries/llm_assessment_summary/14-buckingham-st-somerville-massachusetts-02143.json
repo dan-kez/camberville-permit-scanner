@@ -82,5 +82,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The low total cost of $2,000, long-term ownership since 1996, and the lack of construction permits (only administrative dumpster permits) indicate a minor owner renovation rather than a high-value flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/14%20BUCKINGHAM%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=14+BUCKINGHAM+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

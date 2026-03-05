@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The minimal scope of work is limited to minor weatherization/air sealing with no structural changes, indicating maintenance rather than a renovation for sale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/8%20DELL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+DELL+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
 }

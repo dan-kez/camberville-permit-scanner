@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The low cost and single electrical permit suggest necessary system maintenance on an old building rather than a full cosmetic flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/36%20TOWER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=36+TOWER+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

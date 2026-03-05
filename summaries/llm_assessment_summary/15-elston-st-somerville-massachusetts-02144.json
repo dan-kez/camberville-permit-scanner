@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit involves adding structural space to every floor and dormers, which indicates a long-term renovation for personal use or equity rather than a quick sale flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/15%20ELSTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=15+ELSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

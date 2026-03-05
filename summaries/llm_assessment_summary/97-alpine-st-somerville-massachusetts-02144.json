@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The likelihood is low because the single homeowner permit covers structural foundation repairs rather than cosmetic improvements, and the owner has held the property since 1991."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/97%20ALPINE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=97+ALPINE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

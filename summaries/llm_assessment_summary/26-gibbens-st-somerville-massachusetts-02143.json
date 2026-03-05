@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The last sale occurred in 2000, and the permit work focuses on essential electrical and HVAC systems rather than cosmetic changes."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/26%20GIBBENS%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=26+GIBBENS+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

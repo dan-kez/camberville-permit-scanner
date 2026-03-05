@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The lack of recent purchase history (last sale in 1957) strongly suggests long-standing ownership rather than a transaction-based flip, and the minimal cost for such extensive work points to an owner project."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/17%20FRANCESCA%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=17+FRANCESCA+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

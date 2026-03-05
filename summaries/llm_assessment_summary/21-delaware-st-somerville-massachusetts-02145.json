@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single low-cost electrical permit suggests necessary repairs rather than a cosmetic renovation, and the long time gap since the 1999 purchase indicates a long-term holding rather than a flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/21%20DELAWARE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=21+DELAWARE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
 }

@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "A roof repair costing only $240 with no structural changes and a 16-year gap since the last sale indicates routine maintenance rather than a renovation for resale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/29%20BOLTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=29+BOLTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

@@ -82,5 +82,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The extensive structural permits for a new ADU and rear addition, totaling nearly $10,000, indicate a significant value-add renovation rather than cosmetic updates."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/16%20WARWICK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=16+WARWICK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
 }

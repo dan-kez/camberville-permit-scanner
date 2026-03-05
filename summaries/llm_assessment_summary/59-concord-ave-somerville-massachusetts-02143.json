@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The work consists of a single, minor solar installation at a very low cost, suggesting an energy efficiency update rather than a major renovation."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/59%20CONCORD%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=59+CONCORD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

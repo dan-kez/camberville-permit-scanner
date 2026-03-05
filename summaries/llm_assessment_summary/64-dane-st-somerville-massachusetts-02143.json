@@ -49,5 +49,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The minimal cost of approximately $1,000 for basic repairs like roof and gutters does not support a resale flip strategy."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/64%20DANE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=64+DANE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

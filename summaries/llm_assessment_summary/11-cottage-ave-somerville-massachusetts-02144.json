@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property has been owned since 1997 and has only a single minor permit for a $508 porch remodel, suggesting routine maintenance rather than a major renovation for sale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/11%20COTTAGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=11+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

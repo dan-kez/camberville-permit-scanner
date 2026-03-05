@@ -49,5 +49,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits describe a low-cost solar installation with no structural upgrades, suggesting a minor energy efficiency project rather than a flipper renovation."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/25%20BOWDOIN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=25+BOWDOIN+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

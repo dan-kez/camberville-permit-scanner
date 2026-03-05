@@ -49,5 +49,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "Although the permits indicate bathroom remodeling, the property has not sold since 2009 and the renovation costs are low, suggesting a long-term owner update rather than a speculative resale flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/15%20BERKELEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=15+BERKELEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

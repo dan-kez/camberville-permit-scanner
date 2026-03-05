@@ -49,5 +49,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "Recent minor permit activity and a long ownership history in a high-growth Somerville market suggest an owner preparing to sell to capture equity, though the low investment level indicates a cosmetic fix rather than a full flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/24%20WALLACE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=24+WALLACE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

@@ -93,5 +93,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permits explicitly detail converting the property into a 3-family dwelling and gutting it, indicating a rental conversion or long-term owner renovation rather than a cosmetic flip for sale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/17%20MACARTHUR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=17+MACARTHUR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
 }

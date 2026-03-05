@@ -60,5 +60,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "Renovations targeting bathrooms and basement space alongside the high 2022 purchase price suggest an effort to enhance value for a future resale, though the low total cost indicates minor upgrades rather than a full renovation."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/58%20IRVING%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=58+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

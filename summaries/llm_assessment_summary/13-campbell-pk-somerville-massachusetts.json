@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single, low-cost plumbing permit suggests standard maintenance rather than an active flip or major renovation."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/13%20CAMPBELL%20PK%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=13+CAMPBELL+PK%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
 }

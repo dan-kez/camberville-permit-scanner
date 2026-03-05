@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single permit for a low-cost electrical upgrade suggests minor maintenance rather than a significant renovation for sale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/48%20STONE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=48+STONE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

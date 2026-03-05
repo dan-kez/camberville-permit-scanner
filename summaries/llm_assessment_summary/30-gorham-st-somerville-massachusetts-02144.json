@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The scope of work is limited to a single furnace replacement at a very low cost, and the lack of recent sales suggests routine maintenance rather than a flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/30%20GORHAM%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=30+GORHAM+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

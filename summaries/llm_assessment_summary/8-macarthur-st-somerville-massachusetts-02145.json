@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The single permit is for a minor electrical safety issue at a negligible cost ($60), and the lack of recent sales history (last sale in 2015) suggests a homeowner maintenance project rather than a comprehensive renovation for resale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/8%20MACARTHUR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=8+MACARTHUR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
 }

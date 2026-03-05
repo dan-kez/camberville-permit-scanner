@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The long-term hold period from the 2010 sale date suggests the owner intends to occupy the property rather than sell it soon."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/3%20FAIRLEE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=3+FAIRLEE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

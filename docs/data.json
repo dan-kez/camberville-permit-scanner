@@ -858,7 +858,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "With a last sale date of 2015 and a single, low-cost electrical permit for a bedroom, the scope of work is too minor to suggest a full renovation for resale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/10%20MONMOUTH%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=10+MONMOUTH+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "10 PARKER ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -1131,7 +1133,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The likelihood is low because the scope of work is limited to a single, low-cost permit for a minor basement bathroom remodel rather than a comprehensive renovation."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/10%20SPRING%20HILL%20TERR%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+    "google_search_url": "https://www.google.com/search?q=10+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
   },
   {
     "address": "10 STEARNS ST, CAMBRIDGE, MA 02138",
@@ -1222,7 +1226,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The likelihood is low because the last sale occurred in 2005 and the scope of work is minimal, limited to a single $70 electrical permit for an EV charger rather than a renovation."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/10%20TOWER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=10+TOWER+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "10 WEBSTER ST, SOMERVILLE MASSACHUSETTS 02145",
@@ -1355,7 +1361,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The extremely low cost ($225) and lack of recent sales history indicate minor owner maintenance rather than a full renovation flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/10%20WELLINGTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=10+WELLINGTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "1100 BROADWAY, SOMERVILLE MASSACHUSETTS 02144",
@@ -1770,7 +1778,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The likelihood is low because the single permit for plumbing work was withdrawn and not completed, and the negligible cost indicates no active renovation."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/115%20COLLEGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+    "google_search_url": "https://www.google.com/search?q=115+COLLEGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
   },
   {
     "address": "116 UPLAND RD, CAMBRIDGE, MA 02140",
@@ -1910,7 +1920,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The property has been owned since 1997 and has only a single minor permit for a $508 porch remodel, suggesting routine maintenance rather than a major renovation for sale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/11%20COTTAGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=11+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "11 GARDEN TER, CAMBRIDGE, MA 02138",
@@ -2762,7 +2774,9 @@
       "reasoning": "The permits indicate a minor solar panel installation rather than a major renovation, and the cost is insignificant relative to the property's assessed value."
     },
     "lat": 42.397852303645,
-    "lng": -71.122666881943
+    "lng": -71.122666881943,
+    "zillow_url": "https://www.zillow.com/homes/12%20PARK%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=12+PARK+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "12 WINDOM ST, SOMERVILLE MASSACHUSETTS 02144",
@@ -3195,7 +3209,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The single, low-cost plumbing permit suggests standard maintenance rather than an active flip or major renovation."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/13%20CAMPBELL%20PK%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+    "google_search_url": "https://www.google.com/search?q=13+CAMPBELL+PK%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
   },
   {
     "address": "13 DECATUR ST, CAMBRIDGE, MA 02139",
@@ -4291,7 +4307,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The low total cost of $2,000, long-term ownership since 1996, and the lack of construction permits (only administrative dumpster permits) indicate a minor owner renovation rather than a high-value flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/14%20BUCKINGHAM%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=14+BUCKINGHAM+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "14 CAMBRIA ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -5051,7 +5069,9 @@
     "llm_assessment": {
       "likelihood": "medium",
       "reasoning": "Although the permits indicate bathroom remodeling, the property has not sold since 2009 and the renovation costs are low, suggesting a long-term owner update rather than a speculative resale flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/15%20BERKELEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=15+BERKELEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "15 ELSTON ST, SOMERVILLE MASSACHUSETTS 02144",
@@ -5093,7 +5113,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The permit involves adding structural space to every floor and dormers, which indicates a long-term renovation for personal use or equity rather than a quick sale flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/15%20ELSTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=15+ELSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "15 EUSTIS ST, CAMBRIDGE, MA 02138",
@@ -6334,7 +6356,9 @@
       "reasoning": "The structural conversion of a 2-family to a single-family indicates a value-add renovation intended to increase property value for a future sale."
     },
     "lat": 42.395244023015,
-    "lng": -71.111196917999
+    "lng": -71.111196917999,
+    "zillow_url": "https://www.zillow.com/homes/16%20BOSTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=16+BOSTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "16 BRASTOW AVE, SOMERVILLE MASSACHUSETTS 02143",
@@ -7139,7 +7163,9 @@
     "llm_assessment": {
       "likelihood": "high",
       "reasoning": "The extensive structural permits for a new ADU and rear addition, totaling nearly $10,000, indicate a significant value-add renovation rather than cosmetic updates."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/16%20WARWICK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=16+WARWICK+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "16 WESLEY PARK, SOMERVILLE MASSACHUSETTS 02143",
@@ -7538,7 +7564,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The lack of recent purchase history (last sale in 1957) strongly suggests long-standing ownership rather than a transaction-based flip, and the minimal cost for such extensive work points to an owner project."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/17%20FRANCESCA%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=17+FRANCESCA+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "17 GILMAN ST, SOMERVILLE MASSACHUSETTS",
@@ -7858,7 +7886,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The permits explicitly detail converting the property into a 3-family dwelling and gutting it, indicating a rental conversion or long-term owner renovation rather than a cosmetic flip for sale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/17%20MACARTHUR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=17+MACARTHUR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "17 MADISON ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -10368,7 +10398,9 @@
       "reasoning": "The permits consist of a single, low-cost weatherization project with no structural changes, indicating maintenance rather than a sale-focused renovation."
     },
     "lat": 42.387698717596,
-    "lng": -71.106500621469
+    "lng": -71.106500621469,
+    "zillow_url": "https://www.zillow.com/homes/20%20BENTON%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=20+BENTON+RD%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "20 BERKELEY ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -10801,7 +10833,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "Only one minimal permit exists for a basic electrical upgrade and the last recorded sale was in 2002, but without current purchase history or permits for structural work, this is likely maintenance rather than a flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/20%20WINSLOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=20+WINSLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "21 ACORN ST, CAMBRIDGE, MA 02139",
@@ -11080,7 +11114,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The single low-cost electrical permit suggests necessary repairs rather than a cosmetic renovation, and the long time gap since the 1999 purchase indicates a long-term holding rather than a flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/21%20DELAWARE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=21+DELAWARE+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "21 FRANCESCA AVE, SOMERVILLE MASSACHUSETTS 02144",
@@ -11356,7 +11392,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The low total cost and mechanical focus on HVAC and electrical systems suggest owner maintenance rather than a renovation for resale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/21%20RAYMOND%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=21+RAYMOND+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "21 WELLINGTON AVE, SOMERVILLE MASSACHUSETTS 02145",
@@ -11833,7 +11871,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The single, minor plumbing permit for a water heater replacement suggests routine maintenance rather than a significant renovation or flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/22%20BERKELEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=22+BERKELEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "22 BOW ST PL, SOMERVILLE MASSACHUSETTS 02143",
@@ -11973,7 +12013,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The likelihood is low because the renovation cost of only $3,007.50 for a single basement-related permit suggests a minor cosmetic update rather than a full-scale renovation intended to increase property value for resale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/22%20ENDICOTT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=22+ENDICOTT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "22 HOUGHTON ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -12148,7 +12190,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The work is limited to a low-cost mechanical repair ($75) rather than extensive renovations, and the property has not been sold recently, suggesting routine maintenance rather than a quick flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/22%20KNAPP%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=22+KNAPP+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "22 LILAC CT, CAMBRIDGE, MA 02141",
@@ -12612,7 +12656,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The permit only covers a minor rubber roof replacement and gutter maintenance costing $460, indicating routine upkeep rather than a full renovation."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/23%20CHESTER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=23+CHESTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "23 DANE AVE, SOMERVILLE MASSACHUSETTS 02143",
@@ -13077,7 +13123,9 @@
       "reasoning": "The likelihood is low because the permit cost is minimal and the work is structural waterproofing rather than a cosmetic renovation."
     },
     "lat": 42.382811104126,
-    "lng": -71.080340282563
+    "lng": -71.080340282563,
+    "zillow_url": "https://www.zillow.com/homes/24%20CRESCENT%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=24+CRESCENT+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "24 ENDICOTT AVE, SOMERVILLE MASSACHUSETTS 02144",
@@ -13121,7 +13169,9 @@
       "reasoning": "The single permit for low-cost wood stove inserts and the 12-year gap since the last sale suggest a minor efficiency upgrade rather than a profit-driven renovation or flip."
     },
     "lat": 42.403439093569,
-    "lng": -71.129907002267
+    "lng": -71.129907002267,
+    "zillow_url": "https://www.zillow.com/homes/24%20ENDICOTT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=24+ENDICOTT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "24 GREENVILLE ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -13165,7 +13215,9 @@
       "reasoning": "The single, low-cost permit for a minor AC repair, combined with the lack of recent sales (last sale in 1999), indicates maintenance rather than a major renovation for resale."
     },
     "lat": 42.382703815765,
-    "lng": -71.092281896198
+    "lng": -71.092281896198,
+    "zillow_url": "https://www.zillow.com/homes/24%20GREENVILLE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=24+GREENVILLE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "24 IVALOO ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -13512,7 +13564,9 @@
     "llm_assessment": {
       "likelihood": "medium",
       "reasoning": "Recent minor permit activity and a long ownership history in a high-growth Somerville market suggest an owner preparing to sell to capture equity, though the low investment level indicates a cosmetic fix rather than a full flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/24%20WALLACE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=24+WALLACE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "24 WENDELL ST, CAMBRIDGE, MA 02138",
@@ -13601,7 +13655,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The permits describe a low-cost solar installation with no structural upgrades, suggesting a minor energy efficiency project rather than a flipper renovation."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/25%20BOWDOIN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=25+BOWDOIN+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "25 DELAWARE ST, SOMERVILLE MASSACHUSETTS 02145",
@@ -14357,7 +14413,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The last sale occurred in 2000, and the permit work focuses on essential electrical and HVAC systems rather than cosmetic changes."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/26%20GIBBENS%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=26+GIBBENS+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "26 WIGGLESWORTH ST, SOMERVILLE MASSACHUSETTS 02145",
@@ -15049,7 +15107,9 @@
       "reasoning": "The permits cover only boiler and water heater replacements at a total cost of only $120, indicating routine maintenance rather than a significant renovation."
     },
     "lat": 42.394256299545,
-    "lng": -71.122795963251
+    "lng": -71.122795963251,
+    "zillow_url": "https://www.zillow.com/homes/28%20COTTAGE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=28+COTTAGE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "28 SPRING ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -15189,7 +15249,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The minimal scope of work and extremely low cost suggest basic maintenance rather than a renovation for sale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/292%20CEDAR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=292+CEDAR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "297 COLUMBIA ST, CAMBRIDGE, MA 02139",
@@ -15280,7 +15342,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "A roof repair costing only $240 with no structural changes and a 16-year gap since the last sale indicates routine maintenance rather than a renovation for resale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/29%20BOLTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=29+BOLTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "29 BOWDOIN ST, CAMBRIDGE, MA 02138",
@@ -16313,7 +16377,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The low total cost ($589) for bathroom additions and remodels suggests limited scope work likely for maintenance rather than a full-scale renovation."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/30%20BOSTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=30+BOSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "30 CONWELL AVE, SOMERVILLE MASSACHUSETTS 02144",
@@ -16453,7 +16519,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The scope of work is limited to a single furnace replacement at a very low cost, and the lack of recent sales suggests routine maintenance rather than a flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/30%20GORHAM%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=30+GORHAM+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "30 HOWARD ST, CAMBRIDGE, MA 02139",
@@ -17520,7 +17588,9 @@
     "llm_assessment": {
       "likelihood": "medium",
       "reasoning": "The permits focus on high-impact areas like the kitchen and bathrooms with a general contractor, suggesting an effort to maximize property value for sale, though the long ownership history adds ambiguity."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/335%20SUMMER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=335+SUMMER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "33 AUBURN AVE, SOMERVILLE MASSACHUSETTS 02145",
@@ -18760,7 +18830,9 @@
     "llm_assessment": {
       "likelihood": "medium",
       "reasoning": "The permits indicate a focused kitchen renovation rather than a full-house overhaul, suggesting a cosmetic update intended to improve the property's resale value."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/36%20CORINTHIAN%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=36+CORINTHIAN+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "36 HANCOCK ST, SOMERVILLE MASSACHUSETTS 02144",
@@ -18969,7 +19041,9 @@
       "reasoning": "The last sale date of 2021 indicates the property has been held for several years, and the scope of work is limited to a basement remodel rather than a full renovation."
     },
     "lat": 42.400777713582,
-    "lng": -71.128797657382
+    "lng": -71.128797657382,
+    "zillow_url": "https://www.zillow.com/homes/36%20MEAD%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=36+MEAD+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "36 MIDDLESEX ST, CAMBRIDGE, MA 02140",
@@ -19277,7 +19351,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The low cost and single electrical permit suggest necessary system maintenance on an old building rather than a full cosmetic flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/36%20TOWER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=36+TOWER+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "36 WALKER ST, SOMERVILLE MASSACHUSETTS 02144",
@@ -19459,7 +19535,9 @@
       "reasoning": "The permits for constructing an ADU and demolition are typical of long-term owner investment strategies for rental income rather than a cosmetic flip."
     },
     "lat": 42.386221365252,
-    "lng": -71.109611229556
+    "lng": -71.109611229556,
+    "zillow_url": "https://www.zillow.com/homes/37%20BELMONT%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=37+BELMONT+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "37 BERKELEY ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -19675,7 +19753,9 @@
     "llm_assessment": {
       "likelihood": "high",
       "reasoning": "The extensive scope of work involving a residential addition, new cottage construction, and the conversion from a single family to a 3-family residence indicates a value-add investment flip rather than a cosmetic renovation."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/37%20KINGSTON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=37+KINGSTON+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "37 LANCASTER ST, CAMBRIDGE, MA 02140",
@@ -20716,7 +20796,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The long-term hold period from the 2010 sale date suggests the owner intends to occupy the property rather than sell it soon."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/3%20FAIRLEE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=3+FAIRLEE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "3 MICHAEL WAY, CAMBRIDGE, MA 02141",
@@ -20907,7 +20989,9 @@
       "reasoning": "The single permit covers a low-cost electrical service upgrade rather than cosmetic or structural changes associated with a sale preparation flip."
     },
     "lat": 42.386340262548,
-    "lng": -71.09115721243
+    "lng": -71.09115721243,
+    "zillow_url": "https://www.zillow.com/homes/3%20VIRGINIA%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=3+VIRGINIA+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "3 WALDEN MEWS, CAMBRIDGE, MA 02140",
@@ -22023,7 +22107,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The limited scope of work involves low-cost solar panel installation and a block party permit, neither indicating the major renovations typically associated with a house flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/42%20BERKELEY%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=42+BERKELEY+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "42 IVALOO ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -22254,7 +22340,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The extremely low cost ($54) and minimal scope (basement electrical updates) suggest routine maintenance for an older homeowner rather than a speculative renovation for sale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/42%20SARGENT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=42+SARGENT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "42 WALKER ST, CAMBRIDGE, MA 02138",
@@ -22514,7 +22602,9 @@
     "llm_assessment": {
       "likelihood": "medium",
       "reasoning": "The property is undergoing significant renovation work on major systems and living spaces by professional contractors, though the sale date from 2019 suggests a longer-term investment rather than a quick flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/44%20OAK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=44+OAK+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "44 TOWER ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -23269,7 +23359,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The property has not been sold since 2005, indicating an owner-occupied residence, and the permit activity consists of only a single low-cost plumbing addition rather than a comprehensive renovation."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/47%20LIBERTY%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=47+LIBERTY+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "48 CHESTNUT ST, CAMBRIDGE, MA 02139",
@@ -23752,7 +23844,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The single permit for a low-cost electrical upgrade suggests minor maintenance rather than a significant renovation for sale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/48%20STONE%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=48+STONE+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "4 ALLSTON CT, CAMBRIDGE, MA 02139",
@@ -25343,7 +25437,9 @@
     "llm_assessment": {
       "likelihood": "high",
       "reasoning": "The property has not changed hands since 1981, and the permits explicitly request a 'Gut Renovation,' indicating a significant investment intended to maximize resale value rather than routine maintenance."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/54%20OAK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=54+OAK+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "54 PEMBERTON ST, CAMBRIDGE, MA 02140",
@@ -25692,7 +25788,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The single, low-cost permit for minor electrical work suggests standard maintenance rather than a comprehensive renovation for sale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/56%20HIGHLAND%20RD%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=56+HIGHLAND+RD%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "56 STEARNS ST, CAMBRIDGE, MA 02138",
@@ -26119,7 +26217,9 @@
     "llm_assessment": {
       "likelihood": "medium",
       "reasoning": "Renovations targeting bathrooms and basement space alongside the high 2022 purchase price suggest an effort to enhance value for a future resale, though the low total cost indicates minor upgrades rather than a full renovation."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/58%20IRVING%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=58+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "58 NEWBURY ST, SOMERVILLE MASSACHUSETTS 02144",
@@ -26266,7 +26366,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The work consists of a single, minor solar installation at a very low cost, suggesting an energy efficiency update rather than a major renovation."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/59%20CONCORD%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=59+CONCORD+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "59 FRANCIS AVE, CAMBRIDGE, MA 02138",
@@ -26725,7 +26827,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The limited scope of work consists solely of a low-cost solar installation, indicating a private energy efficiency upgrade rather than a comprehensive renovation for resale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/5%20WEBSTER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=5+WEBSTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "5 WEST BELLEVUE AVE, CAMBRIDGE, MA 02140",
@@ -26816,7 +26920,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The extremely low permit cost ($4,275) and minor scope of work suggest standard owner maintenance rather than a high-cost flip, while the long time since the last sale (2011) indicates long-term ownership and appreciation rather than a recent resale attempt."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/5%20WILLOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=5+WILLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "600 GREEN ST, CAMBRIDGE, MA 02139",
@@ -27177,7 +27283,9 @@
     "llm_assessment": {
       "likelihood": "high",
       "reasoning": "The substantial permits for new construction, foundation work, and multiple renovation units, totaling over $32k, indicate a significant value-add project designed to increase the property's value for a future sale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/60%20FRANKLIN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=60+FRANKLIN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "60 MARKET ST, CAMBRIDGE, MA 02139",
@@ -28110,7 +28218,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The minimal cost of approximately $1,000 for basic repairs like roof and gutters does not support a resale flip strategy."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/64%20DANE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=64+DANE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "64 WALLACE ST, SOMERVILLE MASSACHUSETTS 02144",
@@ -28251,7 +28361,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The property was last sold in 2020, and the extremely low permit costs suggest minor mechanical/electrical updates rather than a full cosmetic overhaul intended for resale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/65%20DANE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=65+DANE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "66 AVON ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -28691,7 +28803,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The property has a long-standing ownership history and is only seeking a permit for low-cost cosmetic window replacements with no structural changes, suggesting routine maintenance rather than a sale-oriented flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/67%20WALNUT%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=67+WALNUT+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "68 AVON ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -28999,7 +29113,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The last sale occurred in 2004, and the only permit is for a low-cost solar installation, indicating long-term maintenance rather than a recent flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/6%20CAMPBELL%20PK%20PL%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+    "google_search_url": "https://www.google.com/search?q=6+CAMPBELL+PK+PL%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
   },
   {
     "address": "6 CORNELIUS WAY, CAMBRIDGE, MA 02141",
@@ -30134,7 +30250,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The permit covers a single, low-cost bathroom remodel ($747.50) without any structural changes or major updates, indicating a minor owner renovation rather than a high-profit flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/73%20GILMAN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=73+GILMAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "73 HUDSON ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -31415,7 +31533,9 @@
       "reasoning": "The single permit describes minor window replacement with no structural changes at a very low cost ($420), indicating routine maintenance rather than a significant renovation intended for resale."
     },
     "lat": 42.375805216085,
-    "lng": -71.100232634274
+    "lng": -71.100232634274,
+    "zillow_url": "https://www.zillow.com/homes/7%20DICKINSON%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=7+DICKINSON+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "7 FRANCESCA AVE, SOMERVILLE MASSACHUSETTS 02144",
@@ -31681,7 +31801,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "A single low-cost permit for rooftop solar installation indicates a minor improvement rather than a full-scale renovation for sale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/7%20SKEHAN%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=7+SKEHAN+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "7 WATERHOUSE ST, CAMBRIDGE, MA 02138",
@@ -32206,7 +32328,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The likelihood is low as the single permit is for a minor furnace replacement rather than major renovations or cosmetic updates."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/84%20IRVING%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+    "google_search_url": "https://www.google.com/search?q=84+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
   },
   {
     "address": "85 LOWELL ST, SOMERVILLE MASSACHUSETTS 02143",
@@ -32270,7 +32394,9 @@
     "llm_assessment": {
       "likelihood": "high",
       "reasoning": "The property hasn't been sold in over 30 years, and the permits indicate low-cost cosmetic updates to the kitchen and bathroom consistent with a flipper's renovation strategy."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/85%20LOWELL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=85+LOWELL+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "86 CONCORD AVE, SOMERVILLE MASSACHUSETTS 02143",
@@ -33305,7 +33431,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The minimal scope of work is limited to minor weatherization/air sealing with no structural changes, indicating maintenance rather than a renovation for sale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/8%20DELL%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=8+DELL+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "8 EASTMAN RD, SOMERVILLE MASSACHUSETTS 02143",
@@ -33732,7 +33860,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The single permit is for a minor electrical safety issue at a negligible cost ($60), and the lack of recent sales history (last sale in 2015) suggests a homeowner maintenance project rather than a comprehensive renovation for resale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/8%20MACARTHUR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=8+MACARTHUR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "8 PINCKNEY ST, SOMERVILLE MASSACHUSETTS 02145",
@@ -34548,7 +34678,9 @@
     "llm_assessment": {
       "likelihood": "high",
       "reasoning": "The permits indicate structural changes like converting the unit to a 2-family and adding an ADU, which significantly increase the property's value and income potential rather than just cosmetic updates, suggesting a renovation for sale."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/96%20BROADWAY%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=96+BROADWAY%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "97 ALPINE ST, SOMERVILLE MASSACHUSETTS 02144",
@@ -34590,7 +34722,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The likelihood is low because the single homeowner permit covers structural foundation repairs rather than cosmetic improvements, and the owner has held the property since 1991."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/97%20ALPINE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+    "google_search_url": "https://www.google.com/search?q=97+ALPINE+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
   },
   {
     "address": "98 RAYMOND ST, CAMBRIDGE, MA 02140",
@@ -34905,7 +35039,9 @@
       "reasoning": "The permit cost of $120.00 for work involving a full kitchen and bathroom is unusually low for a renovation project, suggesting minor plumbing repairs or fixture replacements rather than a full-scale renovation."
     },
     "lat": 42.388268980378,
-    "lng": -71.086419509298
+    "lng": -71.086419509298,
+    "zillow_url": "https://www.zillow.com/homes/9%20CROSS%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+    "google_search_url": "https://www.google.com/search?q=9+CROSS+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
   },
   {
     "address": "9 CUTTER ST, SOMERVILLE MASSACHUSETTS 02145",
@@ -35217,7 +35353,9 @@
     "llm_assessment": {
       "likelihood": "low",
       "reasoning": "The last sale date of 2016 indicates long-term ownership, and the relatively low cost and limited scope of kitchen and bathroom work suggest an owner-occupied renovation rather than a cosmetic flip."
-    }
+    },
+    "zillow_url": "https://www.zillow.com/homes/9%20HOLTS%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+    "google_search_url": "https://www.google.com/search?q=9+HOLTS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
   },
   {
     "address": "9 NEVADA AVE, SOMERVILLE MASSACHUSETTS 02143",

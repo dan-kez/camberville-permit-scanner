@@ -60,5 +60,7 @@
   "llm_assessment": {
     "likelihood": "medium",
     "reasoning": "The property is undergoing significant renovation work on major systems and living spaces by professional contractors, though the sale date from 2019 suggests a longer-term investment rather than a quick flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/44%20OAK%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=44+OAK+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

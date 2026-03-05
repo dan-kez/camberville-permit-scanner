@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The minimal scope of work and extremely low cost suggest basic maintenance rather than a renovation for sale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/292%20CEDAR%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=292+CEDAR+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
 }

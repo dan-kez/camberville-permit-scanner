@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The likelihood is low as the single permit is for a minor furnace replacement rather than major renovations or cosmetic updates."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/84%20IRVING%20ST%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=84+IRVING+ST%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
 }

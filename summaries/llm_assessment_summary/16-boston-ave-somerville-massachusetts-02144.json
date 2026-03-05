@@ -40,5 +40,7 @@
     "reasoning": "The structural conversion of a 2-family to a single-family indicates a value-add renovation intended to increase property value for a future sale."
   },
   "lat": 42.395244023015,
-  "lng": -71.111196917999
+  "lng": -71.111196917999,
+  "zillow_url": "https://www.zillow.com/homes/16%20BOSTON%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=16+BOSTON+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

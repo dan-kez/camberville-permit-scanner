@@ -60,5 +60,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The property was last sold in 2020, and the extremely low permit costs suggest minor mechanical/electrical updates rather than a full cosmetic overhaul intended for resale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/65%20DANE%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=65+DANE+ST%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

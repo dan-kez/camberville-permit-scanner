@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "Only one minimal permit exists for a basic electrical upgrade and the last recorded sale was in 2002, but without current purchase history or permits for structural work, this is likely maintenance rather than a flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/20%20WINSLOW%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=20+WINSLOW+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

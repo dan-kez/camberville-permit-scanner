@@ -49,5 +49,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The limited scope of work consists solely of a low-cost solar installation, indicating a private energy efficiency upgrade rather than a comprehensive renovation for resale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/5%20WEBSTER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=5+WEBSTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
 }

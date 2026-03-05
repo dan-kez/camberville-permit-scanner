@@ -49,5 +49,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The last sale date of 2016 indicates long-term ownership, and the relatively low cost and limited scope of kitchen and bathroom work suggest an owner-occupied renovation rather than a cosmetic flip."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/9%20HOLTS%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002143_rb/",
+  "google_search_url": "https://www.google.com/search?q=9+HOLTS+AVE%2C+SOMERVILLE+MASSACHUSETTS+02143+zillow+redfin"
 }

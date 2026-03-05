@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The permit only covers a minor rubber roof replacement and gutter maintenance costing $460, indicating routine upkeep rather than a full renovation."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/23%20CHESTER%20ST%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=23+CHESTER+ST%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

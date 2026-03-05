@@ -49,5 +49,7 @@
   "llm_assessment": {
     "likelihood": "high",
     "reasoning": "The permits indicate structural changes like converting the unit to a 2-family and adding an ADU, which significantly increase the property's value and income potential rather than just cosmetic updates, suggesting a renovation for sale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/96%20BROADWAY%2C%20SOMERVILLE%20MASSACHUSETTS%2002145_rb/",
+  "google_search_url": "https://www.google.com/search?q=96+BROADWAY%2C+SOMERVILLE+MASSACHUSETTS+02145+zillow+redfin"
 }

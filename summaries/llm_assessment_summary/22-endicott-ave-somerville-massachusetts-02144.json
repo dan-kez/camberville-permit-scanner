@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The likelihood is low because the renovation cost of only $3,007.50 for a single basement-related permit suggests a minor cosmetic update rather than a full-scale renovation intended to increase property value for resale."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/22%20ENDICOTT%20AVE%2C%20SOMERVILLE%20MASSACHUSETTS%2002144_rb/",
+  "google_search_url": "https://www.google.com/search?q=22+ENDICOTT+AVE%2C+SOMERVILLE+MASSACHUSETTS+02144+zillow+redfin"
 }

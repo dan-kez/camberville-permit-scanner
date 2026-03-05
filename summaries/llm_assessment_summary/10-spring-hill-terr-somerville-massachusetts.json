@@ -38,5 +38,7 @@
   "llm_assessment": {
     "likelihood": "low",
     "reasoning": "The likelihood is low because the scope of work is limited to a single, low-cost permit for a minor basement bathroom remodel rather than a comprehensive renovation."
-  }
+  },
+  "zillow_url": "https://www.zillow.com/homes/10%20SPRING%20HILL%20TERR%2C%20SOMERVILLE%20MASSACHUSETTS_rb/",
+  "google_search_url": "https://www.google.com/search?q=10+SPRING+HILL+TERR%2C+SOMERVILLE+MASSACHUSETTS+zillow+redfin"
 }
